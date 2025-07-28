@@ -1,0 +1,59 @@
+=== LOG FILE START ===
+
+Allowed calls initialized to 30.
+Knowledge database 'Knowledge Database' initialized with max size 15.
+Rewriting prompt using AI...
+Rewritten Prompt:
+ I am seeking a presentation that demonstrates the process of baking a basic cake mix.
+
+Final Prompt:
+I am seeking a presentation that demonstrates the process of baking a basic cake mix.
+Step 1 begun.
+Raw AI topic response: Ingredients needed, Steps for mixing the cake batter
+Selected topics: ['Ingredients needed', 'Steps for mixing the cake batter']
+Step 1 Complete.
+Step 2 begun.
+1 database entries per topic.
+Researching topic: Ingredients needed
+Prompt:
+Initial Prompt: ({ I am seeking a presentation that demonstrates the process of baking a basic cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INGREDIENTS NEEDED** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+27/30 Calls remaining.
+Raw AI response to this: {
+    "title": "Ingredients Needed for Baking a Basic Cake Mix",
+    "keywords": ["baking", "cake mix", "ingredients", "basic"],
+    "text": "To bake a basic cake mix, you will need the following ingredients: cake mix (store-bought or homemade), eggs, oil or butter, and water. These are the standard ingredients required for most cake mixes.",
+    "link": "https://www.thespruceeats.com/easy-baking-recipes-for-kids-2097327"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Ingredients Needed for Baking a Basic Cake Mix
+Keywords: baking, cake mix, ingredients, basic
+Uses: 0
+Text: To bake a basic cake mix, you will need the following ingredients: cake mix (store-bought or homemade), eggs, oil or butter, and water. These are the standard ingredients required for most cake mixes.Link: https://www.thespruceeats.com/easy-baking-recipes-for-kids-2097327
+Researching topic: Steps for mixing the cake batter
+Prompt:
+Initial Prompt: ({ I am seeking a presentation that demonstrates the process of baking a basic cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Basic Cake Mix']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **STEPS FOR MIXING THE CAKE BATTER** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Steps for Mixing Cake Batter",
+    "keywords": ["cake mix", "mixing", "baking", "cake batter", "steps"],
+    "text": "1. Preheat the oven to the temperature specified on the cake mix box. Make sure the oven rack is in the center position. 2. In a large mixing bowl, empty the contents of the cake mix package. 3. Add the specified amount of water, oil, and eggs as indicated on the cake mix box. 4. Using an electric mixer or a whisk, beat the ingredients together on medium speed for 2 minutes until well combined and smooth. Scrape down the sides of the bowl as needed. 5. If desired, you can add any additional mix-ins, such as chocolate chips or nuts, and gently fold them into the batter. 6. Grease and flour a cake pan according to the instructions on the cake mix box. 7. Pour the prepared batter into the pan, spreading it evenly. 8. Place the pan in the preheated oven and bake according to the recommended time on the cake mix box. 9. Once baked, remove the cake from the oven and let it cool in the pan for a few minutes before transferring it to a wire rack to cool completely. 10. Decorate the cake as desired and enjoy!",
+    "link": "https://www.bettycrocker.com/how-to/tipslibrary/baking-tips/how-to-bake-a-cake"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Steps for Mixing Cake Batter
+Keywords: cake mix, mixing, baking, cake batter, steps
+Uses: 0
+Text: 1. Preheat the oven to the temperature specified on the cake mix box. Make sure the oven rack is in the center position. 2. In a large mixing bowl, empty the contents of the cake mix package. 3. Add the specified amount of water, oil, and eggs as indicated on the cake mix box. 4. Using an electric mixer or a whisk, beat the ingredients together on medium speed for 2 minutes until well combined and smooth. Scrape down the sides of the bowl as needed. 5. If desired, you can add any additional mix-ins, such as chocolate chips or nuts, and gently fold them into the batter. 6. Grease and flour a cake pan according to the instructions on the cake mix box. 7. Pour the prepared batter into the pan, spreading it evenly. 8. Place the pan in the preheated oven and bake according to the recommended time on the cake mix box. 9. Once baked, remove the cake from the oven and let it cool in the pan for a few minutes before transferring it to a wire rack to cool completely. 10. Decorate the cake as desired and enjoy!Link: https://www.bettycrocker.com/how-to/tipslibrary/baking-tips/how-to-bake-a-cake
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: ({ I am seeking a presentation that demonstrates the process of baking a basic cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are continuing a research topic list based upon initial reserach. The inital topics were ['Ingredients needed', 'Steps for mixing the cake batter']. The research these yeilded is: ({To bake a basic cake mix, you will need the following ingredients: cake mix (store-bought or homemade), eggs, oil or butter, and water. These are the standard ingredients required for most cake mixes.
+
+1. Preheat the oven to the temperature specified on the cake mix box. Make sure the oven rack is in the center position. 2. In a large mixing bowl, empty the contents of the cake mix package. 3. Add the specified amount of water, oil, and eggs as indicated on the cake mix box. 4. Using an electric mixer or a whisk, beat the ingredients together on medium speed for 2 minutes until well combined and smooth. Scrape down the sides of the bowl as needed. 5. If desired, you can add any additional mix-ins, such as chocolate chips or nuts, and gently fold them into the batter. 6. Grease and flour a cake pan according to the instructions on the cake mix box. 7. Pour the prepared batter into the pan, spreading it evenly. 8. Place the pan in the preheated oven and bake according to the recommended  (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!! })
+.
+Raw AI topic response: Selecting the right cake pan size, Testing for doneness, Decorating the baked cake, Handling and storing the finished cake, Troubleshooting common cake mix problems, Understanding the role of each ingredient
+Selected topics: ['Selecting the right cake pan size', 'Testing for doneness', 'Decorating the baked cake', 'Handling and storing the finished cake', 'Troubleshooting common cake mix problems', 'Understanding the role of each ingredient']
+Step 3 Complete.

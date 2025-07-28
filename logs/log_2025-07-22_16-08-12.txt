@@ -1,0 +1,64 @@
+=== LOG FILE START ===
+
+Allowed calls initialized to 30.
+Knowledge database 'Knowledge Database' initialized with max size 15.
+Rewriting prompt using AI...
+Rewritten Prompt:
+ I am looking for a professional and clear presentation on the process of baking a simple cake mix.
+
+Final Prompt:
+I am looking for a professional and clear presentation on the process of baking a simple cake mix.
+Step 1 begun.
+Raw AI topic response: Common ingredients in a cake mix, Steps involved in baking a cake mix
+Selected topics: ['Common ingredients in a cake mix', 'Steps involved in baking a cake mix']
+Step 1 Complete.
+Step 2 begun.
+1 database entries per topic.
+Researching topic: Common ingredients in a cake mix
+Prompt:
+Initial Prompt: ({ I am looking for a professional and clear presentation on the process of baking a simple cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **COMMON INGREDIENTS IN A CAKE MIX** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+27/30 Calls remaining.
+Raw AI response to this: {
+    "title": "Common Ingredients in a Cake Mix",
+    "keywords": ["cake mix", "ingredients", "baking", "common"],
+    "text": "Cake mixes typically contain ingredients such as flour, sugar, baking powder, salt, and often some form of fat like oil or butter. Other common ingredients found in cake mixes may include eggs, flavorings such as vanilla extract, and sometimes additional stabilizers or emulsifiers. It is important to read the specific instructions on a cake mix package as ingredients may vary between different brands and types of cake mixes.",
+    "link": "https://www.bettycrocker.com/how-to/tipslibrary/baking-tips/what-are-cake-mixes-made-of"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Common Ingredients in a Cake Mix
+Keywords: cake mix, ingredients, baking, common
+Uses: 0
+Text: Cake mixes typically contain ingredients such as flour, sugar, baking powder, salt, and often some form of fat like oil or butter. Other common ingredients found in cake mixes may include eggs, flavorings such as vanilla extract, and sometimes additional stabilizers or emulsifiers. It is important to read the specific instructions on a cake mix package as ingredients may vary between different brands and types of cake mixes.Link: https://www.bettycrocker.com/how-to/tipslibrary/baking-tips/what-are-cake-mixes-made-of
+Researching topic: Steps involved in baking a cake mix
+Prompt:
+Initial Prompt: ({ I am looking for a professional and clear presentation on the process of baking a simple cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Common Ingredients in a Cake Mix']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **STEPS INVOLVED IN BAKING A CAKE MIX** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Steps Involved in Baking a Cake Mix",
+    "keywords": ["baking", "cake mix", "steps", "oven", "mixing", "pan", "cooling", "frosting"],
+    "text": "To bake a cake mix, start by preheating your oven according to the instructions on the cake mix box. Next, grease and flour your cake pan to prevent sticking. Then, in a large mixing bowl, combine the cake mix with any required ingredients such as eggs, oil, and water. Mix the batter until smooth, but be careful not to overmix. Pour the batter into the prepared cake pan, spreading it out evenly. Place the pan in the preheated oven and bake for the recommended time. Once the cake is baked, remove it from the oven and let it cool in the pan for a few minutes. Finally, transfer the cake to a cooling rack to cool completely before frosting and serving.",
+    "link": "https://www.bettycrocker.com/how-to/tipslibrary/baking-tips/baking-basics/how-to-bake-a-cake"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Steps Involved in Baking a Cake Mix
+Keywords: baking, cake mix, steps, oven, mixing, pan, cooling, frosting
+Uses: 0
+Text: To bake a cake mix, start by preheating your oven according to the instructions on the cake mix box. Next, grease and flour your cake pan to prevent sticking. Then, in a large mixing bowl, combine the cake mix with any required ingredients such as eggs, oil, and water. Mix the batter until smooth, but be careful not to overmix. Pour the batter into the prepared cake pan, spreading it out evenly. Place the pan in the preheated oven and bake for the recommended time. Once the cake is baked, remove it from the oven and let it cool in the pan for a few minutes. Finally, transfer the cake to a cooling rack to cool completely before frosting and serving.Link: https://www.bettycrocker.com/how-to/tipslibrary/baking-tips/baking-basics/how-to-bake-a-cake
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: ({ I am looking for a professional and clear presentation on the process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are continuing a research topic list based upon initial reserach. The inital topics were ['Common ingredients in a cake mix', 'Steps involved in baking a cake mix']. The research these yeilded is: ({Cake mixes typically contain ingredients such as flour, sugar, baking powder, salt, and often some form of fat like oil or butter. Other common ingredients found in cake mixes may include eggs, flavorings such as vanilla extract, and sometimes additional stabilizers or emulsifiers. It is important to read the specific instructions on a cake mix package as ingredients may vary between different brands and types of cake mixes.
+
+To bake a cake mix, start by preheating your oven according to the instructions on the cake mix box. Next, grease and flour your cake pan to prevent sticking. Then, in a large mixing bowl, combine the cake mix with any required ingredients such as eggs, oil, and water. Mix the batter until smooth, but be careful not to overmix. Pour the batter into the prepared cake pan, spreading it out evenly. Place the pan in the preheated oven and bake for the recommended time. Once the cake is baked, remove it from the oven and let it cool in the pan for a few minutes. Finall (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!! })
+.
+Raw AI topic response: 1. Proper measuring techniques for cake mix ingredients
+2. Understanding the role of baking powder in cake mix
+3. Importance of room temperature ingredients in baking cake mix
+4. Different methods for mixing cake batter
+5. Tips for testing cake doneness
+6. Decorative icing techniques for cake presentation
+Error: 1 topics provided. 6expected.
+Got: ['Proper measuring techniques for cake mix ingredients\n2. Understanding the role of baking powder in cake mix\n3. Importance of room temperature ingredients in baking cake mix\n4. Different methods for mixing cake batter\n5. Tips for testing cake doneness\n6. Decorative icing techniques for cake presentation']

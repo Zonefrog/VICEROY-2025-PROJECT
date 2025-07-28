@@ -1,0 +1,63 @@
+=== LOG FILE START ===
+
+Allowed calls initialized to 90.
+Knowledge database 'Knowledge Database' initialized with max size 15.
+Rewriting prompt using AI...
+Rewritten Prompt:
+ Please create a professional presentation on the process of baking a simple cake mix.
+
+Final Prompt:
+Please create a professional presentation on the process of baking a simple cake mix.
+Step 1 begun.
+Raw AI topic response: Baking equipment needed, Common cake mix ingredients
+Selected topics: ['Baking equipment needed', 'Common cake mix ingredients']
+Step 1 Complete.
+Step 2 begun.
+1 database entries per topic.
+Researching topic: Baking equipment needed
+Prompt:
+Initial Prompt: ({ Please create a professional presentation on the process of baking a simple cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BAKING EQUIPMENT NEEDED** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Baking Equipment Needed for Baking a Cake Mix",
+    "keywords": ["baking equipment", "cake mix", "baking tools", "cake baking essentials"],
+    "text": "When baking a cake mix, there are several essential baking tools and equipment that you will need. Some of the basic items include a mixing bowl, measuring cups and spoons, an electric mixer or whisk, a spatula, a cake pan, parchment paper or non-stick cooking spray, and an oven for baking.",
+    "link": "https://www.foodnetwork.com/how-to/packages/help-around-the-kitchen/photos/baking-tools-and-equipment"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Baking Equipment Needed for Baking a Cake Mix
+Keywords: baking equipment, cake mix, baking tools, cake baking essentials
+Uses: 0
+Text: When baking a cake mix, there are several essential baking tools and equipment that you will need. Some of the basic items include a mixing bowl, measuring cups and spoons, an electric mixer or whisk, a spatula, a cake pan, parchment paper or non-stick cooking spray, and an oven for baking.Link: https://www.foodnetwork.com/how-to/packages/help-around-the-kitchen/photos/baking-tools-and-equipment
+Researching topic: Common cake mix ingredients
+Prompt:
+Initial Prompt: ({ Please create a professional presentation on the process of baking a simple cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Baking Equipment Needed for Baking a Cake Mix']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **COMMON CAKE MIX INGREDIENTS** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Common Cake Mix Ingredients",
+    "keywords": ["cake mix", "ingredients", "baking", "cake", "mix"],
+    "text": "Common cake mix ingredients typically include flour, sugar, baking powder, salt, and sometimes additional flavorings like vanilla extract or cocoa powder. Some cake mixes may also require the addition of eggs, oil, and water. It is important to carefully read the instructions on the cake mix package to determine the specific ingredients needed for that particular mix.",
+    "link": "https://www.bettycrocker.com/products/cake-mixes"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Common Cake Mix Ingredients
+Keywords: cake mix, ingredients, baking, cake, mix
+Uses: 0
+Text: Common cake mix ingredients typically include flour, sugar, baking powder, salt, and sometimes additional flavorings like vanilla extract or cocoa powder. Some cake mixes may also require the addition of eggs, oil, and water. It is important to carefully read the instructions on the cake mix package to determine the specific ingredients needed for that particular mix.Link: https://www.bettycrocker.com/products/cake-mixes
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: ({ Please create a professional presentation on the process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are continuing a research topic list based upon initial reserach. The inital topics were ['Baking equipment needed', 'Common cake mix ingredients']. The research these yeilded is: ({When baking a cake mix, there are several essential baking tools and equipment that you will need. Some of the basic items include a mixing bowl, measuring cups and spoons, an electric mixer or whisk, a spatula, a cake pan, parchment paper or non-stick cooking spray, and an oven for baking.
+
+Common cake mix ingredients typically include flour, sugar, baking powder, salt, and sometimes additional flavorings like vanilla extract or cocoa powder. Some cake mixes may also require the addition of eggs, oil, and water. It is important to carefully read the instructions on the cake mix package to determine the specific ingredients needed for that particular mix.}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!! })
+.
+Raw AI topic response: 1. Proper mixing techniques
+2. Preparing the cake pan for baking
+3. Understanding baking powder and its role in cake mix
+4. Importance of accurate measuring in baking
+5. Testing cake for doneness
+6. Decorating and serving the baked cake
+Error: 1 topics provided. 6 expected.
+Got: ['Proper mixing techniques\n2. Preparing the cake pan for baking\n3. Understanding baking powder and its role in cake mix\n4. Importance of accurate measuring in baking\n5. Testing cake for doneness\n6. Decorating and serving the baked cake']

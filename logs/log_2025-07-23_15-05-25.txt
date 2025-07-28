@@ -1,0 +1,63 @@
+=== LOG FILE START ===
+
+Allowed calls initialized to 90.
+Knowledge database 'Knowledge Database' initialized with max size 15.
+Rewriting prompt using AI...
+Rewritten Prompt:
+ I am in need of a professionally designed presentation that instructs on the process of baking a basic cake mix.
+
+Final Prompt:
+I am in need of a professionally designed presentation that instructs on the process of baking a basic cake mix.
+Step 1 begun.
+Raw AI topic response: Types of basic cake mixes, Common ingredients needed to bake a cake
+Selected topics: ['Types of basic cake mixes', 'Common ingredients needed to bake a cake']
+Step 1 Complete.
+Step 2 begun.
+1 database entries per topic.
+Researching topic: Types of basic cake mixes
+Prompt:
+Initial Prompt: ({ I am in need of a professionally designed presentation that instructs on the process of baking a basic cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TYPES OF BASIC CAKE MIXES** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+  "title": "Types of Basic Cake Mixes",
+  "keywords": ["basic cake mixes", "types", "cake mix flavors"],
+  "text": "There are several types of basic cake mixes available in the market, including vanilla, chocolate, yellow, white, lemon, strawberry, and funfetti. Each type offers a different flavor profile and can be customized with additional ingredients like frosting, fillings, or mix-ins.",
+  "link": "https://www.bettycrocker.com/products/muffins-cakes/cake-mixes"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Types of Basic Cake Mixes
+Keywords: basic cake mixes, types, cake mix flavors
+Uses: 0
+Text: There are several types of basic cake mixes available in the market, including vanilla, chocolate, yellow, white, lemon, strawberry, and funfetti. Each type offers a different flavor profile and can be customized with additional ingredients like frosting, fillings, or mix-ins.Link: https://www.bettycrocker.com/products/muffins-cakes/cake-mixes
+Researching topic: Common ingredients needed to bake a cake
+Prompt:
+Initial Prompt: ({ I am in need of a professionally designed presentation that instructs on the process of baking a basic cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Types of Basic Cake Mixes']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **COMMON INGREDIENTS NEEDED TO BAKE A CAKE** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Common Ingredients Needed to Bake a Cake",
+    "keywords": ["cake baking", "baking ingredients", "common cake ingredients"],
+    "text": "Some common ingredients needed to bake a cake include flour, sugar, eggs, butter or oil, baking powder, and vanilla extract. These ingredients are the base for most cake recipes and provide the structure, sweetness, moisture, and flavor to the cake.",
+    "link": "https://www.tasteofhome.com/article/ingredients-in-a-cake/"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Common Ingredients Needed to Bake a Cake
+Keywords: cake baking, baking ingredients, common cake ingredients
+Uses: 0
+Text: Some common ingredients needed to bake a cake include flour, sugar, eggs, butter or oil, baking powder, and vanilla extract. These ingredients are the base for most cake recipes and provide the structure, sweetness, moisture, and flavor to the cake.Link: https://www.tasteofhome.com/article/ingredients-in-a-cake/
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: ({ I am in need of a professionally designed presentation that instructs on the process of baking a basic cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are continuing a research topic list based upon initial reserach. The inital topics were ['Types of basic cake mixes', 'Common ingredients needed to bake a cake']. The research these yeilded is: ({There are several types of basic cake mixes available in the market, including vanilla, chocolate, yellow, white, lemon, strawberry, and funfetti. Each type offers a different flavor profile and can be customized with additional ingredients like frosting, fillings, or mix-ins.
+
+Some common ingredients needed to bake a cake include flour, sugar, eggs, butter or oil, baking powder, and vanilla extract. These ingredients are the base for most cake recipes and provide the structure, sweetness, moisture, and flavor to the cake.}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!! })
+.
+Raw AI topic response: 1. Different ways to customize a basic cake mix
+2. Essential equipment needed for baking a cake
+3. Common mistakes to avoid when baking a cake
+4. Tips for achieving the perfect cake texture
+5. Alternative ingredients for vegan or gluten-free cake options
+6. Decorative techniques for finishing a cake
+Error: 1 topics provided. 6 expected.
+Got: ['Different ways to customize a basic cake mix\n2. Essential equipment needed for baking a cake\n3. Common mistakes to avoid when baking a cake\n4. Tips for achieving the perfect cake texture\n5. Alternative ingredients for vegan or gluten-free cake options\n6. Decorative techniques for finishing a cake']

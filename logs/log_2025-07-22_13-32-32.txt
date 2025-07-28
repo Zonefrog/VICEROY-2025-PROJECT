@@ -1,0 +1,59 @@
+=== LOG FILE START ===
+
+Allowed calls initialized to 30.
+Knowledge database 'Knowledge Database' initialized with max size 15.
+Rewriting prompt using AI...
+Rewritten Prompt:
+ Please create a professional presentation outlining the steps to bake a simple cake using a cake mix.
+
+Final Prompt:
+Please create a professional presentation outlining the steps to bake a simple cake using a cake mix.
+Step 1 begun.
+Raw AI topic response: Types of cake mixes, Baking equipment needed
+Selected topics: ['Types of cake mixes', 'Baking equipment needed']
+Step 1 Complete.
+Step 2 begun.
+1 database entries per topic.
+Researching topic: Types of cake mixes
+Prompt:
+Initial Prompt: ({ Please create a professional presentation outlining the steps to bake a simple cake using a cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TYPES OF CAKE MIXES** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+27/30 Calls remaining.
+Raw AI response to this: {
+    "title": "Types of Cake Mixes",
+    "keywords": ["cake mixes", "types", "different kinds", "varieties"],
+    "text": "There are several types of cake mixes available in the market, including basic cake mixes, gluten-free cake mixes, organic cake mixes, and specialty cake mixes like red velvet or lemon. Basic cake mixes typically require the addition of eggs, oil, and water, while gluten-free cake mixes are made with alternative flours like rice flour or almond flour. Organic cake mixes are made with organic ingredients and do not contain artificial preservatives or additives. Specialty cake mixes are pre-flavored mixes that are designed to make specific types of cakes such as red velvet or lemon.",
+    "link": "https://www.bettycrocker.com/products/cake-mix"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Types of Cake Mixes
+Keywords: cake mixes, types, different kinds, varieties
+Uses: 0
+Text: There are several types of cake mixes available in the market, including basic cake mixes, gluten-free cake mixes, organic cake mixes, and specialty cake mixes like red velvet or lemon. Basic cake mixes typically require the addition of eggs, oil, and water, while gluten-free cake mixes are made with alternative flours like rice flour or almond flour. Organic cake mixes are made with organic ingredients and do not contain artificial preservatives or additives. Specialty cake mixes are pre-flavored mixes that are designed to make specific types of cakes such as red velvet or lemon.Link: https://www.bettycrocker.com/products/cake-mix
+Researching topic: Baking equipment needed
+Prompt:
+Initial Prompt: ({ Please create a professional presentation outlining the steps to bake a simple cake using a cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Types of Cake Mixes']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BAKING EQUIPMENT NEEDED** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Baking Equipment Needed for Baking a Cake with Cake Mix",
+    "keywords": ["baking equipment", "cake mix", "cake baking", "cake recipe"],
+    "text": "When baking a cake using a cake mix, you will need the following baking equipment: a mixing bowl, an electric mixer or whisk, measuring cups and spoons, a cake pan, cooking spray or parchment paper, an oven, and an oven mitt. These basic tools are essential for baking a cake successfully.",
+    "link": "https://www.foodnetwork.com/how-to/packages/help-around-the-kitchen/party-cake-baking-tips"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Baking Equipment Needed for Baking a Cake with Cake Mix
+Keywords: baking equipment, cake mix, cake baking, cake recipe
+Uses: 0
+Text: When baking a cake using a cake mix, you will need the following baking equipment: a mixing bowl, an electric mixer or whisk, measuring cups and spoons, a cake pan, cooking spray or parchment paper, an oven, and an oven mitt. These basic tools are essential for baking a cake successfully.Link: https://www.foodnetwork.com/how-to/packages/help-around-the-kitchen/party-cake-baking-tips
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: ({ Please create a professional presentation outlining the steps to bake a simple cake using a cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are continuing a research topic list based upon initial reserach. The inital topics were ['Types of cake mixes', 'Baking equipment needed']. The research these yeilded is: ({There are several types of cake mixes available in the market, including basic cake mixes, gluten-free cake mixes, organic cake mixes, and specialty cake mixes like red velvet or lemon. Basic cake mixes typically require the addition of eggs, oil, and water, while gluten-free cake mixes are made with alternative flours like rice flour or almond flour. Organic cake mixes are made with organic ingredients and do not contain artificial preservatives or additives. Specialty cake mixes are pre-flavored mixes that are designed to make specific types of cakes such as red velvet or lemon.
+
+When baking a cake using a cake mix, you will need the following baking equipment: a mixing bowl, an electric mixer or whisk, measuring cups and spoons, a cake pan, cooking spray or parchment paper, an oven, and an oven mitt. These basic tools are essential for baking a cake successfully.}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!! })
+.
+Raw AI topic response: 'Additional ingredients needed', 'Mixing the cake batter', 'Preheating the oven', 'Baking the cake', 'Checking for doneness', 'Cooling and frosting the cake'
+Selected topics: ["'Additional ingredients needed'", "'Mixing the cake batter'", "'Preheating the oven'", "'Baking the cake'", "'Checking for doneness'", "'Cooling and frosting the cake'"]
+Step 3 Complete.

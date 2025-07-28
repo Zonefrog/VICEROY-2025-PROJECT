@@ -1,0 +1,628 @@
+=== LOG FILE START ===
+
+Allowed calls initialized to 90.
+Knowledge database 'Knowledge Database' initialized with max size 15.
+Rewriting prompt using AI...
+Rewritten Prompt:
+ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix.
+
+Final Prompt:
+I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix.
+Step 1 begun.
+Raw AI topic response: Ingredients needed, Step-by-step baking instructions
+Selected topics: ['Ingredients needed', 'Step-by-step baking instructions']
+Step 1 Complete.
+Step 2 begun.
+1 database entries per topic.
+Researching topic: Ingredients needed
+Prompt:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INGREDIENTS NEEDED** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Ingredients Needed for Baking a Simple Cake Mix",
+    "keywords": ["cake mix", "baking", "ingredients"],
+    "text": "To bake a simple cake mix, you will need the following ingredients: cake mix (usually comes in a box), eggs, water, and oil. The specific measurements and additional ingredients may vary depending on the brand of cake mix you choose.",
+    "link": "https://www.bettycrocker.com/products/cake-mixes"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Ingredients Needed for Baking a Simple Cake Mix
+Keywords: cake mix, baking, ingredients
+Uses: 0
+Text: To bake a simple cake mix, you will need the following ingredients: cake mix (usually comes in a box), eggs, water, and oil. The specific measurements and additional ingredients may vary depending on the brand of cake mix you choose.Link: https://www.bettycrocker.com/products/cake-mixes
+Researching topic: Step-by-step baking instructions
+Prompt:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **STEP-BY-STEP BAKING INSTRUCTIONS** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Step-by-Step Baking Instructions for a Simple Cake Mix",
+    "keywords": ["baking", "cake mix", "step-by-step", "instructions"],
+    "text": "1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease and flour your cake pans to prevent sticking. 3. In a mixing bowl, combine the cake mix, eggs, oil, and water according to the instructions on the box. 4. Mix the ingredients together until smooth and well-combined. 5. Pour the batter into the prepared cake pans, dividing it evenly between them. 6. Place the pans in the preheated oven and bake for the time indicated on the cake mix box. 7. Check for doneness by inserting a toothpick into the center of the cake - if it comes out clean, the cake is ready. 8. Remove the cakes from the oven and let them cool in the pans for a few minutes. 9. Run a knife around the edges of the pans to loosen the cakes, then invert them onto a wire rack to cool completely. 10. Once cooled, you can frost and decorate the cakes as desired.",
+    "link": "https://www.bettycrocker.com/recipes/dishes/cake-recipes/how-to-make-a-cake"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Step-by-Step Baking Instructions for a Simple Cake Mix
+Keywords: baking, cake mix, step-by-step, instructions
+Uses: 0
+Text: 1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease and flour your cake pans to prevent sticking. 3. In a mixing bowl, combine the cake mix, eggs, oil, and water according to the instructions on the box. 4. Mix the ingredients together until smooth and well-combined. 5. Pour the batter into the prepared cake pans, dividing it evenly between them. 6. Place the pans in the preheated oven and bake for the time indicated on the cake mix box. 7. Check for doneness by inserting a toothpick into the center of the cake - if it comes out clean, the cake is ready. 8. Remove the cakes from the oven and let them cool in the pans for a few minutes. 9. Run a knife around the edges of the pans to loosen the cakes, then invert them onto a wire rack to cool completely. 10. Once cooled, you can frost and decorate the cakes as desired.Link: https://www.bettycrocker.com/recipes/dishes/cake-recipes/how-to-make-a-cake
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are continuing a research topic list based upon initial reserach. The inital topics were ['Ingredients needed', 'Step-by-step baking instructions']. The research these yeilded is: ({To bake a simple cake mix, you will need the following ingredients: cake mix (usually comes in a box), eggs, water, and oil. The specific measurements and additional ingredients may vary depending on the brand of cake mix you choose.
+
+1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease and flour your cake pans to prevent sticking. 3. In a mixing bowl, combine the cake mix, eggs, oil, and water according to the instructions on the box. 4. Mix the ingredients together until smooth and well-combined. 5. Pour the batter into the prepared cake pans, dividing it evenly between them. 6. Place the pans in the preheated oven and bake for the time indicated on the cake mix box. 7. Check for doneness by inserting a toothpick into the center of the cake - if it comes out clean, the cake is ready. 8. Remove the cakes from the oven and let them cool in the pans for a few minutes. 9. Run a knife around the edges of the pans to loosen the cakes, then invert them onto a wir (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!! })
+.
+Raw AI topic response: Baking time and temperature, Cooling and frosting the cake, Testing for doneness, Removing cakes from pans, Inverting cakes onto wire racks, Decorating the cake
+Selected topics: ['Baking time and temperature', 'Cooling and frosting the cake', 'Testing for doneness', 'Removing cakes from pans', 'Inverting cakes onto wire racks', 'Decorating the cake']
+Step 3 Complete.
+Step 4 begun.
+1 database entries per topic.
+Researching topic: Baking time and temperature
+Prompt:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix', 'Step-by-Step Baking Instructions for a Simple Cake Mix']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BAKING TIME AND TEMPERATURE** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Baking Time and Temperature for a Simple Cake Mix",
+    "keywords": ["baking time", "baking temperature", "cake mix"],
+    "text": "When baking a simple cake mix, it is important to follow the instructions on the packaging for the recommended baking time and temperature. Typically, a simple cake mix will need to bake at around 350°F (175°C) for 25-30 minutes. However, it is crucial to check the cake for doneness by inserting a toothpick into the center - if it comes out clean, the cake is ready. If not, continue baking and check every few minutes until done.",
+    "link": "https://www.bettycrocker.com/how-to/tipslibrary/baking-tips/baking-tips-for-cakes"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Baking Time and Temperature for a Simple Cake Mix
+Keywords: baking time, baking temperature, cake mix
+Uses: 0
+Text: When baking a simple cake mix, it is important to follow the instructions on the packaging for the recommended baking time and temperature. Typically, a simple cake mix will need to bake at around 350°F (175°C) for 25-30 minutes. However, it is crucial to check the cake for doneness by inserting a toothpick into the center - if it comes out clean, the cake is ready. If not, continue baking and check every few minutes until done.Link: https://www.bettycrocker.com/how-to/tipslibrary/baking-tips/baking-tips-for-cakes
+Researching topic: Cooling and frosting the cake
+Prompt:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix', 'Step-by-Step Baking Instructions for a Simple Cake Mix', 'Baking Time and Temperature for a Simple Cake Mix']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **COOLING AND FROSTING THE CAKE** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Cooling and Frosting the Cake",
+    "keywords": ["cooling cake", "frosting cake", "cake decorating"],
+    "text": "After baking the cake, it is important to let it cool completely before frosting. This allows the cake to set and prevents the frosting from melting. To cool the cake, remove it from the oven and place it on a wire rack. Let it cool for at least 30 minutes before attempting to frost it. Once the cake is completely cooled, you can begin frosting it. Use a spatula or icing knife to spread a layer of frosting evenly over the top and sides of the cake. You can also add decorations or sprinkles to enhance the appearance of the cake.",
+    "link": "https://www.bhg.com/recipes/how-to/bake/how-to-cool-cakes/"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Cooling and Frosting the Cake
+Keywords: cooling cake, frosting cake, cake decorating
+Uses: 0
+Text: After baking the cake, it is important to let it cool completely before frosting. This allows the cake to set and prevents the frosting from melting. To cool the cake, remove it from the oven and place it on a wire rack. Let it cool for at least 30 minutes before attempting to frost it. Once the cake is completely cooled, you can begin frosting it. Use a spatula or icing knife to spread a layer of frosting evenly over the top and sides of the cake. You can also add decorations or sprinkles to enhance the appearance of the cake.Link: https://www.bhg.com/recipes/how-to/bake/how-to-cool-cakes/
+Researching topic: Testing for doneness
+Prompt:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix', 'Step-by-Step Baking Instructions for a Simple Cake Mix', 'Baking Time and Temperature for a Simple Cake Mix', 'Cooling and Frosting the Cake']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TESTING FOR DONENESS** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Testing for Doneness in Baking a Cake Mix",
+    "keywords": ["testing for doneness", "baking a cake mix", "cake doneness test"],
+    "text": "To test if a cake is done baking, you can use a few different methods. One common method is to insert a toothpick into the center of the cake. If it comes out clean with no batter sticking to it, then the cake is done. Another method is gently pressing the top of the cake - if it springs back when touched, it is likely done. Additionally, you can look for the edges of the cake to start pulling away from the sides of the pan. It's important to not rely solely on the baking time specified in the recipe, as ovens can vary in temperature and altitude can also affect baking times.",
+    "link": "https://www.thekitchn.com/how-to-tell-when-your-cake-is-done-223045"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Testing for Doneness in Baking a Cake Mix
+Keywords: testing for doneness, baking a cake mix, cake doneness test
+Uses: 0
+Text: To test if a cake is done baking, you can use a few different methods. One common method is to insert a toothpick into the center of the cake. If it comes out clean with no batter sticking to it, then the cake is done. Another method is gently pressing the top of the cake - if it springs back when touched, it is likely done. Additionally, you can look for the edges of the cake to start pulling away from the sides of the pan. It's important to not rely solely on the baking time specified in the recipe, as ovens can vary in temperature and altitude can also affect baking times.Link: https://www.thekitchn.com/how-to-tell-when-your-cake-is-done-223045
+Researching topic: Removing cakes from pans
+Prompt:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix', 'Step-by-Step Baking Instructions for a Simple Cake Mix', 'Baking Time and Temperature for a Simple Cake Mix', 'Cooling and Frosting the Cake', 'Testing for Doneness in Baking a Cake Mix']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **REMOVING CAKES FROM PANS** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+81/90 Calls remaining.
+Raw AI response to this: {
+    "title": "Removing Cakes from Pans",
+    "keywords": ["removing cakes from pans", "cake baking tips", "cake baking techniques"],
+    "text": "After baking your cake mix in the oven and allowing it to cool for a few minutes, it's time to remove the cake from the pans. To do this, run a knife around the edges of the cake to loosen it from the sides of the pan. Place a wire cooling rack on top of the cake pan, then carefully invert the pan and rack together. Gently lift the pan off the cake, allowing it to release onto the rack. If the cake seems stuck, gently tap the bottom of the pan to help release it. Allow the cake to cool completely on the rack before frosting or serving.",
+    "link": "https://www.bhg.com/recipes/how-to/bake/how-to-remove-cake-from-pan/"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Removing Cakes from Pans
+Keywords: removing cakes from pans, cake baking tips, cake baking techniques
+Uses: 0
+Text: After baking your cake mix in the oven and allowing it to cool for a few minutes, it's time to remove the cake from the pans. To do this, run a knife around the edges of the cake to loosen it from the sides of the pan. Place a wire cooling rack on top of the cake pan, then carefully invert the pan and rack together. Gently lift the pan off the cake, allowing it to release onto the rack. If the cake seems stuck, gently tap the bottom of the pan to help release it. Allow the cake to cool completely on the rack before frosting or serving.Link: https://www.bhg.com/recipes/how-to/bake/how-to-remove-cake-from-pan/
+Researching topic: Inverting cakes onto wire racks
+Prompt:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix', 'Step-by-Step Baking Instructions for a Simple Cake Mix', 'Baking Time and Temperature for a Simple Cake Mix', 'Cooling and Frosting the Cake', 'Testing for Doneness in Baking a Cake Mix', 'Removing Cakes from Pans']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INVERTING CAKES ONTO WIRE RACKS** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Inverting Cakes onto Wire Racks",
+    "keywords": ["inverting cakes", "wire racks", "cooling cakes upside down"],
+    "text": "After removing the cake from the oven, it is important to invert it onto a wire rack to cool. This allows air to circulate around the cake, preventing the bottom from becoming soggy. Place a wire rack on top of the cake pan, then carefully flip the pan and rack together. Lift the pan off the cake, leaving the cake upside down on the wire rack to cool completely.",
+    "link": "https://www.bhg.com/recipes/how-to/bake/how-to-cool-cakes/"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Inverting Cakes onto Wire Racks
+Keywords: inverting cakes, wire racks, cooling cakes upside down
+Uses: 0
+Text: After removing the cake from the oven, it is important to invert it onto a wire rack to cool. This allows air to circulate around the cake, preventing the bottom from becoming soggy. Place a wire rack on top of the cake pan, then carefully flip the pan and rack together. Lift the pan off the cake, leaving the cake upside down on the wire rack to cool completely.Link: https://www.bhg.com/recipes/how-to/bake/how-to-cool-cakes/
+Researching topic: Decorating the cake
+Prompt:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix', 'Step-by-Step Baking Instructions for a Simple Cake Mix', 'Baking Time and Temperature for a Simple Cake Mix', 'Cooling and Frosting the Cake', 'Testing for Doneness in Baking a Cake Mix', 'Removing Cakes from Pans', 'Inverting Cakes onto Wire Racks']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **DECORATING THE CAKE** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Decorating the Cake",
+    "keywords": ["cake decorating", "icing", "fondant", "cake decorations", "piping techniques"],
+    "text": "Decorating a cake is the final step in creating a beautiful and delicious dessert. There are many ways to decorate a cake, including using icing, fondant, and various cake decorations. Icing can be spread onto the cake with a spatula or piped on using different piping techniques to create designs. Fondant can be rolled out and draped over the cake for a smooth finish or shaped into intricate decorations. Cake decorations such as sprinkles, edible flowers, and chocolate shavings can be added to enhance the appearance of the cake.",
+    "link": "https://www.foodnetwork.com/how-to/packages/food-network-essentials/cake-decorating-guide"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Decorating the Cake
+Keywords: cake decorating, icing, fondant, cake decorations, piping techniques
+Uses: 0
+Text: Decorating a cake is the final step in creating a beautiful and delicious dessert. There are many ways to decorate a cake, including using icing, fondant, and various cake decorations. Icing can be spread onto the cake with a spatula or piped on using different piping techniques to create designs. Fondant can be rolled out and draped over the cake for a smooth finish or shaped into intricate decorations. Cake decorations such as sprinkles, edible flowers, and chocolate shavings can be added to enhance the appearance of the cake.Link: https://www.foodnetwork.com/how-to/packages/food-network-essentials/cake-decorating-guide
+Step 4 Complete.
+Step 5 begun.
+Prompt to AI:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information, you will decide how many topics will be in this presentation. Also take into account: To bake a simple cake mix, you will need the following ingredients: cake mix (usually comes in a box...
+
+1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease and flour your cake...
+
+When baking a simple cake mix, it is important to follow the instructions on the packaging for the r...
+
+After baking the cake, it is important to let it cool completely before frosting. This allows the ca...
+
+To test if a cake is done baking, you can use a few different methods. One common method is to inser...
+
+After baking your cake mix in the oven and allowing it to cool for a few minutes, it's time to remov...
+
+After removing the cake from the oven, it is important to invert it onto a wire rack to cool. This a...
+
+Decorating a cake is the final step in creating a beautiful and delicious dessert. There are many wa.... This is a sample of the databse gotten via research. Respond only with a single number and nothing else. })
+.
+Raw response:
+7
+.
+Topic count decided: 7
+Prompt to AI:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information and the following database text sample, you are going to make a topic outline. Database sample: ({To bake a simple cake mix, you will need the following ingredients: cake mix (usually comes in a box...
+
+1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease and flour your cake...
+
+When baking a simple cake mix, it is important to follow the instructions on the packaging for the r...
+
+After baking the cake, it is important to let it cool completely before frosting. This allows the ca...
+
+To test if a cake is done baking, you can use a few different methods. One common method is to inser...
+
+After baking your cake mix in the oven and allowing it to cool for a few minutes, it's time to remov...
+
+After removing the cake from the oven, it is important to invert it onto a wire rack to cool. This a...
+
+Decorating a cake is the final step in creating a beautiful and delicious dessert. There are many wa...}). You are to come up with 7 topics. Respond in the form of a python list of dictionaries, where each dictionary is a topic, and has three fields. They are title(str), keywords(list[str]), and text(str). Text briefly explains the section. Fill them out, obviously. Respond with nothing else. Follow the format exactly. })
+.
+Raw response:
+[
+    {
+        "title": "Preheating the Oven",
+        "keywords": ["preheat", "oven", "temperature"],
+        "text": "The first step in baking a simple cake mix is to preheat your oven to the temperature specified on the cake mix box. This ensures that the oven is at the right temperature for baking."
+    },
+    {
+        "title": "Preparing the Cake Pan",
+        "keywords": ["grease", "flour", "cake pan"],
+        "text": "Next, you need to grease and flour your cake pan to prevent the cake from sticking. This step ensures that the cake comes out easily once it's baked."
+    },
+    {
+        "title": "Following Instructions",
+        "keywords": ["instructions", "packaging", "recipe"],
+        "text": "It is crucial to follow the instructions on the packaging or recipe of the cake mix. This ensures that you add the right amount of ingredients and mix them properly for the best results."
+    },
+    {
+        "title": "Cooling the Cake",
+        "keywords": ["cool", "frosting", "cake"],
+        "text": "After baking the cake, it is essential to let it cool completely before frosting. This step allows the cake to set and makes it easier to decorate."
+    },
+    {
+        "title": "Testing for Doneness",
+        "keywords": ["test", "done baking", "methods"],
+        "text": "To check if the cake is done baking, you can use various methods such as inserting a toothpick into the center or gently pressing the top. This ensures that the cake is fully baked."
+    },
+    {
+        "title": "Removing the Cake from the Pan",
+        "keywords": ["remove", "cake", "pan"],
+        "text": "After baking and cooling the cake for a few minutes, it's time to carefully remove it from the cake pan. This step helps prevent the cake from sticking and breaking apart."
+    },
+    {
+        "title": "Cooling on a Wire Rack",
+        "keywords": ["cooling", "wire rack", "invert"],
+        "text": "Once the cake is removed from the pan, it should be inverted onto a wire rack to cool completely. This allows air to circulate around the cake and prevents it from becoming soggy."
+    }
+]
+.
+Topics list:
+[{'title': 'Preheating the Oven', 'keywords': ['preheat', 'oven', 'temperature'], 'text': 'The first step in baking a simple cake mix is to preheat your oven to the temperature specified on the cake mix box. This ensures that the oven is at the right temperature for baking.'}, {'title': 'Preparing the Cake Pan', 'keywords': ['grease', 'flour', 'cake pan'], 'text': "Next, you need to grease and flour your cake pan to prevent the cake from sticking. This step ensures that the cake comes out easily once it's baked."}, {'title': 'Following Instructions', 'keywords': ['instructions', 'packaging', 'recipe'], 'text': 'It is crucial to follow the instructions on the packaging or recipe of the cake mix. This ensures that you add the right amount of ingredients and mix them properly for the best results.'}, {'title': 'Cooling the Cake', 'keywords': ['cool', 'frosting', 'cake'], 'text': 'After baking the cake, it is essential to let it cool completely before frosting. This step allows the cake to set and makes it easier to decorate.'}, {'title': 'Testing for Doneness', 'keywords': ['test', 'done baking', 'methods'], 'text': 'To check if the cake is done baking, you can use various methods such as inserting a toothpick into the center or gently pressing the top. This ensures that the cake is fully baked.'}, {'title': 'Removing the Cake from the Pan', 'keywords': ['remove', 'cake', 'pan'], 'text': "After baking and cooling the cake for a few minutes, it's time to carefully remove it from the cake pan. This step helps prevent the cake from sticking and breaking apart."}, {'title': 'Cooling on a Wire Rack', 'keywords': ['cooling', 'wire rack', 'invert'], 'text': 'Once the cake is removed from the pan, it should be inverted onto a wire rack to cool completely. This allows air to circulate around the cake and prevents it from becoming soggy.'}]
+.
+Prompt to AI:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous text and the following database text sample, you will do a task. Sample: ({To bake a simple cake mix, you will need the following ingredients: cake mix (usually comes in a box...
+
+1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease and flour your cake...
+
+When baking a simple cake mix, it is important to follow the instructions on the packaging for the r...
+
+After baking the cake, it is important to let it cool completely before frosting. This allows the ca...
+
+To test if a cake is done baking, you can use a few different methods. One common method is to inser...
+
+After baking your cake mix in the oven and allowing it to cool for a few minutes, it's time to remov...
+
+After removing the cake from the oven, it is important to invert it onto a wire rack to cool. This a...
+
+Decorating a cake is the final step in creating a beautiful and delicious dessert. There are many wa...}). You came up with a list of 7 topics for a presentation. They are: [{'title': 'Preheating the Oven', 'keywords': ['preheat', 'oven', 'temperature'], 'text': 'The first step in baking a simple cake mix is to preheat your oven to the temperature specified on the cake mix box. This ensures that the oven is at the right temperature for baking.'}, {'title': 'Preparing the Cake Pan', 'keywords': ['grease', 'flour', 'cake pan'], 'text': "Next, you need to grease and flour your cake pan to prevent the cake from sticking. This step ensures that the cake comes out easily once it's baked."}, {'title': 'Following Instructions', 'keywords': ['instructions', 'packaging', 'recipe'], 'text': 'It is crucial to follow the instructions on the packaging or recipe of the cake mix. This ensures that you add the right amount of ingredients and mix them properly for the best results.'}, {'title': 'Cooling the Cake', 'keywords': ['cool', 'frosting', 'cake'], 'text': 'After baking the cake, it is essential to let it cool completely before frosting. This step allows the cake to set and makes it easier to decorate.'}, {'title': 'Testing for Doneness', 'keywords': ['test', 'done baking', 'methods'], 'text': 'To check if the cake is done baking, you can use various methods such as inserting a toothpick into the center or gently pressing the top. This ensures that the cake is fully baked.'}, {'title': 'Removing the Cake from the Pan', 'keywords': ['remove', 'cake', 'pan'], 'text': "After baking and cooling the cake for a few minutes, it's time to carefully remove it from the cake pan. This step helps prevent the cake from sticking and breaking apart."}, {'title': 'Cooling on a Wire Rack', 'keywords': ['cooling', 'wire rack', 'invert'], 'text': 'Once the cake is removed from the pan, it should be inverted onto a wire rack to cool completely. This allows air to circulate around the cake and prevents it from becoming soggy.'}]. This will be for a presentation with 10 total slides in it. You are to come up with a number of slides per topic. Respond as a python list of integers. These numbers match to the topic of matching index in the topics list. Respond with nothing else at all. Follow output format exactly. })
+.
+Raw response:
+[2, 1, 1, 2, 2, 1, 1]
+.
+New appended slide data:
+[{'title': 'Preheating the Oven', 'keywords': ['preheat', 'oven', 'temperature'], 'text': 'The first step in baking a simple cake mix is to preheat your oven to the temperature specified on the cake mix box. This ensures that the oven is at the right temperature for baking.', 'slides_amount_goal': 2, 'current_slides_amount': 0}, {'title': 'Preparing the Cake Pan', 'keywords': ['grease', 'flour', 'cake pan'], 'text': "Next, you need to grease and flour your cake pan to prevent the cake from sticking. This step ensures that the cake comes out easily once it's baked.", 'slides_amount_goal': 1, 'current_slides_amount': 0}, {'title': 'Following Instructions', 'keywords': ['instructions', 'packaging', 'recipe'], 'text': 'It is crucial to follow the instructions on the packaging or recipe of the cake mix. This ensures that you add the right amount of ingredients and mix them properly for the best results.', 'slides_amount_goal': 1, 'current_slides_amount': 0}, {'title': 'Cooling the Cake', 'keywords': ['cool', 'frosting', 'cake'], 'text': 'After baking the cake, it is essential to let it cool completely before frosting. This step allows the cake to set and makes it easier to decorate.', 'slides_amount_goal': 2, 'current_slides_amount': 0}, {'title': 'Testing for Doneness', 'keywords': ['test', 'done baking', 'methods'], 'text': 'To check if the cake is done baking, you can use various methods such as inserting a toothpick into the center or gently pressing the top. This ensures that the cake is fully baked.', 'slides_amount_goal': 2, 'current_slides_amount': 0}, {'title': 'Removing the Cake from the Pan', 'keywords': ['remove', 'cake', 'pan'], 'text': "After baking and cooling the cake for a few minutes, it's time to carefully remove it from the cake pan. This step helps prevent the cake from sticking and breaking apart.", 'slides_amount_goal': 1, 'current_slides_amount': 0}, {'title': 'Cooling on a Wire Rack', 'keywords': ['cooling', 'wire rack', 'invert'], 'text': 'Once the cake is removed from the pan, it should be inverted onto a wire rack to cool completely. This allows air to circulate around the cake and prevents it from becoming soggy.', 'slides_amount_goal': 1, 'current_slides_amount': 0}]
+.
+Step 5 Complete.
+Step 6 begun.
+Slide layout created and presentation initialized.
+Step 6 Complete.
+Step 7 begun.
+The following is about to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are giving general topics to each slide in the presentation. You are currently on slide 1. It is for the topic Preheating the Oven. Previous themes within this section of the presentation are []. Information from the research database that may be relevant is: ({}). You are to give a general theme for this slide for later iteration. Respond with the topic and nothing else. })
+.
+Raw step 7 response: Preheating the Oven
+The following is about to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are giving general topics to each slide in the presentation. You are currently on slide 2. It is for the topic Preheating the Oven. Previous themes within this section of the presentation are ['Preheating the Oven']. Information from the research database that may be relevant is: ({}). You are to give a general theme for this slide for later iteration. Respond with the topic and nothing else. })
+.
+Raw step 7 response: Setting the Oven Temperature
+The following is about to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are giving general topics to each slide in the presentation. You are currently on slide 3. It is for the topic Preparing the Cake Pan. Previous themes within this section of the presentation are []. Information from the research database that may be relevant is: ({}). You are to give a general theme for this slide for later iteration. Respond with the topic and nothing else. })
+.
+Raw step 7 response: Greasing and Flouring the Cake Pan
+The following is about to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are giving general topics to each slide in the presentation. You are currently on slide 4. It is for the topic Following Instructions. Previous themes within this section of the presentation are []. Information from the research database that may be relevant is: ({ID: 1
+Title: Step-by-Step Baking Instructions for a Simple Cake Mix
+Keywords: baking, cake mix, step-by-step, instructions
+Uses: 0
+Text: 1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease and flour your cake pans to prevent sticking. 3. In a mixing bowl, combine the cake mix, eggs, oil, and water according to the instructions on the box. 4. Mix the ingredients together until smooth and well-combined. 5. Pour the batter into the prepared cake pans, dividing it evenly between them. 6. Place the pans in the preheated oven and bake for the time indicated on the cake mix box. 7. Check for doneness by inserting a toothpick into the center of the cake - if it comes out clean, the cake is ready. 8. Remove the cakes from the oven and let them cool in the pans for a few minutes. 9. Run a knife around the edges of the pans to loosen the cakes, then invert them onto a wire rack to cool completely. 10. Once cooled, you can frost and decorate the cakes as desired.Link: https://www.bettycrocker.com/recipes/dishes/cake-recipes/how-to-make-a-cake
+
+}). You are to give a general theme for this slide for later iteration. Respond with the topic and nothing else. })
+.
+72/90 Calls remaining.
+Raw step 7 response: Following Instructions
+The following is about to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are giving general topics to each slide in the presentation. You are currently on slide 5. It is for the topic Cooling the Cake. Previous themes within this section of the presentation are []. Information from the research database that may be relevant is: ({}). You are to give a general theme for this slide for later iteration. Respond with the topic and nothing else. })
+.
+Raw step 7 response: Decorating the Cake
+The following is about to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are giving general topics to each slide in the presentation. You are currently on slide 6. It is for the topic Cooling the Cake. Previous themes within this section of the presentation are ['Decorating the Cake']. Information from the research database that may be relevant is: ({}). You are to give a general theme for this slide for later iteration. Respond with the topic and nothing else. })
+.
+Raw step 7 response: Cooling the Cake
+The following is about to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are giving general topics to each slide in the presentation. You are currently on slide 7. It is for the topic Testing for Doneness. Previous themes within this section of the presentation are []. Information from the research database that may be relevant is: ({ID: 0
+Title: Ingredients Needed for Baking a Simple Cake Mix
+Keywords: cake mix, baking, ingredients
+Uses: 0
+Text: To bake a simple cake mix, you will need the following ingredients: cake mix (usually comes in a box), eggs, water, and oil. The specific measurements and additional ingredients may vary depending on the brand of cake mix you choose.Link: https://www.bettycrocker.com/products/cake-mixes
+
+ID: 1
+Title: Step-by-Step Baking Instructions for a Simple Cake Mix
+Keywords: baking, cake mix, step-by-step, instructions
+Uses: 0
+Text: 1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease and flour your cake pans to prevent sticking. 3. In a mixing bowl, combine the cake mix, eggs, oil, and water according to the instructions on the box. 4. Mix the ingredients together until smooth and well-combined. 5. Pour the batter into the prepared cake pans, dividing it evenly between them. 6. Place the pans in the preheated oven and bake for the time indicated on the cake mix box. 7. Check for doneness by inserting a toothpick into the center of the cake - if it comes out clean, the cake is ready. 8. Remove the cakes from the oven and let them cool in the pans for a few minutes. 9. Run a knife around the edges of the pans to loosen the cakes, then invert them onto a wire rack to cool completely. 10. Once cooled, you can frost and decorate the cakes as desired.Link: https://www.bettycrocker.com/recipes/dishes/cake-recipes/how-to-make-a-cake
+
+}). You are to give a general theme for this slide for later iteration. Respond with the topic and nothing else. })
+.
+Raw step 7 response: Testing for Doneness
+The following is about to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are giving general topics to each slide in the presentation. You are currently on slide 8. It is for the topic Testing for Doneness. Previous themes within this section of the presentation are ['Testing for Doneness']. Information from the research database that may be relevant is: ({ID: 0
+Title: Ingredients Needed for Baking a Simple Cake Mix
+Keywords: cake mix, baking, ingredients
+Uses: 0
+Text: To bake a simple cake mix, you will need the following ingredients: cake mix (usually comes in a box), eggs, water, and oil. The specific measurements and additional ingredients may vary depending on the brand of cake mix you choose.Link: https://www.bettycrocker.com/products/cake-mixes
+
+ID: 1
+Title: Step-by-Step Baking Instructions for a Simple Cake Mix
+Keywords: baking, cake mix, step-by-step, instructions
+Uses: 0
+Text: 1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease and flour your cake pans to prevent sticking. 3. In a mixing bowl, combine the cake mix, eggs, oil, and water according to the instructions on the box. 4. Mix the ingredients together until smooth and well-combined. 5. Pour the batter into the prepared cake pans, dividing it evenly between them. 6. Place the pans in the preheated oven and bake for the time indicated on the cake mix box. 7. Check for doneness by inserting a toothpick into the center of the cake - if it comes out clean, the cake is ready. 8. Remove the cakes from the oven and let them cool in the pans for a few minutes. 9. Run a knife around the edges of the pans to loosen the cakes, then invert them onto a wire rack to cool completely. 10. Once cooled, you can frost and decorate the cakes as desired.Link: https://www.bettycrocker.com/recipes/dishes/cake-recipes/how-to-make-a-cake
+
+}). You are to give a general theme for this slide for later iteration. Respond with the topic and nothing else. })
+.
+Raw step 7 response: Checking for Doneness
+The following is about to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are giving general topics to each slide in the presentation. You are currently on slide 9. It is for the topic Removing the Cake from the Pan. Previous themes within this section of the presentation are []. Information from the research database that may be relevant is: ({}). You are to give a general theme for this slide for later iteration. Respond with the topic and nothing else. })
+.
+Raw step 7 response: Cooling and Decorating the Cake
+The following is about to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are giving general topics to each slide in the presentation. You are currently on slide 10. It is for the topic Cooling on a Wire Rack. Previous themes within this section of the presentation are []. Information from the research database that may be relevant is: ({}). You are to give a general theme for this slide for later iteration. Respond with the topic and nothing else. })
+.
+Raw step 7 response: Importance of Cooling on a Wire Rack
+Full current content of presentation slides: Presentation Title: Untitled Presentation
+Total Slides: 10
+
+Slide 1:
+  Title: Preheating the Oven - Slide 1
+  Content: Preheating the Oven
+  Sources: None
+
+Slide 2:
+  Title: Preheating the Oven - Slide 2
+  Content: Setting the Oven Temperature
+  Sources: None
+
+Slide 3:
+  Title: Preparing the Cake Pan - Slide 1
+  Content: Greasing and Flouring the Cake Pan
+  Sources: None
+
+Slide 4:
+  Title: Following Instructions - Slide 1
+  Content: Following Instructions
+  Sources: None
+
+Slide 5:
+  Title: Cooling the Cake - Slide 1
+  Content: Decorating the Cake
+  Sources: None
+
+Slide 6:
+  Title: Cooling the Cake - Slide 2
+  Content: Cooling the Cake
+  Sources: None
+
+Slide 7:
+  Title: Testing for Doneness - Slide 1
+  Content: Testing for Doneness
+  Sources: None
+
+Slide 8:
+  Title: Testing for Doneness - Slide 2
+  Content: Checking for Doneness
+  Sources: None
+
+Slide 9:
+  Title: Removing the Cake from the Pan - Slide 1
+  Content: Cooling and Decorating the Cake
+  Sources: None
+
+Slide 10:
+  Title: Cooling on a Wire Rack - Slide 1
+  Content: Importance of Cooling on a Wire Rack
+  Sources: None
+
+Step 7 Complete.
+Step 8 begun.
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You have been given previous information. You are on slide 1. It is within the Preheating the Oven section. Previous slide titles in this presentation are: ({(None.)}). Database information for this section is: ({}). It was previously given the topic of Preheating the Oven. You are to make a title for this slide based upon all of that. Respond with the slide title and nothing else. })
+.
+Raw step 8 response: Slide Title: Preheating the Oven
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You have been given previous information. You are on slide 2. It is within the Preheating the Oven section. Previous slide titles in this presentation are: ({['Slide Title: Preheating the Oven']}). Database information for this section is: ({}). It was previously given the topic of Setting the Oven Temperature. You are to make a title for this slide based upon all of that. Respond with the slide title and nothing else. })
+.
+Raw step 8 response: Slide Title: Setting the Oven Temperature
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You have been given previous information. You are on slide 3. It is within the Preparing the Cake Pan section. Previous slide titles in this presentation are: ({['Slide Title: Preheating the Oven', 'Slide Title: Setting the Oven Temperature']}). Database information for this section is: ({}). It was previously given the topic of Greasing and Flouring the Cake Pan. You are to make a title for this slide based upon all of that. Respond with the slide title and nothing else. })
+.
+63/90 Calls remaining.
+Raw step 8 response: Slide Title: Preparing the Cake Pan
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You have been given previous information. You are on slide 4. It is within the Following Instructions section. Previous slide titles in this presentation are: ({['Slide Title: Preheating the Oven', 'Slide Title: Setting the Oven Temperature', 'Slide Title: Preparing the Cake Pan']}). Database information for this section is: ({ID: 1
+Title: Step-by-Step Baking Instructions for a Simple Cake Mix
+Keywords: baking, cake mix, step-by-step, instructions
+Uses: 0
+Text: 1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease and flour your cake pans to prevent sticking. 3. In a mixing bowl, combine the cake mix, eggs, oil, and water according to the instructions on the box. 4. Mix the ingredients together until smooth and well-combined. 5. Pour the batter into the prepared cake pans, dividing it evenly between them. 6. Place the pans in the preheated oven and bake for the time indicated on the cake mix box. 7. Check for doneness by inserting a toothpick into the center of the cake - if it comes out clean, the cake is ready. 8. Remove the cakes from the oven and let them cool in the pans for a few minutes. 9. Run a knife around the edges of the pans to loosen the cakes, then invert them onto a wire rack to cool completely. 10. Once cooled, you can frost and decorate the cakes as desired.Link: https://www.bettycrocker.com/recipes/dishes/cake-recipes/how-to-make-a-cake
+
+}). It was previously given the topic of Following Instructions. You are to make a title for this slide based upon all of that. Respond with the slide title and nothing else. })
+.
+Raw step 8 response: Slide Title: Mixing the Cake Batter
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You have been given previous information. You are on slide 5. It is within the Cooling the Cake section. Previous slide titles in this presentation are: ({['Slide Title: Preheating the Oven', 'Slide Title: Setting the Oven Temperature', 'Slide Title: Preparing the Cake Pan', 'Slide Title: Mixing the Cake Batter']}). Database information for this section is: ({}). It was previously given the topic of Decorating the Cake. You are to make a title for this slide based upon all of that. Respond with the slide title and nothing else. })
+.
+Raw step 8 response: Slide Title: Cooling the Cake
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You have been given previous information. You are on slide 6. It is within the Cooling the Cake section. Previous slide titles in this presentation are: ({['Slide Title: Preheating the Oven', 'Slide Title: Setting the Oven Temperature', 'Slide Title: Preparing the Cake Pan', 'Slide Title: Mixing the Cake Batter', 'Slide Title: Cooling the Cake']}). Database information for this section is: ({}). It was previously given the topic of Cooling the Cake. You are to make a title for this slide based upon all of that. Respond with the slide title and nothing else. })
+.
+Raw step 8 response: Slide Title: Checking the Cake for Doneness
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You have been given previous information. You are on slide 7. It is within the Testing for Doneness section. Previous slide titles in this presentation are: ({['Slide Title: Preheating the Oven', 'Slide Title: Setting the Oven Temperature', 'Slide Title: Preparing the Cake Pan', 'Slide Title: Mixing the Cake Batter', 'Slide Title: Cooling the Cake', 'Slide Title: Checking the Cake for Doneness']}). Database information for this section is: ({ID: 0
+Title: Ingredients Needed for Baking a Simple Cake Mix
+Keywords: cake mix, baking, ingredients
+Uses: 0
+Text: To bake a simple cake mix, you will need the following ingredients: cake mix (usually comes in a box), eggs, water, and oil. The specific measurements and additional ingredients may vary depending on the brand of cake mix you choose.Link: https://www.bettycrocker.com/products/cake-mixes
+
+ID: 1
+Title: Step-by-Step Baking Instructions for a Simple Cake Mix
+Keywords: baking, cake mix, step-by-step, instructions
+Uses: 0
+Text: 1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease and flour your cake pans to prevent sticking. 3. In a mixing bowl, combine the cake mix, eggs, oil, and water according to the instructions on the box. 4. Mix the ingredients together until smooth and well-combined. 5. Pour the batter into the prepared cake pans, dividing it evenly between them. 6. Place the pans in the preheated oven and bake for the time indicated on the cake mix box. 7. Check for doneness by inserting a toothpick into the center of the cake - if it comes out clean, the cake is ready. 8. Remove the cakes from the oven and let them cool in the pans for a few minutes. 9. Run a knife around the edges of the pans to loosen the cakes, then invert them onto a wire rack to cool completely. 10. Once cooled, you can frost and decorate the cakes as desired.Link: https://www.bettycrocker.com/recipes/dishes/cake-recipes/how-to-make-a-cake
+
+}). It was previously given the topic of Testing for Doneness. You are to make a title for this slide based upon all of that. Respond with the slide title and nothing else. })
+.
+Raw step 8 response: Slide Title: Confirming Cake Readiness
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You have been given previous information. You are on slide 8. It is within the Testing for Doneness section. Previous slide titles in this presentation are: ({['Slide Title: Preheating the Oven', 'Slide Title: Setting the Oven Temperature', 'Slide Title: Preparing the Cake Pan', 'Slide Title: Mixing the Cake Batter', 'Slide Title: Cooling the Cake', 'Slide Title: Checking the Cake for Doneness', 'Slide Title: Confirming Cake Readiness']}). Database information for this section is: ({ID: 0
+Title: Ingredients Needed for Baking a Simple Cake Mix
+Keywords: cake mix, baking, ingredients
+Uses: 0
+Text: To bake a simple cake mix, you will need the following ingredients: cake mix (usually comes in a box), eggs, water, and oil. The specific measurements and additional ingredients may vary depending on the brand of cake mix you choose.Link: https://www.bettycrocker.com/products/cake-mixes
+
+ID: 1
+Title: Step-by-Step Baking Instructions for a Simple Cake Mix
+Keywords: baking, cake mix, step-by-step, instructions
+Uses: 0
+Text: 1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease and flour your cake pans to prevent sticking. 3. In a mixing bowl, combine the cake mix, eggs, oil, and water according to the instructions on the box. 4. Mix the ingredients together until smooth and well-combined. 5. Pour the batter into the prepared cake pans, dividing it evenly between them. 6. Place the pans in the preheated oven and bake for the time indicated on the cake mix box. 7. Check for doneness by inserting a toothpick into the center of the cake - if it comes out clean, the cake is ready. 8. Remove the cakes from the oven and let them cool in the pans for a few minutes. 9. Run a knife around the edges of the pans to loosen the cakes, then invert them onto a wire rack to cool completely. 10. Once cooled, you can frost and decorate the cakes as desired.Link: https://www.bettycrocker.com/recipes/dishes/cake-recipes/how-to-make-a-cake
+
+}). It was previously given the topic of Checking for Doneness. You are to make a title for this slide based upon all of that. Respond with the slide title and nothing else. })
+.
+Raw step 8 response: Slide Title: Testing Cake Doneness with a Toothpick
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You have been given previous information. You are on slide 9. It is within the Removing the Cake from the Pan section. Previous slide titles in this presentation are: ({['Slide Title: Preheating the Oven', 'Slide Title: Setting the Oven Temperature', 'Slide Title: Preparing the Cake Pan', 'Slide Title: Mixing the Cake Batter', 'Slide Title: Cooling the Cake', 'Slide Title: Checking the Cake for Doneness', 'Slide Title: Confirming Cake Readiness', 'Slide Title: Testing Cake Doneness with a Toothpick']}). Database information for this section is: ({}). It was previously given the topic of Cooling and Decorating the Cake. You are to make a title for this slide based upon all of that. Respond with the slide title and nothing else. })
+.
+Raw step 8 response: Slide Title: Removing the Cake from the Pan
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You have been given previous information. You are on slide 10. It is within the Cooling on a Wire Rack section. Previous slide titles in this presentation are: ({['Slide Title: Preheating the Oven', 'Slide Title: Setting the Oven Temperature', 'Slide Title: Preparing the Cake Pan', 'Slide Title: Mixing the Cake Batter', 'Slide Title: Cooling the Cake', 'Slide Title: Checking the Cake for Doneness', 'Slide Title: Confirming Cake Readiness', 'Slide Title: Testing Cake Doneness with a Toothpick', 'Slide Title: Removing the Cake from the Pan']}). Database information for this section is: ({}). It was previously given the topic of Importance of Cooling on a Wire Rack. You are to make a title for this slide based upon all of that. Respond with the slide title and nothing else. })
+.
+Raw step 8 response: Slide Title: Allowing the Cake to Cool Properly on a Wire Rack
+Full current content of presentation slides: Presentation Title: Untitled Presentation
+Total Slides: 10
+
+Slide 1:
+  Title: Slide Title: Preheating the Oven
+  Content: Preheating the Oven
+  Sources: None
+
+Slide 2:
+  Title: Slide Title: Setting the Oven Temperature
+  Content: Setting the Oven Temperature
+  Sources: None
+
+Slide 3:
+  Title: Slide Title: Preparing the Cake Pan
+  Content: Greasing and Flouring the Cake Pan
+  Sources: None
+
+Slide 4:
+  Title: Slide Title: Mixing the Cake Batter
+  Content: Following Instructions
+  Sources: None
+
+Slide 5:
+  Title: Slide Title: Cooling the Cake
+  Content: Decorating the Cake
+  Sources: None
+
+Slide 6:
+  Title: Slide Title: Checking the Cake for Doneness
+  Content: Cooling the Cake
+  Sources: None
+
+Slide 7:
+  Title: Slide Title: Confirming Cake Readiness
+  Content: Testing for Doneness
+  Sources: None
+
+Slide 8:
+  Title: Slide Title: Testing Cake Doneness with a Toothpick
+  Content: Checking for Doneness
+  Sources: None
+
+Slide 9:
+  Title: Slide Title: Removing the Cake from the Pan
+  Content: Cooling and Decorating the Cake
+  Sources: None
+
+Slide 10:
+  Title: Slide Title: Allowing the Cake to Cool Properly on a Wire Rack
+  Content: Importance of Cooling on a Wire Rack
+  Sources: None
+
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are making a presention with the previous ideas as context. These are all of the slide titles for the presentation: ({#1}). Based upon this, generate a title for the presentation overall. Respond with that title and nothing else. })
+.
+Raw step 8 response: "Baking a Simple Cake Mix: A Step-by-Step Guide"
+Presentation title: Baking a Simple Cake Mix: A Step-by-Step Guide
+Step 8 Complete.
+Step 9 begun.
+Sources per slide: 1
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information and some following information, you will give a list of keywords to search the database with to source the slide. You are on slide 1. The title of this slide is Slide Title: Preheating the Oven. The theme/topic of this slide is Preheating the Oven. It is for the section Preheating the Oven. The full list of keywords generally associated with this category are: ['preheat', 'oven', 'temperature']. The full list of keywords is ['baking', 'baking a cake mix', 'baking temperature', 'baking time', 'cake baking techniques', 'cake baking tips', 'cake decorating', 'cake decorations', 'cake doneness test', 'cake mix', 'cooling cake', 'cooling cakes upside down', 'fondant', 'frosting cake', 'icing', 'ingredients', 'instructions', 'inverting cakes', 'piping techniques', 'removing cakes from pans', 'step-by-step', 'testing for doneness', 'wire racks']. Again, respond with keywords to search the database with, and nothing else. Ensure you respond in the form of a list of keywords that are the ones referenced. })
+.
+54/90 Calls remaining.
+Raw step 9 response: ['preheat', 'oven', 'temperature']
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information and some following information, you will give a list of keywords to search the database with to source the slide. You are on slide 2. The title of this slide is Slide Title: Setting the Oven Temperature. The theme/topic of this slide is Setting the Oven Temperature. It is for the section Preheating the Oven. The full list of keywords generally associated with this category are: ['preheat', 'oven', 'temperature']. The full list of keywords is ['baking', 'baking a cake mix', 'baking temperature', 'baking time', 'cake baking techniques', 'cake baking tips', 'cake decorating', 'cake decorations', 'cake doneness test', 'cake mix', 'cooling cake', 'cooling cakes upside down', 'fondant', 'frosting cake', 'icing', 'ingredients', 'instructions', 'inverting cakes', 'piping techniques', 'removing cakes from pans', 'step-by-step', 'testing for doneness', 'wire racks']. Again, respond with keywords to search the database with, and nothing else. Ensure you respond in the form of a list of keywords that are the ones referenced. })
+.
+Raw step 9 response: ['preheat', 'oven', 'temperature']
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information and some following information, you will give a list of keywords to search the database with to source the slide. You are on slide 3. The title of this slide is Slide Title: Preparing the Cake Pan. The theme/topic of this slide is Greasing and Flouring the Cake Pan. It is for the section Preparing the Cake Pan. The full list of keywords generally associated with this category are: ['grease', 'flour', 'cake pan']. The full list of keywords is ['baking', 'baking a cake mix', 'baking temperature', 'baking time', 'cake baking techniques', 'cake baking tips', 'cake decorating', 'cake decorations', 'cake doneness test', 'cake mix', 'cooling cake', 'cooling cakes upside down', 'fondant', 'frosting cake', 'icing', 'ingredients', 'instructions', 'inverting cakes', 'piping techniques', 'removing cakes from pans', 'step-by-step', 'testing for doneness', 'wire racks']. Again, respond with keywords to search the database with, and nothing else. Ensure you respond in the form of a list of keywords that are the ones referenced. })
+.
+Raw step 9 response: ['grease', 'flour', 'cake pan']
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information and some following information, you will give a list of keywords to search the database with to source the slide. You are on slide 4. The title of this slide is Slide Title: Mixing the Cake Batter. The theme/topic of this slide is Following Instructions. It is for the section Following Instructions. The full list of keywords generally associated with this category are: ['instructions', 'packaging', 'recipe']. The full list of keywords is ['baking', 'baking a cake mix', 'baking temperature', 'baking time', 'cake baking techniques', 'cake baking tips', 'cake decorating', 'cake decorations', 'cake doneness test', 'cake mix', 'cooling cake', 'cooling cakes upside down', 'fondant', 'frosting cake', 'icing', 'ingredients', 'instructions', 'inverting cakes', 'piping techniques', 'removing cakes from pans', 'step-by-step', 'testing for doneness', 'wire racks']. Again, respond with keywords to search the database with, and nothing else. Ensure you respond in the form of a list of keywords that are the ones referenced. })
+.
+Raw step 9 response: ['instructions', 'packaging', 'recipe']
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information and some following information, you will give a list of keywords to search the database with to source the slide. You are on slide 5. The title of this slide is Slide Title: Cooling the Cake. The theme/topic of this slide is Decorating the Cake. It is for the section Cooling the Cake. The full list of keywords generally associated with this category are: ['cool', 'frosting', 'cake']. The full list of keywords is ['baking', 'baking a cake mix', 'baking temperature', 'baking time', 'cake baking techniques', 'cake baking tips', 'cake decorating', 'cake decorations', 'cake doneness test', 'cake mix', 'cooling cake', 'cooling cakes upside down', 'fondant', 'frosting cake', 'icing', 'ingredients', 'instructions', 'inverting cakes', 'piping techniques', 'removing cakes from pans', 'step-by-step', 'testing for doneness', 'wire racks']. Again, respond with keywords to search the database with, and nothing else. Ensure you respond in the form of a list of keywords that are the ones referenced. })
+.
+Raw step 9 response: ['cooling cake', 'frosting cake', 'cake decorations']
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information and some following information, you will give a list of keywords to search the database with to source the slide. You are on slide 6. The title of this slide is Slide Title: Checking the Cake for Doneness. The theme/topic of this slide is Cooling the Cake. It is for the section Cooling the Cake. The full list of keywords generally associated with this category are: ['cool', 'frosting', 'cake']. The full list of keywords is ['baking', 'baking a cake mix', 'baking temperature', 'baking time', 'cake baking techniques', 'cake baking tips', 'cake decorating', 'cake decorations', 'cake doneness test', 'cake mix', 'cooling cake', 'cooling cakes upside down', 'fondant', 'frosting cake', 'icing', 'ingredients', 'instructions', 'inverting cakes', 'piping techniques', 'removing cakes from pans', 'step-by-step', 'testing for doneness', 'wire racks']. Again, respond with keywords to search the database with, and nothing else. Ensure you respond in the form of a list of keywords that are the ones referenced. })
+.
+Raw step 9 response: ['cooling cake', 'cake doneness test', 'testing for doneness']
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information and some following information, you will give a list of keywords to search the database with to source the slide. You are on slide 7. The title of this slide is Slide Title: Confirming Cake Readiness. The theme/topic of this slide is Testing for Doneness. It is for the section Testing for Doneness. The full list of keywords generally associated with this category are: ['test', 'done baking', 'methods']. The full list of keywords is ['baking', 'baking a cake mix', 'baking temperature', 'baking time', 'cake baking techniques', 'cake baking tips', 'cake decorating', 'cake decorations', 'cake doneness test', 'cake mix', 'cooling cake', 'cooling cakes upside down', 'fondant', 'frosting cake', 'icing', 'ingredients', 'instructions', 'inverting cakes', 'piping techniques', 'removing cakes from pans', 'step-by-step', 'testing for doneness', 'wire racks']. Again, respond with keywords to search the database with, and nothing else. Ensure you respond in the form of a list of keywords that are the ones referenced. })
+.
+Raw step 9 response: ['test', 'done baking', 'methods']
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information and some following information, you will give a list of keywords to search the database with to source the slide. You are on slide 8. The title of this slide is Slide Title: Testing Cake Doneness with a Toothpick. The theme/topic of this slide is Checking for Doneness. It is for the section Testing for Doneness. The full list of keywords generally associated with this category are: ['test', 'done baking', 'methods']. The full list of keywords is ['baking', 'baking a cake mix', 'baking temperature', 'baking time', 'cake baking techniques', 'cake baking tips', 'cake decorating', 'cake decorations', 'cake doneness test', 'cake mix', 'cooling cake', 'cooling cakes upside down', 'fondant', 'frosting cake', 'icing', 'ingredients', 'instructions', 'inverting cakes', 'piping techniques', 'removing cakes from pans', 'step-by-step', 'testing for doneness', 'wire racks']. Again, respond with keywords to search the database with, and nothing else. Ensure you respond in the form of a list of keywords that are the ones referenced. })
+.
+Raw step 9 response: ['test', 'done baking', 'methods']
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information and some following information, you will give a list of keywords to search the database with to source the slide. You are on slide 9. The title of this slide is Slide Title: Removing the Cake from the Pan. The theme/topic of this slide is Cooling and Decorating the Cake. It is for the section Removing the Cake from the Pan. The full list of keywords generally associated with this category are: ['remove', 'cake', 'pan']. The full list of keywords is ['baking', 'baking a cake mix', 'baking temperature', 'baking time', 'cake baking techniques', 'cake baking tips', 'cake decorating', 'cake decorations', 'cake doneness test', 'cake mix', 'cooling cake', 'cooling cakes upside down', 'fondant', 'frosting cake', 'icing', 'ingredients', 'instructions', 'inverting cakes', 'piping techniques', 'removing cakes from pans', 'step-by-step', 'testing for doneness', 'wire racks']. Again, respond with keywords to search the database with, and nothing else. Ensure you respond in the form of a list of keywords that are the ones referenced. })
+.
+Raw step 9 response: ['remove', 'cake', 'pan']
+About to be sent to the AI: 
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a simple cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information and some following information, you will give a list of keywords to search the database with to source the slide. You are on slide 10. The title of this slide is Slide Title: Allowing the Cake to Cool Properly on a Wire Rack. The theme/topic of this slide is Importance of Cooling on a Wire Rack. It is for the section Cooling on a Wire Rack. The full list of keywords generally associated with this category are: ['cooling', 'wire rack', 'invert']. The full list of keywords is ['baking', 'baking a cake mix', 'baking temperature', 'baking time', 'cake baking techniques', 'cake baking tips', 'cake decorating', 'cake decorations', 'cake doneness test', 'cake mix', 'cooling cake', 'cooling cakes upside down', 'fondant', 'frosting cake', 'icing', 'ingredients', 'instructions', 'inverting cakes', 'piping techniques', 'removing cakes from pans', 'step-by-step', 'testing for doneness', 'wire racks']. Again, respond with keywords to search the database with, and nothing else. Ensure you respond in the form of a list of keywords that are the ones referenced. })
+.
+45/90 Calls remaining.
+Raw step 9 response: ['cooling', 'wire rack', 'invert']
+Done associating sources with slides.
+Presentation Currently: Presentation Title: "Baking a Simple Cake Mix: A Step-by-Step Guide"
+Total Slides: 10
+
+Slide 1:
+  Title: Slide Title: Preheating the Oven
+  Content: Preheating the Oven
+  Sources: None
+
+Slide 2:
+  Title: Slide Title: Setting the Oven Temperature
+  Content: Setting the Oven Temperature
+  Sources: None
+
+Slide 3:
+  Title: Slide Title: Preparing the Cake Pan
+  Content: Greasing and Flouring the Cake Pan
+  Sources: None
+
+Slide 4:
+  Title: Slide Title: Mixing the Cake Batter
+  Content: Following Instructions
+  Sources: [0]
+
+Slide 5:
+  Title: Slide Title: Cooling the Cake
+  Content: Decorating the Cake
+  Sources: None
+
+Slide 6:
+  Title: Slide Title: Checking the Cake for Doneness
+  Content: Cooling the Cake
+  Sources: None
+
+Slide 7:
+  Title: Slide Title: Confirming Cake Readiness
+  Content: Testing for Doneness
+  Sources: [1]
+
+Slide 8:
+  Title: Slide Title: Testing Cake Doneness with a Toothpick
+  Content: Checking for Doneness
+  Sources: [1]
+
+Slide 9:
+  Title: Slide Title: Removing the Cake from the Pan
+  Content: Cooling and Decorating the Cake
+  Sources: None
+
+Slide 10:
+  Title: Slide Title: Allowing the Cake to Cool Properly on a Wire Rack
+  Content: Importance of Cooling on a Wire Rack
+  Sources: None
+
+Step 9 Complete.
+Step 10 begun.
+Title slide added.
+Sources slides added.
+Step 10 Complete.
+Step 11 begun.
+Saving to file: c:\Users\hankw\OneDrive\Desktop\Automation VICEROY 2025 Files\results

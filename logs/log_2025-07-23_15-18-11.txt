@@ -1,0 +1,63 @@
+=== LOG FILE START ===
+
+Allowed calls initialized to 90.
+Knowledge database 'Knowledge Database' initialized with max size 15.
+Rewriting prompt using AI...
+Rewritten Prompt:
+ I am seeking a professional presentation that demonstrates the step-by-step process of baking a basic cake mix.
+
+Final Prompt:
+I am seeking a professional presentation that demonstrates the step-by-step process of baking a basic cake mix.
+Step 1 begun.
+Raw AI topic response: Types of basic cake mixes, Common ingredients needed for baking a cake
+Selected topics: ['Types of basic cake mixes', 'Common ingredients needed for baking a cake']
+Step 1 Complete.
+Step 2 begun.
+1 database entries per topic.
+Researching topic: Types of basic cake mixes
+Prompt:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a basic cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TYPES OF BASIC CAKE MIXES** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Types of Basic Cake Mixes",
+    "keywords": ["basic cake mixes", "types", "cake mix flavors", "popular cake mixes"],
+    "text": "There are several types of basic cake mixes available in the market, each offering a different flavor and texture. Some popular types include vanilla, chocolate, yellow, and marble cake mixes. Vanilla cake mix is a classic choice with a light and sweet flavor, while chocolate cake mix provides a rich and indulgent taste. Yellow cake mix has a buttery and moist texture, perfect for layer cakes or cupcakes. Marble cake mix combines the flavors of both vanilla and chocolate, creating a visually appealing marbled effect.",
+    "link": "https://www.bettycrocker.com/products/cake-mix"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Types of Basic Cake Mixes
+Keywords: basic cake mixes, types, cake mix flavors, popular cake mixes
+Uses: 0
+Text: There are several types of basic cake mixes available in the market, each offering a different flavor and texture. Some popular types include vanilla, chocolate, yellow, and marble cake mixes. Vanilla cake mix is a classic choice with a light and sweet flavor, while chocolate cake mix provides a rich and indulgent taste. Yellow cake mix has a buttery and moist texture, perfect for layer cakes or cupcakes. Marble cake mix combines the flavors of both vanilla and chocolate, creating a visually appealing marbled effect.Link: https://www.bettycrocker.com/products/cake-mix
+Researching topic: Common ingredients needed for baking a cake
+Prompt:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a basic cake mix. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Types of Basic Cake Mixes']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **COMMON INGREDIENTS NEEDED FOR BAKING A CAKE** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Common Ingredients Needed for Baking a Cake",
+    "keywords": ["baking a cake", "cake ingredients", "common cake ingredients"],
+    "text": "The most common ingredients needed for baking a cake include flour, sugar, eggs, butter or oil, baking powder or baking soda, salt, and flavorings such as vanilla extract. These basic ingredients are essential for creating a simple cake mix that can be customized with additional ingredients like cocoa powder, nuts, or fruits.",
+    "link": "https://www.tasteofhome.com/article/basic-cake-ingredients/"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Common Ingredients Needed for Baking a Cake
+Keywords: baking a cake, cake ingredients, common cake ingredients
+Uses: 0
+Text: The most common ingredients needed for baking a cake include flour, sugar, eggs, butter or oil, baking powder or baking soda, salt, and flavorings such as vanilla extract. These basic ingredients are essential for creating a simple cake mix that can be customized with additional ingredients like cocoa powder, nuts, or fruits.Link: https://www.tasteofhome.com/article/basic-cake-ingredients/
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: ({ I am seeking a professional presentation that demonstrates the step-by-step process of baking a basic cake mix. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are continuing a research topic list based upon initial reserach. The inital topics were ['Types of basic cake mixes', 'Common ingredients needed for baking a cake']. The research these yeilded is: ({There are several types of basic cake mixes available in the market, each offering a different flavor and texture. Some popular types include vanilla, chocolate, yellow, and marble cake mixes. Vanilla cake mix is a classic choice with a light and sweet flavor, while chocolate cake mix provides a rich and indulgent taste. Yellow cake mix has a buttery and moist texture, perfect for layer cakes or cupcakes. Marble cake mix combines the flavors of both vanilla and chocolate, creating a visually appealing marbled effect.
+
+The most common ingredients needed for baking a cake include flour, sugar, eggs, butter or oil, baking powder or baking soda, salt, and flavorings such as vanilla extract. These basic ingredients are essential for creating a simple cake mix that can be customized with additional ingredients like cocoa powder, nuts, or fruits.}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!! })
+.
+Raw AI topic response: 1. Importance of proper mixing techniques
+2. Understanding the role of leavening agents in cake baking
+3. Exploring different options for cake frosting and decoration
+4. Tips for achieving the perfect cake texture
+5. Common mistakes to avoid when baking a cake
+6. How to adjust baking times and temperatures for different cake sizes
+Error: 1 topics provided. 6 expected.
+Got: ['Importance of proper mixing techniques\n2. Understanding the role of leavening agents in cake baking\n3. Exploring different options for cake frosting and decoration\n4. Tips for achieving the perfect cake texture\n5. Common mistakes to avoid when baking a cake\n6. How to adjust baking times and temperatures for different cake sizes']

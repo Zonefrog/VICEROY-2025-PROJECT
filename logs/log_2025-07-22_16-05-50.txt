@@ -1,0 +1,276 @@
+=== LOG FILE START ===
+
+Allowed calls initialized to 30.
+Knowledge database 'Knowledge Database' initialized with max size 15.
+Rewriting prompt using AI...
+Rewritten Prompt:
+ Please create a presentation outlining the steps for baking a simple cake mix. Thank you.
+
+Final Prompt:
+Please create a presentation outlining the steps for baking a simple cake mix. Thank you.
+Step 1 begun.
+Raw AI topic response: Ingredients needed, Step-by-step instructions.
+Selected topics: ['Ingredients needed', 'Step-by-step instructions']
+Step 1 Complete.
+Step 2 begun.
+1 database entries per topic.
+Researching topic: Ingredients needed
+Prompt:
+Initial Prompt: ({ Please create a presentation outlining the steps for baking a simple cake mix. Thank you. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INGREDIENTS NEEDED** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+27/30 Calls remaining.
+Raw AI response to this: {
+    "title": "Ingredients Needed for Baking a Simple Cake Mix",
+    "keywords": ["cake mix", "ingredients", "baking", "simple cake"],
+    "text": "To bake a simple cake using a cake mix, you will need the following ingredients: a box of cake mix (any flavor of your choice), water, vegetable oil, and eggs. The specific quantities of these ingredients will vary depending on the brand of cake mix you are using, so be sure to check the instructions on the box.",
+    "link": "https://www.bettycrocker.com/how-to/how-to-make-cake-from-a-box"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Ingredients Needed for Baking a Simple Cake Mix
+Keywords: cake mix, ingredients, baking, simple cake
+Uses: 0
+Text: To bake a simple cake using a cake mix, you will need the following ingredients: a box of cake mix (any flavor of your choice), water, vegetable oil, and eggs. The specific quantities of these ingredients will vary depending on the brand of cake mix you are using, so be sure to check the instructions on the box.Link: https://www.bettycrocker.com/how-to/how-to-make-cake-from-a-box
+Researching topic: Step-by-step instructions
+Prompt:
+Initial Prompt: ({ Please create a presentation outlining the steps for baking a simple cake mix. Thank you. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **STEP-BY-STEP INSTRUCTIONS** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Step-by-Step Instructions for Baking a Simple Cake Mix",
+    "keywords": ["baking", "cake mix", "instructions", "steps"],
+    "text": "1. Preheat your oven to the temperature specified on the cake mix box.\n2. Grease a cake pan with butter or cooking spray to prevent the cake from sticking.\n3. In a mixing bowl, combine the cake mix, water, vegetable oil, and eggs according to the instructions on the box.\n4. Use an electric mixer to beat the ingredients together until the batter is smooth and free of lumps.\n5. Pour the batter into the prepared cake pan, spreading it out evenly.\n6. Place the pan in the preheated oven and bake for the time recommended on the cake mix box, or until a toothpick inserted into the center of the cake comes out clean.\n7. Once baked, remove the cake from the oven and let it cool in the pan for a few minutes.\n8. Run a knife around the edges of the cake to loosen it from the pan, then carefully invert the cake onto a wire rack to cool completely.\n9. Once cooled, you can frost and decorate the cake as desired before serving.",
+    "link": "https://www.allrecipes.com/recipe/23091/easy-cake-mix-cake/"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Step-by-Step Instructions for Baking a Simple Cake Mix
+Keywords: baking, cake mix, instructions, steps
+Uses: 0
+Text: 1. Preheat your oven to the temperature specified on the cake mix box.
+2. Grease a cake pan with butter or cooking spray to prevent the cake from sticking.
+3. In a mixing bowl, combine the cake mix, water, vegetable oil, and eggs according to the instructions on the box.
+4. Use an electric mixer to beat the ingredients together until the batter is smooth and free of lumps.
+5. Pour the batter into the prepared cake pan, spreading it out evenly.
+6. Place the pan in the preheated oven and bake for the time recommended on the cake mix box, or until a toothpick inserted into the center of the cake comes out clean.
+7. Once baked, remove the cake from the oven and let it cool in the pan for a few minutes.
+8. Run a knife around the edges of the cake to loosen it from the pan, then carefully invert the cake onto a wire rack to cool completely.
+9. Once cooled, you can frost and decorate the cake as desired before serving.Link: https://www.allrecipes.com/recipe/23091/easy-cake-mix-cake/
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: ({ Please create a presentation outlining the steps for baking a simple cake mix. Thank you. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ You are continuing a research topic list based upon initial reserach. The inital topics were ['Ingredients needed', 'Step-by-step instructions']. The research these yeilded is: ({To bake a simple cake using a cake mix, you will need the following ingredients: a box of cake mix (any flavor of your choice), water, vegetable oil, and eggs. The specific quantities of these ingredients will vary depending on the brand of cake mix you are using, so be sure to check the instructions on the box.
+
+1. Preheat your oven to the temperature specified on the cake mix box.
+2. Grease a cake pan with butter or cooking spray to prevent the cake from sticking.
+3. In a mixing bowl, combine the cake mix, water, vegetable oil, and eggs according to the instructions on the box.
+4. Use an electric mixer to beat the ingredients together until the batter is smooth and free of lumps.
+5. Pour the batter into the prepared cake pan, spreading it out evenly.
+6. Place the pan in the preheated oven and bake for the time recommended on the cake mix box, or until a toothpick inserted into the center of the cake comes out clean.
+7. Once baked, remove the cake from the oven and let it cool in the  (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!! })
+.
+Raw AI topic response: Baking temperature & time, Greasing the cake pan, Mixing the batter, Testing for doneness, Cooling the cake, Serving & storing the cake
+Selected topics: ['Baking temperature & time', 'Greasing the cake pan', 'Mixing the batter', 'Testing for doneness', 'Cooling the cake', 'Serving & storing the cake']
+Step 3 Complete.
+Step 4 begun.
+1 database entries per topic.
+Researching topic: Baking temperature & time
+Prompt:
+Initial Prompt: ({ Please create a presentation outlining the steps for baking a simple cake mix. Thank you. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix', 'Step-by-Step Instructions for Baking a Simple Cake Mix']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BAKING TEMPERATURE & TIME** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+24/30 Calls remaining.
+Raw AI response to this: {
+    "title": "Baking Temperature & Time for Cake Mix",
+    "keywords": ["baking temperature", "baking time", "cake mix"],
+    "text": "When baking a simple cake mix, it is important to know the correct baking temperature and time. Typically, most cake mixes suggest preheating the oven to 350°F (175°C) for a standard cake. The baking time can vary depending on the size and type of cake pan used but generally falls between 20-40 minutes. To know if the cake is done baking, insert a toothpick into the center of the cake. If it comes out clean, the cake is ready.",
+    "link": "https://www.thekitchn.com/dont-wait-to-preheat-your-oven-before-baking-heres-why-223632"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Baking Temperature & Time for Cake Mix
+Keywords: baking temperature, baking time, cake mix
+Uses: 0
+Text: When baking a simple cake mix, it is important to know the correct baking temperature and time. Typically, most cake mixes suggest preheating the oven to 350°F (175°C) for a standard cake. The baking time can vary depending on the size and type of cake pan used but generally falls between 20-40 minutes. To know if the cake is done baking, insert a toothpick into the center of the cake. If it comes out clean, the cake is ready.Link: https://www.thekitchn.com/dont-wait-to-preheat-your-oven-before-baking-heres-why-223632
+Researching topic: Greasing the cake pan
+Prompt:
+Initial Prompt: ({ Please create a presentation outlining the steps for baking a simple cake mix. Thank you. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix', 'Step-by-Step Instructions for Baking a Simple Cake Mix', 'Baking Temperature & Time for Cake Mix']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GREASING THE CAKE PAN** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Greasing the Cake Pan",
+    "keywords": ["grease cake pan", "greasing technique", "prevent cake from sticking"],
+    "text": "Greasing the cake pan is an important step in baking to ensure that the cake does not stick to the pan. To grease a cake pan, take a small amount of butter or oil and use a pastry brush or paper towel to coat the interior surface of the pan. Make sure to cover the bottom and sides evenly with a thin layer of grease. This will help the cake release easily once it's baked.",
+    "link": "https://www.foodnetwork.com/how-to/packages/food-network-essentials/cake-pan-prep-tips"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Greasing the Cake Pan
+Keywords: grease cake pan, greasing technique, prevent cake from sticking
+Uses: 0
+Text: Greasing the cake pan is an important step in baking to ensure that the cake does not stick to the pan. To grease a cake pan, take a small amount of butter or oil and use a pastry brush or paper towel to coat the interior surface of the pan. Make sure to cover the bottom and sides evenly with a thin layer of grease. This will help the cake release easily once it's baked.Link: https://www.foodnetwork.com/how-to/packages/food-network-essentials/cake-pan-prep-tips
+Researching topic: Mixing the batter
+Prompt:
+Initial Prompt: ({ Please create a presentation outlining the steps for baking a simple cake mix. Thank you. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix', 'Step-by-Step Instructions for Baking a Simple Cake Mix', 'Baking Temperature & Time for Cake Mix', 'Greasing the Cake Pan']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **MIXING THE BATTER** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+    "title": "Mixing the Batter for Baking a Simple Cake Mix",
+    "keywords": ["mixing cake batter", "how to mix cake mix", "cake batter consistency"],
+    "text": "Mixing the cake batter is a crucial step in baking a delicious cake. Start by combining the cake mix, water, eggs, and oil in a large mixing bowl. Use an electric mixer on low speed to beat the ingredients together for about 30 seconds, then increase the speed to medium and continue mixing for 2 more minutes. Scrape down the sides of the bowl with a spatula to ensure all the ingredients are fully incorporated. The batter should be smooth and free of any lumps.",
+    "link": "https://www.bettycrocker.com/how-to/tipslibrary/baking-tips/how-to-make-cake-batter"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Mixing the Batter for Baking a Simple Cake Mix
+Keywords: mixing cake batter, how to mix cake mix, cake batter consistency
+Uses: 0
+Text: Mixing the cake batter is a crucial step in baking a delicious cake. Start by combining the cake mix, water, eggs, and oil in a large mixing bowl. Use an electric mixer on low speed to beat the ingredients together for about 30 seconds, then increase the speed to medium and continue mixing for 2 more minutes. Scrape down the sides of the bowl with a spatula to ensure all the ingredients are fully incorporated. The batter should be smooth and free of any lumps.Link: https://www.bettycrocker.com/how-to/tipslibrary/baking-tips/how-to-make-cake-batter
+Researching topic: Testing for doneness
+Prompt:
+Initial Prompt: ({ Please create a presentation outlining the steps for baking a simple cake mix. Thank you. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix', 'Step-by-Step Instructions for Baking a Simple Cake Mix', 'Baking Temperature & Time for Cake Mix', 'Greasing the Cake Pan', 'Mixing the Batter for Baking a Simple Cake Mix']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TESTING FOR DONENESS** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+21/30 Calls remaining.
+Raw AI response to this: {
+    "title": "Testing for Doneness When Baking a Cake Mix",
+    "keywords": ["testing for doneness", "baking cake mix", "how to tell if a cake is done baking"],
+    "text": "To ensure that your cake is fully baked, you can perform a few tests to check for doneness. You can insert a toothpick or a cake tester into the center of the cake - if it comes out clean with no batter sticking to it, the cake is ready. Another method is gently pressing the top of the cake - if it springs back when touched, that's another indicator that it is fully baked.",
+    "link": "https://www.bhg.com/recipes/how-to/bake/how-to-test-cake-for-doneness/"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Testing for Doneness When Baking a Cake Mix
+Keywords: testing for doneness, baking cake mix, how to tell if a cake is done baking
+Uses: 0
+Text: To ensure that your cake is fully baked, you can perform a few tests to check for doneness. You can insert a toothpick or a cake tester into the center of the cake - if it comes out clean with no batter sticking to it, the cake is ready. Another method is gently pressing the top of the cake - if it springs back when touched, that's another indicator that it is fully baked.Link: https://www.bhg.com/recipes/how-to/bake/how-to-test-cake-for-doneness/
+Researching topic: Cooling the cake
+Prompt:
+Initial Prompt: ({ Please create a presentation outlining the steps for baking a simple cake mix. Thank you. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix', 'Step-by-Step Instructions for Baking a Simple Cake Mix', 'Baking Temperature & Time for Cake Mix', 'Greasing the Cake Pan', 'Mixing the Batter for Baking a Simple Cake Mix', 'Testing for Doneness When Baking a Cake Mix']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **COOLING THE CAKE** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+  "title": "Cooling the Cake",
+  "keywords": ["cooling", "cake", "cooling cake after baking"],
+  "text": "After taking the cake out of the oven, allow it to cool in the cake pan on a wire rack for about 10-15 minutes. This helps the cake set and makes it easier to remove from the pan. Once slightly cooled, run a butter knife around the edges of the pan to loosen the cake. Carefully invert the cake onto the wire rack to continue cooling completely before frosting or serving.",
+  "link": "https://www.thekitchn.com/how-to-cool-cake-properly-before-frosting-244788"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Cooling the Cake
+Keywords: cooling, cake, cooling cake after baking
+Uses: 0
+Text: After taking the cake out of the oven, allow it to cool in the cake pan on a wire rack for about 10-15 minutes. This helps the cake set and makes it easier to remove from the pan. Once slightly cooled, run a butter knife around the edges of the pan to loosen the cake. Carefully invert the cake onto the wire rack to continue cooling completely before frosting or serving.Link: https://www.thekitchn.com/how-to-cool-cake-properly-before-frosting-244788
+Researching topic: Serving & storing the cake
+Prompt:
+Initial Prompt: ({ Please create a presentation outlining the steps for baking a simple cake mix. Thank you. }) AI Role: ({ You are to perform a web-search to research the topic given on the general category from the inital prompt. Avoid redoing research from titles previously used. These are: ['Ingredients Needed for Baking a Simple Cake Mix', 'Step-by-Step Instructions for Baking a Simple Cake Mix', 'Baking Temperature & Time for Cake Mix', 'Greasing the Cake Pan', 'Mixing the Batter for Baking a Simple Cake Mix', 'Testing for Doneness When Baking a Cake Mix', 'Cooling the Cake']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SERVING & STORING THE CAKE** and this is entry 1 for this topic. }) Specific Instructions: ({ Respond in a Python Dictionary style format. This dictionary needs to have feilds title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic! })
+To sent to the AI.
+Raw AI response to this: {
+  "title": "Serving & Storing the Cake",
+  "keywords": ["serving cake", "storing cake", "how to serve cake", "how to store cake"],
+  "text": "After the cake has cooled completely, you can start to serve it. You can simply slice the cake and serve it on plates or cut it into smaller pieces for easier serving. Some people like to add a dusting of powdered sugar or cocoa powder on top for decoration. If you're serving the cake at a party or gathering, you can also add a scoop of ice cream or a dollop of whipped cream on the side. To store leftover cake, make sure it has cooled completely before wrapping it in plastic wrap or aluminum foil. You can also store the cake in an airtight container at room temperature or in the refrigerator to keep it fresh for a few days.",
+  "link": "https://www.tasteofhome.com/article/how-to-store-cake/"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Serving & Storing the Cake
+Keywords: serving cake, storing cake, how to serve cake, how to store cake
+Uses: 0
+Text: After the cake has cooled completely, you can start to serve it. You can simply slice the cake and serve it on plates or cut it into smaller pieces for easier serving. Some people like to add a dusting of powdered sugar or cocoa powder on top for decoration. If you're serving the cake at a party or gathering, you can also add a scoop of ice cream or a dollop of whipped cream on the side. To store leftover cake, make sure it has cooled completely before wrapping it in plastic wrap or aluminum foil. You can also store the cake in an airtight container at room temperature or in the refrigerator to keep it fresh for a few days.Link: https://www.tasteofhome.com/article/how-to-store-cake/
+Step 4 Complete.
+Step 5 begun.
+Prompt to AI:
+Initial Prompt: ({ Please create a presentation outlining the steps for baking a simple cake mix. Thank you. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information, you will decide how many topics will be in this presentation. Also take into account: To bake a simple cake using a cake mix, you will need the following ingredients: a box of cake mix (...
+
+1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease a cake pan with but...
+
+When baking a simple cake mix, it is important to know the correct baking temperature and time. Typi...
+
+Greasing the cake pan is an important step in baking to ensure that the cake does not stick to the p...
+
+Mixing the cake batter is a crucial step in baking a delicious cake. Start by combining the cake mix...
+
+To ensure that your cake is fully baked, you can perform a few tests to check for doneness. You can ...
+
+After taking the cake out of the oven, allow it to cool in the cake pan on a wire rack for about 10-...
+
+After the cake has cooled completely, you can start to serve it. You can simply slice the cake and s.... This is a sample of the databse gotten via research. Respond only with a single number and nothing else. })
+.
+18/30 Calls remaining.
+Raw response:
+6
+.
+Topic count decided: 6
+Prompt to AI:
+Initial Prompt: ({ Please create a presentation outlining the steps for baking a simple cake mix. Thank you. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous information and the following database text sample, you are going to make a topic outline. Database sample: ({To bake a simple cake using a cake mix, you will need the following ingredients: a box of cake mix (...
+
+1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease a cake pan with but...
+
+When baking a simple cake mix, it is important to know the correct baking temperature and time. Typi...
+
+Greasing the cake pan is an important step in baking to ensure that the cake does not stick to the p...
+
+Mixing the cake batter is a crucial step in baking a delicious cake. Start by combining the cake mix...
+
+To ensure that your cake is fully baked, you can perform a few tests to check for doneness. You can ...
+
+After taking the cake out of the oven, allow it to cool in the cake pan on a wire rack for about 10-...
+
+After the cake has cooled completely, you can start to serve it. You can simply slice the cake and s...}). You are to come up with 6 topics. Respond in the form of a python list of dictionaries, where each dictionary is a topic, and has three fields. They are title(str), keywords(list[str]), and text(str). Text briefly explains the section. Fill them out, obviously. Respond with nothing else. Follow the format exactly. })
+.
+Raw response:
+[
+    {
+        "title": "Preheating the Oven",
+        "keywords": ["preheat oven", "temperature specified", "cake mix box"],
+        "text": "To start baking a simple cake mix, the first step is to preheat your oven to the temperature specified on the cake mix box."
+    },
+    {
+        "title": "Greasing the Cake Pan",
+        "keywords": ["grease cake pan", "butter or oil", "prevent sticking"],
+        "text": "Grease a cake pan with butter or oil to prevent the cake from sticking to the pan."
+    },
+    {
+        "title": "Mixing the Cake Batter",
+        "keywords": ["mixing cake batter", "combine cake mix", "follow instructions"],
+        "text": "Mixing the cake batter is essential for a delicious cake. Combine the cake mix and other required ingredients following the instructions on the cake mix box."
+    },
+    {
+        "title": "Baking the Cake",
+        "keywords": ["baking temperature", "correct time", "check for doneness"],
+        "text": "Bake the cake in the preheated oven at the specified temperature for the recommended time. Check for doneness by performing certain tests."
+    },
+    {
+        "title": "Cooling the Cake",
+        "keywords": ["cooling cake", "wire rack", "10-15 minutes"],
+        "text": "After removing the cake from the oven, allow it to cool in the pan on a wire rack for about 10-15 minutes to prevent it from breaking apart."
+    },
+    {
+        "title": "Serving the Cake",
+        "keywords": ["slice cake", "serve cake", "enjoy"],
+        "text": "Once the cake has completely cooled, slice it and serve. Enjoy your freshly baked cake!"
+    }
+]
+.
+Topics list:
+[{'title': 'Preheating the Oven', 'keywords': ['preheat oven', 'temperature specified', 'cake mix box'], 'text': 'To start baking a simple cake mix, the first step is to preheat your oven to the temperature specified on the cake mix box.'}, {'title': 'Greasing the Cake Pan', 'keywords': ['grease cake pan', 'butter or oil', 'prevent sticking'], 'text': 'Grease a cake pan with butter or oil to prevent the cake from sticking to the pan.'}, {'title': 'Mixing the Cake Batter', 'keywords': ['mixing cake batter', 'combine cake mix', 'follow instructions'], 'text': 'Mixing the cake batter is essential for a delicious cake. Combine the cake mix and other required ingredients following the instructions on the cake mix box.'}, {'title': 'Baking the Cake', 'keywords': ['baking temperature', 'correct time', 'check for doneness'], 'text': 'Bake the cake in the preheated oven at the specified temperature for the recommended time. Check for doneness by performing certain tests.'}, {'title': 'Cooling the Cake', 'keywords': ['cooling cake', 'wire rack', '10-15 minutes'], 'text': 'After removing the cake from the oven, allow it to cool in the pan on a wire rack for about 10-15 minutes to prevent it from breaking apart.'}, {'title': 'Serving the Cake', 'keywords': ['slice cake', 'serve cake', 'enjoy'], 'text': 'Once the cake has completely cooled, slice it and serve. Enjoy your freshly baked cake!'}]
+.
+Prompt to AI:
+Initial Prompt: ({ Please create a presentation outlining the steps for baking a simple cake mix. Thank you. }) Role Prompt: ({ You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase. }) Specific Instructions: ({ Given the previous text and the following database text sample, you will do a task. Sample: ({To bake a simple cake using a cake mix, you will need the following ingredients: a box of cake mix (...
+
+1. Preheat your oven to the temperature specified on the cake mix box. 2. Grease a cake pan with but...
+
+When baking a simple cake mix, it is important to know the correct baking temperature and time. Typi...
+
+Greasing the cake pan is an important step in baking to ensure that the cake does not stick to the p...
+
+Mixing the cake batter is a crucial step in baking a delicious cake. Start by combining the cake mix...
+
+To ensure that your cake is fully baked, you can perform a few tests to check for doneness. You can ...
+
+After taking the cake out of the oven, allow it to cool in the cake pan on a wire rack for about 10-...
+
+After the cake has cooled completely, you can start to serve it. You can simply slice the cake and s...}). You came up with a list of 6 topics for a presentation. They are: [{'title': 'Preheating the Oven', 'keywords': ['preheat oven', 'temperature specified', 'cake mix box'], 'text': 'To start baking a simple cake mix, the first step is to preheat your oven to the temperature specified on the cake mix box.'}, {'title': 'Greasing the Cake Pan', 'keywords': ['grease cake pan', 'butter or oil', 'prevent sticking'], 'text': 'Grease a cake pan with butter or oil to prevent the cake from sticking to the pan.'}, {'title': 'Mixing the Cake Batter', 'keywords': ['mixing cake batter', 'combine cake mix', 'follow instructions'], 'text': 'Mixing the cake batter is essential for a delicious cake. Combine the cake mix and other required ingredients following the instructions on the cake mix box.'}, {'title': 'Baking the Cake', 'keywords': ['baking temperature', 'correct time', 'check for doneness'], 'text': 'Bake the cake in the preheated oven at the specified temperature for the recommended time. Check for doneness by performing certain tests.'}, {'title': 'Cooling the Cake', 'keywords': ['cooling cake', 'wire rack', '10-15 minutes'], 'text': 'After removing the cake from the oven, allow it to cool in the pan on a wire rack for about 10-15 minutes to prevent it from breaking apart.'}, {'title': 'Serving the Cake', 'keywords': ['slice cake', 'serve cake', 'enjoy'], 'text': 'Once the cake has completely cooled, slice it and serve. Enjoy your freshly baked cake!'}]. This will be for a presentation with 10 total slides in it. You are to come up with a number of slides per topic. Respond as a python list of integers. These numbers match to the topic of matching index in the topics list. Respond with nothing else at all. Follow output format exactly. })
+.
+Raw response:
+[2, 1, 1, 3, 2, 1]
+.
+New appended slide data:
+[{'title': 'Preheating the Oven', 'keywords': ['preheat oven', 'temperature specified', 'cake mix box'], 'text': 'To start baking a simple cake mix, the first step is to preheat your oven to the temperature specified on the cake mix box.', 'slides_amount_goal': 2, 'current_slides_amount': 0}, {'title': 'Greasing the Cake Pan', 'keywords': ['grease cake pan', 'butter or oil', 'prevent sticking'], 'text': 'Grease a cake pan with butter or oil to prevent the cake from sticking to the pan.', 'slides_amount_goal': 1, 'current_slides_amount': 0}, {'title': 'Mixing the Cake Batter', 'keywords': ['mixing cake batter', 'combine cake mix', 'follow instructions'], 'text': 'Mixing the cake batter is essential for a delicious cake. Combine the cake mix and other required ingredients following the instructions on the cake mix box.', 'slides_amount_goal': 1, 'current_slides_amount': 0}, {'title': 'Baking the Cake', 'keywords': ['baking temperature', 'correct time', 'check for doneness'], 'text': 'Bake the cake in the preheated oven at the specified temperature for the recommended time. Check for doneness by performing certain tests.', 'slides_amount_goal': 3, 'current_slides_amount': 0}, {'title': 'Cooling the Cake', 'keywords': ['cooling cake', 'wire rack', '10-15 minutes'], 'text': 'After removing the cake from the oven, allow it to cool in the pan on a wire rack for about 10-15 minutes to prevent it from breaking apart.', 'slides_amount_goal': 2, 'current_slides_amount': 0}, {'title': 'Serving the Cake', 'keywords': ['slice cake', 'serve cake', 'enjoy'], 'text': 'Once the cake has completely cooled, slice it and serve. Enjoy your freshly baked cake!', 'slides_amount_goal': 1, 'current_slides_amount': 0}]
+.
+Step 5 Complete.
+Step 6 begun.
