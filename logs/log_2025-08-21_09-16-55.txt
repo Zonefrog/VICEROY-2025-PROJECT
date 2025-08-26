@@ -1,0 +1,1083 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-21T09:16:55.237911
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-21_09-16-55.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 2...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Biodiversity Conservation
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Importance of biodiversity conservation, Threats to biodiversity
+Selected topics: ['Importance of biodiversity conservation', 'Threats to biodiversity']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Importance of biodiversity conservation
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF BIODIVERSITY CONSERVATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 12.6 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "The Importance of Biodiversity Conservation",
+    "keywords": ["biodiversity", "conservation", "importance"],
+    "text": "Biodiversity conservation is crucial for maintaining ecosystem stability, resilience, and productivity. It helps in sustaining essential ecosystem services such as clean water, air, food, and medicine. Biodiversity also plays a key role in providing natural resources for human use and enjoyment, such as wood, fibers, and ecotourism. Conservation efforts are necessary to protect endangered species and preserve genetic diversity for future generations.",
+    "link": "https://www.worldwildlife.org/threats/why-is-biodiversity-important"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: The Importance of Biodiversity Conservation
+Keywords: biodiversity, conservation, importance
+Uses: 0
+Text: Biodiversity conservation is crucial for maintaining ecosystem stability, resilience, and productivity. It helps in sustaining essential ecosystem services such as clean water, air, food, and medicine. Biodiversity also plays a key role in providing natural resources for human use and enjoyment, such as wood, fibers, and ecotourism. Conservation efforts are necessary to protect endangered species and preserve genetic diversity for future generations.Link: https://www.worldwildlife.org/threats/why-is-biodiversity-important
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF BIODIVERSITY CONSERVATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Benefits of Biodiversity Conservation",
+    "keywords": ["biodiversity", "conservation", "benefits", "importance"],
+    "text": "Biodiversity conservation is crucial for maintaining ecosystem stability and resilience. It helps in providing essential ecosystem services such as clean air and water, pollination, and soil fertility. Conserving biodiversity also supports human health by providing medicinal resources and contributing to food security. Additionally, biodiversity conservation promotes ecotourism and cultural heritage preservation.",
+    "link": "https://www.worldwildlife.org/threats/benefits-of-biodiversity"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Benefits of Biodiversity Conservation
+Keywords: biodiversity, conservation, benefits, importance
+Uses: 0
+Text: Biodiversity conservation is crucial for maintaining ecosystem stability and resilience. It helps in providing essential ecosystem services such as clean air and water, pollination, and soil fertility. Conserving biodiversity also supports human health by providing medicinal resources and contributing to food security. Additionally, biodiversity conservation promotes ecotourism and cultural heritage preservation.Link: https://www.worldwildlife.org/threats/benefits-of-biodiversity
+Researching topic: Threats to biodiversity
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **THREATS TO BIODIVERSITY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Major Threats to Biodiversity",
+    "keywords": ["biodiversity", "threats", "conservation", "extinction", "habitat loss"],
+    "text": "Some major threats to biodiversity include habitat destruction, climate change, pollution, overexploitation, and invasive species. Habitat destruction is one of the primary threats, leading to the loss of ecosystems and the species that depend on them. Climate change is also a significant threat, impacting biodiversity through changes in temperature, precipitation, and sea levels. Pollution from various sources can harm species and ecosystems, while overexploitation of resources can lead to the decline or extinction of species. Invasive species can outcompete native species, disrupt ecosystems, and contribute to biodiversity loss.",
+    "link": "https://www.worldwildlife.org/threats"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Major Threats to Biodiversity
+Keywords: biodiversity, threats, conservation, extinction, habitat loss
+Uses: 0
+Text: Some major threats to biodiversity include habitat destruction, climate change, pollution, overexploitation, and invasive species. Habitat destruction is one of the primary threats, leading to the loss of ecosystems and the species that depend on them. Climate change is also a significant threat, impacting biodiversity through changes in temperature, precipitation, and sea levels. Pollution from various sources can harm species and ecosystems, while overexploitation of resources can lead to the decline or extinction of species. Invasive species can outcompete native species, disrupt ecosystems, and contribute to biodiversity loss.Link: https://www.worldwildlife.org/threats
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **THREATS TO BIODIVERSITY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Climate Change as a Threat to Biodiversity",
+    "keywords": ["climate change", "global warming", "habitat loss", "species extinction"],
+    "text": "Climate change is considered one of the major threats to biodiversity around the world. Rising temperatures, changing weather patterns, and extreme events such as hurricanes and wildfires can disrupt ecosystems, leading to habitat loss and species extinction. Global warming is also affecting the distribution and abundance of many plant and animal species.",
+    "link": "https://www.worldwildlife.org/threats/climate-change"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Climate Change as a Threat to Biodiversity
+Keywords: climate change, global warming, habitat loss, species extinction
+Uses: 0
+Text: Climate change is considered one of the major threats to biodiversity around the world. Rising temperatures, changing weather patterns, and extreme events such as hurricanes and wildfires can disrupt ecosystems, leading to habitat loss and species extinction. Global warming is also affecting the distribution and abundance of many plant and animal species.Link: https://www.worldwildlife.org/threats/climate-change
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Biodiversity Conservation) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Importance of biodiversity conservation', 'Threats to biodiversity']. The research these yeilded is: ({Biodiversity conservation is crucial for maintaining ecosystem stability, resilience, and productivity. It helps in sustaining essential ecosystem services such as clean water, air, food, and medicine. Biodiversity also plays a key role in providing natural resources for human use and enjoyment, such as wood, fibers, and ecotourism. Conservation efforts are necessary to protect endangered species and preserve genetic diversity for future generations.
+
+Biodiversity conservation is crucial for maintaining ecosystem stability and resilience. It helps in providing essential ecosystem services such as clean air and water, pollination, and soil fertility. Conserving biodiversity also supports human health by providing medicinal resources and contributing to food security. Additionally, biodiversity conservation promotes ecotourism and cultural heritage preservation.
+
+Some major threats to biodiversity include habitat destruction, climate change, pollution, overexploitation, and invasive spec (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+🎲 Choice scenario triggered! (Rolled 21.7 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI topic response: Ecosystem services provided by biodiversity, Medicinal resources from biodiversity, Ecotourism and biodiversity conservation, Genetic diversity preservation, Habitat destruction as a threat to biodiversity, Invasive species impact on biodiversity
+Selected topics: ['Ecosystem services provided by biodiversity', 'Medicinal resources from biodiversity', 'Ecotourism and biodiversity conservation', 'Genetic diversity preservation', 'Habitat destruction as a threat to biodiversity', 'Invasive species impact on biodiversity']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Ecosystem services provided by biodiversity
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ECOSYSTEM SERVICES PROVIDED BY BIODIVERSITY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 17.4 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Ecosystem Services Provided by Biodiversity",
+    "keywords": ["ecosystem services", "biodiversity", "benefits", "natural resources", "ecological functions"],
+    "text": "Ecosystem services provided by biodiversity include air and water purification, pollination of crops, nutrient cycling, soil formation, and climate regulation. Biodiversity also supports recreational and cultural activities, as well as providing food, medicine, and raw materials for various industries.",
+    "link": "https://www.nature.org/en-us/what-we-do/our-insights/perspectives/ecosystem-services-and-biodiversity/"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Ecosystem Services Provided by Biodiversity
+Keywords: ecosystem services, biodiversity, benefits, natural resources, ecological functions
+Uses: 0
+Text: Ecosystem services provided by biodiversity include air and water purification, pollination of crops, nutrient cycling, soil formation, and climate regulation. Biodiversity also supports recreational and cultural activities, as well as providing food, medicine, and raw materials for various industries.Link: https://www.nature.org/en-us/what-we-do/our-insights/perspectives/ecosystem-services-and-biodiversity/
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Ecosystem Services Provided by Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ECOSYSTEM SERVICES PROVIDED BY BIODIVERSITY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Importance of Biodiversity in Providing Ecosystem Services",
+    "keywords": ["biodiversity", "ecosystem services", "importance"],
+    "text": "Biodiversity plays a crucial role in providing various ecosystem services that are essential for human well-being. These services include providing clean air and water, pollination of crops, regulating climate, controlling pests and diseases, and supporting nutrient cycling. The diversity of species within ecosystems ensures resilience and stability, making them better able to withstand environmental changes and disturbances.",
+    "link": "https://www.nature.org/en-us/what-we-do/our-insights/perspectives/importance-of-biodiversity/"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Importance of Biodiversity in Providing Ecosystem Services
+Keywords: biodiversity, ecosystem services, importance
+Uses: 0
+Text: Biodiversity plays a crucial role in providing various ecosystem services that are essential for human well-being. These services include providing clean air and water, pollination of crops, regulating climate, controlling pests and diseases, and supporting nutrient cycling. The diversity of species within ecosystems ensures resilience and stability, making them better able to withstand environmental changes and disturbances.Link: https://www.nature.org/en-us/what-we-do/our-insights/perspectives/importance-of-biodiversity/
+Researching topic: Medicinal resources from biodiversity
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Ecosystem Services Provided by Biodiversity', 'Importance of Biodiversity in Providing Ecosystem Services']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **MEDICINAL RESOURCES FROM BIODIVERSITY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 30.1 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Medicinal Resources from Biodiversity",
+    "keywords": ["medicinal resources", "biodiversity", "natural medicine", "traditional medicine"],
+    "text": "Biodiversity is a crucial source of medicinal resources, providing natural ingredients for traditional and modern medicine. Many pharmaceutical drugs are derived from plants, animals, and microorganisms found in diverse ecosystems.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3249929/"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Medicinal Resources from Biodiversity
+Keywords: medicinal resources, biodiversity, natural medicine, traditional medicine
+Uses: 0
+Text: Biodiversity is a crucial source of medicinal resources, providing natural ingredients for traditional and modern medicine. Many pharmaceutical drugs are derived from plants, animals, and microorganisms found in diverse ecosystems.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3249929/
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Ecosystem Services Provided by Biodiversity', 'Importance of Biodiversity in Providing Ecosystem Services', 'Medicinal Resources from Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **MEDICINAL RESOURCES FROM BIODIVERSITY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Traditional Medicine and Biodiversity Conservation",
+    "keywords": ["traditional medicine", "indigenous knowledge", "medicinal plants", "biodiversity conservation"],
+    "text": "Traditional medicine, often derived from indigenous knowledge, relies heavily on the use of medicinal plants found in biodiverse ecosystems. Many indigenous communities have deep knowledge of the medicinal properties of various plant species, which are crucial for their healthcare. By conserving biodiversity, we are not only preserving valuable plant species for future generations but also safeguarding traditional medicine practices that have been passed down through generations.",
+    "link": "https://www.iucn.org/resources/issues-briefs/traditional-medicine-and-biodiversity-conservation"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Traditional Medicine and Biodiversity Conservation
+Keywords: traditional medicine, indigenous knowledge, medicinal plants, biodiversity conservation
+Uses: 0
+Text: Traditional medicine, often derived from indigenous knowledge, relies heavily on the use of medicinal plants found in biodiverse ecosystems. Many indigenous communities have deep knowledge of the medicinal properties of various plant species, which are crucial for their healthcare. By conserving biodiversity, we are not only preserving valuable plant species for future generations but also safeguarding traditional medicine practices that have been passed down through generations.Link: https://www.iucn.org/resources/issues-briefs/traditional-medicine-and-biodiversity-conservation
+Researching topic: Ecotourism and biodiversity conservation
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Ecosystem Services Provided by Biodiversity', 'Importance of Biodiversity in Providing Ecosystem Services', 'Medicinal Resources from Biodiversity', 'Traditional Medicine and Biodiversity Conservation']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ECOTOURISM AND BIODIVERSITY CONSERVATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 29.6 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+Raw AI response to this: {
+    "title": "Ecotourism and Biodiversity Conservation",
+    "keywords": ["ecotourism", "biodiversity conservation", "tourism", "protected areas", "sustainable practices"],
+    "text": "Ecotourism involves responsible travel to natural areas that conserves the environment and improves the well-being of local people. It plays a crucial role in promoting biodiversity conservation by providing economic incentives for the conservation of natural habitats and wildlife. Ecotourism can help raise awareness about the importance of protecting biodiversity and can contribute to the sustainable management of protected areas.",
+    "link": "https://www.worldwildlife.org/initiatives/ecotourism-and-biodiversity-conservation"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Ecotourism and Biodiversity Conservation
+Keywords: ecotourism, biodiversity conservation, tourism, protected areas, sustainable practices
+Uses: 0
+Text: Ecotourism involves responsible travel to natural areas that conserves the environment and improves the well-being of local people. It plays a crucial role in promoting biodiversity conservation by providing economic incentives for the conservation of natural habitats and wildlife. Ecotourism can help raise awareness about the importance of protecting biodiversity and can contribute to the sustainable management of protected areas.Link: https://www.worldwildlife.org/initiatives/ecotourism-and-biodiversity-conservation
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Ecosystem Services Provided by Biodiversity', 'Importance of Biodiversity in Providing Ecosystem Services', 'Medicinal Resources from Biodiversity', 'Traditional Medicine and Biodiversity Conservation', 'Ecotourism and Biodiversity Conservation']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ECOTOURISM AND BIODIVERSITY CONSERVATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Community-Based Ecotourism and Biodiversity Conservation",
+    "keywords": ["community-based ecotourism", "conservation", "biodiversity", "sustainable tourism"],
+    "text": "Community-based ecotourism is a form of tourism that involves local communities in the management and operation of tourism activities in their area. This approach not only provides economic benefits to the community but also promotes the conservation of biodiversity. By actively involving local people in ecotourism initiatives, there is a greater incentive to protect the natural environment and wildlife habitats. This can lead to the preservation of biodiversity and ecosystems for future generations.",
+    "link": "https://www.iucn.org/theme/protected-areas/about/community-involvement/community-based-tourism"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Community-Based Ecotourism and Biodiversity Conservation
+Keywords: community-based ecotourism, conservation, biodiversity, sustainable tourism
+Uses: 0
+Text: Community-based ecotourism is a form of tourism that involves local communities in the management and operation of tourism activities in their area. This approach not only provides economic benefits to the community but also promotes the conservation of biodiversity. By actively involving local people in ecotourism initiatives, there is a greater incentive to protect the natural environment and wildlife habitats. This can lead to the preservation of biodiversity and ecosystems for future generations.Link: https://www.iucn.org/theme/protected-areas/about/community-involvement/community-based-tourism
+Researching topic: Genetic diversity preservation
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Ecosystem Services Provided by Biodiversity', 'Importance of Biodiversity in Providing Ecosystem Services', 'Medicinal Resources from Biodiversity', 'Traditional Medicine and Biodiversity Conservation', 'Ecotourism and Biodiversity Conservation', 'Community-Based Ecotourism and Biodiversity Conservation']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENETIC DIVERSITY PRESERVATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Genetic Diversity Preservation in Biodiversity Conservation",
+    "keywords": ["genetic diversity", "preservation", "biodiversity conservation"],
+    "text": "Genetic diversity preservation is crucial in biodiversity conservation as it ensures the long-term survival and adaptability of species. By maintaining a diverse gene pool, populations are better equipped to withstand environmental changes, diseases, and other threats. Conservation efforts often focus on protecting unique genetic traits within species to prevent genetic erosion and promote overall resilience.",
+    "link": "https://www.iucn.org/resources/issues-briefs/genetic-diversity-and-conservation" 
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Genetic Diversity Preservation in Biodiversity Conservation
+Keywords: genetic diversity, preservation, biodiversity conservation
+Uses: 0
+Text: Genetic diversity preservation is crucial in biodiversity conservation as it ensures the long-term survival and adaptability of species. By maintaining a diverse gene pool, populations are better equipped to withstand environmental changes, diseases, and other threats. Conservation efforts often focus on protecting unique genetic traits within species to prevent genetic erosion and promote overall resilience.Link: https://www.iucn.org/resources/issues-briefs/genetic-diversity-and-conservation
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Ecosystem Services Provided by Biodiversity', 'Importance of Biodiversity in Providing Ecosystem Services', 'Medicinal Resources from Biodiversity', 'Traditional Medicine and Biodiversity Conservation', 'Ecotourism and Biodiversity Conservation', 'Community-Based Ecotourism and Biodiversity Conservation', 'Genetic Diversity Preservation in Biodiversity Conservation']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENETIC DIVERSITY PRESERVATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Conserving Genetic Diversity in Endangered Species",
+    "keywords": ["genetic diversity", "endangered species", "conservation", "preservation"],
+    "text": "Conserving genetic diversity in endangered species is crucial for their long-term survival. Genetic diversity allows populations to adapt to changing environments and reduces the risk of inbreeding, which can lead to decreased fitness and increased vulnerability to diseases. Conservation efforts often involve strategies such as captive breeding programs, genetic monitoring, and habitat restoration to maintain genetic variation within populations.",
+    "link": "https://www.iucnredlist.org/"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Conserving Genetic Diversity in Endangered Species
+Keywords: genetic diversity, endangered species, conservation, preservation
+Uses: 0
+Text: Conserving genetic diversity in endangered species is crucial for their long-term survival. Genetic diversity allows populations to adapt to changing environments and reduces the risk of inbreeding, which can lead to decreased fitness and increased vulnerability to diseases. Conservation efforts often involve strategies such as captive breeding programs, genetic monitoring, and habitat restoration to maintain genetic variation within populations.Link: https://www.iucnredlist.org/
+Researching topic: Habitat destruction as a threat to biodiversity
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Ecosystem Services Provided by Biodiversity', 'Importance of Biodiversity in Providing Ecosystem Services', 'Medicinal Resources from Biodiversity', 'Traditional Medicine and Biodiversity Conservation', 'Ecotourism and Biodiversity Conservation', 'Community-Based Ecotourism and Biodiversity Conservation', 'Genetic Diversity Preservation in Biodiversity Conservation', 'Conserving Genetic Diversity in Endangered Species']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **HABITAT DESTRUCTION AS A THREAT TO BIODIVERSITY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Habitat Destruction as a Threat to Biodiversity",
+    "keywords": ["habitat destruction", "threat", "biodiversity"],
+    "text": "Habitat destruction is one of the primary threats to biodiversity worldwide. It occurs when natural habitats are altered or destroyed, leading to the loss of species and ecosystems. This can result from various human activities such as deforestation, urbanization, agriculture, mining, and infrastructure development. Habitat destruction disrupts the delicate balance of ecosystems, causing species to decline or become extinct.",
+    "link": "https://www.worldwildlife.org/threats/habitat-loss"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Habitat Destruction as a Threat to Biodiversity
+Keywords: habitat destruction, threat, biodiversity
+Uses: 0
+Text: Habitat destruction is one of the primary threats to biodiversity worldwide. It occurs when natural habitats are altered or destroyed, leading to the loss of species and ecosystems. This can result from various human activities such as deforestation, urbanization, agriculture, mining, and infrastructure development. Habitat destruction disrupts the delicate balance of ecosystems, causing species to decline or become extinct.Link: https://www.worldwildlife.org/threats/habitat-loss
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Ecosystem Services Provided by Biodiversity', 'Importance of Biodiversity in Providing Ecosystem Services', 'Medicinal Resources from Biodiversity', 'Traditional Medicine and Biodiversity Conservation', 'Ecotourism and Biodiversity Conservation', 'Community-Based Ecotourism and Biodiversity Conservation', 'Genetic Diversity Preservation in Biodiversity Conservation', 'Conserving Genetic Diversity in Endangered Species', 'Habitat Destruction as a Threat to Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **HABITAT DESTRUCTION AS A THREAT TO BIODIVERSITY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Causes of Habitat Destruction",
+    "keywords": ["habitat destruction", "causes", "deforestation", "urbanization", "agriculture", "mining"],
+    "text": "Habitat destruction is primarily caused by human activities such as deforestation, urbanization, agriculture, and mining. Deforestation involves the clearing of forests for timber, agriculture, or development. Urbanization leads to the conversion of natural habitats into cities and towns. Agriculture often involves the clearing of land for crops or livestock. Mining activities can result in the destruction of habitats through excavation and pollution.",
+    "link": "https://www.worldwildlife.org/threats/habitat-loss"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Causes of Habitat Destruction
+Keywords: habitat destruction, causes, deforestation, urbanization, agriculture, mining
+Uses: 0
+Text: Habitat destruction is primarily caused by human activities such as deforestation, urbanization, agriculture, and mining. Deforestation involves the clearing of forests for timber, agriculture, or development. Urbanization leads to the conversion of natural habitats into cities and towns. Agriculture often involves the clearing of land for crops or livestock. Mining activities can result in the destruction of habitats through excavation and pollution.Link: https://www.worldwildlife.org/threats/habitat-loss
+Researching topic: Invasive species impact on biodiversity
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Ecosystem Services Provided by Biodiversity', 'Importance of Biodiversity in Providing Ecosystem Services', 'Medicinal Resources from Biodiversity', 'Traditional Medicine and Biodiversity Conservation', 'Ecotourism and Biodiversity Conservation', 'Community-Based Ecotourism and Biodiversity Conservation', 'Genetic Diversity Preservation in Biodiversity Conservation', 'Conserving Genetic Diversity in Endangered Species', 'Habitat Destruction as a Threat to Biodiversity', 'Causes of Habitat Destruction']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INVASIVE SPECIES IMPACT ON BIODIVERSITY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Invasive Species Impact on Biodiversity",
+    "keywords": ["invasive species", "biodiversity", "impact", "ecosystem", "invasion"],
+    "text": "Invasive species can have a significant impact on biodiversity by outcompeting native species for resources, preying on native species, and altering habitats. This can lead to a decrease in the overall diversity of an ecosystem and disrupt the balance of species interactions. Invasive species are considered one of the major threats to biodiversity worldwide.",
+    "link": "https://www.nationalgeographic.org/encyclopedia/invasive-species/"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Invasive Species Impact on Biodiversity
+Keywords: invasive species, biodiversity, impact, ecosystem, invasion
+Uses: 0
+Text: Invasive species can have a significant impact on biodiversity by outcompeting native species for resources, preying on native species, and altering habitats. This can lead to a decrease in the overall diversity of an ecosystem and disrupt the balance of species interactions. Invasive species are considered one of the major threats to biodiversity worldwide.Link: https://www.nationalgeographic.org/encyclopedia/invasive-species/
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Biodiversity Conservation', 'Benefits of Biodiversity Conservation', 'Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Ecosystem Services Provided by Biodiversity', 'Importance of Biodiversity in Providing Ecosystem Services', 'Medicinal Resources from Biodiversity', 'Traditional Medicine and Biodiversity Conservation', 'Ecotourism and Biodiversity Conservation', 'Community-Based Ecotourism and Biodiversity Conservation', 'Genetic Diversity Preservation in Biodiversity Conservation', 'Conserving Genetic Diversity in Endangered Species', 'Habitat Destruction as a Threat to Biodiversity', 'Causes of Habitat Destruction', 'Invasive Species Impact on Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INVASIVE SPECIES IMPACT ON BIODIVERSITY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 17.0 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Examples of Invasive Species Impact on Biodiversity",
+    "keywords": ["invasive species", "biodiversity", "impact"],
+    "text": "Invasive species can have devastating impacts on biodiversity by outcompeting native species for resources, preying on native species, disrupting ecosystems, altering habitats, and spreading diseases. For example, the brown tree snake in Guam has caused the decline and extinction of several bird species. In the Great Lakes region, the invasive zebra mussel has disrupted the food chain and caused declines in native mussel populations.",
+    "link": "https://www.nwf.org/Educational-Resources/Wildlife-Guide/Threats-to-Wildlife/Invasive-Species"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Examples of Invasive Species Impact on Biodiversity
+Keywords: invasive species, biodiversity, impact
+Uses: 0
+Text: Invasive species can have devastating impacts on biodiversity by outcompeting native species for resources, preying on native species, disrupting ecosystems, altering habitats, and spreading diseases. For example, the brown tree snake in Guam has caused the decline and extinction of several bird species. In the Great Lakes region, the invasive zebra mussel has disrupted the food chain and caused declines in native mussel populations.Link: https://www.nwf.org/Educational-Resources/Wildlife-Guide/Threats-to-Wildlife/Invasive-Species
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Biodiversity Conservation) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Biodiversity conservation is crucial for maintaining ecosystem stability, resilience, and productivity. It helps in sustaining essential ecosystem services such as clean water, air, food, and medicine. Biodiversity also plays a key role in providing natural resources for human use and enjoyment, suc...
+
+Biodiversity conservation is crucial for maintaining ecosystem stability and resilience. It helps in providing essential ecosystem services such as clean air and water, pollination, and soil fertility. Conserving biodiversity also supports human health by providing medicinal resources and contributi...
+
+Some major threats to biodiversity include habitat destruction, climate change, pollution, overexploitation, and invasive species. Habitat destruction is one of the primary threats, leading to the loss of ecosystems and the species that depend on them. Climate change is also a significant threat, im...
+
+Climate change is considered one of the major threats to biodiversity around the world. Rising temperatures, changing weather patterns, and extreme events such as hurricanes and wildfires can disrupt ecosystems, leading to habitat loss and species extinction. Global warming is also affecting the dis...
+
+Ecosystem services provided by biodiversity include air and water purification, pollination of crops, nutrient cycling, soil formation, and climate regulation. Biodiversity also supports recreational and cultural activities, as well as providing food, medicine, and raw materials for various industri...
+
+Biodiversity plays a crucial role in providing various ecosystem services that are essential for human well-being. These services include providing clean air and water, pollination of crops, regulating climate, controlling pests and diseases, and supporting nutrient cycling. The diversity of species...
+
+Biodiversity is a crucial source of medicinal resources, providing natural ingredients for traditional and modern medicine. Many pharmaceutical drugs are derived from plants, animals, and microorganisms found in diverse ecosystems.
+
+Traditional medicine, often derived from indigenous knowledge, relies heavily on the use of medicinal plants found in biodiverse ecosystems. Many indigenous communities have deep knowledge of the medicinal properties of various plant species, which are crucial for their healthcare. By conserving bio...
+
+Ecotourism involves responsible travel to natural areas that conserves the environment and improves the well-being of local people. It plays a crucial role in promoting biodiversity conservation by providing economic incentives for the conservation of natural habitats and wildlife. Ecotourism can he...
+
+Community-based ecotourism is a form of tourism that involves local communities in the management and operation of tourism activities in their area. This approach not only provides economic benefits to the community but also promotes the conservation of biodiversity. By actively involving local peop...
+
+Genetic diversity preservation is crucial in biodiversity conservation as it ensures the long-term survival and adaptability of species. By maintaining a diverse gene pool, populations are better equipped to withstand environmental changes, diseases, and other threats. Conservation efforts often foc...
+
+Conserving genetic diversity in endangered species is crucial for their long-term survival. Genetic diversity allows populations to adapt to changing environments and reduces the risk of inbreeding, which can lead to decreased fitness and increased vulnerability to diseases. Conservation efforts oft...
+
+Habitat destruction is one of the primary threats to biodiversity worldwide. It occurs when natural habitats are altered or destroyed, leading to the loss of species and ecosystems. This can result from various human activities such as deforestation, urbanization, agriculture, mining, and infrastruc...
+
+Habitat destruction is primarily caused by human activities such as deforestation, urbanization, agriculture, and mining. Deforestation involves the clearing of forests for timber, agriculture, or development. Urbanization leads to the conversion of natural habitats into cities and towns. Agricultur...
+
+Invasive species can have a significant impact on biodiversity by outcompeting native species for resources, preying on native species, and altering habitats. This can lead to a decrease in the overall diversity of an ecosystem and disrupt the balance of species interactions. Invasive species are co...
+
+Invasive species can have devastating impacts on biodiversity by outcompeting native species for resources, preying on native species, disrupting ecosystems, altering habitats, and spreading diseases. For example, the brown tree snake in Guam has caused the decline and extinction of several bird spe...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+Raw response:
+4
+.
+Topic count decided: 4
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Biodiversity Conservation) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Biodiversity conservation is crucial for maintaining ecosystem stability, resilience, and productivity. It helps in sustaining essential ecosystem services such as clean water, air, food, and medicine. Biodiversity also plays a key role in providing natural resources for human use and enjoyment, suc...
+
+Biodiversity conservation is crucial for maintaining ecosystem stability and resilience. It helps in providing essential ecosystem services such as clean air and water, pollination, and soil fertility. Conserving biodiversity also supports human health by providing medicinal resources and contributi...
+
+Some major threats to biodiversity include habitat destruction, climate change, pollution, overexploitation, and invasive species. Habitat destruction is one of the primary threats, leading to the loss of ecosystems and the species that depend on them. Climate change is also a significant threat, im...
+
+Climate change is considered one of the major threats to biodiversity around the world. Rising temperatures, changing weather patterns, and extreme events such as hurricanes and wildfires can disrupt ecosystems, leading to habitat loss and species extinction. Global warming is also affecting the dis...
+
+Ecosystem services provided by biodiversity include air and water purification, pollination of crops, nutrient cycling, soil formation, and climate regulation. Biodiversity also supports recreational and cultural activities, as well as providing food, medicine, and raw materials for various industri...
+
+Biodiversity plays a crucial role in providing various ecosystem services that are essential for human well-being. These services include providing clean air and water, pollination of crops, regulating climate, controlling pests and diseases, and supporting nutrient cycling. The diversity of species...
+
+Biodiversity is a crucial source of medicinal resources, providing natural ingredients for traditional and modern medicine. Many pharmaceutical drugs are derived from plants, animals, and microorganisms found in diverse ecosystems.
+
+Traditional medicine, often derived from indigenous knowledge, relies heavily on the use of medicinal plants found in biodiverse ecosystems. Many indigenous communities have deep knowledge of the medicinal properties of various plant species, which are crucial for their healthcare. By conserving bio...
+
+Ecotourism involves responsible travel to natural areas that conserves the environment and improves the well-being of local people. It plays a crucial role in promoting biodiversity conservation by providing economic incentives for the conservation of natural habitats and wildlife. Ecotourism can he...
+
+Community-based ecotourism is a form of tourism that involves local communities in the management and operation of tourism activities in their area. This approach not only provides economic benefits to the community but also promotes the conservation of biodiversity. By actively involving local peop...
+
+Genetic diversity preservation is crucial in biodiversity conservation as it ensures the long-term survival and adaptability of species. By maintaining a diverse gene pool, populations are better equipped to withstand environmental changes, diseases, and other threats. Conservation efforts often foc...
+
+Conserving genetic diversity in endangered species is crucial for their long-term survival. Genetic diversity allows populations to adapt to changing environments and reduces the risk of inbreeding, which can lead to decreased fitness and increased vulnerability to diseases. Conservation efforts oft...
+
+Habitat destruction is one of the primary threats to biodiversity worldwide. It occurs when natural habitats are altered or destroyed, leading to the loss of species and ecosystems. This can result from various human activities such as deforestation, urbanization, agriculture, mining, and infrastruc...
+
+Habitat destruction is primarily caused by human activities such as deforestation, urbanization, agriculture, and mining. Deforestation involves the clearing of forests for timber, agriculture, or development. Urbanization leads to the conversion of natural habitats into cities and towns. Agricultur...
+
+Invasive species can have a significant impact on biodiversity by outcompeting native species for resources, preying on native species, and altering habitats. This can lead to a decrease in the overall diversity of an ecosystem and disrupt the balance of species interactions. Invasive species are co...
+
+Invasive species can have devastating impacts on biodiversity by outcompeting native species for resources, preying on native species, disrupting ecosystems, altering habitats, and spreading diseases. For example, the brown tree snake in Guam has caused the decline and extinction of several bird spe...}). You are to come up with {4} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+🎲 Choice scenario triggered! (Rolled 7.4 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+Raw response:
+Weekly Module Structure:
+
+Week 1: Importance of Biodiversity Conservation
+
+Main Topic Title: The Significance of Biodiversity Conservation
+
+Sub-Topics:
+1.1 Ecosystem Stability and Resilience
+- Explanation: Biodiversity conservation is crucial for maintaining ecosystem stability and resilience, which in turn supports the overall health of ecosystems (Database: Biodiversity conservation is crucial for maintaining ecosystem stability and resilience).
+1.2 Essential Ecosystem Services
+- Explanation: Biodiversity conservation helps in sustaining essential ecosystem services such as clean air and water, pollination, and soil fertility (Database: Biodiversity conservation is crucial for maintaining ecosystem stability, resilience, and productivity).
+1.3 Human Health Benefits
+- Explanation: Conserving biodiversity supports human health by providing medicinal resources and contributing to overall well-being (Database: Conserving biodiversity also supports human health by providing medicinal resources).
+
+Learning Objectives:
+- Understand the importance of biodiversity conservation for ecosystem stability and resilience.
+- Recognize the essential ecosystem services provided by biodiversity.
+- Identify the role of biodiversity in supporting human health.
+
+Estimated Number of Slides: 15
+
+Lab Activities/Practical Exercises:
+- Conduct a biodiversity survey in a local park or natural area to observe the variety of species present and their interactions.
+- Analyze the impact of biodiversity loss on ecosystem services through case studies or simulations.
+
+Real-World Applications and Examples:
+- Discuss real-world examples of how biodiversity conservation efforts have led to the restoration of ecosystems and the recovery of endangered species.
+- Explore the role of biodiversity in supporting sustainable agriculture practices and food security.
+
+Week 2: Threats to Biodiversity
+
+Main Topic Title: Major Threats to Biodiversity
+
+Sub-Topics:
+2.1 Habitat Destruction
+- Explanation: Habitat destruction is one of the primary threats to biodiversity, leading to the loss of ecosystems and species (Database: Habitat destruction is one of the primary threats to biodiversity).
+2.2 Climate Change
+- Explanation: Climate change poses a significant threat to biodiversity by disrupting ecosystems and habitats (Database: Climate change is considered one of the major threats to biodiversity around the world).
+2.3 Pollution and Overexploitation
+- Explanation: Pollution and overexploitation of natural resources contribute to biodiversity loss and ecosystem degradation (Database: Major threats to biodiversity include habitat destruction, climate change, pollution, and overexploitation).
+
+Learning Objectives:
+- Identify and describe the major threats to biodiversity.
+- Understand the impact of habitat destruction, climate change, pollution, and overexploitation on biodiversity.
+- Analyze the interconnected nature of these threats and their cumulative effects on ecosystems.
+
+Estimated Number of Slides: 20
+
+Lab Activities/Practical Exercises:
+- Conduct a case study analysis of a specific threat to biodiversity and develop mitigation strategies.
+- Simulate the effects of pollution on aquatic ecosystems through water quality testing and analysis.
+
+Real-World Applications and Examples:
+- Explore how human activities such as deforestation and urbanization contribute to habitat destruction and biodiversity loss.
+- Investigate the role of climate change in driving species extinctions and ecosystem disruptions globally.
+
+Week 3: Ecosystem Services Provided by Biodiversity
+
+Main Topic Title: Ecosystem Services and Biodiversity
+
+Sub-Topics:
+3.1 Air and Water Purification
+- Explanation: Biodiversity plays a key role in air and water purification through processes such as nutrient cycling and filtration (Database: Ecosystem services provided by biodiversity include air and water purification).
+3.2 Pollination and Crop Production
+- Explanation: Biodiversity supports pollination of crops, which is essential for agricultural productivity and food security (Database: Ecosystem services provided by biodiversity include pollination of crops).
+3.3 Climate Regulation and Pest Control
+- Explanation: Biodiversity helps regulate climate and control pests and diseases, contributing to ecosystem balance and resilience (Database: Biodiversity plays a crucial role in providing various ecosystem services).
+
+Learning Objectives:
+- Recognize the diverse ecosystem services provided by biodiversity.
+- Understand the importance of these services for human well-being and ecosystem function.
+- Analyze the interdependence between biodiversity, ecosystem services, and human activities.
+
+Estimated Number of Slides: 25
+
+Lab Activities/Practical Exercises:
+- Set up a pollinator garden to observe the role of biodiversity in supporting crop pollination.
+- Conduct a soil health assessment to understand the importance of biodiversity in nutrient cycling and soil formation.
+
+Real-World Applications and Examples:
+- Investigate the economic value of ecosystem services provided by biodiversity and their impact on local communities.
+- Explore successful conservation efforts that have led to the restoration of ecosystem services and biodiversity in different regions.
+
+Week 4: Conservation Strategies and Genetic Diversity
+
+Main Topic Title: Conservation Approaches and Genetic Diversity
+
+Sub-Topics:
+4.1 Ecotourism and Community-based Conservation
+- Explanation: Ecotourism promotes biodiversity conservation by providing economic incentives and involving local communities in sustainable tourism practices (Database: Ecotourism involves responsible travel to natural areas that conserves the environment).
+4.2 Genetic Diversity Preservation
+- Explanation: Genetic diversity is crucial for the long-term survival and adaptability of species, emphasizing the importance of genetic conservation efforts (Database: Genetic diversity preservation is crucial in biodiversity conservation).
+4.3 Endangered Species Conservation
+- Explanation: Conserving genetic diversity in endangered species is essential for their survival and resilience in changing environments (Database: Conserving genetic diversity in endangered species is crucial).
+
+Learning Objectives:
+- Evaluate the effectiveness of conservation strategies such as ecotourism and community-based conservation.
+- Understand the significance of genetic diversity preservation in biodiversity conservation.
+- Analyze the challenges and opportunities associated with conserving endangered species.
+
+Estimated Number of Slides: 30
+
+Lab Activities/Practical Exercises:
+- Develop a conservation plan for a local ecosystem or species, considering genetic diversity and community involvement.
+- Conduct a field trip to a conservation site or wildlife sanctuary to observe conservation practices in action.
+
+Real-World Applications and Examples:
+- Examine case studies of successful ecotourism projects that have contributed to biodiversity conservation and community development.
+- Discuss the role of genetic banks and seed vaults in preserving genetic diversity for future conservation efforts.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Biodiversity Conservation) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Weekly Module Structure:
+
+Week 1: Importance of Biodiversity Conservation
+
+Main Topic Title: The Significance of Biodiversity Conservation
+
+Sub-Topics:
+1.1 Ecosystem Stability and Resilience
+- Explanation: Biodiversity conservation is crucial for maintaining ecosystem stability and resilience, which in turn supports the overall health of ecosystems (Database: Biodiversity conservation is crucial for maintaining ecosystem stability and resilience).
+1.2 Essential Ecosystem Services
+- Explanation: Biodiversity conservation helps in sustaining essential ecosystem services such as clean air and water, pollination, and soil fertility (Database: Biodiversity conservation is crucial for maintaining ecosystem stability, resilience, and productivity).
+1.3 Human Health Benefits
+- Explanation: Conserving biodiversity supports human health by providing medicinal resources and contributing to overall well-being (Database: Conserving biodiversity also supports human health by providing medicinal resources).
+
+Learning Objectives:
+- Understand the importance of biodiversity conservation for ecosystem stability and resilience.
+- Recognize the essential ecosystem services provided by biodiversity.
+- Identify the role of biodiversity in supporting human health.
+
+Estimated Number of Slides: 15
+
+Lab Activities/Practical Exercises:
+- Conduct a biodiversity survey in a local park or natural area to observe the variety of species present and their interactions.
+- Analyze the impact of biodiversity loss on ecosystem services through case studies or simulations.
+
+Real-World Applications and Examples:
+- Discuss real-world examples of how biodiversity conservation efforts have led to the restoration of ecosystems and the recovery of endangered species.
+- Explore the role of biodiversity in supporting sustainable agriculture practices and food security.
+
+Week 2: Threats to Biodiversity
+
+Main Topic Title: Major Threats to Biodiversity
+
+Sub-Topics:
+2.1 Habitat Destruction
+- Explanation: Habitat destruction is one of the primary threats to biodiversity, leading to the loss of ecosystems and species (Database: Habitat destruction is one of the primary threats to biodiversity).
+2.2 Climate Change
+- Explanation: Climate change poses a significant threat to biodiversity by disrupting ecosystems and habitats (Database: Climate change is considered one of the major threats to biodiversity around the world).
+2.3 Pollution and Overexploitation
+- Explanation: Pollution and overexploitation of natural resources contribute to biodiversity loss and ecosystem degradation (Database: Major threats to biodiversity include habitat destruction, climate change, pollution, and overexploitation).
+
+Learning Objectives:
+- Identify and describe the major threats to biodiversity.
+- Understand the impact of habitat destruction, climate change, pollution, and overexploitation on biodiversity.
+- Analyze the interconnected nature of these threats and their cumulative effects on ecosystems.
+
+Estimated Number of Slides: 20
+
+Lab Activities/Practical Exercises:
+- Conduct a case study analysis of a specific threat to biodiversity and develop mitigation strategies.
+- Simulate the effects of pollution on aquatic ecosystems through water quality testing and analysis.
+
+Real-World Applications and Examples:
+- Explore how human activities such as deforestation and urbanization contribute to habitat destruction and biodiversity loss.
+- Investigate the role of climate change in driving species extinctions and ecosystem disruptions globally.
+
+Week 3: Ecosystem Services Provided by Biodiversity
+
+Main Topic Title: Ecosystem Services and Biodiversity
+
+Sub-Topics:
+3.1 Air and Water Purification
+- Explanation: Biodiversity plays a key role in air and water purification through processes such as nutrient cycling and filtration (Database: Ecosystem services provided by biodiversity include air and water purification).
+3.2 Pollination and Crop Production
+- Explanation: Biodiversity supports pollination of crops, which is essential for agricultural productivity and food security (Database: Ecosystem services provided by biodiversity include pollination of crops).
+3.3 Climate Regulation and Pest Control
+- Explanation: Biodiversity helps regulate climate and control pests and diseases, contributing to ecosystem balance and resilience (Database: Biodiversity plays a crucial role in providing various ecosystem services).
+
+Learning Objectives:
+- Recognize the diverse ecosystem services provided by biodiversity.
+- Understand the importance of these services for human well-being and ecosystem function.
+- Analyze the interdependence between biodiversity, ecosystem services, and human activities.
+
+Estimated Number of Slides: 25
+
+Lab Activities/Practical Exercises:
+- Set up a pollinator garden to observe the role of biodiversity in supporting crop pollination.
+- Conduct a soil health assessment to understand the importance of biodiversity in nutrient cycling and soil formation.
+
+Real-World Applications and Examples:
+- Investigate the economic value of ecosystem services provided by biodiversity and their impact on local communities.
+- Explore successful conservation efforts that have led to the restoration of ecosystem services and biodiversity in different regions.
+
+Week 4: Conservation Strategies and Genetic Diversity
+
+Main Topic Title: Conservation Approaches and Genetic Diversity
+
+Sub-Topics:
+4.1 Ecotourism and Community-based Conservation
+- Explanation: Ecotourism promotes biodiversity conservation by providing economic incentives and involving local communities in sustainable tourism practices (Database: Ecotourism involves responsible travel to natural areas that conserves the environment).
+4.2 Genetic Diversity Preservation
+- Explanation: Genetic diversity is crucial for the long-term survival and adaptability of species, emphasizing the importance of genetic conservation efforts (Database: Genetic diversity preservation is crucial in biodiversity conservation).
+4.3 Endangered Species Conservation
+- Explanation: Conserving genetic diversity in endangered species is essential for their survival and resilience in changing environments (Database: Conserving genetic diversity in endangered species is crucial).
+
+Learning Objectives:
+- Evaluate the effectiveness of conservation strategies such as ecotourism and community-based conservation.
+- Understand the significance of genetic diversity preservation in biodiversity conservation.
+- Analyze the challenges and opportunities associated with conserving endangered species.
+
+Estimated Number of Slides: 30
+
+Lab Activities/Practical Exercises:
+- Develop a conservation plan for a local ecosystem or species, considering genetic diversity and community involvement.
+- Conduct a field trip to a conservation site or wildlife sanctuary to observe conservation practices in action.
+
+Real-World Applications and Examples:
+- Examine case studies of successful ecotourism projects that have contributed to biodiversity conservation and community development.
+- Discuss the role of genetic banks and seed vaults in preserving genetic diversity for future conservation efforts.}). Total slides available: {8}. Topics to allocate: {4}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+🎲 Choice scenario triggered! (Rolled 17.2 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw response:
+[15, 20, 25, 30]
+.
+Slide allocation: [1, 1, 1, 5]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Biodiversity Conservation) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Weekly Module Structure:
+
+Week 1: Importance of Biodiversity Conservation
+
+Main Topic Title: The Significance of Biodiversity Conservation
+
+Sub-Topics:
+1.1 Ecosystem Stability and Resilience
+- Explanation: Biodiversity conservation is crucial for maintaining ecosystem stability and resilience, which in turn supports the overall health of ecosystems (Database: Biodiversity conservation is crucial for maintaining ecosystem stability and resilience).
+1.2 Essential Ecosystem Services
+- Explanation: Biodiversity conservation helps in sustaining essential ecosystem services such as clean air and water, pollination, and soil fertility (Database: Biodiversity conservation is crucial for maintaining ecosystem stability, resilience, and productivity).
+1.3 Human Health Benefits
+- Explanation: Conserving biodiversity supports human health by providing medicinal resources and contributing to overall well-being (Database: Conserving biodiversity also supports human health by providing medicinal resources).
+
+Learning Objectives:
+- Understand the importance of biodiversity conservation for ecosystem stability and resilience.
+- Recognize the essential ecosystem services provided by biodiversity.
+- Identify the role of biodiversity in supporting human health.
+
+Estimated Number of Slides: 15
+
+Lab Activities/Practical Exercises:
+- Conduct a biodiversity survey in a local park or natural area to observe the variety of species present and their interactions.
+- Analyze the impact of biodiversity loss on ecosystem services through case studies or simulations.
+
+Real-World Applications and Examples:
+- Discuss real-world examples of how biodiversity conservation efforts have led to the restoration of ecosystems and the recovery of endangered species.
+- Explore the role of biodiversity in supporting sustainable agriculture practices and food security.
+
+Week 2: Threats to Biodiversity
+
+Main Topic Title: Major Threats to Biodiversity
+
+Sub-Topics:
+2.1 Habitat Destruction
+- Explanation: Habitat destruction is one of the primary threats to biodiversity, leading to the loss of ecosystems and species (Database: Habitat destruction is one of the primary threats to biodiversity).
+2.2 Climate Change
+- Explanation: Climate change poses a significant threat to biodiversity by disrupting ecosystems and habitats (Database: Climate change is considered one of the major threats to biodiversity around the world).
+2.3 Pollution and Overexploitation
+- Explanation: Pollution and overexploitation of natural resources contribute to biodiversity loss and ecosystem degradation (Database: Major threats to biodiversity include habitat destruction, climate change, pollution, and overexploitation).
+
+Learning Objectives:
+- Identify and describe the major threats to biodiversity.
+- Understand the impact of habitat destruction, climate change, pollution, and overexploitation on biodiversity.
+- Analyze the interconnected nature of these threats and their cumulative effects on ecosystems.
+
+Estimated Number of Slides: 20
+
+Lab Activities/Practical Exercises:
+- Conduct a case study analysis of a specific threat to biodiversity and develop mitigation strategies.
+- Simulate the effects of pollution on aquatic ecosystems through water quality testing and analysis.
+
+Real-World Applications and Examples:
+- Explore how human activities such as deforestation and urbanization contribute to habitat destruction and biodiversity loss.
+- Investigate the role of climate change in driving species extinctions and ecosystem disruptions globally.
+
+Week 3: Ecosystem Services Provided by Biodiversity
+
+Main Topic Title: Ecosystem Services and Biodiversity
+
+Sub-Topics:
+3.1 Air and Water Purification
+- Explanation: Biodiversity plays a key role in air and water purification through processes such as nutrient cycling and filtration (Database: Ecosystem services provided by biodiversity include air and water purification).
+3.2 Pollination and Crop Production
+- Explanation: Biodiversity supports pollination of crops, which is essential for agricultural productivity and food security (Database: Ecosystem services provided by biodiversity include pollination of crops).
+3.3 Climate Regulation and Pest Control
+- Explanation: Biodiversity helps regulate climate and control pests and diseases, contributing to ecosystem balance and resilience (Database: Biodiversity plays a crucial role in providing various ecosystem services).
+
+Learning Objectives:
+- Recognize the diverse ecosystem services provided by biodiversity.
+- Understand the importance of these services for human well-being and ecosystem function.
+- Analyze the interdependence between biodiversity, ecosystem services, and human activities.
+
+Estimated Number of Slides: 25
+
+Lab Activities/Practical Exercises:
+- Set up a pollinator garden to observe the role of biodiversity in supporting crop pollination.
+- Conduct a soil health assessment to understand the importance of biodiversity in nutrient cycling and soil formation.
+
+Real-World Applications and Examples:
+- Investigate the economic value of ecosystem services provided by biodiversity and their impact on local communities.
+- Explore successful conservation efforts that have led to the restoration of ecosystem services and biodiversity in different regions.
+
+Week 4: Conservation Strategies and Genetic Diversity
+
+Main Topic Title: Conservation Approaches and Genetic Diversity
+
+Sub-Topics:
+4.1 Ecotourism and Community-based Conservation
+- Explanation: Ecotourism promotes biodiversity conservation by providing economic incentives and involving local communities in sustainable tourism practices (Database: Ecotourism involves responsible travel to natural areas that conserves the environment).
+4.2 Genetic Diversity Preservation
+- Explanation: Genetic diversity is crucial for the long-term survival and adaptability of species, emphasizing the importance of genetic conservation efforts (Database: Genetic diversity preservation is crucial in biodiversity conservation).
+4.3 Endangered Species Conservation
+- Explanation: Conserving genetic diversity in endangered species is essential for their survival and resilience in changing environments (Database: Conserving genetic diversity in endangered species is crucial).
+
+Learning Objectives:
+- Evaluate the effectiveness of conservation strategies such as ecotourism and community-based conservation.
+- Understand the significance of genetic diversity preservation in biodiversity conservation.
+- Analyze the challenges and opportunities associated with conserving endangered species.
+
+Estimated Number of Slides: 30
+
+Lab Activities/Practical Exercises:
+- Develop a conservation plan for a local ecosystem or species, considering genetic diversity and community involvement.
+- Conduct a field trip to a conservation site or wildlife sanctuary to observe conservation practices in action.
+
+Real-World Applications and Examples:
+- Examine case studies of successful ecotourism projects that have contributed to biodiversity conservation and community development.
+- Discuss the role of genetic banks and seed vaults in preserving genetic diversity for future conservation efforts.}). Slide allocation per topic: {[1, 1, 1, 5]}. Database content for reference: ({Biodiversity conservation is crucial for maintaining ecosystem stability, resilience, and productivity. It helps in sustaining essential ecosystem services such as clean water, air, food, and medicine. Biodiversity also plays a key role in providing natural resources for human use and enjoyment, suc...
+
+Biodiversity conservation is crucial for maintaining ecosystem stability and resilience. It helps in providing essential ecosystem services such as clean air and water, pollination, and soil fertility. Conserving biodiversity also supports human health by providing medicinal resources and contributi...
+
+Some major threats to biodiversity include habitat destruction, climate change, pollution, overexploitation, and invasive species. Habitat destruction is one of the primary threats, leading to the loss of ecosystems and the species that depend on them. Climate change is also a significant threat, im...
+
+Climate change is considered one of the major threats to biodiversity around the world. Rising temperatures, changing weather patterns, and extreme events such as hurricanes and wildfires can disrupt ecosystems, leading to habitat loss and species extinction. Global warming is also affecting the dis...
+
+Ecosystem services provided by biodiversity include air and water purification, pollination of crops, nutrient cycling, soil formation, and climate regulation. Biodiversity also supports recreational and cultural activities, as well as providing food, medicine, and raw materials for various industri...
+
+Biodiversity plays a crucial role in providing various ecosystem services that are essential for human well-being. These services include providing clean air and water, pollination of crops, regulating climate, controlling pests and diseases, and supporting nutrient cycling. The diversity of species...
+
+Biodiversity is a crucial source of medicinal resources, providing natural ingredients for traditional and modern medicine. Many pharmaceutical drugs are derived from plants, animals, and microorganisms found in diverse ecosystems.
+
+Traditional medicine, often derived from indigenous knowledge, relies heavily on the use of medicinal plants found in biodiverse ecosystems. Many indigenous communities have deep knowledge of the medicinal properties of various plant species, which are crucial for their healthcare. By conserving bio...
+
+Ecotourism involves responsible travel to natural areas that conserves the environment and improves the well-being of local people. It plays a crucial role in promoting biodiversity conservation by providing economic incentives for the conservation of natural habitats and wildlife. Ecotourism can he...
+
+Community-based ecotourism is a form of tourism that involves local communities in the management and operation of tourism activities in their area. This approach not only provides economic benefits to the community but also promotes the conservation of biodiversity. By actively involving local peop...
+
+Genetic diversity preservation is crucial in biodiversity conservation as it ensures the long-term survival and adaptability of species. By maintaining a diverse gene pool, populations are better equipped to withstand environmental changes, diseases, and other threats. Conservation efforts often foc...
+
+Conserving genetic diversity in endangered species is crucial for their long-term survival. Genetic diversity allows populations to adapt to changing environments and reduces the risk of inbreeding, which can lead to decreased fitness and increased vulnerability to diseases. Conservation efforts oft...
+
+Habitat destruction is one of the primary threats to biodiversity worldwide. It occurs when natural habitats are altered or destroyed, leading to the loss of species and ecosystems. This can result from various human activities such as deforestation, urbanization, agriculture, mining, and infrastruc...
+
+Habitat destruction is primarily caused by human activities such as deforestation, urbanization, agriculture, and mining. Deforestation involves the clearing of forests for timber, agriculture, or development. Urbanization leads to the conversion of natural habitats into cities and towns. Agricultur...
+
+Invasive species can have a significant impact on biodiversity by outcompeting native species for resources, preying on native species, and altering habitats. This can lead to a decrease in the overall diversity of an ecosystem and disrupt the balance of species interactions. Invasive species are co...
+
+Invasive species can have devastating impacts on biodiversity by outcompeting native species for resources, preying on native species, disrupting ecosystems, altering habitats, and spreading diseases. For example, the brown tree snake in Guam has caused the decline and extinction of several bird spe...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+Raw response:
+1. Importance of Biodiversity Conservation for Ecosystem Stability and Resilience
+2. Essential Ecosystem Services Provided by Biodiversity
+3. Human Health Benefits of Conserving Biodiversity
+4. Major Threats to Biodiversity: Habitat Destruction
+5. Climate Change as a Significant Threat to Biodiversity
+6. Pollution and Overexploitation Impact on Biodiversity
+7. Ecosystem Services: Air and Water Purification by Biodiversity
+8. Pollination and Crop Production Supported by Biodiversity
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-21_09-18-15.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-21_09-18-15.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+🎲 Choice scenario triggered! (Rolled 27.1 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-21_09-18-34.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+✅ Content validation passed - suitable for 3 credit hours
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Biodiversity Conservation
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Importance of Biodiversity Conservation for Ecosystem Stability and Resilience)
+🔍 DEBUG: Slide 1 content set to: 'Biodiversity conservation is essential for maintaining ecosystem stability and resilience Diversity ...'
+🔍 DEBUG: Slide 1 content length: 295
+✅ Slide 1 content: - Biodiversity conservation is essential for maintaining ecosystem stability and resilience
+- Diversity of species enhances ecosystem health and ability to recover from disturbances
+- Example: Yellowstone National Park demonstrates the importance of biodiversity for ecosystem stability and resilience
+Generating content for slide 2 (Topic: Essential Ecosystem Services Provided by Biodiversity)
+🎲 Choice scenario triggered! (Rolled 39.9 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+🔍 DEBUG: Slide 2 content set to: '• Biodiversity provides essential ecosystem services crucial for human well-being • Services include...'
+🔍 DEBUG: Slide 2 content length: 357
+✅ Slide 2 content: • Biodiversity provides essential ecosystem services crucial for human well-being
+• Services include clean air and water, pollination of crops, climate regulation, and pest control
+• Diversity of species enhances ecosystem resilience and stability
+• Yellowstone National Park exemplifies the importance of biodiversity for ecosystem stability and resilience
+Generating content for slide 3 (Topic: Human Health Benefits of Conserving Biodiversity)
+🔍 DEBUG: Slide 3 content set to: '• Biodiversity conservation supports human health by providing medicinal resources and contributing ...'
+🔍 DEBUG: Slide 3 content length: 364
+✅ Slide 3 content: • Biodiversity conservation supports human health by providing medicinal resources and contributing to food security
+• Conserving biodiversity promotes ecotourism and cultural heritage preservation
+• Traditional medicine relies on medicinal plants found in biodiverse ecosystems
+• Indigenous communities have deep knowledge of medicinal properties of plant species
+Generating content for slide 4 (Topic: Major Threats to Biodiversity: Habitat Destruction)
+🎲 Choice scenario triggered! (Rolled 32.6 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+🔍 DEBUG: Slide 4 content set to: 'Habitat destruction is a major threat to biodiversity worldwide Human activities such as deforestati...'
+🔍 DEBUG: Slide 4 content length: 383
+✅ Slide 4 content: - Habitat destruction is a major threat to biodiversity worldwide
+- Human activities such as deforestation, urbanization, agriculture, mining, and infrastructure development contribute to habitat destruction
+- Alteration or destruction of natural habitats leads to the loss of species and ecosystems
+- Disrupts the delicate balance of ecosystems, causing species to decline or become extinct
+Generating content for slide 5 (Topic: Climate Change as a Significant Threat to Biodiversity)
+🔍 DEBUG: Slide 5 content set to: '• Climate change poses a significant threat to biodiversity worldwide • Rising temperatures, changin...'
+🔍 DEBUG: Slide 5 content length: 314
+✅ Slide 5 content: • Climate change poses a significant threat to biodiversity worldwide
+• Rising temperatures, changing weather patterns, and extreme events disrupt ecosystems
+• Habitat loss and species extinction are consequences of climate change
+• Global warming affects the distribution and abundance of plant and animal species
+Generating content for slide 6 (Topic: Pollution and Overexploitation Impact on Biodiversity)
+🔍 DEBUG: Slide 6 content set to: 'Pollution and overexploitation can have detrimental impacts on biodiversity Pollution from various s...'
+🔍 DEBUG: Slide 6 content length: 297
+✅ Slide 6 content: - Pollution and overexploitation can have detrimental impacts on biodiversity
+- Pollution from various sources can harm species and ecosystems
+- Overexploitation of resources can lead to the decline or extinction of species
+- Examples include pollution from industrial activities and overfishing in oceans
+Generating content for slide 7 (Topic: Ecosystem Services: Air and Water Purification by Biodiversity)
+🎲 Choice scenario triggered! (Rolled 6.5 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+🔍 DEBUG: Slide 7 content set to: '• Biodiversity plays a crucial role in providing ecosystem services like air and water purification ...'
+🔍 DEBUG: Slide 7 content length: 438
+✅ Slide 7 content: • Biodiversity plays a crucial role in providing ecosystem services like air and water purification
+• Clean air and water are essential for human well-being and are supported by diverse ecosystems
+• Biodiversity enhances ecosystem resilience and stability, contributing to the purification of air and water
+• Example: Diverse plant species in wetlands help filter pollutants from water, improving water quality and supporting aquatic life
+Generating content for slide 8 (Topic: Pollination and Crop Production Supported by Biodiversity)
+🔍 DEBUG: Slide 8 content set to: '• Pollination is a critical ecosystem service provided by biodiversity • Biodiverse ecosystems suppo...'
+🔍 DEBUG: Slide 8 content length: 375
+✅ Slide 8 content: • Pollination is a critical ecosystem service provided by biodiversity
+• Biodiverse ecosystems support a wide variety of pollinators such as bees, butterflies, and birds
+• Crop production relies on pollinators for the reproduction of many plant species
+• Example: Bees pollinate a significant portion of food crops, contributing to agricultural productivity and food security
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Importance of Biodiversity Conservation for Ecosystem Stability and Resilience)
+✅ Slide 1 title: "Biodiversity: Key to Ecosystem Stability"
+Generating title for slide 2 (Topic: Essential Ecosystem Services Provided by Biodiversity)
+✅ Slide 2 title: Essential Ecosystem Services of Biodiversity
+Generating title for slide 3 (Topic: Human Health Benefits of Conserving Biodiversity)
+✅ Slide 3 title: Human Health Benefits of Biodiversity Conservation
+Generating title for slide 4 (Topic: Major Threats to Biodiversity: Habitat Destruction)
+✅ Slide 4 title: "Habitat Destruction: Threat to Biodiversity"
+Generating title for slide 5 (Topic: Climate Change as a Significant Threat to Biodiversity)
+🎲 Choice scenario triggered! (Rolled 37.7 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 5 title: Impact of Climate Change on Biodiversity
+Generating title for slide 6 (Topic: Pollution and Overexploitation Impact on Biodiversity)
+🎲 Choice scenario triggered! (Rolled 1.2 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 6 title: "Pollution & Overexploitation: Biodiversity Impact"
+Generating title for slide 7 (Topic: Ecosystem Services: Air and Water Purification by Biodiversity)
+🎲 Choice scenario triggered! (Rolled 4.9 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 7 title: "Ecosystem Services: Air & Water Purification"
+Generating title for slide 8 (Topic: Pollination and Crop Production Supported by Biodiversity)
+✅ Slide 8 title: Title: Pollination and Crop Production Support
+Generating overall presentation title...
+✅ Overall presentation title: Biodiversity Conservation: Protecting Life for a Sustainable Future
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Importance of Biodiversity Conservation for Ecosystem Stability and Resilience)
+🎲 Choice scenario triggered! (Rolled 34.7 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Essential Ecosystem Services Provided by Biodiversity)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Human Health Benefits of Conserving Biodiversity)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Major Threats to Biodiversity: Habitat Destruction)
+🎲 Choice scenario triggered! (Rolled 22.0 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Climate Change as a Significant Threat to Biodiversity)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Pollution and Overexploitation Impact on Biodiversity)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Ecosystem Services: Air and Water Purification by Biodiversity)
+🎲 Choice scenario triggered! (Rolled 16.7 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Pollination and Crop Production Supported by Biodiversity)
+🎲 Choice scenario triggered! (Rolled 30.3 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Importance of Biodiversity Conservation for Ecosystem Stability and Resilience)
+🎲 Choice scenario triggered! (Rolled 39.8 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Essential Ecosystem Services Provided by Biodiversity)
+⚠️ Warning: Slide 2 content is long (587 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Human Health Benefits of Conserving Biodiversity)
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Major Threats to Biodiversity: Habitat Destruction)
+🎲 Choice scenario triggered! (Rolled 29.2 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Climate Change as a Significant Threat to Biodiversity)
+🎲 Choice scenario triggered! (Rolled 33.1 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Pollution and Overexploitation Impact on Biodiversity)
+🎲 Choice scenario triggered! (Rolled 18.6 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+API calls remaining: 900/1000
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+⚠️ Warning: Slide 6 content is long (527 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Ecosystem Services: Air and Water Purification by Biodiversity)
+⚠️ Warning: Slide 7 content is long (514 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Pollination and Crop Production Supported by Biodiversity)
+🎲 Choice scenario triggered! (Rolled 28.8 <= 40.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+⚠️ Warning: Slide 8 content is long (726 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Biodiversity_Conservation_Protecting_Life_for_a_Sustainable_Future_2025-08-21_09-19-36
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Biodiversity_Conservation_Protecting_Life_for_a_Sustainable_Future_2025-08-21_09-19-36.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Biodiversity_Conservation_Protecting_Life_for_a_Sustainable_Future_2025-08-21_09-19-36.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 2 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Biodiversity_Conservation_Protecting_Life_for_a_Sustainable_Future_2025-08-21_09-19-36.pptx
+📊 Rating presentation 2...
+✅ Presentation 2 rated successfully
+📈 Overall Rating: 5.71 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.33 / 2.00
+   - Non-Repetition: 1.63 / 2.00
+   - Content Balance: 1.05 / 2.00
+   - Title Uniqueness: 1.96 / 2.00
+   - Title-Content Match: 0.73 / 2.00
+💾 Result saved to file for presentation 2
+
+============================================================
+🎯 Testing Human Choice Chance: 60.0%
+============================================================
+
+📊 Presentation 1/1 (ID: 3)
+📝 Using topic: Biodiversity Conservation
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

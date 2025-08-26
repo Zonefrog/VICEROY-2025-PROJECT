@@ -1,0 +1,189 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-13T13:10:09.096034
+Configuration: max_calls=10, slide_target=8
+--------------------------------------------------
+
+Log file initialized: C:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-13_13-10-09.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 10 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 80
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+✅ System initialized successfully!
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Module 2. LLM-Content
+Topic 2. LLM content generation and detection (2 weeks, 2 labs)
+2.1. LLM-content benchmarking datasets
+2.2. LLM-content detection
+2.3. Evading LLM detectors
+2.4. Watermarking LLM content
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 10
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+✅ Generation context prepared!
+
+🔬 Testing Step 4.5...
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Module 2. LLM-Content
+Topic 2. LLM content generation and detection (2 weeks, 2 labs)
+2.1. LLM-content benchmarking datasets
+2.2. LLM-content detection
+2.3. Evading LLM detectors
+2.4. Watermarking LLM content) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({}). Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+API calls remaining: 9/10
+Raw response:
+4
+.
+Topic count decided: 4
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Module 2. LLM-Content
+Topic 2. LLM content generation and detection (2 weeks, 2 labs)
+2.1. LLM-content benchmarking datasets
+2.2. LLM-content detection
+2.3. Evading LLM detectors
+2.4. Watermarking LLM content) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following database text sample, you are going to create a detailed teaching outline. Database sample: ({}). You are to come up with {4} main topics/sections. For each topic, create a detailed breakdown including: - Main topic title - 3-5 sub-topics that will be covered - Brief explanation of what each sub-topic covers - Estimated number of slides needed for this topic Respond in a structured format that clearly shows the teaching plan. Make this comprehensive and suitable for a detailed teaching presentation.)
+.
+API calls remaining: 8/10
+Raw response:
+Teaching Outline:
+
+Topic 2: LLM Content Generation and Detection
+
+Main Topic 1: LLM-Content Benchmarking Datasets
+- Introduction to LLM-content benchmarking datasets
+- Overview of popular benchmarking datasets used in LLM content generation and detection research
+- Explanation of the importance of benchmarking datasets in evaluating LLM models
+- Comparison of different benchmarking datasets and their characteristics
+- Estimated number of slides: 5
+
+Main Topic 2: LLM-Content Detection
+- Understanding LLM-content detection techniques
+- Overview of common methods used for detecting LLM-generated content
+- Discussion on the challenges and limitations of LLM-content detection
+- Case studies on successful LLM-content detection strategies
+- Estimated number of slides: 7
+
+Main Topic 3: Evading LLM Detectors
+- Introduction to techniques for evading LLM detectors
+- Overview of methods used to bypass LLM-content detection systems
+- Discussion on the ethical implications of evading LLM detectors
+- Case studies on real-world examples of evading LLM detectors
+- Estimated number of slides: 6
+
+Main Topic 4: Watermarking LLM Content
+- Explanation of watermarking techniques for LLM-generated content
+- Overview of different types of watermarks used in LLM content
+- Discussion on the advantages and disadvantages of watermarking LLM content
+- Case studies on the effectiveness of watermarking in protecting LLM content
+- Estimated number of slides: 5
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Module 2. LLM-Content
+Topic 2. LLM content generation and detection (2 weeks, 2 labs)
+2.1. LLM-content benchmarking datasets
+2.2. LLM-content detection
+2.3. Evading LLM detectors
+2.4. Watermarking LLM content) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Teaching Outline:
+
+Topic 2: LLM Content Generation and Detection
+
+Main Topic 1: LLM-Content Benchmarking Datasets
+- Introduction to LLM-content benchmarking datasets
+- Overview of popular benchmarking datasets used in LLM content generation and detection research
+- Explanation of the importance of benchmarking datasets in evaluating LLM models
+- Comparison of different benchmarking datasets and their characteristics
+- Estimated number of slides: 5
+
+Main Topic 2: LLM-Content Detection
+- Understanding LLM-content detection techniques
+- Overview of common methods used for detecting LLM-generated content
+- Discussion on the challenges and limitations of LLM-content detection
+- Case studies on successful LLM-content detection strategies
+- Estimated number of slides: 7
+
+Main Topic 3: Evading LLM Detectors
+- Introduction to techniques for evading LLM detectors
+- Overview of methods used to bypass LLM-content detection systems
+- Discussion on the ethical implications of evading LLM detectors
+- Case studies on real-world examples of evading LLM detectors
+- Estimated number of slides: 6
+
+Main Topic 4: Watermarking LLM Content
+- Explanation of watermarking techniques for LLM-generated content
+- Overview of different types of watermarks used in LLM content
+- Discussion on the advantages and disadvantages of watermarking LLM content
+- Case studies on the effectiveness of watermarking in protecting LLM content
+- Estimated number of slides: 5}). Total slides available: {8}. Topics to allocate: {4}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly.)
+.
+API calls remaining: 7/10
+Raw response:
+[5, 7, 6, 5]
+.
+Slide allocation: [1, 3, 2, 2]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Module 2. LLM-Content
+Topic 2. LLM content generation and detection (2 weeks, 2 labs)
+2.1. LLM-content benchmarking datasets
+2.2. LLM-content detection
+2.3. Evading LLM detectors
+2.4. Watermarking LLM content) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline and slide allocation, create specific topics for each slide. Teaching outline: ({Teaching Outline:
+
+Topic 2: LLM Content Generation and Detection
+
+Main Topic 1: LLM-Content Benchmarking Datasets
+- Introduction to LLM-content benchmarking datasets
+- Overview of popular benchmarking datasets used in LLM content generation and detection research
+- Explanation of the importance of benchmarking datasets in evaluating LLM models
+- Comparison of different benchmarking datasets and their characteristics
+- Estimated number of slides: 5
+
+Main Topic 2: LLM-Content Detection
+- Understanding LLM-content detection techniques
+- Overview of common methods used for detecting LLM-generated content
+- Discussion on the challenges and limitations of LLM-content detection
+- Case studies on successful LLM-content detection strategies
+- Estimated number of slides: 7
+
+Main Topic 3: Evading LLM Detectors
+- Introduction to techniques for evading LLM detectors
+- Overview of methods used to bypass LLM-content detection systems
+- Discussion on the ethical implications of evading LLM detectors
+- Case studies on real-world examples of evading LLM detectors
+- Estimated number of slides: 6
+
+Main Topic 4: Watermarking LLM Content
+- Explanation of watermarking techniques for LLM-generated content
+- Overview of different types of watermarks used in LLM content
+- Discussion on the advantages and disadvantages of watermarking LLM content
+- Case studies on the effectiveness of watermarking in protecting LLM content
+- Estimated number of slides: 5}). Slide allocation per topic: {[1, 3, 2, 2]}. Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching. Respond with nothing else - just the list.)
+.
+API calls remaining: 6/10
+Raw response:
+- Introduction to LLM-content benchmarking datasets
+- Overview of popular benchmarking datasets used in LLM content generation and detection research
+- Explanation of the importance of benchmarking datasets in evaluating LLM models
+- Comparison of different benchmarking datasets and their characteristics
+- Understanding LLM-content detection techniques
+- Overview of common methods used for detecting LLM-generated content
+- Discussion on the challenges and limitations of LLM-content detection
+- Case studies on successful LLM-content detection strategies
+.
+❌ Error in Step 4.5 test: Error parsing slide topics: No list found in response
+
+💥 Step 4.5 test failed!

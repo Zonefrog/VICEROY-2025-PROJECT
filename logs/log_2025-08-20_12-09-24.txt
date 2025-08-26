@@ -1,0 +1,958 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-20T12:09:24.224611
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-20_12-09-24.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 0...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Global Supply Chain Management
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: AI in inventory management, Blockchain technology in supply chain tracking
+Selected topics: ['AI in inventory management', 'Blockchain technology in supply chain tracking']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: AI in inventory management
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **AI IN INVENTORY MANAGEMENT** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of AI in Inventory Management",
+    "keywords": ["AI", "inventory management", "supply chain", "artificial intelligence"],
+    "text": "AI is being increasingly utilized in inventory management to optimize supply chain operations. AI can help in demand forecasting, inventory optimization, and predictive analytics to improve efficiency and reduce costs.",
+    "link": "https://www.supplychaindive.com/news/artificial-intelligence-supply-chain-inventory-management/521326/"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: The Role of AI in Inventory Management
+Keywords: AI, inventory management, supply chain, artificial intelligence
+Uses: 0
+Text: AI is being increasingly utilized in inventory management to optimize supply chain operations. AI can help in demand forecasting, inventory optimization, and predictive analytics to improve efficiency and reduce costs.Link: https://www.supplychaindive.com/news/artificial-intelligence-supply-chain-inventory-management/521326/
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **AI IN INVENTORY MANAGEMENT** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Impact of AI on Supply Chain Inventory Management",
+    "keywords": ["AI", "supply chain", "inventory management", "artificial intelligence", "technology"],
+    "text": "Artificial Intelligence (AI) is revolutionizing supply chain inventory management by providing real-time data analysis, demand forecasting, and optimization of inventory levels. AI algorithms can predict future demand patterns, optimize reorder points, reduce excess inventory, and improve overall supply chain efficiency.",
+    "link": "https://www.forbes.com/sites/forbestechcouncil/2021/04/12/how-ai-is-revolutionizing-inventory-management/?sh=5a4f3f5b5b2c"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: The Impact of AI on Supply Chain Inventory Management
+Keywords: AI, supply chain, inventory management, artificial intelligence, technology
+Uses: 0
+Text: Artificial Intelligence (AI) is revolutionizing supply chain inventory management by providing real-time data analysis, demand forecasting, and optimization of inventory levels. AI algorithms can predict future demand patterns, optimize reorder points, reduce excess inventory, and improve overall supply chain efficiency.Link: https://www.forbes.com/sites/forbestechcouncil/2021/04/12/how-ai-is-revolutionizing-inventory-management/?sh=5a4f3f5b5b2c
+Researching topic: Blockchain technology in supply chain tracking
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BLOCKCHAIN TECHNOLOGY IN SUPPLY CHAIN TRACKING** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of Blockchain Technology in Supply Chain Tracking",
+    "keywords": ["Blockchain Technology", "Supply Chain Tracking", "Blockchain in Supply Chain", "Supply Chain Management", "Blockchain Applications"],
+    "text": "Blockchain technology in supply chain tracking refers to the use of a decentralized digital ledger to record transactions across a network of computers. This technology enables improved traceability, transparency, and security in supply chain management by creating a tamper-proof record of transactions. By utilizing blockchain technology, companies can track the movement of goods, verify authenticity, and ensure compliance with regulations throughout the supply chain.",
+    "link": "https://www.forbes.com/sites/forbestechcouncil/2020/11/02/how-blockchain-is-revolutionizing-supply-chain-management/?sh=77a6b9c27a8d"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: The Role of Blockchain Technology in Supply Chain Tracking
+Keywords: Blockchain Technology, Supply Chain Tracking, Blockchain in Supply Chain, Supply Chain Management, Blockchain Applications
+Uses: 0
+Text: Blockchain technology in supply chain tracking refers to the use of a decentralized digital ledger to record transactions across a network of computers. This technology enables improved traceability, transparency, and security in supply chain management by creating a tamper-proof record of transactions. By utilizing blockchain technology, companies can track the movement of goods, verify authenticity, and ensure compliance with regulations throughout the supply chain.Link: https://www.forbes.com/sites/forbestechcouncil/2020/11/02/how-blockchain-is-revolutionizing-supply-chain-management/?sh=77a6b9c27a8d
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BLOCKCHAIN TECHNOLOGY IN SUPPLY CHAIN TRACKING** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "How Blockchain Technology is Revolutionizing Supply Chain Tracking",
+    "keywords": ["blockchain technology", "supply chain tracking", "revolutionizing"],
+    "text": "Blockchain technology is revolutionizing supply chain tracking by providing an immutable and transparent ledger of transactions. This enables real-time tracking of goods from the point of origin to the final destination, ensuring authenticity and minimizing the risk of fraud or errors. By using blockchain, companies can enhance trust among stakeholders, optimize processes, and improve overall supply chain efficiency.",
+    "link": "https://www.forbes.com/sites/forbestechcouncil/2021/06/01/how-blockchain-is-revolutionizing-supply-chain-management/?sh=6d5a9b9d3b3e"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: How Blockchain Technology is Revolutionizing Supply Chain Tracking
+Keywords: blockchain technology, supply chain tracking, revolutionizing
+Uses: 0
+Text: Blockchain technology is revolutionizing supply chain tracking by providing an immutable and transparent ledger of transactions. This enables real-time tracking of goods from the point of origin to the final destination, ensuring authenticity and minimizing the risk of fraud or errors. By using blockchain, companies can enhance trust among stakeholders, optimize processes, and improve overall supply chain efficiency.Link: https://www.forbes.com/sites/forbestechcouncil/2021/06/01/how-blockchain-is-revolutionizing-supply-chain-management/?sh=6d5a9b9d3b3e
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Global Supply Chain Management) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['AI in inventory management', 'Blockchain technology in supply chain tracking']. The research these yeilded is: ({AI is being increasingly utilized in inventory management to optimize supply chain operations. AI can help in demand forecasting, inventory optimization, and predictive analytics to improve efficiency and reduce costs.
+
+Artificial Intelligence (AI) is revolutionizing supply chain inventory management by providing real-time data analysis, demand forecasting, and optimization of inventory levels. AI algorithms can predict future demand patterns, optimize reorder points, reduce excess inventory, and improve overall supply chain efficiency.
+
+Blockchain technology in supply chain tracking refers to the use of a decentralized digital ledger to record transactions across a network of computers. This technology enables improved traceability, transparency, and security in supply chain management by creating a tamper-proof record of transactions. By utilizing blockchain technology, companies can track the movement of goods, verify authenticity, and ensure compliance with regulations throughout t (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Predictive maintenance in global supply chains, Data analytics in supply chain risk management, IoT applications in supply chain visibility, Sustainability practices in international logistics, Supplier relationship management strategies, Inventory optimization through machine learning algorithms
+Selected topics: ['Predictive maintenance in global supply chains', 'Data analytics in supply chain risk management', 'IoT applications in supply chain visibility', 'Sustainability practices in international logistics', 'Supplier relationship management strategies', 'Inventory optimization through machine learning algorithms']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Predictive maintenance in global supply chains
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking', 'How Blockchain Technology is Revolutionizing Supply Chain Tracking']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **PREDICTIVE MAINTENANCE IN GLOBAL SUPPLY CHAINS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of Predictive Maintenance in Global Supply Chains",
+    "keywords": ["predictive maintenance", "global supply chains", "AI", "machine learning", "maintenance optimization"],
+    "text": "Predictive maintenance in global supply chains involves using AI and machine learning algorithms to predict when equipment is likely to fail so that maintenance can be performed proactively. This approach helps to minimize downtime, reduce maintenance costs, and optimize overall equipment efficiency.",
+    "link": "https://www.forbes.com/sites/forbestechcouncil/2021/04/15/the-importance-of-predictive-maintenance-in-supply-chain-efficiency/?sh=4e7f1b7757c6"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: The Role of Predictive Maintenance in Global Supply Chains
+Keywords: predictive maintenance, global supply chains, AI, machine learning, maintenance optimization
+Uses: 0
+Text: Predictive maintenance in global supply chains involves using AI and machine learning algorithms to predict when equipment is likely to fail so that maintenance can be performed proactively. This approach helps to minimize downtime, reduce maintenance costs, and optimize overall equipment efficiency.Link: https://www.forbes.com/sites/forbestechcouncil/2021/04/15/the-importance-of-predictive-maintenance-in-supply-chain-efficiency/?sh=4e7f1b7757c6
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking', 'How Blockchain Technology is Revolutionizing Supply Chain Tracking', 'The Role of Predictive Maintenance in Global Supply Chains']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **PREDICTIVE MAINTENANCE IN GLOBAL SUPPLY CHAINS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Benefits of Predictive Maintenance in Global Supply Chains",
+    "keywords": ["predictive maintenance", "benefits", "global supply chains"],
+    "text": "Predictive maintenance in global supply chains offers several benefits, including increased equipment uptime, reduced maintenance costs, improved operational efficiency, and enhanced safety. By using data analytics and machine learning algorithms, companies can predict when equipment is likely to fail and proactively schedule maintenance to prevent costly downtime. This proactive approach helps organizations avoid unexpected breakdowns, minimize disruptions in the supply chain, and optimize overall equipment performance.",
+    "link": "https://www.forbes.com/sites/forbestechcouncil/2020/06/05/the-benefits-of-predictive-maintenance-in-supply-chain-management/?sh=3e0b0d3f7dcb"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Benefits of Predictive Maintenance in Global Supply Chains
+Keywords: predictive maintenance, benefits, global supply chains
+Uses: 0
+Text: Predictive maintenance in global supply chains offers several benefits, including increased equipment uptime, reduced maintenance costs, improved operational efficiency, and enhanced safety. By using data analytics and machine learning algorithms, companies can predict when equipment is likely to fail and proactively schedule maintenance to prevent costly downtime. This proactive approach helps organizations avoid unexpected breakdowns, minimize disruptions in the supply chain, and optimize overall equipment performance.Link: https://www.forbes.com/sites/forbestechcouncil/2020/06/05/the-benefits-of-predictive-maintenance-in-supply-chain-management/?sh=3e0b0d3f7dcb
+Researching topic: Data analytics in supply chain risk management
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking', 'How Blockchain Technology is Revolutionizing Supply Chain Tracking', 'The Role of Predictive Maintenance in Global Supply Chains', 'Benefits of Predictive Maintenance in Global Supply Chains']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **DATA ANALYTICS IN SUPPLY CHAIN RISK MANAGEMENT** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of Data Analytics in Supply Chain Risk Management",
+    "keywords": ["data analytics", "supply chain", "risk management"],
+    "text": "Data analytics plays a crucial role in supply chain risk management by helping companies identify potential risks, predict their likelihood, and mitigate their impact. By analyzing large volumes of data from various sources such as suppliers, transportation, and market trends, organizations can proactively manage risks and make informed decisions to ensure the continuity of their supply chain operations.",
+    "link": "https://www.forbes.com/sites/forbestechcouncil/2020/06/10/data-analytics-in-supply-chain-risk-management/?sh=2d7b3ae46d2d"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: The Role of Data Analytics in Supply Chain Risk Management
+Keywords: data analytics, supply chain, risk management
+Uses: 0
+Text: Data analytics plays a crucial role in supply chain risk management by helping companies identify potential risks, predict their likelihood, and mitigate their impact. By analyzing large volumes of data from various sources such as suppliers, transportation, and market trends, organizations can proactively manage risks and make informed decisions to ensure the continuity of their supply chain operations.Link: https://www.forbes.com/sites/forbestechcouncil/2020/06/10/data-analytics-in-supply-chain-risk-management/?sh=2d7b3ae46d2d
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking', 'How Blockchain Technology is Revolutionizing Supply Chain Tracking', 'The Role of Predictive Maintenance in Global Supply Chains', 'Benefits of Predictive Maintenance in Global Supply Chains', 'The Role of Data Analytics in Supply Chain Risk Management']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **DATA ANALYTICS IN SUPPLY CHAIN RISK MANAGEMENT** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Importance of Data Analytics in Supply Chain Risk Management",
+    "keywords": ["data analytics", "supply chain", "risk management", "importance"],
+    "text": "Data analytics plays a crucial role in supply chain risk management by providing insights into potential risks and helping organizations make proactive decisions to mitigate these risks. By analyzing data from various sources such as suppliers, transportation routes, and market trends, companies can identify patterns and trends that may indicate potential disruptions in the supply chain. This allows for better risk assessment and the development of strategies to minimize the impact of these disruptions.",
+    "link": "https://www.forbes.com/sites/forbestechcouncil/2021/06/14/the-importance-of-data-analytics-in-supply-chain-risk-management/?sh=1f5ac29b3a8d"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: The Importance of Data Analytics in Supply Chain Risk Management
+Keywords: data analytics, supply chain, risk management, importance
+Uses: 0
+Text: Data analytics plays a crucial role in supply chain risk management by providing insights into potential risks and helping organizations make proactive decisions to mitigate these risks. By analyzing data from various sources such as suppliers, transportation routes, and market trends, companies can identify patterns and trends that may indicate potential disruptions in the supply chain. This allows for better risk assessment and the development of strategies to minimize the impact of these disruptions.Link: https://www.forbes.com/sites/forbestechcouncil/2021/06/14/the-importance-of-data-analytics-in-supply-chain-risk-management/?sh=1f5ac29b3a8d
+Researching topic: IoT applications in supply chain visibility
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking', 'How Blockchain Technology is Revolutionizing Supply Chain Tracking', 'The Role of Predictive Maintenance in Global Supply Chains', 'Benefits of Predictive Maintenance in Global Supply Chains', 'The Role of Data Analytics in Supply Chain Risk Management', 'The Importance of Data Analytics in Supply Chain Risk Management']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IOT APPLICATIONS IN SUPPLY CHAIN VISIBILITY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of IoT Applications in Supply Chain Visibility",
+    "keywords": ["IoT", "supply chain visibility", "applications", "technology"],
+    "text": "IoT applications play a crucial role in enhancing supply chain visibility by providing real-time tracking and monitoring of goods and assets throughout the entire supply chain. These applications utilize sensors and connected devices to collect and transmit data, allowing stakeholders to have a comprehensive view of the supply chain operations. By leveraging IoT technology, companies can improve inventory management, optimize logistics processes, and enhance overall supply chain efficiency.",
+    "link": "https://www.forbes.com/sites/forbestechcouncil/2020/06/11/how-iot-is-transforming-supply-chain-visibility/?sh=2a5d2d2c6c7a"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: The Role of IoT Applications in Supply Chain Visibility
+Keywords: IoT, supply chain visibility, applications, technology
+Uses: 0
+Text: IoT applications play a crucial role in enhancing supply chain visibility by providing real-time tracking and monitoring of goods and assets throughout the entire supply chain. These applications utilize sensors and connected devices to collect and transmit data, allowing stakeholders to have a comprehensive view of the supply chain operations. By leveraging IoT technology, companies can improve inventory management, optimize logistics processes, and enhance overall supply chain efficiency.Link: https://www.forbes.com/sites/forbestechcouncil/2020/06/11/how-iot-is-transforming-supply-chain-visibility/?sh=2a5d2d2c6c7a
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking', 'How Blockchain Technology is Revolutionizing Supply Chain Tracking', 'The Role of Predictive Maintenance in Global Supply Chains', 'Benefits of Predictive Maintenance in Global Supply Chains', 'The Role of Data Analytics in Supply Chain Risk Management', 'The Importance of Data Analytics in Supply Chain Risk Management', 'The Role of IoT Applications in Supply Chain Visibility']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IOT APPLICATIONS IN SUPPLY CHAIN VISIBILITY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of IoT Applications in Supply Chain Visibility",
+    "keywords": ["IoT applications", "supply chain visibility", "Internet of Things", "logistics tracking"],
+    "text": "IoT applications play a crucial role in enhancing supply chain visibility by providing real-time data on the location and condition of goods in transit. By using sensors and connected devices, companies can track inventory, monitor temperature and humidity levels, and optimize routes for efficient delivery. This level of visibility allows for better decision-making, improved inventory management, and enhanced customer satisfaction.",
+    "link": "https://www.forbes.com/sites/forbestechcouncil/2020/06/22/how-iot-is-revolutionizing-supply-chain-visibility/?sh=4f9a5b3e5b7d"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: The Role of IoT Applications in Supply Chain Visibility
+Keywords: IoT applications, supply chain visibility, Internet of Things, logistics tracking
+Uses: 0
+Text: IoT applications play a crucial role in enhancing supply chain visibility by providing real-time data on the location and condition of goods in transit. By using sensors and connected devices, companies can track inventory, monitor temperature and humidity levels, and optimize routes for efficient delivery. This level of visibility allows for better decision-making, improved inventory management, and enhanced customer satisfaction.Link: https://www.forbes.com/sites/forbestechcouncil/2020/06/22/how-iot-is-revolutionizing-supply-chain-visibility/?sh=4f9a5b3e5b7d
+Researching topic: Sustainability practices in international logistics
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking', 'How Blockchain Technology is Revolutionizing Supply Chain Tracking', 'The Role of Predictive Maintenance in Global Supply Chains', 'Benefits of Predictive Maintenance in Global Supply Chains', 'The Role of Data Analytics in Supply Chain Risk Management', 'The Importance of Data Analytics in Supply Chain Risk Management', 'The Role of IoT Applications in Supply Chain Visibility', 'The Role of IoT Applications in Supply Chain Visibility']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SUSTAINABILITY PRACTICES IN INTERNATIONAL LOGISTICS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Sustainability Practices in International Logistics",
+    "keywords": ["sustainability practices", "international logistics", "environmentally friendly logistics", "green supply chain", "carbon footprint reduction"],
+    "text": "Sustainability practices in international logistics refer to the implementation of environmentally friendly strategies and initiatives within the global supply chain. This includes reducing carbon emissions, optimizing transportation routes to minimize fuel consumption, utilizing eco-friendly packaging materials, and promoting ethical sourcing practices. By adopting green supply chain practices, companies can reduce their environmental impact and contribute to a more sustainable future.",
+    "link": "https://www.sciencedirect.com/science/article/pii/S1877042814013597"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Sustainability Practices in International Logistics
+Keywords: sustainability practices, international logistics, environmentally friendly logistics, green supply chain, carbon footprint reduction
+Uses: 0
+Text: Sustainability practices in international logistics refer to the implementation of environmentally friendly strategies and initiatives within the global supply chain. This includes reducing carbon emissions, optimizing transportation routes to minimize fuel consumption, utilizing eco-friendly packaging materials, and promoting ethical sourcing practices. By adopting green supply chain practices, companies can reduce their environmental impact and contribute to a more sustainable future.Link: https://www.sciencedirect.com/science/article/pii/S1877042814013597
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking', 'How Blockchain Technology is Revolutionizing Supply Chain Tracking', 'The Role of Predictive Maintenance in Global Supply Chains', 'Benefits of Predictive Maintenance in Global Supply Chains', 'The Role of Data Analytics in Supply Chain Risk Management', 'The Importance of Data Analytics in Supply Chain Risk Management', 'The Role of IoT Applications in Supply Chain Visibility', 'The Role of IoT Applications in Supply Chain Visibility', 'Sustainability Practices in International Logistics']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SUSTAINABILITY PRACTICES IN INTERNATIONAL LOGISTICS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Sustainability Practices in International Logistics: Green Supply Chain Management",
+    "keywords": ["sustainability practices", "international logistics", "green supply chain management"],
+    "text": "Green supply chain management focuses on integrating sustainability practices into international logistics operations. This includes reducing carbon emissions, optimizing transportation routes, using eco-friendly packaging, and implementing renewable energy sources.",
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S0925527319300639"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Sustainability Practices in International Logistics: Green Supply Chain Management
+Keywords: sustainability practices, international logistics, green supply chain management
+Uses: 0
+Text: Green supply chain management focuses on integrating sustainability practices into international logistics operations. This includes reducing carbon emissions, optimizing transportation routes, using eco-friendly packaging, and implementing renewable energy sources.Link: https://www.sciencedirect.com/science/article/abs/pii/S0925527319300639
+Researching topic: Supplier relationship management strategies
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking', 'How Blockchain Technology is Revolutionizing Supply Chain Tracking', 'The Role of Predictive Maintenance in Global Supply Chains', 'Benefits of Predictive Maintenance in Global Supply Chains', 'The Role of Data Analytics in Supply Chain Risk Management', 'The Importance of Data Analytics in Supply Chain Risk Management', 'The Role of IoT Applications in Supply Chain Visibility', 'The Role of IoT Applications in Supply Chain Visibility', 'Sustainability Practices in International Logistics', 'Sustainability Practices in International Logistics: Green Supply Chain Management']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SUPPLIER RELATIONSHIP MANAGEMENT STRATEGIES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Effective Supplier Relationship Management Strategies in Global Supply Chains",
+    "keywords": ["supplier relationship management", "strategies", "global supply chains"],
+    "text": "Supplier relationship management (SRM) strategies in global supply chains involve building strong partnerships with suppliers to improve collaboration, communication, and performance. Some effective strategies include developing clear communication channels, setting performance metrics, conducting regular supplier evaluations, fostering trust and transparency, and implementing technology solutions for better visibility and efficiency.",
+    "link": "https://www.supplychaindigital.com/supply-chain-management/effective-supplier-relationship-management-strategies-global-supply-chains"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Effective Supplier Relationship Management Strategies in Global Supply Chains
+Keywords: supplier relationship management, strategies, global supply chains
+Uses: 0
+Text: Supplier relationship management (SRM) strategies in global supply chains involve building strong partnerships with suppliers to improve collaboration, communication, and performance. Some effective strategies include developing clear communication channels, setting performance metrics, conducting regular supplier evaluations, fostering trust and transparency, and implementing technology solutions for better visibility and efficiency.Link: https://www.supplychaindigital.com/supply-chain-management/effective-supplier-relationship-management-strategies-global-supply-chains
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking', 'How Blockchain Technology is Revolutionizing Supply Chain Tracking', 'The Role of Predictive Maintenance in Global Supply Chains', 'Benefits of Predictive Maintenance in Global Supply Chains', 'The Role of Data Analytics in Supply Chain Risk Management', 'The Importance of Data Analytics in Supply Chain Risk Management', 'The Role of IoT Applications in Supply Chain Visibility', 'The Role of IoT Applications in Supply Chain Visibility', 'Sustainability Practices in International Logistics', 'Sustainability Practices in International Logistics: Green Supply Chain Management', 'Effective Supplier Relationship Management Strategies in Global Supply Chains']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SUPPLIER RELATIONSHIP MANAGEMENT STRATEGIES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Effective Strategies for Supplier Relationship Management in Global Supply Chains",
+    "keywords": ["supplier relationship management", "global supply chains", "strategies", "effective"],
+    "text": "Effective supplier relationship management in global supply chains involves establishing strong communication channels, building trust, and fostering collaboration with suppliers. This can include regular meetings, sharing information transparently, setting clear expectations, and providing feedback. Additionally, implementing performance metrics and conducting regular evaluations can help monitor supplier performance and identify areas for improvement.",
+    "link": "https://www.supplychaindigital.com/supply-chain-2/supplier-relationship-management-key-successful-supply-chain"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Effective Strategies for Supplier Relationship Management in Global Supply Chains
+Keywords: supplier relationship management, global supply chains, strategies, effective
+Uses: 0
+Text: Effective supplier relationship management in global supply chains involves establishing strong communication channels, building trust, and fostering collaboration with suppliers. This can include regular meetings, sharing information transparently, setting clear expectations, and providing feedback. Additionally, implementing performance metrics and conducting regular evaluations can help monitor supplier performance and identify areas for improvement.Link: https://www.supplychaindigital.com/supply-chain-2/supplier-relationship-management-key-successful-supply-chain
+Researching topic: Inventory optimization through machine learning algorithms
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking', 'How Blockchain Technology is Revolutionizing Supply Chain Tracking', 'The Role of Predictive Maintenance in Global Supply Chains', 'Benefits of Predictive Maintenance in Global Supply Chains', 'The Role of Data Analytics in Supply Chain Risk Management', 'The Importance of Data Analytics in Supply Chain Risk Management', 'The Role of IoT Applications in Supply Chain Visibility', 'The Role of IoT Applications in Supply Chain Visibility', 'Sustainability Practices in International Logistics', 'Sustainability Practices in International Logistics: Green Supply Chain Management', 'Effective Supplier Relationship Management Strategies in Global Supply Chains', 'Effective Strategies for Supplier Relationship Management in Global Supply Chains']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INVENTORY OPTIMIZATION THROUGH MACHINE LEARNING ALGORITHMS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Inventory Optimization Through Machine Learning Algorithms",
+    "keywords": ["inventory optimization", "machine learning algorithms", "supply chain management", "AI in inventory management"],
+    "text": "Inventory optimization through machine learning algorithms involves using advanced data analytics and predictive modeling to optimize inventory levels, reduce stockouts, and improve overall supply chain efficiency. Machine learning algorithms can analyze historical data, demand forecasts, lead times, and other factors to make accurate inventory decisions in real-time. By leveraging AI technology, companies can achieve cost savings, improved customer satisfaction, and streamlined operations.",
+    "link": "https://www.forbes.com/sites/forbestechcouncil/2020/11/24/using-ai-and-machine-learning-to-optimize-inventory-and-supply-chain-management/?sh=1e29c91c2eaf"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Inventory Optimization Through Machine Learning Algorithms
+Keywords: inventory optimization, machine learning algorithms, supply chain management, AI in inventory management
+Uses: 0
+Text: Inventory optimization through machine learning algorithms involves using advanced data analytics and predictive modeling to optimize inventory levels, reduce stockouts, and improve overall supply chain efficiency. Machine learning algorithms can analyze historical data, demand forecasts, lead times, and other factors to make accurate inventory decisions in real-time. By leveraging AI technology, companies can achieve cost savings, improved customer satisfaction, and streamlined operations.Link: https://www.forbes.com/sites/forbestechcouncil/2020/11/24/using-ai-and-machine-learning-to-optimize-inventory-and-supply-chain-management/?sh=1e29c91c2eaf
+Prompt:
+Initial Prompt: (Global Supply Chain Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of AI in Inventory Management', 'The Impact of AI on Supply Chain Inventory Management', 'The Role of Blockchain Technology in Supply Chain Tracking', 'How Blockchain Technology is Revolutionizing Supply Chain Tracking', 'The Role of Predictive Maintenance in Global Supply Chains', 'Benefits of Predictive Maintenance in Global Supply Chains', 'The Role of Data Analytics in Supply Chain Risk Management', 'The Importance of Data Analytics in Supply Chain Risk Management', 'The Role of IoT Applications in Supply Chain Visibility', 'The Role of IoT Applications in Supply Chain Visibility', 'Sustainability Practices in International Logistics', 'Sustainability Practices in International Logistics: Green Supply Chain Management', 'Effective Supplier Relationship Management Strategies in Global Supply Chains', 'Effective Strategies for Supplier Relationship Management in Global Supply Chains', 'Inventory Optimization Through Machine Learning Algorithms']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INVENTORY OPTIMIZATION THROUGH MACHINE LEARNING ALGORITHMS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Machine Learning Algorithms for Inventory Optimization",
+    "keywords": ["machine learning", "inventory optimization", "supply chain management", "forecasting", "demand prediction"],
+    "text": "Machine learning algorithms are being increasingly used in supply chain management for inventory optimization. These algorithms analyze historical data, forecast demand, and predict future inventory needs. By leveraging machine learning, companies can optimize their inventory levels, reduce stockouts, minimize excess inventory, and improve overall supply chain efficiency.",
+    "link": "https://www.forbes.com/sites/forbestechcouncil/2021/03/05/how-machine-learning-can-transform-inventory-management/?sh=3c4f9e1f6b4f"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Machine Learning Algorithms for Inventory Optimization
+Keywords: machine learning, inventory optimization, supply chain management, forecasting, demand prediction
+Uses: 0
+Text: Machine learning algorithms are being increasingly used in supply chain management for inventory optimization. These algorithms analyze historical data, forecast demand, and predict future inventory needs. By leveraging machine learning, companies can optimize their inventory levels, reduce stockouts, minimize excess inventory, and improve overall supply chain efficiency.Link: https://www.forbes.com/sites/forbestechcouncil/2021/03/05/how-machine-learning-can-transform-inventory-management/?sh=3c4f9e1f6b4f
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Global Supply Chain Management) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({AI is being increasingly utilized in inventory management to optimize supply chain operations. AI can help in demand forecasting, inventory optimization, and predictive analytics to improve efficiency and reduce costs.
+
+Artificial Intelligence (AI) is revolutionizing supply chain inventory management by providing real-time data analysis, demand forecasting, and optimization of inventory levels. AI algorithms can predict future demand patterns, optimize reorder points, reduce excess inventory, and improve overall su...
+
+Blockchain technology in supply chain tracking refers to the use of a decentralized digital ledger to record transactions across a network of computers. This technology enables improved traceability, transparency, and security in supply chain management by creating a tamper-proof record of transacti...
+
+Blockchain technology is revolutionizing supply chain tracking by providing an immutable and transparent ledger of transactions. This enables real-time tracking of goods from the point of origin to the final destination, ensuring authenticity and minimizing the risk of fraud or errors. By using bloc...
+
+Predictive maintenance in global supply chains involves using AI and machine learning algorithms to predict when equipment is likely to fail so that maintenance can be performed proactively. This approach helps to minimize downtime, reduce maintenance costs, and optimize overall equipment efficiency...
+
+Predictive maintenance in global supply chains offers several benefits, including increased equipment uptime, reduced maintenance costs, improved operational efficiency, and enhanced safety. By using data analytics and machine learning algorithms, companies can predict when equipment is likely to fa...
+
+Data analytics plays a crucial role in supply chain risk management by helping companies identify potential risks, predict their likelihood, and mitigate their impact. By analyzing large volumes of data from various sources such as suppliers, transportation, and market trends, organizations can proa...
+
+Data analytics plays a crucial role in supply chain risk management by providing insights into potential risks and helping organizations make proactive decisions to mitigate these risks. By analyzing data from various sources such as suppliers, transportation routes, and market trends, companies can...
+
+IoT applications play a crucial role in enhancing supply chain visibility by providing real-time tracking and monitoring of goods and assets throughout the entire supply chain. These applications utilize sensors and connected devices to collect and transmit data, allowing stakeholders to have a comp...
+
+IoT applications play a crucial role in enhancing supply chain visibility by providing real-time data on the location and condition of goods in transit. By using sensors and connected devices, companies can track inventory, monitor temperature and humidity levels, and optimize routes for efficient d...
+
+Sustainability practices in international logistics refer to the implementation of environmentally friendly strategies and initiatives within the global supply chain. This includes reducing carbon emissions, optimizing transportation routes to minimize fuel consumption, utilizing eco-friendly packag...
+
+Green supply chain management focuses on integrating sustainability practices into international logistics operations. This includes reducing carbon emissions, optimizing transportation routes, using eco-friendly packaging, and implementing renewable energy sources.
+
+Supplier relationship management (SRM) strategies in global supply chains involve building strong partnerships with suppliers to improve collaboration, communication, and performance. Some effective strategies include developing clear communication channels, setting performance metrics, conducting r...
+
+Effective supplier relationship management in global supply chains involves establishing strong communication channels, building trust, and fostering collaboration with suppliers. This can include regular meetings, sharing information transparently, setting clear expectations, and providing feedback...
+
+Inventory optimization through machine learning algorithms involves using advanced data analytics and predictive modeling to optimize inventory levels, reduce stockouts, and improve overall supply chain efficiency. Machine learning algorithms can analyze historical data, demand forecasts, lead times...
+
+Machine learning algorithms are being increasingly used in supply chain management for inventory optimization. These algorithms analyze historical data, forecast demand, and predict future inventory needs. By leveraging machine learning, companies can optimize their inventory levels, reduce stockout...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+Raw response:
+6
+.
+Topic count decided: 6
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Global Supply Chain Management) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({AI is being increasingly utilized in inventory management to optimize supply chain operations. AI can help in demand forecasting, inventory optimization, and predictive analytics to improve efficiency and reduce costs.
+
+Artificial Intelligence (AI) is revolutionizing supply chain inventory management by providing real-time data analysis, demand forecasting, and optimization of inventory levels. AI algorithms can predict future demand patterns, optimize reorder points, reduce excess inventory, and improve overall su...
+
+Blockchain technology in supply chain tracking refers to the use of a decentralized digital ledger to record transactions across a network of computers. This technology enables improved traceability, transparency, and security in supply chain management by creating a tamper-proof record of transacti...
+
+Blockchain technology is revolutionizing supply chain tracking by providing an immutable and transparent ledger of transactions. This enables real-time tracking of goods from the point of origin to the final destination, ensuring authenticity and minimizing the risk of fraud or errors. By using bloc...
+
+Predictive maintenance in global supply chains involves using AI and machine learning algorithms to predict when equipment is likely to fail so that maintenance can be performed proactively. This approach helps to minimize downtime, reduce maintenance costs, and optimize overall equipment efficiency...
+
+Predictive maintenance in global supply chains offers several benefits, including increased equipment uptime, reduced maintenance costs, improved operational efficiency, and enhanced safety. By using data analytics and machine learning algorithms, companies can predict when equipment is likely to fa...
+
+Data analytics plays a crucial role in supply chain risk management by helping companies identify potential risks, predict their likelihood, and mitigate their impact. By analyzing large volumes of data from various sources such as suppliers, transportation, and market trends, organizations can proa...
+
+Data analytics plays a crucial role in supply chain risk management by providing insights into potential risks and helping organizations make proactive decisions to mitigate these risks. By analyzing data from various sources such as suppliers, transportation routes, and market trends, companies can...
+
+IoT applications play a crucial role in enhancing supply chain visibility by providing real-time tracking and monitoring of goods and assets throughout the entire supply chain. These applications utilize sensors and connected devices to collect and transmit data, allowing stakeholders to have a comp...
+
+IoT applications play a crucial role in enhancing supply chain visibility by providing real-time data on the location and condition of goods in transit. By using sensors and connected devices, companies can track inventory, monitor temperature and humidity levels, and optimize routes for efficient d...
+
+Sustainability practices in international logistics refer to the implementation of environmentally friendly strategies and initiatives within the global supply chain. This includes reducing carbon emissions, optimizing transportation routes to minimize fuel consumption, utilizing eco-friendly packag...
+
+Green supply chain management focuses on integrating sustainability practices into international logistics operations. This includes reducing carbon emissions, optimizing transportation routes, using eco-friendly packaging, and implementing renewable energy sources.
+
+Supplier relationship management (SRM) strategies in global supply chains involve building strong partnerships with suppliers to improve collaboration, communication, and performance. Some effective strategies include developing clear communication channels, setting performance metrics, conducting r...
+
+Effective supplier relationship management in global supply chains involves establishing strong communication channels, building trust, and fostering collaboration with suppliers. This can include regular meetings, sharing information transparently, setting clear expectations, and providing feedback...
+
+Inventory optimization through machine learning algorithms involves using advanced data analytics and predictive modeling to optimize inventory levels, reduce stockouts, and improve overall supply chain efficiency. Machine learning algorithms can analyze historical data, demand forecasts, lead times...
+
+Machine learning algorithms are being increasingly used in supply chain management for inventory optimization. These algorithms analyze historical data, forecast demand, and predict future inventory needs. By leveraging machine learning, companies can optimize their inventory levels, reduce stockout...}). You are to come up with {6} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Module 1: Introduction to AI in Inventory Management
+Main topic title: Introduction to AI in Inventory Management
+Sub-topics:
+1.1 Overview of AI in inventory management
+1.2 Demand forecasting using AI
+1.3 Inventory optimization with AI
+1.4 Predictive analytics in inventory management
+Explanation: This section will provide an overview of how AI is revolutionizing inventory management, including its role in demand forecasting, inventory optimization, and predictive analytics, as discussed in the research database.
+Learning objectives:
+- Understand the role of AI in inventory management
+- Learn how AI can improve demand forecasting and optimize inventory levels
+- Explore the use of predictive analytics in inventory management
+Estimated number of slides: 15
+Lab activities/practical exercises: 
+- Analyze historical sales data to predict future demand using AI algorithms
+- Optimize inventory levels based on demand forecasts generated by AI
+Real-world applications/examples: 
+- Case studies of companies using AI for inventory management
+- Examples of how AI has improved efficiency and reduced costs in supply chain operations
+
+Module 2: Blockchain Technology in Supply Chain Tracking
+Main topic title: Blockchain Technology in Supply Chain Tracking
+Sub-topics:
+2.1 Introduction to blockchain technology in supply chain management
+2.2 Improved traceability and transparency
+2.3 Security in supply chain management
+Explanation: This section will cover the use of blockchain technology in supply chain tracking, focusing on its benefits in improving traceability, transparency, and security, as discussed in the research database.
+Learning objectives:
+- Understand how blockchain technology enhances supply chain tracking
+- Learn about the benefits of improved traceability and transparency in supply chain management
+- Explore the security features of blockchain technology in supply chain tracking
+Estimated number of slides: 12
+Lab activities/practical exercises: 
+- Create a simulated blockchain network to track a product from manufacturer to consumer
+- Analyze the security features of blockchain technology in supply chain tracking
+Real-world applications/examples: 
+- Case studies of companies implementing blockchain technology in supply chain tracking
+- Examples of how blockchain technology has enhanced supply chain transparency and security
+
+Module 3: Predictive Maintenance in Global Supply Chains
+Main topic title: Predictive Maintenance in Global Supply Chains
+Sub-topics:
+3.1 Introduction to predictive maintenance
+3.2 Benefits of predictive maintenance
+3.3 Implementation of AI and machine learning algorithms
+Explanation: This section will discuss the concept of predictive maintenance in global supply chains, highlighting its benefits and the use of AI and machine learning algorithms for proactive maintenance, as mentioned in the research database.
+Learning objectives:
+- Understand the importance of predictive maintenance in global supply chains
+- Learn about the benefits of implementing predictive maintenance strategies
+- Explore the role of AI and machine learning algorithms in predictive maintenance
+Estimated number of slides: 10
+Lab activities/practical exercises: 
+- Develop a predictive maintenance schedule for a specific piece of equipment using AI algorithms
+- Analyze historical maintenance data to predict future equipment failures
+Real-world applications/examples: 
+- Case studies of companies leveraging predictive maintenance to optimize equipment efficiency
+- Examples of how predictive maintenance has reduced downtime and maintenance costs in supply chain operations
+
+Module 4: Data Analytics in Supply Chain Risk Management
+Main topic title: Data Analytics in Supply Chain Risk Management
+Sub-topics:
+4.1 Role of data analytics in risk management
+4.2 Identification and prediction of potential risks
+4.3 Mitigation strategies
+Explanation: This section will focus on the use of data analytics in supply chain risk management, covering its role in identifying and predicting risks, as well as implementing mitigation strategies, as discussed in the research database.
+Learning objectives:
+- Understand how data analytics can help in identifying and predicting potential risks in the supply chain
+- Learn about different mitigation strategies to address supply chain risks
+- Explore the role of data analytics in proactive risk management
+Estimated number of slides: 12
+Lab activities/practical exercises: 
+- Analyze historical data to identify potential risks in a supply chain network
+- Develop a risk mitigation plan using data analytics tools
+Real-world applications/examples: 
+- Case studies of companies using data analytics for supply chain risk management
+- Examples of how data analytics has helped organizations mitigate supply chain risks effectively
+
+Module 5: IoT Applications in Enhancing Supply Chain Visibility
+Main topic title: IoT Applications in Enhancing Supply Chain Visibility
+Sub-topics:
+5.1 Introduction to IoT applications in supply chain visibility
+5.2 Real-time tracking and monitoring of goods
+5.3 Optimization of transportation routes
+Explanation: This section will cover the use of IoT applications in enhancing supply chain visibility, focusing on real-time tracking, monitoring of goods, and optimization of transportation routes, as discussed in the research database.
+Learning objectives:
+- Understand how IoT applications improve supply chain visibility
+- Learn about real-time tracking and monitoring of goods in transit
+- Explore the optimization of transportation routes using IoT technology
+Estimated number of slides: 10
+Lab activities/practical exercises: 
+- Set up IoT sensors to track the movement of goods in a simulated supply chain network
+- Analyze data collected from IoT devices to optimize transportation routes
+Real-world applications/examples: 
+- Case studies of companies leveraging IoT applications for enhanced supply chain visibility
+- Examples of how IoT technology has improved efficiency and transparency in supply chain operations
+
+Module 6: Sustainability Practices in International Logistics
+Main topic title: Sustainability Practices in International Logistics
+Sub-topics:
+6.1 Implementation of environmentally friendly strategies
+6.2 Reduction of carbon emissions
+6.3 Optimization of transportation routes
+Explanation: This section will focus on sustainability practices in international logistics, covering the implementation of environmentally friendly strategies, reduction of carbon emissions, and optimization of transportation routes, as discussed in the research database.
+Learning objectives:
+- Understand the importance of sustainability practices in international logistics
+- Learn about strategies to reduce carbon emissions in supply chain operations
+- Explore ways to optimize transportation routes for sustainability
+Estimated number of slides: 10
+Lab activities/practical exercises: 
+- Develop a sustainability plan for a supply chain network to reduce carbon emissions
+- Analyze transportation data to optimize routes for fuel efficiency
+Real-world applications/examples: 
+- Case studies of companies implementing sustainable practices in international logistics
+- Examples of how sustainability initiatives have reduced environmental impact and costs in supply chain operations
+
+This comprehensive teaching plan covers a range of topics related to global supply chain management, incorporating the latest research findings and practical applications to provide senior undergraduate students with a thorough understanding of key concepts and strategies in the field. Each module is designed to build upon the previous one, offering a progressive learning experience that covers basic to advanced concepts in AI, blockchain technology, predictive maintenance, data analytics, IoT applications, and sustainability practices in international logistics. The inclusion of lab activities and real-world examples enhances the practical relevance of the material, allowing students to apply their knowledge in simulated scenarios and understand the impact of these technologies and strategies in real-world supply chain operations.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Global Supply Chain Management) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Module 1: Introduction to AI in Inventory Management
+Main topic title: Introduction to AI in Inventory Management
+Sub-topics:
+1.1 Overview of AI in inventory management
+1.2 Demand forecasting using AI
+1.3 Inventory optimization with AI
+1.4 Predictive analytics in inventory management
+Explanation: This section will provide an overview of how AI is revolutionizing inventory management, including its role in demand forecasting, inventory optimization, and predictive analytics, as discussed in the research database.
+Learning objectives:
+- Understand the role of AI in inventory management
+- Learn how AI can improve demand forecasting and optimize inventory levels
+- Explore the use of predictive analytics in inventory management
+Estimated number of slides: 15
+Lab activities/practical exercises: 
+- Analyze historical sales data to predict future demand using AI algorithms
+- Optimize inventory levels based on demand forecasts generated by AI
+Real-world applications/examples: 
+- Case studies of companies using AI for inventory management
+- Examples of how AI has improved efficiency and reduced costs in supply chain operations
+
+Module 2: Blockchain Technology in Supply Chain Tracking
+Main topic title: Blockchain Technology in Supply Chain Tracking
+Sub-topics:
+2.1 Introduction to blockchain technology in supply chain management
+2.2 Improved traceability and transparency
+2.3 Security in supply chain management
+Explanation: This section will cover the use of blockchain technology in supply chain tracking, focusing on its benefits in improving traceability, transparency, and security, as discussed in the research database.
+Learning objectives:
+- Understand how blockchain technology enhances supply chain tracking
+- Learn about the benefits of improved traceability and transparency in supply chain management
+- Explore the security features of blockchain technology in supply chain tracking
+Estimated number of slides: 12
+Lab activities/practical exercises: 
+- Create a simulated blockchain network to track a product from manufacturer to consumer
+- Analyze the security features of blockchain technology in supply chain tracking
+Real-world applications/examples: 
+- Case studies of companies implementing blockchain technology in supply chain tracking
+- Examples of how blockchain technology has enhanced supply chain transparency and security
+
+Module 3: Predictive Maintenance in Global Supply Chains
+Main topic title: Predictive Maintenance in Global Supply Chains
+Sub-topics:
+3.1 Introduction to predictive maintenance
+3.2 Benefits of predictive maintenance
+3.3 Implementation of AI and machine learning algorithms
+Explanation: This section will discuss the concept of predictive maintenance in global supply chains, highlighting its benefits and the use of AI and machine learning algorithms for proactive maintenance, as mentioned in the research database.
+Learning objectives:
+- Understand the importance of predictive maintenance in global supply chains
+- Learn about the benefits of implementing predictive maintenance strategies
+- Explore the role of AI and machine learning algorithms in predictive maintenance
+Estimated number of slides: 10
+Lab activities/practical exercises: 
+- Develop a predictive maintenance schedule for a specific piece of equipment using AI algorithms
+- Analyze historical maintenance data to predict future equipment failures
+Real-world applications/examples: 
+- Case studies of companies leveraging predictive maintenance to optimize equipment efficiency
+- Examples of how predictive maintenance has reduced downtime and maintenance costs in supply chain operations
+
+Module 4: Data Analytics in Supply Chain Risk Management
+Main topic title: Data Analytics in Supply Chain Risk Management
+Sub-topics:
+4.1 Role of data analytics in risk management
+4.2 Identification and prediction of potential risks
+4.3 Mitigation strategies
+Explanation: This section will focus on the use of data analytics in supply chain risk management, covering its role in identifying and predicting risks, as well as implementing mitigation strategies, as discussed in the research database.
+Learning objectives:
+- Understand how data analytics can help in identifying and predicting potential risks in the supply chain
+- Learn about different mitigation strategies to address supply chain risks
+- Explore the role of data analytics in proactive risk management
+Estimated number of slides: 12
+Lab activities/practical exercises: 
+- Analyze historical data to identify potential risks in a supply chain network
+- Develop a risk mitigation plan using data analytics tools
+Real-world applications/examples: 
+- Case studies of companies using data analytics for supply chain risk management
+- Examples of how data analytics has helped organizations mitigate supply chain risks effectively
+
+Module 5: IoT Applications in Enhancing Supply Chain Visibility
+Main topic title: IoT Applications in Enhancing Supply Chain Visibility
+Sub-topics:
+5.1 Introduction to IoT applications in supply chain visibility
+5.2 Real-time tracking and monitoring of goods
+5.3 Optimization of transportation routes
+Explanation: This section will cover the use of IoT applications in enhancing supply chain visibility, focusing on real-time tracking, monitoring of goods, and optimization of transportation routes, as discussed in the research database.
+Learning objectives:
+- Understand how IoT applications improve supply chain visibility
+- Learn about real-time tracking and monitoring of goods in transit
+- Explore the optimization of transportation routes using IoT technology
+Estimated number of slides: 10
+Lab activities/practical exercises: 
+- Set up IoT sensors to track the movement of goods in a simulated supply chain network
+- Analyze data collected from IoT devices to optimize transportation routes
+Real-world applications/examples: 
+- Case studies of companies leveraging IoT applications for enhanced supply chain visibility
+- Examples of how IoT technology has improved efficiency and transparency in supply chain operations
+
+Module 6: Sustainability Practices in International Logistics
+Main topic title: Sustainability Practices in International Logistics
+Sub-topics:
+6.1 Implementation of environmentally friendly strategies
+6.2 Reduction of carbon emissions
+6.3 Optimization of transportation routes
+Explanation: This section will focus on sustainability practices in international logistics, covering the implementation of environmentally friendly strategies, reduction of carbon emissions, and optimization of transportation routes, as discussed in the research database.
+Learning objectives:
+- Understand the importance of sustainability practices in international logistics
+- Learn about strategies to reduce carbon emissions in supply chain operations
+- Explore ways to optimize transportation routes for sustainability
+Estimated number of slides: 10
+Lab activities/practical exercises: 
+- Develop a sustainability plan for a supply chain network to reduce carbon emissions
+- Analyze transportation data to optimize routes for fuel efficiency
+Real-world applications/examples: 
+- Case studies of companies implementing sustainable practices in international logistics
+- Examples of how sustainability initiatives have reduced environmental impact and costs in supply chain operations
+
+This comprehensive teaching plan covers a range of topics related to global supply chain management, incorporating the latest research findings and practical applications to provide senior undergraduate students with a thorough understanding of key concepts and strategies in the field. Each module is designed to build upon the previous one, offering a progressive learning experience that covers basic to advanced concepts in AI, blockchain technology, predictive maintenance, data analytics, IoT applications, and sustainability practices in international logistics. The inclusion of lab activities and real-world examples enhances the practical relevance of the material, allowing students to apply their knowledge in simulated scenarios and understand the impact of these technologies and strategies in real-world supply chain operations.}). Total slides available: {8}. Topics to allocate: {6}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[15, 12, 10, 12, 10, 10]
+.
+Slide allocation: [3, 1, 1, 1, 1, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Global Supply Chain Management) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Module 1: Introduction to AI in Inventory Management
+Main topic title: Introduction to AI in Inventory Management
+Sub-topics:
+1.1 Overview of AI in inventory management
+1.2 Demand forecasting using AI
+1.3 Inventory optimization with AI
+1.4 Predictive analytics in inventory management
+Explanation: This section will provide an overview of how AI is revolutionizing inventory management, including its role in demand forecasting, inventory optimization, and predictive analytics, as discussed in the research database.
+Learning objectives:
+- Understand the role of AI in inventory management
+- Learn how AI can improve demand forecasting and optimize inventory levels
+- Explore the use of predictive analytics in inventory management
+Estimated number of slides: 15
+Lab activities/practical exercises: 
+- Analyze historical sales data to predict future demand using AI algorithms
+- Optimize inventory levels based on demand forecasts generated by AI
+Real-world applications/examples: 
+- Case studies of companies using AI for inventory management
+- Examples of how AI has improved efficiency and reduced costs in supply chain operations
+
+Module 2: Blockchain Technology in Supply Chain Tracking
+Main topic title: Blockchain Technology in Supply Chain Tracking
+Sub-topics:
+2.1 Introduction to blockchain technology in supply chain management
+2.2 Improved traceability and transparency
+2.3 Security in supply chain management
+Explanation: This section will cover the use of blockchain technology in supply chain tracking, focusing on its benefits in improving traceability, transparency, and security, as discussed in the research database.
+Learning objectives:
+- Understand how blockchain technology enhances supply chain tracking
+- Learn about the benefits of improved traceability and transparency in supply chain management
+- Explore the security features of blockchain technology in supply chain tracking
+Estimated number of slides: 12
+Lab activities/practical exercises: 
+- Create a simulated blockchain network to track a product from manufacturer to consumer
+- Analyze the security features of blockchain technology in supply chain tracking
+Real-world applications/examples: 
+- Case studies of companies implementing blockchain technology in supply chain tracking
+- Examples of how blockchain technology has enhanced supply chain transparency and security
+
+Module 3: Predictive Maintenance in Global Supply Chains
+Main topic title: Predictive Maintenance in Global Supply Chains
+Sub-topics:
+3.1 Introduction to predictive maintenance
+3.2 Benefits of predictive maintenance
+3.3 Implementation of AI and machine learning algorithms
+Explanation: This section will discuss the concept of predictive maintenance in global supply chains, highlighting its benefits and the use of AI and machine learning algorithms for proactive maintenance, as mentioned in the research database.
+Learning objectives:
+- Understand the importance of predictive maintenance in global supply chains
+- Learn about the benefits of implementing predictive maintenance strategies
+- Explore the role of AI and machine learning algorithms in predictive maintenance
+Estimated number of slides: 10
+Lab activities/practical exercises: 
+- Develop a predictive maintenance schedule for a specific piece of equipment using AI algorithms
+- Analyze historical maintenance data to predict future equipment failures
+Real-world applications/examples: 
+- Case studies of companies leveraging predictive maintenance to optimize equipment efficiency
+- Examples of how predictive maintenance has reduced downtime and maintenance costs in supply chain operations
+
+Module 4: Data Analytics in Supply Chain Risk Management
+Main topic title: Data Analytics in Supply Chain Risk Management
+Sub-topics:
+4.1 Role of data analytics in risk management
+4.2 Identification and prediction of potential risks
+4.3 Mitigation strategies
+Explanation: This section will focus on the use of data analytics in supply chain risk management, covering its role in identifying and predicting risks, as well as implementing mitigation strategies, as discussed in the research database.
+Learning objectives:
+- Understand how data analytics can help in identifying and predicting potential risks in the supply chain
+- Learn about different mitigation strategies to address supply chain risks
+- Explore the role of data analytics in proactive risk management
+Estimated number of slides: 12
+Lab activities/practical exercises: 
+- Analyze historical data to identify potential risks in a supply chain network
+- Develop a risk mitigation plan using data analytics tools
+Real-world applications/examples: 
+- Case studies of companies using data analytics for supply chain risk management
+- Examples of how data analytics has helped organizations mitigate supply chain risks effectively
+
+Module 5: IoT Applications in Enhancing Supply Chain Visibility
+Main topic title: IoT Applications in Enhancing Supply Chain Visibility
+Sub-topics:
+5.1 Introduction to IoT applications in supply chain visibility
+5.2 Real-time tracking and monitoring of goods
+5.3 Optimization of transportation routes
+Explanation: This section will cover the use of IoT applications in enhancing supply chain visibility, focusing on real-time tracking, monitoring of goods, and optimization of transportation routes, as discussed in the research database.
+Learning objectives:
+- Understand how IoT applications improve supply chain visibility
+- Learn about real-time tracking and monitoring of goods in transit
+- Explore the optimization of transportation routes using IoT technology
+Estimated number of slides: 10
+Lab activities/practical exercises: 
+- Set up IoT sensors to track the movement of goods in a simulated supply chain network
+- Analyze data collected from IoT devices to optimize transportation routes
+Real-world applications/examples: 
+- Case studies of companies leveraging IoT applications for enhanced supply chain visibility
+- Examples of how IoT technology has improved efficiency and transparency in supply chain operations
+
+Module 6: Sustainability Practices in International Logistics
+Main topic title: Sustainability Practices in International Logistics
+Sub-topics:
+6.1 Implementation of environmentally friendly strategies
+6.2 Reduction of carbon emissions
+6.3 Optimization of transportation routes
+Explanation: This section will focus on sustainability practices in international logistics, covering the implementation of environmentally friendly strategies, reduction of carbon emissions, and optimization of transportation routes, as discussed in the research database.
+Learning objectives:
+- Understand the importance of sustainability practices in international logistics
+- Learn about strategies to reduce carbon emissions in supply chain operations
+- Explore ways to optimize transportation routes for sustainability
+Estimated number of slides: 10
+Lab activities/practical exercises: 
+- Develop a sustainability plan for a supply chain network to reduce carbon emissions
+- Analyze transportation data to optimize routes for fuel efficiency
+Real-world applications/examples: 
+- Case studies of companies implementing sustainable practices in international logistics
+- Examples of how sustainability initiatives have reduced environmental impact and costs in supply chain operations
+
+This comprehensive teaching plan covers a range of topics related to global supply chain management, incorporating the latest research findings and practical applications to provide senior undergraduate students with a thorough understanding of key concepts and strategies in the field. Each module is designed to build upon the previous one, offering a progressive learning experience that covers basic to advanced concepts in AI, blockchain technology, predictive maintenance, data analytics, IoT applications, and sustainability practices in international logistics. The inclusion of lab activities and real-world examples enhances the practical relevance of the material, allowing students to apply their knowledge in simulated scenarios and understand the impact of these technologies and strategies in real-world supply chain operations.}). Slide allocation per topic: {[3, 1, 1, 1, 1, 1]}. Database content for reference: ({AI is being increasingly utilized in inventory management to optimize supply chain operations. AI can help in demand forecasting, inventory optimization, and predictive analytics to improve efficiency and reduce costs.
+
+Artificial Intelligence (AI) is revolutionizing supply chain inventory management by providing real-time data analysis, demand forecasting, and optimization of inventory levels. AI algorithms can predict future demand patterns, optimize reorder points, reduce excess inventory, and improve overall su...
+
+Blockchain technology in supply chain tracking refers to the use of a decentralized digital ledger to record transactions across a network of computers. This technology enables improved traceability, transparency, and security in supply chain management by creating a tamper-proof record of transacti...
+
+Blockchain technology is revolutionizing supply chain tracking by providing an immutable and transparent ledger of transactions. This enables real-time tracking of goods from the point of origin to the final destination, ensuring authenticity and minimizing the risk of fraud or errors. By using bloc...
+
+Predictive maintenance in global supply chains involves using AI and machine learning algorithms to predict when equipment is likely to fail so that maintenance can be performed proactively. This approach helps to minimize downtime, reduce maintenance costs, and optimize overall equipment efficiency...
+
+Predictive maintenance in global supply chains offers several benefits, including increased equipment uptime, reduced maintenance costs, improved operational efficiency, and enhanced safety. By using data analytics and machine learning algorithms, companies can predict when equipment is likely to fa...
+
+Data analytics plays a crucial role in supply chain risk management by helping companies identify potential risks, predict their likelihood, and mitigate their impact. By analyzing large volumes of data from various sources such as suppliers, transportation, and market trends, organizations can proa...
+
+Data analytics plays a crucial role in supply chain risk management by providing insights into potential risks and helping organizations make proactive decisions to mitigate these risks. By analyzing data from various sources such as suppliers, transportation routes, and market trends, companies can...
+
+IoT applications play a crucial role in enhancing supply chain visibility by providing real-time tracking and monitoring of goods and assets throughout the entire supply chain. These applications utilize sensors and connected devices to collect and transmit data, allowing stakeholders to have a comp...
+
+IoT applications play a crucial role in enhancing supply chain visibility by providing real-time data on the location and condition of goods in transit. By using sensors and connected devices, companies can track inventory, monitor temperature and humidity levels, and optimize routes for efficient d...
+
+Sustainability practices in international logistics refer to the implementation of environmentally friendly strategies and initiatives within the global supply chain. This includes reducing carbon emissions, optimizing transportation routes to minimize fuel consumption, utilizing eco-friendly packag...
+
+Green supply chain management focuses on integrating sustainability practices into international logistics operations. This includes reducing carbon emissions, optimizing transportation routes, using eco-friendly packaging, and implementing renewable energy sources.
+
+Supplier relationship management (SRM) strategies in global supply chains involve building strong partnerships with suppliers to improve collaboration, communication, and performance. Some effective strategies include developing clear communication channels, setting performance metrics, conducting r...
+
+Effective supplier relationship management in global supply chains involves establishing strong communication channels, building trust, and fostering collaboration with suppliers. This can include regular meetings, sharing information transparently, setting clear expectations, and providing feedback...
+
+Inventory optimization through machine learning algorithms involves using advanced data analytics and predictive modeling to optimize inventory levels, reduce stockouts, and improve overall supply chain efficiency. Machine learning algorithms can analyze historical data, demand forecasts, lead times...
+
+Machine learning algorithms are being increasingly used in supply chain management for inventory optimization. These algorithms analyze historical data, forecast demand, and predict future inventory needs. By leveraging machine learning, companies can optimize their inventory levels, reduce stockout...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+Raw response:
+1. Role of AI in demand forecasting
+2. Benefits of AI in inventory optimization
+3. Predictive analytics for inventory management
+4. Introduction to blockchain technology in supply chain
+5. Traceability and transparency in blockchain tracking
+6. Security features of blockchain in supply chain
+7. Importance of predictive maintenance in global supply chains
+8. Implementation of AI algorithms for predictive maintenance
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-20_12-10-12.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-20_12-10-12.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-20_12-10-16.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+✅ Content validation passed - suitable for 3 credit hours
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Global Supply Chain Management
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Role of AI in demand forecasting)
+🔍 DEBUG: Slide 1 content set to: '• AI algorithms analyze historical data for demand forecasting • Forecast future demand patterns acc...'
+🔍 DEBUG: Slide 1 content length: 204
+✅ Slide 1 content: • AI algorithms analyze historical data for demand forecasting
+• Forecast future demand patterns accurately
+• Optimize inventory levels to reduce excess inventory
+• Improve overall supply chain efficiency
+Generating content for slide 2 (Topic: Benefits of AI in inventory optimization)
+🔍 DEBUG: Slide 2 content set to: '• AI in inventory optimization offers benefits such as improved demand forecasting accuracy • AI alg...'
+🔍 DEBUG: Slide 2 content length: 435
+✅ Slide 2 content: • AI in inventory optimization offers benefits such as improved demand forecasting accuracy
+• AI algorithms can optimize reorder points, reduce excess inventory, and enhance supply chain efficiency
+• Practical examples include using AI to predict future demand patterns and adjust inventory levels accordingly
+• Applications of AI in inventory management lead to cost savings, improved customer satisfaction, and streamlined operations
+Generating content for slide 3 (Topic: Predictive analytics for inventory management)
+🔍 DEBUG: Slide 3 content set to: '• Predictive analytics for inventory management involves using machine learning algorithms to optimi...'
+🔍 DEBUG: Slide 3 content length: 331
+✅ Slide 3 content: • Predictive analytics for inventory management involves using machine learning algorithms to optimize inventory levels, reduce stockouts, and improve supply chain efficiency.
+• Machine learning algorithms analyze historical data, demand forecasts, lead times, and other factors to make accurate inventory decisions in real-time.
+• Leveraging AI technology in inventory optimization leads to cost savings, improved customer satisfaction, and streamlined operations.
+• Practical examples include using AI to predict future demand patterns and adjust inventory levels accordingly.
+Generating content for slide 4 (Topic: Introduction to blockchain technology in supply chain)
+🔍 DEBUG: Slide 4 content set to: '• Blockchain technology in supply chain tracking utilizes decentralized digital ledgers • Improves t...'
+🔍 DEBUG: Slide 4 content length: 353
+✅ Slide 4 content: • Blockchain technology in supply chain tracking utilizes decentralized digital ledgers
+• Improves traceability, transparency, and security in supply chain management
+• Enables tracking of goods, verifying authenticity, and ensuring regulatory compliance
+• Practical example: Recording transactions across a network of computers for tamper-proof records
+Generating content for slide 5 (Topic: Traceability and transparency in blockchain tracking)
+🔍 DEBUG: Slide 5 content set to: '• Blockchain technology enables improved traceability, transparency, and security in supply chain ma...'
+🔍 DEBUG: Slide 5 content length: 414
+✅ Slide 5 content: • Blockchain technology enables improved traceability, transparency, and security in supply chain management
+• Decentralized digital ledgers create tamper-proof records of transactions
+• Practical example: Tracking goods, verifying authenticity, and ensuring regulatory compliance through blockchain technology
+• Enhances trust among stakeholders, optimizes processes, and improves overall supply chain efficiency.
+Generating content for slide 6 (Topic: Security features of blockchain in supply chain)
+🔍 DEBUG: Slide 6 content set to: '• Security features of blockchain in supply chain: - Immutable and tamper-proof records ensure data ...'
+🔍 DEBUG: Slide 6 content length: 343
+✅ Slide 6 content: • Security features of blockchain in supply chain:
+   - Immutable and tamper-proof records ensure data integrity
+   - Decentralized digital ledgers enhance transparency and trust among stakeholders
+   - Smart contracts automate and secure transactions, reducing fraud risks
+   - Cryptographic hashing ensures data privacy and authentication of information
+Generating content for slide 7 (Topic: Importance of predictive maintenance in global supply chains)
+🔍 DEBUG: Slide 7 content set to: '• Predictive maintenance in global supply chains utilizes AI and machine learning algorithms • Proac...'
+🔍 DEBUG: Slide 7 content length: 364
+✅ Slide 7 content: • Predictive maintenance in global supply chains utilizes AI and machine learning algorithms
+• Proactively predicts equipment failures to minimize downtime and reduce maintenance costs
+• Optimizes overall equipment efficiency through predictive analytics
+• Practical benefits include increased equipment uptime, improved operational efficiency, and enhanced safety
+Generating content for slide 8 (Topic: Implementation of AI algorithms for predictive maintenance)
+🔍 DEBUG: Slide 8 content set to: '• Implementation of AI algorithms for predictive maintenance proactively predicts equipment failures...'
+🔍 DEBUG: Slide 8 content length: 345
+✅ Slide 8 content: • Implementation of AI algorithms for predictive maintenance proactively predicts equipment failures
+• Minimizes downtime and reduces maintenance costs through predictive analytics
+• Optimizes overall equipment efficiency to increase uptime and operational efficiency
+• Practical benefits include enhanced safety measures in global supply chains
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Role of AI in demand forecasting)
+✅ Slide 1 title: AI in Demand Forecasting: Optimizing Supply Chain Efficiency
+Generating title for slide 2 (Topic: Benefits of AI in inventory optimization)
+✅ Slide 2 title: Benefits of AI in Inventory Optimization
+Generating title for slide 3 (Topic: Predictive analytics for inventory management)
+✅ Slide 3 title: "Inventory Optimization with Predictive Analytics"
+Generating title for slide 4 (Topic: Introduction to blockchain technology in supply chain)
+✅ Slide 4 title: "Blockchain Technology in Supply Chain Overview"
+Generating title for slide 5 (Topic: Traceability and transparency in blockchain tracking)
+✅ Slide 5 title: "Blockchain Tracking: Traceability and Transparency"
+Generating title for slide 6 (Topic: Security features of blockchain in supply chain)
+✅ Slide 6 title: Blockchain Security Features in Supply Chain
+Generating title for slide 7 (Topic: Importance of predictive maintenance in global supply chains)
+✅ Slide 7 title: Maximizing Efficiency: Predictive Maintenance in Supply Chains
+Generating title for slide 8 (Topic: Implementation of AI algorithms for predictive maintenance)
+✅ Slide 8 title: "AI Predictive Maintenance for Enhanced Supply Chain Safety"
+Generating overall presentation title...
+✅ Overall presentation title: Innovative Technologies in Global Supply Chain Management
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Role of AI in demand forecasting)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Benefits of AI in inventory optimization)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Predictive analytics for inventory management)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Introduction to blockchain technology in supply chain)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Traceability and transparency in blockchain tracking)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Security features of blockchain in supply chain)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Importance of predictive maintenance in global supply chains)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Implementation of AI algorithms for predictive maintenance)
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Role of AI in demand forecasting)
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Benefits of AI in inventory optimization)
+⚠️ Warning: Slide 2 content is long (692 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Predictive analytics for inventory management)
+⚠️ Warning: Slide 3 content is long (714 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Introduction to blockchain technology in supply chain)
+⚠️ Warning: Slide 4 content is long (646 chars) - consider reducing
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Traceability and transparency in blockchain tracking)
+⚠️ Warning: Slide 5 content is long (621 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Security features of blockchain in supply chain)
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Importance of predictive maintenance in global supply chains)
+⚠️ Warning: Slide 7 content is long (516 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Implementation of AI algorithms for predictive maintenance)
+⚠️ Warning: Slide 8 content is long (710 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Innovative_Technologies_in_Global_Supply_Chain_Management_2025-08-20_12-10-55
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Innovative_Technologies_in_Global_Supply_Chain_Management_2025-08-20_12-10-55.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Innovative_Technologies_in_Global_Supply_Chain_Management_2025-08-20_12-10-55.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 0 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Innovative_Technologies_in_Global_Supply_Chain_Management_2025-08-20_12-10-55.pptx
+📊 Rating presentation 0...
+✅ Presentation 0 rated successfully
+📈 Overall Rating: 6.52 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.00 / 2.00
+   - Non-Repetition: 1.64 / 2.00
+   - Content Balance: 1.63 / 2.00
+   - Title Uniqueness: 1.86 / 2.00
+   - Title-Content Match: 1.39 / 2.00
+
+📊 Presentation 2/4 (ID: 1)
+📝 Selected topic: Genetic Engineering and CRISPR
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

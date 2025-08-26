@@ -1,0 +1,1328 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-21T09:25:56.609428
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-21_09-25-56.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 5...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Biodiversity Conservation
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+🎲 Choice scenario triggered! (Rolled 42.7 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI topic response: Threats to biodiversity, Importance of biodiversity in ecosystems
+Selected topics: ['Threats to biodiversity', 'Importance of biodiversity in ecosystems']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Threats to biodiversity
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **THREATS TO BIODIVERSITY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 39.6 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Major Threats to Biodiversity",
+    "keywords": ["deforestation", "climate change", "habitat loss", "pollution", "overexploitation"],
+    "text": "Some of the major threats to biodiversity include deforestation, climate change, habitat loss, pollution, and overexploitation of natural resources. These factors can lead to the decline of species populations and loss of biodiversity worldwide.",
+    "link": "https://www.worldwildlife.org/threats" 
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Major Threats to Biodiversity
+Keywords: deforestation, climate change, habitat loss, pollution, overexploitation
+Uses: 0
+Text: Some of the major threats to biodiversity include deforestation, climate change, habitat loss, pollution, and overexploitation of natural resources. These factors can lead to the decline of species populations and loss of biodiversity worldwide.Link: https://www.worldwildlife.org/threats
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **THREATS TO BIODIVERSITY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 74.0 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+Raw AI response to this: {
+    "title": "Climate Change as a Threat to Biodiversity",
+    "keywords": ["climate change", "global warming", "species extinction", "habitat loss"],
+    "text": "Climate change is a significant threat to biodiversity as it alters ecosystems and disrupts the delicate balance of species. Rising temperatures, changing precipitation patterns, and extreme weather events can lead to habitat loss, shifts in species distributions, and increased competition for resources. Many species are unable to adapt quickly enough to these rapid changes, leading to population declines and even extinction.",
+    "link": "https://www.worldwildlife.org/threats/climate-change"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Climate Change as a Threat to Biodiversity
+Keywords: climate change, global warming, species extinction, habitat loss
+Uses: 0
+Text: Climate change is a significant threat to biodiversity as it alters ecosystems and disrupts the delicate balance of species. Rising temperatures, changing precipitation patterns, and extreme weather events can lead to habitat loss, shifts in species distributions, and increased competition for resources. Many species are unable to adapt quickly enough to these rapid changes, leading to population declines and even extinction.Link: https://www.worldwildlife.org/threats/climate-change
+Researching topic: Importance of biodiversity in ecosystems
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF BIODIVERSITY IN ECOSYSTEMS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 72.3 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Importance of Biodiversity in Ecosystems",
+    "keywords": ["biodiversity", "ecosystems", "importance"],
+    "text": "Biodiversity plays a crucial role in maintaining the health and stability of ecosystems. It ensures the resilience of ecosystems against environmental changes, such as climate change or species invasions. Biodiversity also provides a wide range of ecosystem services, including air and water purification, soil fertility, pollination, and pest control.",
+    "link": "https://www.nature.org/en-us/what-we-do/our-insights/perspectives/importance-of-biodiversity/"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Importance of Biodiversity in Ecosystems
+Keywords: biodiversity, ecosystems, importance
+Uses: 0
+Text: Biodiversity plays a crucial role in maintaining the health and stability of ecosystems. It ensures the resilience of ecosystems against environmental changes, such as climate change or species invasions. Biodiversity also provides a wide range of ecosystem services, including air and water purification, soil fertility, pollination, and pest control.Link: https://www.nature.org/en-us/what-we-do/our-insights/perspectives/importance-of-biodiversity/
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF BIODIVERSITY IN ECOSYSTEMS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 54.2 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "The Role of Biodiversity in Ecosystems",
+    "keywords": ["biodiversity", "ecosystems", "species richness", "ecological balance"],
+    "text": "Biodiversity plays a crucial role in maintaining the health and stability of ecosystems. It contributes to various ecosystem services such as nutrient cycling, pollination, and pest control. A diverse range of species ensures resilience to environmental changes and helps ecosystems adapt to disturbances. Additionally, higher species richness often leads to increased productivity and efficiency within ecosystems, benefiting both wildlife and humans.",
+    "link": "https://www.nature.org/en-us/what-we-do/our-insights/perspectives/the-importance-of-biodiversity/" 
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: The Role of Biodiversity in Ecosystems
+Keywords: biodiversity, ecosystems, species richness, ecological balance
+Uses: 0
+Text: Biodiversity plays a crucial role in maintaining the health and stability of ecosystems. It contributes to various ecosystem services such as nutrient cycling, pollination, and pest control. A diverse range of species ensures resilience to environmental changes and helps ecosystems adapt to disturbances. Additionally, higher species richness often leads to increased productivity and efficiency within ecosystems, benefiting both wildlife and humans.Link: https://www.nature.org/en-us/what-we-do/our-insights/perspectives/the-importance-of-biodiversity/
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Biodiversity Conservation) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Threats to biodiversity', 'Importance of biodiversity in ecosystems']. The research these yeilded is: ({Some of the major threats to biodiversity include deforestation, climate change, habitat loss, pollution, and overexploitation of natural resources. These factors can lead to the decline of species populations and loss of biodiversity worldwide.
+
+Climate change is a significant threat to biodiversity as it alters ecosystems and disrupts the delicate balance of species. Rising temperatures, changing precipitation patterns, and extreme weather events can lead to habitat loss, shifts in species distributions, and increased competition for resources. Many species are unable to adapt quickly enough to these rapid changes, leading to population declines and even extinction.
+
+Biodiversity plays a crucial role in maintaining the health and stability of ecosystems. It ensures the resilience of ecosystems against environmental changes, such as climate change or species invasions. Biodiversity also provides a wide range of ecosystem services, including air and water purification, soil fertility,  (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+🎲 Choice scenario triggered! (Rolled 4.9 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+Raw AI topic response: Causes of deforestation, Impact of pollution on biodiversity, Effects of habitat loss on ecosystems, Consequences of overexploitation of natural resources, Strategies for mitigating climate change effects on biodiversity, Importance of ecosystem services provided by biodiversity
+Selected topics: ['Causes of deforestation', 'Impact of pollution on biodiversity', 'Effects of habitat loss on ecosystems', 'Consequences of overexploitation of natural resources', 'Strategies for mitigating climate change effects on biodiversity', 'Importance of ecosystem services provided by biodiversity']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Causes of deforestation
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems', 'The Role of Biodiversity in Ecosystems']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CAUSES OF DEFORESTATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 10.5 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Causes of Deforestation",
+    "keywords": ["deforestation", "causes", "logging", "agriculture", "urbanization"],
+    "text": "Deforestation is mainly caused by logging, agriculture, and urbanization. Logging for timber and paper products is a significant driver of deforestation, especially in tropical rainforests. Agriculture, particularly commercial agriculture like palm oil plantations and cattle ranching, also contributes to deforestation as forests are cleared to make way for farmland. Urbanization, the expansion of cities and infrastructure, leads to the clearing of forests for roads, buildings, and other developments.",
+    "link": "https://www.worldwildlife.org/threats/deforestation"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Causes of Deforestation
+Keywords: deforestation, causes, logging, agriculture, urbanization
+Uses: 0
+Text: Deforestation is mainly caused by logging, agriculture, and urbanization. Logging for timber and paper products is a significant driver of deforestation, especially in tropical rainforests. Agriculture, particularly commercial agriculture like palm oil plantations and cattle ranching, also contributes to deforestation as forests are cleared to make way for farmland. Urbanization, the expansion of cities and infrastructure, leads to the clearing of forests for roads, buildings, and other developments.Link: https://www.worldwildlife.org/threats/deforestation
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems', 'The Role of Biodiversity in Ecosystems', 'Causes of Deforestation']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CAUSES OF DEFORESTATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 50.4 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Effects of Deforestation on Biodiversity",
+    "keywords": ["deforestation", "biodiversity", "impact", "species loss"],
+    "text": "Deforestation has a significant impact on biodiversity as it leads to the loss of habitats for countless species. When forests are cleared, many plants and animals lose their homes, which can result in population declines and even extinction. Deforestation also disrupts the delicate balance of ecosystems, causing further harm to biodiversity.",
+    "link": "https://www.worldwildlife.org/threats/deforestation"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Effects of Deforestation on Biodiversity
+Keywords: deforestation, biodiversity, impact, species loss
+Uses: 0
+Text: Deforestation has a significant impact on biodiversity as it leads to the loss of habitats for countless species. When forests are cleared, many plants and animals lose their homes, which can result in population declines and even extinction. Deforestation also disrupts the delicate balance of ecosystems, causing further harm to biodiversity.Link: https://www.worldwildlife.org/threats/deforestation
+Researching topic: Impact of pollution on biodiversity
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems', 'The Role of Biodiversity in Ecosystems', 'Causes of Deforestation', 'Effects of Deforestation on Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF POLLUTION ON BIODIVERSITY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 81.8 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Impact of Pollution on Biodiversity",
+    "keywords": ["pollution", "biodiversity", "impact", "water pollution", "air pollution", "soil pollution"],
+    "text": "Pollution, in the form of water, air, and soil pollution, has severe impacts on biodiversity. Water pollution can harm aquatic ecosystems, leading to declines in fish populations and other aquatic species. Air pollution can have detrimental effects on plant life, affecting the food chain and overall ecosystem health. Soil pollution can disrupt soil microorganisms and plant growth, further impacting biodiversity.",
+    "link": "https://www.nwf.org/Our-Work/Watersheds-and-Freshwater/Polluted-Runoff/What-is-Water-Pollution"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Impact of Pollution on Biodiversity
+Keywords: pollution, biodiversity, impact, water pollution, air pollution, soil pollution
+Uses: 0
+Text: Pollution, in the form of water, air, and soil pollution, has severe impacts on biodiversity. Water pollution can harm aquatic ecosystems, leading to declines in fish populations and other aquatic species. Air pollution can have detrimental effects on plant life, affecting the food chain and overall ecosystem health. Soil pollution can disrupt soil microorganisms and plant growth, further impacting biodiversity.Link: https://www.nwf.org/Our-Work/Watersheds-and-Freshwater/Polluted-Runoff/What-is-Water-Pollution
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems', 'The Role of Biodiversity in Ecosystems', 'Causes of Deforestation', 'Effects of Deforestation on Biodiversity', 'Impact of Pollution on Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF POLLUTION ON BIODIVERSITY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 76.1 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Types of Pollution that Impact Biodiversity",
+    "keywords": ["pollution", "biodiversity", "types", "impact"],
+    "text": "Pollution can have various detrimental effects on biodiversity. Some common types of pollution that impact biodiversity include air pollution, water pollution, and soil contamination. Air pollution can harm plants and animals through the deposition of pollutants on their habitats, while water pollution can lead to the contamination of aquatic ecosystems, affecting the organisms living in them. Soil contamination from pollutants like heavy metals can also have long-lasting negative effects on biodiversity.",
+    "link": "https://www.nature.com/scitable/knowledge/library/pollution-and-biodiversity-25844299/"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Types of Pollution that Impact Biodiversity
+Keywords: pollution, biodiversity, types, impact
+Uses: 0
+Text: Pollution can have various detrimental effects on biodiversity. Some common types of pollution that impact biodiversity include air pollution, water pollution, and soil contamination. Air pollution can harm plants and animals through the deposition of pollutants on their habitats, while water pollution can lead to the contamination of aquatic ecosystems, affecting the organisms living in them. Soil contamination from pollutants like heavy metals can also have long-lasting negative effects on biodiversity.Link: https://www.nature.com/scitable/knowledge/library/pollution-and-biodiversity-25844299/
+Researching topic: Effects of habitat loss on ecosystems
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems', 'The Role of Biodiversity in Ecosystems', 'Causes of Deforestation', 'Effects of Deforestation on Biodiversity', 'Impact of Pollution on Biodiversity', 'Types of Pollution that Impact Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **EFFECTS OF HABITAT LOSS ON ECOSYSTEMS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 73.8 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Effects of Habitat Loss on Ecosystems",
+    "keywords": ["habitat loss", "ecosystems", "biodiversity", "impact"],
+    "text": "Habitat loss is a significant threat to biodiversity and ecosystems. When habitats are destroyed or fragmented, many species are unable to survive or reproduce, leading to a loss of biodiversity. This loss can disrupt the delicate balance within ecosystems, affecting the food chain, nutrient cycling, and overall ecosystem function.",
+    "link": "https://www.worldwildlife.org/threats/habitat-loss"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Effects of Habitat Loss on Ecosystems
+Keywords: habitat loss, ecosystems, biodiversity, impact
+Uses: 0
+Text: Habitat loss is a significant threat to biodiversity and ecosystems. When habitats are destroyed or fragmented, many species are unable to survive or reproduce, leading to a loss of biodiversity. This loss can disrupt the delicate balance within ecosystems, affecting the food chain, nutrient cycling, and overall ecosystem function.Link: https://www.worldwildlife.org/threats/habitat-loss
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems', 'The Role of Biodiversity in Ecosystems', 'Causes of Deforestation', 'Effects of Deforestation on Biodiversity', 'Impact of Pollution on Biodiversity', 'Types of Pollution that Impact Biodiversity', 'Effects of Habitat Loss on Ecosystems']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **EFFECTS OF HABITAT LOSS ON ECOSYSTEMS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 96.3 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "How Habitat Loss Affects Ecosystems",
+    "keywords": ["habitat loss", "ecosystems", "biodiversity", "species extinction"],
+    "text": "Habitat loss is a major threat to biodiversity and ecosystems. When habitats are destroyed or fragmented, it can lead to a decrease in biodiversity as it disrupts the balance of species within the ecosystem. This loss of habitat can result in species being unable to find food, shelter, or mates, leading to population declines and even extinction. Additionally, habitat loss can also impact the overall health and resilience of ecosystems, making them more susceptible to other threats such as climate change and pollution.",
+    "link": "https://www.nationalgeographic.org/encyclopedia/habitat-loss/"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: How Habitat Loss Affects Ecosystems
+Keywords: habitat loss, ecosystems, biodiversity, species extinction
+Uses: 0
+Text: Habitat loss is a major threat to biodiversity and ecosystems. When habitats are destroyed or fragmented, it can lead to a decrease in biodiversity as it disrupts the balance of species within the ecosystem. This loss of habitat can result in species being unable to find food, shelter, or mates, leading to population declines and even extinction. Additionally, habitat loss can also impact the overall health and resilience of ecosystems, making them more susceptible to other threats such as climate change and pollution.Link: https://www.nationalgeographic.org/encyclopedia/habitat-loss/
+Researching topic: Consequences of overexploitation of natural resources
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems', 'The Role of Biodiversity in Ecosystems', 'Causes of Deforestation', 'Effects of Deforestation on Biodiversity', 'Impact of Pollution on Biodiversity', 'Types of Pollution that Impact Biodiversity', 'Effects of Habitat Loss on Ecosystems', 'How Habitat Loss Affects Ecosystems']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CONSEQUENCES OF OVEREXPLOITATION OF NATURAL RESOURCES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 17.5 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Consequences of Overexploitation of Natural Resources",
+    "keywords": ["overexploitation", "natural resources", "consequences"],
+    "text": "Overexploitation of natural resources can lead to depletion of important resources such as fish stocks, forests, and minerals. This can disrupt ecosystems, leading to loss of biodiversity, habitat destruction, and even extinction of species. Additionally, overexploitation can result in social and economic consequences, such as conflicts over resources, loss of livelihoods for communities dependent on these resources, and economic instability.",
+    "link": "https://www.nationalgeographic.org/encyclopedia/natural-resource-overexploitation/"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Consequences of Overexploitation of Natural Resources
+Keywords: overexploitation, natural resources, consequences
+Uses: 0
+Text: Overexploitation of natural resources can lead to depletion of important resources such as fish stocks, forests, and minerals. This can disrupt ecosystems, leading to loss of biodiversity, habitat destruction, and even extinction of species. Additionally, overexploitation can result in social and economic consequences, such as conflicts over resources, loss of livelihoods for communities dependent on these resources, and economic instability.Link: https://www.nationalgeographic.org/encyclopedia/natural-resource-overexploitation/
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems', 'The Role of Biodiversity in Ecosystems', 'Causes of Deforestation', 'Effects of Deforestation on Biodiversity', 'Impact of Pollution on Biodiversity', 'Types of Pollution that Impact Biodiversity', 'Effects of Habitat Loss on Ecosystems', 'How Habitat Loss Affects Ecosystems', 'Consequences of Overexploitation of Natural Resources']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CONSEQUENCES OF OVEREXPLOITATION OF NATURAL RESOURCES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 19.6 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Negative Impacts of Overexploitation of Natural Resources on Biodiversity",
+    "keywords": ["overexploitation", "natural resources", "biodiversity", "negative impacts"],
+    "text": "Overexploitation of natural resources can lead to the depletion of species populations, disruption of ecosystems, and loss of biodiversity. This can result in decreased genetic diversity, making species more vulnerable to diseases and environmental changes. Additionally, overexploitation can lead to the extinction of certain species, disrupting the balance of ecosystems and affecting other species that depend on them.",
+    "link": "https://www.iucn.org/resources/issues-briefs/overexploitation#:~:text=Overexploitation%20is%20the%20harvesting%20of,of%20the%20environment%20and%20society."
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Negative Impacts of Overexploitation of Natural Resources on Biodiversity
+Keywords: overexploitation, natural resources, biodiversity, negative impacts
+Uses: 0
+Text: Overexploitation of natural resources can lead to the depletion of species populations, disruption of ecosystems, and loss of biodiversity. This can result in decreased genetic diversity, making species more vulnerable to diseases and environmental changes. Additionally, overexploitation can lead to the extinction of certain species, disrupting the balance of ecosystems and affecting other species that depend on them.Link: https://www.iucn.org/resources/issues-briefs/overexploitation#:~:text=Overexploitation%20is%20the%20harvesting%20of,of%20the%20environment%20and%20society.
+Researching topic: Strategies for mitigating climate change effects on biodiversity
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems', 'The Role of Biodiversity in Ecosystems', 'Causes of Deforestation', 'Effects of Deforestation on Biodiversity', 'Impact of Pollution on Biodiversity', 'Types of Pollution that Impact Biodiversity', 'Effects of Habitat Loss on Ecosystems', 'How Habitat Loss Affects Ecosystems', 'Consequences of Overexploitation of Natural Resources', 'Negative Impacts of Overexploitation of Natural Resources on Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **STRATEGIES FOR MITIGATING CLIMATE CHANGE EFFECTS ON BIODIVERSITY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 65.4 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Strategies for Mitigating Climate Change Effects on Biodiversity",
+    "keywords": ["climate change", "biodiversity", "mitigation", "strategies"],
+    "text": "One key strategy for mitigating the effects of climate change on biodiversity is the establishment of protected areas. These areas provide a refuge for species to adapt to changing conditions and reduce the risk of extinction. Another strategy is habitat restoration, which involves restoring degraded habitats to their natural state to support biodiversity. Additionally, sustainable land management practices, such as reforestation and sustainable agriculture, can help sequester carbon and reduce greenhouse gas emissions that contribute to climate change.",
+    "link": "https://www.iucn.org/resources/issues-briefs/biodiversity-and-climate-change-mitigation" 
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Strategies for Mitigating Climate Change Effects on Biodiversity
+Keywords: climate change, biodiversity, mitigation, strategies
+Uses: 0
+Text: One key strategy for mitigating the effects of climate change on biodiversity is the establishment of protected areas. These areas provide a refuge for species to adapt to changing conditions and reduce the risk of extinction. Another strategy is habitat restoration, which involves restoring degraded habitats to their natural state to support biodiversity. Additionally, sustainable land management practices, such as reforestation and sustainable agriculture, can help sequester carbon and reduce greenhouse gas emissions that contribute to climate change.Link: https://www.iucn.org/resources/issues-briefs/biodiversity-and-climate-change-mitigation
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems', 'The Role of Biodiversity in Ecosystems', 'Causes of Deforestation', 'Effects of Deforestation on Biodiversity', 'Impact of Pollution on Biodiversity', 'Types of Pollution that Impact Biodiversity', 'Effects of Habitat Loss on Ecosystems', 'How Habitat Loss Affects Ecosystems', 'Consequences of Overexploitation of Natural Resources', 'Negative Impacts of Overexploitation of Natural Resources on Biodiversity', 'Strategies for Mitigating Climate Change Effects on Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **STRATEGIES FOR MITIGATING CLIMATE CHANGE EFFECTS ON BIODIVERSITY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 18.4 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Strategies for Mitigating Climate Change Effects on Biodiversity",
+    "keywords": ["climate change", "biodiversity", "mitigation", "strategies"],
+    "text": "One effective strategy for mitigating climate change effects on biodiversity is the creation of protected areas and wildlife corridors. These areas provide safe habitats for species to adapt to changing climates and help maintain genetic diversity. Another strategy is to promote sustainable land management practices, such as reforestation and sustainable agriculture, which can help sequester carbon dioxide and reduce greenhouse gas emissions. Additionally, implementing policies to reduce deforestation and promote renewable energy sources can also contribute to mitigating climate change impacts on biodiversity.",
+    "link": "https://www.iucn.org/resources/issues-briefs/protected-areas-and-other-areas-important-biodiversity-climate-change"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Strategies for Mitigating Climate Change Effects on Biodiversity
+Keywords: climate change, biodiversity, mitigation, strategies
+Uses: 0
+Text: One effective strategy for mitigating climate change effects on biodiversity is the creation of protected areas and wildlife corridors. These areas provide safe habitats for species to adapt to changing climates and help maintain genetic diversity. Another strategy is to promote sustainable land management practices, such as reforestation and sustainable agriculture, which can help sequester carbon dioxide and reduce greenhouse gas emissions. Additionally, implementing policies to reduce deforestation and promote renewable energy sources can also contribute to mitigating climate change impacts on biodiversity.Link: https://www.iucn.org/resources/issues-briefs/protected-areas-and-other-areas-important-biodiversity-climate-change
+Researching topic: Importance of ecosystem services provided by biodiversity
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems', 'The Role of Biodiversity in Ecosystems', 'Causes of Deforestation', 'Effects of Deforestation on Biodiversity', 'Impact of Pollution on Biodiversity', 'Types of Pollution that Impact Biodiversity', 'Effects of Habitat Loss on Ecosystems', 'How Habitat Loss Affects Ecosystems', 'Consequences of Overexploitation of Natural Resources', 'Negative Impacts of Overexploitation of Natural Resources on Biodiversity', 'Strategies for Mitigating Climate Change Effects on Biodiversity', 'Strategies for Mitigating Climate Change Effects on Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF ECOSYSTEM SERVICES PROVIDED BY BIODIVERSITY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 29.2 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw AI response to this: {
+    "title": "Importance of Ecosystem Services Provided by Biodiversity",
+    "keywords": ["ecosystem services", "biodiversity importance", "ecosystem benefits", "biodiversity services"],
+    "text": "Ecosystem services provided by biodiversity are essential for human well-being and the functioning of ecosystems. Biodiversity helps in regulating the climate, purifying air and water, pollination of crops, controlling pests, and providing food and medicine. These services are crucial for maintaining the balance of ecosystems and supporting human livelihoods.",
+    "link": "https://www.nature.com/scitable/knowledge/library/ecosystem-services-13235090/"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Importance of Ecosystem Services Provided by Biodiversity
+Keywords: ecosystem services, biodiversity importance, ecosystem benefits, biodiversity services
+Uses: 0
+Text: Ecosystem services provided by biodiversity are essential for human well-being and the functioning of ecosystems. Biodiversity helps in regulating the climate, purifying air and water, pollination of crops, controlling pests, and providing food and medicine. These services are crucial for maintaining the balance of ecosystems and supporting human livelihoods.Link: https://www.nature.com/scitable/knowledge/library/ecosystem-services-13235090/
+Prompt:
+Initial Prompt: (Biodiversity Conservation) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Major Threats to Biodiversity', 'Climate Change as a Threat to Biodiversity', 'Importance of Biodiversity in Ecosystems', 'The Role of Biodiversity in Ecosystems', 'Causes of Deforestation', 'Effects of Deforestation on Biodiversity', 'Impact of Pollution on Biodiversity', 'Types of Pollution that Impact Biodiversity', 'Effects of Habitat Loss on Ecosystems', 'How Habitat Loss Affects Ecosystems', 'Consequences of Overexploitation of Natural Resources', 'Negative Impacts of Overexploitation of Natural Resources on Biodiversity', 'Strategies for Mitigating Climate Change Effects on Biodiversity', 'Strategies for Mitigating Climate Change Effects on Biodiversity', 'Importance of Ecosystem Services Provided by Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF ECOSYSTEM SERVICES PROVIDED BY BIODIVERSITY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 64.3 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+Raw AI response to this: {
+    "title": "Importance of Ecosystem Services Provided by Biodiversity",
+    "keywords": ["ecosystem services", "biodiversity", "importance"],
+    "text": "Ecosystem services provided by biodiversity include air and water purification, pollination, nutrient cycling, and climate regulation. Biodiversity plays a crucial role in maintaining these services, which are essential for human well-being and the functioning of ecosystems.",
+    "link": "https://www.nature.com/scitable/knowledge/library/ecosystem-services-13235090/"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Importance of Ecosystem Services Provided by Biodiversity
+Keywords: ecosystem services, biodiversity, importance
+Uses: 0
+Text: Ecosystem services provided by biodiversity include air and water purification, pollination, nutrient cycling, and climate regulation. Biodiversity plays a crucial role in maintaining these services, which are essential for human well-being and the functioning of ecosystems.Link: https://www.nature.com/scitable/knowledge/library/ecosystem-services-13235090/
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Biodiversity Conservation) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Some of the major threats to biodiversity include deforestation, climate change, habitat loss, pollution, and overexploitation of natural resources. These factors can lead to the decline of species populations and loss of biodiversity worldwide.
+
+Climate change is a significant threat to biodiversity as it alters ecosystems and disrupts the delicate balance of species. Rising temperatures, changing precipitation patterns, and extreme weather events can lead to habitat loss, shifts in species distributions, and increased competition for resou...
+
+Biodiversity plays a crucial role in maintaining the health and stability of ecosystems. It ensures the resilience of ecosystems against environmental changes, such as climate change or species invasions. Biodiversity also provides a wide range of ecosystem services, including air and water purifica...
+
+Biodiversity plays a crucial role in maintaining the health and stability of ecosystems. It contributes to various ecosystem services such as nutrient cycling, pollination, and pest control. A diverse range of species ensures resilience to environmental changes and helps ecosystems adapt to disturba...
+
+Deforestation is mainly caused by logging, agriculture, and urbanization. Logging for timber and paper products is a significant driver of deforestation, especially in tropical rainforests. Agriculture, particularly commercial agriculture like palm oil plantations and cattle ranching, also contribut...
+
+Deforestation has a significant impact on biodiversity as it leads to the loss of habitats for countless species. When forests are cleared, many plants and animals lose their homes, which can result in population declines and even extinction. Deforestation also disrupts the delicate balance of ecosy...
+
+Pollution, in the form of water, air, and soil pollution, has severe impacts on biodiversity. Water pollution can harm aquatic ecosystems, leading to declines in fish populations and other aquatic species. Air pollution can have detrimental effects on plant life, affecting the food chain and overall...
+
+Pollution can have various detrimental effects on biodiversity. Some common types of pollution that impact biodiversity include air pollution, water pollution, and soil contamination. Air pollution can harm plants and animals through the deposition of pollutants on their habitats, while water pollut...
+
+Habitat loss is a significant threat to biodiversity and ecosystems. When habitats are destroyed or fragmented, many species are unable to survive or reproduce, leading to a loss of biodiversity. This loss can disrupt the delicate balance within ecosystems, affecting the food chain, nutrient cycling...
+
+Habitat loss is a major threat to biodiversity and ecosystems. When habitats are destroyed or fragmented, it can lead to a decrease in biodiversity as it disrupts the balance of species within the ecosystem. This loss of habitat can result in species being unable to find food, shelter, or mates, lea...
+
+Overexploitation of natural resources can lead to depletion of important resources such as fish stocks, forests, and minerals. This can disrupt ecosystems, leading to loss of biodiversity, habitat destruction, and even extinction of species. Additionally, overexploitation can result in social and ec...
+
+Overexploitation of natural resources can lead to the depletion of species populations, disruption of ecosystems, and loss of biodiversity. This can result in decreased genetic diversity, making species more vulnerable to diseases and environmental changes. Additionally, overexploitation can lead to...
+
+One key strategy for mitigating the effects of climate change on biodiversity is the establishment of protected areas. These areas provide a refuge for species to adapt to changing conditions and reduce the risk of extinction. Another strategy is habitat restoration, which involves restoring degrade...
+
+One effective strategy for mitigating climate change effects on biodiversity is the creation of protected areas and wildlife corridors. These areas provide safe habitats for species to adapt to changing climates and help maintain genetic diversity. Another strategy is to promote sustainable land man...
+
+Ecosystem services provided by biodiversity are essential for human well-being and the functioning of ecosystems. Biodiversity helps in regulating the climate, purifying air and water, pollination of crops, controlling pests, and providing food and medicine. These services are crucial for maintainin...
+
+Ecosystem services provided by biodiversity include air and water purification, pollination, nutrient cycling, and climate regulation. Biodiversity plays a crucial role in maintaining these services, which are essential for human well-being and the functioning of ecosystems.}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+🎲 Choice scenario triggered! (Rolled 7.0 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw response:
+4
+.
+Topic count decided: 4
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Biodiversity Conservation) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Some of the major threats to biodiversity include deforestation, climate change, habitat loss, pollution, and overexploitation of natural resources. These factors can lead to the decline of species populations and loss of biodiversity worldwide.
+
+Climate change is a significant threat to biodiversity as it alters ecosystems and disrupts the delicate balance of species. Rising temperatures, changing precipitation patterns, and extreme weather events can lead to habitat loss, shifts in species distributions, and increased competition for resou...
+
+Biodiversity plays a crucial role in maintaining the health and stability of ecosystems. It ensures the resilience of ecosystems against environmental changes, such as climate change or species invasions. Biodiversity also provides a wide range of ecosystem services, including air and water purifica...
+
+Biodiversity plays a crucial role in maintaining the health and stability of ecosystems. It contributes to various ecosystem services such as nutrient cycling, pollination, and pest control. A diverse range of species ensures resilience to environmental changes and helps ecosystems adapt to disturba...
+
+Deforestation is mainly caused by logging, agriculture, and urbanization. Logging for timber and paper products is a significant driver of deforestation, especially in tropical rainforests. Agriculture, particularly commercial agriculture like palm oil plantations and cattle ranching, also contribut...
+
+Deforestation has a significant impact on biodiversity as it leads to the loss of habitats for countless species. When forests are cleared, many plants and animals lose their homes, which can result in population declines and even extinction. Deforestation also disrupts the delicate balance of ecosy...
+
+Pollution, in the form of water, air, and soil pollution, has severe impacts on biodiversity. Water pollution can harm aquatic ecosystems, leading to declines in fish populations and other aquatic species. Air pollution can have detrimental effects on plant life, affecting the food chain and overall...
+
+Pollution can have various detrimental effects on biodiversity. Some common types of pollution that impact biodiversity include air pollution, water pollution, and soil contamination. Air pollution can harm plants and animals through the deposition of pollutants on their habitats, while water pollut...
+
+Habitat loss is a significant threat to biodiversity and ecosystems. When habitats are destroyed or fragmented, many species are unable to survive or reproduce, leading to a loss of biodiversity. This loss can disrupt the delicate balance within ecosystems, affecting the food chain, nutrient cycling...
+
+Habitat loss is a major threat to biodiversity and ecosystems. When habitats are destroyed or fragmented, it can lead to a decrease in biodiversity as it disrupts the balance of species within the ecosystem. This loss of habitat can result in species being unable to find food, shelter, or mates, lea...
+
+Overexploitation of natural resources can lead to depletion of important resources such as fish stocks, forests, and minerals. This can disrupt ecosystems, leading to loss of biodiversity, habitat destruction, and even extinction of species. Additionally, overexploitation can result in social and ec...
+
+Overexploitation of natural resources can lead to the depletion of species populations, disruption of ecosystems, and loss of biodiversity. This can result in decreased genetic diversity, making species more vulnerable to diseases and environmental changes. Additionally, overexploitation can lead to...
+
+One key strategy for mitigating the effects of climate change on biodiversity is the establishment of protected areas. These areas provide a refuge for species to adapt to changing conditions and reduce the risk of extinction. Another strategy is habitat restoration, which involves restoring degrade...
+
+One effective strategy for mitigating climate change effects on biodiversity is the creation of protected areas and wildlife corridors. These areas provide safe habitats for species to adapt to changing climates and help maintain genetic diversity. Another strategy is to promote sustainable land man...
+
+Ecosystem services provided by biodiversity are essential for human well-being and the functioning of ecosystems. Biodiversity helps in regulating the climate, purifying air and water, pollination of crops, controlling pests, and providing food and medicine. These services are crucial for maintainin...
+
+Ecosystem services provided by biodiversity include air and water purification, pollination, nutrient cycling, and climate regulation. Biodiversity plays a crucial role in maintaining these services, which are essential for human well-being and the functioning of ecosystems.}). You are to come up with {4} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+🎲 Choice scenario triggered! (Rolled 62.2 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+Raw response:
+Module 1: Introduction to Biodiversity Conservation
+
+Main Topic Title: Importance of Biodiversity
+
+Sub-Topics:
+1. Ecosystem Resilience and Services
+   - Discuss how biodiversity contributes to ecosystem resilience against environmental changes and provides essential ecosystem services such as air and water purification (Database: "Biodiversity plays a crucial role in maintaining the health and stability of ecosystems.")
+   
+2. Threats to Biodiversity
+   - Explore major threats to biodiversity including deforestation, climate change, habitat loss, pollution, and overexploitation of natural resources (Database: "Some of the major threats to biodiversity include deforestation, climate change, habitat loss, pollution, and overexploitation of natural resources.")
+   
+3. Impact of Deforestation on Biodiversity
+   - Examine the consequences of deforestation on biodiversity, such as habitat loss for species and disruption of ecosystem balance (Database: "Deforestation has a significant impact on biodiversity as it leads to the loss of habitats for countless species.")
+   
+Learning Objectives:
+- Understand the importance of biodiversity in maintaining ecosystem health and stability
+- Identify major threats to biodiversity and their impacts
+- Analyze the relationship between deforestation and biodiversity loss
+
+Estimated Number of Slides: 15
+
+Lab Activities:
+- Conduct a case study analysis on a specific deforestation event and its impact on biodiversity
+- Calculate the economic value of ecosystem services provided by biodiversity in a given area
+
+Real-World Applications:
+- Discuss current conservation efforts to combat deforestation and protect biodiversity
+- Explore how biodiversity loss can impact human communities and economies
+
+Module 2: Climate Change and Biodiversity
+
+Main Topic Title: Climate Change Impacts on Biodiversity
+
+Sub-Topics:
+1. Climate Change Effects on Ecosystems
+   - Examine how climate change alters ecosystems, disrupts species balance, and leads to habitat loss (Database: "Climate change is a significant threat to biodiversity as it alters ecosystems and disrupts the delicate balance of species.")
+   
+2. Strategies for Mitigating Climate Change Effects
+   - Discuss key strategies such as establishing protected areas and promoting habitat restoration to mitigate climate change impacts on biodiversity (Database: "One key strategy for mitigating the effects of climate change on biodiversity is the establishment of protected areas.")
+   
+3. Importance of Genetic Diversity
+   - Explore the role of genetic diversity in helping species adapt to changing climates and reduce the risk of extinction (Database: "Overexploitation of natural resources can lead to decreased genetic diversity, making species more vulnerable to diseases and environmental changes.")
+   
+Learning Objectives:
+- Understand the effects of climate change on biodiversity and ecosystems
+- Evaluate strategies for mitigating climate change impacts on biodiversity
+- Recognize the importance of genetic diversity in biodiversity conservation
+
+Estimated Number of Slides: 20
+
+Lab Activities:
+- Analyze species distribution data to identify potential climate change impacts on biodiversity
+- Develop a habitat restoration plan for a local ecosystem to enhance biodiversity resilience
+
+Real-World Applications:
+- Investigate case studies of successful climate change adaptation strategies in biodiversity conservation
+- Engage with local conservation organizations working on climate change mitigation projects
+
+Module 3: Habitat Loss and Pollution
+
+Main Topic Title: Habitat Loss and Pollution Impacts on Biodiversity
+
+Sub-Topics:
+1. Effects of Habitat Loss on Species
+   - Discuss how habitat loss leads to species population declines, disruption of ecosystem balance, and potential extinctions (Database: "Habitat loss is a significant threat to biodiversity and ecosystems.")
+   
+2. Impacts of Pollution on Biodiversity
+   - Examine the detrimental effects of different types of pollution (air, water, soil) on biodiversity and ecosystem health (Database: "Pollution, in the form of water, air, and soil pollution, has severe impacts on biodiversity.")
+   
+3. Conservation Strategies for Habitat Restoration
+   - Explore conservation strategies such as habitat restoration and protected area creation to address habitat loss and pollution impacts on biodiversity (Database: "One effective strategy for mitigating climate change effects on biodiversity is the creation of protected areas and wildlife corridors.")
+   
+Learning Objectives:
+- Identify the impacts of habitat loss on species populations and ecosystem balance
+- Evaluate the effects of pollution on biodiversity and ecosystem health
+- Examine conservation strategies for habitat restoration and pollution mitigation
+
+Estimated Number of Slides: 18
+
+Lab Activities:
+- Conduct a field survey to assess the impact of habitat loss on local species diversity
+- Analyze water and soil samples to determine pollution levels and their potential effects on biodiversity
+
+Real-World Applications:
+- Participate in a habitat restoration project in a local ecosystem to support biodiversity conservation
+- Collaborate with environmental agencies to develop pollution control measures for a specific area
+
+Module 4: Overexploitation of Natural Resources
+
+Main Topic Title: Overexploitation and Biodiversity Loss
+
+Sub-Topics:
+1. Depletion of Species Populations
+   - Discuss how overexploitation of natural resources leads to the depletion of species populations, disruption of ecosystems, and loss of biodiversity (Database: "Overexploitation of natural resources can lead to depletion of important resources such as fish stocks, forests, and minerals.")
+   
+2. Impacts on Genetic Diversity
+   - Explore the effects of overexploitation on genetic diversity, making species more vulnerable to diseases and environmental changes (Database: "Overexploitation can lead to decreased genetic diversity, making species more vulnerable to diseases and environmental changes.")
+   
+3. Sustainable Resource Management
+   - Examine the principles of sustainable land management and resource conservation to prevent overexploitation and protect biodiversity (Database: "Another strategy is to promote sustainable land management.")
+   
+Learning Objectives:
+- Understand the consequences of overexploitation on species populations and genetic diversity
+- Evaluate the importance of sustainable resource management in biodiversity conservation
+- Analyze the role of overexploitation in biodiversity loss and ecosystem disruption
+
+Estimated Number of Slides: 17
+
+Lab Activities:
+- Conduct a simulation exercise to demonstrate the impact of overexploitation on species populations
+- Develop a sustainable resource management plan for a specific natural resource to prevent overexploitation
+
+Real-World Applications:
+- Explore case studies of successful sustainable resource management practices in biodiversity conservation
+- Engage with local communities to promote sustainable resource use and biodiversity protection
+
+Overall, this teaching plan provides a comprehensive overview of biodiversity conservation, covering key topics such as threats to biodiversity, climate change impacts, habitat loss, pollution, and overexploitation of natural resources. The progressive structure allows for in-depth exploration of each topic, with practical lab activities and real-world applications to enhance student learning and engagement.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Biodiversity Conservation) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Module 1: Introduction to Biodiversity Conservation
+
+Main Topic Title: Importance of Biodiversity
+
+Sub-Topics:
+1. Ecosystem Resilience and Services
+   - Discuss how biodiversity contributes to ecosystem resilience against environmental changes and provides essential ecosystem services such as air and water purification (Database: "Biodiversity plays a crucial role in maintaining the health and stability of ecosystems.")
+   
+2. Threats to Biodiversity
+   - Explore major threats to biodiversity including deforestation, climate change, habitat loss, pollution, and overexploitation of natural resources (Database: "Some of the major threats to biodiversity include deforestation, climate change, habitat loss, pollution, and overexploitation of natural resources.")
+   
+3. Impact of Deforestation on Biodiversity
+   - Examine the consequences of deforestation on biodiversity, such as habitat loss for species and disruption of ecosystem balance (Database: "Deforestation has a significant impact on biodiversity as it leads to the loss of habitats for countless species.")
+   
+Learning Objectives:
+- Understand the importance of biodiversity in maintaining ecosystem health and stability
+- Identify major threats to biodiversity and their impacts
+- Analyze the relationship between deforestation and biodiversity loss
+
+Estimated Number of Slides: 15
+
+Lab Activities:
+- Conduct a case study analysis on a specific deforestation event and its impact on biodiversity
+- Calculate the economic value of ecosystem services provided by biodiversity in a given area
+
+Real-World Applications:
+- Discuss current conservation efforts to combat deforestation and protect biodiversity
+- Explore how biodiversity loss can impact human communities and economies
+
+Module 2: Climate Change and Biodiversity
+
+Main Topic Title: Climate Change Impacts on Biodiversity
+
+Sub-Topics:
+1. Climate Change Effects on Ecosystems
+   - Examine how climate change alters ecosystems, disrupts species balance, and leads to habitat loss (Database: "Climate change is a significant threat to biodiversity as it alters ecosystems and disrupts the delicate balance of species.")
+   
+2. Strategies for Mitigating Climate Change Effects
+   - Discuss key strategies such as establishing protected areas and promoting habitat restoration to mitigate climate change impacts on biodiversity (Database: "One key strategy for mitigating the effects of climate change on biodiversity is the establishment of protected areas.")
+   
+3. Importance of Genetic Diversity
+   - Explore the role of genetic diversity in helping species adapt to changing climates and reduce the risk of extinction (Database: "Overexploitation of natural resources can lead to decreased genetic diversity, making species more vulnerable to diseases and environmental changes.")
+   
+Learning Objectives:
+- Understand the effects of climate change on biodiversity and ecosystems
+- Evaluate strategies for mitigating climate change impacts on biodiversity
+- Recognize the importance of genetic diversity in biodiversity conservation
+
+Estimated Number of Slides: 20
+
+Lab Activities:
+- Analyze species distribution data to identify potential climate change impacts on biodiversity
+- Develop a habitat restoration plan for a local ecosystem to enhance biodiversity resilience
+
+Real-World Applications:
+- Investigate case studies of successful climate change adaptation strategies in biodiversity conservation
+- Engage with local conservation organizations working on climate change mitigation projects
+
+Module 3: Habitat Loss and Pollution
+
+Main Topic Title: Habitat Loss and Pollution Impacts on Biodiversity
+
+Sub-Topics:
+1. Effects of Habitat Loss on Species
+   - Discuss how habitat loss leads to species population declines, disruption of ecosystem balance, and potential extinctions (Database: "Habitat loss is a significant threat to biodiversity and ecosystems.")
+   
+2. Impacts of Pollution on Biodiversity
+   - Examine the detrimental effects of different types of pollution (air, water, soil) on biodiversity and ecosystem health (Database: "Pollution, in the form of water, air, and soil pollution, has severe impacts on biodiversity.")
+   
+3. Conservation Strategies for Habitat Restoration
+   - Explore conservation strategies such as habitat restoration and protected area creation to address habitat loss and pollution impacts on biodiversity (Database: "One effective strategy for mitigating climate change effects on biodiversity is the creation of protected areas and wildlife corridors.")
+   
+Learning Objectives:
+- Identify the impacts of habitat loss on species populations and ecosystem balance
+- Evaluate the effects of pollution on biodiversity and ecosystem health
+- Examine conservation strategies for habitat restoration and pollution mitigation
+
+Estimated Number of Slides: 18
+
+Lab Activities:
+- Conduct a field survey to assess the impact of habitat loss on local species diversity
+- Analyze water and soil samples to determine pollution levels and their potential effects on biodiversity
+
+Real-World Applications:
+- Participate in a habitat restoration project in a local ecosystem to support biodiversity conservation
+- Collaborate with environmental agencies to develop pollution control measures for a specific area
+
+Module 4: Overexploitation of Natural Resources
+
+Main Topic Title: Overexploitation and Biodiversity Loss
+
+Sub-Topics:
+1. Depletion of Species Populations
+   - Discuss how overexploitation of natural resources leads to the depletion of species populations, disruption of ecosystems, and loss of biodiversity (Database: "Overexploitation of natural resources can lead to depletion of important resources such as fish stocks, forests, and minerals.")
+   
+2. Impacts on Genetic Diversity
+   - Explore the effects of overexploitation on genetic diversity, making species more vulnerable to diseases and environmental changes (Database: "Overexploitation can lead to decreased genetic diversity, making species more vulnerable to diseases and environmental changes.")
+   
+3. Sustainable Resource Management
+   - Examine the principles of sustainable land management and resource conservation to prevent overexploitation and protect biodiversity (Database: "Another strategy is to promote sustainable land management.")
+   
+Learning Objectives:
+- Understand the consequences of overexploitation on species populations and genetic diversity
+- Evaluate the importance of sustainable resource management in biodiversity conservation
+- Analyze the role of overexploitation in biodiversity loss and ecosystem disruption
+
+Estimated Number of Slides: 17
+
+Lab Activities:
+- Conduct a simulation exercise to demonstrate the impact of overexploitation on species populations
+- Develop a sustainable resource management plan for a specific natural resource to prevent overexploitation
+
+Real-World Applications:
+- Explore case studies of successful sustainable resource management practices in biodiversity conservation
+- Engage with local communities to promote sustainable resource use and biodiversity protection
+
+Overall, this teaching plan provides a comprehensive overview of biodiversity conservation, covering key topics such as threats to biodiversity, climate change impacts, habitat loss, pollution, and overexploitation of natural resources. The progressive structure allows for in-depth exploration of each topic, with practical lab activities and real-world applications to enhance student learning and engagement.}). Total slides available: {8}. Topics to allocate: {4}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+🎲 Choice scenario triggered! (Rolled 88.8 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw response:
+[4, 5, 4, 5]
+.
+Slide allocation: [1, 2, 2, 3]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Biodiversity Conservation) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Module 1: Introduction to Biodiversity Conservation
+
+Main Topic Title: Importance of Biodiversity
+
+Sub-Topics:
+1. Ecosystem Resilience and Services
+   - Discuss how biodiversity contributes to ecosystem resilience against environmental changes and provides essential ecosystem services such as air and water purification (Database: "Biodiversity plays a crucial role in maintaining the health and stability of ecosystems.")
+   
+2. Threats to Biodiversity
+   - Explore major threats to biodiversity including deforestation, climate change, habitat loss, pollution, and overexploitation of natural resources (Database: "Some of the major threats to biodiversity include deforestation, climate change, habitat loss, pollution, and overexploitation of natural resources.")
+   
+3. Impact of Deforestation on Biodiversity
+   - Examine the consequences of deforestation on biodiversity, such as habitat loss for species and disruption of ecosystem balance (Database: "Deforestation has a significant impact on biodiversity as it leads to the loss of habitats for countless species.")
+   
+Learning Objectives:
+- Understand the importance of biodiversity in maintaining ecosystem health and stability
+- Identify major threats to biodiversity and their impacts
+- Analyze the relationship between deforestation and biodiversity loss
+
+Estimated Number of Slides: 15
+
+Lab Activities:
+- Conduct a case study analysis on a specific deforestation event and its impact on biodiversity
+- Calculate the economic value of ecosystem services provided by biodiversity in a given area
+
+Real-World Applications:
+- Discuss current conservation efforts to combat deforestation and protect biodiversity
+- Explore how biodiversity loss can impact human communities and economies
+
+Module 2: Climate Change and Biodiversity
+
+Main Topic Title: Climate Change Impacts on Biodiversity
+
+Sub-Topics:
+1. Climate Change Effects on Ecosystems
+   - Examine how climate change alters ecosystems, disrupts species balance, and leads to habitat loss (Database: "Climate change is a significant threat to biodiversity as it alters ecosystems and disrupts the delicate balance of species.")
+   
+2. Strategies for Mitigating Climate Change Effects
+   - Discuss key strategies such as establishing protected areas and promoting habitat restoration to mitigate climate change impacts on biodiversity (Database: "One key strategy for mitigating the effects of climate change on biodiversity is the establishment of protected areas.")
+   
+3. Importance of Genetic Diversity
+   - Explore the role of genetic diversity in helping species adapt to changing climates and reduce the risk of extinction (Database: "Overexploitation of natural resources can lead to decreased genetic diversity, making species more vulnerable to diseases and environmental changes.")
+   
+Learning Objectives:
+- Understand the effects of climate change on biodiversity and ecosystems
+- Evaluate strategies for mitigating climate change impacts on biodiversity
+- Recognize the importance of genetic diversity in biodiversity conservation
+
+Estimated Number of Slides: 20
+
+Lab Activities:
+- Analyze species distribution data to identify potential climate change impacts on biodiversity
+- Develop a habitat restoration plan for a local ecosystem to enhance biodiversity resilience
+
+Real-World Applications:
+- Investigate case studies of successful climate change adaptation strategies in biodiversity conservation
+- Engage with local conservation organizations working on climate change mitigation projects
+
+Module 3: Habitat Loss and Pollution
+
+Main Topic Title: Habitat Loss and Pollution Impacts on Biodiversity
+
+Sub-Topics:
+1. Effects of Habitat Loss on Species
+   - Discuss how habitat loss leads to species population declines, disruption of ecosystem balance, and potential extinctions (Database: "Habitat loss is a significant threat to biodiversity and ecosystems.")
+   
+2. Impacts of Pollution on Biodiversity
+   - Examine the detrimental effects of different types of pollution (air, water, soil) on biodiversity and ecosystem health (Database: "Pollution, in the form of water, air, and soil pollution, has severe impacts on biodiversity.")
+   
+3. Conservation Strategies for Habitat Restoration
+   - Explore conservation strategies such as habitat restoration and protected area creation to address habitat loss and pollution impacts on biodiversity (Database: "One effective strategy for mitigating climate change effects on biodiversity is the creation of protected areas and wildlife corridors.")
+   
+Learning Objectives:
+- Identify the impacts of habitat loss on species populations and ecosystem balance
+- Evaluate the effects of pollution on biodiversity and ecosystem health
+- Examine conservation strategies for habitat restoration and pollution mitigation
+
+Estimated Number of Slides: 18
+
+Lab Activities:
+- Conduct a field survey to assess the impact of habitat loss on local species diversity
+- Analyze water and soil samples to determine pollution levels and their potential effects on biodiversity
+
+Real-World Applications:
+- Participate in a habitat restoration project in a local ecosystem to support biodiversity conservation
+- Collaborate with environmental agencies to develop pollution control measures for a specific area
+
+Module 4: Overexploitation of Natural Resources
+
+Main Topic Title: Overexploitation and Biodiversity Loss
+
+Sub-Topics:
+1. Depletion of Species Populations
+   - Discuss how overexploitation of natural resources leads to the depletion of species populations, disruption of ecosystems, and loss of biodiversity (Database: "Overexploitation of natural resources can lead to depletion of important resources such as fish stocks, forests, and minerals.")
+   
+2. Impacts on Genetic Diversity
+   - Explore the effects of overexploitation on genetic diversity, making species more vulnerable to diseases and environmental changes (Database: "Overexploitation can lead to decreased genetic diversity, making species more vulnerable to diseases and environmental changes.")
+   
+3. Sustainable Resource Management
+   - Examine the principles of sustainable land management and resource conservation to prevent overexploitation and protect biodiversity (Database: "Another strategy is to promote sustainable land management.")
+   
+Learning Objectives:
+- Understand the consequences of overexploitation on species populations and genetic diversity
+- Evaluate the importance of sustainable resource management in biodiversity conservation
+- Analyze the role of overexploitation in biodiversity loss and ecosystem disruption
+
+Estimated Number of Slides: 17
+
+Lab Activities:
+- Conduct a simulation exercise to demonstrate the impact of overexploitation on species populations
+- Develop a sustainable resource management plan for a specific natural resource to prevent overexploitation
+
+Real-World Applications:
+- Explore case studies of successful sustainable resource management practices in biodiversity conservation
+- Engage with local communities to promote sustainable resource use and biodiversity protection
+
+Overall, this teaching plan provides a comprehensive overview of biodiversity conservation, covering key topics such as threats to biodiversity, climate change impacts, habitat loss, pollution, and overexploitation of natural resources. The progressive structure allows for in-depth exploration of each topic, with practical lab activities and real-world applications to enhance student learning and engagement.}). Slide allocation per topic: {[1, 2, 2, 3]}. Database content for reference: ({Some of the major threats to biodiversity include deforestation, climate change, habitat loss, pollution, and overexploitation of natural resources. These factors can lead to the decline of species populations and loss of biodiversity worldwide.
+
+Climate change is a significant threat to biodiversity as it alters ecosystems and disrupts the delicate balance of species. Rising temperatures, changing precipitation patterns, and extreme weather events can lead to habitat loss, shifts in species distributions, and increased competition for resou...
+
+Biodiversity plays a crucial role in maintaining the health and stability of ecosystems. It ensures the resilience of ecosystems against environmental changes, such as climate change or species invasions. Biodiversity also provides a wide range of ecosystem services, including air and water purifica...
+
+Biodiversity plays a crucial role in maintaining the health and stability of ecosystems. It contributes to various ecosystem services such as nutrient cycling, pollination, and pest control. A diverse range of species ensures resilience to environmental changes and helps ecosystems adapt to disturba...
+
+Deforestation is mainly caused by logging, agriculture, and urbanization. Logging for timber and paper products is a significant driver of deforestation, especially in tropical rainforests. Agriculture, particularly commercial agriculture like palm oil plantations and cattle ranching, also contribut...
+
+Deforestation has a significant impact on biodiversity as it leads to the loss of habitats for countless species. When forests are cleared, many plants and animals lose their homes, which can result in population declines and even extinction. Deforestation also disrupts the delicate balance of ecosy...
+
+Pollution, in the form of water, air, and soil pollution, has severe impacts on biodiversity. Water pollution can harm aquatic ecosystems, leading to declines in fish populations and other aquatic species. Air pollution can have detrimental effects on plant life, affecting the food chain and overall...
+
+Pollution can have various detrimental effects on biodiversity. Some common types of pollution that impact biodiversity include air pollution, water pollution, and soil contamination. Air pollution can harm plants and animals through the deposition of pollutants on their habitats, while water pollut...
+
+Habitat loss is a significant threat to biodiversity and ecosystems. When habitats are destroyed or fragmented, many species are unable to survive or reproduce, leading to a loss of biodiversity. This loss can disrupt the delicate balance within ecosystems, affecting the food chain, nutrient cycling...
+
+Habitat loss is a major threat to biodiversity and ecosystems. When habitats are destroyed or fragmented, it can lead to a decrease in biodiversity as it disrupts the balance of species within the ecosystem. This loss of habitat can result in species being unable to find food, shelter, or mates, lea...
+
+Overexploitation of natural resources can lead to depletion of important resources such as fish stocks, forests, and minerals. This can disrupt ecosystems, leading to loss of biodiversity, habitat destruction, and even extinction of species. Additionally, overexploitation can result in social and ec...
+
+Overexploitation of natural resources can lead to the depletion of species populations, disruption of ecosystems, and loss of biodiversity. This can result in decreased genetic diversity, making species more vulnerable to diseases and environmental changes. Additionally, overexploitation can lead to...
+
+One key strategy for mitigating the effects of climate change on biodiversity is the establishment of protected areas. These areas provide a refuge for species to adapt to changing conditions and reduce the risk of extinction. Another strategy is habitat restoration, which involves restoring degrade...
+
+One effective strategy for mitigating climate change effects on biodiversity is the creation of protected areas and wildlife corridors. These areas provide safe habitats for species to adapt to changing climates and help maintain genetic diversity. Another strategy is to promote sustainable land man...
+
+Ecosystem services provided by biodiversity are essential for human well-being and the functioning of ecosystems. Biodiversity helps in regulating the climate, purifying air and water, pollination of crops, controlling pests, and providing food and medicine. These services are crucial for maintainin...
+
+Ecosystem services provided by biodiversity include air and water purification, pollination, nutrient cycling, and climate regulation. Biodiversity plays a crucial role in maintaining these services, which are essential for human well-being and the functioning of ecosystems.}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+🎲 Choice scenario triggered! (Rolled 29.6 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+Raw response:
+1. Ecosystem Resilience and Services: Importance of Biodiversity
+2. Major Threats to Biodiversity: Deforestation, Climate Change, Habitat Loss, Pollution, Overexploitation
+3. Impact of Deforestation on Biodiversity: Habitat Loss and Ecosystem Disruption
+4. Climate Change Effects on Ecosystems: Disruption of Species Balance and Habitat Loss
+5. Strategies for Mitigating Climate Change Effects: Protected Areas and Habitat Restoration
+6. Importance of Genetic Diversity in Biodiversity Conservation
+7. Effects of Habitat Loss on Species: Population Declines and Extinctions
+8. Impacts of Pollution on Biodiversity: Air, Water, and Soil Pollution Effects
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+🎲 Choice scenario triggered! (Rolled 74.2 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-21_09-27-43.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-21_09-27-43.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+🎲 Choice scenario triggered! (Rolled 87.3 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-21_09-28-20.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+🎲 Choice scenario triggered! (Rolled 36.0 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+⚠️ Content validation suggestions: The lecture notes provided are suitable for 3 credit hours of senior undergraduate study. They cover the importance of biodiversity, ecosystem resilience and services, threats to biodiversity, the impact of deforestation on biodiversity, learning objectives, and assessment questions. 
+
+Improvement suggestions:
+1. Expand on the examples provided to include a wider range of ecosystems and species affected by biodiversity loss.
+2. Include more in-depth explanations of the mechanisms through which biodiversity contributes to ecosystem resilience.
+3. Provide case studies or research findings to support the concepts discussed in the lecture notes.
+4. Include a section on conservation efforts and strategies to mitigate threats to biodiversity.
+
+Overall, the lecture notes are comprehensive and cover the essential aspects of biodiversity conservation. Adding more detailed examples and real-world applications would enhance the depth and comprehensiveness of the content.
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Biodiversity Conservation
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Ecosystem Resilience and Services: Importance of Biodiversity)
+🎲 Choice scenario triggered! (Rolled 5.6 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+🔍 DEBUG: Slide 1 content set to: '• Ecosystem resilience relies on biodiversity for stability and adaptation • Biodiversity provides e...'
+🔍 DEBUG: Slide 1 content length: 330
+✅ Slide 1 content: • Ecosystem resilience relies on biodiversity for stability and adaptation
+• Biodiversity provides essential ecosystem services like air and water purification
+• Pollination by diverse species supports crop production and ecosystem health
+• Maintaining biodiversity is crucial for sustaining ecosystem balance and human well-being
+Generating content for slide 2 (Topic: Major Threats to Biodiversity: Deforestation, Climate Change, Habitat Loss, Pollution, Overexploitation)
+🎲 Choice scenario triggered! (Rolled 86.0 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+🔍 DEBUG: Slide 2 content set to: 'Deforestation, climate change, habitat loss, pollution, and overexploitation are major threats to bi...'
+🔍 DEBUG: Slide 2 content length: 468
+✅ Slide 2 content: - Deforestation, climate change, habitat loss, pollution, and overexploitation are major threats to biodiversity
+- These threats can lead to population declines, disruption of ecosystems, and loss of biodiversity worldwide
+- Example: Deforestation in the Amazon rainforest has resulted in habitat loss for countless species, leading to declines in populations and biodiversity
+- Pollution can have detrimental effects on biodiversity through air, water, and soil contamination
+Generating content for slide 3 (Topic: Impact of Deforestation on Biodiversity: Habitat Loss and Ecosystem Disruption)
+🎲 Choice scenario triggered! (Rolled 23.8 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+🔍 DEBUG: Slide 3 content set to: '• Deforestation leads to habitat loss for numerous species, causing population declines and biodiver...'
+🔍 DEBUG: Slide 3 content length: 366
+✅ Slide 3 content: • Deforestation leads to habitat loss for numerous species, causing population declines and biodiversity loss
+• Ecosystem disruption occurs as forests are cleared, impacting the delicate balance within ecosystems
+• Example: Deforestation in the Amazon rainforest has resulted in habitat loss for countless species, leading to declines in populations and biodiversity
+Generating content for slide 4 (Topic: Climate Change Effects on Ecosystems: Disruption of Species Balance and Habitat Loss)
+🎲 Choice scenario triggered! (Rolled 39.4 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+🔍 DEBUG: Slide 4 content set to: '• Climate change disrupts species balance and leads to habitat loss in ecosystems • Rising temperatu...'
+🔍 DEBUG: Slide 4 content length: 407
+✅ Slide 4 content: • Climate change disrupts species balance and leads to habitat loss in ecosystems
+• Rising temperatures, changing precipitation patterns, and extreme weather events alter habitats
+• Habitat loss can result in declines in species populations and increased competition for resources
+• Example: Polar bears are losing their sea ice habitat due to melting ice caps, impacting their ability to hunt and reproduce
+Generating content for slide 5 (Topic: Strategies for Mitigating Climate Change Effects: Protected Areas and Habitat Restoration)
+🎲 Choice scenario triggered! (Rolled 55.1 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+🔍 DEBUG: Slide 5 content set to: '• Protected areas and habitat restoration are key strategies for mitigating climate change effects o...'
+🔍 DEBUG: Slide 5 content length: 455
+✅ Slide 5 content: • Protected areas and habitat restoration are key strategies for mitigating climate change effects on biodiversity
+• Protected areas provide safe habitats for species to adapt to changing climates and maintain genetic diversity
+• Habitat restoration involves restoring degraded habitats to support biodiversity
+• Sustainable land management practices like reforestation and sustainable agriculture help sequester carbon and reduce greenhouse gas emissions
+Generating content for slide 6 (Topic: Importance of Genetic Diversity in Biodiversity Conservation)
+🎲 Choice scenario triggered! (Rolled 82.8 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+🔍 DEBUG: Slide 6 content set to: '• Genetic diversity is crucial for the long-term survival of species in changing environments • High...'
+🔍 DEBUG: Slide 6 content length: 413
+✅ Slide 6 content: • Genetic diversity is crucial for the long-term survival of species in changing environments
+• High genetic diversity within a species increases its ability to adapt to new conditions
+• Genetic variation allows for resistance to diseases and pests, enhancing overall population health
+• Example: The genetic diversity in wild rice species has led to the development of disease-resistant cultivated rice varieties
+Generating content for slide 7 (Topic: Effects of Habitat Loss on Species: Population Declines and Extinctions)
+🎲 Choice scenario triggered! (Rolled 23.6 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+🔍 DEBUG: Slide 7 content set to: '• Habitat loss due to deforestation, urbanization, and agriculture leads to population declines and ...'
+🔍 DEBUG: Slide 7 content length: 457
+✅ Slide 7 content: • Habitat loss due to deforestation, urbanization, and agriculture leads to population declines and extinctions
+• Destruction or fragmentation of habitats disrupts species' ability to find food, shelter, and mates
+• Loss of biodiversity results from species being unable to survive or reproduce in altered habitats
+• Example: Deforestation in the Amazon rainforest has caused habitat loss for numerous species, leading to population declines and extinctions
+Generating content for slide 8 (Topic: Impacts of Pollution on Biodiversity: Air, Water, and Soil Pollution Effects)
+🎲 Choice scenario triggered! (Rolled 17.4 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+🔍 DEBUG: Slide 8 content set to: '• Air, water, and soil pollution have severe impacts on biodiversity • Water pollution harms aquatic...'
+🔍 DEBUG: Slide 8 content length: 357
+✅ Slide 8 content: • Air, water, and soil pollution have severe impacts on biodiversity
+• Water pollution harms aquatic ecosystems, leading to declines in fish populations and other species
+• Air pollution affects plant life, disrupting the food chain and overall ecosystem health
+• Soil pollution disrupts soil microorganisms and plant growth, further impacting biodiversity.
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Ecosystem Resilience and Services: Importance of Biodiversity)
+🎲 Choice scenario triggered! (Rolled 17.4 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+API calls remaining: 900/1000
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 1 title: The Importance of Biodiversity in Ecosystem Resilience
+Generating title for slide 2 (Topic: Major Threats to Biodiversity: Deforestation, Climate Change, Habitat Loss, Pollution, Overexploitation)
+🎲 Choice scenario triggered! (Rolled 45.2 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 2 title: Threats to Biodiversity: Deforestation, Climate Change, Pollution
+Generating title for slide 3 (Topic: Impact of Deforestation on Biodiversity: Habitat Loss and Ecosystem Disruption)
+🎲 Choice scenario triggered! (Rolled 62.6 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 3 title: Impact of Deforestation on Biodiversity: Loss and Disruption
+Generating title for slide 4 (Topic: Climate Change Effects on Ecosystems: Disruption of Species Balance and Habitat Loss)
+🎲 Choice scenario triggered! (Rolled 83.7 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 4 title: Climate Change Effects: Species Balance & Habitat Loss
+Generating title for slide 5 (Topic: Strategies for Mitigating Climate Change Effects: Protected Areas and Habitat Restoration)
+🎲 Choice scenario triggered! (Rolled 34.8 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 5 title: Conservation Strategies: Protected Areas & Habitat Restoration
+Generating title for slide 6 (Topic: Importance of Genetic Diversity in Biodiversity Conservation)
+🎲 Choice scenario triggered! (Rolled 13.7 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 6 title: "The Vital Role of Genetic Diversity"
+Generating title for slide 7 (Topic: Effects of Habitat Loss on Species: Population Declines and Extinctions)
+🎲 Choice scenario triggered! (Rolled 59.1 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 7 title: Impact of Habitat Loss on Species
+Generating title for slide 8 (Topic: Impacts of Pollution on Biodiversity: Air, Water, and Soil Pollution Effects)
+🎲 Choice scenario triggered! (Rolled 46.1 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 8 title: Impacts of Pollution on Biodiversity: Environmental Effects
+Generating overall presentation title...
+🎲 Choice scenario triggered! (Rolled 19.1 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Overall presentation title: Preserving Biodiversity: Understanding Threats and Conservation Strategies
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Ecosystem Resilience and Services: Importance of Biodiversity)
+🎲 Choice scenario triggered! (Rolled 82.0 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Major Threats to Biodiversity: Deforestation, Climate Change, Habitat Loss, Pollution, Overexploitation)
+🎲 Choice scenario triggered! (Rolled 4.2 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Impact of Deforestation on Biodiversity: Habitat Loss and Ecosystem Disruption)
+🎲 Choice scenario triggered! (Rolled 52.3 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Climate Change Effects on Ecosystems: Disruption of Species Balance and Habitat Loss)
+🎲 Choice scenario triggered! (Rolled 3.8 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Strategies for Mitigating Climate Change Effects: Protected Areas and Habitat Restoration)
+🎲 Choice scenario triggered! (Rolled 99.9 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Importance of Genetic Diversity in Biodiversity Conservation)
+🎲 Choice scenario triggered! (Rolled 85.1 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Effects of Habitat Loss on Species: Population Declines and Extinctions)
+🎲 Choice scenario triggered! (Rolled 73.2 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Impacts of Pollution on Biodiversity: Air, Water, and Soil Pollution Effects)
+🎲 Choice scenario triggered! (Rolled 91.2 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Ecosystem Resilience and Services: Importance of Biodiversity)
+🎲 Choice scenario triggered! (Rolled 9.9 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Major Threats to Biodiversity: Deforestation, Climate Change, Habitat Loss, Pollution, Overexploitation)
+🎲 Choice scenario triggered! (Rolled 54.8 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Impact of Deforestation on Biodiversity: Habitat Loss and Ecosystem Disruption)
+🎲 Choice scenario triggered! (Rolled 22.9 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+⚠️ Warning: Slide 3 content is long (577 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Climate Change Effects on Ecosystems: Disruption of Species Balance and Habitat Loss)
+🎲 Choice scenario triggered! (Rolled 48.3 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+⚠️ Warning: Slide 4 content is long (607 chars) - consider reducing
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Strategies for Mitigating Climate Change Effects: Protected Areas and Habitat Restoration)
+🎲 Choice scenario triggered! (Rolled 12.9 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+⚠️ Warning: Slide 5 content is long (509 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Importance of Genetic Diversity in Biodiversity Conservation)
+🎲 Choice scenario triggered! (Rolled 35.5 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 1
+⚠️ Warning: Slide 6 content is long (561 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Effects of Habitat Loss on Species: Population Declines and Extinctions)
+🎲 Choice scenario triggered! (Rolled 31.0 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Impacts of Pollution on Biodiversity: Air, Water, and Soil Pollution Effects)
+🎲 Choice scenario triggered! (Rolled 63.2 <= 100.0)
+🎯 Choice scenario: Mode 5
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+🤖 AI choice mode: Asking AI to select between options...
+✅ AI chose response 2
+⚠️ Warning: Slide 8 content is long (511 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Preserving_Biodiversity_Understanding_Threats_and_Conservation_Strategies_2025-08-21_09-30-20
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Preserving_Biodiversity_Understanding_Threats_and_Conservation_Strategies_2025-08-21_09-30-20.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Preserving_Biodiversity_Understanding_Threats_and_Conservation_Strategies_2025-08-21_09-30-20.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 5 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Preserving_Biodiversity_Understanding_Threats_and_Conservation_Strategies_2025-08-21_09-30-20.pptx
+📊 Rating presentation 5...
+✅ Presentation 5 rated successfully
+📈 Overall Rating: 6.50 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.08 / 2.00
+   - Non-Repetition: 1.73 / 2.00
+   - Content Balance: 1.44 / 2.00
+   - Title Uniqueness: 1.91 / 2.00
+   - Title-Content Match: 1.34 / 2.00
+💾 Result saved to file for presentation 5
+
+🎉 Experiment loop completed! Generated 6 presentations
+✅ All results have been saved to the file during execution.
+
+🛡️ Setting up error handling and logging...
+📊 Experiment tracking initialized:
+   - Expected presentations: 6
+   - Human choice levels: 6
+   - Presentations per level: 1
+   - Choice mode: 5 (AI choice)
+Error handling and logging ready - implementing progress reporting in next steps...
+
+📊 Setting up progress reporting...
+✅ Progress reporting functions ready
+📊 Will show detailed progress during experiment execution
+📈 Will provide level-by-level and final summaries
+Progress reporting ready - experiment framework complete!
+Ready to integrate all components and run the full experiment...

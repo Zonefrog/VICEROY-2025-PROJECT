@@ -42,8 +42,8 @@ class PresentationBuilder:
             slide = prs.slides.add_slide(prs.slide_layouts[1])
             slide.shapes.title.text = slide_data.title
 
-            # Set scaled font size for content
-            content_text = slide_data.get_combined_text(MAX_SOURCE_IDS_PER_SLIDE)
+            # Set scaled font size for content - use raw content directly
+            content_text = slide_data.content
             font_size = self._fit_text_to_slide(content_text)
             font_size2 = self._fit_text_to_slide(slide_data.title)
 
