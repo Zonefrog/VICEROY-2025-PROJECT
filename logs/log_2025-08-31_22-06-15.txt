@@ -1,0 +1,1712 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T22:06:15.222764
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_22-06-15.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 7...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Vaccine Development Process
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Vaccine Development Process, Phases of Clinical Trials
+Selected topics: ['Vaccine Development Process', 'Phases of Clinical Trials']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Vaccine Development Process
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE DEVELOPMENT PROCESS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 15.3 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Stages of Vaccine Development Process",
+    "keywords": ["vaccine", "development", "process", "stages", "clinical trials"],
+    "text": "The vaccine development process typically involves several stages, including exploratory, pre-clinical, clinical development, regulatory review and approval, manufacturing, and quality control. During the clinical development stage, vaccines undergo three phases of clinical trials to assess safety, immunogenicity, and efficacy. Regulatory agencies review the data from these trials before granting approval for the vaccine to be manufactured and distributed.",
+    "link": "https://www.who.int/immunization/research/development/en/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Stages of Vaccine Development Process",
+    "keywords": ["vaccine", "development", "process", "stages"],
+    "text": "The stages of vaccine development process typically include exploratory, pre-clinical, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, researchers identify antigens that could potentially be used to create a vaccine. In the pre-clinical stage, the vaccine is tested on animals to assess safety and efficacy. Clinical development involves testing the vaccine on humans in three phases to determine safety, dosage, and effectiveness. Regulatory review and approval are necessary before the vaccine can be manufactured and distributed to the public.",
+    "link": "https://www.who.int/immunization/research/development/en/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Stages of Vaccine Development Process",
+    "keywords": ["vaccine", "development", "process", "stages"],
+    "text": "The stages of vaccine development process typically include exploratory, pre-clinical, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, researchers identify antigens that could potentially be used to create a vaccine. In the pre-clinical stage, the vaccine is tested on animals to assess safety and efficacy. Clinical development involves testing the vaccine on humans in three phases to determine safety, dosage, and effectiveness. Regulatory review and approval are necessary before the vaccine can be manufactured and distributed to the public.",
+    "link": "https://www.who.int/immunization/research/development/en/"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Stages of Vaccine Development Process
+Keywords: vaccine, development, process, stages
+Uses: 0
+Text: The stages of vaccine development process typically include exploratory, pre-clinical, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, researchers identify antigens that could potentially be used to create a vaccine. In the pre-clinical stage, the vaccine is tested on animals to assess safety and efficacy. Clinical development involves testing the vaccine on humans in three phases to determine safety, dosage, and effectiveness. Regulatory review and approval are necessary before the vaccine can be manufactured and distributed to the public.Link: https://www.who.int/immunization/research/development/en/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE DEVELOPMENT PROCESS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 21.3 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "COVID-19 Vaccine Development Process",
+    "keywords": ["COVID-19", "vaccine", "development", "process"],
+    "text": "The development process for a COVID-19 vaccine involves preclinical testing, clinical trials (which have three phases), regulatory review and approval, manufacturing, and distribution. It typically takes years to develop a vaccine, but due to the urgency of the COVID-19 pandemic, several vaccines have been developed in record time.",
+    "link": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Vaccine Development Process Explained",
+    "keywords": ["vaccine development", "vaccine research", "vaccine testing", "vaccine approval"],
+    "text": "The vaccine development process involves several stages, including exploratory stage, preclinical stage, clinical development, regulatory review and approval, and manufacturing. During the exploratory stage, researchers identify antigens that can trigger an immune response. In the preclinical stage, the vaccine is tested on cells and animals to assess its safety and efficacy. If successful, the vaccine moves to the clinical development stage, where it is tested on humans in three phases to evaluate safety, immune response, and efficacy. Regulatory agencies review the data before granting approval. Finally, the vaccine is manufactured for distribution.",
+    "link": "https://www.who.int/immunization/research/development/en/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Vaccine Development Process Explained",
+    "keywords": ["vaccine development", "vaccine research", "vaccine testing", "vaccine approval"],
+    "text": "The vaccine development process involves several stages, including exploratory stage, preclinical stage, clinical development, regulatory review and approval, and manufacturing. During the exploratory stage, researchers identify antigens that can trigger an immune response. In the preclinical stage, the vaccine is tested on cells and animals to assess its safety and efficacy. If successful, the vaccine moves to the clinical development stage, where it is tested on humans in three phases to evaluate safety, immune response, and efficacy. Regulatory agencies review the data before granting approval. Finally, the vaccine is manufactured for distribution.",
+    "link": "https://www.who.int/immunization/research/development/en/"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Vaccine Development Process Explained
+Keywords: vaccine development, vaccine research, vaccine testing, vaccine approval
+Uses: 0
+Text: The vaccine development process involves several stages, including exploratory stage, preclinical stage, clinical development, regulatory review and approval, and manufacturing. During the exploratory stage, researchers identify antigens that can trigger an immune response. In the preclinical stage, the vaccine is tested on cells and animals to assess its safety and efficacy. If successful, the vaccine moves to the clinical development stage, where it is tested on humans in three phases to evaluate safety, immune response, and efficacy. Regulatory agencies review the data before granting approval. Finally, the vaccine is manufactured for distribution.Link: https://www.who.int/immunization/research/development/en/
+Researching topic: Phases of Clinical Trials
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **PHASES OF CLINICAL TRIALS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Phases of Clinical Trials in Vaccine Development",
+    "keywords": ["clinical trials", "vaccine development", "phases"],
+    "text": "Clinical trials for vaccine development typically go through three main phases: Phase 1 involves a small group of healthy volunteers to assess safety and dosage. Phase 2 expands to a larger group to further evaluate safety and effectiveness. Phase 3 involves thousands of participants to confirm effectiveness, monitor side effects, and compare it to standard treatment or placebo.",
+    "link": "https://www.fda.gov/patients/clinical-trials-what-patients-need-know/phases-clinical-trials" 
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Phases of Clinical Trials in Vaccine Development
+Keywords: clinical trials, vaccine development, phases
+Uses: 0
+Text: Clinical trials for vaccine development typically go through three main phases: Phase 1 involves a small group of healthy volunteers to assess safety and dosage. Phase 2 expands to a larger group to further evaluate safety and effectiveness. Phase 3 involves thousands of participants to confirm effectiveness, monitor side effects, and compare it to standard treatment or placebo.Link: https://www.fda.gov/patients/clinical-trials-what-patients-need-know/phases-clinical-trials
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **PHASES OF CLINICAL TRIALS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 10.1 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Phases of Clinical Trials in Vaccine Development",
+    "keywords": ["clinical trials", "vaccine development", "phases"],
+    "text": "Clinical trials for vaccine development typically consist of three main phases. Phase 1 focuses on safety and dosage, involving a small group of volunteers. Phase 2 expands to a larger group to further assess safety and efficacy. Phase 3 involves a much larger group to confirm efficacy, monitor side effects, and compare it to existing treatments or vaccines.",
+    "link": "https://www.fda.gov/patients/clinical-trials-what-patients-need-know/phases-clinical-trials" 
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Importance of Phase III Clinical Trials in Vaccine Development",
+    "keywords": ["Phase III clinical trials", "vaccine development", "importance", "efficacy", "safety"],
+    "text": "Phase III clinical trials play a crucial role in vaccine development as they evaluate the efficacy and safety of the vaccine candidate on a larger scale. These trials involve thousands of participants and provide valuable data on how well the vaccine works in real-world conditions. The results from Phase III trials are used by regulatory agencies to determine if the vaccine should be approved for public use.",
+    "link": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research" 
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Importance of Phase III Clinical Trials in Vaccine Development",
+    "keywords": ["Phase III clinical trials", "vaccine development", "importance", "efficacy", "safety"],
+    "text": "Phase III clinical trials play a crucial role in vaccine development as they evaluate the efficacy and safety of the vaccine candidate on a larger scale. These trials involve thousands of participants and provide valuable data on how well the vaccine works in real-world conditions. The results from Phase III trials are used by regulatory agencies to determine if the vaccine should be approved for public use.",
+    "link": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research" 
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Importance of Phase III Clinical Trials in Vaccine Development
+Keywords: Phase III clinical trials, vaccine development, importance, efficacy, safety
+Uses: 0
+Text: Phase III clinical trials play a crucial role in vaccine development as they evaluate the efficacy and safety of the vaccine candidate on a larger scale. These trials involve thousands of participants and provide valuable data on how well the vaccine works in real-world conditions. The results from Phase III trials are used by regulatory agencies to determine if the vaccine should be approved for public use.Link: https://www.fda.gov/patients/drug-development-process/step-3-clinical-research
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Vaccine Development Process', 'Phases of Clinical Trials']. The research these yeilded is: ({The stages of vaccine development process typically include exploratory, pre-clinical, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, researchers identify antigens that could potentially be used to create a vaccine. In the pre-clinical stage, the vaccine is tested on animals to assess safety and efficacy. Clinical development involves testing the vaccine on humans in three phases to determine safety, dosage, and effectiveness. Regulatory review and approval are necessary before the vaccine can be manufactured and distributed to the public.
+
+The vaccine development process involves several stages, including exploratory stage, preclinical stage, clinical development, regulatory review and approval, and manufacturing. During the exploratory stage, researchers identify antigens that can trigger an immune response. In the preclinical stage, the vaccine is tested on cells and animals to assess its safety and efficacy. I (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+🎲 Choice scenario triggered! (Rolled 13.0 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Ethical considerations in vaccine development, Vaccine formulation and delivery methods, Post-approval surveillance and monitoring, Immunogenicity assessment, Adverse event reporting and management, Public education and communication strategies
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Ethical considerations in vaccine development, Vaccine formulation and delivery methods, Post-marketing surveillance and monitoring, Vaccine distribution and storage requirements, Public education and vaccine acceptance, Impact of vaccine development on global health
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI topic response: Ethical considerations in vaccine development, Vaccine formulation and delivery methods, Post-marketing surveillance and monitoring, Vaccine distribution and storage requirements, Public education and vaccine acceptance, Impact of vaccine development on global health
+Selected topics: ['Ethical considerations in vaccine development', 'Vaccine formulation and delivery methods', 'Post-marketing surveillance and monitoring', 'Vaccine distribution and storage requirements', 'Public education and vaccine acceptance', 'Impact of vaccine development on global health']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Ethical considerations in vaccine development
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development', 'Importance of Phase III Clinical Trials in Vaccine Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ETHICAL CONSIDERATIONS IN VACCINE DEVELOPMENT** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 14.2 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Ethical Considerations in Vaccine Development",
+    "keywords": ["vaccine development", "ethics", "clinical trials", "informed consent", "equity"],
+    "text": "Ethical considerations in vaccine development are crucial to ensure the safety, efficacy, and fairness of the process. This includes obtaining informed consent from participants, ensuring equitable distribution of benefits and risks, and maintaining transparency throughout clinical trials. It is important to balance the need for rapid vaccine development with ethical principles to protect the well-being of participants and the public.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7648252/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Ethical Considerations in Vaccine Development",
+    "keywords": ["vaccine development", "ethics", "clinical trials", "informed consent", "equity"],
+    "text": "Ethical considerations play a crucial role in vaccine development, particularly during clinical trials. Researchers must ensure that participants provide informed consent before enrolling in a trial, understanding the potential risks and benefits. Additionally, there is a focus on equity in vaccine distribution to ensure that vulnerable populations have access to vaccines. Transparency in data reporting and accountability are also key ethical principles in vaccine development.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1414803/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Ethical Considerations in Vaccine Development",
+    "keywords": ["vaccine development", "ethics", "clinical trials", "informed consent", "equity"],
+    "text": "Ethical considerations in vaccine development are crucial to ensure the safety, efficacy, and fairness of the process. This includes obtaining informed consent from participants, ensuring equitable distribution of benefits and risks, and maintaining transparency throughout clinical trials. It is important to balance the need for rapid vaccine development with ethical principles to protect the well-being of participants and the public.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7648252/"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Ethical Considerations in Vaccine Development
+Keywords: vaccine development, ethics, clinical trials, informed consent, equity
+Uses: 0
+Text: Ethical considerations in vaccine development are crucial to ensure the safety, efficacy, and fairness of the process. This includes obtaining informed consent from participants, ensuring equitable distribution of benefits and risks, and maintaining transparency throughout clinical trials. It is important to balance the need for rapid vaccine development with ethical principles to protect the well-being of participants and the public.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7648252/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development', 'Importance of Phase III Clinical Trials in Vaccine Development', 'Ethical Considerations in Vaccine Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ETHICAL CONSIDERATIONS IN VACCINE DEVELOPMENT** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Informed Consent in Vaccine Development",
+    "keywords": ["informed consent", "vaccine development", "ethical considerations", "clinical trials"],
+    "text": "In vaccine development, informed consent is a critical ethical consideration. Participants in clinical trials must be fully informed about the potential risks and benefits of the vaccine being tested. This includes details about the study protocol, possible side effects, and the voluntary nature of participation. Informed consent ensures that participants can make an educated decision about whether or not to take part in a trial.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3190555/"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Informed Consent in Vaccine Development
+Keywords: informed consent, vaccine development, ethical considerations, clinical trials
+Uses: 0
+Text: In vaccine development, informed consent is a critical ethical consideration. Participants in clinical trials must be fully informed about the potential risks and benefits of the vaccine being tested. This includes details about the study protocol, possible side effects, and the voluntary nature of participation. Informed consent ensures that participants can make an educated decision about whether or not to take part in a trial.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3190555/
+Researching topic: Vaccine formulation and delivery methods
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development', 'Importance of Phase III Clinical Trials in Vaccine Development', 'Ethical Considerations in Vaccine Development', 'Informed Consent in Vaccine Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE FORMULATION AND DELIVERY METHODS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Vaccine Formulation and Delivery Methods",
+    "keywords": ["vaccine", "formulation", "delivery methods"],
+    "text": "Vaccine formulation involves combining the antigen (weakened or killed virus or bacteria) with other ingredients to create a vaccine that is safe and effective. Delivery methods for vaccines can include injection, oral administration, nasal sprays, patches, and microneedles.",
+    "link": "https://www.who.int/immunization/research/development/other_formulations/en/"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Vaccine Formulation and Delivery Methods
+Keywords: vaccine, formulation, delivery methods
+Uses: 0
+Text: Vaccine formulation involves combining the antigen (weakened or killed virus or bacteria) with other ingredients to create a vaccine that is safe and effective. Delivery methods for vaccines can include injection, oral administration, nasal sprays, patches, and microneedles.Link: https://www.who.int/immunization/research/development/other_formulations/en/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development', 'Importance of Phase III Clinical Trials in Vaccine Development', 'Ethical Considerations in Vaccine Development', 'Informed Consent in Vaccine Development', 'Vaccine Formulation and Delivery Methods']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE FORMULATION AND DELIVERY METHODS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Vaccine Formulation and Delivery Methods Explained",
+    "keywords": ["vaccine formulation", "vaccine delivery methods", "adjuvants", "formulation process", "vaccine stability"],
+    "text": "Vaccine formulation involves the process of developing a vaccine product by combining antigens with other ingredients such as adjuvants, stabilizers, and preservatives. Adjuvants are added to enhance the immune response to the vaccine, while stabilizers help maintain the vaccine's potency and effectiveness. The formulation process is crucial in ensuring that the vaccine remains stable during storage and transportation. Different delivery methods, such as injections, oral administration, nasal sprays, and patches, are used to administer vaccines depending on the type of vaccine and target population.",
+    "link": "https://www.who.int/immunization/research/development/vaccine_formulation_delivery/en/"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Vaccine Formulation and Delivery Methods Explained
+Keywords: vaccine formulation, vaccine delivery methods, adjuvants, formulation process, vaccine stability
+Uses: 0
+Text: Vaccine formulation involves the process of developing a vaccine product by combining antigens with other ingredients such as adjuvants, stabilizers, and preservatives. Adjuvants are added to enhance the immune response to the vaccine, while stabilizers help maintain the vaccine's potency and effectiveness. The formulation process is crucial in ensuring that the vaccine remains stable during storage and transportation. Different delivery methods, such as injections, oral administration, nasal sprays, and patches, are used to administer vaccines depending on the type of vaccine and target population.Link: https://www.who.int/immunization/research/development/vaccine_formulation_delivery/en/
+Researching topic: Post-marketing surveillance and monitoring
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development', 'Importance of Phase III Clinical Trials in Vaccine Development', 'Ethical Considerations in Vaccine Development', 'Informed Consent in Vaccine Development', 'Vaccine Formulation and Delivery Methods', 'Vaccine Formulation and Delivery Methods Explained']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **POST-MARKETING SURVEILLANCE AND MONITORING** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 16.9 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Post-Marketing Surveillance and Monitoring of Vaccines",
+    "keywords": ["post-marketing surveillance", "vaccine safety monitoring", "adverse events", "vaccine effectiveness", "real-world data"],
+    "text": "Post-marketing surveillance and monitoring of vaccines is crucial to ensure their ongoing safety and effectiveness once they are approved and available to the public. This process involves actively monitoring for adverse events and collecting real-world data to assess how well the vaccine is working in the general population.",
+    "link": "https://www.cdc.gov/vaccinesafety/ensuringsafety/monitoring/index.html"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Post-Marketing Surveillance and Monitoring of Vaccines",
+    "keywords": ["post-marketing surveillance", "vaccine safety monitoring", "adverse events reporting"],
+    "text": "Post-marketing surveillance and monitoring of vaccines refers to the ongoing process of monitoring the safety and effectiveness of vaccines after they have been approved and are in use by the general population. This surveillance is crucial for detecting rare adverse events that may not have been identified during clinical trials. Healthcare providers and the public are encouraged to report any adverse events following vaccination to the appropriate authorities.",
+    "link": "https://www.cdc.gov/vaccinesafety/ensuringsafety/monitoring/index.html"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Post-Marketing Surveillance and Monitoring of Vaccines",
+    "keywords": ["post-marketing surveillance", "vaccine safety monitoring", "adverse events reporting"],
+    "text": "Post-marketing surveillance and monitoring of vaccines refers to the ongoing process of monitoring the safety and effectiveness of vaccines after they have been approved and are in use by the general population. This surveillance is crucial for detecting rare adverse events that may not have been identified during clinical trials. Healthcare providers and the public are encouraged to report any adverse events following vaccination to the appropriate authorities.",
+    "link": "https://www.cdc.gov/vaccinesafety/ensuringsafety/monitoring/index.html"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Post-Marketing Surveillance and Monitoring of Vaccines
+Keywords: post-marketing surveillance, vaccine safety monitoring, adverse events reporting
+Uses: 0
+Text: Post-marketing surveillance and monitoring of vaccines refers to the ongoing process of monitoring the safety and effectiveness of vaccines after they have been approved and are in use by the general population. This surveillance is crucial for detecting rare adverse events that may not have been identified during clinical trials. Healthcare providers and the public are encouraged to report any adverse events following vaccination to the appropriate authorities.Link: https://www.cdc.gov/vaccinesafety/ensuringsafety/monitoring/index.html
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development', 'Importance of Phase III Clinical Trials in Vaccine Development', 'Ethical Considerations in Vaccine Development', 'Informed Consent in Vaccine Development', 'Vaccine Formulation and Delivery Methods', 'Vaccine Formulation and Delivery Methods Explained', 'Post-Marketing Surveillance and Monitoring of Vaccines']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **POST-MARKETING SURVEILLANCE AND MONITORING** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 18.1 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Challenges in Post-Marketing Surveillance of Vaccines",
+    "keywords": ["post-marketing surveillance", "vaccine safety", "vaccine effectiveness", "challenges", "adverse events"],
+    "text": "Post-marketing surveillance of vaccines is crucial for monitoring the safety and effectiveness of vaccines after they have been approved for use. One of the main challenges in post-marketing surveillance is the underreporting of adverse events. Healthcare providers and patients may not always report adverse events, leading to a lack of comprehensive data on vaccine safety. Other challenges include limited resources for surveillance, difficulty in attributing adverse events to vaccines, and the need for continuous monitoring to detect rare side effects.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3682058/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Importance of Post-Marketing Surveillance and Monitoring of Vaccines",
+    "keywords": ["post-marketing surveillance", "vaccine safety", "vaccine effectiveness", "adverse events", "pharmacovigilance"],
+    "text": "Post-marketing surveillance and monitoring of vaccines are crucial to continue assessing the safety and effectiveness of vaccines after they have been approved and are being used in the general population. This process helps in detecting and evaluating any rare or long-term side effects that may not have been observed during clinical trials. It also allows for the identification of any potential issues with vaccine quality or administration that may arise in real-world settings. By monitoring adverse events and conducting pharmacovigilance activities, public health authorities can ensure that vaccines continue to provide protection against diseases while minimizing risks to individuals.",
+    "link": "https://www.who.int/vaccine_safety/initiative/tools/Post_Marketing_Surveillance.pdf"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Importance of Post-Marketing Surveillance and Monitoring of Vaccines",
+    "keywords": ["post-marketing surveillance", "vaccine safety", "vaccine effectiveness", "adverse events", "pharmacovigilance"],
+    "text": "Post-marketing surveillance and monitoring of vaccines are crucial to continue assessing the safety and effectiveness of vaccines after they have been approved and are being used in the general population. This process helps in detecting and evaluating any rare or long-term side effects that may not have been observed during clinical trials. It also allows for the identification of any potential issues with vaccine quality or administration that may arise in real-world settings. By monitoring adverse events and conducting pharmacovigilance activities, public health authorities can ensure that vaccines continue to provide protection against diseases while minimizing risks to individuals.",
+    "link": "https://www.who.int/vaccine_safety/initiative/tools/Post_Marketing_Surveillance.pdf"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Importance of Post-Marketing Surveillance and Monitoring of Vaccines
+Keywords: post-marketing surveillance, vaccine safety, vaccine effectiveness, adverse events, pharmacovigilance
+Uses: 0
+Text: Post-marketing surveillance and monitoring of vaccines are crucial to continue assessing the safety and effectiveness of vaccines after they have been approved and are being used in the general population. This process helps in detecting and evaluating any rare or long-term side effects that may not have been observed during clinical trials. It also allows for the identification of any potential issues with vaccine quality or administration that may arise in real-world settings. By monitoring adverse events and conducting pharmacovigilance activities, public health authorities can ensure that vaccines continue to provide protection against diseases while minimizing risks to individuals.Link: https://www.who.int/vaccine_safety/initiative/tools/Post_Marketing_Surveillance.pdf
+Researching topic: Vaccine distribution and storage requirements
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development', 'Importance of Phase III Clinical Trials in Vaccine Development', 'Ethical Considerations in Vaccine Development', 'Informed Consent in Vaccine Development', 'Vaccine Formulation and Delivery Methods', 'Vaccine Formulation and Delivery Methods Explained', 'Post-Marketing Surveillance and Monitoring of Vaccines', 'Importance of Post-Marketing Surveillance and Monitoring of Vaccines']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE DISTRIBUTION AND STORAGE REQUIREMENTS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Vaccine Distribution and Storage Requirements",
+    "keywords": ["vaccine distribution", "vaccine storage", "cold chain", "temperature requirements"],
+    "text": "Vaccine distribution and storage are critical aspects of ensuring the effectiveness of vaccines. Most vaccines require strict temperature control throughout the distribution chain to maintain their potency. This is often referred to as the 'cold chain' system. Vaccines may have different temperature requirements, with some needing to be stored at ultra-low temperatures like -70°C, while others can be stored at 2-8°C. Proper handling and storage are essential to prevent vaccine spoilage and ensure that they remain safe and effective for use.",
+    "link": "https://www.who.int/immunization/programmes_systems/supply_chain/en/"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Vaccine Distribution and Storage Requirements
+Keywords: vaccine distribution, vaccine storage, cold chain, temperature requirements
+Uses: 0
+Text: Vaccine distribution and storage are critical aspects of ensuring the effectiveness of vaccines. Most vaccines require strict temperature control throughout the distribution chain to maintain their potency. This is often referred to as the 'cold chain' system. Vaccines may have different temperature requirements, with some needing to be stored at ultra-low temperatures like -70°C, while others can be stored at 2-8°C. Proper handling and storage are essential to prevent vaccine spoilage and ensure that they remain safe and effective for use.Link: https://www.who.int/immunization/programmes_systems/supply_chain/en/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development', 'Importance of Phase III Clinical Trials in Vaccine Development', 'Ethical Considerations in Vaccine Development', 'Informed Consent in Vaccine Development', 'Vaccine Formulation and Delivery Methods', 'Vaccine Formulation and Delivery Methods Explained', 'Post-Marketing Surveillance and Monitoring of Vaccines', 'Importance of Post-Marketing Surveillance and Monitoring of Vaccines', 'Vaccine Distribution and Storage Requirements']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE DISTRIBUTION AND STORAGE REQUIREMENTS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 31.6 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Challenges in Vaccine Distribution and Storage",
+    "keywords": ["vaccine distribution", "vaccine storage", "challenges", "logistics", "cold chain"],
+    "text": "One of the major challenges in vaccine distribution and storage is maintaining the cold chain, which refers to the process of keeping vaccines at the recommended temperature range from the point of manufacture to administration. This is crucial to ensure the efficacy of vaccines. Other challenges include the need for proper infrastructure, reliable transportation, and trained personnel to handle and store vaccines properly.",
+    "link": "https://www.who.int/immunization/programmes_systems/supply_chain/en/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Challenges in Vaccine Distribution and Storage Requirements",
+    "keywords": ["vaccine distribution", "vaccine storage", "cold chain", "logistics", "challenges"],
+    "text": "One of the major challenges in vaccine distribution is maintaining the cold chain, which refers to the temperature-controlled supply chain required to keep vaccines effective. Vaccines are sensitive biological products that can lose their potency if exposed to temperatures outside the recommended range. This necessitates the use of specialized cold storage equipment and transportation methods to ensure the integrity of the vaccines. Additionally, ensuring timely and efficient distribution of vaccines to different regions, especially in remote or resource-limited areas, poses logistical challenges that need to be carefully managed.",
+    "link": "https://www.who.int/immunization/programmes_systems/supply_chain/technical_guidance/en/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Challenges in Vaccine Distribution and Storage Requirements",
+    "keywords": ["vaccine distribution", "vaccine storage", "cold chain", "logistics", "challenges"],
+    "text": "One of the major challenges in vaccine distribution is maintaining the cold chain, which refers to the temperature-controlled supply chain required to keep vaccines effective. Vaccines are sensitive biological products that can lose their potency if exposed to temperatures outside the recommended range. This necessitates the use of specialized cold storage equipment and transportation methods to ensure the integrity of the vaccines. Additionally, ensuring timely and efficient distribution of vaccines to different regions, especially in remote or resource-limited areas, poses logistical challenges that need to be carefully managed.",
+    "link": "https://www.who.int/immunization/programmes_systems/supply_chain/technical_guidance/en/"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Challenges in Vaccine Distribution and Storage Requirements
+Keywords: vaccine distribution, vaccine storage, cold chain, logistics, challenges
+Uses: 0
+Text: One of the major challenges in vaccine distribution is maintaining the cold chain, which refers to the temperature-controlled supply chain required to keep vaccines effective. Vaccines are sensitive biological products that can lose their potency if exposed to temperatures outside the recommended range. This necessitates the use of specialized cold storage equipment and transportation methods to ensure the integrity of the vaccines. Additionally, ensuring timely and efficient distribution of vaccines to different regions, especially in remote or resource-limited areas, poses logistical challenges that need to be carefully managed.Link: https://www.who.int/immunization/programmes_systems/supply_chain/technical_guidance/en/
+Researching topic: Public education and vaccine acceptance
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development', 'Importance of Phase III Clinical Trials in Vaccine Development', 'Ethical Considerations in Vaccine Development', 'Informed Consent in Vaccine Development', 'Vaccine Formulation and Delivery Methods', 'Vaccine Formulation and Delivery Methods Explained', 'Post-Marketing Surveillance and Monitoring of Vaccines', 'Importance of Post-Marketing Surveillance and Monitoring of Vaccines', 'Vaccine Distribution and Storage Requirements', 'Challenges in Vaccine Distribution and Storage Requirements']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **PUBLIC EDUCATION AND VACCINE ACCEPTANCE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 41.0 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Public Education and Vaccine Acceptance",
+    "keywords": ["vaccine acceptance", "public education", "herd immunity", "vaccine hesitancy"],
+    "text": "Public education plays a crucial role in promoting vaccine acceptance and achieving herd immunity. By providing accurate information about the safety and efficacy of vaccines, as well as addressing common misconceptions and concerns, public health campaigns can help increase vaccination rates and protect communities from preventable diseases. Vaccine hesitancy, fueled by misinformation and mistrust, is a significant challenge that public education efforts aim to overcome.",
+    "link": "https://www.who.int/immunization/programmes_systems/vaccine_hesitancy/en/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Public Education and Vaccine Acceptance",
+    "keywords": ["public education", "vaccine acceptance", "community outreach", "vaccine hesitancy"],
+    "text": "Public education plays a crucial role in increasing vaccine acceptance within communities. By providing accurate information about the safety and effectiveness of vaccines, addressing common misconceptions, and promoting the benefits of vaccination, public health campaigns can help improve overall vaccine uptake. Community outreach programs, educational materials, and partnerships with healthcare providers are important strategies in educating the public about the importance of vaccination.",
+    "link": "https://www.cdc.gov/vaccines/partners/education/index.html"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Public Education and Vaccine Acceptance",
+    "keywords": ["public education", "vaccine acceptance", "community outreach", "vaccine hesitancy"],
+    "text": "Public education plays a crucial role in increasing vaccine acceptance within communities. By providing accurate information about the safety and effectiveness of vaccines, addressing common misconceptions, and promoting the benefits of vaccination, public health campaigns can help improve overall vaccine uptake. Community outreach programs, educational materials, and partnerships with healthcare providers are important strategies in educating the public about the importance of vaccination.",
+    "link": "https://www.cdc.gov/vaccines/partners/education/index.html"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Public Education and Vaccine Acceptance
+Keywords: public education, vaccine acceptance, community outreach, vaccine hesitancy
+Uses: 0
+Text: Public education plays a crucial role in increasing vaccine acceptance within communities. By providing accurate information about the safety and effectiveness of vaccines, addressing common misconceptions, and promoting the benefits of vaccination, public health campaigns can help improve overall vaccine uptake. Community outreach programs, educational materials, and partnerships with healthcare providers are important strategies in educating the public about the importance of vaccination.Link: https://www.cdc.gov/vaccines/partners/education/index.html
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development', 'Importance of Phase III Clinical Trials in Vaccine Development', 'Ethical Considerations in Vaccine Development', 'Informed Consent in Vaccine Development', 'Vaccine Formulation and Delivery Methods', 'Vaccine Formulation and Delivery Methods Explained', 'Post-Marketing Surveillance and Monitoring of Vaccines', 'Importance of Post-Marketing Surveillance and Monitoring of Vaccines', 'Vaccine Distribution and Storage Requirements', 'Challenges in Vaccine Distribution and Storage Requirements', 'Public Education and Vaccine Acceptance']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **PUBLIC EDUCATION AND VACCINE ACCEPTANCE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 7.0 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Role of Public Education in Vaccine Acceptance",
+    "keywords": ["public education", "vaccine acceptance", "public health", "community outreach"],
+    "text": "Public education plays a vital role in increasing vaccine acceptance within a community. By providing accurate information about the safety and efficacy of vaccines, addressing common misconceptions, and promoting the benefits of immunization, public health campaigns can help build trust and confidence in vaccination programs. Community outreach efforts, such as town hall meetings, educational workshops, and partnerships with local organizations, can also help reach diverse populations and ensure widespread vaccine uptake.",
+    "link": "https://www.cdc.gov/vaccines/partners/activities/immunization-education.html"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Role of Public Education in Vaccine Acceptance",
+    "keywords": ["public education", "vaccine acceptance", "community outreach", "health literacy"],
+    "text": "Public education plays a crucial role in promoting vaccine acceptance within communities. By providing accurate information about the safety and efficacy of vaccines, addressing common myths and misconceptions, and highlighting the benefits of immunization, public education campaigns can help increase vaccination rates. Community outreach efforts, tailored to the specific needs and concerns of local populations, can also help build trust in the healthcare system and encourage vaccine uptake. Furthermore, improving health literacy levels can empower individuals to make informed decisions about their health and the health of their families.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7153862/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "The Role of Public Education in Vaccine Acceptance",
+    "keywords": ["public education", "vaccine acceptance", "public health", "community outreach"],
+    "text": "Public education plays a vital role in increasing vaccine acceptance within a community. By providing accurate information about the safety and efficacy of vaccines, addressing common misconceptions, and promoting the benefits of immunization, public health campaigns can help build trust and confidence in vaccination programs. Community outreach efforts, such as town hall meetings, educational workshops, and partnerships with local organizations, can also help reach diverse populations and ensure widespread vaccine uptake.",
+    "link": "https://www.cdc.gov/vaccines/partners/activities/immunization-education.html"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: The Role of Public Education in Vaccine Acceptance
+Keywords: public education, vaccine acceptance, public health, community outreach
+Uses: 0
+Text: Public education plays a vital role in increasing vaccine acceptance within a community. By providing accurate information about the safety and efficacy of vaccines, addressing common misconceptions, and promoting the benefits of immunization, public health campaigns can help build trust and confidence in vaccination programs. Community outreach efforts, such as town hall meetings, educational workshops, and partnerships with local organizations, can also help reach diverse populations and ensure widespread vaccine uptake.Link: https://www.cdc.gov/vaccines/partners/activities/immunization-education.html
+Researching topic: Impact of vaccine development on global health
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development', 'Importance of Phase III Clinical Trials in Vaccine Development', 'Ethical Considerations in Vaccine Development', 'Informed Consent in Vaccine Development', 'Vaccine Formulation and Delivery Methods', 'Vaccine Formulation and Delivery Methods Explained', 'Post-Marketing Surveillance and Monitoring of Vaccines', 'Importance of Post-Marketing Surveillance and Monitoring of Vaccines', 'Vaccine Distribution and Storage Requirements', 'Challenges in Vaccine Distribution and Storage Requirements', 'Public Education and Vaccine Acceptance', 'The Role of Public Education in Vaccine Acceptance']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF VACCINE DEVELOPMENT ON GLOBAL HEALTH** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Impact of Vaccine Development on Global Health",
+    "keywords": ["vaccine development", "global health", "impact"],
+    "text": "Vaccine development plays a crucial role in improving global health by preventing the spread of infectious diseases. Vaccines have helped to eradicate deadly diseases such as smallpox and significantly reduce the burden of others like polio and measles. By increasing immunization rates worldwide, vaccines have saved millions of lives and reduced healthcare costs associated with treating preventable diseases.",
+    "link": "https://www.who.int/immunization/monitoring_surveillance/burden/vpd/en/"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Impact of Vaccine Development on Global Health
+Keywords: vaccine development, global health, impact
+Uses: 0
+Text: Vaccine development plays a crucial role in improving global health by preventing the spread of infectious diseases. Vaccines have helped to eradicate deadly diseases such as smallpox and significantly reduce the burden of others like polio and measles. By increasing immunization rates worldwide, vaccines have saved millions of lives and reduced healthcare costs associated with treating preventable diseases.Link: https://www.who.int/immunization/monitoring_surveillance/burden/vpd/en/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development Process', 'Vaccine Development Process Explained', 'Phases of Clinical Trials in Vaccine Development', 'Importance of Phase III Clinical Trials in Vaccine Development', 'Ethical Considerations in Vaccine Development', 'Informed Consent in Vaccine Development', 'Vaccine Formulation and Delivery Methods', 'Vaccine Formulation and Delivery Methods Explained', 'Post-Marketing Surveillance and Monitoring of Vaccines', 'Importance of Post-Marketing Surveillance and Monitoring of Vaccines', 'Vaccine Distribution and Storage Requirements', 'Challenges in Vaccine Distribution and Storage Requirements', 'Public Education and Vaccine Acceptance', 'The Role of Public Education in Vaccine Acceptance', 'Impact of Vaccine Development on Global Health']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF VACCINE DEVELOPMENT ON GLOBAL HEALTH** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 42.4 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Global Impact of Vaccine Development",
+    "keywords": ["global health", "vaccine impact", "disease prevention", "public health"],
+    "text": "Vaccine development plays a crucial role in improving global health by preventing the spread of infectious diseases. Vaccines have significantly reduced the burden of diseases such as polio, measles, and influenza worldwide. They have helped to eradicate smallpox, nearly eliminate polio, and drastically reduce the incidence of many other diseases. By preventing illness and death, vaccines also contribute to economic development by reducing healthcare costs and increasing productivity. Overall, the impact of vaccine development on global health is profound and far-reaching.",
+    "link": "https://www.who.int/immunization/global_vaccine_action_plan/GVAP_doc_2011_2020/en/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Global Impact of Vaccine Development",
+    "keywords": ["global health", "vaccine impact", "disease prevention", "public health", "pandemics"],
+    "text": "Vaccine development plays a crucial role in global health by preventing the spread of infectious diseases, reducing illness and death rates, and ultimately saving lives. Vaccines have been instrumental in eradicating diseases such as smallpox and significantly reducing the burden of diseases like polio, measles, and influenza worldwide. By immunizing populations against various pathogens, vaccines help create herd immunity, protecting vulnerable individuals who cannot be vaccinated. This leads to a significant reduction in disease transmission and outbreaks, ultimately improving public health on a global scale.",
+    "link": "https://www.who.int/immunization/monitoring_surveillance/burden/vpd/en/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Global Impact of Vaccine Development",
+    "keywords": ["global health", "vaccine impact", "disease prevention", "public health"],
+    "text": "Vaccine development plays a crucial role in improving global health by preventing the spread of infectious diseases. Vaccines have significantly reduced the burden of diseases such as polio, measles, and influenza worldwide. They have helped to eradicate smallpox, nearly eliminate polio, and drastically reduce the incidence of many other diseases. By preventing illness and death, vaccines also contribute to economic development by reducing healthcare costs and increasing productivity. Overall, the impact of vaccine development on global health is profound and far-reaching.",
+    "link": "https://www.who.int/immunization/global_vaccine_action_plan/GVAP_doc_2011_2020/en/"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Global Impact of Vaccine Development
+Keywords: global health, vaccine impact, disease prevention, public health
+Uses: 0
+Text: Vaccine development plays a crucial role in improving global health by preventing the spread of infectious diseases. Vaccines have significantly reduced the burden of diseases such as polio, measles, and influenza worldwide. They have helped to eradicate smallpox, nearly eliminate polio, and drastically reduce the incidence of many other diseases. By preventing illness and death, vaccines also contribute to economic development by reducing healthcare costs and increasing productivity. Overall, the impact of vaccine development on global health is profound and far-reaching.Link: https://www.who.int/immunization/global_vaccine_action_plan/GVAP_doc_2011_2020/en/
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({The stages of vaccine development process typically include exploratory, pre-clinical, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, researchers identify antigens that could potentially be used to create a vaccine. In the pre-...
+
+The vaccine development process involves several stages, including exploratory stage, preclinical stage, clinical development, regulatory review and approval, and manufacturing. During the exploratory stage, researchers identify antigens that can trigger an immune response. In the preclinical stage,...
+
+Clinical trials for vaccine development typically go through three main phases: Phase 1 involves a small group of healthy volunteers to assess safety and dosage. Phase 2 expands to a larger group to further evaluate safety and effectiveness. Phase 3 involves thousands of participants to confirm effe...
+
+Phase III clinical trials play a crucial role in vaccine development as they evaluate the efficacy and safety of the vaccine candidate on a larger scale. These trials involve thousands of participants and provide valuable data on how well the vaccine works in real-world conditions. The results from ...
+
+Ethical considerations in vaccine development are crucial to ensure the safety, efficacy, and fairness of the process. This includes obtaining informed consent from participants, ensuring equitable distribution of benefits and risks, and maintaining transparency throughout clinical trials. It is imp...
+
+In vaccine development, informed consent is a critical ethical consideration. Participants in clinical trials must be fully informed about the potential risks and benefits of the vaccine being tested. This includes details about the study protocol, possible side effects, and the voluntary nature of ...
+
+Vaccine formulation involves combining the antigen (weakened or killed virus or bacteria) with other ingredients to create a vaccine that is safe and effective. Delivery methods for vaccines can include injection, oral administration, nasal sprays, patches, and microneedles.
+
+Vaccine formulation involves the process of developing a vaccine product by combining antigens with other ingredients such as adjuvants, stabilizers, and preservatives. Adjuvants are added to enhance the immune response to the vaccine, while stabilizers help maintain the vaccine's potency and effect...
+
+Post-marketing surveillance and monitoring of vaccines refers to the ongoing process of monitoring the safety and effectiveness of vaccines after they have been approved and are in use by the general population. This surveillance is crucial for detecting rare adverse events that may not have been id...
+
+Post-marketing surveillance and monitoring of vaccines are crucial to continue assessing the safety and effectiveness of vaccines after they have been approved and are being used in the general population. This process helps in detecting and evaluating any rare or long-term side effects that may not...
+
+Vaccine distribution and storage are critical aspects of ensuring the effectiveness of vaccines. Most vaccines require strict temperature control throughout the distribution chain to maintain their potency. This is often referred to as the 'cold chain' system. Vaccines may have different temperature...
+
+One of the major challenges in vaccine distribution is maintaining the cold chain, which refers to the temperature-controlled supply chain required to keep vaccines effective. Vaccines are sensitive biological products that can lose their potency if exposed to temperatures outside the recommended ra...
+
+Public education plays a crucial role in increasing vaccine acceptance within communities. By providing accurate information about the safety and effectiveness of vaccines, addressing common misconceptions, and promoting the benefits of vaccination, public health campaigns can help improve overall v...
+
+Public education plays a vital role in increasing vaccine acceptance within a community. By providing accurate information about the safety and efficacy of vaccines, addressing common misconceptions, and promoting the benefits of immunization, public health campaigns can help build trust and confide...
+
+Vaccine development plays a crucial role in improving global health by preventing the spread of infectious diseases. Vaccines have helped to eradicate deadly diseases such as smallpox and significantly reduce the burden of others like polio and measles. By increasing immunization rates worldwide, va...
+
+Vaccine development plays a crucial role in improving global health by preventing the spread of infectious diseases. Vaccines have significantly reduced the burden of diseases such as polio, measles, and influenza worldwide. They have helped to eradicate smallpox, nearly eliminate polio, and drastic...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+Raw response:
+6
+.
+Topic count decided: 6
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({The stages of vaccine development process typically include exploratory, pre-clinical, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, researchers identify antigens that could potentially be used to create a vaccine. In the pre-...
+
+The vaccine development process involves several stages, including exploratory stage, preclinical stage, clinical development, regulatory review and approval, and manufacturing. During the exploratory stage, researchers identify antigens that can trigger an immune response. In the preclinical stage,...
+
+Clinical trials for vaccine development typically go through three main phases: Phase 1 involves a small group of healthy volunteers to assess safety and dosage. Phase 2 expands to a larger group to further evaluate safety and effectiveness. Phase 3 involves thousands of participants to confirm effe...
+
+Phase III clinical trials play a crucial role in vaccine development as they evaluate the efficacy and safety of the vaccine candidate on a larger scale. These trials involve thousands of participants and provide valuable data on how well the vaccine works in real-world conditions. The results from ...
+
+Ethical considerations in vaccine development are crucial to ensure the safety, efficacy, and fairness of the process. This includes obtaining informed consent from participants, ensuring equitable distribution of benefits and risks, and maintaining transparency throughout clinical trials. It is imp...
+
+In vaccine development, informed consent is a critical ethical consideration. Participants in clinical trials must be fully informed about the potential risks and benefits of the vaccine being tested. This includes details about the study protocol, possible side effects, and the voluntary nature of ...
+
+Vaccine formulation involves combining the antigen (weakened or killed virus or bacteria) with other ingredients to create a vaccine that is safe and effective. Delivery methods for vaccines can include injection, oral administration, nasal sprays, patches, and microneedles.
+
+Vaccine formulation involves the process of developing a vaccine product by combining antigens with other ingredients such as adjuvants, stabilizers, and preservatives. Adjuvants are added to enhance the immune response to the vaccine, while stabilizers help maintain the vaccine's potency and effect...
+
+Post-marketing surveillance and monitoring of vaccines refers to the ongoing process of monitoring the safety and effectiveness of vaccines after they have been approved and are in use by the general population. This surveillance is crucial for detecting rare adverse events that may not have been id...
+
+Post-marketing surveillance and monitoring of vaccines are crucial to continue assessing the safety and effectiveness of vaccines after they have been approved and are being used in the general population. This process helps in detecting and evaluating any rare or long-term side effects that may not...
+
+Vaccine distribution and storage are critical aspects of ensuring the effectiveness of vaccines. Most vaccines require strict temperature control throughout the distribution chain to maintain their potency. This is often referred to as the 'cold chain' system. Vaccines may have different temperature...
+
+One of the major challenges in vaccine distribution is maintaining the cold chain, which refers to the temperature-controlled supply chain required to keep vaccines effective. Vaccines are sensitive biological products that can lose their potency if exposed to temperatures outside the recommended ra...
+
+Public education plays a crucial role in increasing vaccine acceptance within communities. By providing accurate information about the safety and effectiveness of vaccines, addressing common misconceptions, and promoting the benefits of vaccination, public health campaigns can help improve overall v...
+
+Public education plays a vital role in increasing vaccine acceptance within a community. By providing accurate information about the safety and efficacy of vaccines, addressing common misconceptions, and promoting the benefits of immunization, public health campaigns can help build trust and confide...
+
+Vaccine development plays a crucial role in improving global health by preventing the spread of infectious diseases. Vaccines have helped to eradicate deadly diseases such as smallpox and significantly reduce the burden of others like polio and measles. By increasing immunization rates worldwide, va...
+
+Vaccine development plays a crucial role in improving global health by preventing the spread of infectious diseases. Vaccines have significantly reduced the burden of diseases such as polio, measles, and influenza worldwide. They have helped to eradicate smallpox, nearly eliminate polio, and drastic...}). You are to come up with {6} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+🎲 Choice scenario triggered! (Rolled 12.9 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Week 1: Exploratory Stage of Vaccine Development
+
+Main Topic Title: Exploratory Stage Overview
+- Sub-Topic 1: Antigen Identification
+   - Explanation: Researchers identify antigens that can trigger an immune response to develop a vaccine (Database).
+- Sub-Topic 2: Vaccine Design
+   - Explanation: Formulation of vaccine candidates based on selected antigens (Database).
+- Sub-Topic 3: Preclinical Testing
+   - Explanation: Initial testing of vaccine candidates in laboratory and animal models to assess safety and efficacy (Database).
+- Learning Objectives: Understand the importance of antigen identification, vaccine design, and preclinical testing in the exploratory stage of vaccine development.
+- Estimated Number of Slides: 15
+- Lab Activities: Analyze antigen structures and design potential vaccine candidates in a virtual lab setting.
+- Real-World Applications: Discuss recent advancements in antigen identification and vaccine design for emerging infectious diseases.
+
+Week 2: Preclinical Stage of Vaccine Development
+
+Main Topic Title: Preclinical Testing and Evaluation
+- Sub-Topic 1: Toxicity Studies
+   - Explanation: Assessing the safety profile of vaccine candidates in animal models (Database).
+- Sub-Topic 2: Immunogenicity Testing
+   - Explanation: Evaluating the ability of vaccine candidates to induce an immune response (Database).
+- Sub-Topic 3: Dose Optimization
+   - Explanation: Determining the optimal vaccine dosage for efficacy in preclinical studies (Database).
+- Learning Objectives: Understand the importance of toxicity studies, immunogenicity testing, and dose optimization in the preclinical stage of vaccine development.
+- Estimated Number of Slides: 20
+- Lab Activities: Conduct immunogenicity assays on vaccine candidates using ELISA techniques.
+- Real-World Applications: Explore case studies of successful vaccine candidates that progressed from preclinical testing to clinical trials.
+
+Week 3: Clinical Development of Vaccines
+
+Main Topic Title: Clinical Trial Phases
+- Sub-Topic 1: Phase I Clinical Trials
+   - Explanation: Initial testing of vaccine safety and dosage in a small group of healthy volunteers (Database).
+- Sub-Topic 2: Phase II Clinical Trials
+   - Explanation: Further evaluation of vaccine safety and effectiveness in a larger group of participants (Database).
+- Sub-Topic 3: Phase III Clinical Trials
+   - Explanation: Large-scale trials to confirm vaccine efficacy and safety in real-world conditions (Database).
+- Learning Objectives: Understand the different phases of clinical trials in vaccine development and their significance.
+- Estimated Number of Slides: 25
+- Lab Activities: Design a mock clinical trial protocol for a hypothetical vaccine candidate.
+- Real-World Applications: Discuss recent clinical trials for COVID-19 vaccines and their impact on public health.
+
+Week 4: Regulatory Review and Approval Process
+
+Main Topic Title: Vaccine Approval Process
+- Sub-Topic 1: Regulatory Agencies
+   - Explanation: Overview of regulatory bodies responsible for reviewing and approving vaccines (Database).
+- Sub-Topic 2: Vaccine Licensure
+   - Explanation: Criteria for granting regulatory approval for vaccine distribution (Database).
+- Sub-Topic 3: Post-Marketing Surveillance
+   - Explanation: Monitoring vaccine safety and effectiveness after approval (Database).
+- Learning Objectives: Understand the regulatory review and approval process for vaccines and the importance of post-marketing surveillance.
+- Estimated Number of Slides: 20
+- Lab Activities: Analyze regulatory approval documents for existing vaccines and identify key criteria for approval.
+- Real-World Applications: Explore case studies of vaccine recalls due to post-marketing safety concerns.
+
+Week 5: Manufacturing and Quality Control
+
+Main Topic Title: Vaccine Production
+- Sub-Topic 1: Manufacturing Process
+   - Explanation: Steps involved in vaccine production, including antigen production and formulation (Database).
+- Sub-Topic 2: Quality Control Measures
+   - Explanation: Ensuring vaccine potency, purity, and sterility through quality control testing (Database).
+- Sub-Topic 3: Storage and Distribution
+   - Explanation: Requirements for maintaining vaccine stability during storage and transportation (Database).
+- Learning Objectives: Understand the manufacturing process, quality control measures, and storage requirements for vaccines.
+- Estimated Number of Slides: 25
+- Lab Activities: Design a vaccine production plan for a new vaccine candidate, including quality control testing protocols.
+- Real-World Applications: Discuss challenges in vaccine distribution during global health crises such as pandemics.
+
+Week 6: Ethical Considerations in Vaccine Development
+
+Main Topic Title: Ethics in Vaccine Research
+- Sub-Topic 1: Informed Consent
+   - Explanation: Importance of obtaining voluntary and informed consent from clinical trial participants (Database).
+- Sub-Topic 2: Equity in Vaccine Distribution
+   - Explanation: Ensuring fair access to vaccines for all populations, especially in low-income countries (Database).
+- Sub-Topic 3: Transparency and Accountability
+   - Explanation: Maintaining openness and accountability throughout the vaccine development process (Database).
+- Learning Objectives: Understand the ethical considerations in vaccine development, including informed consent, equity, and transparency.
+- Estimated Number of Slides: 20
+- Lab Activities: Role-playing scenarios to explore ethical dilemmas in vaccine research and development.
+- Real-World Applications: Analyze recent controversies in vaccine distribution and ethical implications for public health policy.
+
+This detailed teaching plan covers the key stages of vaccine development, from the exploratory phase to regulatory approval, manufacturing, and ethical considerations. By incorporating lab activities, real-world examples, and interactive discussions, students will gain a comprehensive understanding of the complex process of vaccine development and its impact on global health.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Week 1: Exploratory Stage of Vaccine Development
+
+Main Topic Title: Exploratory Stage of Vaccine Development
+
+Sub-Topics:
+1. Antigen Identification
+2. Vaccine Design
+3. Animal Studies
+4. Safety Assessment
+
+Explanation:
+- Antigen Identification: Researchers identify antigens that can trigger an immune response, which is crucial for vaccine development (Database).
+- Vaccine Design: The process of designing a vaccine based on the identified antigens to induce a protective immune response (Database).
+- Animal Studies: Preclinical studies using animal models to assess the safety and efficacy of the vaccine candidate before human trials (Database).
+- Safety Assessment: Evaluation of the safety profile of the vaccine candidate to ensure it does not cause harm to recipients (Database).
+
+Learning Objectives:
+- Understand the importance of antigen identification in vaccine development.
+- Explain the process of vaccine design based on identified antigens.
+- Describe the role of animal studies in assessing vaccine safety and efficacy.
+- Discuss the significance of safety assessment in vaccine development.
+
+Estimated Number of Slides: 10
+
+Lab Activities/Practical Exercises:
+- Analyze antigen sequences to identify potential vaccine candidates.
+- Design a hypothetical vaccine based on identified antigens.
+- Conduct a safety assessment of a vaccine candidate using in vitro assays.
+
+Real-World Applications and Examples:
+- Development of COVID-19 vaccines based on spike protein antigens.
+- Animal studies conducted to evaluate the safety and efficacy of HPV vaccines before human trials.
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+Week 1: Exploratory Stage of Vaccine Development
+
+Main Topic Title: Exploratory Stage Overview
+- Sub-Topic 1: Antigen Identification
+   - Explanation: Researchers identify antigens that can trigger an immune response to develop a vaccine (Database).
+- Sub-Topic 2: Vaccine Design
+   - Explanation: Formulation of vaccine candidates based on selected antigens (Database).
+- Sub-Topic 3: Preclinical Testing
+   - Explanation: Initial testing of vaccine candidates in laboratory and animal models to assess safety and efficacy (Database).
+- Learning Objectives: Understand the importance of antigen identification, vaccine design, and preclinical testing in the exploratory stage of vaccine development.
+- Estimated Number of Slides: 15
+- Lab Activities: Analyze antigen structures and design potential vaccine candidates in a virtual lab setting.
+- Real-World Applications: Discuss recent advancements in antigen identification and vaccine design for emerging infectious diseases.
+
+Week 2: Preclinical Stage of Vaccine Development
+
+Main Topic Title: Preclinical Testing and Evaluation
+- Sub-Topic 1: Toxicity Studies
+   - Explanation: Assessing the safety profile of vaccine candidates in animal models (Database).
+- Sub-Topic 2: Immunogenicity Testing
+   - Explanation: Evaluating the ability of vaccine candidates to induce an immune response (Database).
+- Sub-Topic 3: Dose Optimization
+   - Explanation: Determining the optimal vaccine dosage for efficacy in preclinical studies (Database).
+- Learning Objectives: Understand the importance of toxicity studies, immunogenicity testing, and dose optimization in the preclinical stage of vaccine development.
+- Estimated Number of Slides: 20
+- Lab Activities: Conduct immunogenicity assays on vaccine candidates using ELISA techniques.
+- Real-World Applications: Explore case studies of successful vaccine candidates that progressed from preclinical testing to clinical trials.
+
+Week 3: Clinical Development of Vaccines
+
+Main Topic Title: Clinical Trial Phases
+- Sub-Topic 1: Phase I Clinical Trials
+   - Explanation: Initial testing of vaccine safety and dosage in a small group of healthy volunteers (Database).
+- Sub-Topic 2: Phase II Clinical Trials
+   - Explanation: Further evaluation of vaccine safety and effectiveness in a larger group of participants (Database).
+- Sub-Topic 3: Phase III Clinical Trials
+   - Explanation: Large-scale trials to confirm vaccine efficacy and safety in real-world conditions (Database).
+- Learning Objectives: Understand the different phases of clinical trials in vaccine development and their significance.
+- Estimated Number of Slides: 25
+- Lab Activities: Design a mock clinical trial protocol for a hypothetical vaccine candidate.
+- Real-World Applications: Discuss recent clinical trials for COVID-19 vaccines and their impact on public health.
+
+Week 4: Regulatory Review and Approval Process
+
+Main Topic Title: Vaccine Approval Process
+- Sub-Topic 1: Regulatory Agencies
+   - Explanation: Overview of regulatory bodies responsible for reviewing and approving vaccines (Database).
+- Sub-Topic 2: Vaccine Licensure
+   - Explanation: Criteria for granting regulatory approval for vaccine distribution (Database).
+- Sub-Topic 3: Post-Marketing Surveillance
+   - Explanation: Monitoring vaccine safety and effectiveness after approval (Database).
+- Learning Objectives: Understand the regulatory review and approval process for vaccines and the importance of post-marketing surveillance.
+- Estimated Number of Slides: 20
+- Lab Activities: Analyze regulatory approval documents for existing vaccines and identify key criteria for approval.
+- Real-World Applications: Explore case studies of vaccine recalls due to post-marketing safety concerns.
+
+Week 5: Manufacturing and Quality Control
+
+Main Topic Title: Vaccine Production
+- Sub-Topic 1: Manufacturing Process
+   - Explanation: Steps involved in vaccine production, including antigen production and formulation (Database).
+- Sub-Topic 2: Quality Control Measures
+   - Explanation: Ensuring vaccine potency, purity, and sterility through quality control testing (Database).
+- Sub-Topic 3: Storage and Distribution
+   - Explanation: Requirements for maintaining vaccine stability during storage and transportation (Database).
+- Learning Objectives: Understand the manufacturing process, quality control measures, and storage requirements for vaccines.
+- Estimated Number of Slides: 25
+- Lab Activities: Design a vaccine production plan for a new vaccine candidate, including quality control testing protocols.
+- Real-World Applications: Discuss challenges in vaccine distribution during global health crises such as pandemics.
+
+Week 6: Ethical Considerations in Vaccine Development
+
+Main Topic Title: Ethics in Vaccine Research
+- Sub-Topic 1: Informed Consent
+   - Explanation: Importance of obtaining voluntary and informed consent from clinical trial participants (Database).
+- Sub-Topic 2: Equity in Vaccine Distribution
+   - Explanation: Ensuring fair access to vaccines for all populations, especially in low-income countries (Database).
+- Sub-Topic 3: Transparency and Accountability
+   - Explanation: Maintaining openness and accountability throughout the vaccine development process (Database).
+- Learning Objectives: Understand the ethical considerations in vaccine development, including informed consent, equity, and transparency.
+- Estimated Number of Slides: 20
+- Lab Activities: Role-playing scenarios to explore ethical dilemmas in vaccine research and development.
+- Real-World Applications: Analyze recent controversies in vaccine distribution and ethical implications for public health policy.
+
+This detailed teaching plan covers the key stages of vaccine development, from the exploratory phase to regulatory approval, manufacturing, and ethical considerations. By incorporating lab activities, real-world examples, and interactive discussions, students will gain a comprehensive understanding of the complex process of vaccine development and its impact on global health.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Week 1: Exploratory Stage of Vaccine Development
+
+Main Topic Title: Exploratory Stage Overview
+- Sub-Topic 1: Antigen Identification
+   - Explanation: Researchers identify antigens that can trigger an immune response to develop a vaccine (Database).
+- Sub-Topic 2: Vaccine Design
+   - Explanation: Formulation of vaccine candidates based on selected antigens (Database).
+- Sub-Topic 3: Preclinical Testing
+   - Explanation: Initial testing of vaccine candidates in laboratory and animal models to assess safety and efficacy (Database).
+- Learning Objectives: Understand the importance of antigen identification, vaccine design, and preclinical testing in the exploratory stage of vaccine development.
+- Estimated Number of Slides: 15
+- Lab Activities: Analyze antigen structures and design potential vaccine candidates in a virtual lab setting.
+- Real-World Applications: Discuss recent advancements in antigen identification and vaccine design for emerging infectious diseases.
+
+Week 2: Preclinical Stage of Vaccine Development
+
+Main Topic Title: Preclinical Testing and Evaluation
+- Sub-Topic 1: Toxicity Studies
+   - Explanation: Assessing the safety profile of vaccine candidates in animal models (Database).
+- Sub-Topic 2: Immunogenicity Testing
+   - Explanation: Evaluating the ability of vaccine candidates to induce an immune response (Database).
+- Sub-Topic 3: Dose Optimization
+   - Explanation: Determining the optimal vaccine dosage for efficacy in preclinical studies (Database).
+- Learning Objectives: Understand the importance of toxicity studies, immunogenicity testing, and dose optimization in the preclinical stage of vaccine development.
+- Estimated Number of Slides: 20
+- Lab Activities: Conduct immunogenicity assays on vaccine candidates using ELISA techniques.
+- Real-World Applications: Explore case studies of successful vaccine candidates that progressed from preclinical testing to clinical trials.
+
+Week 3: Clinical Development of Vaccines
+
+Main Topic Title: Clinical Trial Phases
+- Sub-Topic 1: Phase I Clinical Trials
+   - Explanation: Initial testing of vaccine safety and dosage in a small group of healthy volunteers (Database).
+- Sub-Topic 2: Phase II Clinical Trials
+   - Explanation: Further evaluation of vaccine safety and effectiveness in a larger group of participants (Database).
+- Sub-Topic 3: Phase III Clinical Trials
+   - Explanation: Large-scale trials to confirm vaccine efficacy and safety in real-world conditions (Database).
+- Learning Objectives: Understand the different phases of clinical trials in vaccine development and their significance.
+- Estimated Number of Slides: 25
+- Lab Activities: Design a mock clinical trial protocol for a hypothetical vaccine candidate.
+- Real-World Applications: Discuss recent clinical trials for COVID-19 vaccines and their impact on public health.
+
+Week 4: Regulatory Review and Approval Process
+
+Main Topic Title: Vaccine Approval Process
+- Sub-Topic 1: Regulatory Agencies
+   - Explanation: Overview of regulatory bodies responsible for reviewing and approving vaccines (Database).
+- Sub-Topic 2: Vaccine Licensure
+   - Explanation: Criteria for granting regulatory approval for vaccine distribution (Database).
+- Sub-Topic 3: Post-Marketing Surveillance
+   - Explanation: Monitoring vaccine safety and effectiveness after approval (Database).
+- Learning Objectives: Understand the regulatory review and approval process for vaccines and the importance of post-marketing surveillance.
+- Estimated Number of Slides: 20
+- Lab Activities: Analyze regulatory approval documents for existing vaccines and identify key criteria for approval.
+- Real-World Applications: Explore case studies of vaccine recalls due to post-marketing safety concerns.
+
+Week 5: Manufacturing and Quality Control
+
+Main Topic Title: Vaccine Production
+- Sub-Topic 1: Manufacturing Process
+   - Explanation: Steps involved in vaccine production, including antigen production and formulation (Database).
+- Sub-Topic 2: Quality Control Measures
+   - Explanation: Ensuring vaccine potency, purity, and sterility through quality control testing (Database).
+- Sub-Topic 3: Storage and Distribution
+   - Explanation: Requirements for maintaining vaccine stability during storage and transportation (Database).
+- Learning Objectives: Understand the manufacturing process, quality control measures, and storage requirements for vaccines.
+- Estimated Number of Slides: 25
+- Lab Activities: Design a vaccine production plan for a new vaccine candidate, including quality control testing protocols.
+- Real-World Applications: Discuss challenges in vaccine distribution during global health crises such as pandemics.
+
+Week 6: Ethical Considerations in Vaccine Development
+
+Main Topic Title: Ethics in Vaccine Research
+- Sub-Topic 1: Informed Consent
+   - Explanation: Importance of obtaining voluntary and informed consent from clinical trial participants (Database).
+- Sub-Topic 2: Equity in Vaccine Distribution
+   - Explanation: Ensuring fair access to vaccines for all populations, especially in low-income countries (Database).
+- Sub-Topic 3: Transparency and Accountability
+   - Explanation: Maintaining openness and accountability throughout the vaccine development process (Database).
+- Learning Objectives: Understand the ethical considerations in vaccine development, including informed consent, equity, and transparency.
+- Estimated Number of Slides: 20
+- Lab Activities: Role-playing scenarios to explore ethical dilemmas in vaccine research and development.
+- Real-World Applications: Analyze recent controversies in vaccine distribution and ethical implications for public health policy.
+
+This detailed teaching plan covers the key stages of vaccine development, from the exploratory phase to regulatory approval, manufacturing, and ethical considerations. By incorporating lab activities, real-world examples, and interactive discussions, students will gain a comprehensive understanding of the complex process of vaccine development and its impact on global health.}). Total slides available: {8}. Topics to allocate: {6}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+🎲 Choice scenario triggered! (Rolled 28.4 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+[15, 20, 25, 20, 25, 20]
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+[15, 20, 25, 20, 25, 20]
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+[15, 20, 25, 20, 25, 20]
+.
+Slide allocation: [1, 1, 2, 1, 2, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Week 1: Exploratory Stage of Vaccine Development
+
+Main Topic Title: Exploratory Stage Overview
+- Sub-Topic 1: Antigen Identification
+   - Explanation: Researchers identify antigens that can trigger an immune response to develop a vaccine (Database).
+- Sub-Topic 2: Vaccine Design
+   - Explanation: Formulation of vaccine candidates based on selected antigens (Database).
+- Sub-Topic 3: Preclinical Testing
+   - Explanation: Initial testing of vaccine candidates in laboratory and animal models to assess safety and efficacy (Database).
+- Learning Objectives: Understand the importance of antigen identification, vaccine design, and preclinical testing in the exploratory stage of vaccine development.
+- Estimated Number of Slides: 15
+- Lab Activities: Analyze antigen structures and design potential vaccine candidates in a virtual lab setting.
+- Real-World Applications: Discuss recent advancements in antigen identification and vaccine design for emerging infectious diseases.
+
+Week 2: Preclinical Stage of Vaccine Development
+
+Main Topic Title: Preclinical Testing and Evaluation
+- Sub-Topic 1: Toxicity Studies
+   - Explanation: Assessing the safety profile of vaccine candidates in animal models (Database).
+- Sub-Topic 2: Immunogenicity Testing
+   - Explanation: Evaluating the ability of vaccine candidates to induce an immune response (Database).
+- Sub-Topic 3: Dose Optimization
+   - Explanation: Determining the optimal vaccine dosage for efficacy in preclinical studies (Database).
+- Learning Objectives: Understand the importance of toxicity studies, immunogenicity testing, and dose optimization in the preclinical stage of vaccine development.
+- Estimated Number of Slides: 20
+- Lab Activities: Conduct immunogenicity assays on vaccine candidates using ELISA techniques.
+- Real-World Applications: Explore case studies of successful vaccine candidates that progressed from preclinical testing to clinical trials.
+
+Week 3: Clinical Development of Vaccines
+
+Main Topic Title: Clinical Trial Phases
+- Sub-Topic 1: Phase I Clinical Trials
+   - Explanation: Initial testing of vaccine safety and dosage in a small group of healthy volunteers (Database).
+- Sub-Topic 2: Phase II Clinical Trials
+   - Explanation: Further evaluation of vaccine safety and effectiveness in a larger group of participants (Database).
+- Sub-Topic 3: Phase III Clinical Trials
+   - Explanation: Large-scale trials to confirm vaccine efficacy and safety in real-world conditions (Database).
+- Learning Objectives: Understand the different phases of clinical trials in vaccine development and their significance.
+- Estimated Number of Slides: 25
+- Lab Activities: Design a mock clinical trial protocol for a hypothetical vaccine candidate.
+- Real-World Applications: Discuss recent clinical trials for COVID-19 vaccines and their impact on public health.
+
+Week 4: Regulatory Review and Approval Process
+
+Main Topic Title: Vaccine Approval Process
+- Sub-Topic 1: Regulatory Agencies
+   - Explanation: Overview of regulatory bodies responsible for reviewing and approving vaccines (Database).
+- Sub-Topic 2: Vaccine Licensure
+   - Explanation: Criteria for granting regulatory approval for vaccine distribution (Database).
+- Sub-Topic 3: Post-Marketing Surveillance
+   - Explanation: Monitoring vaccine safety and effectiveness after approval (Database).
+- Learning Objectives: Understand the regulatory review and approval process for vaccines and the importance of post-marketing surveillance.
+- Estimated Number of Slides: 20
+- Lab Activities: Analyze regulatory approval documents for existing vaccines and identify key criteria for approval.
+- Real-World Applications: Explore case studies of vaccine recalls due to post-marketing safety concerns.
+
+Week 5: Manufacturing and Quality Control
+
+Main Topic Title: Vaccine Production
+- Sub-Topic 1: Manufacturing Process
+   - Explanation: Steps involved in vaccine production, including antigen production and formulation (Database).
+- Sub-Topic 2: Quality Control Measures
+   - Explanation: Ensuring vaccine potency, purity, and sterility through quality control testing (Database).
+- Sub-Topic 3: Storage and Distribution
+   - Explanation: Requirements for maintaining vaccine stability during storage and transportation (Database).
+- Learning Objectives: Understand the manufacturing process, quality control measures, and storage requirements for vaccines.
+- Estimated Number of Slides: 25
+- Lab Activities: Design a vaccine production plan for a new vaccine candidate, including quality control testing protocols.
+- Real-World Applications: Discuss challenges in vaccine distribution during global health crises such as pandemics.
+
+Week 6: Ethical Considerations in Vaccine Development
+
+Main Topic Title: Ethics in Vaccine Research
+- Sub-Topic 1: Informed Consent
+   - Explanation: Importance of obtaining voluntary and informed consent from clinical trial participants (Database).
+- Sub-Topic 2: Equity in Vaccine Distribution
+   - Explanation: Ensuring fair access to vaccines for all populations, especially in low-income countries (Database).
+- Sub-Topic 3: Transparency and Accountability
+   - Explanation: Maintaining openness and accountability throughout the vaccine development process (Database).
+- Learning Objectives: Understand the ethical considerations in vaccine development, including informed consent, equity, and transparency.
+- Estimated Number of Slides: 20
+- Lab Activities: Role-playing scenarios to explore ethical dilemmas in vaccine research and development.
+- Real-World Applications: Analyze recent controversies in vaccine distribution and ethical implications for public health policy.
+
+This detailed teaching plan covers the key stages of vaccine development, from the exploratory phase to regulatory approval, manufacturing, and ethical considerations. By incorporating lab activities, real-world examples, and interactive discussions, students will gain a comprehensive understanding of the complex process of vaccine development and its impact on global health.}). Slide allocation per topic: {[1, 1, 2, 1, 2, 1]}. Database content for reference: ({The stages of vaccine development process typically include exploratory, pre-clinical, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, researchers identify antigens that could potentially be used to create a vaccine. In the pre-...
+
+The vaccine development process involves several stages, including exploratory stage, preclinical stage, clinical development, regulatory review and approval, and manufacturing. During the exploratory stage, researchers identify antigens that can trigger an immune response. In the preclinical stage,...
+
+Clinical trials for vaccine development typically go through three main phases: Phase 1 involves a small group of healthy volunteers to assess safety and dosage. Phase 2 expands to a larger group to further evaluate safety and effectiveness. Phase 3 involves thousands of participants to confirm effe...
+
+Phase III clinical trials play a crucial role in vaccine development as they evaluate the efficacy and safety of the vaccine candidate on a larger scale. These trials involve thousands of participants and provide valuable data on how well the vaccine works in real-world conditions. The results from ...
+
+Ethical considerations in vaccine development are crucial to ensure the safety, efficacy, and fairness of the process. This includes obtaining informed consent from participants, ensuring equitable distribution of benefits and risks, and maintaining transparency throughout clinical trials. It is imp...
+
+In vaccine development, informed consent is a critical ethical consideration. Participants in clinical trials must be fully informed about the potential risks and benefits of the vaccine being tested. This includes details about the study protocol, possible side effects, and the voluntary nature of ...
+
+Vaccine formulation involves combining the antigen (weakened or killed virus or bacteria) with other ingredients to create a vaccine that is safe and effective. Delivery methods for vaccines can include injection, oral administration, nasal sprays, patches, and microneedles.
+
+Vaccine formulation involves the process of developing a vaccine product by combining antigens with other ingredients such as adjuvants, stabilizers, and preservatives. Adjuvants are added to enhance the immune response to the vaccine, while stabilizers help maintain the vaccine's potency and effect...
+
+Post-marketing surveillance and monitoring of vaccines refers to the ongoing process of monitoring the safety and effectiveness of vaccines after they have been approved and are in use by the general population. This surveillance is crucial for detecting rare adverse events that may not have been id...
+
+Post-marketing surveillance and monitoring of vaccines are crucial to continue assessing the safety and effectiveness of vaccines after they have been approved and are being used in the general population. This process helps in detecting and evaluating any rare or long-term side effects that may not...
+
+Vaccine distribution and storage are critical aspects of ensuring the effectiveness of vaccines. Most vaccines require strict temperature control throughout the distribution chain to maintain their potency. This is often referred to as the 'cold chain' system. Vaccines may have different temperature...
+
+One of the major challenges in vaccine distribution is maintaining the cold chain, which refers to the temperature-controlled supply chain required to keep vaccines effective. Vaccines are sensitive biological products that can lose their potency if exposed to temperatures outside the recommended ra...
+
+Public education plays a crucial role in increasing vaccine acceptance within communities. By providing accurate information about the safety and effectiveness of vaccines, addressing common misconceptions, and promoting the benefits of vaccination, public health campaigns can help improve overall v...
+
+Public education plays a vital role in increasing vaccine acceptance within a community. By providing accurate information about the safety and efficacy of vaccines, addressing common misconceptions, and promoting the benefits of immunization, public health campaigns can help build trust and confide...
+
+Vaccine development plays a crucial role in improving global health by preventing the spread of infectious diseases. Vaccines have helped to eradicate deadly diseases such as smallpox and significantly reduce the burden of others like polio and measles. By increasing immunization rates worldwide, va...
+
+Vaccine development plays a crucial role in improving global health by preventing the spread of infectious diseases. Vaccines have significantly reduced the burden of diseases such as polio, measles, and influenza worldwide. They have helped to eradicate smallpox, nearly eliminate polio, and drastic...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+🎲 Choice scenario triggered! (Rolled 22.6 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+1. Antigen Identification in Vaccine Development
+2. Vaccine Design and Formulation Process
+3. Preclinical Testing in Laboratory and Animal Models
+4. Toxicity Studies in Preclinical Vaccine Evaluation
+5. Immunogenicity Testing for Vaccine Candidates
+6. Dose Optimization in Preclinical Studies
+7. Importance of Informed Consent in Clinical Trials
+8. Equity in Vaccine Distribution and Access
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+1. Antigen Identification in Vaccine Development
+2. Vaccine Design and Formulation Process
+3. Preclinical Testing: Laboratory and Animal Models
+4. Toxicity Studies in Preclinical Vaccine Testing
+5. Immunogenicity Testing for Vaccine Candidates
+6. Dose Optimization in Preclinical Vaccine Studies
+7. Phase III Clinical Trials for Vaccine Efficacy
+8. Ethics of Informed Consent in Vaccine Research
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+1. Antigen Identification in Vaccine Development
+2. Vaccine Design and Formulation Process
+3. Preclinical Testing in Laboratory and Animal Models
+4. Toxicity Studies in Preclinical Vaccine Evaluation
+5. Immunogenicity Testing for Vaccine Candidates
+6. Dose Optimization in Preclinical Studies
+7. Importance of Informed Consent in Clinical Trials
+8. Equity in Vaccine Distribution and Access
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+🎲 Choice scenario triggered! (Rolled 5.0 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+["Antigen Identification in Vaccine Development", "Vaccine Design and Formulation Process", "Preclinical Testing in Laboratory and Animal Models", "Toxicity Studies in Preclinical Vaccine Evaluation", "Immunogenicity Testing for Vaccine Candidates", "Dose Optimization in Preclinical Studies", "Importance of Informed Consent in Clinical Trials", "Equity in Vaccine Distribution and Access"]
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+["Antigen Identification in Vaccine Development", "Vaccine Design and Formulation Process", "Preclinical Testing in Laboratory and Animal Models", "Toxicity Studies in Preclinical Vaccine Evaluation", "Immunogenicity Testing for Vaccine Candidates", "Dose Optimization in Preclinical Studies", "Importance of Informed Consent in Clinical Trials", "Equity in Vaccine Distribution and Access"]
+
+----------------------------------------
+✅ You chose Response 1
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_22-08-03.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_22-08-03.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_22-08-33.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+🎲 Choice scenario triggered! (Rolled 40.1 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+The lecture notes on the Exploratory Stage of Vaccine Development appear to be suitable for 3 credit hours of senior undergraduate study. 
+
+The notes cover the main topic of the exploratory stage of vaccine development with three sub-topics: Antigen Identification, Vaccine Design, and Preclinical Testing. Each sub-topic is explained in detail, providing a comprehensive overview of the key processes involved in this stage of vaccine development. 
+
+The learning objectives are clearly outlined, focusing on understanding the importance of antigen identification, vaccine design, and preclinical testing. 
+
+The content includes real-world examples and applications, such as screening various pathogens for specific antigens and formulating vaccine candidates with adjuvants and stabilizers. This helps students connect theoretical concepts to practical applications in the field of vaccine development. 
+
+The content also progresses in complexity from basic to advanced, starting with the identification of antigens and moving on to vaccine design and preclinical testing. This allows students to build upon their knowledge and understand the sequential steps involved in the exploratory stage of vaccine development. 
+
+Overall, the lecture notes provide a comprehensive and detailed overview of the exploratory stage of vaccine development, making them suitable for 3 credit hours of senior undergraduate study. 
+
+Response: VALID
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+The lecture notes provided cover the main topic of the exploratory stage of vaccine development and include sub-topics on antigen identification, vaccine design, and preclinical testing. The explanations for each sub-topic are clear and provide a good overview of the key steps involved in this stage of vaccine development. 
+
+To determine if this content is suitable for 3 credit hours of senior undergraduate study, it would be helpful to provide more detailed information on each sub-topic. For example, including specific methods used in antigen identification, examples of adjuvants and stabilizers used in vaccine design, and details on the types of tests conducted during preclinical testing would enhance the depth and comprehensiveness of the material. 
+
+Additionally, real-world examples and applications could be included to help students understand how these concepts are applied in actual vaccine development projects. The content could also be structured to progressively increase in complexity, starting with basic concepts and building up to more advanced topics within each sub-topic.
+
+Overall, the content is a good starting point for a lecture on the exploratory stage of vaccine development, but could be improved by adding more detail, real-world examples, and increasing complexity to make it suitable for a 3 credit hour senior undergraduate course. 
+
+Improvement suggestions:
+- Provide more detailed information on antigen identification, vaccine design, and preclinical testing methods.
+- Include real-world examples and applications to demonstrate how these concepts are used in vaccine development.
+- Structure the content to progressively increase in complexity from basic to advanced topics within each sub-topic.
+
+----------------------------------------
+✅ You chose Response 2
+⚠️ Content validation suggestions: The lecture notes provided cover the main topic of the exploratory stage of vaccine development and include sub-topics on antigen identification, vaccine design, and preclinical testing. The explanations for each sub-topic are clear and provide a good overview of the key steps involved in this stage of vaccine development. 
+
+To determine if this content is suitable for 3 credit hours of senior undergraduate study, it would be helpful to provide more detailed information on each sub-topic. For example, including specific methods used in antigen identification, examples of adjuvants and stabilizers used in vaccine design, and details on the types of tests conducted during preclinical testing would enhance the depth and comprehensiveness of the material. 
+
+Additionally, real-world examples and applications could be included to help students understand how these concepts are applied in actual vaccine development projects. The content could also be structured to progressively increase in complexity, starting with basic concepts and building up to more advanced topics within each sub-topic.
+
+Overall, the content is a good starting point for a lecture on the exploratory stage of vaccine development, but could be improved by adding more detail, real-world examples, and increasing complexity to make it suitable for a 3 credit hour senior undergraduate course. 
+
+Improvement suggestions:
+- Provide more detailed information on antigen identification, vaccine design, and preclinical testing methods.
+- Include real-world examples and applications to demonstrate how these concepts are used in vaccine development.
+- Structure the content to progressively increase in complexity from basic to advanced topics within each sub-topic.
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Vaccine Development Process
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Antigen Identification in Vaccine Development)
+🔍 DEBUG: Slide 1 content set to: '• Antigens are substances that stimulate an immune response in the body • Researchers identify speci...'
+🔍 DEBUG: Slide 1 content length: 359
+✅ Slide 1 content: • Antigens are substances that stimulate an immune response in the body
+• Researchers identify specific antigens unique to pathogens during the exploratory stage
+• Antigen identification is crucial for developing vaccines against infectious diseases
+• Vaccine design involves formulating vaccine candidates by combining antigens with adjuvants and stabilizers
+Generating content for slide 2 (Topic: Vaccine Design and Formulation Process)
+🎲 Choice scenario triggered! (Rolled 16.0 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Vaccine design involves formulating vaccine candidates by combining antigens with adjuvants, stabilizers, and other components
+• Adjuvants are added to enhance the immune response to the vaccine
+• Stabilizers help maintain the vaccine's potency and effectiveness
+• Formulation process ensures vaccine stability during storage and transportation
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Vaccine design involves formulating vaccine candidates by combining antigens with adjuvants, stabilizers, and other components
+• Adjuvants enhance the immune response to the vaccine
+• Stabilizers help maintain the vaccine's potency and effectiveness
+• Formulation process ensures vaccine stability during storage and transportation
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 2 content set to: '• Vaccine design involves formulating vaccine candidates by combining antigens with adjuvants, stabi...'
+🔍 DEBUG: Slide 2 content length: 346
+✅ Slide 2 content: • Vaccine design involves formulating vaccine candidates by combining antigens with adjuvants, stabilizers, and other components
+• Adjuvants are added to enhance the immune response to the vaccine
+• Stabilizers help maintain the vaccine's potency and effectiveness
+• Formulation process ensures vaccine stability during storage and transportation
+Generating content for slide 3 (Topic: Preclinical Testing in Laboratory and Animal Models)
+🔍 DEBUG: Slide 3 content set to: '• Preclinical testing involves evaluating the safety and efficacy of the vaccine in laboratory setti...'
+🔍 DEBUG: Slide 3 content length: 340
+✅ Slide 3 content: • Preclinical testing involves evaluating the safety and efficacy of the vaccine in laboratory settings and animal models
+• This stage helps researchers assess potential risks and benefits before moving to human trials
+• Results from preclinical testing inform decision-making for advancing vaccine candidates to clinical development stages
+Generating content for slide 4 (Topic: Toxicity Studies in Preclinical Vaccine Evaluation)
+🔍 DEBUG: Slide 4 content set to: '• Toxicity studies are essential in preclinical vaccine evaluation to assess the safety of the vacci...'
+🔍 DEBUG: Slide 4 content length: 431
+✅ Slide 4 content: • Toxicity studies are essential in preclinical vaccine evaluation to assess the safety of the vaccine candidate
+• These studies involve testing the vaccine on cells and animal models to identify any potential harmful effects
+• Results from toxicity studies help researchers determine the appropriate dosage and safety profile of the vaccine
+• Understanding the toxicity profile is crucial before advancing to human clinical trials
+Generating content for slide 5 (Topic: Immunogenicity Testing for Vaccine Candidates)
+🔍 DEBUG: Slide 5 content set to: '• Immunogenicity testing assesses the ability of vaccine candidates to induce an immune response • T...'
+🔍 DEBUG: Slide 5 content length: 383
+✅ Slide 5 content: • Immunogenicity testing assesses the ability of vaccine candidates to induce an immune response
+• Testing involves measuring antibody production, T-cell responses, and overall immune activation
+• Results help determine the effectiveness and potential efficacy of the vaccine candidate
+• Immunogenicity data informs decision-making for advancing vaccine candidates to clinical trials
+Generating content for slide 6 (Topic: Dose Optimization in Preclinical Studies)
+🎲 Choice scenario triggered! (Rolled 8.1 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Dose optimization in preclinical studies involves determining the most effective amount of vaccine to induce a robust immune response
+• Researchers adjust vaccine dosages to achieve optimal balance between efficacy and safety in animal models
+• Dosage testing helps identify the minimum effective dose needed for desired immune response
+• Results from dose optimization studies inform decisions on dosing regimens for human clinical trials
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Dose optimization in preclinical studies involves determining the most effective amount of vaccine to induce a strong immune response
+• Researchers adjust vaccine dosages to find the balance between efficacy and safety in animal models
+• Optimal dosing ensures that the vaccine candidate is potent enough to elicit a protective immune response without causing harmful side effects
+• Preclinical dose optimization data informs decision-making for advancing vaccine candidates to human clinical trials
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 6 content set to: '• Dose optimization in preclinical studies involves determining the most effective amount of vaccine...'
+🔍 DEBUG: Slide 6 content length: 453
+✅ Slide 6 content: • Dose optimization in preclinical studies involves determining the most effective amount of vaccine to induce a strong immune response
+• Researchers adjust vaccine dosages to find the balance between efficacy and safety in animal models
+• Optimal dosing ensures that the vaccine candidate is potent enough to elicit a protective immune response without causing harmful side effects
+• Preclinical dose optimization data informs decision-making for advancing vaccine candidates to human clinical trials
+Generating content for slide 7 (Topic: Importance of Informed Consent in Clinical Trials)
+🎲 Choice scenario triggered! (Rolled 26.0 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Informed consent is a critical ethical consideration in clinical trials
+• Participants must be fully informed about potential risks and benefits
+• Details about study protocol, side effects, and voluntary participation are disclosed
+• Ensures participants can make an educated decision about trial participation
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Informed consent is a critical ethical consideration in vaccine development
+• Participants in clinical trials must be fully informed about potential risks and benefits
+• Details about study protocol, possible side effects, and voluntary participation are disclosed
+• Informed consent empowers participants to make educated decisions about trial participation
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 7 content set to: '• Informed consent is a critical ethical consideration in vaccine development • Participants in clin...'
+🔍 DEBUG: Slide 7 content length: 360
+✅ Slide 7 content: • Informed consent is a critical ethical consideration in vaccine development
+• Participants in clinical trials must be fully informed about potential risks and benefits
+• Details about study protocol, possible side effects, and voluntary participation are disclosed
+• Informed consent empowers participants to make educated decisions about trial participation
+Generating content for slide 8 (Topic: Equity in Vaccine Distribution and Access)
+🎲 Choice scenario triggered! (Rolled 42.1 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Equity in vaccine distribution ensures fair access to vaccines for all populations
+• Ethical considerations play a crucial role in determining distribution strategies
+• Addressing disparities in vaccine access helps in achieving global health equity
+• Public health campaigns and community outreach programs promote equitable vaccine distribution
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Equity in vaccine distribution ensures fair access to vaccines for all populations
+• Ethical considerations play a crucial role in determining distribution strategies
+• Addressing vaccine hesitancy and building trust in underserved communities is essential
+• Collaborating with local healthcare providers and community organizations can improve vaccine access and acceptance
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 8 content set to: '• Equity in vaccine distribution ensures fair access to vaccines for all populations • Ethical consi...'
+🔍 DEBUG: Slide 8 content length: 376
+✅ Slide 8 content: • Equity in vaccine distribution ensures fair access to vaccines for all populations
+• Ethical considerations play a crucial role in determining distribution strategies
+• Addressing vaccine hesitancy and building trust in underserved communities is essential
+• Collaborating with local healthcare providers and community organizations can improve vaccine access and acceptance
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Antigen Identification in Vaccine Development)
+✅ Slide 1 title: Antigen Identification in Vaccine Development
+Generating title for slide 2 (Topic: Vaccine Design and Formulation Process)
+✅ Slide 2 title: Vaccine Design and Formulation Process
+Generating title for slide 3 (Topic: Preclinical Testing in Laboratory and Animal Models)
+✅ Slide 3 title: "Preclinical Testing in Lab & Animal Models"
+Generating title for slide 4 (Topic: Toxicity Studies in Preclinical Vaccine Evaluation)
+✅ Slide 4 title: Toxicity Studies in Vaccine Evaluation
+Generating title for slide 5 (Topic: Immunogenicity Testing for Vaccine Candidates)
+✅ Slide 5 title: Immunogenicity Testing for Vaccine Candidates
+Generating title for slide 6 (Topic: Dose Optimization in Preclinical Studies)
+✅ Slide 6 title: "Dose Optimization in Preclinical Studies"
+Generating title for slide 7 (Topic: Importance of Informed Consent in Clinical Trials)
+✅ Slide 7 title: Importance of Informed Consent in Trials
+Generating title for slide 8 (Topic: Equity in Vaccine Distribution and Access)
+🎲 Choice scenario triggered! (Rolled 40.3 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Ensuring Equity in Vaccine Distribution
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Equity in Vaccine Distribution and Access: Ensuring Fairness
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 8 title: Ensuring Equity in Vaccine Distribution
+Generating overall presentation title...
+✅ Overall presentation title: Comprehensive Overview of Vaccine Development Process
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Antigen Identification in Vaccine Development)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Vaccine Design and Formulation Process)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Preclinical Testing in Laboratory and Animal Models)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Toxicity Studies in Preclinical Vaccine Evaluation)
+🎲 Choice scenario triggered! (Rolled 11.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['toxicity studies in vaccine evaluation', 'preclinical vaccine toxicity assessment', 'vaccine safety evaluation', 'vaccine toxicity testing methods', 'vaccine candidate safety assessment']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['toxicity studies in vaccine evaluation', 'preclinical vaccine toxicity', 'vaccine safety assessment', 'vaccine toxicity testing', 'vaccine candidate safety evaluation']
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Immunogenicity Testing for Vaccine Candidates)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Dose Optimization in Preclinical Studies)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Importance of Informed Consent in Clinical Trials)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Equity in Vaccine Distribution and Access)
+🎲 Choice scenario triggered! (Rolled 28.0 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['equity in vaccine distribution', 'ethical considerations in vaccine distribution', 'vaccine hesitancy in underserved communities', 'community organizations vaccine access', 'local healthcare providers vaccine distribution']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['equity in vaccine distribution', 'ethical considerations in vaccine distribution', 'vaccine hesitancy underserved communities', 'collaboration local healthcare providers vaccine access']
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Antigen Identification in Vaccine Development)
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Vaccine Design and Formulation Process)
+⚠️ Warning: Slide 2 content is long (566 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Preclinical Testing in Laboratory and Animal Models)
+⚠️ Warning: Slide 3 content is long (615 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Toxicity Studies in Preclinical Vaccine Evaluation)
+🎲 Choice scenario triggered! (Rolled 31.0 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Toxicity studies in preclinical vaccine evaluation assess the potential adverse effects of the vaccine candidate on different organ systems in animal models.
+- These studies help researchers identify any safety concerns related to the vaccine candidate before proceeding to human clinical trials.
+- Understanding the toxicity profile is crucial for determining the safety margin, dosage regimen, and risk-benefit ratio of the vaccine candidate.
+- Toxicity studies provide valuable data to support regulatory approval by demonstrating the safety and tolerability of the vaccine candidate in preclinical testing.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Toxicology studies in preclinical vaccine evaluation assess the potential adverse effects of the vaccine candidate on various organ systems in animal models, including acute and chronic toxicity evaluations.
+- These studies help researchers determine the safety profile of the vaccine candidate by identifying any toxicological risks and establishing a margin of safety for human use.
+- Toxicity studies in preclinical evaluation also involve investigating the vaccine candidate's effects on reproductive and developmental systems to ensure safety for vulnerable populations.
+- Evaluation of the vaccine candidate's immunotoxicity, genotoxicity, and carcinogenic potential is essential in toxicity studies to comprehensively assess its safety profile before progressing to clinical trials.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 4 content is long (612 chars) - consider reducing
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Immunogenicity Testing for Vaccine Candidates)
+⚠️ Warning: Slide 5 content is long (537 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Dose Optimization in Preclinical Studies)
+⚠️ Warning: Slide 6 content is long (804 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Importance of Informed Consent in Clinical Trials)
+🎲 Choice scenario triggered! (Rolled 17.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Informed consent ensures that participants are aware of the study protocol, potential risks, benefits, and their voluntary participation in clinical trials.
+- Transparency and accountability are essential for maintaining trust and openness throughout the vaccine development process, fostering ethical conduct.
+- Post-marketing surveillance involves continuous monitoring of vaccine safety and effectiveness post-approval to detect rare adverse events not identified during clinical trials.
+- Healthcare providers and the public play a crucial role in reporting any adverse events following vaccination to appropriate authorities for further evaluation and monitoring.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Monitoring adverse events following vaccination is a critical component of post-marketing surveillance to ensure ongoing safety and effectiveness of vaccines.
+- Healthcare providers and the public play a crucial role in reporting any potential adverse events related to vaccination to regulatory authorities for further investigation.
+- Continuous monitoring of vaccine safety post-approval helps in detecting rare side effects that may not have been evident during clinical trials.
+- Post-marketing surveillance aims to uphold public confidence in vaccines by swiftly addressing any safety concerns that may arise in real-world use.
+
+----------------------------------------
+✅ You chose Response 2
+⚠️ Warning: Slide 7 content is long (635 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Equity in Vaccine Distribution and Access)
+⚠️ Warning: Slide 8 content is long (604 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Comprehensive_Overview_of_Vaccine_Development_Process_2025-08-31_22-11-04
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Comprehensive_Overview_of_Vaccine_Development_Process_2025-08-31_22-11-04.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Comprehensive_Overview_of_Vaccine_Development_Process_2025-08-31_22-11-04.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 7 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Comprehensive_Overview_of_Vaccine_Development_Process_2025-08-31_22-11-04.pptx
+📊 Rating presentation 7...
+✅ Presentation 7 rated successfully
+📈 Overall Rating: 6.53 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.00 / 2.00
+   - Non-Repetition: 1.74 / 2.00
+   - Content Balance: 1.70 / 2.00
+   - Title Uniqueness: 1.96 / 2.00
+   - Title-Content Match: 1.13 / 2.00
+💾 Result saved to file for presentation 7
+
+📊 Presentation 9/10 (ID: 8)
+📝 Using topic: The Renaissance Period
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

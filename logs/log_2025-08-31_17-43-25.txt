@@ -1,0 +1,1499 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T17:43:25.512029
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_17-43-25.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 1...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Sustainable Agriculture
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Importance of crop rotation, Benefits of cover crops
+Selected topics: ['Importance of crop rotation', 'Benefits of cover crops']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Importance of crop rotation
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF CROP ROTATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Importance of Crop Rotation in Sustainable Agriculture",
+    "keywords": ["crop rotation", "sustainable agriculture", "benefits", "soil health", "pest management"],
+    "text": "Crop rotation is a practice used in sustainable agriculture where different crops are planted in a sequential order on the same piece of land. This method helps improve soil health, reduce pests and diseases, and increase crop yield. By rotating crops, farmers can prevent the depletion of nutrients in the soil, control pests and diseases naturally, and enhance biodiversity on their farms.",
+    "link": "https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Crop-Rotations/The-Benefits-of-Crop-Rotation"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: The Importance of Crop Rotation in Sustainable Agriculture
+Keywords: crop rotation, sustainable agriculture, benefits, soil health, pest management
+Uses: 0
+Text: Crop rotation is a practice used in sustainable agriculture where different crops are planted in a sequential order on the same piece of land. This method helps improve soil health, reduce pests and diseases, and increase crop yield. By rotating crops, farmers can prevent the depletion of nutrients in the soil, control pests and diseases naturally, and enhance biodiversity on their farms.Link: https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Crop-Rotations/The-Benefits-of-Crop-Rotation
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF CROP ROTATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 9.1 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Benefits of Crop Rotation in Sustainable Agriculture",
+    "keywords": ["crop rotation", "sustainable agriculture", "benefits", "improving soil health", "increasing yield"],
+    "text": "Crop rotation is a key practice in sustainable agriculture that involves planting different crops in the same field over a sequence of growing seasons. This helps improve soil health by reducing soil erosion, controlling pests and diseases, and enhancing nutrient availability. Additionally, crop rotation can increase crop yields by breaking pest and disease cycles and promoting a balanced nutrient profile in the soil.",
+    "link": "https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Cropping-Strategies/Crop-Rotation-Basics"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Benefits of Crop Rotation in Sustainable Agriculture",
+    "keywords": ["crop rotation", "sustainable agriculture", "benefits", "soil health", "pest control"],
+    "text": "Crop rotation is a key practice in sustainable agriculture that offers numerous benefits. By alternating the types of crops grown in a particular field each season, farmers can improve soil health, increase crop yield, and reduce the need for chemical fertilizers and pesticides. Crop rotation also helps control pests and diseases, as different crops attract different pests, and planting a variety of crops disrupts pest life cycles. Additionally, rotating crops can help break weed cycles and improve overall soil structure.",
+    "link": "https://extension.umn.edu/crop-production-practices/rotation-basics"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Benefits of Crop Rotation in Sustainable Agriculture",
+    "keywords": ["crop rotation", "sustainable agriculture", "benefits", "soil health", "pest control"],
+    "text": "Crop rotation is a key practice in sustainable agriculture that offers numerous benefits. By alternating the types of crops grown in a particular field each season, farmers can improve soil health, increase crop yield, and reduce the need for chemical fertilizers and pesticides. Crop rotation also helps control pests and diseases, as different crops attract different pests, and planting a variety of crops disrupts pest life cycles. Additionally, rotating crops can help break weed cycles and improve overall soil structure.",
+    "link": "https://extension.umn.edu/crop-production-practices/rotation-basics"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Benefits of Crop Rotation in Sustainable Agriculture
+Keywords: crop rotation, sustainable agriculture, benefits, soil health, pest control
+Uses: 0
+Text: Crop rotation is a key practice in sustainable agriculture that offers numerous benefits. By alternating the types of crops grown in a particular field each season, farmers can improve soil health, increase crop yield, and reduce the need for chemical fertilizers and pesticides. Crop rotation also helps control pests and diseases, as different crops attract different pests, and planting a variety of crops disrupts pest life cycles. Additionally, rotating crops can help break weed cycles and improve overall soil structure.Link: https://extension.umn.edu/crop-production-practices/rotation-basics
+Researching topic: Benefits of cover crops
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BENEFITS OF COVER CROPS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 26.5 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Benefits of Cover Crops in Sustainable Agriculture",
+    "keywords": ["cover crops", "sustainable agriculture", "benefits"],
+    "text": "Cover crops provide numerous benefits in sustainable agriculture, such as improving soil health by reducing erosion and increasing organic matter. They also help suppress weeds, enhance water retention, and promote biodiversity. Additionally, cover crops can increase crop yields, reduce the need for synthetic fertilizers and pesticides, and contribute to overall environmental sustainability.",
+    "link": "https://www.sare.org/Learning-Center/Books/Managing-Cover-Crops-Profitably-3rd-Edition/Text-Version/Benefits-of-Cover-Crops"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Benefits of Cover Crops in Sustainable Agriculture",
+    "keywords": ["cover crops", "benefits", "sustainable agriculture"],
+    "text": "Cover crops provide numerous benefits in sustainable agriculture such as reducing soil erosion, improving soil health and fertility, suppressing weeds, attracting beneficial insects, and enhancing biodiversity. They also help in reducing the need for synthetic fertilizers and pesticides, as well as improving water retention and drainage in the soil.",
+    "link": "https://extension.umn.edu/cover-crops/benefits-cover-crops"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Benefits of Cover Crops in Sustainable Agriculture",
+    "keywords": ["cover crops", "sustainable agriculture", "benefits"],
+    "text": "Cover crops provide numerous benefits in sustainable agriculture, such as improving soil health by reducing erosion and increasing organic matter. They also help suppress weeds, enhance water retention, and promote biodiversity. Additionally, cover crops can increase crop yields, reduce the need for synthetic fertilizers and pesticides, and contribute to overall environmental sustainability.",
+    "link": "https://www.sare.org/Learning-Center/Books/Managing-Cover-Crops-Profitably-3rd-Edition/Text-Version/Benefits-of-Cover-Crops"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Benefits of Cover Crops in Sustainable Agriculture
+Keywords: cover crops, sustainable agriculture, benefits
+Uses: 0
+Text: Cover crops provide numerous benefits in sustainable agriculture, such as improving soil health by reducing erosion and increasing organic matter. They also help suppress weeds, enhance water retention, and promote biodiversity. Additionally, cover crops can increase crop yields, reduce the need for synthetic fertilizers and pesticides, and contribute to overall environmental sustainability.Link: https://www.sare.org/Learning-Center/Books/Managing-Cover-Crops-Profitably-3rd-Edition/Text-Version/Benefits-of-Cover-Crops
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BENEFITS OF COVER CROPS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Top 5 Benefits of Using Cover Crops in Sustainable Agriculture",
+    "keywords": ["cover crops", "benefits", "sustainable agriculture"],
+    "text": "1. Soil Health: Cover crops help improve soil health by reducing erosion, increasing organic matter, and enhancing soil structure.\n2. Nutrient Management: Cover crops can help reduce the need for synthetic fertilizers by fixing nitrogen in the soil and recycling nutrients.\n3. Weed Suppression: Cover crops can outcompete weeds for sunlight, water, and nutrients, reducing the need for herbicides.\n4. Pest Control: Some cover crops can attract beneficial insects that help control pests, reducing the need for chemical pesticides.\n5. Climate Resilience: Cover crops can help mitigate climate change by sequestering carbon in the soil and reducing greenhouse gas emissions.",
+    "link": "https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Cover-Crops/Top-5-Benefits-of-Cover-Crops"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Top 5 Benefits of Using Cover Crops in Sustainable Agriculture
+Keywords: cover crops, benefits, sustainable agriculture
+Uses: 0
+Text: 1. Soil Health: Cover crops help improve soil health by reducing erosion, increasing organic matter, and enhancing soil structure.
+2. Nutrient Management: Cover crops can help reduce the need for synthetic fertilizers by fixing nitrogen in the soil and recycling nutrients.
+3. Weed Suppression: Cover crops can outcompete weeds for sunlight, water, and nutrients, reducing the need for herbicides.
+4. Pest Control: Some cover crops can attract beneficial insects that help control pests, reducing the need for chemical pesticides.
+5. Climate Resilience: Cover crops can help mitigate climate change by sequestering carbon in the soil and reducing greenhouse gas emissions.Link: https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Cover-Crops/Top-5-Benefits-of-Cover-Crops
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Importance of crop rotation', 'Benefits of cover crops']. The research these yeilded is: ({Crop rotation is a practice used in sustainable agriculture where different crops are planted in a sequential order on the same piece of land. This method helps improve soil health, reduce pests and diseases, and increase crop yield. By rotating crops, farmers can prevent the depletion of nutrients in the soil, control pests and diseases naturally, and enhance biodiversity on their farms.
+
+Crop rotation is a key practice in sustainable agriculture that offers numerous benefits. By alternating the types of crops grown in a particular field each season, farmers can improve soil health, increase crop yield, and reduce the need for chemical fertilizers and pesticides. Crop rotation also helps control pests and diseases, as different crops attract different pests, and planting a variety of crops disrupts pest life cycles. Additionally, rotating crops can help break weed cycles and improve overall soil structure.
+
+Cover crops provide numerous benefits in sustainable agriculture, such as impr (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+🎲 Choice scenario triggered! (Rolled 25.2 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Importance of soil biodiversity, Benefits of green manure, Techniques for intercropping, Role of agroforestry in sustainable agriculture, Utilization of crop residues, Importance of water management in sustainable agriculture
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Soil erosion prevention, Water conservation techniques, Integrated pest management strategies, Nutrient cycling in sustainable agriculture, Agroforestry practices, Sustainable irrigation methods
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI topic response: Importance of soil biodiversity, Benefits of green manure, Techniques for intercropping, Role of agroforestry in sustainable agriculture, Utilization of crop residues, Importance of water management in sustainable agriculture
+Selected topics: ['Importance of soil biodiversity', 'Benefits of green manure', 'Techniques for intercropping', 'Role of agroforestry in sustainable agriculture', 'Utilization of crop residues', 'Importance of water management in sustainable agriculture']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Importance of soil biodiversity
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture', 'Top 5 Benefits of Using Cover Crops in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF SOIL BIODIVERSITY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 29.2 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Importance of Soil Biodiversity in Sustainable Agriculture",
+    "keywords": ["soil biodiversity", "sustainable agriculture", "importance"],
+    "text": "Soil biodiversity refers to the variety of living organisms within the soil, including bacteria, fungi, earthworms, and other microorganisms. Maintaining high levels of soil biodiversity is crucial for sustainable agriculture as it helps to improve soil structure, nutrient cycling, and overall soil health. These organisms play a key role in decomposing organic matter, fixing nitrogen, and controlling pests and diseases. By promoting soil biodiversity, farmers can reduce the need for chemical inputs and enhance the resilience of their crops to environmental stress.",
+    "link": "https://www.nature.com/articles/s41598-020-65085-8"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Importance of Soil Biodiversity in Sustainable Agriculture",
+    "keywords": ["soil biodiversity", "sustainable agriculture", "importance"],
+    "text": "Soil biodiversity refers to the variety of life below ground, including bacteria, fungi, earthworms, and other organisms. This biodiversity is crucial for maintaining soil health and fertility, as these organisms play key roles in nutrient cycling, soil structure formation, and pest regulation. By promoting soil biodiversity, farmers can reduce the need for chemical inputs, improve crop yields, and enhance the resilience of their agricultural systems to environmental stressors.",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0167880917303411"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "The Importance of Soil Biodiversity in Sustainable Agriculture",
+    "keywords": ["soil biodiversity", "sustainable agriculture", "importance"],
+    "text": "Soil biodiversity refers to the variety of living organisms within the soil, including bacteria, fungi, earthworms, and other microorganisms. Maintaining high levels of soil biodiversity is crucial for sustainable agriculture as it helps to improve soil structure, nutrient cycling, and overall soil health. These organisms play a key role in decomposing organic matter, fixing nitrogen, and controlling pests and diseases. By promoting soil biodiversity, farmers can reduce the need for chemical inputs and enhance the resilience of their crops to environmental stress.",
+    "link": "https://www.nature.com/articles/s41598-020-65085-8"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: The Importance of Soil Biodiversity in Sustainable Agriculture
+Keywords: soil biodiversity, sustainable agriculture, importance
+Uses: 0
+Text: Soil biodiversity refers to the variety of living organisms within the soil, including bacteria, fungi, earthworms, and other microorganisms. Maintaining high levels of soil biodiversity is crucial for sustainable agriculture as it helps to improve soil structure, nutrient cycling, and overall soil health. These organisms play a key role in decomposing organic matter, fixing nitrogen, and controlling pests and diseases. By promoting soil biodiversity, farmers can reduce the need for chemical inputs and enhance the resilience of their crops to environmental stress.Link: https://www.nature.com/articles/s41598-020-65085-8
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture', 'Top 5 Benefits of Using Cover Crops in Sustainable Agriculture', 'The Importance of Soil Biodiversity in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF SOIL BIODIVERSITY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 5.1 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Role of Microorganisms in Soil Biodiversity",
+    "keywords": ["microorganisms", "soil biodiversity", "importance", "sustainable agriculture"],
+    "text": "Microorganisms play a crucial role in soil biodiversity as they help in nutrient cycling, decomposition of organic matter, and disease suppression. They also contribute to soil structure and fertility, making them essential for sustainable agriculture practices.",
+    "link": "https://extension.umn.edu/soil-management-and-health/microorganisms-soil"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Role of Microorganisms in Soil Biodiversity",
+    "keywords": ["microorganisms", "soil biodiversity", "importance", "sustainable agriculture"],
+    "text": "Microorganisms play a crucial role in soil biodiversity as they contribute to nutrient cycling, decomposition of organic matter, and overall soil health. These organisms help in breaking down organic materials into nutrients that plants can absorb, promoting healthy plant growth. Additionally, they can suppress plant diseases and improve soil structure. Maintaining a diverse community of microorganisms is essential for sustainable agriculture practices.",
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S0038071717303429"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "The Role of Microorganisms in Soil Biodiversity",
+    "keywords": ["microorganisms", "soil biodiversity", "importance", "sustainable agriculture"],
+    "text": "Microorganisms play a crucial role in soil biodiversity as they contribute to nutrient cycling, decomposition of organic matter, and overall soil health. These organisms help in breaking down organic materials into nutrients that plants can absorb, promoting healthy plant growth. Additionally, they can suppress plant diseases and improve soil structure. Maintaining a diverse community of microorganisms is essential for sustainable agriculture practices.",
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S0038071717303429"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: The Role of Microorganisms in Soil Biodiversity
+Keywords: microorganisms, soil biodiversity, importance, sustainable agriculture
+Uses: 0
+Text: Microorganisms play a crucial role in soil biodiversity as they contribute to nutrient cycling, decomposition of organic matter, and overall soil health. These organisms help in breaking down organic materials into nutrients that plants can absorb, promoting healthy plant growth. Additionally, they can suppress plant diseases and improve soil structure. Maintaining a diverse community of microorganisms is essential for sustainable agriculture practices.Link: https://www.sciencedirect.com/science/article/abs/pii/S0038071717303429
+Researching topic: Benefits of green manure
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture', 'Top 5 Benefits of Using Cover Crops in Sustainable Agriculture', 'The Importance of Soil Biodiversity in Sustainable Agriculture', 'The Role of Microorganisms in Soil Biodiversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BENEFITS OF GREEN MANURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Benefits of Green Manure in Sustainable Agriculture",
+    "keywords": ["green manure", "sustainable agriculture", "benefits"],
+    "text": "Green manure is a cover crop that is grown primarily to be plowed back into the soil to improve soil fertility and structure. Some benefits of green manure in sustainable agriculture include adding organic matter to the soil, increasing soil nutrients, improving soil structure, suppressing weeds, and enhancing soil water retention.",
+    "link": "https://extension.umn.edu/cover-crops/green-manure-cover-crops"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Benefits of Green Manure in Sustainable Agriculture
+Keywords: green manure, sustainable agriculture, benefits
+Uses: 0
+Text: Green manure is a cover crop that is grown primarily to be plowed back into the soil to improve soil fertility and structure. Some benefits of green manure in sustainable agriculture include adding organic matter to the soil, increasing soil nutrients, improving soil structure, suppressing weeds, and enhancing soil water retention.Link: https://extension.umn.edu/cover-crops/green-manure-cover-crops
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture', 'Top 5 Benefits of Using Cover Crops in Sustainable Agriculture', 'The Importance of Soil Biodiversity in Sustainable Agriculture', 'The Role of Microorganisms in Soil Biodiversity', 'Benefits of Green Manure in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BENEFITS OF GREEN MANURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Benefits of Green Manure in Sustainable Agriculture",
+    "keywords": ["green manure", "benefits", "sustainable agriculture", "soil fertility"],
+    "text": "Green manure is a cover crop that is grown primarily to add nutrients and organic matter to the soil. By planting green manure crops, farmers can improve soil fertility, suppress weeds, prevent soil erosion, and enhance water retention. Additionally, green manure crops can help break pest and disease cycles, reduce the need for synthetic fertilizers, and promote beneficial soil microorganisms.",
+    "link": "https://extension.umn.edu/cover-crops/green-manure-cover-crops"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: The Benefits of Green Manure in Sustainable Agriculture
+Keywords: green manure, benefits, sustainable agriculture, soil fertility
+Uses: 0
+Text: Green manure is a cover crop that is grown primarily to add nutrients and organic matter to the soil. By planting green manure crops, farmers can improve soil fertility, suppress weeds, prevent soil erosion, and enhance water retention. Additionally, green manure crops can help break pest and disease cycles, reduce the need for synthetic fertilizers, and promote beneficial soil microorganisms.Link: https://extension.umn.edu/cover-crops/green-manure-cover-crops
+Researching topic: Techniques for intercropping
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture', 'Top 5 Benefits of Using Cover Crops in Sustainable Agriculture', 'The Importance of Soil Biodiversity in Sustainable Agriculture', 'The Role of Microorganisms in Soil Biodiversity', 'Benefits of Green Manure in Sustainable Agriculture', 'The Benefits of Green Manure in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TECHNIQUES FOR INTERCROPPING** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Techniques for Intercropping in Sustainable Agriculture",
+    "keywords": ["intercropping", "sustainable agriculture", "agricultural techniques"],
+    "text": "Intercropping is a farming method where two or more crops are grown together in the same field. This technique can help increase crop yield, improve soil health, and reduce pest and disease pressure. Some common intercropping techniques include strip intercropping, mixed intercropping, and relay intercropping.",
+    "link": "https://extension.umn.edu/crop-production-basics/intercropping"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Techniques for Intercropping in Sustainable Agriculture
+Keywords: intercropping, sustainable agriculture, agricultural techniques
+Uses: 0
+Text: Intercropping is a farming method where two or more crops are grown together in the same field. This technique can help increase crop yield, improve soil health, and reduce pest and disease pressure. Some common intercropping techniques include strip intercropping, mixed intercropping, and relay intercropping.Link: https://extension.umn.edu/crop-production-basics/intercropping
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture', 'Top 5 Benefits of Using Cover Crops in Sustainable Agriculture', 'The Importance of Soil Biodiversity in Sustainable Agriculture', 'The Role of Microorganisms in Soil Biodiversity', 'Benefits of Green Manure in Sustainable Agriculture', 'The Benefits of Green Manure in Sustainable Agriculture', 'Techniques for Intercropping in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TECHNIQUES FOR INTERCROPPING** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Intercropping Techniques for Sustainable Agriculture",
+    "keywords": ["intercropping", "sustainable agriculture", "agricultural techniques", "crop diversification"],
+    "text": "Intercropping is a farming practice where two or more crops are grown together in the same field. This technique can improve soil health, increase biodiversity, and reduce the risk of crop failure. Some common intercropping techniques include strip intercropping, alley cropping, and mixed intercropping. Strip intercropping involves planting different crops in alternating strips, while alley cropping combines rows of trees with rows of crops. Mixed intercropping involves planting different crops together in the same field.",
+    "link": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/intercropping"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Intercropping Techniques for Sustainable Agriculture
+Keywords: intercropping, sustainable agriculture, agricultural techniques, crop diversification
+Uses: 0
+Text: Intercropping is a farming practice where two or more crops are grown together in the same field. This technique can improve soil health, increase biodiversity, and reduce the risk of crop failure. Some common intercropping techniques include strip intercropping, alley cropping, and mixed intercropping. Strip intercropping involves planting different crops in alternating strips, while alley cropping combines rows of trees with rows of crops. Mixed intercropping involves planting different crops together in the same field.Link: https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/intercropping
+Researching topic: Role of agroforestry in sustainable agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture', 'Top 5 Benefits of Using Cover Crops in Sustainable Agriculture', 'The Importance of Soil Biodiversity in Sustainable Agriculture', 'The Role of Microorganisms in Soil Biodiversity', 'Benefits of Green Manure in Sustainable Agriculture', 'The Benefits of Green Manure in Sustainable Agriculture', 'Techniques for Intercropping in Sustainable Agriculture', 'Intercropping Techniques for Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF AGROFORESTRY IN SUSTAINABLE AGRICULTURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 22.9 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Role of Agroforestry in Sustainable Agriculture",
+    "keywords": ["agroforestry", "sustainable agriculture", "agroecosystem", "tree-crop integration"],
+    "text": "Agroforestry is a sustainable land management system that integrates trees and shrubs with crops and/or livestock in a farming system. It promotes biodiversity, improves soil health, conserves water, and enhances overall ecosystem resilience. By combining agriculture and forestry practices, agroforestry helps to increase productivity and profitability while also mitigating environmental impacts.",
+    "link": "https://www.agroforestry.co.uk/what-is-agroforestry/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Role of Agroforestry in Sustainable Agriculture",
+    "keywords": ["agroforestry", "sustainable agriculture", "benefits", "integration", "diversification"],
+    "text": "Agroforestry is a sustainable land management system that integrates trees and shrubs into agricultural crops and/or livestock operations. This practice offers a wide range of environmental, economic, and social benefits. By combining agriculture and forestry, agroforestry helps diversify production, improve soil health, conserve water, sequester carbon, and provide habitat for wildlife. Additionally, agroforestry can enhance resilience to climate change and increase overall farm productivity.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/technical/agroforestry/?" 
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Role of Agroforestry in Sustainable Agriculture",
+    "keywords": ["agroforestry", "sustainable agriculture", "agroecosystem", "tree-crop integration"],
+    "text": "Agroforestry is a sustainable land management system that integrates trees and shrubs with crops and/or livestock in a farming system. It promotes biodiversity, improves soil health, conserves water, and enhances overall ecosystem resilience. By combining agriculture and forestry practices, agroforestry helps to increase productivity and profitability while also mitigating environmental impacts.",
+    "link": "https://www.agroforestry.co.uk/what-is-agroforestry/"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Role of Agroforestry in Sustainable Agriculture
+Keywords: agroforestry, sustainable agriculture, agroecosystem, tree-crop integration
+Uses: 0
+Text: Agroforestry is a sustainable land management system that integrates trees and shrubs with crops and/or livestock in a farming system. It promotes biodiversity, improves soil health, conserves water, and enhances overall ecosystem resilience. By combining agriculture and forestry practices, agroforestry helps to increase productivity and profitability while also mitigating environmental impacts.Link: https://www.agroforestry.co.uk/what-is-agroforestry/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture', 'Top 5 Benefits of Using Cover Crops in Sustainable Agriculture', 'The Importance of Soil Biodiversity in Sustainable Agriculture', 'The Role of Microorganisms in Soil Biodiversity', 'Benefits of Green Manure in Sustainable Agriculture', 'The Benefits of Green Manure in Sustainable Agriculture', 'Techniques for Intercropping in Sustainable Agriculture', 'Intercropping Techniques for Sustainable Agriculture', 'Role of Agroforestry in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF AGROFORESTRY IN SUSTAINABLE AGRICULTURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Benefits of Agroforestry in Sustainable Agriculture",
+    "keywords": ["agroforestry", "sustainable agriculture", "benefits", "agricultural practices"],
+    "text": "Agroforestry is a sustainable agricultural practice that involves integrating trees and shrubs into crop and animal farming systems. This approach offers numerous benefits such as improved soil health, biodiversity conservation, increased crop yields, and enhanced resilience to climate change. By incorporating trees into agricultural landscapes, agroforestry helps sequester carbon, reduce soil erosion, provide habitat for beneficial insects, and diversify income sources for farmers.",
+    "link": "https://www.worldagroforestry.org/" 
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Benefits of Agroforestry in Sustainable Agriculture
+Keywords: agroforestry, sustainable agriculture, benefits, agricultural practices
+Uses: 0
+Text: Agroforestry is a sustainable agricultural practice that involves integrating trees and shrubs into crop and animal farming systems. This approach offers numerous benefits such as improved soil health, biodiversity conservation, increased crop yields, and enhanced resilience to climate change. By incorporating trees into agricultural landscapes, agroforestry helps sequester carbon, reduce soil erosion, provide habitat for beneficial insects, and diversify income sources for farmers.Link: https://www.worldagroforestry.org/
+Researching topic: Utilization of crop residues
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture', 'Top 5 Benefits of Using Cover Crops in Sustainable Agriculture', 'The Importance of Soil Biodiversity in Sustainable Agriculture', 'The Role of Microorganisms in Soil Biodiversity', 'Benefits of Green Manure in Sustainable Agriculture', 'The Benefits of Green Manure in Sustainable Agriculture', 'Techniques for Intercropping in Sustainable Agriculture', 'Intercropping Techniques for Sustainable Agriculture', 'Role of Agroforestry in Sustainable Agriculture', 'Benefits of Agroforestry in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **UTILIZATION OF CROP RESIDUES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Utilization of Crop Residues in Sustainable Agriculture",
+    "keywords": ["crop residues", "sustainable agriculture", "utilization", "benefits"],
+    "text": "Utilization of crop residues in sustainable agriculture involves using leftover parts of crops such as stalks, leaves, and roots after harvesting for various purposes. These residues can be used as mulch to improve soil health, reduce erosion, retain moisture, and suppress weeds. They can also be used as animal feed, compost material, or bioenergy sources. By effectively utilizing crop residues, farmers can enhance soil fertility, reduce waste, and promote a more sustainable agricultural system.",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2211912419300325"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Utilization of Crop Residues in Sustainable Agriculture
+Keywords: crop residues, sustainable agriculture, utilization, benefits
+Uses: 0
+Text: Utilization of crop residues in sustainable agriculture involves using leftover parts of crops such as stalks, leaves, and roots after harvesting for various purposes. These residues can be used as mulch to improve soil health, reduce erosion, retain moisture, and suppress weeds. They can also be used as animal feed, compost material, or bioenergy sources. By effectively utilizing crop residues, farmers can enhance soil fertility, reduce waste, and promote a more sustainable agricultural system.Link: https://www.sciencedirect.com/science/article/pii/S2211912419300325
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture', 'Top 5 Benefits of Using Cover Crops in Sustainable Agriculture', 'The Importance of Soil Biodiversity in Sustainable Agriculture', 'The Role of Microorganisms in Soil Biodiversity', 'Benefits of Green Manure in Sustainable Agriculture', 'The Benefits of Green Manure in Sustainable Agriculture', 'Techniques for Intercropping in Sustainable Agriculture', 'Intercropping Techniques for Sustainable Agriculture', 'Role of Agroforestry in Sustainable Agriculture', 'Benefits of Agroforestry in Sustainable Agriculture', 'Utilization of Crop Residues in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **UTILIZATION OF CROP RESIDUES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Methods for Utilizing Crop Residues in Sustainable Agriculture",
+    "keywords": ["crop residues", "sustainable agriculture", "utilization", "methods"],
+    "text": "There are several methods for utilizing crop residues in sustainable agriculture. One common method is to incorporate crop residues back into the soil through tillage or mulching. This helps improve soil organic matter content and nutrient availability for future crops. Another method is to use crop residues as livestock feed, which can reduce the need for external feed sources. Additionally, crop residues can be processed into biofuels or biochar, providing alternative sources of energy and carbon sequestration.",
+    "link": "https://extension.umn.edu/crop-news-and-views/utilizing-crop-residues-sustainable-agriculture"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Methods for Utilizing Crop Residues in Sustainable Agriculture
+Keywords: crop residues, sustainable agriculture, utilization, methods
+Uses: 0
+Text: There are several methods for utilizing crop residues in sustainable agriculture. One common method is to incorporate crop residues back into the soil through tillage or mulching. This helps improve soil organic matter content and nutrient availability for future crops. Another method is to use crop residues as livestock feed, which can reduce the need for external feed sources. Additionally, crop residues can be processed into biofuels or biochar, providing alternative sources of energy and carbon sequestration.Link: https://extension.umn.edu/crop-news-and-views/utilizing-crop-residues-sustainable-agriculture
+Researching topic: Importance of water management in sustainable agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture', 'Top 5 Benefits of Using Cover Crops in Sustainable Agriculture', 'The Importance of Soil Biodiversity in Sustainable Agriculture', 'The Role of Microorganisms in Soil Biodiversity', 'Benefits of Green Manure in Sustainable Agriculture', 'The Benefits of Green Manure in Sustainable Agriculture', 'Techniques for Intercropping in Sustainable Agriculture', 'Intercropping Techniques for Sustainable Agriculture', 'Role of Agroforestry in Sustainable Agriculture', 'Benefits of Agroforestry in Sustainable Agriculture', 'Utilization of Crop Residues in Sustainable Agriculture', 'Methods for Utilizing Crop Residues in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF WATER MANAGEMENT IN SUSTAINABLE AGRICULTURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 16.7 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Importance of Water Management in Sustainable Agriculture",
+    "keywords": ["water management", "sustainable agriculture", "importance"],
+    "text": "Water management in sustainable agriculture is essential for maintaining soil health, crop productivity, and overall ecosystem balance. Proper water management practices help conserve water resources, prevent soil erosion, reduce water pollution from agricultural runoff, and improve the efficiency of water use in farming. By implementing techniques such as drip irrigation, rainwater harvesting, and soil moisture monitoring, farmers can optimize water usage and minimize environmental impact.",
+    "link": "https://www.nature.com/articles/s41893-019-0311-9"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Importance of Water Management in Sustainable Agriculture",
+    "keywords": ["water management", "sustainable agriculture", "importance"],
+    "text": "Water management plays a crucial role in sustainable agriculture as it ensures efficient use of water resources, reduces water wastage, and minimizes environmental impacts. Proper water management practices such as drip irrigation, rainwater harvesting, and soil conservation help farmers optimize crop yields while conserving water for future generations.",
+    "link": "https://www.agriculture.com.au/water-management-in-sustainable-agriculture"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "The Importance of Water Management in Sustainable Agriculture",
+    "keywords": ["water management", "sustainable agriculture", "importance"],
+    "text": "Water management plays a crucial role in sustainable agriculture as it ensures efficient use of water resources, reduces water wastage, and minimizes environmental impacts. Proper water management practices such as drip irrigation, rainwater harvesting, and soil conservation help farmers optimize crop yields while conserving water for future generations.",
+    "link": "https://www.agriculture.com.au/water-management-in-sustainable-agriculture"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: The Importance of Water Management in Sustainable Agriculture
+Keywords: water management, sustainable agriculture, importance
+Uses: 0
+Text: Water management plays a crucial role in sustainable agriculture as it ensures efficient use of water resources, reduces water wastage, and minimizes environmental impacts. Proper water management practices such as drip irrigation, rainwater harvesting, and soil conservation help farmers optimize crop yields while conserving water for future generations.Link: https://www.agriculture.com.au/water-management-in-sustainable-agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Importance of Crop Rotation in Sustainable Agriculture', 'Benefits of Crop Rotation in Sustainable Agriculture', 'Benefits of Cover Crops in Sustainable Agriculture', 'Top 5 Benefits of Using Cover Crops in Sustainable Agriculture', 'The Importance of Soil Biodiversity in Sustainable Agriculture', 'The Role of Microorganisms in Soil Biodiversity', 'Benefits of Green Manure in Sustainable Agriculture', 'The Benefits of Green Manure in Sustainable Agriculture', 'Techniques for Intercropping in Sustainable Agriculture', 'Intercropping Techniques for Sustainable Agriculture', 'Role of Agroforestry in Sustainable Agriculture', 'Benefits of Agroforestry in Sustainable Agriculture', 'Utilization of Crop Residues in Sustainable Agriculture', 'Methods for Utilizing Crop Residues in Sustainable Agriculture', 'The Importance of Water Management in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF WATER MANAGEMENT IN SUSTAINABLE AGRICULTURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 20.8 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Role of Water Management in Sustainable Agriculture",
+    "keywords": ["water management", "sustainable agriculture", "irrigation", "water conservation"],
+    "text": "Water management plays a crucial role in sustainable agriculture as it involves the efficient use of water resources to optimize crop production while minimizing environmental impacts. Proper irrigation techniques, such as drip irrigation and precision irrigation, help deliver water directly to the roots of plants, reducing water wastage. Additionally, practices like rainwater harvesting and water recycling can further enhance water conservation efforts on farms.",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2212096317300305"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Role of Drip Irrigation in Water Management for Sustainable Agriculture",
+    "keywords": ["drip irrigation", "water management", "sustainable agriculture"],
+    "text": "Drip irrigation is a method of delivering water directly to the roots of plants, which helps to reduce water wastage and optimize water usage in agriculture. This technique is particularly beneficial in sustainable agriculture as it promotes efficient water management, reduces water runoff, minimizes evaporation, and prevents soil erosion. By ensuring that crops receive the right amount of water at the right time, drip irrigation contributes to the overall sustainability of agricultural practices.",
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S0378377417302745"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "The Role of Drip Irrigation in Water Management for Sustainable Agriculture",
+    "keywords": ["drip irrigation", "water management", "sustainable agriculture"],
+    "text": "Drip irrigation is a method of delivering water directly to the roots of plants, which helps to reduce water wastage and optimize water usage in agriculture. This technique is particularly beneficial in sustainable agriculture as it promotes efficient water management, reduces water runoff, minimizes evaporation, and prevents soil erosion. By ensuring that crops receive the right amount of water at the right time, drip irrigation contributes to the overall sustainability of agricultural practices.",
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S0378377417302745"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: The Role of Drip Irrigation in Water Management for Sustainable Agriculture
+Keywords: drip irrigation, water management, sustainable agriculture
+Uses: 0
+Text: Drip irrigation is a method of delivering water directly to the roots of plants, which helps to reduce water wastage and optimize water usage in agriculture. This technique is particularly beneficial in sustainable agriculture as it promotes efficient water management, reduces water runoff, minimizes evaporation, and prevents soil erosion. By ensuring that crops receive the right amount of water at the right time, drip irrigation contributes to the overall sustainability of agricultural practices.Link: https://www.sciencedirect.com/science/article/abs/pii/S0378377417302745
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Crop rotation is a practice used in sustainable agriculture where different crops are planted in a sequential order on the same piece of land. This method helps improve soil health, reduce pests and diseases, and increase crop yield. By rotating crops, farmers can prevent the depletion of nutrients ...
+
+Crop rotation is a key practice in sustainable agriculture that offers numerous benefits. By alternating the types of crops grown in a particular field each season, farmers can improve soil health, increase crop yield, and reduce the need for chemical fertilizers and pesticides. Crop rotation also h...
+
+Cover crops provide numerous benefits in sustainable agriculture, such as improving soil health by reducing erosion and increasing organic matter. They also help suppress weeds, enhance water retention, and promote biodiversity. Additionally, cover crops can increase crop yields, reduce the need for...
+
+1. Soil Health: Cover crops help improve soil health by reducing erosion, increasing organic matter, and enhancing soil structure. 2. Nutrient Management: Cover crops can help reduce the need for synthetic fertilizers by fixing nitrogen in the soil and recycling nutrients. 3. Weed Suppression: Cover...
+
+Soil biodiversity refers to the variety of living organisms within the soil, including bacteria, fungi, earthworms, and other microorganisms. Maintaining high levels of soil biodiversity is crucial for sustainable agriculture as it helps to improve soil structure, nutrient cycling, and overall soil ...
+
+Microorganisms play a crucial role in soil biodiversity as they contribute to nutrient cycling, decomposition of organic matter, and overall soil health. These organisms help in breaking down organic materials into nutrients that plants can absorb, promoting healthy plant growth. Additionally, they ...
+
+Green manure is a cover crop that is grown primarily to be plowed back into the soil to improve soil fertility and structure. Some benefits of green manure in sustainable agriculture include adding organic matter to the soil, increasing soil nutrients, improving soil structure, suppressing weeds, an...
+
+Green manure is a cover crop that is grown primarily to add nutrients and organic matter to the soil. By planting green manure crops, farmers can improve soil fertility, suppress weeds, prevent soil erosion, and enhance water retention. Additionally, green manure crops can help break pest and diseas...
+
+Intercropping is a farming method where two or more crops are grown together in the same field. This technique can help increase crop yield, improve soil health, and reduce pest and disease pressure. Some common intercropping techniques include strip intercropping, mixed intercropping, and relay int...
+
+Intercropping is a farming practice where two or more crops are grown together in the same field. This technique can improve soil health, increase biodiversity, and reduce the risk of crop failure. Some common intercropping techniques include strip intercropping, alley cropping, and mixed intercropp...
+
+Agroforestry is a sustainable land management system that integrates trees and shrubs with crops and/or livestock in a farming system. It promotes biodiversity, improves soil health, conserves water, and enhances overall ecosystem resilience. By combining agriculture and forestry practices, agrofore...
+
+Agroforestry is a sustainable agricultural practice that involves integrating trees and shrubs into crop and animal farming systems. This approach offers numerous benefits such as improved soil health, biodiversity conservation, increased crop yields, and enhanced resilience to climate change. By in...
+
+Utilization of crop residues in sustainable agriculture involves using leftover parts of crops such as stalks, leaves, and roots after harvesting for various purposes. These residues can be used as mulch to improve soil health, reduce erosion, retain moisture, and suppress weeds. They can also be us...
+
+There are several methods for utilizing crop residues in sustainable agriculture. One common method is to incorporate crop residues back into the soil through tillage or mulching. This helps improve soil organic matter content and nutrient availability for future crops. Another method is to use crop...
+
+Water management plays a crucial role in sustainable agriculture as it ensures efficient use of water resources, reduces water wastage, and minimizes environmental impacts. Proper water management practices such as drip irrigation, rainwater harvesting, and soil conservation help farmers optimize cr...
+
+Drip irrigation is a method of delivering water directly to the roots of plants, which helps to reduce water wastage and optimize water usage in agriculture. This technique is particularly beneficial in sustainable agriculture as it promotes efficient water management, reduces water runoff, minimize...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+Raw response:
+6
+.
+Topic count decided: 6
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Crop rotation is a practice used in sustainable agriculture where different crops are planted in a sequential order on the same piece of land. This method helps improve soil health, reduce pests and diseases, and increase crop yield. By rotating crops, farmers can prevent the depletion of nutrients ...
+
+Crop rotation is a key practice in sustainable agriculture that offers numerous benefits. By alternating the types of crops grown in a particular field each season, farmers can improve soil health, increase crop yield, and reduce the need for chemical fertilizers and pesticides. Crop rotation also h...
+
+Cover crops provide numerous benefits in sustainable agriculture, such as improving soil health by reducing erosion and increasing organic matter. They also help suppress weeds, enhance water retention, and promote biodiversity. Additionally, cover crops can increase crop yields, reduce the need for...
+
+1. Soil Health: Cover crops help improve soil health by reducing erosion, increasing organic matter, and enhancing soil structure. 2. Nutrient Management: Cover crops can help reduce the need for synthetic fertilizers by fixing nitrogen in the soil and recycling nutrients. 3. Weed Suppression: Cover...
+
+Soil biodiversity refers to the variety of living organisms within the soil, including bacteria, fungi, earthworms, and other microorganisms. Maintaining high levels of soil biodiversity is crucial for sustainable agriculture as it helps to improve soil structure, nutrient cycling, and overall soil ...
+
+Microorganisms play a crucial role in soil biodiversity as they contribute to nutrient cycling, decomposition of organic matter, and overall soil health. These organisms help in breaking down organic materials into nutrients that plants can absorb, promoting healthy plant growth. Additionally, they ...
+
+Green manure is a cover crop that is grown primarily to be plowed back into the soil to improve soil fertility and structure. Some benefits of green manure in sustainable agriculture include adding organic matter to the soil, increasing soil nutrients, improving soil structure, suppressing weeds, an...
+
+Green manure is a cover crop that is grown primarily to add nutrients and organic matter to the soil. By planting green manure crops, farmers can improve soil fertility, suppress weeds, prevent soil erosion, and enhance water retention. Additionally, green manure crops can help break pest and diseas...
+
+Intercropping is a farming method where two or more crops are grown together in the same field. This technique can help increase crop yield, improve soil health, and reduce pest and disease pressure. Some common intercropping techniques include strip intercropping, mixed intercropping, and relay int...
+
+Intercropping is a farming practice where two or more crops are grown together in the same field. This technique can improve soil health, increase biodiversity, and reduce the risk of crop failure. Some common intercropping techniques include strip intercropping, alley cropping, and mixed intercropp...
+
+Agroforestry is a sustainable land management system that integrates trees and shrubs with crops and/or livestock in a farming system. It promotes biodiversity, improves soil health, conserves water, and enhances overall ecosystem resilience. By combining agriculture and forestry practices, agrofore...
+
+Agroforestry is a sustainable agricultural practice that involves integrating trees and shrubs into crop and animal farming systems. This approach offers numerous benefits such as improved soil health, biodiversity conservation, increased crop yields, and enhanced resilience to climate change. By in...
+
+Utilization of crop residues in sustainable agriculture involves using leftover parts of crops such as stalks, leaves, and roots after harvesting for various purposes. These residues can be used as mulch to improve soil health, reduce erosion, retain moisture, and suppress weeds. They can also be us...
+
+There are several methods for utilizing crop residues in sustainable agriculture. One common method is to incorporate crop residues back into the soil through tillage or mulching. This helps improve soil organic matter content and nutrient availability for future crops. Another method is to use crop...
+
+Water management plays a crucial role in sustainable agriculture as it ensures efficient use of water resources, reduces water wastage, and minimizes environmental impacts. Proper water management practices such as drip irrigation, rainwater harvesting, and soil conservation help farmers optimize cr...
+
+Drip irrigation is a method of delivering water directly to the roots of plants, which helps to reduce water wastage and optimize water usage in agriculture. This technique is particularly beneficial in sustainable agriculture as it promotes efficient water management, reduces water runoff, minimize...}). You are to come up with {6} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Week 1: Introduction to Sustainable Agriculture and Crop Rotation
+
+Main Topic Title: Introduction to Sustainable Agriculture
+
+Sub-Topics:
+1. Definition and Importance of Sustainable Agriculture
+   - Discuss the concept of sustainable agriculture and its significance in preserving natural resources and promoting long-term food security (Database: Crop rotation is a practice used in sustainable agriculture...)
+2. Principles of Sustainable Agriculture
+   - Explore the key principles of sustainable agriculture, including soil health, biodiversity, and resource conservation (Database: Crop rotation is a key practice in sustainable agriculture...)
+3. Benefits of Sustainable Agriculture
+   - Examine the various benefits of sustainable agriculture such as improved soil health, increased crop yield, and reduced environmental impact (Database: Cover crops provide numerous benefits in sustainable agriculture...)
+
+Learning Objectives:
+- Understand the concept and importance of sustainable agriculture
+- Identify the key principles of sustainable agriculture
+- Recognize the benefits of practicing sustainable agriculture
+
+Estimated Number of Slides: 15
+
+Lab Activities:
+- Conduct a soil health assessment by comparing soil samples from conventional and sustainable farming practices
+- Analyze the impact of cover crops on soil biodiversity through a field observation exercise
+
+Real-World Applications and Examples:
+- Explore case studies of successful sustainable agriculture practices around the world
+- Discuss the role of sustainable agriculture in addressing global food security challenges
+
+Week 2: Cover Crops and Soil Health
+
+Main Topic Title: Cover Crops and Soil Health
+
+Sub-Topics:
+1. Role of Cover Crops in Improving Soil Health
+   - Examine how cover crops contribute to soil health by reducing erosion, increasing organic matter, and enhancing soil structure (Database: Soil Health: Cover crops help improve soil health...)
+2. Nutrient Management with Cover Crops
+   - Discuss how cover crops can help manage nutrients in the soil, including nitrogen fixation and nutrient recycling (Database: Nutrient Management: Cover crops can help reduce...)
+3. Weed Suppression and Pest Management
+   - Explore the role of cover crops in suppressing weeds, reducing pest pressure, and promoting biodiversity in agricultural systems (Database: Weed Suppression: Cover...)
+
+Learning Objectives:
+- Understand the benefits of cover crops for soil health
+- Learn how cover crops can help manage nutrients in the soil
+- Explore the role of cover crops in weed suppression and pest management
+
+Estimated Number of Slides: 20
+
+Lab Activities:
+- Plant different cover crop species in designated plots and monitor their impact on soil health parameters
+- Conduct a weed survey in fields with and without cover crops to assess weed suppression effectiveness
+
+Real-World Applications and Examples:
+- Visit a local farm practicing cover cropping and discuss their experiences and outcomes
+- Analyze research studies on the effectiveness of cover crops in improving soil health and crop productivity
+
+(Continued in next message...)
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Week 1: Introduction to Sustainable Agriculture and Crop Rotation
+
+Main Topic Title: Introduction to Sustainable Agriculture
+
+Sub-Topics:
+1. Definition and Importance of Sustainable Agriculture
+   - Discuss the concept of sustainable agriculture and its significance in preserving natural resources and promoting long-term food security (Database: Crop rotation is a practice used in sustainable agriculture...)
+2. Principles of Sustainable Agriculture
+   - Explore the key principles of sustainable agriculture, including soil health, biodiversity, and resource conservation (Database: Crop rotation is a key practice in sustainable agriculture...)
+3. Benefits of Sustainable Agriculture
+   - Examine the various benefits of sustainable agriculture such as improved soil health, increased crop yield, and reduced environmental impact (Database: Cover crops provide numerous benefits in sustainable agriculture...)
+
+Learning Objectives:
+- Understand the concept and importance of sustainable agriculture
+- Identify the key principles of sustainable agriculture
+- Recognize the benefits of practicing sustainable agriculture
+
+Estimated Number of Slides: 15
+
+Lab Activities:
+- Conduct a soil health assessment by comparing soil samples from conventional and sustainable farming practices
+- Analyze the impact of cover crops on soil biodiversity through a field observation exercise
+
+Real-World Applications and Examples:
+- Explore case studies of successful sustainable agriculture practices around the world
+- Discuss the role of sustainable agriculture in addressing global food security challenges
+
+Week 2: Cover Crops and Soil Health
+
+Main Topic Title: Cover Crops and Soil Health
+
+Sub-Topics:
+1. Role of Cover Crops in Improving Soil Health
+   - Examine how cover crops contribute to soil health by reducing erosion, increasing organic matter, and enhancing soil structure (Database: Soil Health: Cover crops help improve soil health...)
+2. Nutrient Management with Cover Crops
+   - Discuss how cover crops can help manage nutrients in the soil, including nitrogen fixation and nutrient recycling (Database: Nutrient Management: Cover crops can help reduce...)
+3. Weed Suppression and Pest Management
+   - Explore the role of cover crops in suppressing weeds, reducing pest pressure, and promoting biodiversity in agricultural systems (Database: Weed Suppression: Cover...)
+
+Learning Objectives:
+- Understand the benefits of cover crops for soil health
+- Learn how cover crops can help manage nutrients in the soil
+- Explore the role of cover crops in weed suppression and pest management
+
+Estimated Number of Slides: 20
+
+Lab Activities:
+- Plant different cover crop species in designated plots and monitor their impact on soil health parameters
+- Conduct a weed survey in fields with and without cover crops to assess weed suppression effectiveness
+
+Real-World Applications and Examples:
+- Visit a local farm practicing cover cropping and discuss their experiences and outcomes
+- Analyze research studies on the effectiveness of cover crops in improving soil health and crop productivity
+
+(Continued in next message...)}). Total slides available: {8}. Topics to allocate: {6}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+🎲 Choice scenario triggered! (Rolled 2.1 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+[5, 7, 4, 6, 8, 5]
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+[5, 6, 4, 5, 5, 3]
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+[5, 7, 4, 6, 8, 5]
+.
+Slide allocation: [1, 1, 1, 1, 3, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Week 1: Introduction to Sustainable Agriculture and Crop Rotation
+
+Main Topic Title: Introduction to Sustainable Agriculture
+
+Sub-Topics:
+1. Definition and Importance of Sustainable Agriculture
+   - Discuss the concept of sustainable agriculture and its significance in preserving natural resources and promoting long-term food security (Database: Crop rotation is a practice used in sustainable agriculture...)
+2. Principles of Sustainable Agriculture
+   - Explore the key principles of sustainable agriculture, including soil health, biodiversity, and resource conservation (Database: Crop rotation is a key practice in sustainable agriculture...)
+3. Benefits of Sustainable Agriculture
+   - Examine the various benefits of sustainable agriculture such as improved soil health, increased crop yield, and reduced environmental impact (Database: Cover crops provide numerous benefits in sustainable agriculture...)
+
+Learning Objectives:
+- Understand the concept and importance of sustainable agriculture
+- Identify the key principles of sustainable agriculture
+- Recognize the benefits of practicing sustainable agriculture
+
+Estimated Number of Slides: 15
+
+Lab Activities:
+- Conduct a soil health assessment by comparing soil samples from conventional and sustainable farming practices
+- Analyze the impact of cover crops on soil biodiversity through a field observation exercise
+
+Real-World Applications and Examples:
+- Explore case studies of successful sustainable agriculture practices around the world
+- Discuss the role of sustainable agriculture in addressing global food security challenges
+
+Week 2: Cover Crops and Soil Health
+
+Main Topic Title: Cover Crops and Soil Health
+
+Sub-Topics:
+1. Role of Cover Crops in Improving Soil Health
+   - Examine how cover crops contribute to soil health by reducing erosion, increasing organic matter, and enhancing soil structure (Database: Soil Health: Cover crops help improve soil health...)
+2. Nutrient Management with Cover Crops
+   - Discuss how cover crops can help manage nutrients in the soil, including nitrogen fixation and nutrient recycling (Database: Nutrient Management: Cover crops can help reduce...)
+3. Weed Suppression and Pest Management
+   - Explore the role of cover crops in suppressing weeds, reducing pest pressure, and promoting biodiversity in agricultural systems (Database: Weed Suppression: Cover...)
+
+Learning Objectives:
+- Understand the benefits of cover crops for soil health
+- Learn how cover crops can help manage nutrients in the soil
+- Explore the role of cover crops in weed suppression and pest management
+
+Estimated Number of Slides: 20
+
+Lab Activities:
+- Plant different cover crop species in designated plots and monitor their impact on soil health parameters
+- Conduct a weed survey in fields with and without cover crops to assess weed suppression effectiveness
+
+Real-World Applications and Examples:
+- Visit a local farm practicing cover cropping and discuss their experiences and outcomes
+- Analyze research studies on the effectiveness of cover crops in improving soil health and crop productivity
+
+(Continued in next message...)}). Slide allocation per topic: {[1, 1, 1, 1, 3, 1]}. Database content for reference: ({Crop rotation is a practice used in sustainable agriculture where different crops are planted in a sequential order on the same piece of land. This method helps improve soil health, reduce pests and diseases, and increase crop yield. By rotating crops, farmers can prevent the depletion of nutrients ...
+
+Crop rotation is a key practice in sustainable agriculture that offers numerous benefits. By alternating the types of crops grown in a particular field each season, farmers can improve soil health, increase crop yield, and reduce the need for chemical fertilizers and pesticides. Crop rotation also h...
+
+Cover crops provide numerous benefits in sustainable agriculture, such as improving soil health by reducing erosion and increasing organic matter. They also help suppress weeds, enhance water retention, and promote biodiversity. Additionally, cover crops can increase crop yields, reduce the need for...
+
+1. Soil Health: Cover crops help improve soil health by reducing erosion, increasing organic matter, and enhancing soil structure. 2. Nutrient Management: Cover crops can help reduce the need for synthetic fertilizers by fixing nitrogen in the soil and recycling nutrients. 3. Weed Suppression: Cover...
+
+Soil biodiversity refers to the variety of living organisms within the soil, including bacteria, fungi, earthworms, and other microorganisms. Maintaining high levels of soil biodiversity is crucial for sustainable agriculture as it helps to improve soil structure, nutrient cycling, and overall soil ...
+
+Microorganisms play a crucial role in soil biodiversity as they contribute to nutrient cycling, decomposition of organic matter, and overall soil health. These organisms help in breaking down organic materials into nutrients that plants can absorb, promoting healthy plant growth. Additionally, they ...
+
+Green manure is a cover crop that is grown primarily to be plowed back into the soil to improve soil fertility and structure. Some benefits of green manure in sustainable agriculture include adding organic matter to the soil, increasing soil nutrients, improving soil structure, suppressing weeds, an...
+
+Green manure is a cover crop that is grown primarily to add nutrients and organic matter to the soil. By planting green manure crops, farmers can improve soil fertility, suppress weeds, prevent soil erosion, and enhance water retention. Additionally, green manure crops can help break pest and diseas...
+
+Intercropping is a farming method where two or more crops are grown together in the same field. This technique can help increase crop yield, improve soil health, and reduce pest and disease pressure. Some common intercropping techniques include strip intercropping, mixed intercropping, and relay int...
+
+Intercropping is a farming practice where two or more crops are grown together in the same field. This technique can improve soil health, increase biodiversity, and reduce the risk of crop failure. Some common intercropping techniques include strip intercropping, alley cropping, and mixed intercropp...
+
+Agroforestry is a sustainable land management system that integrates trees and shrubs with crops and/or livestock in a farming system. It promotes biodiversity, improves soil health, conserves water, and enhances overall ecosystem resilience. By combining agriculture and forestry practices, agrofore...
+
+Agroforestry is a sustainable agricultural practice that involves integrating trees and shrubs into crop and animal farming systems. This approach offers numerous benefits such as improved soil health, biodiversity conservation, increased crop yields, and enhanced resilience to climate change. By in...
+
+Utilization of crop residues in sustainable agriculture involves using leftover parts of crops such as stalks, leaves, and roots after harvesting for various purposes. These residues can be used as mulch to improve soil health, reduce erosion, retain moisture, and suppress weeds. They can also be us...
+
+There are several methods for utilizing crop residues in sustainable agriculture. One common method is to incorporate crop residues back into the soil through tillage or mulching. This helps improve soil organic matter content and nutrient availability for future crops. Another method is to use crop...
+
+Water management plays a crucial role in sustainable agriculture as it ensures efficient use of water resources, reduces water wastage, and minimizes environmental impacts. Proper water management practices such as drip irrigation, rainwater harvesting, and soil conservation help farmers optimize cr...
+
+Drip irrigation is a method of delivering water directly to the roots of plants, which helps to reduce water wastage and optimize water usage in agriculture. This technique is particularly beneficial in sustainable agriculture as it promotes efficient water management, reduces water runoff, minimize...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+🎲 Choice scenario triggered! (Rolled 9.9 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+1. Introduction to Sustainable Agriculture and Crop Rotation
+2. Principles of Sustainable Agriculture: Soil Health
+3. Principles of Sustainable Agriculture: Biodiversity
+4. Principles of Sustainable Agriculture: Resource Conservation
+5. Benefits of Sustainable Agriculture: Improved Soil Health
+6. Benefits of Sustainable Agriculture: Increased Crop Yield
+7. Benefits of Sustainable Agriculture: Reduced Environmental Impact
+8. Lab Activity: Soil Health Assessment Comparison
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+1. Understanding Sustainable Agriculture and its Significance
+2. Key Principles of Sustainable Agriculture: Soil Health, Biodiversity, Resource Conservation
+3. Benefits of Sustainable Agriculture: Improved Soil Health, Increased Crop Yield, Reduced Environmental Impact
+4. Role of Cover Crops in Improving Soil Health: Erosion Reduction, Organic Matter Increase, Soil Structure Enhancement
+5. Nutrient Management with Cover Crops: Nitrogen Fixation, Nutrient Recycling
+6. Weed Suppression and Pest Management with Cover Crops
+7. Soil Biodiversity and its Importance in Sustainable Agriculture
+8. Microorganisms' Role in Soil Health and Nutrient Cycling
+
+----------------------------------------
+✅ You chose Response 2
+Raw response:
+1. Understanding Sustainable Agriculture and its Significance
+2. Key Principles of Sustainable Agriculture: Soil Health, Biodiversity, Resource Conservation
+3. Benefits of Sustainable Agriculture: Improved Soil Health, Increased Crop Yield, Reduced Environmental Impact
+4. Role of Cover Crops in Improving Soil Health: Erosion Reduction, Organic Matter Increase, Soil Structure Enhancement
+5. Nutrient Management with Cover Crops: Nitrogen Fixation, Nutrient Recycling
+6. Weed Suppression and Pest Management with Cover Crops
+7. Soil Biodiversity and its Importance in Sustainable Agriculture
+8. Microorganisms' Role in Soil Health and Nutrient Cycling
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_17-45-17.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_17-45-17.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+🎲 Choice scenario triggered! (Rolled 29.1 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Week 1: Introduction to Sustainable Agriculture and Crop Rotation
+
+Main Topic Title: Introduction to Sustainable Agriculture
+
+Sub-Topics:
+1. Definition and Importance of Sustainable Agriculture
+- Sustainable agriculture refers to the practice of farming in a way that preserves natural resources, promotes long-term food security, and minimizes environmental impact. It involves using techniques that are environmentally friendly, economically viable, and socially responsible. Sustainable agriculture is crucial for ensuring the well-being of current and future generations by maintaining the health of ecosystems, supporting rural communities, and producing nutritious food sustainably.
+- Importance: Sustainable agriculture is essential for addressing global challenges such as climate change, soil degradation, water scarcity, and food insecurity. By adopting sustainable practices, farmers can protect the environment, conserve natural resources, and improve the resilience of agricultural systems to climate variability and extreme weather events.
+
+2. Principles of Sustainable Agriculture
+- Soil Health: Healthy soil is the foundation of sustainable agriculture as it supports plant growth, nutrient cycling, and water retention. By maintaining soil health through practices like crop rotation, cover cropping, and minimal tillage, farmers can enhance soil fertility, reduce erosion, and improve crop productivity.
+- Biodiversity: Biodiversity is key to sustainable agriculture as it promotes resilience, pest and disease control, and ecosystem services. By preserving diverse plant and animal species on farms, farmers can create balanced ecosystems that are more resilient to environmental stressors.
+- Resource Conservation: Sustainable agriculture aims to minimize resource use and waste by optimizing inputs such as water, energy, and nutrients. By using resources efficiently and recycling organic matter, farmers can reduce costs, minimize pollution, and improve overall sustainability.
+
+3. Benefits of Sustainable Agriculture
+- Improved Soil Health: Sustainable agriculture practices help build soil organic matter, enhance soil structure, and increase soil fertility. Healthy soils support diverse microbial communities, improve nutrient availability, and reduce the need for synthetic fertilizers and pesticides.
+- Increased Crop Yield: By promoting soil health, biodiversity, and resource conservation, sustainable agriculture can lead to higher crop yields and better harvest quality. Healthy soils produce resilient crops that are more resistant to pests, diseases, and environmental stressors.
+- Reduced Environmental Impact: Sustainable agriculture practices help minimize pollution, conserve water, and protect biodiversity. By adopting agroecological approaches, farmers can reduce greenhouse gas emissions, preserve natural habitats, and contribute to climate change mitigation efforts.
+
+Learning Objectives:
+- Understand the concept and importance of sustainable agriculture in addressing global challenges
+- Identify the key principles of sustainable agriculture and their role in promoting environmental sustainability
+- Recognize the benefits of practicing sustainable agriculture for soil health, crop yield, and environmental conservation
+
+Estimated Number of Slides: 15
+
+Lab Activities:
+1. Conduct a soil health assessment by comparing soil samples from conventional and sustainable farming practices. Students will analyze key indicators of soil health such as organic matter content, pH levels, and microbial diversity to understand the impact of different farming methods on soil quality.
+2. Analyze the impact of cover crops on soil biodiversity through a field observation exercise. Students will survey fields with and without cover crops to assess the diversity of plant species, soil organisms, and beneficial insects, highlighting the role of cover crops in promoting ecosystem health.
+
+Real-World Applications and Examples:
+- Explore case studies of successful sustainable agriculture practices around the world, such as agroforestry systems in Costa Rica, organic farming in India, and conservation agriculture in Australia. These examples demonstrate how sustainable agriculture can improve livelihoods, protect the environment, and enhance food security.
+- Discuss the role of sustainable agriculture in addressing global food security challenges, such as feeding a growing population, reducing food waste, and adapting to climate change impacts. By examining real-world scenarios, students can understand the importance of sustainable farming practices in ensuring a resilient and sustainable food system.
+
+Week 2: Cover Crops and Soil Health
+
+Main Topic Title: Cover Crops and Soil Health
+
+Sub-Topics:
+1. Role of Cover Crops in Improving Soil Health
+- Cover crops are plants grown primarily to protect and enrich the soil, rather than for harvest. They play a crucial role in improving soil health by reducing erosion, increasing organic matter, and enhancing soil structure. Cover crops help prevent nutrient leaching, suppress weeds, and create a favorable environment for beneficial soil organisms.
+- Erosion Reduction: Cover crops form a protective layer on the soil surface, reducing the impact of raindrops and wind erosion. They help stabilize soil aggregates, prevent sediment runoff, and maintain soil structure.
+- Organic Matter Increase: Cover crops add organic matter to the soil through root exudates, biomass decomposition, and nutrient cycling. Organic matter improves soil structure, water retention, and nutrient availability, supporting healthy plant growth.
+- Soil Structure Enhancement: Cover crops promote soil aggregation, root penetration, and aeration, leading to improved soil tilth and water infiltration. They create pathways for water movement, root development, and nutrient uptake, enhancing overall soil quality.
+
+2. Nutrient Management with Cover Crops
+- Cover crops play a vital role in managing nutrients in the soil by fixing nitrogen, recycling nutrients, and reducing nutrient losses. Leguminous cover crops such as clover, vetch, and peas have the ability to capture atmospheric nitrogen and convert it into a plant-available form through symbiotic relationships with nitrogen-fixing bacteria.
+- Nitrogen Fixation: Leguminous cover crops host nitrogen-fixing bacteria in their root nodules, allowing them to convert atmospheric nitrogen into ammonia, which can be utilized by plants. This biological process helps reduce the need for synthetic nitrogen fertilizers and promotes sustainable nutrient cycling.
+- Nutrient Recycling: Cover crops absorb excess nutrients from the soil, preventing leaching and runoff into water bodies. When cover crops are terminated and incorporated into the soil, they release nutrients back into the ecosystem, supporting the growth of subsequent cash crops and reducing nutrient losses.
+
+3. Weed Suppression and Pest Management
+- Cover crops contribute to weed suppression, pest control, and biodiversity enhancement in agricultural systems. By competing with weeds for sunlight, water, and nutrients, cover crops can outcompete and suppress weed growth, reducing the need for herbicides and tillage.
+- Weed Suppression: Cover crops create a dense canopy that shades out weeds, inhibiting their growth and reproduction. Some cover crop species release allelopathic compounds that inhibit weed seed germination and root growth, further enhancing weed control.
+- Pest Management: Cover crops attract beneficial insects such as pollinators, predators, and parasitoids that help control pests naturally. By increasing biodiversity and providing habitat for beneficial organisms, cover crops can reduce pest pressure, enhance ecosystem resilience, and promote biological pest control.
+
+Learning Objectives:
+- Understand the benefits of cover crops for soil health, nutrient management, and pest control in sustainable agriculture
+- Learn how cover crops can improve soil structure, prevent erosion, and enhance biodiversity on farms
+- Explore the role of cover crops in sustainable weed suppression, pest management, and ecosystem services
+
+Estimated Number of Slides: 20
+
+Lab Activities:
+1. Plant different cover crop species in designated plots and monitor their impact on soil health parameters. Students will measure soil moisture, nutrient levels, and microbial activity in plots with different cover crop treatments to assess their effects on soil quality and plant growth.
+2. Conduct a weed survey in fields with and without cover crops to assess weed suppression effectiveness. Students will identify weed species, measure weed density, and compare weed biomass between cover crop and no-cover crop plots to evaluate the efficacy of weed management strategies.
+
+Real-World Applications and Examples:
+- Visit a local farm practicing cover cropping and discuss their experiences and outcomes with implementing cover crop systems. Students will have the opportunity to observe cover crop species, assess soil health indicators, and learn from farmers about the benefits and challenges of incorporating cover crops into their farming operations.
+- Analyze research studies on the effectiveness of cover crops in improving soil health, enhancing crop productivity, and promoting sustainable agriculture practices. By reviewing scientific literature and case studies, students can gain insights into the latest advancements in cover crop research and their implications for sustainable farming.
+
+(Continued in next message...)
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Week 1: Introduction to Sustainable Agriculture and Crop Rotation
+
+Main Topic Title: Introduction to Sustainable Agriculture
+
+Sub-Topics:
+1. Definition and Importance of Sustainable Agriculture
+   - Sustainable agriculture is a farming practice that aims to preserve natural resources, promote long-term food security, and enhance environmental sustainability. It focuses on meeting the needs of the present without compromising the ability of future generations to meet their own needs. Sustainable agriculture is crucial in addressing global challenges such as climate change, soil degradation, and food insecurity.
+
+   - Importance of Sustainable Agriculture:
+      - Preserves natural resources: By using practices that maintain soil health, conserve water, and protect biodiversity, sustainable agriculture helps to sustainably manage resources for future generations.
+      - Promotes long-term food security: Sustainable agriculture practices ensure that food production remains viable in the long run by preserving soil fertility, reducing environmental degradation, and increasing resilience to climate change.
+      - Enhances environmental sustainability: By reducing the use of synthetic inputs, minimizing waste, and promoting ecosystem health, sustainable agriculture contributes to overall environmental sustainability.
+
+2. Principles of Sustainable Agriculture
+   - Key Principles:
+      - Soil health: Healthy soil is the foundation of sustainable agriculture, as it supports plant growth, nutrient cycling, and water retention. Practices such as cover cropping, crop rotation, and organic matter addition help maintain soil health.
+      - Biodiversity: Diverse ecosystems promote resilience and stability in agricultural systems. By enhancing biodiversity through crop diversity, habitat conservation, and integrated pest management, sustainable agriculture can reduce the reliance on chemical inputs.
+      - Resource conservation: Efficient use of resources such as water, energy, and nutrients is essential in sustainable agriculture. Practices like drip irrigation, agroforestry, and composting help minimize resource wastage and maximize productivity.
+
+3. Benefits of Sustainable Agriculture
+   - Improved soil health: Sustainable agriculture practices lead to healthier soils with better structure, fertility, and nutrient content. This results in increased crop productivity, reduced erosion, and enhanced water retention.
+   - Increased crop yield: By promoting soil health, biodiversity, and resource efficiency, sustainable agriculture can improve crop yields over the long term. This ensures food security and economic stability for farmers.
+   - Reduced environmental impact: Sustainable agriculture practices minimize pollution, greenhouse gas emissions, and habitat destruction. By adopting eco-friendly practices, farmers can protect the environment and mitigate climate change impacts.
+
+Learning Objectives:
+- Define sustainable agriculture and explain its importance in preserving natural resources and promoting food security.
+- Identify the key principles of sustainable agriculture, including soil health, biodiversity, and resource conservation.
+- Recognize the benefits of practicing sustainable agriculture in terms of soil health, crop yield, and environmental impact.
+
+Estimated Number of Slides: 15
+
+Lab Activities:
+1. Soil Health Assessment:
+   - Objective: To compare soil samples from conventional and sustainable farming practices to assess soil health parameters.
+   - Procedure: Collect soil samples from both types of farms, conduct tests for pH, organic matter content, nutrient levels, and microbial activity. Compare the results to evaluate the impact of different farming practices on soil health.
+   - Discussion: Analyze the data to understand how sustainable agriculture practices influence soil health and productivity.
+
+2. Cover Crop Observation:
+   - Objective: To observe the impact of cover crops on soil biodiversity in the field.
+   - Procedure: Visit a farm that practices cover cropping, identify different cover crop species, and assess soil biodiversity indicators such as earthworm activity, microbial diversity, and plant species richness. Record observations and discuss the role of cover crops in enhancing soil health.
+   - Discussion: Reflect on the benefits of cover crops for soil biodiversity, nutrient cycling, and pest management in sustainable agriculture systems.
+
+Real-World Applications and Examples:
+- Case Studies:
+   - Example 1: The Rodale Institute in Pennsylvania has been a pioneer in organic farming and sustainable agriculture research. Their Farming Systems Trial, initiated in 1981, compares organic and conventional farming methods over the long term to assess soil health, crop productivity, and environmental impacts.
+   - Example 2: The Sustainable Food Lab works with farmers, businesses, and organizations worldwide to promote sustainable agriculture practices. Their projects focus on improving supply chain sustainability, enhancing farmer livelihoods, and addressing food security challenges through sustainable farming methods.
+
+- Global Food Security:
+   - Sustainable agriculture plays a crucial role in addressing global food security challenges by ensuring that food production is sustainable, equitable, and resilient to climate change. By adopting sustainable practices, farmers can enhance productivity, conserve natural resources, and improve livelihoods in rural communities.
+
+Week 2: Cover Crops and Soil Health
+
+Main Topic Title: Cover Crops and Soil Health
+
+Sub-Topics:
+1. Role of Cover Crops in Improving Soil Health
+   - Cover crops are non-commercial crops planted to improve soil health, suppress weeds, and enhance nutrient cycling. They play a crucial role in sustainable agriculture by protecting soil from erosion, adding organic matter, and promoting beneficial soil organisms.
+
+   - Benefits of Cover Crops:
+      - Erosion reduction: Cover crops help prevent soil erosion by covering the ground and reducing the impact of wind and water erosion.
+      - Organic matter increase: Cover crops add organic matter to the soil through root exudates, leaf litter, and biomass decomposition, improving soil structure and fertility.
+      - Soil structure enhancement: Cover crop roots penetrate the soil, breaking up compacted layers, improving water infiltration, and promoting aeration.
+
+2. Nutrient Management with Cover Crops
+   - Cover crops play a key role in managing nutrients in the soil by fixing nitrogen, recycling nutrients, and reducing nutrient leaching. They help maintain soil fertility, reduce the need for synthetic fertilizers, and enhance nutrient availability for subsequent crops.
+
+   - Nutrient Management Benefits:
+      - Nitrogen fixation: Leguminous cover crops like clover and vetch can fix atmospheric nitrogen through symbiotic relationships with nitrogen-fixing bacteria, enriching the soil with this essential nutrient.
+      - Nutrient recycling: Cover crops scavenge nutrients from deeper soil layers, preventing nutrient runoff and leaching. When cover crops are terminated, these nutrients are released back into the soil for use by cash crops.
+
+3. Weed Suppression and Pest Management
+   - Cover crops contribute to weed suppression, pest control, and biodiversity enhancement in agricultural systems. By outcompeting weeds, attracting beneficial insects, and creating diverse habitats, cover crops help reduce the reliance on herbicides and pesticides.
+
+   - Weed Suppression Benefits:
+      - Competition for resources: Cover crops compete with weeds for sunlight, water, and nutrients, reducing weed growth and seed production.
+      - Allelopathic effects: Some cover crops release chemicals that inhibit weed germination and growth, providing natural weed control without chemical inputs.
+      - Habitat for beneficial insects: Flowering cover crops attract pollinators, predatory insects, and other beneficial organisms that help control pests and diseases in the agroecosystem.
+
+Learning Objectives:
+- Explain how cover crops contribute to soil health improvement, erosion reduction, and nutrient management in sustainable agriculture.
+- Describe the benefits of using cover crops for weed suppression, pest management, and biodiversity enhancement in agricultural systems.
+- Analyze the role of cover crops in promoting sustainable farming practices and enhancing crop productivity.
+
+Estimated Number of Slides: 20
+
+Lab Activities:
+1. Cover Crop Planting:
+   - Objective: To plant different cover crop species in designated plots and monitor their impact on soil health parameters.
+   - Procedure: Select cover crop species suitable for the local climate and soil conditions, prepare plots with different cover crop treatments, and monitor soil health indicators such as soil moisture, nutrient levels, and microbial activity over time.
+   - Discussion: Evaluate the effectiveness of different cover crop species in improving soil health and compare their benefits for sustainable agriculture.
+
+2. Weed Survey:
+   - Objective: To conduct a weed survey in fields with and without cover crops to assess weed suppression effectiveness.
+   - Procedure: Identify weed species in fields with cover crops and control plots, record weed density, diversity, and distribution patterns. Analyze the data to determine the impact of cover crops on weed populations and discuss strategies for integrated weed management.
+   - Discussion: Explore the mechanisms by which cover crops suppress weeds, such as competition, allelopathy, and habitat modification, and their implications for sustainable weed control.
+
+Real-World Applications and Examples:
+- Farm Visit:
+   - Visit a local farm that practices cover cropping and discuss their experiences, challenges, and outcomes with implementing this sustainable agriculture practice. Observe different cover crop species, soil health indicators, and crop rotation strategies used on the farm.
+   - Interview the farmer to learn about the benefits of cover crops for soil fertility, weed control, and crop productivity in their agricultural system.
+  
+- Research Studies:
+   - Analyze research studies on the effectiveness of cover crops in improving soil health and crop productivity in different agroecosystems. Review scientific literature on cover crop benefits for nutrient cycling, pest suppression, and climate resilience in sustainable agriculture.
+   - Discuss the implications of research findings for farmers, policymakers, and agricultural stakeholders interested in adopting cover cropping practices for sustainable land management.
+
+Overall, the lecture notes provide a comprehensive overview of sustainable agriculture principles, cover crop benefits, and soil health management strategies. By integrating theoretical concepts with practical applications, real-world examples, and hands-on activities, students can gain a deep understanding of sustainable farming practices and their significance for global food security and environmental sustainability. The structured learning objectives, lab exercises, and case studies enhance the educational experience and facilitate critical thinking and problem-solving skills in senior undergraduate students.
+
+----------------------------------------
+✅ You chose Response 2
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_17-45-54.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+⚠️ Content validation suggestions: Overall, the lecture notes provide a comprehensive introduction to sustainable agriculture and crop rotation. The definition and importance of sustainable agriculture are well-explained, and the principles of sustainable agriculture are clearly outlined. The notes also touch on the importance of soil health, biodiversity, and resource conservation in sustainable agriculture.
+
+To improve the depth and comprehensiveness of the lecture notes for a senior undergraduate level course, you may consider expanding on the following areas:
+- Provide more detailed examples of sustainable agriculture practices, such as agroforestry, conservation tillage, and integrated crop-livestock systems.
+- Include case studies or real-world examples of successful sustainable agriculture initiatives from different regions or countries.
+- Discuss the challenges and limitations of implementing sustainable agriculture practices, such as economic constraints, policy barriers, and social acceptance.
+- Explore the role of technology and innovation in advancing sustainable agriculture, such as precision agriculture, biotechnology, and digital farming tools.
+
+Overall, the content is suitable for a 3-credit hour senior undergraduate study, but additional depth and real-world examples could enhance the learning experience for students. Consider incorporating more advanced concepts and case studies to challenge students and deepen their understanding of sustainable agriculture.
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Sustainable Agriculture
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Understanding Sustainable Agriculture and its Significance)
+🔍 DEBUG: Slide 1 content set to: '• Sustainable agriculture aims to preserve natural resources, promote long-term food security, and e...'
+🔍 DEBUG: Slide 1 content length: 386
+✅ Slide 1 content: • Sustainable agriculture aims to preserve natural resources, promote long-term food security, and enhance environmental sustainability.
+• Practices in sustainable agriculture focus on maintaining soil health, conserving water, and protecting biodiversity for future generations.
+• Examples of sustainable agriculture practices include crop rotation, cover cropping, and agroforestry.
+• Sustainable agriculture addresses global challenges such as climate change, soil degradation, and food insecurity.
+Generating content for slide 2 (Topic: Key Principles of Sustainable Agriculture: Soil Health, Biodiversity, Resource Conservation)
+🔍 DEBUG: Slide 2 content set to: '• Soil Health is a key principle of sustainable agriculture • Biodiversity is crucial for maintainin...'
+🔍 DEBUG: Slide 2 content length: 251
+✅ Slide 2 content: • Soil Health is a key principle of sustainable agriculture
+• Biodiversity is crucial for maintaining ecosystem balance
+• Resource Conservation helps in sustainable resource management
+• Examples include crop rotation, agroforestry, and cover cropping
+Generating content for slide 3 (Topic: Benefits of Sustainable Agriculture: Improved Soil Health, Increased Crop Yield, Reduced Environmental Impact)
+🔍 DEBUG: Slide 3 content set to: '• Improved Soil Health: - Crop rotation helps improve soil structure and fertility - Reduces soil er...'
+🔍 DEBUG: Slide 3 content length: 453
+✅ Slide 3 content: • Improved Soil Health:
+   - Crop rotation helps improve soil structure and fertility
+   - Reduces soil erosion and nutrient depletion
+   - Enhances microbial activity and nutrient cycling
+
+• Increased Crop Yield:
+   - Crop rotation leads to higher yields due to improved soil health
+   - Diversifying crops can reduce pest and disease pressure
+   - Enhances overall plant health and resilience to environmental stress
+
+• Reduced Environmental Impact:
+   - Decreases reliance on chemical fertilizers and pesticides
+   - Minimizes soil and water contamination
+   - Promotes biodiversity and ecosystem balance through sustainable practices
+Generating content for slide 4 (Topic: Role of Cover Crops in Improving Soil Health: Erosion Reduction, Organic Matter Increase, Soil Structure Enhancement)
+🔍 DEBUG: Slide 4 content set to: 'Cover crops play a significant role in improving soil health through erosion reduction, organic matt...'
+🔍 DEBUG: Slide 4 content length: 453
+✅ Slide 4 content: - Cover crops play a significant role in improving soil health through erosion reduction, organic matter increase, and soil structure enhancement
+- Erosion Reduction: Cover crops help protect the soil from erosion caused by wind and water, preserving valuable topsoil
+- Organic Matter Increase: By adding biomass to the soil, cover crops increase organic matter content, promoting nutrient retention and microbial activity
+- Soil Structure Enhancement: The root systems of cover crops help improve soil structure by reducing compaction, enhancing water infiltration, and promoting aeration
+Generating content for slide 5 (Topic: Nutrient Management with Cover Crops: Nitrogen Fixation, Nutrient Recycling)
+🔍 DEBUG: Slide 5 content set to: '• Nitrogen Fixation: - Cover crops like legumes have symbiotic relationships with nitrogen-fixing ba...'
+🔍 DEBUG: Slide 5 content length: 453
+✅ Slide 5 content: • Nitrogen Fixation: 
+   - Cover crops like legumes have symbiotic relationships with nitrogen-fixing bacteria
+   - Bacteria convert atmospheric nitrogen into a form plants can use
+   - Enhances soil fertility and reduces the need for synthetic nitrogen fertilizers
+
+• Nutrient Recycling:
+   - Cover crops absorb excess nutrients in the soil
+   - Upon decomposition, release nutrients back into the soil
+   - Improves soil health and reduces nutrient leaching into water bodies
+
+• Practical Example:
+   - Planting clover as a cover crop in between cash crops
+   - Clover fixes nitrogen, improving soil fertility for the next crop
+   - Nutrient recycling from clover benefits subsequent plantings
+Generating content for slide 6 (Topic: Weed Suppression and Pest Management with Cover Crops)
+🔍 DEBUG: Slide 6 content set to: '• Cover crops play a vital role in weed suppression by outcompeting weeds for sunlight, water, and n...'
+🔍 DEBUG: Slide 6 content length: 400
+✅ Slide 6 content: • Cover crops play a vital role in weed suppression by outcompeting weeds for sunlight, water, and nutrients
+• Cover crops help manage pests by attracting beneficial insects that naturally control pest populations
+• Utilizing cover crops reduces the need for chemical herbicides and pesticides
+• Examples of cover crops for weed suppression and pest management include legumes, grasses, and brassicas
+Generating content for slide 7 (Topic: Soil Biodiversity and its Importance in Sustainable Agriculture)
+🔍 DEBUG: Slide 7 content set to: '• Soil biodiversity refers to the variety of living organisms in the soil, such as bacteria, fungi, ...'
+🔍 DEBUG: Slide 7 content length: 495
+✅ Slide 7 content: • Soil biodiversity refers to the variety of living organisms in the soil, such as bacteria, fungi, and earthworms
+• Maintaining high soil biodiversity is crucial for sustainable agriculture to improve soil structure, nutrient cycling, and overall soil health
+• These organisms play key roles in decomposing organic matter, fixing nitrogen, and controlling pests and diseases
+• Promoting soil biodiversity reduces the need for chemical inputs and enhances crop resilience to environmental stress
+Generating content for slide 8 (Topic: Microorganisms' Role in Soil Health and Nutrient Cycling)
+🔍 DEBUG: Slide 8 content set to: '• Microorganisms play a crucial role in soil biodiversity and contribute to nutrient cycling and dec...'
+🔍 DEBUG: Slide 8 content length: 408
+✅ Slide 8 content: • Microorganisms play a crucial role in soil biodiversity and contribute to nutrient cycling and decomposition of organic matter
+• These organisms break down organic materials into nutrients for plant absorption, promoting healthy plant growth
+• They can suppress plant diseases and improve soil structure
+• Maintaining a diverse community of microorganisms is essential for sustainable agriculture practices
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Understanding Sustainable Agriculture and its Significance)
+🎲 Choice scenario triggered! (Rolled 10.2 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Understanding Sustainable Agriculture: Key Concepts
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Understanding Sustainable Agriculture: Key Significance
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 1 title: Understanding Sustainable Agriculture: Key Concepts
+Generating title for slide 2 (Topic: Key Principles of Sustainable Agriculture: Soil Health, Biodiversity, Resource Conservation)
+✅ Slide 2 title: Principles of Sustainable Agriculture: Soil, Biodiversity, Resources
+Generating title for slide 3 (Topic: Benefits of Sustainable Agriculture: Improved Soil Health, Increased Crop Yield, Reduced Environmental Impact)
+🎲 Choice scenario triggered! (Rolled 16.0 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Benefits of Sustainable Agriculture: Soil, Yield, Environment
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Benefits of Sustainable Agriculture: Soil, Yield, Environment
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 3 title: Benefits of Sustainable Agriculture: Soil, Yield, Environment
+Generating title for slide 4 (Topic: Role of Cover Crops in Improving Soil Health: Erosion Reduction, Organic Matter Increase, Soil Structure Enhancement)
+🎲 Choice scenario triggered! (Rolled 29.0 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Cover Crops: Improving Soil Health and Structure
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+"Cover Crops: Soil Health Improvement Strategies"
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 4 title: Cover Crops: Improving Soil Health and Structure
+Generating title for slide 5 (Topic: Nutrient Management with Cover Crops: Nitrogen Fixation, Nutrient Recycling)
+🎲 Choice scenario triggered! (Rolled 6.2 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+"Enhancing Soil Health with Cover Crops"
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Enhancing Soil Health with Cover Crops
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 5 title: Enhancing Soil Health with Cover Crops
+Generating title for slide 6 (Topic: Weed Suppression and Pest Management with Cover Crops)
+✅ Slide 6 title: Weed Suppression and Pest Management with Cover Crops
+Generating title for slide 7 (Topic: Soil Biodiversity and its Importance in Sustainable Agriculture)
+✅ Slide 7 title: The Vital Role of Soil Biodiversity
+Generating title for slide 8 (Topic: Microorganisms' Role in Soil Health and Nutrient Cycling)
+✅ Slide 8 title: Maximizing Microorganisms for Soil Health & Nutrient Cycling
+Generating overall presentation title...
+✅ Overall presentation title: Exploring Sustainable Agriculture: Soil Health, Biodiversity, and Resource Management
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Understanding Sustainable Agriculture and its Significance)
+🎲 Choice scenario triggered! (Rolled 8.0 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['sustainable agriculture significance', 'importance of sustainable agriculture practices', 'benefits of sustainable agriculture techniques', 'agroecosystem importance', 'soil health in sustainable agriculture', 'water management in sustainable agriculture']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['sustainable agriculture significance', 'importance of sustainable agriculture practices', 'benefits of sustainable agriculture techniques', 'agroecosystem importance', 'soil health in sustainable agriculture', 'water management in sustainable agriculture']
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Key Principles of Sustainable Agriculture: Soil Health, Biodiversity, Resource Conservation)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Benefits of Sustainable Agriculture: Improved Soil Health, Increased Crop Yield, Reduced Environmental Impact)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Role of Cover Crops in Improving Soil Health: Erosion Reduction, Organic Matter Increase, Soil Structure Enhancement)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Nutrient Management with Cover Crops: Nitrogen Fixation, Nutrient Recycling)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Weed Suppression and Pest Management with Cover Crops)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Soil Biodiversity and its Importance in Sustainable Agriculture)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Microorganisms' Role in Soil Health and Nutrient Cycling)
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Understanding Sustainable Agriculture and its Significance)
+🎲 Choice scenario triggered! (Rolled 11.4 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Crop rotation helps prevent soil erosion by maintaining ground cover throughout the year.
+- The practice of crop rotation can also break pest and disease cycles, reducing the need for chemical pesticides.
+- By diversifying crops through rotation, farmers can improve soil fertility and structure over time.
+- Implementing crop rotation can enhance the resilience of agricultural systems to climate change impacts.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Crop rotation helps prevent soil erosion and maintains soil fertility by diversifying the types of crops grown.
+- By rotating crops, farmers can break the life cycles of pests and diseases, reducing the need for chemical inputs.
+- Implementing crop rotation also promotes the efficient use of water resources and reduces the reliance on irrigation.
+- Sustainable agriculture practices like crop rotation contribute to climate change mitigation by sequestering carbon in the soil.
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Key Principles of Sustainable Agriculture: Soil Health, Biodiversity, Resource Conservation)
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Benefits of Sustainable Agriculture: Improved Soil Health, Increased Crop Yield, Reduced Environmental Impact)
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Role of Cover Crops in Improving Soil Health: Erosion Reduction, Organic Matter Increase, Soil Structure Enhancement)
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Nutrient Management with Cover Crops: Nitrogen Fixation, Nutrient Recycling)
+🎲 Choice scenario triggered! (Rolled 9.8 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Cover crops contribute to enhanced soil health by improving soil structure, reducing erosion, and increasing organic matter content
+- Cover crops play a crucial role in managing nutrients in the soil through processes like nitrogen fixation and nutrient recycling
+- Cover crops aid in suppressing weeds, reducing pest pressure, and promoting biodiversity in agricultural systems
+- Promoting soil biodiversity through cover crops helps reduce the need for chemical inputs and enhances crop resilience to environmental stress
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Cover crops promote the growth of beneficial soil microorganisms, such as mycorrhizal fungi, which improve nutrient uptake and enhance soil structure
+- Incorporating a diverse mix of cover crops can increase soil organic matter content, leading to improved water retention and reduced soil erosion
+- Legume cover crops, such as clover and vetch, are particularly effective in fixing atmospheric nitrogen and making it available to subsequent cash crops
+- Cover crops like cereal rye and hairy vetch can suppress weed growth through allelopathic effects, reducing the need for herbicides and promoting biodiversity in agroecosystems
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 5 content is long (525 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Weed Suppression and Pest Management with Cover Crops)
+⚠️ Warning: Slide 6 content is long (616 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Soil Biodiversity and its Importance in Sustainable Agriculture)
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Microorganisms' Role in Soil Health and Nutrient Cycling)
+🎲 Choice scenario triggered! (Rolled 27.7 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Microorganisms play a crucial role in maintaining soil structure and promoting nutrient cycling
+- They contribute to the decomposition of organic matter, releasing essential nutrients for plant absorption
+- Microorganisms in the soil help suppress plant diseases, enhancing overall plant health
+- Maintaining a diverse community of microorganisms is vital for sustainable agriculture practices
+- Effective management of microorganisms can improve soil fertility and enhance crop productivity
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Microorganisms play a crucial role in soil biodiversity and contribute to nutrient cycling, decomposition of organic matter, and overall soil health
+- These organisms break down organic materials into nutrients for plant absorption, promoting healthy plant growth
+- Maintaining a diverse community of microorganisms is essential for sustainable agriculture practices
+- Microorganisms can suppress plant diseases, improve soil structure, and enhance the overall resilience of the soil ecosystem
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Exploring_Sustainable_Agriculture_Soil_Health,_Biodiversity,_and_Resource_Management_2025-08-31_17-47-11
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Exploring_Sustainable_Agriculture_Soil_Health,_Biodiversity,_and_Resource_Management_2025-08-31_17-47-11.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Exploring_Sustainable_Agriculture_Soil_Health,_Biodiversity,_and_Resource_Management_2025-08-31_17-47-11.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 1 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Exploring_Sustainable_Agriculture_Soil_Health,_Biodiversity,_and_Resource_Management_2025-08-31_17-47-11.pptx
+📊 Rating presentation 1...
+✅ Presentation 1 rated successfully
+📈 Overall Rating: 6.32 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.17 / 2.00
+   - Non-Repetition: 1.65 / 2.00
+   - Content Balance: 1.53 / 2.00
+   - Title Uniqueness: 1.88 / 2.00
+   - Title-Content Match: 1.08 / 2.00
+💾 Result saved to file for presentation 1
+
+📊 Presentation 3/10 (ID: 2)
+📝 Using topic: Public Health Crises Management
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

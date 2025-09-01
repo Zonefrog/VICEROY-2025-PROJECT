@@ -120,14 +120,14 @@ def main():
         use_manual_api=False,
         slide_count_target=8,  # Short presentations for testing
         input_mode=2,  # Hardcoded prompt mode for dynamic topics
-        choice_mode=5,  # AI choice mode as default
+        choice_mode=6,  # 5 is AI, 6 is human
         human_choice_chance=0.0,  # Will be varied in experiment
         no_human_chances=False,  # Enable choice system
     )
     
     # Define human choice chance levels to test
-    HUMAN_CHOICE_LEVELS = [0.0, 20.0, 40.0, 60.0, 80.0, 100.0]
-    PRESENTATIONS_PER_LEVEL = 1  # Reduced to 1 for testing
+    HUMAN_CHOICE_LEVELS = [50.0]
+    PRESENTATIONS_PER_LEVEL = 10  # Reduced to 1 for testing
     
     print_(f"🎯 Testing {len(HUMAN_CHOICE_LEVELS)} human choice levels: {HUMAN_CHOICE_LEVELS}")
     print_(f"📊 {PRESENTATIONS_PER_LEVEL} presentations per level = {len(HUMAN_CHOICE_LEVELS) * PRESENTATIONS_PER_LEVEL} total presentations")
@@ -178,6 +178,20 @@ def main():
     # Select random topics once at the start
     import random
     selected_topics = random.sample(PRESENTATION_TOPICS, PRESENTATIONS_PER_LEVEL)
+
+    if 1:
+        selected_topics = ['Artificial Intelligence and Machine Learning',
+        'Sustainable Agriculture',
+        'Public Health Crises Management', 
+        'Literature in the Digital Age', 
+        'Medical Technology Advances', 
+        'Theater and Performance Arts', 
+        'Gender Equality in the Workplace', 
+        'Vaccine Development Process', 
+        'The Renaissance Period', 
+        'Immigration and Cultural Integration', 'Robotics and Automation', 'Wildlife Conservation Efforts', 'Criminal Justice Reform', 'Climate Change and Renewable Energy', 'Alternative Medicine Practices', 'Financial Technology (FinTech)', 'Exercise Science and Fitness', 'Ancient Greek Philosophy', 'Modern Art Movements', 'Cybersecurity in the Digital Age']
+        selected_topics = selected_topics[:PRESENTATIONS_PER_LEVEL]
+
     print_(f"📝 Selected topics for this experiment: {selected_topics}")
     
     # Initialize presentation ID counter

@@ -1,0 +1,1409 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T15:45:27.994381
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_15-45-27.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 2...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Public Health Crises Management
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Epidemiology of infectious diseases, Crisis communication strategies
+Selected topics: ['Epidemiology of infectious diseases', 'Crisis communication strategies']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Epidemiology of infectious diseases
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **EPIDEMIOLOGY OF INFECTIOUS DISEASES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 0.4 <= 20.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Epidemiology of Infectious Diseases: An Overview",
+    "keywords": ["epidemiology", "infectious diseases", "transmission", "outbreaks", "prevention"],
+    "text": "Epidemiology is the study of how diseases spread and impact populations. Infectious diseases are caused by pathogens such as bacteria, viruses, parasites, or fungi, and can be transmitted from person to person or through other vectors. Understanding the epidemiology of infectious diseases involves studying how they are transmitted, their patterns of occurrence in different populations, and the factors that contribute to outbreaks. Epidemiologists use data analysis and surveillance to track and monitor infectious diseases, identify risk factors, and develop strategies for prevention and control.",
+    "link": "https://www.cdc.gov/ophss/csels/dsepd/ss1978/lesson1/section11.html"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Epidemiology of Infectious Diseases: An Overview",
+    "keywords": ["epidemiology", "infectious diseases", "outbreaks", "transmission", "prevention"],
+    "text": "Epidemiology of infectious diseases is the study of the distribution and determinants of health-related states or events in specified populations, and the application of this study to the control of health problems. It involves investigating how diseases spread, identifying risk factors, tracking outbreaks, and implementing strategies for prevention and control.",
+    "link": "https://www.who.int/health-topics/epidemiology"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Epidemiology of Infectious Diseases: An Overview",
+    "keywords": ["epidemiology", "infectious diseases", "transmission", "outbreaks", "prevention"],
+    "text": "Epidemiology is the study of how diseases spread and impact populations. Infectious diseases are caused by pathogens such as bacteria, viruses, parasites, or fungi, and can be transmitted from person to person or through other vectors. Understanding the epidemiology of infectious diseases involves studying how they are transmitted, their patterns of occurrence in different populations, and the factors that contribute to outbreaks. Epidemiologists use data analysis and surveillance to track and monitor infectious diseases, identify risk factors, and develop strategies for prevention and control.",
+    "link": "https://www.cdc.gov/ophss/csels/dsepd/ss1978/lesson1/section11.html"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Epidemiology of Infectious Diseases: An Overview
+Keywords: epidemiology, infectious diseases, transmission, outbreaks, prevention
+Uses: 0
+Text: Epidemiology is the study of how diseases spread and impact populations. Infectious diseases are caused by pathogens such as bacteria, viruses, parasites, or fungi, and can be transmitted from person to person or through other vectors. Understanding the epidemiology of infectious diseases involves studying how they are transmitted, their patterns of occurrence in different populations, and the factors that contribute to outbreaks. Epidemiologists use data analysis and surveillance to track and monitor infectious diseases, identify risk factors, and develop strategies for prevention and control.Link: https://www.cdc.gov/ophss/csels/dsepd/ss1978/lesson1/section11.html
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **EPIDEMIOLOGY OF INFECTIOUS DISEASES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Global Infectious Disease Epidemiology",
+    "keywords": ["global", "infectious disease", "epidemiology"],
+    "text": "Global infectious disease epidemiology focuses on studying the distribution and determinants of infectious diseases on a global scale. This includes analyzing patterns of disease spread, identifying risk factors, and developing strategies for prevention and control.",
+    "link": "https://www.who.int/health-topics/infectious-diseases#tab=tab_1"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Global Infectious Disease Epidemiology
+Keywords: global, infectious disease, epidemiology
+Uses: 0
+Text: Global infectious disease epidemiology focuses on studying the distribution and determinants of infectious diseases on a global scale. This includes analyzing patterns of disease spread, identifying risk factors, and developing strategies for prevention and control.Link: https://www.who.int/health-topics/infectious-diseases#tab=tab_1
+Researching topic: Crisis communication strategies
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CRISIS COMMUNICATION STRATEGIES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Crisis Communication Strategies in Public Health",
+    "keywords": ["crisis communication", "public health", "emergency response", "communication strategies"],
+    "text": "Crisis communication strategies in public health involve the timely and transparent dissemination of information to the public during emergencies such as disease outbreaks or natural disasters. Effective communication helps to build trust, manage public perception, and encourage compliance with recommended health measures.",
+    "link": "https://www.cdc.gov/crisiscommunication/index.html"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Crisis Communication Strategies in Public Health
+Keywords: crisis communication, public health, emergency response, communication strategies
+Uses: 0
+Text: Crisis communication strategies in public health involve the timely and transparent dissemination of information to the public during emergencies such as disease outbreaks or natural disasters. Effective communication helps to build trust, manage public perception, and encourage compliance with recommended health measures.Link: https://www.cdc.gov/crisiscommunication/index.html
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CRISIS COMMUNICATION STRATEGIES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Effective Crisis Communication in Public Health",
+    "keywords": ["crisis communication", "public health", "emergency response", "risk communication"],
+    "text": "Effective crisis communication in public health involves timely, transparent, and accurate dissemination of information to the public during emergencies such as disease outbreaks or natural disasters. It is essential to establish trust with the community, address their concerns, and provide guidance on protective actions. Communication strategies should be tailored to the audience, utilize multiple channels, and involve key stakeholders in the process.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5810321/"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Effective Crisis Communication in Public Health
+Keywords: crisis communication, public health, emergency response, risk communication
+Uses: 0
+Text: Effective crisis communication in public health involves timely, transparent, and accurate dissemination of information to the public during emergencies such as disease outbreaks or natural disasters. It is essential to establish trust with the community, address their concerns, and provide guidance on protective actions. Communication strategies should be tailored to the audience, utilize multiple channels, and involve key stakeholders in the process.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5810321/
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Public Health Crises Management) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Epidemiology of infectious diseases', 'Crisis communication strategies']. The research these yeilded is: ({Epidemiology is the study of how diseases spread and impact populations. Infectious diseases are caused by pathogens such as bacteria, viruses, parasites, or fungi, and can be transmitted from person to person or through other vectors. Understanding the epidemiology of infectious diseases involves studying how they are transmitted, their patterns of occurrence in different populations, and the factors that contribute to outbreaks. Epidemiologists use data analysis and surveillance to track and monitor infectious diseases, identify risk factors, and develop strategies for prevention and control.
+
+Global infectious disease epidemiology focuses on studying the distribution and determinants of infectious diseases on a global scale. This includes analyzing patterns of disease spread, identifying risk factors, and developing strategies for prevention and control.
+
+Crisis communication strategies in public health involve the timely and transparent dissemination of information to the public du (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Surveillance methods for infectious diseases, Outbreak investigation techniques, Public health intervention strategies, Risk assessment in epidemiology, Disease modeling and forecasting, Community engagement in crisis management
+Selected topics: ['Surveillance methods for infectious diseases', 'Outbreak investigation techniques', 'Public health intervention strategies', 'Risk assessment in epidemiology', 'Disease modeling and forecasting', 'Community engagement in crisis management']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Surveillance methods for infectious diseases
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health', 'Effective Crisis Communication in Public Health']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SURVEILLANCE METHODS FOR INFECTIOUS DISEASES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Surveillance Methods for Infectious Diseases: An Overview",
+    "keywords": ["surveillance methods", "infectious diseases", "public health", "epidemiology"],
+    "text": "Surveillance methods for infectious diseases involve the systematic collection, analysis, and interpretation of health data in order to inform public health action. These methods help in monitoring the spread of diseases, identifying outbreaks, and evaluating the effectiveness of control measures.",
+    "link": "https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section1.html"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Surveillance Methods for Infectious Diseases: An Overview
+Keywords: surveillance methods, infectious diseases, public health, epidemiology
+Uses: 0
+Text: Surveillance methods for infectious diseases involve the systematic collection, analysis, and interpretation of health data in order to inform public health action. These methods help in monitoring the spread of diseases, identifying outbreaks, and evaluating the effectiveness of control measures.Link: https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section1.html
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health', 'Effective Crisis Communication in Public Health', 'Surveillance Methods for Infectious Diseases: An Overview']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SURVEILLANCE METHODS FOR INFECTIOUS DISEASES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Use of Digital Surveillance for Infectious Diseases",
+    "keywords": ["digital surveillance", "infectious diseases", "real-time data", "public health"],
+    "text": "Digital surveillance involves the use of technology, such as social media, internet searches, and mobile phone data, to track and monitor infectious diseases in real-time. This method allows public health officials to quickly identify outbreaks, track the spread of diseases, and implement timely interventions to control the spread of the disease.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6466467/"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Use of Digital Surveillance for Infectious Diseases
+Keywords: digital surveillance, infectious diseases, real-time data, public health
+Uses: 0
+Text: Digital surveillance involves the use of technology, such as social media, internet searches, and mobile phone data, to track and monitor infectious diseases in real-time. This method allows public health officials to quickly identify outbreaks, track the spread of diseases, and implement timely interventions to control the spread of the disease.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6466467/
+Researching topic: Outbreak investigation techniques
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health', 'Effective Crisis Communication in Public Health', 'Surveillance Methods for Infectious Diseases: An Overview', 'Use of Digital Surveillance for Infectious Diseases']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **OUTBREAK INVESTIGATION TECHNIQUES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Outbreak Investigation Techniques: An Overview",
+    "keywords": ["outbreak investigation", "public health crises", "disease control", "epidemiology", "contact tracing"],
+    "text": "Outbreak investigation techniques involve a series of steps aimed at identifying the source of an outbreak, understanding how the disease is spreading, and implementing control measures to prevent further transmission. These techniques typically include case identification, data collection and analysis, contact tracing, environmental investigations, and communication with the public and relevant stakeholders.",
+    "link": "https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section11.html"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Outbreak Investigation Techniques: An Overview
+Keywords: outbreak investigation, public health crises, disease control, epidemiology, contact tracing
+Uses: 0
+Text: Outbreak investigation techniques involve a series of steps aimed at identifying the source of an outbreak, understanding how the disease is spreading, and implementing control measures to prevent further transmission. These techniques typically include case identification, data collection and analysis, contact tracing, environmental investigations, and communication with the public and relevant stakeholders.Link: https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section11.html
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health', 'Effective Crisis Communication in Public Health', 'Surveillance Methods for Infectious Diseases: An Overview', 'Use of Digital Surveillance for Infectious Diseases', 'Outbreak Investigation Techniques: An Overview']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **OUTBREAK INVESTIGATION TECHNIQUES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Outbreak Investigation Methods and Techniques in Public Health",
+    "keywords": ["outbreak investigation", "public health", "methods", "techniques"],
+    "text": "Outbreak investigation methods and techniques in public health involve the systematic collection and analysis of data to identify the source of an outbreak, determine the extent of the problem, and implement control measures. These methods typically include case identification, case definition, data collection, descriptive epidemiology, hypothesis generation, analytical studies, laboratory testing, and communication of findings.",
+    "link": "https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section11.html"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Outbreak Investigation Methods and Techniques in Public Health
+Keywords: outbreak investigation, public health, methods, techniques
+Uses: 0
+Text: Outbreak investigation methods and techniques in public health involve the systematic collection and analysis of data to identify the source of an outbreak, determine the extent of the problem, and implement control measures. These methods typically include case identification, case definition, data collection, descriptive epidemiology, hypothesis generation, analytical studies, laboratory testing, and communication of findings.Link: https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section11.html
+Researching topic: Public health intervention strategies
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health', 'Effective Crisis Communication in Public Health', 'Surveillance Methods for Infectious Diseases: An Overview', 'Use of Digital Surveillance for Infectious Diseases', 'Outbreak Investigation Techniques: An Overview', 'Outbreak Investigation Methods and Techniques in Public Health']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **PUBLIC HEALTH INTERVENTION STRATEGIES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Public Health Intervention Strategies: An Overview",
+    "keywords": ["public health intervention", "strategies", "public health crisis management"],
+    "text": "Public health intervention strategies refer to the various actions and measures implemented by public health authorities to prevent, control, and manage public health crises. These strategies can include vaccination campaigns, quarantine measures, public education programs, contact tracing, and the distribution of medical supplies. The goal of these interventions is to limit the spread of infectious diseases, protect the health of the population, and minimize the impact of public health emergencies.",
+    "link": "https://www.who.int/health-topics/public-health-intervention-strategies"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Public Health Intervention Strategies: An Overview
+Keywords: public health intervention, strategies, public health crisis management
+Uses: 0
+Text: Public health intervention strategies refer to the various actions and measures implemented by public health authorities to prevent, control, and manage public health crises. These strategies can include vaccination campaigns, quarantine measures, public education programs, contact tracing, and the distribution of medical supplies. The goal of these interventions is to limit the spread of infectious diseases, protect the health of the population, and minimize the impact of public health emergencies.Link: https://www.who.int/health-topics/public-health-intervention-strategies
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health', 'Effective Crisis Communication in Public Health', 'Surveillance Methods for Infectious Diseases: An Overview', 'Use of Digital Surveillance for Infectious Diseases', 'Outbreak Investigation Techniques: An Overview', 'Outbreak Investigation Methods and Techniques in Public Health', 'Public Health Intervention Strategies: An Overview']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **PUBLIC HEALTH INTERVENTION STRATEGIES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Community-Based Intervention Strategies in Public Health",
+    "keywords": ["community-based", "intervention strategies", "public health"],
+    "text": "Community-based intervention strategies in public health involve engaging with local communities to address health issues and promote positive health outcomes. These strategies often involve collaboration with community leaders, organizations, and residents to design and implement programs that are culturally appropriate and effective. Examples of community-based intervention strategies include health education workshops, support groups, outreach programs, and community health fairs.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC143569/"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Community-Based Intervention Strategies in Public Health
+Keywords: community-based, intervention strategies, public health
+Uses: 0
+Text: Community-based intervention strategies in public health involve engaging with local communities to address health issues and promote positive health outcomes. These strategies often involve collaboration with community leaders, organizations, and residents to design and implement programs that are culturally appropriate and effective. Examples of community-based intervention strategies include health education workshops, support groups, outreach programs, and community health fairs.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC143569/
+Researching topic: Risk assessment in epidemiology
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health', 'Effective Crisis Communication in Public Health', 'Surveillance Methods for Infectious Diseases: An Overview', 'Use of Digital Surveillance for Infectious Diseases', 'Outbreak Investigation Techniques: An Overview', 'Outbreak Investigation Methods and Techniques in Public Health', 'Public Health Intervention Strategies: An Overview', 'Community-Based Intervention Strategies in Public Health']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RISK ASSESSMENT IN EPIDEMIOLOGY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Risk Assessment in Epidemiology",
+    "keywords": ["risk assessment", "epidemiology", "public health", "crisis management", "infectious diseases"],
+    "text": "Risk assessment in epidemiology is the process of identifying, evaluating, and prioritizing potential risks associated with infectious diseases or other public health threats. This involves analyzing the likelihood of an event occurring and the potential impact it could have on a population. By conducting risk assessments, public health officials can better understand the level of threat posed by a particular disease outbreak and develop effective strategies to mitigate risks and protect the community.",
+    "link": "https://www.who.int/environmental_health_emergencies/publications/epidemiology/en/"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Risk Assessment in Epidemiology
+Keywords: risk assessment, epidemiology, public health, crisis management, infectious diseases
+Uses: 0
+Text: Risk assessment in epidemiology is the process of identifying, evaluating, and prioritizing potential risks associated with infectious diseases or other public health threats. This involves analyzing the likelihood of an event occurring and the potential impact it could have on a population. By conducting risk assessments, public health officials can better understand the level of threat posed by a particular disease outbreak and develop effective strategies to mitigate risks and protect the community.Link: https://www.who.int/environmental_health_emergencies/publications/epidemiology/en/
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health', 'Effective Crisis Communication in Public Health', 'Surveillance Methods for Infectious Diseases: An Overview', 'Use of Digital Surveillance for Infectious Diseases', 'Outbreak Investigation Techniques: An Overview', 'Outbreak Investigation Methods and Techniques in Public Health', 'Public Health Intervention Strategies: An Overview', 'Community-Based Intervention Strategies in Public Health', 'Risk Assessment in Epidemiology']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RISK ASSESSMENT IN EPIDEMIOLOGY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of Risk Assessment in Epidemiology",
+    "keywords": ["risk assessment", "epidemiology", "public health", "crisis management"],
+    "text": "Risk assessment in epidemiology involves identifying, evaluating, and prioritizing potential risks associated with the spread of diseases within a population. This process helps public health officials make informed decisions on how to allocate resources and implement interventions to prevent or control outbreaks. By assessing the likelihood and impact of different risks, epidemiologists can develop strategies to mitigate the spread of infectious diseases and protect public health.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2586921/"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: The Role of Risk Assessment in Epidemiology
+Keywords: risk assessment, epidemiology, public health, crisis management
+Uses: 0
+Text: Risk assessment in epidemiology involves identifying, evaluating, and prioritizing potential risks associated with the spread of diseases within a population. This process helps public health officials make informed decisions on how to allocate resources and implement interventions to prevent or control outbreaks. By assessing the likelihood and impact of different risks, epidemiologists can develop strategies to mitigate the spread of infectious diseases and protect public health.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2586921/
+Researching topic: Disease modeling and forecasting
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health', 'Effective Crisis Communication in Public Health', 'Surveillance Methods for Infectious Diseases: An Overview', 'Use of Digital Surveillance for Infectious Diseases', 'Outbreak Investigation Techniques: An Overview', 'Outbreak Investigation Methods and Techniques in Public Health', 'Public Health Intervention Strategies: An Overview', 'Community-Based Intervention Strategies in Public Health', 'Risk Assessment in Epidemiology', 'The Role of Risk Assessment in Epidemiology']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **DISEASE MODELING AND FORECASTING** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Disease Modeling and Forecasting in Public Health",
+    "keywords": ["disease modeling", "forecasting", "public health", "epidemiology"],
+    "text": "Disease modeling and forecasting are essential tools in public health for predicting the spread and impact of infectious diseases. These models use mathematical algorithms to simulate disease transmission dynamics, taking into account factors such as population demographics, disease characteristics, and intervention strategies. By analyzing past data and trends, researchers can make projections about future disease outbreaks, helping public health officials to better prepare and respond effectively.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7152865/"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Disease Modeling and Forecasting in Public Health
+Keywords: disease modeling, forecasting, public health, epidemiology
+Uses: 0
+Text: Disease modeling and forecasting are essential tools in public health for predicting the spread and impact of infectious diseases. These models use mathematical algorithms to simulate disease transmission dynamics, taking into account factors such as population demographics, disease characteristics, and intervention strategies. By analyzing past data and trends, researchers can make projections about future disease outbreaks, helping public health officials to better prepare and respond effectively.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7152865/
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health', 'Effective Crisis Communication in Public Health', 'Surveillance Methods for Infectious Diseases: An Overview', 'Use of Digital Surveillance for Infectious Diseases', 'Outbreak Investigation Techniques: An Overview', 'Outbreak Investigation Methods and Techniques in Public Health', 'Public Health Intervention Strategies: An Overview', 'Community-Based Intervention Strategies in Public Health', 'Risk Assessment in Epidemiology', 'The Role of Risk Assessment in Epidemiology', 'Disease Modeling and Forecasting in Public Health']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **DISEASE MODELING AND FORECASTING** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Machine Learning for Disease Modeling and Forecasting",
+    "keywords": ["machine learning", "disease modeling", "forecasting"],
+    "text": "Machine learning techniques are increasingly being used in disease modeling and forecasting to predict the spread of infectious diseases. These methods analyze large datasets to identify patterns and make predictions about future outbreaks. By incorporating various factors such as population density, travel patterns, and environmental conditions, machine learning models can provide valuable insights for public health officials to better prepare and respond to potential health crises.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7320909/"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Machine Learning for Disease Modeling and Forecasting
+Keywords: machine learning, disease modeling, forecasting
+Uses: 0
+Text: Machine learning techniques are increasingly being used in disease modeling and forecasting to predict the spread of infectious diseases. These methods analyze large datasets to identify patterns and make predictions about future outbreaks. By incorporating various factors such as population density, travel patterns, and environmental conditions, machine learning models can provide valuable insights for public health officials to better prepare and respond to potential health crises.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7320909/
+Researching topic: Community engagement in crisis management
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health', 'Effective Crisis Communication in Public Health', 'Surveillance Methods for Infectious Diseases: An Overview', 'Use of Digital Surveillance for Infectious Diseases', 'Outbreak Investigation Techniques: An Overview', 'Outbreak Investigation Methods and Techniques in Public Health', 'Public Health Intervention Strategies: An Overview', 'Community-Based Intervention Strategies in Public Health', 'Risk Assessment in Epidemiology', 'The Role of Risk Assessment in Epidemiology', 'Disease Modeling and Forecasting in Public Health', 'Machine Learning for Disease Modeling and Forecasting']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **COMMUNITY ENGAGEMENT IN CRISIS MANAGEMENT** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 15.6 <= 20.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Community Engagement in Crisis Management",
+    "keywords": ["community engagement", "crisis management", "public health", "community involvement", "disaster response"],
+    "text": "Community engagement in crisis management involves actively involving community members in decision-making processes, disseminating information, and mobilizing resources during public health emergencies. It is essential for building trust, promoting transparency, and ensuring effective communication between public health officials and the community.",
+    "link": "https://www.who.int/risk-communication/guides/community_engagement/en/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Community Engagement in Crisis Management",
+    "keywords": ["community engagement", "crisis management", "public health", "community involvement", "disaster response"],
+    "text": "Community engagement in crisis management involves actively involving community members in decision-making processes, preparedness activities, and response efforts during a public health crisis. This approach recognizes the importance of local knowledge, resources, and networks in effectively addressing emergencies. By fostering partnerships with community organizations, leaders, and residents, public health agencies can enhance communication, trust, and collaboration to better protect and support the community during times of crisis.",
+    "link": "https://www.cdc.gov/phpr/community-engagement.html"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Community Engagement in Crisis Management",
+    "keywords": ["community engagement", "crisis management", "public health", "community involvement", "disaster response"],
+    "text": "Community engagement in crisis management involves actively involving community members in decision-making processes, preparedness activities, and response efforts during a public health crisis. This approach recognizes the importance of local knowledge, resources, and networks in effectively addressing emergencies. By fostering partnerships with community organizations, leaders, and residents, public health agencies can enhance communication, trust, and collaboration to better protect and support the community during times of crisis.",
+    "link": "https://www.cdc.gov/phpr/community-engagement.html"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Community Engagement in Crisis Management
+Keywords: community engagement, crisis management, public health, community involvement, disaster response
+Uses: 0
+Text: Community engagement in crisis management involves actively involving community members in decision-making processes, preparedness activities, and response efforts during a public health crisis. This approach recognizes the importance of local knowledge, resources, and networks in effectively addressing emergencies. By fostering partnerships with community organizations, leaders, and residents, public health agencies can enhance communication, trust, and collaboration to better protect and support the community during times of crisis.Link: https://www.cdc.gov/phpr/community-engagement.html
+Prompt:
+Initial Prompt: (Public Health Crises Management) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Epidemiology of Infectious Diseases: An Overview', 'Global Infectious Disease Epidemiology', 'Crisis Communication Strategies in Public Health', 'Effective Crisis Communication in Public Health', 'Surveillance Methods for Infectious Diseases: An Overview', 'Use of Digital Surveillance for Infectious Diseases', 'Outbreak Investigation Techniques: An Overview', 'Outbreak Investigation Methods and Techniques in Public Health', 'Public Health Intervention Strategies: An Overview', 'Community-Based Intervention Strategies in Public Health', 'Risk Assessment in Epidemiology', 'The Role of Risk Assessment in Epidemiology', 'Disease Modeling and Forecasting in Public Health', 'Machine Learning for Disease Modeling and Forecasting', 'Community Engagement in Crisis Management']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **COMMUNITY ENGAGEMENT IN CRISIS MANAGEMENT** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Community Engagement in Crisis Management: Best Practices and Strategies",
+    "keywords": ["community engagement", "crisis management", "public health", "community involvement", "disaster response"],
+    "text": "Community engagement in crisis management refers to the involvement of community members in decision-making processes, resource allocation, and response efforts during a crisis or public health emergency. This approach recognizes the importance of local knowledge, cultural understanding, and social networks in effectively addressing emergencies. Best practices include establishing partnerships with community leaders, conducting outreach and education campaigns, involving community members in planning and decision-making, and providing opportunities for feedback and input. By actively engaging with the community, public health agencies can improve trust, enhance communication, and promote resilience in the face of crises.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4949772/"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Community Engagement in Crisis Management: Best Practices and Strategies
+Keywords: community engagement, crisis management, public health, community involvement, disaster response
+Uses: 0
+Text: Community engagement in crisis management refers to the involvement of community members in decision-making processes, resource allocation, and response efforts during a crisis or public health emergency. This approach recognizes the importance of local knowledge, cultural understanding, and social networks in effectively addressing emergencies. Best practices include establishing partnerships with community leaders, conducting outreach and education campaigns, involving community members in planning and decision-making, and providing opportunities for feedback and input. By actively engaging with the community, public health agencies can improve trust, enhance communication, and promote resilience in the face of crises.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4949772/
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Public Health Crises Management) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Epidemiology is the study of how diseases spread and impact populations. Infectious diseases are caused by pathogens such as bacteria, viruses, parasites, or fungi, and can be transmitted from person to person or through other vectors. Understanding the epidemiology of infectious diseases involves s...
+
+Global infectious disease epidemiology focuses on studying the distribution and determinants of infectious diseases on a global scale. This includes analyzing patterns of disease spread, identifying risk factors, and developing strategies for prevention and control.
+
+Crisis communication strategies in public health involve the timely and transparent dissemination of information to the public during emergencies such as disease outbreaks or natural disasters. Effective communication helps to build trust, manage public perception, and encourage compliance with reco...
+
+Effective crisis communication in public health involves timely, transparent, and accurate dissemination of information to the public during emergencies such as disease outbreaks or natural disasters. It is essential to establish trust with the community, address their concerns, and provide guidance...
+
+Surveillance methods for infectious diseases involve the systematic collection, analysis, and interpretation of health data in order to inform public health action. These methods help in monitoring the spread of diseases, identifying outbreaks, and evaluating the effectiveness of control measures.
+
+Digital surveillance involves the use of technology, such as social media, internet searches, and mobile phone data, to track and monitor infectious diseases in real-time. This method allows public health officials to quickly identify outbreaks, track the spread of diseases, and implement timely int...
+
+Outbreak investigation techniques involve a series of steps aimed at identifying the source of an outbreak, understanding how the disease is spreading, and implementing control measures to prevent further transmission. These techniques typically include case identification, data collection and analy...
+
+Outbreak investigation methods and techniques in public health involve the systematic collection and analysis of data to identify the source of an outbreak, determine the extent of the problem, and implement control measures. These methods typically include case identification, case definition, data...
+
+Public health intervention strategies refer to the various actions and measures implemented by public health authorities to prevent, control, and manage public health crises. These strategies can include vaccination campaigns, quarantine measures, public education programs, contact tracing, and the ...
+
+Community-based intervention strategies in public health involve engaging with local communities to address health issues and promote positive health outcomes. These strategies often involve collaboration with community leaders, organizations, and residents to design and implement programs that are ...
+
+Risk assessment in epidemiology is the process of identifying, evaluating, and prioritizing potential risks associated with infectious diseases or other public health threats. This involves analyzing the likelihood of an event occurring and the potential impact it could have on a population. By cond...
+
+Risk assessment in epidemiology involves identifying, evaluating, and prioritizing potential risks associated with the spread of diseases within a population. This process helps public health officials make informed decisions on how to allocate resources and implement interventions to prevent or con...
+
+Disease modeling and forecasting are essential tools in public health for predicting the spread and impact of infectious diseases. These models use mathematical algorithms to simulate disease transmission dynamics, taking into account factors such as population demographics, disease characteristics,...
+
+Machine learning techniques are increasingly being used in disease modeling and forecasting to predict the spread of infectious diseases. These methods analyze large datasets to identify patterns and make predictions about future outbreaks. By incorporating various factors such as population density...
+
+Community engagement in crisis management involves actively involving community members in decision-making processes, preparedness activities, and response efforts during a public health crisis. This approach recognizes the importance of local knowledge, resources, and networks in effectively addres...
+
+Community engagement in crisis management refers to the involvement of community members in decision-making processes, resource allocation, and response efforts during a crisis or public health emergency. This approach recognizes the importance of local knowledge, cultural understanding, and social ...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+Raw response:
+8
+.
+Topic count decided: 8
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Public Health Crises Management) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Epidemiology is the study of how diseases spread and impact populations. Infectious diseases are caused by pathogens such as bacteria, viruses, parasites, or fungi, and can be transmitted from person to person or through other vectors. Understanding the epidemiology of infectious diseases involves s...
+
+Global infectious disease epidemiology focuses on studying the distribution and determinants of infectious diseases on a global scale. This includes analyzing patterns of disease spread, identifying risk factors, and developing strategies for prevention and control.
+
+Crisis communication strategies in public health involve the timely and transparent dissemination of information to the public during emergencies such as disease outbreaks or natural disasters. Effective communication helps to build trust, manage public perception, and encourage compliance with reco...
+
+Effective crisis communication in public health involves timely, transparent, and accurate dissemination of information to the public during emergencies such as disease outbreaks or natural disasters. It is essential to establish trust with the community, address their concerns, and provide guidance...
+
+Surveillance methods for infectious diseases involve the systematic collection, analysis, and interpretation of health data in order to inform public health action. These methods help in monitoring the spread of diseases, identifying outbreaks, and evaluating the effectiveness of control measures.
+
+Digital surveillance involves the use of technology, such as social media, internet searches, and mobile phone data, to track and monitor infectious diseases in real-time. This method allows public health officials to quickly identify outbreaks, track the spread of diseases, and implement timely int...
+
+Outbreak investigation techniques involve a series of steps aimed at identifying the source of an outbreak, understanding how the disease is spreading, and implementing control measures to prevent further transmission. These techniques typically include case identification, data collection and analy...
+
+Outbreak investigation methods and techniques in public health involve the systematic collection and analysis of data to identify the source of an outbreak, determine the extent of the problem, and implement control measures. These methods typically include case identification, case definition, data...
+
+Public health intervention strategies refer to the various actions and measures implemented by public health authorities to prevent, control, and manage public health crises. These strategies can include vaccination campaigns, quarantine measures, public education programs, contact tracing, and the ...
+
+Community-based intervention strategies in public health involve engaging with local communities to address health issues and promote positive health outcomes. These strategies often involve collaboration with community leaders, organizations, and residents to design and implement programs that are ...
+
+Risk assessment in epidemiology is the process of identifying, evaluating, and prioritizing potential risks associated with infectious diseases or other public health threats. This involves analyzing the likelihood of an event occurring and the potential impact it could have on a population. By cond...
+
+Risk assessment in epidemiology involves identifying, evaluating, and prioritizing potential risks associated with the spread of diseases within a population. This process helps public health officials make informed decisions on how to allocate resources and implement interventions to prevent or con...
+
+Disease modeling and forecasting are essential tools in public health for predicting the spread and impact of infectious diseases. These models use mathematical algorithms to simulate disease transmission dynamics, taking into account factors such as population demographics, disease characteristics,...
+
+Machine learning techniques are increasingly being used in disease modeling and forecasting to predict the spread of infectious diseases. These methods analyze large datasets to identify patterns and make predictions about future outbreaks. By incorporating various factors such as population density...
+
+Community engagement in crisis management involves actively involving community members in decision-making processes, preparedness activities, and response efforts during a public health crisis. This approach recognizes the importance of local knowledge, resources, and networks in effectively addres...
+
+Community engagement in crisis management refers to the involvement of community members in decision-making processes, resource allocation, and response efforts during a crisis or public health emergency. This approach recognizes the importance of local knowledge, cultural understanding, and social ...}). You are to come up with {8} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Week 1: Introduction to Global Infectious Disease Epidemiology
+
+Main Topic Title: Overview of Global Infectious Disease Epidemiology
+1. Sub-Topic: Definition and Scope of Infectious Disease Epidemiology
+   - Explanation: Understanding the basics of infectious disease epidemiology, including the study of disease spread, risk factors, and prevention strategies.
+   - Learning Objectives: Define infectious disease epidemiology and explain its importance in public health.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Conduct a case study analysis of a recent infectious disease outbreak and discuss the epidemiological factors involved.
+   - Real-World Applications: Explore how global infectious disease epidemiology has influenced public health policies and interventions.
+
+2. Sub-Topic: Patterns of Disease Spread
+   - Explanation: Analyzing the patterns of infectious disease spread on a global scale, including transmission routes and geographical distribution.
+   - Learning Objectives: Identify common patterns of disease spread and understand the factors influencing disease transmission.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Map the spread of a specific infectious disease using available data sources and discuss the implications for public health interventions.
+   - Real-World Applications: Examine how patterns of disease spread impact the effectiveness of control measures during outbreaks.
+
+3. Sub-Topic: Risk Factors and Prevention Strategies
+   - Explanation: Exploring the risk factors associated with infectious diseases and discussing strategies for prevention and control.
+   - Learning Objectives: Identify key risk factors for infectious diseases and evaluate the effectiveness of various prevention strategies.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Develop a risk assessment tool for a hypothetical infectious disease outbreak scenario and propose preventive measures based on the findings.
+   - Real-World Applications: Analyze case studies of successful public health interventions aimed at reducing the burden of infectious diseases globally.
+
+Week 2: Crisis Communication in Public Health
+
+Main Topic Title: Principles of Crisis Communication in Public Health
+1. Sub-Topic: Importance of Timely and Transparent Communication
+   - Explanation: Discussing the significance of timely, transparent, and accurate communication in public health crises to build trust and manage public perception.
+   - Learning Objectives: Understand the role of effective communication in crisis management and its impact on public health outcomes.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Role-play scenarios of crisis communication during a disease outbreak and evaluate the effectiveness of different communication strategies.
+   - Real-World Applications: Analyze case studies of past public health emergencies to identify best practices in crisis communication.
+
+2. Sub-Topic: Establishing Trust and Addressing Community Concerns
+   - Explanation: Exploring strategies for establishing trust with the community, addressing their concerns, and providing guidance during public health crises.
+   - Learning Objectives: Learn how to build trust with the community, address public concerns, and promote compliance with public health recommendations.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Develop a crisis communication plan for a fictional public health emergency, focusing on building trust and addressing community concerns.
+   - Real-World Applications: Examine the role of trust and community engagement in successful crisis communication efforts during disease outbreaks.
+
+3. Sub-Topic: Strategies for Effective Communication
+   - Explanation: Discussing practical strategies for effective crisis communication in public health, including message framing, audience segmentation, and media relations.
+   - Learning Objectives: Identify key components of effective crisis communication strategies and apply them to real-world scenarios.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Analyze different communication campaigns used during recent public health crises and evaluate their effectiveness in reaching target audiences.
+   - Real-World Applications: Explore how digital platforms and social media have transformed crisis communication in public health and discuss best practices for leveraging these tools.
+
+Week 3: Surveillance Methods for Infectious Diseases
+
+Main Topic Title: Surveillance Methods for Infectious Diseases
+1. Sub-Topic: Overview of Disease Surveillance
+   - Explanation: Introducing the concept of disease surveillance and its role in monitoring the spread of infectious diseases and guiding public health action.
+   - Learning Objectives: Define disease surveillance and explain its importance in infectious disease control.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Analyze surveillance data from a recent infectious disease outbreak and identify trends that inform public health response strategies.
+   - Real-World Applications: Discuss the role of disease surveillance in detecting and responding to emerging infectious disease threats at the global level.
+
+2. Sub-Topic: Types of Surveillance Systems
+   - Explanation: Exploring different types of surveillance systems used in public health, including passive, active, and syndromic surveillance.
+   - Learning Objectives: Compare and contrast various surveillance methods and their applications in infectious disease monitoring.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Design a surveillance system for a specific infectious disease based on the characteristics of the pathogen and the population at risk.
+   - Real-World Applications: Examine case studies of successful surveillance systems implemented during disease outbreaks and evaluate their impact on public health outcomes.
+
+3. Sub-Topic: Role of Digital Surveillance
+   - Explanation: Discussing the use of digital surveillance tools, such as social media and mobile phone data, in tracking and monitoring infectious diseases in real-time.
+   - Learning Objectives: Understand how digital surveillance complements traditional surveillance methods and enhances disease monitoring capabilities.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Collect and analyze social media data related to a recent infectious disease outbreak to assess the feasibility of using digital surveillance for early detection.
+   - Real-World Applications: Explore the ethical and privacy implications of digital surveillance in public health and discuss strategies for mitigating potential risks.
+
+Week 4: Outbreak Investigation Techniques
+
+Main Topic Title: Outbreak Investigation Techniques in Public Health
+1. Sub-Topic: Introduction to Outbreak Investigation
+   - Explanation: Providing an overview of outbreak investigation techniques, including case identification, data collection, and analysis of transmission patterns.
+   - Learning Objectives: Define outbreak investigation and explain its importance in identifying and controlling infectious disease outbreaks.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Conduct a mock outbreak investigation exercise using simulated data sets and practice applying epidemiological methods to identify the source of the outbreak.
+   - Real-World Applications: Analyze case studies of successful outbreak investigations and discuss lessons learned for improving future response efforts.
+
+2. Sub-Topic: Case Definition and Data Collection
+   - Explanation: Discussing the importance of defining cases and collecting relevant data during outbreak investigations to inform control measures.
+   - Learning Objectives: Understand the process of defining cases, collecting data, and analyzing information to identify outbreak sources.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Develop a standardized case definition for a hypothetical infectious disease outbreak and design a data collection plan to gather relevant information.
+   - Real-World Applications: Explore how case definitions and data collection methods influence the accuracy and efficiency of outbreak investigations.
+
+3. Sub-Topic: Implementation of Control Measures
+   - Explanation: Exploring the process of implementing control measures during outbreak investigations to prevent further transmission of infectious diseases.
+   - Learning Objectives: Identify common control measures used in outbreak response and evaluate their effectiveness in containing disease spread.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Design a control strategy for a simulated outbreak scenario, considering factors such as isolation, quarantine, and vaccination to limit disease transmission.
+   - Real-World Applications: Examine the challenges and successes of implementing control measures during past infectious disease outbreaks and discuss strategies for improving response efforts.
+
+Week 5: Public Health Intervention Strategies
+
+Main Topic Title: Public Health Intervention Strategies for Crisis Management
+1. Sub-Topic: Overview of Public Health Interventions
+   - Explanation: Introducing the concept of public health intervention strategies and their role in preventing, controlling, and managing public health crises.
+   - Learning Objectives: Define public health interventions and explain their significance in crisis management and disease control.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Analyze case studies of successful public health interventions implemented during various disease outbreaks and evaluate their impact on population health.
+   - Real-World Applications: Discuss the importance of evidence-based interventions in public health crisis management and explore examples of effective intervention strategies.
+
+2. Sub-Topic: Vaccination Campaigns and Immunization Programs
+   - Explanation: Discussing the role of vaccination campaigns and immunization programs in preventing infectious diseases and reducing disease burden.
+   - Learning Objectives: Understand the principles of vaccination and immunization and their impact on population health.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Develop a vaccination campaign plan for a specific infectious disease based on population demographics, disease characteristics, and available resources.
+   - Real-World Applications: Explore the impact of vaccination campaigns on disease eradication efforts and discuss challenges in achieving high vaccination coverage rates.
+
+3. Sub-Topic: Contact Tracing and Surveillance
+   - Explanation: Exploring the use of contact tracing and surveillance methods in identifying and monitoring individuals exposed to infectious diseases.
+   - Learning Objectives: Explain the importance of contact tracing in disease control and surveillance in outbreak detection and response.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Conduct a contact tracing exercise using hypothetical case scenarios and practice developing strategies for identifying and monitoring contacts of infected individuals.
+   - Real-World Applications: Analyze the role of contact tracing and surveillance in controlling disease outbreaks, such as Ebola and COVID-19, and discuss lessons learned for improving future response efforts.
+
+Week 6: Community-Based Intervention Strategies
+
+Main Topic Title: Community-Based Intervention Strategies in Public Health
+1. Sub-Topic: Community Engagement in Public Health
+   - Explanation: Discussing the importance of community engagement in addressing health issues and promoting positive health outcomes.
+   - Learning Objectives: Define community engagement and explain its role in public health intervention strategies.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Facilitate a community engagement workshop with local stakeholders to identify health priorities and develop action plans for addressing community needs.
+   - Real-World Applications: Explore case studies of successful community-based intervention programs and discuss the impact of community engagement on health outcomes.
+
+2. Sub-Topic: Collaboration with Community Leaders and Organizations
+   - Explanation: Exploring the benefits of collaborating with community leaders and organizations to design and implement effective public health programs.
+   - Learning Objectives: Understand the importance of partnerships in community-based interventions and their impact on program sustainability.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Role-play scenarios of engaging with community leaders to advocate for public health initiatives and practice negotiating partnership agreements.
+   - Real-World Applications: Analyze examples of successful partnerships between public health agencies and community organizations to address health disparities and improve health outcomes.
+
+3. Sub-Topic: Design and Implementation of Community Programs
+   - Explanation: Discussing the process of designing and implementing community programs to address health issues and promote behavior change.
+   - Learning Objectives: Learn how to plan, implement, and evaluate community-based interventions to achieve positive health outcomes.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Develop a community-based intervention plan for a specific health issue in collaboration with local stakeholders and present the program design to the class.
+   - Real-World Applications: Explore the impact of community programs on health behavior change and disease prevention, and discuss strategies for sustaining community engagement in public health initiatives.
+
+Week 7: Risk Assessment in Epidemiology
+
+Main Topic Title: Risk Assessment in Epidemiology
+1. Sub-Topic: Introduction to Risk Assessment
+   - Explanation: Providing an overview of risk assessment in epidemiology and its role in identifying and prioritizing potential health risks.
+   - Learning Objectives: Define risk assessment and explain its importance in public health decision-making.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Conduct a risk assessment exercise for a hypothetical public health threat and prioritize interventions based on the identified risks.
+   - Real-World Applications: Analyze case studies of risk assessment in public health emergencies and discuss the implications for crisis management and response planning.
+
+2. Sub-Topic: Identifying and Evaluating Potential Risks
+   - Explanation: Discussing the process of identifying, evaluating, and prioritizing potential risks associated with infectious diseases and other public health threats.
+   - Learning Objectives: Understand the steps involved in risk assessment and apply them to assess the impact of potential health risks.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Analyze risk assessment data for a specific infectious disease outbreak and develop risk mitigation strategies to minimize the impact on the population.
+   - Real-World Applications: Explore the role of risk assessment in informing public health policies and interventions aimed at reducing disease transmission and improving health outcomes.
+
+3. Sub-Topic: Risk Communication and Decision-Making
+   - Explanation: Discussing the importance of risk communication in conveying potential health risks to the public and informing decision-making processes.
+   - Learning Objectives: Identify key principles of risk communication and apply them to effectively communicate health risks to different audiences.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Develop a risk communication plan for a public health emergency, focusing on transparency, clarity, and engagement with stakeholders and the public.
+   - Real-World Applications: Analyze examples of risk communication strategies used during disease outbreaks and natural disasters to inform public perception and behavior.
+
+Week 8: Disease Modeling and Forecasting
+
+Main Topic Title: Disease Modeling and Forecasting in Public Health
+1. Sub-Topic: Introduction to Disease Modeling
+   - Explanation: Providing an overview of disease modeling and its applications in predicting the spread and impact of infectious diseases.
+   - Learning Objectives: Define disease modeling and forecasting and explain their role in public health preparedness and response.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Use mathematical models to simulate the spread of a hypothetical infectious disease and analyze the potential impact on population health.
+   - Real-World Applications: Discuss the use of disease modeling in predicting disease outbreaks, evaluating intervention strategies, and informing public health policies.
+
+2. Sub-Topic: Mathematical Algorithms in Disease Modeling
+   - Explanation: Exploring the use of mathematical algorithms in disease modeling to simulate disease transmission dynamics and predict disease trends.
+   - Learning Objectives: Understand the principles of mathematical modeling and apply them to analyze disease transmission patterns.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Develop a mathematical model to predict the spread of a specific infectious disease based on population demographics, disease characteristics, and intervention strategies.
+   - Real-World Applications: Examine the strengths and limitations of mathematical algorithms in disease modeling and forecasting and discuss their implications for public health decision-making.
+
+3. Sub-Topic: Machine Learning Techniques in Disease Forecasting
+   - Explanation: Discussing the use of machine learning techniques in disease forecasting to analyze large datasets, identify patterns, and make predictions about future outbreaks.
+   - Learning Objectives: Identify common machine learning techniques used in disease forecasting and evaluate their applicability in public health practice.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Explore machine learning algorithms for predicting disease outbreaks using real-world data sets and compare the accuracy of different forecasting models.
+   - Real-World Applications: Analyze case studies of machine learning applications in disease forecasting and discuss the potential benefits and challenges of using these techniques in public health practice.
+
+This comprehensive teaching plan covers a range of topics related to global infectious disease epidemiology, crisis communication, surveillance methods, outbreak investigation techniques, public health intervention strategies, community-based interventions, risk assessment in epidemiology, and disease modeling and forecasting. The progression from basic to advanced concepts allows senior undergraduate students to develop a deep understanding of key principles and practical skills in public health crisis management. By incorporating real-world applications, lab activities, and case studies, students will gain valuable hands-on experience and critical thinking skills to prepare them for careers in public health practice and research.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Public Health Crises Management) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Week 1: Introduction to Global Infectious Disease Epidemiology
+
+Main Topic Title: Overview of Global Infectious Disease Epidemiology
+1. Sub-Topic: Definition and Scope of Infectious Disease Epidemiology
+   - Explanation: Understanding the basics of infectious disease epidemiology, including the study of disease spread, risk factors, and prevention strategies.
+   - Learning Objectives: Define infectious disease epidemiology and explain its importance in public health.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Conduct a case study analysis of a recent infectious disease outbreak and discuss the epidemiological factors involved.
+   - Real-World Applications: Explore how global infectious disease epidemiology has influenced public health policies and interventions.
+
+2. Sub-Topic: Patterns of Disease Spread
+   - Explanation: Analyzing the patterns of infectious disease spread on a global scale, including transmission routes and geographical distribution.
+   - Learning Objectives: Identify common patterns of disease spread and understand the factors influencing disease transmission.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Map the spread of a specific infectious disease using available data sources and discuss the implications for public health interventions.
+   - Real-World Applications: Examine how patterns of disease spread impact the effectiveness of control measures during outbreaks.
+
+3. Sub-Topic: Risk Factors and Prevention Strategies
+   - Explanation: Exploring the risk factors associated with infectious diseases and discussing strategies for prevention and control.
+   - Learning Objectives: Identify key risk factors for infectious diseases and evaluate the effectiveness of various prevention strategies.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Develop a risk assessment tool for a hypothetical infectious disease outbreak scenario and propose preventive measures based on the findings.
+   - Real-World Applications: Analyze case studies of successful public health interventions aimed at reducing the burden of infectious diseases globally.
+
+Week 2: Crisis Communication in Public Health
+
+Main Topic Title: Principles of Crisis Communication in Public Health
+1. Sub-Topic: Importance of Timely and Transparent Communication
+   - Explanation: Discussing the significance of timely, transparent, and accurate communication in public health crises to build trust and manage public perception.
+   - Learning Objectives: Understand the role of effective communication in crisis management and its impact on public health outcomes.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Role-play scenarios of crisis communication during a disease outbreak and evaluate the effectiveness of different communication strategies.
+   - Real-World Applications: Analyze case studies of past public health emergencies to identify best practices in crisis communication.
+
+2. Sub-Topic: Establishing Trust and Addressing Community Concerns
+   - Explanation: Exploring strategies for establishing trust with the community, addressing their concerns, and providing guidance during public health crises.
+   - Learning Objectives: Learn how to build trust with the community, address public concerns, and promote compliance with public health recommendations.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Develop a crisis communication plan for a fictional public health emergency, focusing on building trust and addressing community concerns.
+   - Real-World Applications: Examine the role of trust and community engagement in successful crisis communication efforts during disease outbreaks.
+
+3. Sub-Topic: Strategies for Effective Communication
+   - Explanation: Discussing practical strategies for effective crisis communication in public health, including message framing, audience segmentation, and media relations.
+   - Learning Objectives: Identify key components of effective crisis communication strategies and apply them to real-world scenarios.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Analyze different communication campaigns used during recent public health crises and evaluate their effectiveness in reaching target audiences.
+   - Real-World Applications: Explore how digital platforms and social media have transformed crisis communication in public health and discuss best practices for leveraging these tools.
+
+Week 3: Surveillance Methods for Infectious Diseases
+
+Main Topic Title: Surveillance Methods for Infectious Diseases
+1. Sub-Topic: Overview of Disease Surveillance
+   - Explanation: Introducing the concept of disease surveillance and its role in monitoring the spread of infectious diseases and guiding public health action.
+   - Learning Objectives: Define disease surveillance and explain its importance in infectious disease control.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Analyze surveillance data from a recent infectious disease outbreak and identify trends that inform public health response strategies.
+   - Real-World Applications: Discuss the role of disease surveillance in detecting and responding to emerging infectious disease threats at the global level.
+
+2. Sub-Topic: Types of Surveillance Systems
+   - Explanation: Exploring different types of surveillance systems used in public health, including passive, active, and syndromic surveillance.
+   - Learning Objectives: Compare and contrast various surveillance methods and their applications in infectious disease monitoring.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Design a surveillance system for a specific infectious disease based on the characteristics of the pathogen and the population at risk.
+   - Real-World Applications: Examine case studies of successful surveillance systems implemented during disease outbreaks and evaluate their impact on public health outcomes.
+
+3. Sub-Topic: Role of Digital Surveillance
+   - Explanation: Discussing the use of digital surveillance tools, such as social media and mobile phone data, in tracking and monitoring infectious diseases in real-time.
+   - Learning Objectives: Understand how digital surveillance complements traditional surveillance methods and enhances disease monitoring capabilities.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Collect and analyze social media data related to a recent infectious disease outbreak to assess the feasibility of using digital surveillance for early detection.
+   - Real-World Applications: Explore the ethical and privacy implications of digital surveillance in public health and discuss strategies for mitigating potential risks.
+
+Week 4: Outbreak Investigation Techniques
+
+Main Topic Title: Outbreak Investigation Techniques in Public Health
+1. Sub-Topic: Introduction to Outbreak Investigation
+   - Explanation: Providing an overview of outbreak investigation techniques, including case identification, data collection, and analysis of transmission patterns.
+   - Learning Objectives: Define outbreak investigation and explain its importance in identifying and controlling infectious disease outbreaks.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Conduct a mock outbreak investigation exercise using simulated data sets and practice applying epidemiological methods to identify the source of the outbreak.
+   - Real-World Applications: Analyze case studies of successful outbreak investigations and discuss lessons learned for improving future response efforts.
+
+2. Sub-Topic: Case Definition and Data Collection
+   - Explanation: Discussing the importance of defining cases and collecting relevant data during outbreak investigations to inform control measures.
+   - Learning Objectives: Understand the process of defining cases, collecting data, and analyzing information to identify outbreak sources.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Develop a standardized case definition for a hypothetical infectious disease outbreak and design a data collection plan to gather relevant information.
+   - Real-World Applications: Explore how case definitions and data collection methods influence the accuracy and efficiency of outbreak investigations.
+
+3. Sub-Topic: Implementation of Control Measures
+   - Explanation: Exploring the process of implementing control measures during outbreak investigations to prevent further transmission of infectious diseases.
+   - Learning Objectives: Identify common control measures used in outbreak response and evaluate their effectiveness in containing disease spread.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Design a control strategy for a simulated outbreak scenario, considering factors such as isolation, quarantine, and vaccination to limit disease transmission.
+   - Real-World Applications: Examine the challenges and successes of implementing control measures during past infectious disease outbreaks and discuss strategies for improving response efforts.
+
+Week 5: Public Health Intervention Strategies
+
+Main Topic Title: Public Health Intervention Strategies for Crisis Management
+1. Sub-Topic: Overview of Public Health Interventions
+   - Explanation: Introducing the concept of public health intervention strategies and their role in preventing, controlling, and managing public health crises.
+   - Learning Objectives: Define public health interventions and explain their significance in crisis management and disease control.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Analyze case studies of successful public health interventions implemented during various disease outbreaks and evaluate their impact on population health.
+   - Real-World Applications: Discuss the importance of evidence-based interventions in public health crisis management and explore examples of effective intervention strategies.
+
+2. Sub-Topic: Vaccination Campaigns and Immunization Programs
+   - Explanation: Discussing the role of vaccination campaigns and immunization programs in preventing infectious diseases and reducing disease burden.
+   - Learning Objectives: Understand the principles of vaccination and immunization and their impact on population health.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Develop a vaccination campaign plan for a specific infectious disease based on population demographics, disease characteristics, and available resources.
+   - Real-World Applications: Explore the impact of vaccination campaigns on disease eradication efforts and discuss challenges in achieving high vaccination coverage rates.
+
+3. Sub-Topic: Contact Tracing and Surveillance
+   - Explanation: Exploring the use of contact tracing and surveillance methods in identifying and monitoring individuals exposed to infectious diseases.
+   - Learning Objectives: Explain the importance of contact tracing in disease control and surveillance in outbreak detection and response.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Conduct a contact tracing exercise using hypothetical case scenarios and practice developing strategies for identifying and monitoring contacts of infected individuals.
+   - Real-World Applications: Analyze the role of contact tracing and surveillance in controlling disease outbreaks, such as Ebola and COVID-19, and discuss lessons learned for improving future response efforts.
+
+Week 6: Community-Based Intervention Strategies
+
+Main Topic Title: Community-Based Intervention Strategies in Public Health
+1. Sub-Topic: Community Engagement in Public Health
+   - Explanation: Discussing the importance of community engagement in addressing health issues and promoting positive health outcomes.
+   - Learning Objectives: Define community engagement and explain its role in public health intervention strategies.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Facilitate a community engagement workshop with local stakeholders to identify health priorities and develop action plans for addressing community needs.
+   - Real-World Applications: Explore case studies of successful community-based intervention programs and discuss the impact of community engagement on health outcomes.
+
+2. Sub-Topic: Collaboration with Community Leaders and Organizations
+   - Explanation: Exploring the benefits of collaborating with community leaders and organizations to design and implement effective public health programs.
+   - Learning Objectives: Understand the importance of partnerships in community-based interventions and their impact on program sustainability.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Role-play scenarios of engaging with community leaders to advocate for public health initiatives and practice negotiating partnership agreements.
+   - Real-World Applications: Analyze examples of successful partnerships between public health agencies and community organizations to address health disparities and improve health outcomes.
+
+3. Sub-Topic: Design and Implementation of Community Programs
+   - Explanation: Discussing the process of designing and implementing community programs to address health issues and promote behavior change.
+   - Learning Objectives: Learn how to plan, implement, and evaluate community-based interventions to achieve positive health outcomes.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Develop a community-based intervention plan for a specific health issue in collaboration with local stakeholders and present the program design to the class.
+   - Real-World Applications: Explore the impact of community programs on health behavior change and disease prevention, and discuss strategies for sustaining community engagement in public health initiatives.
+
+Week 7: Risk Assessment in Epidemiology
+
+Main Topic Title: Risk Assessment in Epidemiology
+1. Sub-Topic: Introduction to Risk Assessment
+   - Explanation: Providing an overview of risk assessment in epidemiology and its role in identifying and prioritizing potential health risks.
+   - Learning Objectives: Define risk assessment and explain its importance in public health decision-making.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Conduct a risk assessment exercise for a hypothetical public health threat and prioritize interventions based on the identified risks.
+   - Real-World Applications: Analyze case studies of risk assessment in public health emergencies and discuss the implications for crisis management and response planning.
+
+2. Sub-Topic: Identifying and Evaluating Potential Risks
+   - Explanation: Discussing the process of identifying, evaluating, and prioritizing potential risks associated with infectious diseases and other public health threats.
+   - Learning Objectives: Understand the steps involved in risk assessment and apply them to assess the impact of potential health risks.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Analyze risk assessment data for a specific infectious disease outbreak and develop risk mitigation strategies to minimize the impact on the population.
+   - Real-World Applications: Explore the role of risk assessment in informing public health policies and interventions aimed at reducing disease transmission and improving health outcomes.
+
+3. Sub-Topic: Risk Communication and Decision-Making
+   - Explanation: Discussing the importance of risk communication in conveying potential health risks to the public and informing decision-making processes.
+   - Learning Objectives: Identify key principles of risk communication and apply them to effectively communicate health risks to different audiences.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Develop a risk communication plan for a public health emergency, focusing on transparency, clarity, and engagement with stakeholders and the public.
+   - Real-World Applications: Analyze examples of risk communication strategies used during disease outbreaks and natural disasters to inform public perception and behavior.
+
+Week 8: Disease Modeling and Forecasting
+
+Main Topic Title: Disease Modeling and Forecasting in Public Health
+1. Sub-Topic: Introduction to Disease Modeling
+   - Explanation: Providing an overview of disease modeling and its applications in predicting the spread and impact of infectious diseases.
+   - Learning Objectives: Define disease modeling and forecasting and explain their role in public health preparedness and response.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Use mathematical models to simulate the spread of a hypothetical infectious disease and analyze the potential impact on population health.
+   - Real-World Applications: Discuss the use of disease modeling in predicting disease outbreaks, evaluating intervention strategies, and informing public health policies.
+
+2. Sub-Topic: Mathematical Algorithms in Disease Modeling
+   - Explanation: Exploring the use of mathematical algorithms in disease modeling to simulate disease transmission dynamics and predict disease trends.
+   - Learning Objectives: Understand the principles of mathematical modeling and apply them to analyze disease transmission patterns.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Develop a mathematical model to predict the spread of a specific infectious disease based on population demographics, disease characteristics, and intervention strategies.
+   - Real-World Applications: Examine the strengths and limitations of mathematical algorithms in disease modeling and forecasting and discuss their implications for public health decision-making.
+
+3. Sub-Topic: Machine Learning Techniques in Disease Forecasting
+   - Explanation: Discussing the use of machine learning techniques in disease forecasting to analyze large datasets, identify patterns, and make predictions about future outbreaks.
+   - Learning Objectives: Identify common machine learning techniques used in disease forecasting and evaluate their applicability in public health practice.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Explore machine learning algorithms for predicting disease outbreaks using real-world data sets and compare the accuracy of different forecasting models.
+   - Real-World Applications: Analyze case studies of machine learning applications in disease forecasting and discuss the potential benefits and challenges of using these techniques in public health practice.
+
+This comprehensive teaching plan covers a range of topics related to global infectious disease epidemiology, crisis communication, surveillance methods, outbreak investigation techniques, public health intervention strategies, community-based interventions, risk assessment in epidemiology, and disease modeling and forecasting. The progression from basic to advanced concepts allows senior undergraduate students to develop a deep understanding of key principles and practical skills in public health crisis management. By incorporating real-world applications, lab activities, and case studies, students will gain valuable hands-on experience and critical thinking skills to prepare them for careers in public health practice and research.}). Total slides available: {8}. Topics to allocate: {8}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[10, 8, 12, 10, 8, 12, 10, 8]
+.
+Slide allocation: [1, 1, 1, 1, 1, 1, 1, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Public Health Crises Management) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Week 1: Introduction to Global Infectious Disease Epidemiology
+
+Main Topic Title: Overview of Global Infectious Disease Epidemiology
+1. Sub-Topic: Definition and Scope of Infectious Disease Epidemiology
+   - Explanation: Understanding the basics of infectious disease epidemiology, including the study of disease spread, risk factors, and prevention strategies.
+   - Learning Objectives: Define infectious disease epidemiology and explain its importance in public health.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Conduct a case study analysis of a recent infectious disease outbreak and discuss the epidemiological factors involved.
+   - Real-World Applications: Explore how global infectious disease epidemiology has influenced public health policies and interventions.
+
+2. Sub-Topic: Patterns of Disease Spread
+   - Explanation: Analyzing the patterns of infectious disease spread on a global scale, including transmission routes and geographical distribution.
+   - Learning Objectives: Identify common patterns of disease spread and understand the factors influencing disease transmission.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Map the spread of a specific infectious disease using available data sources and discuss the implications for public health interventions.
+   - Real-World Applications: Examine how patterns of disease spread impact the effectiveness of control measures during outbreaks.
+
+3. Sub-Topic: Risk Factors and Prevention Strategies
+   - Explanation: Exploring the risk factors associated with infectious diseases and discussing strategies for prevention and control.
+   - Learning Objectives: Identify key risk factors for infectious diseases and evaluate the effectiveness of various prevention strategies.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Develop a risk assessment tool for a hypothetical infectious disease outbreak scenario and propose preventive measures based on the findings.
+   - Real-World Applications: Analyze case studies of successful public health interventions aimed at reducing the burden of infectious diseases globally.
+
+Week 2: Crisis Communication in Public Health
+
+Main Topic Title: Principles of Crisis Communication in Public Health
+1. Sub-Topic: Importance of Timely and Transparent Communication
+   - Explanation: Discussing the significance of timely, transparent, and accurate communication in public health crises to build trust and manage public perception.
+   - Learning Objectives: Understand the role of effective communication in crisis management and its impact on public health outcomes.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Role-play scenarios of crisis communication during a disease outbreak and evaluate the effectiveness of different communication strategies.
+   - Real-World Applications: Analyze case studies of past public health emergencies to identify best practices in crisis communication.
+
+2. Sub-Topic: Establishing Trust and Addressing Community Concerns
+   - Explanation: Exploring strategies for establishing trust with the community, addressing their concerns, and providing guidance during public health crises.
+   - Learning Objectives: Learn how to build trust with the community, address public concerns, and promote compliance with public health recommendations.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Develop a crisis communication plan for a fictional public health emergency, focusing on building trust and addressing community concerns.
+   - Real-World Applications: Examine the role of trust and community engagement in successful crisis communication efforts during disease outbreaks.
+
+3. Sub-Topic: Strategies for Effective Communication
+   - Explanation: Discussing practical strategies for effective crisis communication in public health, including message framing, audience segmentation, and media relations.
+   - Learning Objectives: Identify key components of effective crisis communication strategies and apply them to real-world scenarios.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Analyze different communication campaigns used during recent public health crises and evaluate their effectiveness in reaching target audiences.
+   - Real-World Applications: Explore how digital platforms and social media have transformed crisis communication in public health and discuss best practices for leveraging these tools.
+
+Week 3: Surveillance Methods for Infectious Diseases
+
+Main Topic Title: Surveillance Methods for Infectious Diseases
+1. Sub-Topic: Overview of Disease Surveillance
+   - Explanation: Introducing the concept of disease surveillance and its role in monitoring the spread of infectious diseases and guiding public health action.
+   - Learning Objectives: Define disease surveillance and explain its importance in infectious disease control.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Analyze surveillance data from a recent infectious disease outbreak and identify trends that inform public health response strategies.
+   - Real-World Applications: Discuss the role of disease surveillance in detecting and responding to emerging infectious disease threats at the global level.
+
+2. Sub-Topic: Types of Surveillance Systems
+   - Explanation: Exploring different types of surveillance systems used in public health, including passive, active, and syndromic surveillance.
+   - Learning Objectives: Compare and contrast various surveillance methods and their applications in infectious disease monitoring.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Design a surveillance system for a specific infectious disease based on the characteristics of the pathogen and the population at risk.
+   - Real-World Applications: Examine case studies of successful surveillance systems implemented during disease outbreaks and evaluate their impact on public health outcomes.
+
+3. Sub-Topic: Role of Digital Surveillance
+   - Explanation: Discussing the use of digital surveillance tools, such as social media and mobile phone data, in tracking and monitoring infectious diseases in real-time.
+   - Learning Objectives: Understand how digital surveillance complements traditional surveillance methods and enhances disease monitoring capabilities.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Collect and analyze social media data related to a recent infectious disease outbreak to assess the feasibility of using digital surveillance for early detection.
+   - Real-World Applications: Explore the ethical and privacy implications of digital surveillance in public health and discuss strategies for mitigating potential risks.
+
+Week 4: Outbreak Investigation Techniques
+
+Main Topic Title: Outbreak Investigation Techniques in Public Health
+1. Sub-Topic: Introduction to Outbreak Investigation
+   - Explanation: Providing an overview of outbreak investigation techniques, including case identification, data collection, and analysis of transmission patterns.
+   - Learning Objectives: Define outbreak investigation and explain its importance in identifying and controlling infectious disease outbreaks.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Conduct a mock outbreak investigation exercise using simulated data sets and practice applying epidemiological methods to identify the source of the outbreak.
+   - Real-World Applications: Analyze case studies of successful outbreak investigations and discuss lessons learned for improving future response efforts.
+
+2. Sub-Topic: Case Definition and Data Collection
+   - Explanation: Discussing the importance of defining cases and collecting relevant data during outbreak investigations to inform control measures.
+   - Learning Objectives: Understand the process of defining cases, collecting data, and analyzing information to identify outbreak sources.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Develop a standardized case definition for a hypothetical infectious disease outbreak and design a data collection plan to gather relevant information.
+   - Real-World Applications: Explore how case definitions and data collection methods influence the accuracy and efficiency of outbreak investigations.
+
+3. Sub-Topic: Implementation of Control Measures
+   - Explanation: Exploring the process of implementing control measures during outbreak investigations to prevent further transmission of infectious diseases.
+   - Learning Objectives: Identify common control measures used in outbreak response and evaluate their effectiveness in containing disease spread.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Design a control strategy for a simulated outbreak scenario, considering factors such as isolation, quarantine, and vaccination to limit disease transmission.
+   - Real-World Applications: Examine the challenges and successes of implementing control measures during past infectious disease outbreaks and discuss strategies for improving response efforts.
+
+Week 5: Public Health Intervention Strategies
+
+Main Topic Title: Public Health Intervention Strategies for Crisis Management
+1. Sub-Topic: Overview of Public Health Interventions
+   - Explanation: Introducing the concept of public health intervention strategies and their role in preventing, controlling, and managing public health crises.
+   - Learning Objectives: Define public health interventions and explain their significance in crisis management and disease control.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Analyze case studies of successful public health interventions implemented during various disease outbreaks and evaluate their impact on population health.
+   - Real-World Applications: Discuss the importance of evidence-based interventions in public health crisis management and explore examples of effective intervention strategies.
+
+2. Sub-Topic: Vaccination Campaigns and Immunization Programs
+   - Explanation: Discussing the role of vaccination campaigns and immunization programs in preventing infectious diseases and reducing disease burden.
+   - Learning Objectives: Understand the principles of vaccination and immunization and their impact on population health.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Develop a vaccination campaign plan for a specific infectious disease based on population demographics, disease characteristics, and available resources.
+   - Real-World Applications: Explore the impact of vaccination campaigns on disease eradication efforts and discuss challenges in achieving high vaccination coverage rates.
+
+3. Sub-Topic: Contact Tracing and Surveillance
+   - Explanation: Exploring the use of contact tracing and surveillance methods in identifying and monitoring individuals exposed to infectious diseases.
+   - Learning Objectives: Explain the importance of contact tracing in disease control and surveillance in outbreak detection and response.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Conduct a contact tracing exercise using hypothetical case scenarios and practice developing strategies for identifying and monitoring contacts of infected individuals.
+   - Real-World Applications: Analyze the role of contact tracing and surveillance in controlling disease outbreaks, such as Ebola and COVID-19, and discuss lessons learned for improving future response efforts.
+
+Week 6: Community-Based Intervention Strategies
+
+Main Topic Title: Community-Based Intervention Strategies in Public Health
+1. Sub-Topic: Community Engagement in Public Health
+   - Explanation: Discussing the importance of community engagement in addressing health issues and promoting positive health outcomes.
+   - Learning Objectives: Define community engagement and explain its role in public health intervention strategies.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Facilitate a community engagement workshop with local stakeholders to identify health priorities and develop action plans for addressing community needs.
+   - Real-World Applications: Explore case studies of successful community-based intervention programs and discuss the impact of community engagement on health outcomes.
+
+2. Sub-Topic: Collaboration with Community Leaders and Organizations
+   - Explanation: Exploring the benefits of collaborating with community leaders and organizations to design and implement effective public health programs.
+   - Learning Objectives: Understand the importance of partnerships in community-based interventions and their impact on program sustainability.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Role-play scenarios of engaging with community leaders to advocate for public health initiatives and practice negotiating partnership agreements.
+   - Real-World Applications: Analyze examples of successful partnerships between public health agencies and community organizations to address health disparities and improve health outcomes.
+
+3. Sub-Topic: Design and Implementation of Community Programs
+   - Explanation: Discussing the process of designing and implementing community programs to address health issues and promote behavior change.
+   - Learning Objectives: Learn how to plan, implement, and evaluate community-based interventions to achieve positive health outcomes.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Develop a community-based intervention plan for a specific health issue in collaboration with local stakeholders and present the program design to the class.
+   - Real-World Applications: Explore the impact of community programs on health behavior change and disease prevention, and discuss strategies for sustaining community engagement in public health initiatives.
+
+Week 7: Risk Assessment in Epidemiology
+
+Main Topic Title: Risk Assessment in Epidemiology
+1. Sub-Topic: Introduction to Risk Assessment
+   - Explanation: Providing an overview of risk assessment in epidemiology and its role in identifying and prioritizing potential health risks.
+   - Learning Objectives: Define risk assessment and explain its importance in public health decision-making.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Conduct a risk assessment exercise for a hypothetical public health threat and prioritize interventions based on the identified risks.
+   - Real-World Applications: Analyze case studies of risk assessment in public health emergencies and discuss the implications for crisis management and response planning.
+
+2. Sub-Topic: Identifying and Evaluating Potential Risks
+   - Explanation: Discussing the process of identifying, evaluating, and prioritizing potential risks associated with infectious diseases and other public health threats.
+   - Learning Objectives: Understand the steps involved in risk assessment and apply them to assess the impact of potential health risks.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Analyze risk assessment data for a specific infectious disease outbreak and develop risk mitigation strategies to minimize the impact on the population.
+   - Real-World Applications: Explore the role of risk assessment in informing public health policies and interventions aimed at reducing disease transmission and improving health outcomes.
+
+3. Sub-Topic: Risk Communication and Decision-Making
+   - Explanation: Discussing the importance of risk communication in conveying potential health risks to the public and informing decision-making processes.
+   - Learning Objectives: Identify key principles of risk communication and apply them to effectively communicate health risks to different audiences.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Develop a risk communication plan for a public health emergency, focusing on transparency, clarity, and engagement with stakeholders and the public.
+   - Real-World Applications: Analyze examples of risk communication strategies used during disease outbreaks and natural disasters to inform public perception and behavior.
+
+Week 8: Disease Modeling and Forecasting
+
+Main Topic Title: Disease Modeling and Forecasting in Public Health
+1. Sub-Topic: Introduction to Disease Modeling
+   - Explanation: Providing an overview of disease modeling and its applications in predicting the spread and impact of infectious diseases.
+   - Learning Objectives: Define disease modeling and forecasting and explain their role in public health preparedness and response.
+   - Estimated Number of Slides: 10
+   - Lab Activities: Use mathematical models to simulate the spread of a hypothetical infectious disease and analyze the potential impact on population health.
+   - Real-World Applications: Discuss the use of disease modeling in predicting disease outbreaks, evaluating intervention strategies, and informing public health policies.
+
+2. Sub-Topic: Mathematical Algorithms in Disease Modeling
+   - Explanation: Exploring the use of mathematical algorithms in disease modeling to simulate disease transmission dynamics and predict disease trends.
+   - Learning Objectives: Understand the principles of mathematical modeling and apply them to analyze disease transmission patterns.
+   - Estimated Number of Slides: 8
+   - Lab Activities: Develop a mathematical model to predict the spread of a specific infectious disease based on population demographics, disease characteristics, and intervention strategies.
+   - Real-World Applications: Examine the strengths and limitations of mathematical algorithms in disease modeling and forecasting and discuss their implications for public health decision-making.
+
+3. Sub-Topic: Machine Learning Techniques in Disease Forecasting
+   - Explanation: Discussing the use of machine learning techniques in disease forecasting to analyze large datasets, identify patterns, and make predictions about future outbreaks.
+   - Learning Objectives: Identify common machine learning techniques used in disease forecasting and evaluate their applicability in public health practice.
+   - Estimated Number of Slides: 12
+   - Lab Activities: Explore machine learning algorithms for predicting disease outbreaks using real-world data sets and compare the accuracy of different forecasting models.
+   - Real-World Applications: Analyze case studies of machine learning applications in disease forecasting and discuss the potential benefits and challenges of using these techniques in public health practice.
+
+This comprehensive teaching plan covers a range of topics related to global infectious disease epidemiology, crisis communication, surveillance methods, outbreak investigation techniques, public health intervention strategies, community-based interventions, risk assessment in epidemiology, and disease modeling and forecasting. The progression from basic to advanced concepts allows senior undergraduate students to develop a deep understanding of key principles and practical skills in public health crisis management. By incorporating real-world applications, lab activities, and case studies, students will gain valuable hands-on experience and critical thinking skills to prepare them for careers in public health practice and research.}). Slide allocation per topic: {[1, 1, 1, 1, 1, 1, 1, 1]}. Database content for reference: ({Epidemiology is the study of how diseases spread and impact populations. Infectious diseases are caused by pathogens such as bacteria, viruses, parasites, or fungi, and can be transmitted from person to person or through other vectors. Understanding the epidemiology of infectious diseases involves s...
+
+Global infectious disease epidemiology focuses on studying the distribution and determinants of infectious diseases on a global scale. This includes analyzing patterns of disease spread, identifying risk factors, and developing strategies for prevention and control.
+
+Crisis communication strategies in public health involve the timely and transparent dissemination of information to the public during emergencies such as disease outbreaks or natural disasters. Effective communication helps to build trust, manage public perception, and encourage compliance with reco...
+
+Effective crisis communication in public health involves timely, transparent, and accurate dissemination of information to the public during emergencies such as disease outbreaks or natural disasters. It is essential to establish trust with the community, address their concerns, and provide guidance...
+
+Surveillance methods for infectious diseases involve the systematic collection, analysis, and interpretation of health data in order to inform public health action. These methods help in monitoring the spread of diseases, identifying outbreaks, and evaluating the effectiveness of control measures.
+
+Digital surveillance involves the use of technology, such as social media, internet searches, and mobile phone data, to track and monitor infectious diseases in real-time. This method allows public health officials to quickly identify outbreaks, track the spread of diseases, and implement timely int...
+
+Outbreak investigation techniques involve a series of steps aimed at identifying the source of an outbreak, understanding how the disease is spreading, and implementing control measures to prevent further transmission. These techniques typically include case identification, data collection and analy...
+
+Outbreak investigation methods and techniques in public health involve the systematic collection and analysis of data to identify the source of an outbreak, determine the extent of the problem, and implement control measures. These methods typically include case identification, case definition, data...
+
+Public health intervention strategies refer to the various actions and measures implemented by public health authorities to prevent, control, and manage public health crises. These strategies can include vaccination campaigns, quarantine measures, public education programs, contact tracing, and the ...
+
+Community-based intervention strategies in public health involve engaging with local communities to address health issues and promote positive health outcomes. These strategies often involve collaboration with community leaders, organizations, and residents to design and implement programs that are ...
+
+Risk assessment in epidemiology is the process of identifying, evaluating, and prioritizing potential risks associated with infectious diseases or other public health threats. This involves analyzing the likelihood of an event occurring and the potential impact it could have on a population. By cond...
+
+Risk assessment in epidemiology involves identifying, evaluating, and prioritizing potential risks associated with the spread of diseases within a population. This process helps public health officials make informed decisions on how to allocate resources and implement interventions to prevent or con...
+
+Disease modeling and forecasting are essential tools in public health for predicting the spread and impact of infectious diseases. These models use mathematical algorithms to simulate disease transmission dynamics, taking into account factors such as population demographics, disease characteristics,...
+
+Machine learning techniques are increasingly being used in disease modeling and forecasting to predict the spread of infectious diseases. These methods analyze large datasets to identify patterns and make predictions about future outbreaks. By incorporating various factors such as population density...
+
+Community engagement in crisis management involves actively involving community members in decision-making processes, preparedness activities, and response efforts during a public health crisis. This approach recognizes the importance of local knowledge, resources, and networks in effectively addres...
+
+Community engagement in crisis management refers to the involvement of community members in decision-making processes, resource allocation, and response efforts during a crisis or public health emergency. This approach recognizes the importance of local knowledge, cultural understanding, and social ...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+Raw response:
+1. Definition and Scope of Infectious Disease Epidemiology
+2. Patterns of Disease Spread on a Global Scale
+3. Risk Factors Associated with Infectious Diseases
+4. Importance of Timely and Transparent Communication in Public Health
+5. Strategies for Establishing Trust and Addressing Community Concerns
+6. Practical Strategies for Effective Crisis Communication in Public Health
+7. Overview of Disease Surveillance and Its Role in Monitoring Infectious Diseases
+8. Introduction to Outbreak Investigation Techniques in Public Health
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_15-46-29.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_15-46-29.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_15-46-35.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+⚠️ Content validation suggestions: The lecture notes provided are comprehensive and suitable for 3 credit hours of senior undergraduate study. The content covers the definition and scope of infectious disease epidemiology, including real-world examples and applications such as COVID-19 transmission patterns and malaria outbreaks. The notes also include learning objectives, visual elements like diagrams, lab activities involving case studies, and assessment questions to gauge understanding.
+
+One improvement suggestion could be to include more specific examples and case studies to further illustrate the concepts discussed. Additionally, adding more information on the role of epidemiologists in outbreak investigations and response efforts could enhance the depth of the content. Overall, the notes provide a solid foundation for understanding global infectious disease epidemiology at a senior undergraduate level.
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Public Health Crises Management
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Definition and Scope of Infectious Disease Epidemiology)
+🔍 DEBUG: Slide 1 content set to: 'Infectious disease epidemiology studies how diseases spread within populations Identifies risk facto...'
+🔍 DEBUG: Slide 1 content length: 327
+✅ Slide 1 content: - Infectious disease epidemiology studies how diseases spread within populations
+- Identifies risk factors and develops prevention strategies
+- Crucial in informing public health policies and interventions
+- Real-world examples: analyzing COVID-19 transmission, identifying malaria risk factors, developing polio vaccination strategies
+Generating content for slide 2 (Topic: Patterns of Disease Spread on a Global Scale)
+🎲 Choice scenario triggered! (Rolled 18.9 <= 20.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Infectious disease epidemiology studies disease spread within populations
+• Identifies risk factors and develops prevention strategies
+• Crucial for informing public health policies and interventions
+• Real-world examples: analyzing COVID-19 transmission, identifying malaria risk factors, developing polio vaccination strategies
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Infectious diseases epidemiology studies disease spread within populations
+- Identifies risk factors for diseases and develops prevention strategies
+- Crucial for informing public health policies and interventions
+- Real-world examples: analyzing COVID-19 transmission, identifying malaria risk factors, developing polio vaccination strategies
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 2 content set to: '• Infectious disease epidemiology studies disease spread within populations • Identifies risk factor...'
+🔍 DEBUG: Slide 2 content length: 331
+✅ Slide 2 content: • Infectious disease epidemiology studies disease spread within populations
+• Identifies risk factors and develops prevention strategies
+• Crucial for informing public health policies and interventions
+• Real-world examples: analyzing COVID-19 transmission, identifying malaria risk factors, developing polio vaccination strategies
+Generating content for slide 3 (Topic: Risk Factors Associated with Infectious Diseases)
+🔍 DEBUG: Slide 3 content set to: 'Risk assessment in epidemiology involves identifying, evaluating, and prioritizing potential risks a...'
+🔍 DEBUG: Slide 3 content length: 342
+✅ Slide 3 content: - Risk assessment in epidemiology involves identifying, evaluating, and prioritizing potential risks associated with infectious diseases
+- Helps public health officials make informed decisions on resource allocation and interventions
+- Allows for the development of strategies to mitigate the spread of infectious diseases and protect public health
+Generating content for slide 4 (Topic: Importance of Timely and Transparent Communication in Public Health)
+🔍 DEBUG: Slide 4 content set to: 'Timely and transparent communication is crucial in public health emergencies Establishing trust with...'
+🔍 DEBUG: Slide 4 content length: 332
+✅ Slide 4 content: - Timely and transparent communication is crucial in public health emergencies
+- Establishing trust with the community and addressing concerns are key priorities
+- Tailoring communication strategies to the audience and utilizing multiple channels is essential
+- Involving key stakeholders in the communication process enhances effectiveness
+Generating content for slide 5 (Topic: Strategies for Establishing Trust and Addressing Community Concerns)
+🔍 DEBUG: Slide 5 content set to: 'Actively involve community members in decision-making processes during public health crises Establis...'
+🔍 DEBUG: Slide 5 content length: 404
+✅ Slide 5 content: - Actively involve community members in decision-making processes during public health crises
+- Establish partnerships with community organizations, leaders, and residents to enhance communication and trust
+- Tailor communication strategies to the audience and utilize multiple channels for effective outreach
+- Engage key stakeholders in the communication process to increase effectiveness and community support
+Generating content for slide 6 (Topic: Practical Strategies for Effective Crisis Communication in Public Health)
+🔍 DEBUG: Slide 6 content set to: '• Establishing trust with the community is crucial in crisis communication • Tailoring communication...'
+🔍 DEBUG: Slide 6 content length: 324
+✅ Slide 6 content: • Establishing trust with the community is crucial in crisis communication
+• Tailoring communication strategies to the audience enhances effectiveness
+• Utilizing multiple communication channels is essential for reaching a wider audience
+• Involving key stakeholders in the communication process increases support and buy-in
+Generating content for slide 7 (Topic: Overview of Disease Surveillance and Its Role in Monitoring Infectious Diseases)
+🔍 DEBUG: Slide 7 content set to: '• Disease surveillance involves systematic collection, analysis, and interpretation of health data •...'
+🔍 DEBUG: Slide 7 content length: 428
+✅ Slide 7 content: • Disease surveillance involves systematic collection, analysis, and interpretation of health data
+• Surveillance helps monitor disease spread, identify outbreaks, and evaluate control measures
+• Examples include tracking COVID-19 cases, monitoring influenza trends, and detecting foodborne illnesses
+• Machine learning techniques are increasingly used in disease modeling and forecasting to predict infectious disease outbreaks
+Generating content for slide 8 (Topic: Introduction to Outbreak Investigation Techniques in Public Health)
+🔍 DEBUG: Slide 8 content set to: '• Outbreak investigation methods involve systematic collection and analysis of data to identify outb...'
+🔍 DEBUG: Slide 8 content length: 431
+✅ Slide 8 content: • Outbreak investigation methods involve systematic collection and analysis of data to identify outbreak sources
+• Techniques include case identification, data collection, contact tracing, and communication with stakeholders
+• Control measures are implemented based on findings to prevent further transmission
+• Practical examples include tracking COVID-19 cases, investigating foodborne illnesses, and understanding disease spread
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Definition and Scope of Infectious Disease Epidemiology)
+✅ Slide 1 title: Understanding Infectious Disease Epidemiology
+Generating title for slide 2 (Topic: Patterns of Disease Spread on a Global Scale)
+✅ Slide 2 title: Patterns of Global Disease Spread
+Generating title for slide 3 (Topic: Risk Factors Associated with Infectious Diseases)
+✅ Slide 3 title: Risk Factors for Infectious Diseases
+Generating title for slide 4 (Topic: Importance of Timely and Transparent Communication in Public Health)
+✅ Slide 4 title: Effective Crisis Communication in Public Health
+Generating title for slide 5 (Topic: Strategies for Establishing Trust and Addressing Community Concerns)
+✅ Slide 5 title: Community Engagement Strategies in Crisis Management
+Generating title for slide 6 (Topic: Practical Strategies for Effective Crisis Communication in Public Health)
+✅ Slide 6 title: Practical Crisis Communication Strategies in Public Health
+Generating title for slide 7 (Topic: Overview of Disease Surveillance and Its Role in Monitoring Infectious Diseases)
+✅ Slide 7 title: Disease Surveillance for Monitoring Infectious Diseases
+Generating title for slide 8 (Topic: Introduction to Outbreak Investigation Techniques in Public Health)
+✅ Slide 8 title: "Outbreak Investigation Techniques Overview"
+Generating overall presentation title...
+🎲 Choice scenario triggered! (Rolled 10.0 <= 20.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+"Infectious Disease Epidemiology and Crisis Management: Strategies for Effective Response"
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+"Infectious Disease Epidemiology and Crisis Management: Strategies for Prevention and Response"
+
+----------------------------------------
+✅ You chose Response 1
+✅ Overall presentation title: Infectious Disease Epidemiology and Crisis Management: Strategies for Effective Response
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Definition and Scope of Infectious Disease Epidemiology)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Patterns of Disease Spread on a Global Scale)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Risk Factors Associated with Infectious Diseases)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Importance of Timely and Transparent Communication in Public Health)
+Error parsing search keywords for slide 4: invalid syntax (<unknown>, line 1). Skipping.
+Generating search keywords for slide 5 (Topic: Strategies for Establishing Trust and Addressing Community Concerns)
+🎲 Choice scenario triggered! (Rolled 2.6 <= 20.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['community engagement strategies in crisis management', 'establishing trust in public health crises', 'addressing community concerns in crisis management', 'partnerships with community organizations in public health crises', 'tailoring communication strategies for community engagement', 'engaging key stakeholders in crisis communication', 'building trust with community members during public health crises']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['community engagement strategies in crisis management', 'community involvement in public health crises', 'establishing trust in public health crisis management', 'addressing community concerns during public health crises', 'partnerships with community organizations in crisis management', 'tailoring communication strategies in public health crises', 'engaging key stakeholders in crisis communication', 'building community trust during public health crises']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Practical Strategies for Effective Crisis Communication in Public Health)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Overview of Disease Surveillance and Its Role in Monitoring Infectious Diseases)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Introduction to Outbreak Investigation Techniques in Public Health)
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Definition and Scope of Infectious Disease Epidemiology)
+🎲 Choice scenario triggered! (Rolled 9.7 <= 20.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Outbreak investigation techniques involve a series of steps aimed at identifying the source of an outbreak, understanding how the disease is spreading, and implementing control measures to prevent further transmission.
+- These techniques typically include case identification, data collection and analysis, contact tracing, environmental investigations, and communication with the public and relevant stakeholders.
+- Outbreak investigations often require collaboration between epidemiologists, healthcare providers, laboratory specialists, and public health officials to gather and analyze data effectively.
+- Advanced molecular techniques, such as whole-genome sequencing, are increasingly used in outbreak investigations to provide insights into the genetic relatedness of pathogens and track transmission chains.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Outbreak investigation techniques involve a series of steps aimed at identifying the source of an outbreak, understanding how the disease is spreading, and implementing control measures to prevent further transmission.
+- These techniques typically include case identification, data collection and analysis, contact tracing, environmental investigations, and communication with the public and relevant stakeholders.
+- Utilizing advanced epidemiological methods such as molecular typing and phylogenetic analysis can help in identifying the source and transmission pathways of the outbreak.
+- Collaboration with multidisciplinary teams, including epidemiologists, microbiologists, environmental health specialists, and community outreach workers, is essential for a comprehensive outbreak investigation.
+
+----------------------------------------
+✅ You chose Response 2
+⚠️ Warning: Slide 1 content is long (803 chars) - consider reducing
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Patterns of Disease Spread on a Global Scale)
+🎲 Choice scenario triggered! (Rolled 18.9 <= 20.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Understanding the role of global travel and trade in facilitating the spread of infectious diseases across borders.
+- Analyzing the impact of environmental factors, such as climate change and urbanization, on the transmission dynamics of infectious diseases.
+- Exploring the influence of social determinants of health, such as poverty, access to healthcare, and cultural practices, on disease spread and control.
+- Investigating the role of wildlife and zoonotic diseases in the emergence and transmission of infectious diseases to human populations.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Global infectious disease epidemiology studies the distribution and determinants of infectious diseases on a global scale, including analyzing patterns of disease spread, identifying risk factors, and developing prevention and control strategies.
+- Understanding the geographical distribution and transmission routes of infectious diseases is crucial in assessing the impact of disease spread on different populations and guiding public health interventions.
+- Factors influencing disease transmission, such as population density, environmental conditions, and human behavior, play a significant role in shaping patterns of disease spread on a global scale.
+- Utilizing advanced surveillance methods and data analysis techniques can help in mapping the spread of infectious diseases and informing the development of targeted public health interventions.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 2 content is long (552 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Risk Factors Associated with Infectious Diseases)
+⚠️ Warning: Slide 3 content is long (534 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Importance of Timely and Transparent Communication in Public Health)
+✅ Slide 4: Enhanced content with 0 sources
+Enhancing content for slide 5 (Topic: Strategies for Establishing Trust and Addressing Community Concerns)
+⚠️ Warning: Slide 5 content is long (666 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Practical Strategies for Effective Crisis Communication in Public Health)
+⚠️ Warning: Slide 6 content is long (718 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Overview of Disease Surveillance and Its Role in Monitoring Infectious Diseases)
+🎲 Choice scenario triggered! (Rolled 17.9 <= 20.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Disease modeling and forecasting use mathematical algorithms to simulate disease transmission dynamics, considering factors like population demographics, disease characteristics, and intervention strategies.
+- Researchers analyze past data and trends to make projections about future disease outbreaks, aiding public health officials in better preparation and effective response.
+- Machine learning techniques are increasingly utilized in disease forecasting to analyze large datasets, identify patterns, and make predictions about future infectious disease outbreaks.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Disease modeling and forecasting use mathematical algorithms to simulate disease transmission dynamics and predict disease trends, aiding in public health preparedness and response.
+- By analyzing past data and trends, disease models can make projections about future disease outbreaks, helping public health officials better prepare and respond effectively.
+- Mathematical algorithms in disease modeling allow for the simulation of disease spread based on population demographics, disease characteristics, and intervention strategies.
+- Machine learning techniques in disease forecasting analyze large datasets, identify patterns, and make predictions about future outbreaks, offering valuable insights for public health decision-making.
+
+----------------------------------------
+✅ You chose Response 2
+⚠️ Warning: Slide 7 content is long (740 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Introduction to Outbreak Investigation Techniques in Public Health)
+⚠️ Warning: Slide 8 content is long (730 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Infectious_Disease_Epidemiology_and_Crisis_Management_Strategies_for_Effective_Response_2025-08-31_15-47-54
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Infectious_Disease_Epidemiology_and_Crisis_Management_Strategies_for_Effective_Response_2025-08-31_15-47-54.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Infectious_Disease_Epidemiology_and_Crisis_Management_Strategies_for_Effective_Response_2025-08-31_15-47-54.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 2 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Infectious_Disease_Epidemiology_and_Crisis_Management_Strategies_for_Effective_Response_2025-08-31_15-47-54.pptx
+📊 Rating presentation 2...
+✅ Presentation 2 rated successfully
+📈 Overall Rating: 6.51 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.00 / 2.00
+   - Non-Repetition: 1.70 / 2.00
+   - Content Balance: 1.74 / 2.00
+   - Title Uniqueness: 1.87 / 2.00
+   - Title-Content Match: 1.20 / 2.00
+💾 Result saved to file for presentation 2
+
+📊 Presentation 4/10 (ID: 3)
+📝 Using topic: Literature in the Digital Age
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

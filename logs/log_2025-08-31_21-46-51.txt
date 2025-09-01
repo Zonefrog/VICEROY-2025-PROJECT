@@ -1,0 +1,1489 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T21:46:51.306825
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_21-46-51.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 1...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Sustainable Agriculture
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Types of sustainable agriculture practices, Benefits of sustainable agriculture
+Selected topics: ['Types of sustainable agriculture practices', 'Benefits of sustainable agriculture']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Types of sustainable agriculture practices
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TYPES OF SUSTAINABLE AGRICULTURE PRACTICES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Types of Sustainable Agriculture Practices",
+    "keywords": ["agroforestry", "crop rotation", "cover cropping", "no-till farming", "integrated pest management"],
+    "text": "There are several types of sustainable agriculture practices that farmers can implement to improve soil health, reduce environmental impact, and increase overall sustainability. Some common practices include agroforestry, which involves integrating trees and shrubs into agricultural landscapes to provide additional benefits such as shade, windbreaks, and improved biodiversity. Crop rotation is another practice where different crops are planted in a specific sequence to reduce soil erosion, improve soil fertility, and control pests and diseases. Cover cropping involves planting cover crops like legumes or grasses during the off-season to protect and enrich the soil. No-till farming is a method that minimizes soil disturbance by avoiding plowing, which helps retain soil moisture, reduce erosion, and preserve soil structure. Integrated pest management is a strategy that focuses on preventing pest problems through a combination of techniques such as crop rotation, biological controls, and use of pest-resistant varieties.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/soils/health/"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Types of Sustainable Agriculture Practices
+Keywords: agroforestry, crop rotation, cover cropping, no-till farming, integrated pest management
+Uses: 0
+Text: There are several types of sustainable agriculture practices that farmers can implement to improve soil health, reduce environmental impact, and increase overall sustainability. Some common practices include agroforestry, which involves integrating trees and shrubs into agricultural landscapes to provide additional benefits such as shade, windbreaks, and improved biodiversity. Crop rotation is another practice where different crops are planted in a specific sequence to reduce soil erosion, improve soil fertility, and control pests and diseases. Cover cropping involves planting cover crops like legumes or grasses during the off-season to protect and enrich the soil. No-till farming is a method that minimizes soil disturbance by avoiding plowing, which helps retain soil moisture, reduce erosion, and preserve soil structure. Integrated pest management is a strategy that focuses on preventing pest problems through a combination of techniques such as crop rotation, biological controls, and use of pest-resistant varieties.Link: https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/soils/health/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TYPES OF SUSTAINABLE AGRICULTURE PRACTICES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 24.4 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Agroforestry",
+    "keywords": ["agroforestry", "sustainable agriculture", "trees", "crops", "livestock"],
+    "text": "Agroforestry is a sustainable agricultural practice that involves integrating trees and shrubs into crop and livestock farming systems. This practice helps improve soil health, conserve water, enhance biodiversity, and provide additional sources of income for farmers.",
+    "link": "https://www.agroforestry.co.uk/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Agroforestry",
+    "keywords": ["agroforestry", "sustainable agriculture", "integrated practices", "trees", "crops"],
+    "text": "Agroforestry is a sustainable agricultural practice that involves integrating trees and shrubs into crop and animal farming systems. This practice can help improve soil health, reduce erosion, provide shade for crops, and diversify income sources for farmers.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/landuse/crops/agroforestry/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Agroforestry",
+    "keywords": ["agroforestry", "sustainable agriculture", "trees", "crops", "livestock"],
+    "text": "Agroforestry is a sustainable agricultural practice that involves integrating trees and shrubs into crop and livestock farming systems. This practice helps improve soil health, conserve water, enhance biodiversity, and provide additional sources of income for farmers.",
+    "link": "https://www.agroforestry.co.uk/"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Agroforestry
+Keywords: agroforestry, sustainable agriculture, trees, crops, livestock
+Uses: 0
+Text: Agroforestry is a sustainable agricultural practice that involves integrating trees and shrubs into crop and livestock farming systems. This practice helps improve soil health, conserve water, enhance biodiversity, and provide additional sources of income for farmers.Link: https://www.agroforestry.co.uk/
+Researching topic: Benefits of sustainable agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BENEFITS OF SUSTAINABLE AGRICULTURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 28.7 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Benefits of Sustainable Agriculture",
+    "keywords": ["sustainable agriculture", "benefits", "environment", "economy", "health"],
+    "text": "Sustainable agriculture has numerous benefits, including preserving the environment by reducing pollution and conserving water and soil quality. It also promotes economic stability by ensuring long-term profitability for farmers and supporting local communities. Furthermore, sustainable agriculture can contribute to improved public health through the production of nutritious and safe food.",
+    "link": "https://www.nal.usda.gov/afsic/sustainable-agriculture-definitions-and-terms"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Benefits of Sustainable Agriculture",
+    "keywords": ["sustainable agriculture", "benefits", "environment", "economic", "social", "health"],
+    "text": "Sustainable agriculture provides numerous benefits such as preserving the environment by reducing pollution and conserving water and soil quality. It also promotes economic stability by increasing farm profitability and reducing input costs. Additionally, sustainable agriculture supports social well-being by creating jobs, revitalizing rural communities, and promoting food security. Moreover, it contributes to improved human health by providing access to nutritious and safe food.",
+    "link": "https://www.nrdc.org/stories/5-benefits-sustainable-agriculture"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Benefits of Sustainable Agriculture",
+    "keywords": ["sustainable agriculture", "benefits", "environment", "economic", "social", "health"],
+    "text": "Sustainable agriculture provides numerous benefits such as preserving the environment by reducing pollution and conserving water and soil quality. It also promotes economic stability by increasing farm profitability and reducing input costs. Additionally, sustainable agriculture supports social well-being by creating jobs, revitalizing rural communities, and promoting food security. Moreover, it contributes to improved human health by providing access to nutritious and safe food.",
+    "link": "https://www.nrdc.org/stories/5-benefits-sustainable-agriculture"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Benefits of Sustainable Agriculture
+Keywords: sustainable agriculture, benefits, environment, economic, social, health
+Uses: 0
+Text: Sustainable agriculture provides numerous benefits such as preserving the environment by reducing pollution and conserving water and soil quality. It also promotes economic stability by increasing farm profitability and reducing input costs. Additionally, sustainable agriculture supports social well-being by creating jobs, revitalizing rural communities, and promoting food security. Moreover, it contributes to improved human health by providing access to nutritious and safe food.Link: https://www.nrdc.org/stories/5-benefits-sustainable-agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BENEFITS OF SUSTAINABLE AGRICULTURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Economic Benefits of Sustainable Agriculture",
+    "keywords": ["economic benefits", "sustainable agriculture", "financial advantages"],
+    "text": "Sustainable agriculture can provide economic benefits to farmers by reducing input costs, increasing crop yields, and improving soil health. By implementing sustainable practices such as crop rotation, cover cropping, and integrated pest management, farmers can reduce their reliance on expensive chemical inputs and improve the overall productivity of their land. Additionally, sustainable agriculture can lead to higher market prices for organic or sustainably produced crops, providing farmers with a financial advantage.",
+    "link": "https://www.agriculture.com/sustainable-agriculture/economic-benefits-of-sustainable-agriculture"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Economic Benefits of Sustainable Agriculture
+Keywords: economic benefits, sustainable agriculture, financial advantages
+Uses: 0
+Text: Sustainable agriculture can provide economic benefits to farmers by reducing input costs, increasing crop yields, and improving soil health. By implementing sustainable practices such as crop rotation, cover cropping, and integrated pest management, farmers can reduce their reliance on expensive chemical inputs and improve the overall productivity of their land. Additionally, sustainable agriculture can lead to higher market prices for organic or sustainably produced crops, providing farmers with a financial advantage.Link: https://www.agriculture.com/sustainable-agriculture/economic-benefits-of-sustainable-agriculture
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Types of sustainable agriculture practices', 'Benefits of sustainable agriculture']. The research these yeilded is: ({There are several types of sustainable agriculture practices that farmers can implement to improve soil health, reduce environmental impact, and increase overall sustainability. Some common practices include agroforestry, which involves integrating trees and shrubs into agricultural landscapes to provide additional benefits such as shade, windbreaks, and improved biodiversity. Crop rotation is another practice where different crops are planted in a specific sequence to reduce soil erosion, improve soil fertility, and control pests and diseases. Cover cropping involves planting cover crops like legumes or grasses during the off-season to protect and enrich the soil. No-till farming is a method that minimizes soil disturbance by avoiding plowing, which helps retain soil moisture, reduce erosion, and preserve soil structure. Integrated pest management is a strategy that focuses on preventing pest problems through a combination of techniques such as crop rotation, biological controls, and  (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Importance of soil health in sustainable agriculture, Water conservation techniques in sustainable agriculture, Role of biodiversity in sustainable agriculture, Energy efficiency in agricultural practices, Economic benefits of sustainable agriculture, Climate change resilience strategies in agriculture
+Selected topics: ['Importance of soil health in sustainable agriculture', 'Water conservation techniques in sustainable agriculture', 'Role of biodiversity in sustainable agriculture', 'Energy efficiency in agricultural practices', 'Economic benefits of sustainable agriculture', 'Climate change resilience strategies in agriculture']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Importance of soil health in sustainable agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture', 'Economic Benefits of Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF SOIL HEALTH IN SUSTAINABLE AGRICULTURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Importance of Soil Health in Sustainable Agriculture",
+    "keywords": ["soil health", "sustainable agriculture", "soil quality", "soil fertility", "crop productivity"],
+    "text": "Soil health is a critical component of sustainable agriculture as it directly impacts crop productivity, nutrient availability, and overall ecosystem health. Healthy soils are able to support diverse microbial communities, which play a key role in nutrient cycling and soil structure. By maintaining good soil health, farmers can reduce the need for chemical inputs, improve water retention, and enhance the long-term sustainability of their farming practices.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/soils/health/"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: The Importance of Soil Health in Sustainable Agriculture
+Keywords: soil health, sustainable agriculture, soil quality, soil fertility, crop productivity
+Uses: 0
+Text: Soil health is a critical component of sustainable agriculture as it directly impacts crop productivity, nutrient availability, and overall ecosystem health. Healthy soils are able to support diverse microbial communities, which play a key role in nutrient cycling and soil structure. By maintaining good soil health, farmers can reduce the need for chemical inputs, improve water retention, and enhance the long-term sustainability of their farming practices.Link: https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/soils/health/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture', 'Economic Benefits of Sustainable Agriculture', 'The Importance of Soil Health in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF SOIL HEALTH IN SUSTAINABLE AGRICULTURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Soil Health: A Key Component of Sustainable Agriculture",
+    "keywords": ["soil health", "sustainable agriculture", "nutrient cycling", "organic matter", "soil biodiversity"],
+    "text": "Soil health is a crucial aspect of sustainable agriculture as it supports the growth of crops and ensures long-term productivity. Healthy soil is essential for nutrient cycling, which allows plants to access essential nutrients for growth. Organic matter in soil provides food for soil organisms and helps improve soil structure. Soil biodiversity, including beneficial microorganisms, plays a key role in maintaining soil health and fertility.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/health/?cid=nrcs142p2_053862"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Soil Health: A Key Component of Sustainable Agriculture
+Keywords: soil health, sustainable agriculture, nutrient cycling, organic matter, soil biodiversity
+Uses: 0
+Text: Soil health is a crucial aspect of sustainable agriculture as it supports the growth of crops and ensures long-term productivity. Healthy soil is essential for nutrient cycling, which allows plants to access essential nutrients for growth. Organic matter in soil provides food for soil organisms and helps improve soil structure. Soil biodiversity, including beneficial microorganisms, plays a key role in maintaining soil health and fertility.Link: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/health/?cid=nrcs142p2_053862
+Researching topic: Water conservation techniques in sustainable agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture', 'Economic Benefits of Sustainable Agriculture', 'The Importance of Soil Health in Sustainable Agriculture', 'Soil Health: A Key Component of Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WATER CONSERVATION TECHNIQUES IN SUSTAINABLE AGRICULTURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 39.1 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Water Conservation Techniques in Sustainable Agriculture",
+    "keywords": ["water conservation", "sustainable agriculture", "irrigation methods", "rainwater harvesting", "drip irrigation"],
+    "text": "Water conservation techniques in sustainable agriculture focus on reducing water usage while maintaining crop productivity. Some common techniques include implementing efficient irrigation methods such as drip irrigation, which delivers water directly to the roots of plants, reducing evaporation. Rainwater harvesting is another effective technique where rainwater is collected and stored for later use in irrigation. These techniques help farmers reduce water waste and promote sustainable water management practices.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/soils/water/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Water Conservation Techniques in Sustainable Agriculture",
+    "keywords": ["water conservation", "sustainable agriculture", "irrigation techniques", "rainwater harvesting", "drip irrigation"],
+    "text": "Water conservation techniques in sustainable agriculture aim to reduce water usage while maintaining or increasing crop yields. Some common techniques include drip irrigation, which delivers water directly to the roots of plants, reducing evaporation and runoff. Rainwater harvesting involves collecting rainwater for later use in irrigation. Mulching, cover cropping, and no-till farming are also practices that help retain soil moisture and reduce water usage in agriculture.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/water/manage/conservation/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Water Conservation Techniques in Sustainable Agriculture",
+    "keywords": ["water conservation", "sustainable agriculture", "irrigation methods", "rainwater harvesting", "drip irrigation"],
+    "text": "Water conservation techniques in sustainable agriculture focus on reducing water usage while maintaining crop productivity. Some common techniques include implementing efficient irrigation methods such as drip irrigation, which delivers water directly to the roots of plants, reducing evaporation. Rainwater harvesting is another effective technique where rainwater is collected and stored for later use in irrigation. These techniques help farmers reduce water waste and promote sustainable water management practices.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/soils/water/"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Water Conservation Techniques in Sustainable Agriculture
+Keywords: water conservation, sustainable agriculture, irrigation methods, rainwater harvesting, drip irrigation
+Uses: 0
+Text: Water conservation techniques in sustainable agriculture focus on reducing water usage while maintaining crop productivity. Some common techniques include implementing efficient irrigation methods such as drip irrigation, which delivers water directly to the roots of plants, reducing evaporation. Rainwater harvesting is another effective technique where rainwater is collected and stored for later use in irrigation. These techniques help farmers reduce water waste and promote sustainable water management practices.Link: https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/soils/water/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture', 'Economic Benefits of Sustainable Agriculture', 'The Importance of Soil Health in Sustainable Agriculture', 'Soil Health: A Key Component of Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WATER CONSERVATION TECHNIQUES IN SUSTAINABLE AGRICULTURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 10.4 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Rainwater Harvesting Techniques for Sustainable Agriculture",
+    "keywords": ["rainwater harvesting", "sustainable agriculture", "water conservation", "techniques"],
+    "text": "Rainwater harvesting is a key technique in sustainable agriculture that involves collecting and storing rainwater for later use. Some common rainwater harvesting techniques include rooftop harvesting, surface water harvesting, and groundwater recharge. These techniques help reduce reliance on traditional water sources and promote water conservation in agriculture.",
+    "link": "https://www.agriculture.com/sustainable-agriculture/rainwater-harvesting-techniques-for-sustainable-agriculture"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture",
+    "keywords": ["drip irrigation", "water conservation", "sustainable agriculture"],
+    "text": "Drip irrigation is a water conservation technique commonly used in sustainable agriculture. It involves delivering water directly to the roots of plants through a network of pipes, tubes, and emitters. This method helps minimize water wastage by reducing evaporation and runoff. Additionally, drip irrigation promotes healthier plant growth by providing a consistent water supply.",
+    "link": "https://extension.umn.edu/irrigation/drip-irrigation"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture",
+    "keywords": ["drip irrigation", "water conservation", "sustainable agriculture"],
+    "text": "Drip irrigation is a water conservation technique commonly used in sustainable agriculture. It involves delivering water directly to the roots of plants through a network of pipes, tubes, and emitters. This method helps minimize water wastage by reducing evaporation and runoff. Additionally, drip irrigation promotes healthier plant growth by providing a consistent water supply.",
+    "link": "https://extension.umn.edu/irrigation/drip-irrigation"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture
+Keywords: drip irrigation, water conservation, sustainable agriculture
+Uses: 0
+Text: Drip irrigation is a water conservation technique commonly used in sustainable agriculture. It involves delivering water directly to the roots of plants through a network of pipes, tubes, and emitters. This method helps minimize water wastage by reducing evaporation and runoff. Additionally, drip irrigation promotes healthier plant growth by providing a consistent water supply.Link: https://extension.umn.edu/irrigation/drip-irrigation
+Researching topic: Role of biodiversity in sustainable agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture', 'Economic Benefits of Sustainable Agriculture', 'The Importance of Soil Health in Sustainable Agriculture', 'Soil Health: A Key Component of Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF BIODIVERSITY IN SUSTAINABLE AGRICULTURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 11.9 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Role of Biodiversity in Sustainable Agriculture",
+    "keywords": ["biodiversity", "sustainable agriculture", "ecosystem services", "crop diversity", "pollination"],
+    "text": "Biodiversity plays a crucial role in sustainable agriculture by providing ecosystem services such as pest control, pollination, and nutrient cycling. Crop diversity helps in maintaining resilient and productive agricultural systems that are less vulnerable to diseases and pests. Pollinators such as bees and butterflies contribute to the reproduction of many crops, ensuring a stable food supply. Overall, biodiversity in agricultural systems enhances resilience and productivity, making them more sustainable in the long run.",
+    "link": "https://www.nature.com/scitable/knowledge/library/biodiversity-and-sustainable-agriculture-17059965/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Role of Biodiversity in Sustainable Agriculture",
+    "keywords": ["biodiversity", "sustainable agriculture", "ecosystem services", "crop diversity", "pollination"],
+    "text": "Biodiversity plays a crucial role in sustainable agriculture by providing various ecosystem services such as pest control, pollination, and nutrient cycling. Crop diversity helps in maintaining resilient and productive agricultural systems. Pollinators, such as bees and butterflies, are essential for the production of many fruits and vegetables. By promoting biodiversity on farms, farmers can reduce the reliance on chemical inputs and enhance the overall health of their agroecosystems.",
+    "link": "https://www.nature.com/scitable/knowledge/library/biodiversity-and-sustainable-agriculture-13239666/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Role of Biodiversity in Sustainable Agriculture",
+    "keywords": ["biodiversity", "sustainable agriculture", "ecosystem services", "crop diversity", "pollination"],
+    "text": "Biodiversity plays a crucial role in sustainable agriculture by providing ecosystem services such as pest control, pollination, and nutrient cycling. Crop diversity helps in maintaining resilient and productive agricultural systems that are less vulnerable to diseases and pests. Pollinators such as bees and butterflies contribute to the reproduction of many crops, ensuring a stable food supply. Overall, biodiversity in agricultural systems enhances resilience and productivity, making them more sustainable in the long run.",
+    "link": "https://www.nature.com/scitable/knowledge/library/biodiversity-and-sustainable-agriculture-17059965/"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Role of Biodiversity in Sustainable Agriculture
+Keywords: biodiversity, sustainable agriculture, ecosystem services, crop diversity, pollination
+Uses: 0
+Text: Biodiversity plays a crucial role in sustainable agriculture by providing ecosystem services such as pest control, pollination, and nutrient cycling. Crop diversity helps in maintaining resilient and productive agricultural systems that are less vulnerable to diseases and pests. Pollinators such as bees and butterflies contribute to the reproduction of many crops, ensuring a stable food supply. Overall, biodiversity in agricultural systems enhances resilience and productivity, making them more sustainable in the long run.Link: https://www.nature.com/scitable/knowledge/library/biodiversity-and-sustainable-agriculture-17059965/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture', 'Economic Benefits of Sustainable Agriculture', 'The Importance of Soil Health in Sustainable Agriculture', 'Soil Health: A Key Component of Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Role of Biodiversity in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF BIODIVERSITY IN SUSTAINABLE AGRICULTURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of Biodiversity in Sustainable Agriculture: Enhancing Ecosystem Services",
+    "keywords": ["biodiversity", "sustainable agriculture", "ecosystem services"],
+    "text": "Biodiversity plays a crucial role in sustainable agriculture by enhancing ecosystem services such as pollination, pest control, nutrient cycling, and soil health. Diverse plant and animal species help maintain a balanced ecosystem that supports crop productivity and resilience to environmental stresses.",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2212096319300269"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: The Role of Biodiversity in Sustainable Agriculture: Enhancing Ecosystem Services
+Keywords: biodiversity, sustainable agriculture, ecosystem services
+Uses: 0
+Text: Biodiversity plays a crucial role in sustainable agriculture by enhancing ecosystem services such as pollination, pest control, nutrient cycling, and soil health. Diverse plant and animal species help maintain a balanced ecosystem that supports crop productivity and resilience to environmental stresses.Link: https://www.sciencedirect.com/science/article/pii/S2212096319300269
+Researching topic: Energy efficiency in agricultural practices
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture', 'Economic Benefits of Sustainable Agriculture', 'The Importance of Soil Health in Sustainable Agriculture', 'Soil Health: A Key Component of Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Role of Biodiversity in Sustainable Agriculture', 'The Role of Biodiversity in Sustainable Agriculture: Enhancing Ecosystem Services']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ENERGY EFFICIENCY IN AGRICULTURAL PRACTICES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 21.3 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Energy Efficiency in Agricultural Practices",
+    "keywords": ["energy efficiency", "agriculture", "sustainability", "renewable energy", "green technology"],
+    "text": "Energy efficiency in agricultural practices refers to the use of technology and methods that minimize energy consumption while maximizing productivity. This can include the use of renewable energy sources such as solar power or wind power, as well as implementing energy-saving practices like efficient irrigation systems and machinery. By improving energy efficiency in agriculture, farmers can reduce their carbon footprint and operating costs, while also contributing to a more sustainable food system.",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0308521X19304177"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Energy Efficiency in Agricultural Practices",
+    "keywords": ["energy efficiency", "agricultural practices", "sustainable agriculture", "renewable energy", "energy conservation"],
+    "text": "Energy efficiency in agricultural practices refers to the use of technology and practices that minimize energy consumption while maximizing productivity. This can include the use of renewable energy sources such as solar panels or wind turbines, as well as energy-saving techniques like precision agriculture and efficient irrigation systems.",
+    "link": "https://www.agriculture.com/sustainable-agriculture/energy-efficiency-in-agriculture"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Energy Efficiency in Agricultural Practices",
+    "keywords": ["energy efficiency", "agriculture", "sustainability", "renewable energy", "green technology"],
+    "text": "Energy efficiency in agricultural practices refers to the use of technology and methods that minimize energy consumption while maximizing productivity. This can include the use of renewable energy sources such as solar power or wind power, as well as implementing energy-saving practices like efficient irrigation systems and machinery. By improving energy efficiency in agriculture, farmers can reduce their carbon footprint and operating costs, while also contributing to a more sustainable food system.",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0308521X19304177"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Energy Efficiency in Agricultural Practices
+Keywords: energy efficiency, agriculture, sustainability, renewable energy, green technology
+Uses: 0
+Text: Energy efficiency in agricultural practices refers to the use of technology and methods that minimize energy consumption while maximizing productivity. This can include the use of renewable energy sources such as solar power or wind power, as well as implementing energy-saving practices like efficient irrigation systems and machinery. By improving energy efficiency in agriculture, farmers can reduce their carbon footprint and operating costs, while also contributing to a more sustainable food system.Link: https://www.sciencedirect.com/science/article/pii/S0308521X19304177
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture', 'Economic Benefits of Sustainable Agriculture', 'The Importance of Soil Health in Sustainable Agriculture', 'Soil Health: A Key Component of Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Role of Biodiversity in Sustainable Agriculture', 'The Role of Biodiversity in Sustainable Agriculture: Enhancing Ecosystem Services', 'Energy Efficiency in Agricultural Practices']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ENERGY EFFICIENCY IN AGRICULTURAL PRACTICES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Renewable Energy Sources for Energy Efficiency in Agricultural Practices",
+    "keywords": ["Renewable energy sources", "Energy efficiency", "Agricultural practices"],
+    "text": "In order to improve energy efficiency in agricultural practices, farmers are increasingly turning to renewable energy sources. These sources include solar power, wind power, and bioenergy. Solar panels can be used to power irrigation systems, while wind turbines can generate electricity for farm operations. Bioenergy, such as biogas from organic waste, can also be utilized to reduce reliance on fossil fuels.",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2211912416300249"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Renewable Energy Sources for Energy Efficiency in Agricultural Practices
+Keywords: Renewable energy sources, Energy efficiency, Agricultural practices
+Uses: 0
+Text: In order to improve energy efficiency in agricultural practices, farmers are increasingly turning to renewable energy sources. These sources include solar power, wind power, and bioenergy. Solar panels can be used to power irrigation systems, while wind turbines can generate electricity for farm operations. Bioenergy, such as biogas from organic waste, can also be utilized to reduce reliance on fossil fuels.Link: https://www.sciencedirect.com/science/article/pii/S2211912416300249
+Researching topic: Economic benefits of sustainable agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture', 'Economic Benefits of Sustainable Agriculture', 'The Importance of Soil Health in Sustainable Agriculture', 'Soil Health: A Key Component of Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Role of Biodiversity in Sustainable Agriculture', 'The Role of Biodiversity in Sustainable Agriculture: Enhancing Ecosystem Services', 'Energy Efficiency in Agricultural Practices', 'Renewable Energy Sources for Energy Efficiency in Agricultural Practices']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ECONOMIC BENEFITS OF SUSTAINABLE AGRICULTURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Economic Benefits of Sustainable Agriculture",
+    "keywords": ["sustainable agriculture", "economic benefits", "profitability", "cost savings", "market demand"],
+    "text": "Sustainable agriculture practices can lead to various economic benefits for farmers. By reducing the reliance on costly chemical inputs, farmers can experience cost savings. Additionally, sustainable agriculture can improve soil health and fertility, leading to increased crop yields and profitability. Furthermore, consumers are increasingly demanding sustainably produced food, creating new market opportunities for farmers practicing sustainable agriculture.",
+    "link": "https://www.usda.gov/topics/organic/economic-benefits-organic" 
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Economic Benefits of Sustainable Agriculture
+Keywords: sustainable agriculture, economic benefits, profitability, cost savings, market demand
+Uses: 0
+Text: Sustainable agriculture practices can lead to various economic benefits for farmers. By reducing the reliance on costly chemical inputs, farmers can experience cost savings. Additionally, sustainable agriculture can improve soil health and fertility, leading to increased crop yields and profitability. Furthermore, consumers are increasingly demanding sustainably produced food, creating new market opportunities for farmers practicing sustainable agriculture.Link: https://www.usda.gov/topics/organic/economic-benefits-organic
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture', 'Economic Benefits of Sustainable Agriculture', 'The Importance of Soil Health in Sustainable Agriculture', 'Soil Health: A Key Component of Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Role of Biodiversity in Sustainable Agriculture', 'The Role of Biodiversity in Sustainable Agriculture: Enhancing Ecosystem Services', 'Energy Efficiency in Agricultural Practices', 'Renewable Energy Sources for Energy Efficiency in Agricultural Practices', 'Economic Benefits of Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ECONOMIC BENEFITS OF SUSTAINABLE AGRICULTURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Maximizing Economic Benefits of Sustainable Agriculture",
+    "keywords": ["economic benefits", "sustainable agriculture", "profitability", "cost savings", "market demand"],
+    "text": "Maximizing the economic benefits of sustainable agriculture involves implementing practices that not only promote environmental sustainability but also contribute to increased profitability. By reducing input costs through practices like crop rotation, cover cropping, and integrated pest management, farmers can see significant cost savings. Additionally, sustainable agriculture can open up new market opportunities as consumers increasingly seek out products grown using environmentally friendly methods. Investing in sustainable practices can lead to long-term financial stability for farmers while also benefiting the environment.",
+    "link": "https://www.agriculture.com/successful-farming/maximizing-the-economic-benefits-of-sustainable-agriculture"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Maximizing Economic Benefits of Sustainable Agriculture
+Keywords: economic benefits, sustainable agriculture, profitability, cost savings, market demand
+Uses: 0
+Text: Maximizing the economic benefits of sustainable agriculture involves implementing practices that not only promote environmental sustainability but also contribute to increased profitability. By reducing input costs through practices like crop rotation, cover cropping, and integrated pest management, farmers can see significant cost savings. Additionally, sustainable agriculture can open up new market opportunities as consumers increasingly seek out products grown using environmentally friendly methods. Investing in sustainable practices can lead to long-term financial stability for farmers while also benefiting the environment.Link: https://www.agriculture.com/successful-farming/maximizing-the-economic-benefits-of-sustainable-agriculture
+Researching topic: Climate change resilience strategies in agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture', 'Economic Benefits of Sustainable Agriculture', 'The Importance of Soil Health in Sustainable Agriculture', 'Soil Health: A Key Component of Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Role of Biodiversity in Sustainable Agriculture', 'The Role of Biodiversity in Sustainable Agriculture: Enhancing Ecosystem Services', 'Energy Efficiency in Agricultural Practices', 'Renewable Energy Sources for Energy Efficiency in Agricultural Practices', 'Economic Benefits of Sustainable Agriculture', 'Maximizing Economic Benefits of Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CLIMATE CHANGE RESILIENCE STRATEGIES IN AGRICULTURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Climate Change Resilience Strategies in Agriculture",
+    "keywords": ["climate change resilience", "agriculture", "resilience strategies", "climate adaptation in agriculture"],
+    "text": "Climate change resilience strategies in agriculture refer to practices and techniques that help farmers mitigate the impacts of climate change on their crops and livestock. These strategies include crop diversification, water management techniques, soil conservation practices, agroforestry, and the use of climate-resilient crop varieties.",
+    "link": "https://www.fao.org/3/i9034en/I9034EN.pdf"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Climate Change Resilience Strategies in Agriculture
+Keywords: climate change resilience, agriculture, resilience strategies, climate adaptation in agriculture
+Uses: 0
+Text: Climate change resilience strategies in agriculture refer to practices and techniques that help farmers mitigate the impacts of climate change on their crops and livestock. These strategies include crop diversification, water management techniques, soil conservation practices, agroforestry, and the use of climate-resilient crop varieties.Link: https://www.fao.org/3/i9034en/I9034EN.pdf
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Types of Sustainable Agriculture Practices', 'Agroforestry', 'Benefits of Sustainable Agriculture', 'Economic Benefits of Sustainable Agriculture', 'The Importance of Soil Health in Sustainable Agriculture', 'Soil Health: A Key Component of Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Role of Biodiversity in Sustainable Agriculture', 'The Role of Biodiversity in Sustainable Agriculture: Enhancing Ecosystem Services', 'Energy Efficiency in Agricultural Practices', 'Renewable Energy Sources for Energy Efficiency in Agricultural Practices', 'Economic Benefits of Sustainable Agriculture', 'Maximizing Economic Benefits of Sustainable Agriculture', 'Climate Change Resilience Strategies in Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CLIMATE CHANGE RESILIENCE STRATEGIES IN AGRICULTURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 41.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Climate Change Resilience Strategies in Agriculture: Crop Diversification",
+    "keywords": ["climate change", "resilience strategies", "agriculture", "crop diversification"],
+    "text": "One key strategy for building resilience in agriculture against climate change is crop diversification. By planting a variety of crops, farmers can reduce the risk of crop failure due to extreme weather events or pest outbreaks. Diversification also helps maintain soil health and biodiversity, which are crucial for sustainable agriculture practices.",
+    "link": "https://www.nature.com/articles/s41598-019-47230-7"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Climate Change Resilience Strategies in Agriculture: Crop Diversification",
+    "keywords": ["climate change resilience", "agriculture", "crop diversification"],
+    "text": "Crop diversification is a key strategy for building resilience in agriculture against the impacts of climate change. By growing a variety of crops, farmers can spread their risks and adapt to changing environmental conditions. Diversification can help mitigate the effects of extreme weather events, pests, and diseases that are becoming more common due to climate change. Additionally, diverse cropping systems can improve soil health, enhance biodiversity, and increase overall farm productivity.",
+    "link": "https://www.nature.com/articles/s41558-018-0341-4"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Climate Change Resilience Strategies in Agriculture: Crop Diversification",
+    "keywords": ["climate change resilience", "agriculture", "crop diversification"],
+    "text": "Crop diversification is a key strategy for building resilience in agriculture against the impacts of climate change. By growing a variety of crops, farmers can spread their risks and adapt to changing environmental conditions. Diversification can help mitigate the effects of extreme weather events, pests, and diseases that are becoming more common due to climate change. Additionally, diverse cropping systems can improve soil health, enhance biodiversity, and increase overall farm productivity.",
+    "link": "https://www.nature.com/articles/s41558-018-0341-4"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Climate Change Resilience Strategies in Agriculture: Crop Diversification
+Keywords: climate change resilience, agriculture, crop diversification
+Uses: 0
+Text: Crop diversification is a key strategy for building resilience in agriculture against the impacts of climate change. By growing a variety of crops, farmers can spread their risks and adapt to changing environmental conditions. Diversification can help mitigate the effects of extreme weather events, pests, and diseases that are becoming more common due to climate change. Additionally, diverse cropping systems can improve soil health, enhance biodiversity, and increase overall farm productivity.Link: https://www.nature.com/articles/s41558-018-0341-4
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({There are several types of sustainable agriculture practices that farmers can implement to improve soil health, reduce environmental impact, and increase overall sustainability. Some common practices include agroforestry, which involves integrating trees and shrubs into agricultural landscapes to pr...
+
+Agroforestry is a sustainable agricultural practice that involves integrating trees and shrubs into crop and livestock farming systems. This practice helps improve soil health, conserve water, enhance biodiversity, and provide additional sources of income for farmers.
+
+Sustainable agriculture provides numerous benefits such as preserving the environment by reducing pollution and conserving water and soil quality. It also promotes economic stability by increasing farm profitability and reducing input costs. Additionally, sustainable agriculture supports social well...
+
+Sustainable agriculture can provide economic benefits to farmers by reducing input costs, increasing crop yields, and improving soil health. By implementing sustainable practices such as crop rotation, cover cropping, and integrated pest management, farmers can reduce their reliance on expensive che...
+
+Soil health is a critical component of sustainable agriculture as it directly impacts crop productivity, nutrient availability, and overall ecosystem health. Healthy soils are able to support diverse microbial communities, which play a key role in nutrient cycling and soil structure. By maintaining ...
+
+Soil health is a crucial aspect of sustainable agriculture as it supports the growth of crops and ensures long-term productivity. Healthy soil is essential for nutrient cycling, which allows plants to access essential nutrients for growth. Organic matter in soil provides food for soil organisms and ...
+
+Water conservation techniques in sustainable agriculture focus on reducing water usage while maintaining crop productivity. Some common techniques include implementing efficient irrigation methods such as drip irrigation, which delivers water directly to the roots of plants, reducing evaporation. Ra...
+
+Drip irrigation is a water conservation technique commonly used in sustainable agriculture. It involves delivering water directly to the roots of plants through a network of pipes, tubes, and emitters. This method helps minimize water wastage by reducing evaporation and runoff. Additionally, drip ir...
+
+Biodiversity plays a crucial role in sustainable agriculture by providing ecosystem services such as pest control, pollination, and nutrient cycling. Crop diversity helps in maintaining resilient and productive agricultural systems that are less vulnerable to diseases and pests. Pollinators such as ...
+
+Biodiversity plays a crucial role in sustainable agriculture by enhancing ecosystem services such as pollination, pest control, nutrient cycling, and soil health. Diverse plant and animal species help maintain a balanced ecosystem that supports crop productivity and resilience to environmental stres...
+
+Energy efficiency in agricultural practices refers to the use of technology and methods that minimize energy consumption while maximizing productivity. This can include the use of renewable energy sources such as solar power or wind power, as well as implementing energy-saving practices like efficie...
+
+In order to improve energy efficiency in agricultural practices, farmers are increasingly turning to renewable energy sources. These sources include solar power, wind power, and bioenergy. Solar panels can be used to power irrigation systems, while wind turbines can generate electricity for farm ope...
+
+Sustainable agriculture practices can lead to various economic benefits for farmers. By reducing the reliance on costly chemical inputs, farmers can experience cost savings. Additionally, sustainable agriculture can improve soil health and fertility, leading to increased crop yields and profitabilit...
+
+Maximizing the economic benefits of sustainable agriculture involves implementing practices that not only promote environmental sustainability but also contribute to increased profitability. By reducing input costs through practices like crop rotation, cover cropping, and integrated pest management,...
+
+Climate change resilience strategies in agriculture refer to practices and techniques that help farmers mitigate the impacts of climate change on their crops and livestock. These strategies include crop diversification, water management techniques, soil conservation practices, agroforestry, and the ...
+
+Crop diversification is a key strategy for building resilience in agriculture against the impacts of climate change. By growing a variety of crops, farmers can spread their risks and adapt to changing environmental conditions. Diversification can help mitigate the effects of extreme weather events, ...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+🎲 Choice scenario triggered! (Rolled 18.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+8
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+6
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+8
+.
+Topic count decided: 8
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({There are several types of sustainable agriculture practices that farmers can implement to improve soil health, reduce environmental impact, and increase overall sustainability. Some common practices include agroforestry, which involves integrating trees and shrubs into agricultural landscapes to pr...
+
+Agroforestry is a sustainable agricultural practice that involves integrating trees and shrubs into crop and livestock farming systems. This practice helps improve soil health, conserve water, enhance biodiversity, and provide additional sources of income for farmers.
+
+Sustainable agriculture provides numerous benefits such as preserving the environment by reducing pollution and conserving water and soil quality. It also promotes economic stability by increasing farm profitability and reducing input costs. Additionally, sustainable agriculture supports social well...
+
+Sustainable agriculture can provide economic benefits to farmers by reducing input costs, increasing crop yields, and improving soil health. By implementing sustainable practices such as crop rotation, cover cropping, and integrated pest management, farmers can reduce their reliance on expensive che...
+
+Soil health is a critical component of sustainable agriculture as it directly impacts crop productivity, nutrient availability, and overall ecosystem health. Healthy soils are able to support diverse microbial communities, which play a key role in nutrient cycling and soil structure. By maintaining ...
+
+Soil health is a crucial aspect of sustainable agriculture as it supports the growth of crops and ensures long-term productivity. Healthy soil is essential for nutrient cycling, which allows plants to access essential nutrients for growth. Organic matter in soil provides food for soil organisms and ...
+
+Water conservation techniques in sustainable agriculture focus on reducing water usage while maintaining crop productivity. Some common techniques include implementing efficient irrigation methods such as drip irrigation, which delivers water directly to the roots of plants, reducing evaporation. Ra...
+
+Drip irrigation is a water conservation technique commonly used in sustainable agriculture. It involves delivering water directly to the roots of plants through a network of pipes, tubes, and emitters. This method helps minimize water wastage by reducing evaporation and runoff. Additionally, drip ir...
+
+Biodiversity plays a crucial role in sustainable agriculture by providing ecosystem services such as pest control, pollination, and nutrient cycling. Crop diversity helps in maintaining resilient and productive agricultural systems that are less vulnerable to diseases and pests. Pollinators such as ...
+
+Biodiversity plays a crucial role in sustainable agriculture by enhancing ecosystem services such as pollination, pest control, nutrient cycling, and soil health. Diverse plant and animal species help maintain a balanced ecosystem that supports crop productivity and resilience to environmental stres...
+
+Energy efficiency in agricultural practices refers to the use of technology and methods that minimize energy consumption while maximizing productivity. This can include the use of renewable energy sources such as solar power or wind power, as well as implementing energy-saving practices like efficie...
+
+In order to improve energy efficiency in agricultural practices, farmers are increasingly turning to renewable energy sources. These sources include solar power, wind power, and bioenergy. Solar panels can be used to power irrigation systems, while wind turbines can generate electricity for farm ope...
+
+Sustainable agriculture practices can lead to various economic benefits for farmers. By reducing the reliance on costly chemical inputs, farmers can experience cost savings. Additionally, sustainable agriculture can improve soil health and fertility, leading to increased crop yields and profitabilit...
+
+Maximizing the economic benefits of sustainable agriculture involves implementing practices that not only promote environmental sustainability but also contribute to increased profitability. By reducing input costs through practices like crop rotation, cover cropping, and integrated pest management,...
+
+Climate change resilience strategies in agriculture refer to practices and techniques that help farmers mitigate the impacts of climate change on their crops and livestock. These strategies include crop diversification, water management techniques, soil conservation practices, agroforestry, and the ...
+
+Crop diversification is a key strategy for building resilience in agriculture against the impacts of climate change. By growing a variety of crops, farmers can spread their risks and adapt to changing environmental conditions. Diversification can help mitigate the effects of extreme weather events, ...}). You are to come up with {8} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Week 1: Introduction to Sustainable Agriculture
+
+Main Topic Title: Overview of Sustainable Agriculture
+
+1. Definition of Sustainable Agriculture: This sub-topic will cover the definition of sustainable agriculture and its importance in preserving the environment, promoting economic stability, and supporting social well-being (Database Reference: Sustainable agriculture provides numerous benefits such as preserving the environment by reducing pollution and conserving water and soil quality. It also promotes economic stability by increasing farm profitability and reducing input costs. Additionally, sustainable agriculture supports social well-being by promoting healthy communities and equitable access to food).
+
+2. Benefits of Sustainable Agriculture: This sub-topic will explore the various benefits of sustainable agriculture, including economic benefits for farmers, improved soil health, and water conservation techniques (Database Reference: Sustainable agriculture can provide economic benefits to farmers by reducing input costs, increasing crop yields, and improving soil health. By implementing sustainable practices such as crop rotation, cover cropping, and integrated pest management, farmers can reduce their reliance on expensive chemicals).
+
+3. Importance of Soil Health in Sustainable Agriculture: This sub-topic will focus on the critical role of soil health in sustainable agriculture, emphasizing its impact on crop productivity, nutrient availability, and ecosystem health (Database Reference: Soil health is a critical component of sustainable agriculture as it directly impacts crop productivity, nutrient availability, and overall ecosystem health. Healthy soils are able to support diverse microbial communities, which play a key role in nutrient cycling and soil structure).
+
+Learning Objectives:
+- Understand the definition and importance of sustainable agriculture
+- Identify the benefits of sustainable agriculture for farmers and the environment
+- Recognize the significance of soil health in sustainable agriculture
+
+Estimated Number of Slides: 15
+Lab Activities/Practical Exercises:
+- Conduct soil health assessments in a local farm or garden
+- Analyze the economic impact of implementing sustainable agriculture practices on a hypothetical farm
+Real-World Applications and Examples:
+- Showcase case studies of successful sustainable agriculture initiatives around the world
+- Discuss how sustainable agriculture practices can be applied to different farming systems and environments
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Week 1: Introduction to Sustainable Agriculture
+
+Main Topic Title: Overview of Sustainable Agriculture
+
+1. Definition of Sustainable Agriculture: This sub-topic will cover the definition of sustainable agriculture and its importance in preserving the environment, promoting economic stability, and supporting social well-being (Database Reference: Sustainable agriculture provides numerous benefits such as preserving the environment by reducing pollution and conserving water and soil quality. It also promotes economic stability by increasing farm profitability and reducing input costs. Additionally, sustainable agriculture supports social well-being by promoting healthy communities and equitable access to food).
+
+2. Benefits of Sustainable Agriculture: This sub-topic will explore the various benefits of sustainable agriculture, including economic benefits for farmers, improved soil health, and water conservation techniques (Database Reference: Sustainable agriculture can provide economic benefits to farmers by reducing input costs, increasing crop yields, and improving soil health. By implementing sustainable practices such as crop rotation, cover cropping, and integrated pest management, farmers can reduce their reliance on expensive chemicals).
+
+3. Importance of Soil Health in Sustainable Agriculture: This sub-topic will focus on the critical role of soil health in sustainable agriculture, emphasizing its impact on crop productivity, nutrient availability, and ecosystem health (Database Reference: Soil health is a critical component of sustainable agriculture as it directly impacts crop productivity, nutrient availability, and overall ecosystem health. Healthy soils are able to support diverse microbial communities, which play a key role in nutrient cycling and soil structure).
+
+Learning Objectives:
+- Understand the definition and importance of sustainable agriculture
+- Identify the benefits of sustainable agriculture for farmers and the environment
+- Recognize the significance of soil health in sustainable agriculture
+
+Estimated Number of Slides: 15
+Lab Activities/Practical Exercises:
+- Conduct soil health assessments in a local farm or garden
+- Analyze the economic impact of implementing sustainable agriculture practices on a hypothetical farm
+Real-World Applications and Examples:
+- Showcase case studies of successful sustainable agriculture initiatives around the world
+- Discuss how sustainable agriculture practices can be applied to different farming systems and environments}). Total slides available: {8}. Topics to allocate: {8}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+🎲 Choice scenario triggered! (Rolled 30.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+[3, 2, 3]
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+[2, 2, 2, 2, 2, 2, 2, 1]
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+[3, 2, 3]
+.
+Warning: Received 3 allocations, expected 8
+Extending list from 3 to 8 items
+Slide allocation: [1, 1, 1, 1, 1, 1, 1, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Week 1: Introduction to Sustainable Agriculture
+
+Main Topic Title: Overview of Sustainable Agriculture
+
+1. Definition of Sustainable Agriculture: This sub-topic will cover the definition of sustainable agriculture and its importance in preserving the environment, promoting economic stability, and supporting social well-being (Database Reference: Sustainable agriculture provides numerous benefits such as preserving the environment by reducing pollution and conserving water and soil quality. It also promotes economic stability by increasing farm profitability and reducing input costs. Additionally, sustainable agriculture supports social well-being by promoting healthy communities and equitable access to food).
+
+2. Benefits of Sustainable Agriculture: This sub-topic will explore the various benefits of sustainable agriculture, including economic benefits for farmers, improved soil health, and water conservation techniques (Database Reference: Sustainable agriculture can provide economic benefits to farmers by reducing input costs, increasing crop yields, and improving soil health. By implementing sustainable practices such as crop rotation, cover cropping, and integrated pest management, farmers can reduce their reliance on expensive chemicals).
+
+3. Importance of Soil Health in Sustainable Agriculture: This sub-topic will focus on the critical role of soil health in sustainable agriculture, emphasizing its impact on crop productivity, nutrient availability, and ecosystem health (Database Reference: Soil health is a critical component of sustainable agriculture as it directly impacts crop productivity, nutrient availability, and overall ecosystem health. Healthy soils are able to support diverse microbial communities, which play a key role in nutrient cycling and soil structure).
+
+Learning Objectives:
+- Understand the definition and importance of sustainable agriculture
+- Identify the benefits of sustainable agriculture for farmers and the environment
+- Recognize the significance of soil health in sustainable agriculture
+
+Estimated Number of Slides: 15
+Lab Activities/Practical Exercises:
+- Conduct soil health assessments in a local farm or garden
+- Analyze the economic impact of implementing sustainable agriculture practices on a hypothetical farm
+Real-World Applications and Examples:
+- Showcase case studies of successful sustainable agriculture initiatives around the world
+- Discuss how sustainable agriculture practices can be applied to different farming systems and environments}). Slide allocation per topic: {[1, 1, 1, 1, 1, 1, 1, 1]}. Database content for reference: ({There are several types of sustainable agriculture practices that farmers can implement to improve soil health, reduce environmental impact, and increase overall sustainability. Some common practices include agroforestry, which involves integrating trees and shrubs into agricultural landscapes to pr...
+
+Agroforestry is a sustainable agricultural practice that involves integrating trees and shrubs into crop and livestock farming systems. This practice helps improve soil health, conserve water, enhance biodiversity, and provide additional sources of income for farmers.
+
+Sustainable agriculture provides numerous benefits such as preserving the environment by reducing pollution and conserving water and soil quality. It also promotes economic stability by increasing farm profitability and reducing input costs. Additionally, sustainable agriculture supports social well...
+
+Sustainable agriculture can provide economic benefits to farmers by reducing input costs, increasing crop yields, and improving soil health. By implementing sustainable practices such as crop rotation, cover cropping, and integrated pest management, farmers can reduce their reliance on expensive che...
+
+Soil health is a critical component of sustainable agriculture as it directly impacts crop productivity, nutrient availability, and overall ecosystem health. Healthy soils are able to support diverse microbial communities, which play a key role in nutrient cycling and soil structure. By maintaining ...
+
+Soil health is a crucial aspect of sustainable agriculture as it supports the growth of crops and ensures long-term productivity. Healthy soil is essential for nutrient cycling, which allows plants to access essential nutrients for growth. Organic matter in soil provides food for soil organisms and ...
+
+Water conservation techniques in sustainable agriculture focus on reducing water usage while maintaining crop productivity. Some common techniques include implementing efficient irrigation methods such as drip irrigation, which delivers water directly to the roots of plants, reducing evaporation. Ra...
+
+Drip irrigation is a water conservation technique commonly used in sustainable agriculture. It involves delivering water directly to the roots of plants through a network of pipes, tubes, and emitters. This method helps minimize water wastage by reducing evaporation and runoff. Additionally, drip ir...
+
+Biodiversity plays a crucial role in sustainable agriculture by providing ecosystem services such as pest control, pollination, and nutrient cycling. Crop diversity helps in maintaining resilient and productive agricultural systems that are less vulnerable to diseases and pests. Pollinators such as ...
+
+Biodiversity plays a crucial role in sustainable agriculture by enhancing ecosystem services such as pollination, pest control, nutrient cycling, and soil health. Diverse plant and animal species help maintain a balanced ecosystem that supports crop productivity and resilience to environmental stres...
+
+Energy efficiency in agricultural practices refers to the use of technology and methods that minimize energy consumption while maximizing productivity. This can include the use of renewable energy sources such as solar power or wind power, as well as implementing energy-saving practices like efficie...
+
+In order to improve energy efficiency in agricultural practices, farmers are increasingly turning to renewable energy sources. These sources include solar power, wind power, and bioenergy. Solar panels can be used to power irrigation systems, while wind turbines can generate electricity for farm ope...
+
+Sustainable agriculture practices can lead to various economic benefits for farmers. By reducing the reliance on costly chemical inputs, farmers can experience cost savings. Additionally, sustainable agriculture can improve soil health and fertility, leading to increased crop yields and profitabilit...
+
+Maximizing the economic benefits of sustainable agriculture involves implementing practices that not only promote environmental sustainability but also contribute to increased profitability. By reducing input costs through practices like crop rotation, cover cropping, and integrated pest management,...
+
+Climate change resilience strategies in agriculture refer to practices and techniques that help farmers mitigate the impacts of climate change on their crops and livestock. These strategies include crop diversification, water management techniques, soil conservation practices, agroforestry, and the ...
+
+Crop diversification is a key strategy for building resilience in agriculture against the impacts of climate change. By growing a variety of crops, farmers can spread their risks and adapt to changing environmental conditions. Diversification can help mitigate the effects of extreme weather events, ...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+🎲 Choice scenario triggered! (Rolled 0.2 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+1. Definition of Sustainable Agriculture and Its Importance
+2. Benefits of Sustainable Agriculture for Farmers
+3. Benefits of Sustainable Agriculture for the Environment
+4. Importance of Soil Health in Sustainable Agriculture
+5. Water Conservation Techniques in Sustainable Agriculture
+6. Biodiversity in Sustainable Agriculture
+7. Energy Efficiency in Agricultural Practices
+8. Economic Benefits of Sustainable Agriculture
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+1. Definition of Sustainable Agriculture and its Importance
+2. Benefits of Sustainable Agriculture for Farmers
+3. Benefits of Sustainable Agriculture for the Environment
+4. Importance of Soil Health in Sustainable Agriculture
+5. Water Conservation Techniques in Sustainable Agriculture
+6. Biodiversity's Role in Sustainable Agriculture
+7. Energy Efficiency in Agricultural Practices
+8. Economic Benefits of Sustainable Agriculture
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+1. Definition of Sustainable Agriculture and Its Importance
+2. Benefits of Sustainable Agriculture for Farmers
+3. Benefits of Sustainable Agriculture for the Environment
+4. Importance of Soil Health in Sustainable Agriculture
+5. Water Conservation Techniques in Sustainable Agriculture
+6. Biodiversity in Sustainable Agriculture
+7. Energy Efficiency in Agricultural Practices
+8. Economic Benefits of Sustainable Agriculture
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+🎲 Choice scenario triggered! (Rolled 3.0 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+["Definition of Sustainable Agriculture and Its Importance", "Benefits of Sustainable Agriculture for Farmers", "Benefits of Sustainable Agriculture for the Environment", "Importance of Soil Health in Sustainable Agriculture", "Water Conservation Techniques in Sustainable Agriculture", "Biodiversity in Sustainable Agriculture", "Energy Efficiency in Agricultural Practices", "Economic Benefits of Sustainable Agriculture"]
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+["Definition of Sustainable Agriculture and Its Importance", "Benefits of Sustainable Agriculture for Farmers", "Benefits of Sustainable Agriculture for the Environment", "Importance of Soil Health in Sustainable Agriculture", "Water Conservation Techniques in Sustainable Agriculture", "Biodiversity in Sustainable Agriculture", "Energy Efficiency in Agricultural Practices", "Economic Benefits of Sustainable Agriculture"]
+
+----------------------------------------
+✅ You chose Response 1
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_21-48-31.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_21-48-31.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+🎲 Choice scenario triggered! (Rolled 10.2 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Lecture Notes: Sustainable Agriculture
+
+Week 1: Introduction to Sustainable Agriculture
+
+Main Topic Title: Overview of Sustainable Agriculture
+
+Learning Objectives:
+- Understand the definition and importance of sustainable agriculture
+- Identify the benefits of sustainable agriculture for farmers and the environment
+- Recognize the significance of soil health in sustainable agriculture
+
+1. Definition of Sustainable Agriculture and Its Importance:
+- Sustainable agriculture refers to farming practices that are environmentally friendly, economically viable, and socially responsible.
+- Importance:
+  - Preserves the environment by reducing pollution, conserving water and soil quality
+  - Promotes economic stability by increasing farm profitability, reducing input costs
+  - Supports social well-being by creating jobs, revitalizing communities, promoting food security
+
+2. Benefits of Sustainable Agriculture for Farmers:
+- Economic benefits:
+  - Reduced input costs, increased crop yields, improved soil health
+- Improved soil health:
+  - Supports diverse microbial communities, nutrient cycling, soil structure
+- Water conservation techniques:
+  - Efficient irrigation methods, rainwater harvesting
+
+3. Benefits of Sustainable Agriculture for the Environment:
+- Biodiversity:
+  - Provides ecosystem services like pest control, pollination, nutrient cycling
+- Energy efficiency:
+  - Use of renewable energy sources, energy-saving practices
+- Economic benefits:
+  - Reduced reliance on costly inputs, increased profitability
+
+4. Importance of Soil Health in Sustainable Agriculture:
+- Critical for crop productivity, nutrient availability, ecosystem health
+- Healthy soils support diverse microbial communities, nutrient cycling, soil structure
+- Practices like crop rotation, cover cropping, integrated pest management improve soil health
+
+Real-World Examples and Applications:
+- Agroforestry: Integrating trees and shrubs into farming systems for additional benefits like shade, windbreaks, biodiversity
+- Drip irrigation: Delivering water directly to plant roots to minimize water wastage
+- Crop diversification: Spreading risks, adapting to changing environmental conditions
+
+Lab Activities/Practical Exercises:
+- Conduct soil health assessments in a local farm or garden
+- Analyze the economic impact of implementing sustainable agriculture practices on a hypothetical farm
+
+Assessment Questions and Discussion Points:
+1. Why is soil health important in sustainable agriculture?
+2. How can water conservation techniques benefit farmers and the environment?
+3. Discuss the economic benefits of sustainable agriculture for farmers.
+4. Explain the concept of biodiversity in sustainable agriculture and its significance.
+
+Key Takeaways:
+- Sustainable agriculture promotes environmental preservation, economic stability, and social well-being.
+- Soil health is crucial for crop productivity, nutrient availability, and ecosystem health.
+- Implementing water conservation techniques and energy-efficient practices can benefit farmers and the environment.
+- Biodiversity plays a key role in providing ecosystem services and enhancing resilience in agricultural systems.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Lecture Notes: Introduction to Sustainable Agriculture
+
+Week 1: Overview of Sustainable Agriculture
+
+Main Topic Title: Overview of Sustainable Agriculture
+
+1. Definition of Sustainable Agriculture:
+- Sustainable agriculture is a holistic approach to farming that aims to preserve the environment, promote economic stability, and support social well-being. It focuses on long-term productivity, environmental health, and social equity.
+- Importance: Sustainable agriculture helps in reducing pollution, conserving water and soil quality, increasing farm profitability, and promoting healthy communities with equitable access to food.
+
+2. Benefits of Sustainable Agriculture:
+- Economic Benefits for Farmers: Sustainable practices reduce input costs, increase crop yields, and improve soil health, leading to higher profitability.
+- Improved Soil Health: Sustainable agriculture practices such as crop rotation, cover cropping, and integrated pest management enhance soil fertility and structure.
+- Water Conservation Techniques: Efficient irrigation methods like drip irrigation and rainwater harvesting help reduce water waste and promote sustainable water management.
+
+3. Importance of Soil Health in Sustainable Agriculture:
+- Soil health is crucial for crop productivity, nutrient availability, and ecosystem health. Healthy soils support diverse microbial communities, aiding in nutrient cycling and soil structure.
+- Practices like agroforestry and crop rotation contribute to maintaining soil health and fertility, reducing reliance on chemical inputs.
+
+Real-World Examples and Applications:
+- Agroforestry: Integrating trees and shrubs into farming systems improves soil health, conserves water, enhances biodiversity, and provides additional income sources for farmers.
+- Case Studies: Showcase successful sustainable agriculture initiatives globally, demonstrating the economic, environmental, and social benefits of sustainable practices.
+
+Figures and Visual Elements:
+- Diagram illustrating the components of sustainable agriculture: environmental preservation, economic stability, and social well-being.
+- Graph showing the economic impact of sustainable agriculture practices on farm profitability over time.
+
+Practical Exercises and Case Studies:
+- Conduct soil health assessments in a local farm or garden to understand the importance of soil health in sustainable agriculture.
+- Analyze the economic impact of implementing sustainable agriculture practices on a hypothetical farm to assess cost savings and profitability.
+
+Learning Objectives:
+- Define sustainable agriculture and its importance in preserving the environment, promoting economic stability, and supporting social well-being.
+- Identify the benefits of sustainable agriculture for farmers, including economic benefits, improved soil health, and water conservation techniques.
+- Recognize the significance of soil health in sustainable agriculture and its impact on crop productivity, nutrient availability, and ecosystem health.
+
+Assessment Questions and Discussion Points:
+1. How does sustainable agriculture contribute to environmental preservation?
+2. Discuss the economic benefits of implementing sustainable agriculture practices for farmers.
+3. Why is soil health important in sustainable agriculture, and how can it be maintained?
+4. Explain the role of biodiversity in sustainable agriculture and its impact on ecosystem services.
+5. Evaluate the energy efficiency practices in agriculture and their contribution to sustainability.
+
+----------------------------------------
+✅ You chose Response 1
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_21-48-53.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+⚠️ Content validation suggestions: The lecture notes on Sustainable Agriculture are comprehensive and provide a good introduction to the topic. The content covers the definition and importance of sustainable agriculture, benefits for farmers and the environment, and the significance of soil health. The inclusion of real-world examples and applications, such as agroforestry, adds depth to the material and helps students understand the practical applications of sustainable agriculture.
+
+For a 3-credit hour senior undergraduate course, the content could be improved by adding more advanced topics or concepts related to sustainable agriculture. This could include discussions on advanced soil health management techniques, precision agriculture technologies, sustainable livestock production practices, or policy implications for sustainable agriculture. Additionally, incorporating case studies or research findings on the effectiveness of sustainable agriculture practices in different contexts would enhance the depth and complexity of the material.
+
+Overall, the content is suitable for a 3-credit hour senior undergraduate study with the addition of more advanced topics and real-world examples to further enhance the learning experience.
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Sustainable Agriculture
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Definition of Sustainable Agriculture and Its Importance)
+🔍 DEBUG: Slide 1 content set to: '• Sustainable agriculture refers to environmentally friendly, economically viable, and socially resp...'
+🔍 DEBUG: Slide 1 content length: 453
+✅ Slide 1 content: • Sustainable agriculture refers to environmentally friendly, economically viable, and socially responsible farming practices
+• Importance:
+  - Preserves the environment by reducing pollution and conserving water and soil quality
+  - Promotes economic stability by increasing farm profitability and reducing input costs
+  - Supports social well-being by creating jobs, revitalizing communities, and promoting food security
+• Consumers are increasingly demanding sustainably produced food, creating new market opportunities for farmers practicing sustainable agriculture.
+Generating content for slide 2 (Topic: Benefits of Sustainable Agriculture for Farmers)
+🎲 Choice scenario triggered! (Rolled 30.3 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Sustainable agriculture practices lead to economic benefits for farmers
+• Cost savings by reducing reliance on costly chemical inputs
+• Improved soil health and fertility result in increased crop yields and profitability
+• New market opportunities arise as consumers demand sustainably produced food
+• Example: Implementing crop rotation and integrated pest management for cost savings and increased profitability
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Sustainable agriculture practices lead to economic benefits for farmers
+• Cost savings achieved by reducing reliance on costly chemical inputs
+• Improved soil health and fertility result in increased crop yields and profitability
+• New market opportunities arise as consumers demand sustainably produced food
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 2 content set to: '• Sustainable agriculture practices lead to economic benefits for farmers • Cost savings achieved by...'
+🔍 DEBUG: Slide 2 content length: 310
+✅ Slide 2 content: • Sustainable agriculture practices lead to economic benefits for farmers
+• Cost savings achieved by reducing reliance on costly chemical inputs
+• Improved soil health and fertility result in increased crop yields and profitability
+• New market opportunities arise as consumers demand sustainably produced food
+Generating content for slide 3 (Topic: Benefits of Sustainable Agriculture for the Environment)
+🔍 DEBUG: Slide 3 content set to: '• Sustainable agriculture benefits the environment by reducing pollution and conserving water and so...'
+🔍 DEBUG: Slide 3 content length: 385
+✅ Slide 3 content: • Sustainable agriculture benefits the environment by reducing pollution and conserving water and soil quality
+• It promotes economic stability by increasing farm profitability and reducing input costs
+• Social well-being is supported through job creation, community revitalization, and food security
+• Improved human health is facilitated by access to nutritious and safe food sources
+Generating content for slide 4 (Topic: Importance of Soil Health in Sustainable Agriculture)
+🔍 DEBUG: Slide 4 content set to: '• Soil health is crucial for sustainable agriculture, directly impacting crop productivity and overa...'
+🔍 DEBUG: Slide 4 content length: 429
+✅ Slide 4 content: • Soil health is crucial for sustainable agriculture, directly impacting crop productivity and overall ecosystem health
+• Healthy soils support diverse microbial communities, aiding in nutrient cycling and soil structure
+• Good soil health reduces the need for chemical inputs, improves water retention, and enhances long-term sustainability
+• Maintaining soil health benefits farmers by reducing costs and increasing crop yields
+Generating content for slide 5 (Topic: Water Conservation Techniques in Sustainable Agriculture)
+🎲 Choice scenario triggered! (Rolled 17.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Water conservation techniques in sustainable agriculture focus on reducing water usage while maintaining crop productivity
+- Common techniques include drip irrigation, which delivers water directly to plant roots, and rainwater harvesting for irrigation
+- These techniques help farmers reduce water waste and promote sustainable water management practices
+- Example: Drip irrigation minimizes water wastage by reducing evaporation and runoff, promoting healthier plant growth
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Water conservation techniques in sustainable agriculture focus on reducing water usage while maintaining crop productivity
+- Efficient irrigation methods like drip irrigation deliver water directly to plant roots, reducing evaporation
+- Rainwater harvesting collects and stores rainwater for later use in irrigation
+- These techniques help farmers reduce water waste and promote sustainable water management practices
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 5 content set to: 'Water conservation techniques in sustainable agriculture focus on reducing water usage while maintai...'
+🔍 DEBUG: Slide 5 content length: 469
+✅ Slide 5 content: - Water conservation techniques in sustainable agriculture focus on reducing water usage while maintaining crop productivity
+- Common techniques include drip irrigation, which delivers water directly to plant roots, and rainwater harvesting for irrigation
+- These techniques help farmers reduce water waste and promote sustainable water management practices
+- Example: Drip irrigation minimizes water wastage by reducing evaporation and runoff, promoting healthier plant growth
+Generating content for slide 6 (Topic: Biodiversity in Sustainable Agriculture)
+🔍 DEBUG: Slide 6 content set to: '• Biodiversity enhances ecosystem services in sustainable agriculture • Crop diversity supports resi...'
+🔍 DEBUG: Slide 6 content length: 293
+✅ Slide 6 content: • Biodiversity enhances ecosystem services in sustainable agriculture
+• Crop diversity supports resilient and productive agricultural systems
+• Pollinators like bees and butterflies ensure stable food supply
+• Overall, biodiversity increases resilience and productivity in agricultural systems
+Generating content for slide 7 (Topic: Energy Efficiency in Agricultural Practices)
+🔍 DEBUG: Slide 7 content set to: '• Energy efficiency in agricultural practices focuses on minimizing energy consumption while maximiz...'
+🔍 DEBUG: Slide 7 content length: 453
+✅ Slide 7 content: • Energy efficiency in agricultural practices focuses on minimizing energy consumption while maximizing productivity
+• Renewable energy sources such as solar power, wind power, and bioenergy are increasingly utilized in farming
+• Solar panels can power irrigation systems, wind turbines can generate electricity, and biogas from organic waste can reduce reliance on fossil fuels
+• Improving energy efficiency helps reduce carbon footprint, operating costs, and contributes to a more sustainable food system.
+Generating content for slide 8 (Topic: Economic Benefits of Sustainable Agriculture)
+🎲 Choice scenario triggered! (Rolled 5.7 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Sustainable agriculture practices lead to economic benefits for farmers
+• Cost savings achieved by reducing reliance on costly chemical inputs
+• Improved soil health and fertility result in increased crop yields and profitability
+• New market opportunities arise as consumers seek out sustainably produced food
+
+Link: https://www.usda.gov/topics/organic/economic-benefits-organic
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Sustainable agriculture can lead to various economic benefits for farmers
+• Practices like crop rotation, cover cropping, and integrated pest management can reduce input costs
+• Improved soil health and fertility from sustainable practices can increase crop yields and profitability
+• New market opportunities arise as consumers seek out products grown using environmentally friendly methods.
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 8 content set to: '• Sustainable agriculture can lead to various economic benefits for farmers • Practices like crop ro...'
+🔍 DEBUG: Slide 8 content length: 394
+✅ Slide 8 content: • Sustainable agriculture can lead to various economic benefits for farmers
+• Practices like crop rotation, cover cropping, and integrated pest management can reduce input costs
+• Improved soil health and fertility from sustainable practices can increase crop yields and profitability
+• New market opportunities arise as consumers seek out products grown using environmentally friendly methods.
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Definition of Sustainable Agriculture and Its Importance)
+✅ Slide 1 title: Title: Sustainable Agriculture: Definition and Importance
+Generating title for slide 2 (Topic: Benefits of Sustainable Agriculture for Farmers)
+🎲 Choice scenario triggered! (Rolled 29.2 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+"Farmer Benefits of Sustainable Agriculture"
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Benefits of Sustainable Agriculture for Farmers
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 2 title: Benefits of Sustainable Agriculture for Farmers
+Generating title for slide 3 (Topic: Benefits of Sustainable Agriculture for the Environment)
+🎲 Choice scenario triggered! (Rolled 12.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Environmental Benefits of Sustainable Agriculture
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Environmental Benefits of Sustainable Agriculture
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 3 title: Environmental Benefits of Sustainable Agriculture
+Generating title for slide 4 (Topic: Importance of Soil Health in Sustainable Agriculture)
+🎲 Choice scenario triggered! (Rolled 1.8 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Title: Soil Health in Sustainable Agriculture
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Title: Soil Health in Sustainable Agriculture
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 4 title: Title: Soil Health in Sustainable Agriculture
+Generating title for slide 5 (Topic: Water Conservation Techniques in Sustainable Agriculture)
+🎲 Choice scenario triggered! (Rolled 13.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Effective Water Conservation Techniques
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Effective Water Conservation Techniques
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 5 title: Effective Water Conservation Techniques
+Generating title for slide 6 (Topic: Biodiversity in Sustainable Agriculture)
+✅ Slide 6 title: Title: The Role of Biodiversity in Agriculture
+Generating title for slide 7 (Topic: Energy Efficiency in Agricultural Practices)
+✅ Slide 7 title: Maximizing Energy Efficiency in Agriculture
+Generating title for slide 8 (Topic: Economic Benefits of Sustainable Agriculture)
+✅ Slide 8 title: Maximizing Economic Benefits of Sustainable Agriculture
+Generating overall presentation title...
+🎲 Choice scenario triggered! (Rolled 43.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Sustainable Agriculture: Cultivating a Brighter Future
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Promoting Sustainability: A Comprehensive Guide to Sustainable Agriculture
+
+----------------------------------------
+✅ You chose Response 1
+✅ Overall presentation title: Sustainable Agriculture: Cultivating a Brighter Future
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Definition of Sustainable Agriculture and Its Importance)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Benefits of Sustainable Agriculture for Farmers)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Benefits of Sustainable Agriculture for the Environment)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Importance of Soil Health in Sustainable Agriculture)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Water Conservation Techniques in Sustainable Agriculture)
+🎲 Choice scenario triggered! (Rolled 42.7 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['water conservation techniques in agriculture', 'drip irrigation benefits', 'rainwater harvesting for irrigation', 'sustainable water management practices in farming']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['water conservation techniques in agriculture', 'drip irrigation benefits', 'rainwater harvesting for irrigation', 'sustainable water management practices', 'crop productivity and water usage', 'effective irrigation methods for sustainable farming']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Biodiversity in Sustainable Agriculture)
+🎲 Choice scenario triggered! (Rolled 30.2 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['biodiversity in agriculture', 'ecosystem services in sustainable agriculture', 'crop diversity in sustainable agriculture', 'pollinators in agriculture', 'resilience and productivity in agricultural systems']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['biodiversity in agriculture', 'ecosystem services in agriculture', 'crop diversity in sustainable agriculture', 'pollinators in agriculture', 'resilience in agricultural systems']
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Energy Efficiency in Agricultural Practices)
+🎲 Choice scenario triggered! (Rolled 25.9 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['Energy efficiency in agriculture', 'Renewable energy in farming', 'Solar power in agriculture', 'Wind power in farming', 'Bioenergy in agriculture', 'Maximizing energy efficiency in farming']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['Energy efficiency in agriculture practices', 'Renewable energy sources in farming', 'Solar power in agriculture', 'Wind power in farming', 'Bioenergy in agriculture', 'Maximizing energy efficiency in agriculture', 'Reducing energy consumption in farming', 'Green technology in agriculture', 'Sustainable energy practices in farming']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Economic Benefits of Sustainable Agriculture)
+🎲 Choice scenario triggered! (Rolled 34.4 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['economic benefits sustainable agriculture', 'crop rotation benefits', 'cover cropping advantages', 'integrated pest management cost savings', 'soil health crop yields profitability', 'market opportunities environmentally friendly products']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['economic benefits sustainable agriculture', 'crop rotation economic benefits', 'cover cropping cost savings', 'integrated pest management profitability', 'soil health crop yields profitability', 'environmentally friendly market opportunities']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Definition of Sustainable Agriculture and Its Importance)
+🎲 Choice scenario triggered! (Rolled 31.6 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Sustainable agriculture promotes biodiversity and ecosystem resilience, contributing to the overall health of the environment (Database Reference: Biodiversity conservation is a key aspect of sustainable agriculture, as it helps to maintain ecosystem services such as pollination, pest control, and soil fertility. By preserving natural habitats and minimizing chemical inputs, sustainable farming practices support a diverse range of plant and animal species).
+
+- Sustainable agriculture enhances water quality and availability through practices like conservation tillage, crop rotation, and agroforestry, reducing the negative impact of agriculture on water resources (Database Reference: Water conservation is a critical component of sustainable agriculture, as it helps to reduce water pollution, minimize soil erosion, and improve water quality. By implementing practices that enhance water infiltration and retention, farmers can mitigate the effects of climate change and ensure sustainable water management).
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Sustainable agriculture contributes to improved human health by providing access to nutritious and safe food.
+- It fosters community development by creating jobs, revitalizing rural communities, and promoting food security.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 1 content is long (1018 chars) - consider reducing
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Benefits of Sustainable Agriculture for Farmers)
+🎲 Choice scenario triggered! (Rolled 33.1 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Healthy soils in sustainable agriculture support diverse microbial communities that play a key role in nutrient cycling and soil structure, reducing the need for chemical inputs and enhancing water retention.
+- Maintaining good soil health in sustainable agriculture practices improves water infiltration and retention, mitigating the effects of climate change and ensuring sustainable water management.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Maintaining good soil health in sustainable agriculture can help reduce the need for chemical inputs, improve water retention, and enhance the long-term sustainability of farming practices.
+- Healthy soils support diverse microbial communities that play a key role in nutrient cycling and soil structure, contributing to crop productivity and ecosystem health.
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Benefits of Sustainable Agriculture for the Environment)
+⚠️ Warning: Slide 3 content is long (523 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Importance of Soil Health in Sustainable Agriculture)
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Water Conservation Techniques in Sustainable Agriculture)
+⚠️ Warning: Slide 5 content is long (764 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Biodiversity in Sustainable Agriculture)
+⚠️ Warning: Slide 6 content is long (570 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Energy Efficiency in Agricultural Practices)
+🎲 Choice scenario triggered! (Rolled 37.6 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Implementing energy-saving practices like efficient irrigation systems and machinery can help reduce energy consumption in agriculture.
+- Utilizing renewable energy sources such as solar power and wind power can further enhance energy efficiency on farms.
+- Incorporating biogas from organic waste as an alternative energy source can reduce reliance on fossil fuels and decrease carbon footprint.
+- Maximizing energy efficiency in agriculture not only benefits the environment but also helps in cutting down operating costs for farmers.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Implementing energy-efficient irrigation systems can significantly reduce water usage and energy consumption in agriculture.
+- Utilizing precision agriculture techniques, such as GPS-guided machinery and sensor technology, can optimize resource use and minimize waste in farming operations.
+- Integrating energy-efficient lighting systems in greenhouses can enhance crop growth and reduce electricity costs.
+- Incorporating agroforestry practices, such as planting trees in agricultural fields, can provide shade, windbreaks, and additional sources of biomass for renewable energy production.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 7 content is long (538 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Economic Benefits of Sustainable Agriculture)
+⚠️ Warning: Slide 8 content is long (538 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Sustainable_Agriculture_Cultivating_a_Brighter_Future_2025-08-31_21-50-25
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Sustainable_Agriculture_Cultivating_a_Brighter_Future_2025-08-31_21-50-25.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Sustainable_Agriculture_Cultivating_a_Brighter_Future_2025-08-31_21-50-25.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 1 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Sustainable_Agriculture_Cultivating_a_Brighter_Future_2025-08-31_21-50-25.pptx
+📊 Rating presentation 1...
+✅ Presentation 1 rated successfully
+📈 Overall Rating: 6.05 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.00 / 2.00
+   - Non-Repetition: 1.85 / 2.00
+   - Content Balance: 1.29 / 2.00
+   - Title Uniqueness: 1.74 / 2.00
+   - Title-Content Match: 1.17 / 2.00
+💾 Result saved to file for presentation 1
+
+📊 Presentation 3/10 (ID: 2)
+📝 Using topic: Public Health Crises Management
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

@@ -1,0 +1,1619 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T18:56:55.532834
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_18-56-55.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 1...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Sustainable Agriculture
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+🎲 Choice scenario triggered! (Rolled 10.3 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Sustainable farming practices, Importance of crop rotation
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Benefits of crop rotation, Importance of soil health
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI topic response: Sustainable farming practices, Importance of crop rotation
+Selected topics: ['Sustainable farming practices', 'Importance of crop rotation']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Sustainable farming practices
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SUSTAINABLE FARMING PRACTICES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 15.5 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "What are Sustainable Farming Practices?",
+    "keywords": ["sustainable farming", "agriculture", "environment", "sustainability", "practices"],
+    "text": "Sustainable farming practices are methods used in agriculture that aim to protect the environment, public health, human communities, and animal welfare. These practices focus on maintaining soil health, reducing water usage, minimizing chemical inputs, and promoting biodiversity. Examples of sustainable farming practices include crop rotation, cover cropping, integrated pest management, and agroforestry.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/sustainability/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Benefits of Sustainable Farming Practices",
+    "keywords": ["sustainable farming", "agriculture", "benefits", "environment", "health"],
+    "text": "Sustainable farming practices focus on methods that are environmentally friendly, socially responsible, and economically viable. Some benefits of sustainable farming include improved soil health, reduced water pollution, decreased use of synthetic pesticides and fertilizers, and increased biodiversity. These practices also promote the health and well-being of farm workers and surrounding communities.",
+    "link": "https://www.nationalgeographic.com/environment/article/sustainable-farming" 
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "What are Sustainable Farming Practices?",
+    "keywords": ["sustainable farming", "agriculture", "environment", "sustainability", "practices"],
+    "text": "Sustainable farming practices are methods used in agriculture that aim to protect the environment, public health, human communities, and animal welfare. These practices focus on maintaining soil health, reducing water usage, minimizing chemical inputs, and promoting biodiversity. Examples of sustainable farming practices include crop rotation, cover cropping, integrated pest management, and agroforestry.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/sustainability/"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: What are Sustainable Farming Practices?
+Keywords: sustainable farming, agriculture, environment, sustainability, practices
+Uses: 0
+Text: Sustainable farming practices are methods used in agriculture that aim to protect the environment, public health, human communities, and animal welfare. These practices focus on maintaining soil health, reducing water usage, minimizing chemical inputs, and promoting biodiversity. Examples of sustainable farming practices include crop rotation, cover cropping, integrated pest management, and agroforestry.Link: https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/sustainability/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SUSTAINABLE FARMING PRACTICES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Benefits of Cover Crops in Sustainable Farming Practices",
+    "keywords": ["cover crops", "soil health", "crop rotation", "sustainable agriculture"],
+    "text": "Cover crops are plants that are grown to cover the soil rather than for harvest. They are an essential part of sustainable farming practices as they help improve soil health by preventing erosion, suppressing weeds, and enhancing soil fertility. Additionally, cover crops can improve water retention in the soil, reduce the need for synthetic fertilizers and pesticides, and promote biodiversity on farms. Crop rotation, which involves planting different crops in the same field in successive seasons, is often combined with cover cropping to further enhance soil health and reduce pest and disease pressure.",
+    "link": "https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Cover-Crops/Benefits-of-Cover-Crops/"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Benefits of Cover Crops in Sustainable Farming Practices
+Keywords: cover crops, soil health, crop rotation, sustainable agriculture
+Uses: 0
+Text: Cover crops are plants that are grown to cover the soil rather than for harvest. They are an essential part of sustainable farming practices as they help improve soil health by preventing erosion, suppressing weeds, and enhancing soil fertility. Additionally, cover crops can improve water retention in the soil, reduce the need for synthetic fertilizers and pesticides, and promote biodiversity on farms. Crop rotation, which involves planting different crops in the same field in successive seasons, is often combined with cover cropping to further enhance soil health and reduce pest and disease pressure.Link: https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Cover-Crops/Benefits-of-Cover-Crops/
+Researching topic: Importance of crop rotation
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF CROP ROTATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 25.7 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Importance of Crop Rotation in Sustainable Agriculture",
+    "keywords": ["crop rotation", "sustainable agriculture", "benefits", "soil health", "pest control"],
+    "text": "Crop rotation is a key practice in sustainable agriculture that involves planting different crops in the same field in sequential seasons. This helps improve soil health by reducing soil erosion, promoting nutrient cycling, and preventing the buildup of pests and diseases. By rotating crops, farmers can also improve crop yields and reduce the need for chemical inputs. Overall, crop rotation plays a crucial role in maintaining the long-term productivity and sustainability of agricultural systems.",
+    "link": "https://extension.umn.edu/crop-production-practices/rotation-basics"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Importance of Crop Rotation in Sustainable Agriculture",
+    "keywords": ["crop rotation", "sustainable agriculture", "soil health", "pest management"],
+    "text": "Crop rotation is a key practice in sustainable agriculture that involves planting different crops in the same field in sequential seasons. This helps improve soil health by reducing soil erosion, nutrient depletion, and soil-borne diseases. Additionally, crop rotation can help manage pests and weeds naturally, as different crops attract different pests and disrupt their life cycles. Overall, crop rotation is essential for maintaining long-term soil fertility and productivity in a sustainable farming system.",
+    "link": "https://www.sare.org/resources/crop-rotation-on-organic-farms-a-planning-manual/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "The Importance of Crop Rotation in Sustainable Agriculture",
+    "keywords": ["crop rotation", "sustainable agriculture", "soil health", "pest management"],
+    "text": "Crop rotation is a key practice in sustainable agriculture that involves planting different crops in the same field in sequential seasons. This helps improve soil health by reducing soil erosion, nutrient depletion, and soil-borne diseases. Additionally, crop rotation can help manage pests and weeds naturally, as different crops attract different pests and disrupt their life cycles. Overall, crop rotation is essential for maintaining long-term soil fertility and productivity in a sustainable farming system.",
+    "link": "https://www.sare.org/resources/crop-rotation-on-organic-farms-a-planning-manual/"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: The Importance of Crop Rotation in Sustainable Agriculture
+Keywords: crop rotation, sustainable agriculture, soil health, pest management
+Uses: 0
+Text: Crop rotation is a key practice in sustainable agriculture that involves planting different crops in the same field in sequential seasons. This helps improve soil health by reducing soil erosion, nutrient depletion, and soil-borne diseases. Additionally, crop rotation can help manage pests and weeds naturally, as different crops attract different pests and disrupt their life cycles. Overall, crop rotation is essential for maintaining long-term soil fertility and productivity in a sustainable farming system.Link: https://www.sare.org/resources/crop-rotation-on-organic-farms-a-planning-manual/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF CROP ROTATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Benefits of Crop Rotation in Sustainable Agriculture",
+    "keywords": ["crop rotation", "sustainable agriculture", "benefits", "soil health", "pest control"],
+    "text": "Crop rotation is a practice where different crops are planted in the same area in sequential seasons. This technique helps improve soil health by reducing soil erosion, increasing soil fertility, and controlling pests and diseases. By rotating crops, farmers can also break pest and disease cycles, leading to higher crop yields and reduced reliance on chemical inputs.",
+    "link": "https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Crop-Rotation"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: The Benefits of Crop Rotation in Sustainable Agriculture
+Keywords: crop rotation, sustainable agriculture, benefits, soil health, pest control
+Uses: 0
+Text: Crop rotation is a practice where different crops are planted in the same area in sequential seasons. This technique helps improve soil health by reducing soil erosion, increasing soil fertility, and controlling pests and diseases. By rotating crops, farmers can also break pest and disease cycles, leading to higher crop yields and reduced reliance on chemical inputs.Link: https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Crop-Rotation
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Sustainable farming practices', 'Importance of crop rotation']. The research these yeilded is: ({Sustainable farming practices are methods used in agriculture that aim to protect the environment, public health, human communities, and animal welfare. These practices focus on maintaining soil health, reducing water usage, minimizing chemical inputs, and promoting biodiversity. Examples of sustainable farming practices include crop rotation, cover cropping, integrated pest management, and agroforestry.
+
+Cover crops are plants that are grown to cover the soil rather than for harvest. They are an essential part of sustainable farming practices as they help improve soil health by preventing erosion, suppressing weeds, and enhancing soil fertility. Additionally, cover crops can improve water retention in the soil, reduce the need for synthetic fertilizers and pesticides, and promote biodiversity on farms. Crop rotation, which involves planting different crops in the same field in successive seasons, is often combined with cover cropping to further enhance soil health and reduce pest and  (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Benefits of agroforestry, Soil conservation techniques, Water management strategies, Sustainable pest control methods, Organic farming principles, Community-supported agriculture models
+Selected topics: ['Benefits of agroforestry', 'Soil conservation techniques', 'Water management strategies', 'Sustainable pest control methods', 'Organic farming principles', 'Community-supported agriculture models']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Benefits of agroforestry
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture', 'The Benefits of Crop Rotation in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BENEFITS OF AGROFORESTRY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Benefits of Agroforestry in Sustainable Agriculture",
+    "keywords": ["agroforestry", "benefits", "sustainable agriculture", "agriculture", "farming"],
+    "text": "Agroforestry is a sustainable farming practice that involves integrating trees and shrubs into agricultural landscapes. This practice offers numerous benefits such as improved soil health, increased biodiversity, enhanced water quality, and climate change mitigation. Trees in agroforestry systems can provide additional income streams for farmers through timber, fruits, nuts, and other non-timber forest products.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/landuse/agroforestry/"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: The Benefits of Agroforestry in Sustainable Agriculture
+Keywords: agroforestry, benefits, sustainable agriculture, agriculture, farming
+Uses: 0
+Text: Agroforestry is a sustainable farming practice that involves integrating trees and shrubs into agricultural landscapes. This practice offers numerous benefits such as improved soil health, increased biodiversity, enhanced water quality, and climate change mitigation. Trees in agroforestry systems can provide additional income streams for farmers through timber, fruits, nuts, and other non-timber forest products.Link: https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/landuse/agroforestry/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture', 'The Benefits of Crop Rotation in Sustainable Agriculture', 'The Benefits of Agroforestry in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BENEFITS OF AGROFORESTRY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Agroforestry Benefits: Environmental, Economic, and Social Advantages",
+    "keywords": ["agroforestry", "benefits", "environmental", "economic", "social"],
+    "text": "Agroforestry offers a range of benefits across environmental, economic, and social aspects. Environmentally, agroforestry practices help improve soil health, prevent erosion, enhance biodiversity, and sequester carbon. Economically, agroforestry can provide additional sources of income through diversified products, reduce input costs, and improve resilience to climate change. Socially, agroforestry can strengthen community ties, provide employment opportunities, and contribute to food security.",
+    "link": "https://www.worldagroforestry.org/data/benefits-agroforestry"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Agroforestry Benefits: Environmental, Economic, and Social Advantages
+Keywords: agroforestry, benefits, environmental, economic, social
+Uses: 0
+Text: Agroforestry offers a range of benefits across environmental, economic, and social aspects. Environmentally, agroforestry practices help improve soil health, prevent erosion, enhance biodiversity, and sequester carbon. Economically, agroforestry can provide additional sources of income through diversified products, reduce input costs, and improve resilience to climate change. Socially, agroforestry can strengthen community ties, provide employment opportunities, and contribute to food security.Link: https://www.worldagroforestry.org/data/benefits-agroforestry
+Researching topic: Soil conservation techniques
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture', 'The Benefits of Crop Rotation in Sustainable Agriculture', 'The Benefits of Agroforestry in Sustainable Agriculture', 'Agroforestry Benefits: Environmental, Economic, and Social Advantages']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SOIL CONSERVATION TECHNIQUES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 24.7 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Soil Conservation Techniques in Sustainable Agriculture",
+    "keywords": ["soil conservation", "sustainable agriculture", "erosion control", "soil health", "water management"],
+    "text": "Soil conservation techniques in sustainable agriculture aim to prevent soil erosion, enhance soil health, and improve water management on farms. Some common techniques include contour plowing, terracing, cover cropping, no-till farming, and mulching. These practices help to reduce soil erosion, retain moisture, increase organic matter content, and promote overall soil fertility.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/soils/health/conservation/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Soil Conservation Techniques in Sustainable Agriculture",
+    "keywords": ["soil conservation", "sustainable agriculture", "erosion control", "soil health", "land management"],
+    "text": "Soil conservation techniques in sustainable agriculture aim to prevent soil erosion, improve soil health, and promote sustainable land management practices. These techniques include contour plowing, terracing, cover cropping, no-till farming, crop rotation, and agroforestry.",
+    "link": "https://extension.umn.edu/soil-and-water/soil-conservation-and-management"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Soil Conservation Techniques in Sustainable Agriculture",
+    "keywords": ["soil conservation", "sustainable agriculture", "erosion control", "soil health", "water management"],
+    "text": "Soil conservation techniques in sustainable agriculture aim to prevent soil erosion, enhance soil health, and improve water management on farms. Some common techniques include contour plowing, terracing, cover cropping, no-till farming, and mulching. These practices help to reduce soil erosion, retain moisture, increase organic matter content, and promote overall soil fertility.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/soils/health/conservation/"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Soil Conservation Techniques in Sustainable Agriculture
+Keywords: soil conservation, sustainable agriculture, erosion control, soil health, water management
+Uses: 0
+Text: Soil conservation techniques in sustainable agriculture aim to prevent soil erosion, enhance soil health, and improve water management on farms. Some common techniques include contour plowing, terracing, cover cropping, no-till farming, and mulching. These practices help to reduce soil erosion, retain moisture, increase organic matter content, and promote overall soil fertility.Link: https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/soils/health/conservation/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture', 'The Benefits of Crop Rotation in Sustainable Agriculture', 'The Benefits of Agroforestry in Sustainable Agriculture', 'Agroforestry Benefits: Environmental, Economic, and Social Advantages', 'Soil Conservation Techniques in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SOIL CONSERVATION TECHNIQUES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Types of Soil Conservation Techniques in Sustainable Agriculture",
+    "keywords": ["soil conservation techniques", "sustainable agriculture", "erosion control", "water management"],
+    "text": "There are various types of soil conservation techniques used in sustainable agriculture to prevent soil erosion and improve soil health. Some common techniques include contour plowing, terracing, cover cropping, no-till farming, crop rotation, and agroforestry. These techniques help to reduce soil erosion, improve water retention, enhance soil fertility, and promote overall sustainable land management practices.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/soils/health/conserve/" 
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Types of Soil Conservation Techniques in Sustainable Agriculture
+Keywords: soil conservation techniques, sustainable agriculture, erosion control, water management
+Uses: 0
+Text: There are various types of soil conservation techniques used in sustainable agriculture to prevent soil erosion and improve soil health. Some common techniques include contour plowing, terracing, cover cropping, no-till farming, crop rotation, and agroforestry. These techniques help to reduce soil erosion, improve water retention, enhance soil fertility, and promote overall sustainable land management practices.Link: https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/soils/health/conserve/
+Researching topic: Water management strategies
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture', 'The Benefits of Crop Rotation in Sustainable Agriculture', 'The Benefits of Agroforestry in Sustainable Agriculture', 'Agroforestry Benefits: Environmental, Economic, and Social Advantages', 'Soil Conservation Techniques in Sustainable Agriculture', 'Types of Soil Conservation Techniques in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WATER MANAGEMENT STRATEGIES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 4.2 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Water Management Strategies in Sustainable Agriculture",
+    "keywords": ["water management", "sustainable agriculture", "irrigation techniques", "water conservation"],
+    "text": "Water management strategies in sustainable agriculture involve practices such as drip irrigation, rainwater harvesting, and the use of cover crops to reduce water usage. These techniques help conserve water resources and promote efficient water use on farms.",
+    "link": "https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Water-Management/Water-Management-Strategies-in-Sustainable-Agriculture"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Water Management Strategies in Sustainable Agriculture",
+    "keywords": ["water management", "sustainable agriculture", "irrigation", "water conservation"],
+    "text": "Water management strategies in sustainable agriculture involve techniques such as drip irrigation, rainwater harvesting, and conservation tillage. These methods help farmers optimize water use, reduce water waste, and improve crop yields while minimizing environmental impact.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/soils/health/?cid=nrcs142p2_053862"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Water Management Strategies in Sustainable Agriculture",
+    "keywords": ["water management", "sustainable agriculture", "irrigation techniques", "water conservation"],
+    "text": "Water management strategies in sustainable agriculture involve practices such as drip irrigation, rainwater harvesting, and the use of cover crops to reduce water usage. These techniques help conserve water resources and promote efficient water use on farms.",
+    "link": "https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Water-Management/Water-Management-Strategies-in-Sustainable-Agriculture"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Water Management Strategies in Sustainable Agriculture
+Keywords: water management, sustainable agriculture, irrigation techniques, water conservation
+Uses: 0
+Text: Water management strategies in sustainable agriculture involve practices such as drip irrigation, rainwater harvesting, and the use of cover crops to reduce water usage. These techniques help conserve water resources and promote efficient water use on farms.Link: https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Water-Management/Water-Management-Strategies-in-Sustainable-Agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture', 'The Benefits of Crop Rotation in Sustainable Agriculture', 'The Benefits of Agroforestry in Sustainable Agriculture', 'Agroforestry Benefits: Environmental, Economic, and Social Advantages', 'Soil Conservation Techniques in Sustainable Agriculture', 'Types of Soil Conservation Techniques in Sustainable Agriculture', 'Water Management Strategies in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WATER MANAGEMENT STRATEGIES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 23.8 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Benefits of Drip Irrigation in Sustainable Agriculture",
+    "keywords": ["drip irrigation", "sustainable agriculture", "water management", "irrigation systems"],
+    "text": "Drip irrigation is a water-efficient method of watering crops by delivering water directly to the roots of plants. This method reduces water waste by minimizing evaporation and runoff. Drip irrigation also helps to prevent weed growth and disease by specifically targeting the root zone of plants. Overall, drip irrigation can lead to higher crop yields and healthier plants while conserving water resources.",
+    "link": "https://extension.umn.edu/irrigation/drip-irrigation"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Importance of Irrigation Efficiency in Sustainable Agriculture",
+    "keywords": ["irrigation efficiency", "sustainable agriculture", "water management", "crop production", "water conservation"],
+    "text": "Irrigation efficiency is crucial in sustainable agriculture as it ensures that water is used effectively and not wasted. By maximizing irrigation efficiency, farmers can optimize crop production while conserving water resources. This is essential for long-term sustainability and resilience in agriculture, especially in regions facing water scarcity or drought conditions.",
+    "link": "https://extension.umn.edu/irrigation/importance-irrigation-efficiency"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Benefits of Drip Irrigation in Sustainable Agriculture",
+    "keywords": ["drip irrigation", "sustainable agriculture", "water management", "irrigation systems"],
+    "text": "Drip irrigation is a water-efficient method of watering crops by delivering water directly to the roots of plants. This method reduces water waste by minimizing evaporation and runoff. Drip irrigation also helps to prevent weed growth and disease by specifically targeting the root zone of plants. Overall, drip irrigation can lead to higher crop yields and healthier plants while conserving water resources.",
+    "link": "https://extension.umn.edu/irrigation/drip-irrigation"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Benefits of Drip Irrigation in Sustainable Agriculture
+Keywords: drip irrigation, sustainable agriculture, water management, irrigation systems
+Uses: 0
+Text: Drip irrigation is a water-efficient method of watering crops by delivering water directly to the roots of plants. This method reduces water waste by minimizing evaporation and runoff. Drip irrigation also helps to prevent weed growth and disease by specifically targeting the root zone of plants. Overall, drip irrigation can lead to higher crop yields and healthier plants while conserving water resources.Link: https://extension.umn.edu/irrigation/drip-irrigation
+Researching topic: Sustainable pest control methods
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture', 'The Benefits of Crop Rotation in Sustainable Agriculture', 'The Benefits of Agroforestry in Sustainable Agriculture', 'Agroforestry Benefits: Environmental, Economic, and Social Advantages', 'Soil Conservation Techniques in Sustainable Agriculture', 'Types of Soil Conservation Techniques in Sustainable Agriculture', 'Water Management Strategies in Sustainable Agriculture', 'Benefits of Drip Irrigation in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SUSTAINABLE PEST CONTROL METHODS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 19.8 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Sustainable Pest Control Methods",
+    "keywords": ["sustainable agriculture", "pest control", "integrated pest management", "biological control", "organic farming"],
+    "text": "Sustainable pest control methods focus on reducing the reliance on synthetic pesticides and minimizing harm to the environment. Integrated pest management (IPM) is a key approach that combines biological, cultural, physical, and chemical tools to manage pests effectively while minimizing risks to people and the environment. Biological control involves using natural enemies of pests, such as predators, parasites, and pathogens, to control pest populations. Organic farming practices also emphasize the use of natural and organic pest control methods, such as crop rotation, companion planting, and the use of beneficial insects.",
+    "link": "https://www.epa.gov/sustainable-agriculture/sustainable-agriculture-practices#pest"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Sustainable Pest Control Methods",
+    "keywords": ["sustainable pest control", "natural pest control methods", "organic pest control", "integrated pest management", "biological pest control"],
+    "text": "Sustainable pest control methods focus on minimizing the negative impact of pests while preserving the environment and human health. These methods include using natural predators, crop rotation, trap crops, and biological controls such as beneficial insects or fungi. Integrated pest management (IPM) is a holistic approach that combines different strategies to manage pests effectively and sustainably.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/landuse/pestmanagement"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Sustainable Pest Control Methods",
+    "keywords": ["sustainable agriculture", "pest control", "integrated pest management", "biological control", "organic farming"],
+    "text": "Sustainable pest control methods focus on reducing the reliance on synthetic pesticides and minimizing harm to the environment. Integrated pest management (IPM) is a key approach that combines biological, cultural, physical, and chemical tools to manage pests effectively while minimizing risks to people and the environment. Biological control involves using natural enemies of pests, such as predators, parasites, and pathogens, to control pest populations. Organic farming practices also emphasize the use of natural and organic pest control methods, such as crop rotation, companion planting, and the use of beneficial insects.",
+    "link": "https://www.epa.gov/sustainable-agriculture/sustainable-agriculture-practices#pest"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Sustainable Pest Control Methods
+Keywords: sustainable agriculture, pest control, integrated pest management, biological control, organic farming
+Uses: 0
+Text: Sustainable pest control methods focus on reducing the reliance on synthetic pesticides and minimizing harm to the environment. Integrated pest management (IPM) is a key approach that combines biological, cultural, physical, and chemical tools to manage pests effectively while minimizing risks to people and the environment. Biological control involves using natural enemies of pests, such as predators, parasites, and pathogens, to control pest populations. Organic farming practices also emphasize the use of natural and organic pest control methods, such as crop rotation, companion planting, and the use of beneficial insects.Link: https://www.epa.gov/sustainable-agriculture/sustainable-agriculture-practices#pest
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture', 'The Benefits of Crop Rotation in Sustainable Agriculture', 'The Benefits of Agroforestry in Sustainable Agriculture', 'Agroforestry Benefits: Environmental, Economic, and Social Advantages', 'Soil Conservation Techniques in Sustainable Agriculture', 'Types of Soil Conservation Techniques in Sustainable Agriculture', 'Water Management Strategies in Sustainable Agriculture', 'Benefits of Drip Irrigation in Sustainable Agriculture', 'Sustainable Pest Control Methods']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SUSTAINABLE PEST CONTROL METHODS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 1.4 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Integrated Pest Management (IPM) Strategies in Sustainable Agriculture",
+    "keywords": ["integrated pest management", "IPM", "sustainable agriculture", "pest control", "biological control", "mechanical control", "cultural control"],
+    "text": "Integrated Pest Management (IPM) is a sustainable approach to managing pests that combines biological, cultural, physical, and chemical tools in a way that minimizes economic, health, and environmental risks. IPM strategies focus on preventing pests from becoming a problem in the first place, using methods such as crop rotation, habitat manipulation, and the introduction of natural enemies. By using a combination of techniques, farmers can reduce their reliance on synthetic pesticides and promote overall ecosystem health.",
+    "link": "https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Integrated Pest Management (IPM) in Sustainable Agriculture",
+    "keywords": ["integrated pest management", "IPM", "sustainable agriculture", "pest control methods"],
+    "text": "Integrated Pest Management (IPM) is a holistic approach to pest control that focuses on long-term prevention of pests through a combination of techniques such as biological control, habitat manipulation, modification of cultural practices, and the use of resistant crop varieties. IPM aims to minimize the impact of pests on crops while reducing the reliance on chemical pesticides, thus promoting environmental sustainability in agriculture.",
+    "link": "https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Integrated Pest Management (IPM) Strategies in Sustainable Agriculture",
+    "keywords": ["integrated pest management", "IPM", "sustainable agriculture", "pest control", "biological control", "mechanical control", "cultural control"],
+    "text": "Integrated Pest Management (IPM) is a sustainable approach to managing pests that combines biological, cultural, physical, and chemical tools in a way that minimizes economic, health, and environmental risks. IPM strategies focus on preventing pests from becoming a problem in the first place, using methods such as crop rotation, habitat manipulation, and the introduction of natural enemies. By using a combination of techniques, farmers can reduce their reliance on synthetic pesticides and promote overall ecosystem health.",
+    "link": "https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Integrated Pest Management (IPM) Strategies in Sustainable Agriculture
+Keywords: integrated pest management, IPM, sustainable agriculture, pest control, biological control, mechanical control, cultural control
+Uses: 0
+Text: Integrated Pest Management (IPM) is a sustainable approach to managing pests that combines biological, cultural, physical, and chemical tools in a way that minimizes economic, health, and environmental risks. IPM strategies focus on preventing pests from becoming a problem in the first place, using methods such as crop rotation, habitat manipulation, and the introduction of natural enemies. By using a combination of techniques, farmers can reduce their reliance on synthetic pesticides and promote overall ecosystem health.Link: https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles
+Researching topic: Organic farming principles
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture', 'The Benefits of Crop Rotation in Sustainable Agriculture', 'The Benefits of Agroforestry in Sustainable Agriculture', 'Agroforestry Benefits: Environmental, Economic, and Social Advantages', 'Soil Conservation Techniques in Sustainable Agriculture', 'Types of Soil Conservation Techniques in Sustainable Agriculture', 'Water Management Strategies in Sustainable Agriculture', 'Benefits of Drip Irrigation in Sustainable Agriculture', 'Sustainable Pest Control Methods', 'Integrated Pest Management (IPM) Strategies in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ORGANIC FARMING PRINCIPLES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Organic Farming Principles",
+    "keywords": ["organic farming", "principles", "organic agriculture", "organic practices"],
+    "text": "Organic farming is a method of agriculture that relies on crop rotation, green manure, compost, biological pest control, and mechanical cultivation to maintain soil productivity and control pests. The principles of organic farming include promoting biodiversity, conserving resources, and using natural processes to enhance agricultural productivity.",
+    "link": "https://www.usda.gov/topics/organic"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Organic Farming Principles
+Keywords: organic farming, principles, organic agriculture, organic practices
+Uses: 0
+Text: Organic farming is a method of agriculture that relies on crop rotation, green manure, compost, biological pest control, and mechanical cultivation to maintain soil productivity and control pests. The principles of organic farming include promoting biodiversity, conserving resources, and using natural processes to enhance agricultural productivity.Link: https://www.usda.gov/topics/organic
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture', 'The Benefits of Crop Rotation in Sustainable Agriculture', 'The Benefits of Agroforestry in Sustainable Agriculture', 'Agroforestry Benefits: Environmental, Economic, and Social Advantages', 'Soil Conservation Techniques in Sustainable Agriculture', 'Types of Soil Conservation Techniques in Sustainable Agriculture', 'Water Management Strategies in Sustainable Agriculture', 'Benefits of Drip Irrigation in Sustainable Agriculture', 'Sustainable Pest Control Methods', 'Integrated Pest Management (IPM) Strategies in Sustainable Agriculture', 'Organic Farming Principles']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ORGANIC FARMING PRINCIPLES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Organic Farming Principles: Crop Diversity",
+    "keywords": ["organic farming", "principles", "crop diversity", "agriculture"],
+    "text": "One of the key principles of organic farming is crop diversity. This involves growing a variety of crops in a single area, which helps to naturally control pests and diseases, improve soil health, and promote biodiversity. Crop diversity also helps to reduce the reliance on synthetic fertilizers and pesticides, as different crops have different nutrient requirements and can support each other's growth. Additionally, growing a variety of crops can improve the resilience of the farm against extreme weather events and market fluctuations.",
+    "link": "https://www.sare.org/Learning-Center/Books/Managing-Cover-Crops-Profitably-3rd-Edition/Text-Version/Key-Concepts-in-Cover-Cropping/Crop-Diversity/"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Organic Farming Principles: Crop Diversity
+Keywords: organic farming, principles, crop diversity, agriculture
+Uses: 0
+Text: One of the key principles of organic farming is crop diversity. This involves growing a variety of crops in a single area, which helps to naturally control pests and diseases, improve soil health, and promote biodiversity. Crop diversity also helps to reduce the reliance on synthetic fertilizers and pesticides, as different crops have different nutrient requirements and can support each other's growth. Additionally, growing a variety of crops can improve the resilience of the farm against extreme weather events and market fluctuations.Link: https://www.sare.org/Learning-Center/Books/Managing-Cover-Crops-Profitably-3rd-Edition/Text-Version/Key-Concepts-in-Cover-Cropping/Crop-Diversity/
+Researching topic: Community-supported agriculture models
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture', 'The Benefits of Crop Rotation in Sustainable Agriculture', 'The Benefits of Agroforestry in Sustainable Agriculture', 'Agroforestry Benefits: Environmental, Economic, and Social Advantages', 'Soil Conservation Techniques in Sustainable Agriculture', 'Types of Soil Conservation Techniques in Sustainable Agriculture', 'Water Management Strategies in Sustainable Agriculture', 'Benefits of Drip Irrigation in Sustainable Agriculture', 'Sustainable Pest Control Methods', 'Integrated Pest Management (IPM) Strategies in Sustainable Agriculture', 'Organic Farming Principles', 'Organic Farming Principles: Crop Diversity']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **COMMUNITY-SUPPORTED AGRICULTURE MODELS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Community-Supported Agriculture Models",
+    "keywords": ["community-supported agriculture", "CSA", "local food systems", "farm share program"],
+    "text": "Community-Supported Agriculture (CSA) models involve consumers purchasing shares of a farm's harvest in advance, providing farmers with upfront capital and consumers with fresh, seasonal produce. This direct relationship between farmers and consumers promotes local food systems, strengthens community connections, and supports sustainable farming practices.",
+    "link": "https://www.localharvest.org/csa/"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Community-Supported Agriculture Models
+Keywords: community-supported agriculture, CSA, local food systems, farm share program
+Uses: 0
+Text: Community-Supported Agriculture (CSA) models involve consumers purchasing shares of a farm's harvest in advance, providing farmers with upfront capital and consumers with fresh, seasonal produce. This direct relationship between farmers and consumers promotes local food systems, strengthens community connections, and supports sustainable farming practices.Link: https://www.localharvest.org/csa/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What are Sustainable Farming Practices?', 'Benefits of Cover Crops in Sustainable Farming Practices', 'The Importance of Crop Rotation in Sustainable Agriculture', 'The Benefits of Crop Rotation in Sustainable Agriculture', 'The Benefits of Agroforestry in Sustainable Agriculture', 'Agroforestry Benefits: Environmental, Economic, and Social Advantages', 'Soil Conservation Techniques in Sustainable Agriculture', 'Types of Soil Conservation Techniques in Sustainable Agriculture', 'Water Management Strategies in Sustainable Agriculture', 'Benefits of Drip Irrigation in Sustainable Agriculture', 'Sustainable Pest Control Methods', 'Integrated Pest Management (IPM) Strategies in Sustainable Agriculture', 'Organic Farming Principles', 'Organic Farming Principles: Crop Diversity', 'Community-Supported Agriculture Models']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **COMMUNITY-SUPPORTED AGRICULTURE MODELS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 4.2 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "How Community-Supported Agriculture Models Work",
+    "keywords": ["community-supported agriculture", "CSA", "agriculture models", "local food", "farm shares"],
+    "text": "Community-Supported Agriculture (CSA) models involve a direct partnership between consumers and local farmers. Members typically pay a subscription or membership fee at the beginning of the growing season in exchange for a share of the farm's produce throughout the season. This arrangement helps farmers with upfront costs and guarantees a market for their crops, while consumers benefit from fresh, locally grown produce. Some CSAs also offer opportunities for members to volunteer on the farm or participate in educational events.",
+    "link": "https://www.localharvest.org/csa/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Community-Supported Agriculture Models",
+    "keywords": ["CSA", "community-supported agriculture", "farm share", "local food", "sustainability"],
+    "text": "Community-supported agriculture (CSA) models involve consumers purchasing a share of a local farm's harvest in advance, providing farmers with financial support and consumers with fresh, seasonal produce. This direct relationship between farmers and consumers promotes sustainability, food security, and community connections.",
+    "link": "https://www.localharvest.org/csa/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "How Community-Supported Agriculture Models Work",
+    "keywords": ["community-supported agriculture", "CSA", "agriculture models", "local food", "farm shares"],
+    "text": "Community-Supported Agriculture (CSA) models involve a direct partnership between consumers and local farmers. Members typically pay a subscription or membership fee at the beginning of the growing season in exchange for a share of the farm's produce throughout the season. This arrangement helps farmers with upfront costs and guarantees a market for their crops, while consumers benefit from fresh, locally grown produce. Some CSAs also offer opportunities for members to volunteer on the farm or participate in educational events.",
+    "link": "https://www.localharvest.org/csa/"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: How Community-Supported Agriculture Models Work
+Keywords: community-supported agriculture, CSA, agriculture models, local food, farm shares
+Uses: 0
+Text: Community-Supported Agriculture (CSA) models involve a direct partnership between consumers and local farmers. Members typically pay a subscription or membership fee at the beginning of the growing season in exchange for a share of the farm's produce throughout the season. This arrangement helps farmers with upfront costs and guarantees a market for their crops, while consumers benefit from fresh, locally grown produce. Some CSAs also offer opportunities for members to volunteer on the farm or participate in educational events.Link: https://www.localharvest.org/csa/
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Sustainable farming practices are methods used in agriculture that aim to protect the environment, public health, human communities, and animal welfare. These practices focus on maintaining soil health, reducing water usage, minimizing chemical inputs, and promoting biodiversity. Examples of sustain...
+
+Cover crops are plants that are grown to cover the soil rather than for harvest. They are an essential part of sustainable farming practices as they help improve soil health by preventing erosion, suppressing weeds, and enhancing soil fertility. Additionally, cover crops can improve water retention ...
+
+Crop rotation is a key practice in sustainable agriculture that involves planting different crops in the same field in sequential seasons. This helps improve soil health by reducing soil erosion, nutrient depletion, and soil-borne diseases. Additionally, crop rotation can help manage pests and weeds...
+
+Crop rotation is a practice where different crops are planted in the same area in sequential seasons. This technique helps improve soil health by reducing soil erosion, increasing soil fertility, and controlling pests and diseases. By rotating crops, farmers can also break pest and disease cycles, l...
+
+Agroforestry is a sustainable farming practice that involves integrating trees and shrubs into agricultural landscapes. This practice offers numerous benefits such as improved soil health, increased biodiversity, enhanced water quality, and climate change mitigation. Trees in agroforestry systems ca...
+
+Agroforestry offers a range of benefits across environmental, economic, and social aspects. Environmentally, agroforestry practices help improve soil health, prevent erosion, enhance biodiversity, and sequester carbon. Economically, agroforestry can provide additional sources of income through diver...
+
+Soil conservation techniques in sustainable agriculture aim to prevent soil erosion, enhance soil health, and improve water management on farms. Some common techniques include contour plowing, terracing, cover cropping, no-till farming, and mulching. These practices help to reduce soil erosion, reta...
+
+There are various types of soil conservation techniques used in sustainable agriculture to prevent soil erosion and improve soil health. Some common techniques include contour plowing, terracing, cover cropping, no-till farming, crop rotation, and agroforestry. These techniques help to reduce soil e...
+
+Water management strategies in sustainable agriculture involve practices such as drip irrigation, rainwater harvesting, and the use of cover crops to reduce water usage. These techniques help conserve water resources and promote efficient water use on farms.
+
+Drip irrigation is a water-efficient method of watering crops by delivering water directly to the roots of plants. This method reduces water waste by minimizing evaporation and runoff. Drip irrigation also helps to prevent weed growth and disease by specifically targeting the root zone of plants. Ov...
+
+Sustainable pest control methods focus on reducing the reliance on synthetic pesticides and minimizing harm to the environment. Integrated pest management (IPM) is a key approach that combines biological, cultural, physical, and chemical tools to manage pests effectively while minimizing risks to pe...
+
+Integrated Pest Management (IPM) is a sustainable approach to managing pests that combines biological, cultural, physical, and chemical tools in a way that minimizes economic, health, and environmental risks. IPM strategies focus on preventing pests from becoming a problem in the first place, using ...
+
+Organic farming is a method of agriculture that relies on crop rotation, green manure, compost, biological pest control, and mechanical cultivation to maintain soil productivity and control pests. The principles of organic farming include promoting biodiversity, conserving resources, and using natur...
+
+One of the key principles of organic farming is crop diversity. This involves growing a variety of crops in a single area, which helps to naturally control pests and diseases, improve soil health, and promote biodiversity. Crop diversity also helps to reduce the reliance on synthetic fertilizers and...
+
+Community-Supported Agriculture (CSA) models involve consumers purchasing shares of a farm's harvest in advance, providing farmers with upfront capital and consumers with fresh, seasonal produce. This direct relationship between farmers and consumers promotes local food systems, strengthens communit...
+
+Community-Supported Agriculture (CSA) models involve a direct partnership between consumers and local farmers. Members typically pay a subscription or membership fee at the beginning of the growing season in exchange for a share of the farm's produce throughout the season. This arrangement helps far...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+🎲 Choice scenario triggered! (Rolled 12.4 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+4
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+6
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+4
+.
+Topic count decided: 4
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Sustainable farming practices are methods used in agriculture that aim to protect the environment, public health, human communities, and animal welfare. These practices focus on maintaining soil health, reducing water usage, minimizing chemical inputs, and promoting biodiversity. Examples of sustain...
+
+Cover crops are plants that are grown to cover the soil rather than for harvest. They are an essential part of sustainable farming practices as they help improve soil health by preventing erosion, suppressing weeds, and enhancing soil fertility. Additionally, cover crops can improve water retention ...
+
+Crop rotation is a key practice in sustainable agriculture that involves planting different crops in the same field in sequential seasons. This helps improve soil health by reducing soil erosion, nutrient depletion, and soil-borne diseases. Additionally, crop rotation can help manage pests and weeds...
+
+Crop rotation is a practice where different crops are planted in the same area in sequential seasons. This technique helps improve soil health by reducing soil erosion, increasing soil fertility, and controlling pests and diseases. By rotating crops, farmers can also break pest and disease cycles, l...
+
+Agroforestry is a sustainable farming practice that involves integrating trees and shrubs into agricultural landscapes. This practice offers numerous benefits such as improved soil health, increased biodiversity, enhanced water quality, and climate change mitigation. Trees in agroforestry systems ca...
+
+Agroforestry offers a range of benefits across environmental, economic, and social aspects. Environmentally, agroforestry practices help improve soil health, prevent erosion, enhance biodiversity, and sequester carbon. Economically, agroforestry can provide additional sources of income through diver...
+
+Soil conservation techniques in sustainable agriculture aim to prevent soil erosion, enhance soil health, and improve water management on farms. Some common techniques include contour plowing, terracing, cover cropping, no-till farming, and mulching. These practices help to reduce soil erosion, reta...
+
+There are various types of soil conservation techniques used in sustainable agriculture to prevent soil erosion and improve soil health. Some common techniques include contour plowing, terracing, cover cropping, no-till farming, crop rotation, and agroforestry. These techniques help to reduce soil e...
+
+Water management strategies in sustainable agriculture involve practices such as drip irrigation, rainwater harvesting, and the use of cover crops to reduce water usage. These techniques help conserve water resources and promote efficient water use on farms.
+
+Drip irrigation is a water-efficient method of watering crops by delivering water directly to the roots of plants. This method reduces water waste by minimizing evaporation and runoff. Drip irrigation also helps to prevent weed growth and disease by specifically targeting the root zone of plants. Ov...
+
+Sustainable pest control methods focus on reducing the reliance on synthetic pesticides and minimizing harm to the environment. Integrated pest management (IPM) is a key approach that combines biological, cultural, physical, and chemical tools to manage pests effectively while minimizing risks to pe...
+
+Integrated Pest Management (IPM) is a sustainable approach to managing pests that combines biological, cultural, physical, and chemical tools in a way that minimizes economic, health, and environmental risks. IPM strategies focus on preventing pests from becoming a problem in the first place, using ...
+
+Organic farming is a method of agriculture that relies on crop rotation, green manure, compost, biological pest control, and mechanical cultivation to maintain soil productivity and control pests. The principles of organic farming include promoting biodiversity, conserving resources, and using natur...
+
+One of the key principles of organic farming is crop diversity. This involves growing a variety of crops in a single area, which helps to naturally control pests and diseases, improve soil health, and promote biodiversity. Crop diversity also helps to reduce the reliance on synthetic fertilizers and...
+
+Community-Supported Agriculture (CSA) models involve consumers purchasing shares of a farm's harvest in advance, providing farmers with upfront capital and consumers with fresh, seasonal produce. This direct relationship between farmers and consumers promotes local food systems, strengthens communit...
+
+Community-Supported Agriculture (CSA) models involve a direct partnership between consumers and local farmers. Members typically pay a subscription or membership fee at the beginning of the growing season in exchange for a share of the farm's produce throughout the season. This arrangement helps far...}). You are to come up with {4} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Week 1: Introduction to Sustainable Farming Practices
+
+Main Topic Title: Sustainable Farming Practices Overview
+- Sub-Topic 1: Definition and Importance of Sustainable Farming Practices
+  - Explanation: Define sustainable farming practices and discuss their significance in protecting the environment, public health, and animal welfare.
+  - Learning Objectives: Understand the goals and benefits of sustainable farming practices.
+  - Estimated Number of Slides: 5
+  - Lab Activities: Analyze case studies of farms implementing sustainable practices.
+  - Real-World Applications: Explore how sustainable farming practices contribute to a healthier ecosystem and community.
+
+- Sub-Topic 2: Key Components of Sustainable Farming Practices
+  - Explanation: Discuss the main components of sustainable farming practices, such as soil health, water conservation, and biodiversity promotion.
+  - Learning Objectives: Identify the essential elements of sustainable agriculture.
+  - Estimated Number of Slides: 7
+  - Lab Activities: Conduct a soil health assessment and analyze water usage on a farm.
+  - Real-World Applications: Investigate how different farming practices impact soil health and water quality.
+
+- Sub-Topic 3: Examples of Sustainable Farming Practices
+  - Explanation: Explore specific examples of sustainable farming practices, including cover crops, crop rotation, and agroforestry.
+  - Learning Objectives: Recognize the diversity of sustainable farming techniques.
+  - Estimated Number of Slides: 8
+  - Lab Activities: Design a crop rotation plan and create an agroforestry layout.
+  - Real-World Applications: Examine successful sustainable farming operations and their impact on local communities.
+
+Week 2: Soil Conservation Techniques in Sustainable Agriculture
+
+Main Topic Title: Soil Conservation Techniques
+- Sub-Topic 1: Importance of Soil Conservation in Sustainable Agriculture
+  - Explanation: Discuss the significance of soil conservation in maintaining soil health and preventing erosion.
+  - Learning Objectives: Understand the role of soil conservation in sustainable farming practices.
+  - Estimated Number of Slides: 6
+  - Lab Activities: Conduct a soil erosion simulation and analyze soil samples for nutrient content.
+  - Real-World Applications: Investigate how soil conservation practices impact crop productivity and environmental sustainability.
+
+- Sub-Topic 2: Common Soil Conservation Techniques
+  - Explanation: Explore various soil conservation techniques, such as contour plowing, terracing, and mulching.
+  - Learning Objectives: Identify different methods of soil conservation and their benefits.
+  - Estimated Number of Slides: 8
+  - Lab Activities: Implement contour plowing and terracing on a small plot of land.
+  - Real-World Applications: Examine real-life examples of successful soil conservation practices on farms.
+
+- Sub-Topic 3: Implementing Soil Conservation Practices
+  - Explanation: Discuss strategies for implementing soil conservation techniques on farms and overcoming challenges.
+  - Learning Objectives: Develop practical skills for implementing soil conservation practices.
+  - Estimated Number of Slides: 7
+  - Lab Activities: Create a soil conservation plan for a specific farm and evaluate its feasibility.
+  - Real-World Applications: Collaborate with local farmers to implement soil conservation practices and assess their effectiveness.
+
+Week 3: Water Management Strategies in Sustainable Agriculture
+
+Main Topic Title: Water Management Strategies
+- Sub-Topic 1: Importance of Water Management in Sustainable Agriculture
+  - Explanation: Discuss the significance of efficient water management in sustainable farming practices and the impact of water scarcity on agriculture.
+  - Learning Objectives: Understand the role of water management in sustainable agriculture.
+  - Estimated Number of Slides: 6
+  - Lab Activities: Design a drip irrigation system and calculate water usage for different crops.
+  - Real-World Applications: Explore innovative water management techniques used in agriculture to conserve water resources.
+
+- Sub-Topic 2: Sustainable Water Management Practices
+  - Explanation: Explore sustainable water management practices, such as drip irrigation, rainwater harvesting, and cover cropping.
+  - Learning Objectives: Identify effective water management strategies for sustainable agriculture.
+  - Estimated Number of Slides: 8
+  - Lab Activities: Implement a rainwater harvesting system and compare water usage between traditional and sustainable practices.
+  - Real-World Applications: Examine case studies of farms implementing sustainable water management practices and their impact on crop yields.
+
+- Sub-Topic 3: Challenges and Solutions in Water Management
+  - Explanation: Discuss the challenges farmers face in managing water resources sustainably and explore potential solutions.
+  - Learning Objectives: Develop problem-solving skills for addressing water management challenges in agriculture.
+  - Estimated Number of Slides: 7
+  - Lab Activities: Analyze water usage data from different farming systems and propose solutions to improve efficiency.
+  - Real-World Applications: Collaborate with local farmers to address water management issues and implement sustainable solutions.
+
+Week 4: Integrated Pest Management in Sustainable Agriculture
+
+Main Topic Title: Integrated Pest Management
+- Sub-Topic 1: Principles of Integrated Pest Management
+  - Explanation: Introduce the principles of integrated pest management (IPM) and discuss the benefits of using a holistic approach to pest control.
+  - Learning Objectives: Understand the key components of IPM and its importance in sustainable agriculture.
+  - Estimated Number of Slides: 6
+  - Lab Activities: Identify common pests and beneficial insects in an agricultural setting and develop an IPM plan.
+  - Real-World Applications: Investigate how IPM strategies are implemented on farms to reduce pesticide use and promote ecosystem health.
+
+- Sub-Topic 2: Components of Integrated Pest Management
+  - Explanation: Explore the different components of IPM, including biological, cultural, physical, and chemical control methods.
+  - Learning Objectives: Identify the various tools and techniques used in IPM for pest management.
+  - Estimated Number of Slides: 8
+  - Lab Activities: Conduct a pest scouting exercise and evaluate the effectiveness of different pest control methods.
+  - Real-World Applications: Examine case studies of farms successfully implementing IPM strategies to manage pests sustainably.
+
+- Sub-Topic 3: Implementing Integrated Pest Management Practices
+  - Explanation: Discuss strategies for implementing IPM practices on farms, including monitoring pest populations, using beneficial insects, and rotating crops.
+  - Learning Objectives: Develop practical skills for implementing IPM techniques in agriculture.
+  - Estimated Number of Slides: 7
+  - Lab Activities: Design an IPM plan for a specific crop and evaluate its effectiveness over time.
+  - Real-World Applications: Collaborate with local farmers to implement IPM practices and monitor pest populations to assess the impact on crop yields and ecosystem health.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Week 1: Introduction to Sustainable Farming Practices
+
+Main Topic Title: Sustainable Farming Practices Overview
+- Sub-Topic 1: Definition and Importance of Sustainable Farming Practices
+  - Explanation: Define sustainable farming practices and discuss their significance in protecting the environment, public health, and animal welfare.
+  - Learning Objectives: Understand the goals and benefits of sustainable farming practices.
+  - Estimated Number of Slides: 5
+  - Lab Activities: Analyze case studies of farms implementing sustainable practices.
+  - Real-World Applications: Explore how sustainable farming practices contribute to a healthier ecosystem and community.
+
+- Sub-Topic 2: Key Components of Sustainable Farming Practices
+  - Explanation: Discuss the main components of sustainable farming practices, such as soil health, water conservation, and biodiversity promotion.
+  - Learning Objectives: Identify the essential elements of sustainable agriculture.
+  - Estimated Number of Slides: 7
+  - Lab Activities: Conduct a soil health assessment and analyze water usage on a farm.
+  - Real-World Applications: Investigate how different farming practices impact soil health and water quality.
+
+- Sub-Topic 3: Examples of Sustainable Farming Practices
+  - Explanation: Explore specific examples of sustainable farming practices, including cover crops, crop rotation, and agroforestry.
+  - Learning Objectives: Recognize the diversity of sustainable farming techniques.
+  - Estimated Number of Slides: 8
+  - Lab Activities: Design a crop rotation plan and create an agroforestry layout.
+  - Real-World Applications: Examine successful sustainable farming operations and their impact on local communities.
+
+Week 2: Soil Conservation Techniques in Sustainable Agriculture
+
+Main Topic Title: Soil Conservation Techniques
+- Sub-Topic 1: Importance of Soil Conservation in Sustainable Agriculture
+  - Explanation: Discuss the significance of soil conservation in maintaining soil health and preventing erosion.
+  - Learning Objectives: Understand the role of soil conservation in sustainable farming practices.
+  - Estimated Number of Slides: 6
+  - Lab Activities: Conduct a soil erosion simulation and analyze soil samples for nutrient content.
+  - Real-World Applications: Investigate how soil conservation practices impact crop productivity and environmental sustainability.
+
+- Sub-Topic 2: Common Soil Conservation Techniques
+  - Explanation: Explore various soil conservation techniques, such as contour plowing, terracing, and mulching.
+  - Learning Objectives: Identify different methods of soil conservation and their benefits.
+  - Estimated Number of Slides: 8
+  - Lab Activities: Implement contour plowing and terracing on a small plot of land.
+  - Real-World Applications: Examine real-life examples of successful soil conservation practices on farms.
+
+- Sub-Topic 3: Implementing Soil Conservation Practices
+  - Explanation: Discuss strategies for implementing soil conservation techniques on farms and overcoming challenges.
+  - Learning Objectives: Develop practical skills for implementing soil conservation practices.
+  - Estimated Number of Slides: 7
+  - Lab Activities: Create a soil conservation plan for a specific farm and evaluate its feasibility.
+  - Real-World Applications: Collaborate with local farmers to implement soil conservation practices and assess their effectiveness.
+
+Week 3: Water Management Strategies in Sustainable Agriculture
+
+Main Topic Title: Water Management Strategies
+- Sub-Topic 1: Importance of Water Management in Sustainable Agriculture
+  - Explanation: Discuss the significance of efficient water management in sustainable farming practices and the impact of water scarcity on agriculture.
+  - Learning Objectives: Understand the role of water management in sustainable agriculture.
+  - Estimated Number of Slides: 6
+  - Lab Activities: Design a drip irrigation system and calculate water usage for different crops.
+  - Real-World Applications: Explore innovative water management techniques used in agriculture to conserve water resources.
+
+- Sub-Topic 2: Sustainable Water Management Practices
+  - Explanation: Explore sustainable water management practices, such as drip irrigation, rainwater harvesting, and cover cropping.
+  - Learning Objectives: Identify effective water management strategies for sustainable agriculture.
+  - Estimated Number of Slides: 8
+  - Lab Activities: Implement a rainwater harvesting system and compare water usage between traditional and sustainable practices.
+  - Real-World Applications: Examine case studies of farms implementing sustainable water management practices and their impact on crop yields.
+
+- Sub-Topic 3: Challenges and Solutions in Water Management
+  - Explanation: Discuss the challenges farmers face in managing water resources sustainably and explore potential solutions.
+  - Learning Objectives: Develop problem-solving skills for addressing water management challenges in agriculture.
+  - Estimated Number of Slides: 7
+  - Lab Activities: Analyze water usage data from different farming systems and propose solutions to improve efficiency.
+  - Real-World Applications: Collaborate with local farmers to address water management issues and implement sustainable solutions.
+
+Week 4: Integrated Pest Management in Sustainable Agriculture
+
+Main Topic Title: Integrated Pest Management
+- Sub-Topic 1: Principles of Integrated Pest Management
+  - Explanation: Introduce the principles of integrated pest management (IPM) and discuss the benefits of using a holistic approach to pest control.
+  - Learning Objectives: Understand the key components of IPM and its importance in sustainable agriculture.
+  - Estimated Number of Slides: 6
+  - Lab Activities: Identify common pests and beneficial insects in an agricultural setting and develop an IPM plan.
+  - Real-World Applications: Investigate how IPM strategies are implemented on farms to reduce pesticide use and promote ecosystem health.
+
+- Sub-Topic 2: Components of Integrated Pest Management
+  - Explanation: Explore the different components of IPM, including biological, cultural, physical, and chemical control methods.
+  - Learning Objectives: Identify the various tools and techniques used in IPM for pest management.
+  - Estimated Number of Slides: 8
+  - Lab Activities: Conduct a pest scouting exercise and evaluate the effectiveness of different pest control methods.
+  - Real-World Applications: Examine case studies of farms successfully implementing IPM strategies to manage pests sustainably.
+
+- Sub-Topic 3: Implementing Integrated Pest Management Practices
+  - Explanation: Discuss strategies for implementing IPM practices on farms, including monitoring pest populations, using beneficial insects, and rotating crops.
+  - Learning Objectives: Develop practical skills for implementing IPM techniques in agriculture.
+  - Estimated Number of Slides: 7
+  - Lab Activities: Design an IPM plan for a specific crop and evaluate its effectiveness over time.
+  - Real-World Applications: Collaborate with local farmers to implement IPM practices and monitor pest populations to assess the impact on crop yields and ecosystem health.}). Total slides available: {8}. Topics to allocate: {4}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[20, 29, 29, 22]
+.
+Slide allocation: [1, 3, 3, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Week 1: Introduction to Sustainable Farming Practices
+
+Main Topic Title: Sustainable Farming Practices Overview
+- Sub-Topic 1: Definition and Importance of Sustainable Farming Practices
+  - Explanation: Define sustainable farming practices and discuss their significance in protecting the environment, public health, and animal welfare.
+  - Learning Objectives: Understand the goals and benefits of sustainable farming practices.
+  - Estimated Number of Slides: 5
+  - Lab Activities: Analyze case studies of farms implementing sustainable practices.
+  - Real-World Applications: Explore how sustainable farming practices contribute to a healthier ecosystem and community.
+
+- Sub-Topic 2: Key Components of Sustainable Farming Practices
+  - Explanation: Discuss the main components of sustainable farming practices, such as soil health, water conservation, and biodiversity promotion.
+  - Learning Objectives: Identify the essential elements of sustainable agriculture.
+  - Estimated Number of Slides: 7
+  - Lab Activities: Conduct a soil health assessment and analyze water usage on a farm.
+  - Real-World Applications: Investigate how different farming practices impact soil health and water quality.
+
+- Sub-Topic 3: Examples of Sustainable Farming Practices
+  - Explanation: Explore specific examples of sustainable farming practices, including cover crops, crop rotation, and agroforestry.
+  - Learning Objectives: Recognize the diversity of sustainable farming techniques.
+  - Estimated Number of Slides: 8
+  - Lab Activities: Design a crop rotation plan and create an agroforestry layout.
+  - Real-World Applications: Examine successful sustainable farming operations and their impact on local communities.
+
+Week 2: Soil Conservation Techniques in Sustainable Agriculture
+
+Main Topic Title: Soil Conservation Techniques
+- Sub-Topic 1: Importance of Soil Conservation in Sustainable Agriculture
+  - Explanation: Discuss the significance of soil conservation in maintaining soil health and preventing erosion.
+  - Learning Objectives: Understand the role of soil conservation in sustainable farming practices.
+  - Estimated Number of Slides: 6
+  - Lab Activities: Conduct a soil erosion simulation and analyze soil samples for nutrient content.
+  - Real-World Applications: Investigate how soil conservation practices impact crop productivity and environmental sustainability.
+
+- Sub-Topic 2: Common Soil Conservation Techniques
+  - Explanation: Explore various soil conservation techniques, such as contour plowing, terracing, and mulching.
+  - Learning Objectives: Identify different methods of soil conservation and their benefits.
+  - Estimated Number of Slides: 8
+  - Lab Activities: Implement contour plowing and terracing on a small plot of land.
+  - Real-World Applications: Examine real-life examples of successful soil conservation practices on farms.
+
+- Sub-Topic 3: Implementing Soil Conservation Practices
+  - Explanation: Discuss strategies for implementing soil conservation techniques on farms and overcoming challenges.
+  - Learning Objectives: Develop practical skills for implementing soil conservation practices.
+  - Estimated Number of Slides: 7
+  - Lab Activities: Create a soil conservation plan for a specific farm and evaluate its feasibility.
+  - Real-World Applications: Collaborate with local farmers to implement soil conservation practices and assess their effectiveness.
+
+Week 3: Water Management Strategies in Sustainable Agriculture
+
+Main Topic Title: Water Management Strategies
+- Sub-Topic 1: Importance of Water Management in Sustainable Agriculture
+  - Explanation: Discuss the significance of efficient water management in sustainable farming practices and the impact of water scarcity on agriculture.
+  - Learning Objectives: Understand the role of water management in sustainable agriculture.
+  - Estimated Number of Slides: 6
+  - Lab Activities: Design a drip irrigation system and calculate water usage for different crops.
+  - Real-World Applications: Explore innovative water management techniques used in agriculture to conserve water resources.
+
+- Sub-Topic 2: Sustainable Water Management Practices
+  - Explanation: Explore sustainable water management practices, such as drip irrigation, rainwater harvesting, and cover cropping.
+  - Learning Objectives: Identify effective water management strategies for sustainable agriculture.
+  - Estimated Number of Slides: 8
+  - Lab Activities: Implement a rainwater harvesting system and compare water usage between traditional and sustainable practices.
+  - Real-World Applications: Examine case studies of farms implementing sustainable water management practices and their impact on crop yields.
+
+- Sub-Topic 3: Challenges and Solutions in Water Management
+  - Explanation: Discuss the challenges farmers face in managing water resources sustainably and explore potential solutions.
+  - Learning Objectives: Develop problem-solving skills for addressing water management challenges in agriculture.
+  - Estimated Number of Slides: 7
+  - Lab Activities: Analyze water usage data from different farming systems and propose solutions to improve efficiency.
+  - Real-World Applications: Collaborate with local farmers to address water management issues and implement sustainable solutions.
+
+Week 4: Integrated Pest Management in Sustainable Agriculture
+
+Main Topic Title: Integrated Pest Management
+- Sub-Topic 1: Principles of Integrated Pest Management
+  - Explanation: Introduce the principles of integrated pest management (IPM) and discuss the benefits of using a holistic approach to pest control.
+  - Learning Objectives: Understand the key components of IPM and its importance in sustainable agriculture.
+  - Estimated Number of Slides: 6
+  - Lab Activities: Identify common pests and beneficial insects in an agricultural setting and develop an IPM plan.
+  - Real-World Applications: Investigate how IPM strategies are implemented on farms to reduce pesticide use and promote ecosystem health.
+
+- Sub-Topic 2: Components of Integrated Pest Management
+  - Explanation: Explore the different components of IPM, including biological, cultural, physical, and chemical control methods.
+  - Learning Objectives: Identify the various tools and techniques used in IPM for pest management.
+  - Estimated Number of Slides: 8
+  - Lab Activities: Conduct a pest scouting exercise and evaluate the effectiveness of different pest control methods.
+  - Real-World Applications: Examine case studies of farms successfully implementing IPM strategies to manage pests sustainably.
+
+- Sub-Topic 3: Implementing Integrated Pest Management Practices
+  - Explanation: Discuss strategies for implementing IPM practices on farms, including monitoring pest populations, using beneficial insects, and rotating crops.
+  - Learning Objectives: Develop practical skills for implementing IPM techniques in agriculture.
+  - Estimated Number of Slides: 7
+  - Lab Activities: Design an IPM plan for a specific crop and evaluate its effectiveness over time.
+  - Real-World Applications: Collaborate with local farmers to implement IPM practices and monitor pest populations to assess the impact on crop yields and ecosystem health.}). Slide allocation per topic: {[1, 3, 3, 1]}. Database content for reference: ({Sustainable farming practices are methods used in agriculture that aim to protect the environment, public health, human communities, and animal welfare. These practices focus on maintaining soil health, reducing water usage, minimizing chemical inputs, and promoting biodiversity. Examples of sustain...
+
+Cover crops are plants that are grown to cover the soil rather than for harvest. They are an essential part of sustainable farming practices as they help improve soil health by preventing erosion, suppressing weeds, and enhancing soil fertility. Additionally, cover crops can improve water retention ...
+
+Crop rotation is a key practice in sustainable agriculture that involves planting different crops in the same field in sequential seasons. This helps improve soil health by reducing soil erosion, nutrient depletion, and soil-borne diseases. Additionally, crop rotation can help manage pests and weeds...
+
+Crop rotation is a practice where different crops are planted in the same area in sequential seasons. This technique helps improve soil health by reducing soil erosion, increasing soil fertility, and controlling pests and diseases. By rotating crops, farmers can also break pest and disease cycles, l...
+
+Agroforestry is a sustainable farming practice that involves integrating trees and shrubs into agricultural landscapes. This practice offers numerous benefits such as improved soil health, increased biodiversity, enhanced water quality, and climate change mitigation. Trees in agroforestry systems ca...
+
+Agroforestry offers a range of benefits across environmental, economic, and social aspects. Environmentally, agroforestry practices help improve soil health, prevent erosion, enhance biodiversity, and sequester carbon. Economically, agroforestry can provide additional sources of income through diver...
+
+Soil conservation techniques in sustainable agriculture aim to prevent soil erosion, enhance soil health, and improve water management on farms. Some common techniques include contour plowing, terracing, cover cropping, no-till farming, and mulching. These practices help to reduce soil erosion, reta...
+
+There are various types of soil conservation techniques used in sustainable agriculture to prevent soil erosion and improve soil health. Some common techniques include contour plowing, terracing, cover cropping, no-till farming, crop rotation, and agroforestry. These techniques help to reduce soil e...
+
+Water management strategies in sustainable agriculture involve practices such as drip irrigation, rainwater harvesting, and the use of cover crops to reduce water usage. These techniques help conserve water resources and promote efficient water use on farms.
+
+Drip irrigation is a water-efficient method of watering crops by delivering water directly to the roots of plants. This method reduces water waste by minimizing evaporation and runoff. Drip irrigation also helps to prevent weed growth and disease by specifically targeting the root zone of plants. Ov...
+
+Sustainable pest control methods focus on reducing the reliance on synthetic pesticides and minimizing harm to the environment. Integrated pest management (IPM) is a key approach that combines biological, cultural, physical, and chemical tools to manage pests effectively while minimizing risks to pe...
+
+Integrated Pest Management (IPM) is a sustainable approach to managing pests that combines biological, cultural, physical, and chemical tools in a way that minimizes economic, health, and environmental risks. IPM strategies focus on preventing pests from becoming a problem in the first place, using ...
+
+Organic farming is a method of agriculture that relies on crop rotation, green manure, compost, biological pest control, and mechanical cultivation to maintain soil productivity and control pests. The principles of organic farming include promoting biodiversity, conserving resources, and using natur...
+
+One of the key principles of organic farming is crop diversity. This involves growing a variety of crops in a single area, which helps to naturally control pests and diseases, improve soil health, and promote biodiversity. Crop diversity also helps to reduce the reliance on synthetic fertilizers and...
+
+Community-Supported Agriculture (CSA) models involve consumers purchasing shares of a farm's harvest in advance, providing farmers with upfront capital and consumers with fresh, seasonal produce. This direct relationship between farmers and consumers promotes local food systems, strengthens communit...
+
+Community-Supported Agriculture (CSA) models involve a direct partnership between consumers and local farmers. Members typically pay a subscription or membership fee at the beginning of the growing season in exchange for a share of the farm's produce throughout the season. This arrangement helps far...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+🎲 Choice scenario triggered! (Rolled 39.8 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+1. Importance of Cover Crops in Sustainable Farming
+2. Benefits and Practices of Crop Rotation
+3. Agroforestry: Enhancing Biodiversity and Soil Health
+4. Soil Conservation Techniques for Erosion Prevention
+5. Water Management Strategies: Drip Irrigation and Rainwater Harvesting
+6. Integrated Pest Management Principles and Strategies
+7. Organic Farming Principles and Crop Diversity
+8. Community-Supported Agriculture (CSA) Models and Benefits
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+1. Importance of Cover Crops in Sustainable Farming
+2. Benefits of Crop Rotation in Soil Health
+3. Agroforestry: Enhancing Biodiversity in Agriculture
+4. Soil Conservation Techniques: Contour Plowing and Terracing
+5. Water Management Strategies: Drip Irrigation and Rainwater Harvesting
+6. Integrated Pest Management Principles and Benefits
+7. Organic Farming Practices: Crop Diversity and Pest Control
+8. Community-Supported Agriculture (CSA) Models: Strengthening Local Food Systems
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+1. Importance of Cover Crops in Sustainable Farming
+2. Benefits and Practices of Crop Rotation
+3. Agroforestry: Enhancing Biodiversity and Soil Health
+4. Soil Conservation Techniques for Erosion Prevention
+5. Water Management Strategies: Drip Irrigation and Rainwater Harvesting
+6. Integrated Pest Management Principles and Strategies
+7. Organic Farming Principles and Crop Diversity
+8. Community-Supported Agriculture (CSA) Models and Benefits
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_18-58-37.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_18-58-37.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_18-58-46.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+🎲 Choice scenario triggered! (Rolled 8.5 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Overall, the lecture notes provide a good introduction to sustainable farming practices. The explanation of the definition and importance of sustainable farming practices is clear and informative, covering the key aspects such as soil health, water conservation, and biodiversity promotion. The learning objectives are well-defined and align with the main topic.
+
+The real-world application of cover crops is a practical example that helps students understand how sustainable practices are implemented on farms. The lab activities involving case studies of farms using cover crops are a hands-on approach that enhances the learning experience.
+
+However, the estimated number of slides for this topic seems insufficient for a 3-credit hour senior undergraduate course. To provide a more comprehensive overview of sustainable farming practices, additional sub-topics could be included, such as sustainable pest management, crop rotation, agroforestry, and organic farming practices. These topics would add depth and detail to the lecture material and ensure a more thorough understanding of sustainable agriculture.
+
+In terms of real-world examples and applications, more case studies and success stories from different regions and types of farms could be included to demonstrate the diverse ways in which sustainable farming practices can be implemented. This would provide a more holistic view of sustainable agriculture and its impact on various ecosystems and communities.
+
+Overall, while the lecture notes provide a good starting point for introducing sustainable farming practices, they could be improved by adding more sub-topics, real-world examples, and case studies to ensure a more comprehensive and in-depth coverage of the subject matter.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Overall, the lecture notes provide a good introduction to sustainable farming practices. The definition, importance, and key components of sustainable farming practices are well-explained, and real-world applications are provided to help students understand the practical implications of these concepts.
+
+To ensure that these lecture notes are suitable for 3 credit hours of senior undergraduate study, some improvements could be made. 
+
+1. Depth and Detail: The notes could benefit from more in-depth explanations of each sub-topic. For example, providing more details on specific sustainable farming techniques or case studies could enhance the students' understanding of the subject.
+
+2. Real-World Examples and Applications: While the notes mention the use of cover crops as a real-world application, more examples from different aspects of sustainable farming practices could be included. This would help students see the wide range of applications of sustainable agriculture in practice.
+
+3. Progressive Complexity: The notes could be improved by adding a progression of complexity from basic to advanced concepts within sustainable farming practices. This could help students build on their knowledge and understand the subject more thoroughly.
+
+4. Self-Contained Learning Material: To ensure that the lecture notes are self-contained and comprehensive, additional resources such as readings, videos, or interactive activities could be included to further engage students and reinforce their learning.
+
+In conclusion, while the lecture notes provide a good foundation for understanding sustainable farming practices, some improvements could be made to enhance their suitability for 3 credit hours of senior undergraduate study. Consider incorporating more depth, real-world examples, progressive complexity, and self-contained learning material to make the notes more comprehensive and engaging for students.
+
+----------------------------------------
+✅ You chose Response 2
+⚠️ Content validation suggestions: Overall, the lecture notes provide a good introduction to sustainable farming practices. The definition, importance, and key components of sustainable farming practices are well-explained, and real-world applications are provided to help students understand the practical implications of these concepts.
+
+To ensure that these lecture notes are suitable for 3 credit hours of senior undergraduate study, some improvements could be made. 
+
+1. Depth and Detail: The notes could benefit from more in-depth explanations of each sub-topic. For example, providing more details on specific sustainable farming techniques or case studies could enhance the students' understanding of the subject.
+
+2. Real-World Examples and Applications: While the notes mention the use of cover crops as a real-world application, more examples from different aspects of sustainable farming practices could be included. This would help students see the wide range of applications of sustainable agriculture in practice.
+
+3. Progressive Complexity: The notes could be improved by adding a progression of complexity from basic to advanced concepts within sustainable farming practices. This could help students build on their knowledge and understand the subject more thoroughly.
+
+4. Self-Contained Learning Material: To ensure that the lecture notes are self-contained and comprehensive, additional resources such as readings, videos, or interactive activities could be included to further engage students and reinforce their learning.
+
+In conclusion, while the lecture notes provide a good foundation for understanding sustainable farming practices, some improvements could be made to enhance their suitability for 3 credit hours of senior undergraduate study. Consider incorporating more depth, real-world examples, progressive complexity, and self-contained learning material to make the notes more comprehensive and engaging for students.
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Sustainable Agriculture
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Importance of Cover Crops in Sustainable Farming)
+🎲 Choice scenario triggered! (Rolled 5.5 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Cover crops are essential in sustainable farming for improving soil health and fertility
+• They help prevent erosion, suppress weeds, and enhance biodiversity on farms
+• Cover crops reduce the need for synthetic fertilizers and pesticides, promoting sustainable practices
+• Practical example: Using cover crops like legumes to fix nitrogen in the soil and improve soil structure
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Cover crops are essential in sustainable farming for improving soil health and fertility.
+• They help prevent erosion, suppress weeds, and enhance biodiversity on farms.
+• Cover crops reduce the need for synthetic fertilizers and pesticides, promoting sustainable agricultural practices.
+• Practical example: Integrating cover crops like clover or rye into crop rotation systems to enhance soil quality and reduce pest pressure.
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 1 content set to: '• Cover crops are essential in sustainable farming for improving soil health and fertility. • They h...'
+🔍 DEBUG: Slide 1 content length: 430
+✅ Slide 1 content: • Cover crops are essential in sustainable farming for improving soil health and fertility.
+• They help prevent erosion, suppress weeds, and enhance biodiversity on farms.
+• Cover crops reduce the need for synthetic fertilizers and pesticides, promoting sustainable agricultural practices.
+• Practical example: Integrating cover crops like clover or rye into crop rotation systems to enhance soil quality and reduce pest pressure.
+Generating content for slide 2 (Topic: Benefits and Practices of Crop Rotation)
+🔍 DEBUG: Slide 2 content set to: '• Crop rotation involves planting different crops in the same area in sequential seasons • Benefits ...'
+🔍 DEBUG: Slide 2 content length: 402
+✅ Slide 2 content: • Crop rotation involves planting different crops in the same area in sequential seasons
+• Benefits of crop rotation include improved soil health, reduced pest and disease pressure, and increased crop yields
+• Crop rotation helps manage pests and weeds naturally by disrupting their life cycles
+• Practical example: Rotating corn with legumes like soybeans to enhance soil fertility and nitrogen levels
+Generating content for slide 3 (Topic: Agroforestry: Enhancing Biodiversity and Soil Health)
+🔍 DEBUG: Slide 3 content set to: '• Agroforestry integrates trees and shrubs into agricultural landscapes for sustainability • Benefit...'
+🔍 DEBUG: Slide 3 content length: 368
+✅ Slide 3 content: • Agroforestry integrates trees and shrubs into agricultural landscapes for sustainability
+• Benefits of agroforestry: improved soil health, increased biodiversity, enhanced water quality
+• Trees in agroforestry systems provide additional income through timber, fruits, nuts
+• Practical example: Farmers can earn from non-timber forest products in agroforestry systems
+Generating content for slide 4 (Topic: Soil Conservation Techniques for Erosion Prevention)
+🔍 DEBUG: Slide 4 content set to: '• Soil conservation techniques aim to prevent soil erosion, enhance soil health, and improve water m...'
+🔍 DEBUG: Slide 4 content length: 456
+✅ Slide 4 content: • Soil conservation techniques aim to prevent soil erosion, enhance soil health, and improve water management on farms
+• Common techniques include contour plowing, terracing, cover cropping, no-till farming, and mulching
+• These practices reduce soil erosion, retain moisture, increase organic matter content, and promote overall soil fertility
+• Practical example: Implementing contour plowing and cover cropping to prevent erosion and improve soil health
+Generating content for slide 5 (Topic: Water Management Strategies: Drip Irrigation and Rainwater Harvesting)
+🎲 Choice scenario triggered! (Rolled 19.4 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Drip irrigation delivers water directly to plant roots, reducing waste and evaporation
+• Minimizes weed growth and disease by targeting the root zone
+• Promotes higher crop yields, healthier plants, and water conservation
+• Practical example: Implementing drip irrigation systems in vegetable gardens to optimize water usage and plant health
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Drip irrigation delivers water directly to plant roots, minimizing waste
+• Reduces evaporation and runoff, conserving water resources
+• Prevents weed growth and diseases by targeting the root zone
+• Example: Higher crop yields and healthier plants with water conservation
+
+Note: Please incorporate the information provided into the slide content for a comprehensive presentation.
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 5 content set to: '• Drip irrigation delivers water directly to plant roots, reducing waste and evaporation • Minimizes...'
+🔍 DEBUG: Slide 5 content length: 343
+✅ Slide 5 content: • Drip irrigation delivers water directly to plant roots, reducing waste and evaporation
+• Minimizes weed growth and disease by targeting the root zone
+• Promotes higher crop yields, healthier plants, and water conservation
+• Practical example: Implementing drip irrigation systems in vegetable gardens to optimize water usage and plant health
+Generating content for slide 6 (Topic: Integrated Pest Management Principles and Strategies)
+🔍 DEBUG: Slide 6 content set to: '• Integrated Pest Management (IPM) combines biological, cultural, physical, and chemical tools for p...'
+🔍 DEBUG: Slide 6 content length: 360
+✅ Slide 6 content: • Integrated Pest Management (IPM) combines biological, cultural, physical, and chemical tools for pest control
+• Focuses on preventing pests using methods like crop rotation and habitat manipulation
+• Reduces reliance on synthetic pesticides, promoting ecosystem health
+• Practical example: Using natural enemies to control pest populations in an IPM approach
+Generating content for slide 7 (Topic: Organic Farming Principles and Crop Diversity)
+🔍 DEBUG: Slide 7 content set to: '• Organic farming principles focus on crop diversity for sustainable agriculture • Crop diversity ai...'
+🔍 DEBUG: Slide 7 content length: 400
+✅ Slide 7 content: • Organic farming principles focus on crop diversity for sustainable agriculture
+• Crop diversity aids in natural pest and disease control, soil health improvement, and biodiversity promotion
+• Different crops have varying nutrient requirements, reducing reliance on synthetic fertilizers and pesticides
+• Crop diversity enhances farm resilience against extreme weather events and market fluctuations
+Generating content for slide 8 (Topic: Community-Supported Agriculture (CSA) Models and Benefits)
+🎲 Choice scenario triggered! (Rolled 17.9 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Community-Supported Agriculture (CSA) models involve direct partnerships between consumers and local farmers
+• Members pay a subscription fee at the beginning of the season for a share of the farm's produce
+• Benefits farmers with upfront capital and guarantees a market for their crops
+• Consumers benefit from fresh, locally grown produce and community engagement opportunities
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Community-Supported Agriculture (CSA) models involve direct partnerships between consumers and local farmers
+• Members pay a subscription fee upfront for a share of the farm's produce throughout the season
+• Benefits: Farmers receive upfront capital, consumers get fresh, locally grown produce
+• Opportunities for members to volunteer on the farm or engage in educational events available.
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 8 content set to: '• Community-Supported Agriculture (CSA) models involve direct partnerships between consumers and loc...'
+🔍 DEBUG: Slide 8 content length: 381
+✅ Slide 8 content: • Community-Supported Agriculture (CSA) models involve direct partnerships between consumers and local farmers
+• Members pay a subscription fee at the beginning of the season for a share of the farm's produce
+• Benefits farmers with upfront capital and guarantees a market for their crops
+• Consumers benefit from fresh, locally grown produce and community engagement opportunities
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Importance of Cover Crops in Sustainable Farming)
+✅ Slide 1 title: "Cover Crops: Soil Health & Sustainability"
+Generating title for slide 2 (Topic: Benefits and Practices of Crop Rotation)
+✅ Slide 2 title: "Benefits of Crop Rotation for Soil Health"
+Generating title for slide 3 (Topic: Agroforestry: Enhancing Biodiversity and Soil Health)
+✅ Slide 3 title: Agroforestry: Biodiversity and Soil Health
+Generating title for slide 4 (Topic: Soil Conservation Techniques for Erosion Prevention)
+🎲 Choice scenario triggered! (Rolled 30.0 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+"Effective Soil Conservation Techniques"
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Soil Conservation Techniques: Erosion Prevention
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 4 title: Soil Conservation Techniques: Erosion Prevention
+Generating title for slide 5 (Topic: Water Management Strategies: Drip Irrigation and Rainwater Harvesting)
+🎲 Choice scenario triggered! (Rolled 39.9 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Title: Efficient Water Management: Drip Irrigation & Rainwater Harvesting
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+"Drip Irrigation & Rainwater Harvesting Strategies"
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 5 title: "Drip Irrigation & Rainwater Harvesting Strategies"
+Generating title for slide 6 (Topic: Integrated Pest Management Principles and Strategies)
+✅ Slide 6 title: "IPM Principles & Strategies for Pest Control"
+Generating title for slide 7 (Topic: Organic Farming Principles and Crop Diversity)
+🎲 Choice scenario triggered! (Rolled 35.2 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Enhancing Sustainability Through Crop Diversity
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+"Organic Farming: Crop Diversity Benefits"
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 7 title: Enhancing Sustainability Through Crop Diversity
+Generating title for slide 8 (Topic: Community-Supported Agriculture (CSA) Models and Benefits)
+✅ Slide 8 title: Community-Supported Agriculture (CSA) Models: Benefits and Partnerships
+Generating overall presentation title...
+🎲 Choice scenario triggered! (Rolled 10.1 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+"Sustainable Agriculture Practices for Soil Health and Biodiversity"
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+"Promoting Soil Health and Sustainability in Agriculture"
+
+----------------------------------------
+✅ You chose Response 1
+✅ Overall presentation title: Sustainable Agriculture Practices for Soil Health and Biodiversity
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Importance of Cover Crops in Sustainable Farming)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Benefits and Practices of Crop Rotation)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Agroforestry: Enhancing Biodiversity and Soil Health)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Soil Conservation Techniques for Erosion Prevention)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Water Management Strategies: Drip Irrigation and Rainwater Harvesting)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Integrated Pest Management Principles and Strategies)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Organic Farming Principles and Crop Diversity)
+🎲 Choice scenario triggered! (Rolled 30.4 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['organic farming principles crop diversity', 'crop diversity sustainable agriculture benefits', 'crop rotation soil health improvement', 'crop diversity pest disease control', 'organic practices biodiversity promotion']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['organic farming principles crop diversity',
+ 'crop diversity sustainable agriculture benefits',
+ 'organic agriculture crop rotation',
+ 'integrated pest management crop diversity',
+ 'soil health improvement crop diversity',
+ 'crop diversity resilience extreme weather events',
+ 'crop diversity market fluctuations']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Community-Supported Agriculture (CSA) Models and Benefits)
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Importance of Cover Crops in Sustainable Farming)
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Benefits and Practices of Crop Rotation)
+🎲 Choice scenario triggered! (Rolled 20.0 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Agroforestry systems can enhance soil health by promoting nutrient cycling and reducing soil erosion through the presence of trees and shrubs.
+- The integration of trees in agroforestry can improve water quality by preventing runoff and filtering pollutants, contributing to overall ecosystem health.
+- Agroforestry practices aid in climate change mitigation by sequestering carbon in trees and vegetation, reducing greenhouse gas emissions from agricultural activities.
+- Farmers can diversify their income streams by incorporating agroforestry, as trees can provide additional revenue from products like timber, fruits, nuts, and other forest resources.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Agroforestry systems can improve soil health by increasing organic matter content and enhancing soil structure, leading to better water retention and nutrient cycling.
+- The integration of trees and shrubs in agroforestry practices can contribute to reducing greenhouse gas emissions and mitigating climate change by sequestering carbon in biomass and soil.
+- Agroforestry provides habitat for beneficial insects and birds, which can help control pest populations naturally and reduce the need for chemical pesticides.
+- Farmers practicing agroforestry can diversify their income sources by harvesting products from trees and shrubs, such as fruits, nuts, and medicinal plants.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 2 content is long (657 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Agroforestry: Enhancing Biodiversity and Soil Health)
+🎲 Choice scenario triggered! (Rolled 28.4 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Agroforestry practices contribute to improved soil health by promoting nutrient cycling, enhancing soil structure, and increasing organic matter content, leading to better crop productivity and long-term sustainability.
+- The presence of trees and shrubs in agroforestry systems helps to enhance biodiversity by providing habitat for a variety of plant and animal species, creating a more resilient and ecologically diverse agricultural landscape.
+- Agroforestry plays a crucial role in sequestering carbon from the atmosphere, with trees acting as carbon sinks and helping to mitigate climate change by storing carbon in their biomass and soil, thus reducing the overall carbon footprint of agricultural activities.
+- In addition to the environmental benefits, agroforestry systems offer economic advantages by diversifying income sources for farmers through the production of high-value products like medicinal plants, honey, and specialty wood products, contributing to financial stability and enhanced livelihoods.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Agroforestry systems can enhance soil health by promoting nutrient cycling and reducing soil erosion through the presence of trees and shrubs.
+- The integration of trees in agroforestry can improve water quality by preventing runoff and filtering pollutants, contributing to overall ecosystem health.
+- Agroforestry practices aid in climate change mitigation by sequestering carbon in trees and vegetation, reducing greenhouse gas emissions from agricultural activities.
+- Agroforestry enhances biodiversity by providing habitats for a variety of plant and animal species, contributing to ecosystem resilience and overall environmental health.
+
+----------------------------------------
+✅ You chose Response 2
+⚠️ Warning: Slide 3 content is long (645 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Soil Conservation Techniques for Erosion Prevention)
+🎲 Choice scenario triggered! (Rolled 11.2 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Implementing grassed waterways to reduce soil erosion and improve water quality on farms
+- Incorporating riparian buffers along water bodies to prevent sediment runoff and protect aquatic ecosystems
+- Utilizing conservation tillage practices, such as strip-tilling or ridge-tilling, to minimize soil disturbance and erosion risk
+- Installing windbreaks or shelterbelts to reduce wind erosion and protect crops from strong winds
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Soil conservation techniques such as no-till farming help to reduce soil disturbance and erosion by leaving the soil undisturbed, protecting its structure and organic matter content.
+- Mulching, another common practice, helps to retain moisture in the soil, regulate soil temperature, suppress weed growth, and prevent erosion by covering the soil surface with organic materials.
+- Implementing cover cropping can enhance soil health by improving soil structure, increasing organic matter content, and reducing erosion through the establishment of a protective cover over the soil.
+- Utilizing terracing on sloped land can effectively reduce soil erosion by creating level platforms that slow down water flow, allowing for better infiltration and reducing the risk of runoff and sediment loss.
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Water Management Strategies: Drip Irrigation and Rainwater Harvesting)
+⚠️ Warning: Slide 5 content is long (579 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Integrated Pest Management Principles and Strategies)
+⚠️ Warning: Slide 6 content is long (731 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Organic Farming Principles and Crop Diversity)
+🎲 Choice scenario triggered! (Rolled 28.8 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Cover crops contribute to soil health by preventing erosion, suppressing weeds, and enhancing fertility
+- Cover crops aid in water retention, reducing the need for synthetic inputs, and promoting biodiversity on farms
+- Crop rotation, combined with cover cropping, further enhances soil health and reduces pest and disease pressure
+- Integrating cover crops and crop rotation into farming practices supports sustainable agriculture and ecosystem balance
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Cover crops play a crucial role in preventing soil erosion, suppressing weeds, and enhancing soil fertility, contributing to overall soil health in sustainable farming practices.
+- Crop rotation, when combined with cover cropping, further improves soil health by diversifying nutrient uptake, reducing pest and disease pressure, and promoting beneficial soil microorganisms.
+- Integrating cover crops and crop rotation practices not only enhances soil quality but also reduces the need for synthetic fertilizers and pesticides, supporting a more sustainable agricultural ecosystem.
+- The combination of cover crops and crop rotation promotes biodiversity on farms, creating a more resilient and balanced environment that can better withstand environmental stressors and fluctuations.
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Community-Supported Agriculture (CSA) Models and Benefits)
+🎲 Choice scenario triggered! (Rolled 27.5 <= 40.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- CSA models often include opportunities for members to volunteer on the farm or participate in educational events, fostering a sense of community and connection to the food they consume
+- Some CSAs offer flexibility in share sizes or contents, allowing consumers to customize their produce selections based on personal preferences or dietary needs
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- CSA models often foster a sense of community and connection between farmers and consumers, promoting local food systems and sustainable agriculture practices
+- Some CSAs offer flexible share options, allowing members to choose the types and quantities of produce they receive, enhancing consumer choice and satisfaction
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Sustainable_Agriculture_Practices_for_Soil_Health_and_Biodiversity_2025-08-31_19-00-43
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Sustainable_Agriculture_Practices_for_Soil_Health_and_Biodiversity_2025-08-31_19-00-43.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Sustainable_Agriculture_Practices_for_Soil_Health_and_Biodiversity_2025-08-31_19-00-43.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 1 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Sustainable_Agriculture_Practices_for_Soil_Health_and_Biodiversity_2025-08-31_19-00-43.pptx
+📊 Rating presentation 1...
+✅ Presentation 1 rated successfully
+📈 Overall Rating: 6.58 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.17 / 2.00
+   - Non-Repetition: 1.73 / 2.00
+   - Content Balance: 1.45 / 2.00
+   - Title Uniqueness: 1.99 / 2.00
+   - Title-Content Match: 1.25 / 2.00
+💾 Result saved to file for presentation 1
+
+📊 Presentation 3/10 (ID: 2)
+📝 Using topic: Public Health Crises Management
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

@@ -1,0 +1,1677 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T17:53:50.563566
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_17-53-50.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 4...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Medical Technology Advances
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Medical imaging technology, Robotics in surgery
+Selected topics: ['Medical imaging technology', 'Robotics in surgery']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Medical imaging technology
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **MEDICAL IMAGING TECHNOLOGY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Advancements in Medical Imaging Technology",
+    "keywords": ["medical imaging technology", "radiology", "artificial intelligence", "machine learning", "diagnostic imaging"],
+    "text": "Medical imaging technology has seen significant advancements in recent years, particularly with the integration of artificial intelligence and machine learning algorithms. These technologies have improved the accuracy and efficiency of diagnostic imaging procedures, allowing for earlier detection of diseases and better patient outcomes. AI can analyze medical images, such as X-rays, MRIs, and CT scans, to identify patterns and abnormalities that may not be visible to the human eye. This has revolutionized the field of radiology and has the potential to greatly impact the future of healthcare.",
+    "link": "https://www.healthit.gov/topic/imaging"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Advancements in Medical Imaging Technology
+Keywords: medical imaging technology, radiology, artificial intelligence, machine learning, diagnostic imaging
+Uses: 0
+Text: Medical imaging technology has seen significant advancements in recent years, particularly with the integration of artificial intelligence and machine learning algorithms. These technologies have improved the accuracy and efficiency of diagnostic imaging procedures, allowing for earlier detection of diseases and better patient outcomes. AI can analyze medical images, such as X-rays, MRIs, and CT scans, to identify patterns and abnormalities that may not be visible to the human eye. This has revolutionized the field of radiology and has the potential to greatly impact the future of healthcare.Link: https://www.healthit.gov/topic/imaging
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **MEDICAL IMAGING TECHNOLOGY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Benefits of 3D Medical Imaging Technology in Healthcare",
+    "keywords": ["3D medical imaging", "benefits", "healthcare", "technology"],
+    "text": "3D medical imaging technology provides healthcare professionals with detailed, three-dimensional images of internal organs, tissues, and structures. This technology offers improved visualization, better accuracy in diagnosis, enhanced surgical planning, and personalized treatment options for patients. By using advanced imaging techniques, healthcare providers can detect diseases earlier and monitor treatment progress more effectively.",
+    "link": "https://www.healthimaging.com/topics/imaging-informatics/benefits-3d-imaging-healthcare"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Benefits of 3D Medical Imaging Technology in Healthcare
+Keywords: 3D medical imaging, benefits, healthcare, technology
+Uses: 0
+Text: 3D medical imaging technology provides healthcare professionals with detailed, three-dimensional images of internal organs, tissues, and structures. This technology offers improved visualization, better accuracy in diagnosis, enhanced surgical planning, and personalized treatment options for patients. By using advanced imaging techniques, healthcare providers can detect diseases earlier and monitor treatment progress more effectively.Link: https://www.healthimaging.com/topics/imaging-informatics/benefits-3d-imaging-healthcare
+Researching topic: Robotics in surgery
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROBOTICS IN SURGERY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Advancements in Robotics in Surgery",
+    "keywords": ["robotics in surgery", "surgical robots", "robotic-assisted surgery"],
+    "text": "Robotics in surgery refers to the use of robotic systems to assist surgeons in performing procedures with precision, control, and flexibility. These systems can enhance surgical capabilities, reduce invasiveness, and improve patient outcomes. Robotic-assisted surgery has been utilized in various specialties such as urology, gynecology, and orthopedics.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3781851/"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Advancements in Robotics in Surgery
+Keywords: robotics in surgery, surgical robots, robotic-assisted surgery
+Uses: 0
+Text: Robotics in surgery refers to the use of robotic systems to assist surgeons in performing procedures with precision, control, and flexibility. These systems can enhance surgical capabilities, reduce invasiveness, and improve patient outcomes. Robotic-assisted surgery has been utilized in various specialties such as urology, gynecology, and orthopedics.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3781851/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROBOTICS IN SURGERY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 17.4 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Benefits of Surgical Robots in Minimally Invasive Surgery",
+    "keywords": ["surgical robots", "minimally invasive surgery", "robotic surgical procedures"],
+    "text": "Surgical robots have revolutionized minimally invasive surgery by allowing for more precise and controlled movements during procedures. This results in smaller incisions, less blood loss, reduced pain, and faster recovery times for patients. Additionally, robotic surgical procedures offer surgeons enhanced visualization and dexterity, leading to improved outcomes and reduced risks for patients.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5302414/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Advancements in Surgical Robotics Technology",
+    "keywords": ["robotic surgery", "minimally invasive surgery", "da Vinci Surgical System", "surgical robots"],
+    "text": "Surgical robotics technology has advanced significantly in recent years, allowing for more precise and minimally invasive procedures. One of the most well-known systems is the da Vinci Surgical System, which enables surgeons to perform complex surgeries with enhanced dexterity and control. These robotic systems can improve patient outcomes, reduce recovery times, and minimize the risk of complications.",
+    "link": "https://www.mayoclinic.org/tests-procedures/robotic-surgery/about/pac-20394974"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Advancements in Surgical Robotics Technology",
+    "keywords": ["robotic surgery", "minimally invasive surgery", "da Vinci Surgical System", "surgical robots"],
+    "text": "Surgical robotics technology has advanced significantly in recent years, allowing for more precise and minimally invasive procedures. One of the most well-known systems is the da Vinci Surgical System, which enables surgeons to perform complex surgeries with enhanced dexterity and control. These robotic systems can improve patient outcomes, reduce recovery times, and minimize the risk of complications.",
+    "link": "https://www.mayoclinic.org/tests-procedures/robotic-surgery/about/pac-20394974"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Advancements in Surgical Robotics Technology
+Keywords: robotic surgery, minimally invasive surgery, da Vinci Surgical System, surgical robots
+Uses: 0
+Text: Surgical robotics technology has advanced significantly in recent years, allowing for more precise and minimally invasive procedures. One of the most well-known systems is the da Vinci Surgical System, which enables surgeons to perform complex surgeries with enhanced dexterity and control. These robotic systems can improve patient outcomes, reduce recovery times, and minimize the risk of complications.Link: https://www.mayoclinic.org/tests-procedures/robotic-surgery/about/pac-20394974
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Medical imaging technology', 'Robotics in surgery']. The research these yeilded is: ({Medical imaging technology has seen significant advancements in recent years, particularly with the integration of artificial intelligence and machine learning algorithms. These technologies have improved the accuracy and efficiency of diagnostic imaging procedures, allowing for earlier detection of diseases and better patient outcomes. AI can analyze medical images, such as X-rays, MRIs, and CT scans, to identify patterns and abnormalities that may not be visible to the human eye. This has revolutionized the field of radiology and has the potential to greatly impact the future of healthcare.
+
+3D medical imaging technology provides healthcare professionals with detailed, three-dimensional images of internal organs, tissues, and structures. This technology offers improved visualization, better accuracy in diagnosis, enhanced surgical planning, and personalized treatment options for patients. By using advanced imaging techniques, healthcare providers can detect diseases earlier and monit (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Nanotechnology in drug delivery, Virtual reality in medical training, Wearable health monitoring devices, Telemedicine and remote patient monitoring, Gene editing in personalized medicine, Bioprinting for tissue regeneration
+Selected topics: ['Nanotechnology in drug delivery', 'Virtual reality in medical training', 'Wearable health monitoring devices', 'Telemedicine and remote patient monitoring', 'Gene editing in personalized medicine', 'Bioprinting for tissue regeneration']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Nanotechnology in drug delivery
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery', 'Advancements in Surgical Robotics Technology']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **NANOTECHNOLOGY IN DRUG DELIVERY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Nanotechnology in Drug Delivery",
+    "keywords": ["nanotechnology", "drug delivery", "nanoparticles", "targeted therapy"],
+    "text": "Nanotechnology in drug delivery involves the use of nanoparticles to deliver drugs to specific target sites in the body. These nanoparticles can be engineered to release the drug at a controlled rate, improving its efficacy and reducing side effects. This targeted therapy approach holds promise for treating various diseases, including cancer and neurological disorders.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6188599/"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Nanotechnology in Drug Delivery
+Keywords: nanotechnology, drug delivery, nanoparticles, targeted therapy
+Uses: 0
+Text: Nanotechnology in drug delivery involves the use of nanoparticles to deliver drugs to specific target sites in the body. These nanoparticles can be engineered to release the drug at a controlled rate, improving its efficacy and reducing side effects. This targeted therapy approach holds promise for treating various diseases, including cancer and neurological disorders.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6188599/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery', 'Advancements in Surgical Robotics Technology', 'Nanotechnology in Drug Delivery']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **NANOTECHNOLOGY IN DRUG DELIVERY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 28.6 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Applications of Nanotechnology in Targeted Drug Delivery Systems",
+    "keywords": ["nanotechnology", "drug delivery", "targeted drug delivery", "nanoparticles", "nanomedicine"],
+    "text": "Nanotechnology has revolutionized drug delivery systems by allowing for the precise targeting of drugs to specific cells or tissues in the body. Nanoparticles, which are on the scale of nanometers, can be engineered to encapsulate drugs and deliver them directly to the site of action. This targeted approach minimizes side effects and improves the efficacy of the treatment. Nanomedicine, the application of nanotechnology in medicine, continues to advance with promising results in various disease treatments.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2676815/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Nanoparticle Drug Delivery Systems: Advancements and Applications",
+    "keywords": ["nanoparticle", "drug delivery", "nanotechnology", "advancements", "applications"],
+    "text": "Nanoparticle drug delivery systems utilize nanotechnology to efficiently deliver drugs to specific target sites in the body, improving drug efficacy and reducing side effects. These systems can be designed to release drugs in a controlled manner, allowing for sustained drug release over time. In addition, nanoparticles can be functionalized with targeting ligands to enhance their specificity to diseased tissues. This technology has the potential to revolutionize the way drugs are delivered and administered in healthcare.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2676774/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Nanoparticle Drug Delivery Systems: Advancements and Applications",
+    "keywords": ["nanoparticle", "drug delivery", "nanotechnology", "advancements", "applications"],
+    "text": "Nanoparticle drug delivery systems utilize nanotechnology to efficiently deliver drugs to specific target sites in the body, improving drug efficacy and reducing side effects. These systems can be designed to release drugs in a controlled manner, allowing for sustained drug release over time. In addition, nanoparticles can be functionalized with targeting ligands to enhance their specificity to diseased tissues. This technology has the potential to revolutionize the way drugs are delivered and administered in healthcare.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2676774/"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Nanoparticle Drug Delivery Systems: Advancements and Applications
+Keywords: nanoparticle, drug delivery, nanotechnology, advancements, applications
+Uses: 0
+Text: Nanoparticle drug delivery systems utilize nanotechnology to efficiently deliver drugs to specific target sites in the body, improving drug efficacy and reducing side effects. These systems can be designed to release drugs in a controlled manner, allowing for sustained drug release over time. In addition, nanoparticles can be functionalized with targeting ligands to enhance their specificity to diseased tissues. This technology has the potential to revolutionize the way drugs are delivered and administered in healthcare.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2676774/
+Researching topic: Virtual reality in medical training
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery', 'Advancements in Surgical Robotics Technology', 'Nanotechnology in Drug Delivery', 'Nanoparticle Drug Delivery Systems: Advancements and Applications']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VIRTUAL REALITY IN MEDICAL TRAINING** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Virtual Reality in Medical Training",
+    "keywords": ["virtual reality", "medical training", "simulation", "education", "healthcare"],
+    "text": "Virtual reality (VR) technology is being increasingly utilized in medical training to provide realistic simulations for healthcare professionals. VR allows users to immerse themselves in a 3D environment where they can practice procedures, surgeries, and patient interactions in a safe and controlled setting. This technology helps to improve skills, decision-making, and confidence among medical students, residents, and practicing physicians.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7000576/"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Virtual Reality in Medical Training
+Keywords: virtual reality, medical training, simulation, education, healthcare
+Uses: 0
+Text: Virtual reality (VR) technology is being increasingly utilized in medical training to provide realistic simulations for healthcare professionals. VR allows users to immerse themselves in a 3D environment where they can practice procedures, surgeries, and patient interactions in a safe and controlled setting. This technology helps to improve skills, decision-making, and confidence among medical students, residents, and practicing physicians.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7000576/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery', 'Advancements in Surgical Robotics Technology', 'Nanotechnology in Drug Delivery', 'Nanoparticle Drug Delivery Systems: Advancements and Applications', 'Virtual Reality in Medical Training']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VIRTUAL REALITY IN MEDICAL TRAINING** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Impact of Virtual Reality in Medical Training",
+    "keywords": ["virtual reality", "medical training", "simulation", "healthcare education"],
+    "text": "Virtual reality technology is revolutionizing medical training by providing immersive simulation experiences for healthcare professionals. This allows them to practice surgeries, procedures, and patient interactions in a realistic and risk-free environment. VR in medical training enhances skills development, improves knowledge retention, and boosts confidence among trainees.",
+    "link": "https://www.healthcareitnews.com/news/how-virtual-reality-changing-medical-education"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: The Impact of Virtual Reality in Medical Training
+Keywords: virtual reality, medical training, simulation, healthcare education
+Uses: 0
+Text: Virtual reality technology is revolutionizing medical training by providing immersive simulation experiences for healthcare professionals. This allows them to practice surgeries, procedures, and patient interactions in a realistic and risk-free environment. VR in medical training enhances skills development, improves knowledge retention, and boosts confidence among trainees.Link: https://www.healthcareitnews.com/news/how-virtual-reality-changing-medical-education
+Researching topic: Wearable health monitoring devices
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery', 'Advancements in Surgical Robotics Technology', 'Nanotechnology in Drug Delivery', 'Nanoparticle Drug Delivery Systems: Advancements and Applications', 'Virtual Reality in Medical Training', 'The Impact of Virtual Reality in Medical Training']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WEARABLE HEALTH MONITORING DEVICES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 24.6 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Advancements in Wearable Health Monitoring Devices",
+    "keywords": ["wearable health monitoring devices", "health technology", "medical devices", "health monitoring", "wearable technology"],
+    "text": "Wearable health monitoring devices are portable electronic devices that are designed to be worn on the body to track various health parameters such as heart rate, blood pressure, activity levels, and even sleep patterns. These devices are becoming increasingly popular as they provide real-time data to users and healthcare professionals, allowing for better monitoring of health conditions and early detection of potential issues. Advancements in wearable health monitoring devices include improved accuracy, longer battery life, smaller form factors, and enhanced connectivity features that allow for seamless integration with smartphones and other devices.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7282897/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Role of Wearable Health Monitoring Devices in Healthcare",
+    "keywords": ["wearable health monitoring devices", "healthcare", "medical technology", "advancements"],
+    "text": "Wearable health monitoring devices are small electronic devices that can be worn on the body to track various health parameters such as heart rate, blood pressure, sleep patterns, and physical activity. These devices are becoming increasingly popular in healthcare as they provide real-time data that can be used by both patients and healthcare professionals to monitor health conditions and make informed decisions. The data collected by these devices can help individuals manage chronic conditions, track fitness goals, and even detect potential health issues before they become serious. Overall, wearable health monitoring devices have the potential to revolutionize healthcare by providing continuous, non-invasive monitoring outside of traditional healthcare settings.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6948264/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "The Role of Wearable Health Monitoring Devices in Healthcare",
+    "keywords": ["wearable health monitoring devices", "healthcare", "medical technology", "advancements"],
+    "text": "Wearable health monitoring devices are small electronic devices that can be worn on the body to track various health parameters such as heart rate, blood pressure, sleep patterns, and physical activity. These devices are becoming increasingly popular in healthcare as they provide real-time data that can be used by both patients and healthcare professionals to monitor health conditions and make informed decisions. The data collected by these devices can help individuals manage chronic conditions, track fitness goals, and even detect potential health issues before they become serious. Overall, wearable health monitoring devices have the potential to revolutionize healthcare by providing continuous, non-invasive monitoring outside of traditional healthcare settings.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6948264/"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: The Role of Wearable Health Monitoring Devices in Healthcare
+Keywords: wearable health monitoring devices, healthcare, medical technology, advancements
+Uses: 0
+Text: Wearable health monitoring devices are small electronic devices that can be worn on the body to track various health parameters such as heart rate, blood pressure, sleep patterns, and physical activity. These devices are becoming increasingly popular in healthcare as they provide real-time data that can be used by both patients and healthcare professionals to monitor health conditions and make informed decisions. The data collected by these devices can help individuals manage chronic conditions, track fitness goals, and even detect potential health issues before they become serious. Overall, wearable health monitoring devices have the potential to revolutionize healthcare by providing continuous, non-invasive monitoring outside of traditional healthcare settings.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6948264/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery', 'Advancements in Surgical Robotics Technology', 'Nanotechnology in Drug Delivery', 'Nanoparticle Drug Delivery Systems: Advancements and Applications', 'Virtual Reality in Medical Training', 'The Impact of Virtual Reality in Medical Training', 'The Role of Wearable Health Monitoring Devices in Healthcare']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WEARABLE HEALTH MONITORING DEVICES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Future of Wearable Health Monitoring Devices",
+    "keywords": ["wearable health monitoring devices", "healthcare technology", "medical devices", "wearable technology", "health monitoring"],
+    "text": "Wearable health monitoring devices are revolutionizing healthcare by allowing individuals to track their health metrics in real-time. These devices, such as smartwatches and fitness trackers, can monitor heart rate, activity levels, sleep patterns, and more. The data collected by these devices can provide valuable insights into a person's overall health and help detect potential health issues early. As technology continues to advance, wearable health monitoring devices are expected to become even more sophisticated, with the potential to monitor a wider range of health metrics and provide more accurate data.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5855908/"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: The Future of Wearable Health Monitoring Devices
+Keywords: wearable health monitoring devices, healthcare technology, medical devices, wearable technology, health monitoring
+Uses: 0
+Text: Wearable health monitoring devices are revolutionizing healthcare by allowing individuals to track their health metrics in real-time. These devices, such as smartwatches and fitness trackers, can monitor heart rate, activity levels, sleep patterns, and more. The data collected by these devices can provide valuable insights into a person's overall health and help detect potential health issues early. As technology continues to advance, wearable health monitoring devices are expected to become even more sophisticated, with the potential to monitor a wider range of health metrics and provide more accurate data.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5855908/
+Researching topic: Telemedicine and remote patient monitoring
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery', 'Advancements in Surgical Robotics Technology', 'Nanotechnology in Drug Delivery', 'Nanoparticle Drug Delivery Systems: Advancements and Applications', 'Virtual Reality in Medical Training', 'The Impact of Virtual Reality in Medical Training', 'The Role of Wearable Health Monitoring Devices in Healthcare', 'The Future of Wearable Health Monitoring Devices']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TELEMEDICINE AND REMOTE PATIENT MONITORING** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Telemedicine and Remote Patient Monitoring",
+    "keywords": ["telemedicine", "remote patient monitoring", "telehealth", "virtual care", "teleconsultation"],
+    "text": "Telemedicine involves using technology to provide healthcare remotely, allowing patients to consult with healthcare providers without being physically present. Remote patient monitoring uses devices to collect and transmit patient data to healthcare professionals for monitoring purposes.",
+    "link": "https://www.who.int/goe/publications/goe_telemedicine_2010.pdf"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Telemedicine and Remote Patient Monitoring
+Keywords: telemedicine, remote patient monitoring, telehealth, virtual care, teleconsultation
+Uses: 0
+Text: Telemedicine involves using technology to provide healthcare remotely, allowing patients to consult with healthcare providers without being physically present. Remote patient monitoring uses devices to collect and transmit patient data to healthcare professionals for monitoring purposes.Link: https://www.who.int/goe/publications/goe_telemedicine_2010.pdf
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery', 'Advancements in Surgical Robotics Technology', 'Nanotechnology in Drug Delivery', 'Nanoparticle Drug Delivery Systems: Advancements and Applications', 'Virtual Reality in Medical Training', 'The Impact of Virtual Reality in Medical Training', 'The Role of Wearable Health Monitoring Devices in Healthcare', 'The Future of Wearable Health Monitoring Devices', 'Telemedicine and Remote Patient Monitoring']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TELEMEDICINE AND REMOTE PATIENT MONITORING** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 0.0 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Role of Telemedicine in Chronic Disease Management",
+    "keywords": ["telemedicine", "remote patient monitoring", "chronic disease management"],
+    "text": "Telemedicine plays a crucial role in chronic disease management by allowing healthcare providers to remotely monitor patients' vital signs, symptoms, and medication adherence. This real-time monitoring helps in early detection of any complications and enables timely interventions, ultimately improving the overall management of chronic conditions.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6276811/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Benefits of Telemedicine and Remote Patient Monitoring",
+    "keywords": ["telemedicine", "remote patient monitoring", "benefits", "healthcare", "technology"],
+    "text": "Telemedicine and remote patient monitoring have revolutionized healthcare by allowing patients to receive medical care and monitoring from the comfort of their own homes. This technology enables healthcare providers to remotely monitor patients' vital signs, medication adherence, and overall health status in real-time. By utilizing telemedicine and remote patient monitoring, healthcare organizations can improve patient outcomes, reduce hospital readmissions, and lower healthcare costs. Patients also benefit from increased convenience, reduced travel time, and improved access to healthcare services.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4103576/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "The Benefits of Telemedicine and Remote Patient Monitoring",
+    "keywords": ["telemedicine", "remote patient monitoring", "benefits", "healthcare", "technology"],
+    "text": "Telemedicine and remote patient monitoring have revolutionized healthcare by allowing patients to receive medical care and monitoring from the comfort of their own homes. This technology enables healthcare providers to remotely monitor patients' vital signs, medication adherence, and overall health status in real-time. By utilizing telemedicine and remote patient monitoring, healthcare organizations can improve patient outcomes, reduce hospital readmissions, and lower healthcare costs. Patients also benefit from increased convenience, reduced travel time, and improved access to healthcare services.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4103576/"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: The Benefits of Telemedicine and Remote Patient Monitoring
+Keywords: telemedicine, remote patient monitoring, benefits, healthcare, technology
+Uses: 0
+Text: Telemedicine and remote patient monitoring have revolutionized healthcare by allowing patients to receive medical care and monitoring from the comfort of their own homes. This technology enables healthcare providers to remotely monitor patients' vital signs, medication adherence, and overall health status in real-time. By utilizing telemedicine and remote patient monitoring, healthcare organizations can improve patient outcomes, reduce hospital readmissions, and lower healthcare costs. Patients also benefit from increased convenience, reduced travel time, and improved access to healthcare services.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4103576/
+Researching topic: Gene editing in personalized medicine
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery', 'Advancements in Surgical Robotics Technology', 'Nanotechnology in Drug Delivery', 'Nanoparticle Drug Delivery Systems: Advancements and Applications', 'Virtual Reality in Medical Training', 'The Impact of Virtual Reality in Medical Training', 'The Role of Wearable Health Monitoring Devices in Healthcare', 'The Future of Wearable Health Monitoring Devices', 'Telemedicine and Remote Patient Monitoring', 'The Benefits of Telemedicine and Remote Patient Monitoring']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENE EDITING IN PERSONALIZED MEDICINE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Gene Editing in Personalized Medicine",
+    "keywords": ["gene editing", "personalized medicine", "CRISPR", "genetic modification", "precision medicine"],
+    "text": "Gene editing in personalized medicine refers to the use of technologies like CRISPR to modify an individual's genetic material in order to treat or prevent diseases. This approach allows for precise modifications to be made to a patient's DNA, offering the potential for highly targeted and effective treatments. By tailoring medical interventions to a person's specific genetic makeup, personalized medicine aims to improve outcomes and reduce side effects.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5900960/"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Gene Editing in Personalized Medicine
+Keywords: gene editing, personalized medicine, CRISPR, genetic modification, precision medicine
+Uses: 0
+Text: Gene editing in personalized medicine refers to the use of technologies like CRISPR to modify an individual's genetic material in order to treat or prevent diseases. This approach allows for precise modifications to be made to a patient's DNA, offering the potential for highly targeted and effective treatments. By tailoring medical interventions to a person's specific genetic makeup, personalized medicine aims to improve outcomes and reduce side effects.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5900960/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery', 'Advancements in Surgical Robotics Technology', 'Nanotechnology in Drug Delivery', 'Nanoparticle Drug Delivery Systems: Advancements and Applications', 'Virtual Reality in Medical Training', 'The Impact of Virtual Reality in Medical Training', 'The Role of Wearable Health Monitoring Devices in Healthcare', 'The Future of Wearable Health Monitoring Devices', 'Telemedicine and Remote Patient Monitoring', 'The Benefits of Telemedicine and Remote Patient Monitoring', 'Gene Editing in Personalized Medicine']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENE EDITING IN PERSONALIZED MEDICINE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "CRISPR-Cas9: Revolutionizing Gene Editing in Personalized Medicine",
+    "keywords": ["CRISPR-Cas9", "gene editing", "personalized medicine", "genetic diseases", "precision medicine"],
+    "text": "CRISPR-Cas9 is a revolutionary gene-editing technology that allows scientists to make precise changes to an individual's DNA. In personalized medicine, CRISPR-Cas9 holds great promise for treating genetic diseases by correcting the underlying genetic mutations. This approach enables the development of tailored therapies that target the specific genetic causes of a patient's condition, leading to more effective and personalized treatments.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5901549/"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: CRISPR-Cas9: Revolutionizing Gene Editing in Personalized Medicine
+Keywords: CRISPR-Cas9, gene editing, personalized medicine, genetic diseases, precision medicine
+Uses: 0
+Text: CRISPR-Cas9 is a revolutionary gene-editing technology that allows scientists to make precise changes to an individual's DNA. In personalized medicine, CRISPR-Cas9 holds great promise for treating genetic diseases by correcting the underlying genetic mutations. This approach enables the development of tailored therapies that target the specific genetic causes of a patient's condition, leading to more effective and personalized treatments.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5901549/
+Researching topic: Bioprinting for tissue regeneration
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery', 'Advancements in Surgical Robotics Technology', 'Nanotechnology in Drug Delivery', 'Nanoparticle Drug Delivery Systems: Advancements and Applications', 'Virtual Reality in Medical Training', 'The Impact of Virtual Reality in Medical Training', 'The Role of Wearable Health Monitoring Devices in Healthcare', 'The Future of Wearable Health Monitoring Devices', 'Telemedicine and Remote Patient Monitoring', 'The Benefits of Telemedicine and Remote Patient Monitoring', 'Gene Editing in Personalized Medicine', 'CRISPR-Cas9: Revolutionizing Gene Editing in Personalized Medicine']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BIOPRINTING FOR TISSUE REGENERATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Bioprinting for Tissue Regeneration: Current Advances and Applications",
+    "keywords": ["bioprinting", "tissue regeneration", "3D printing", "biomaterials", "regenerative medicine"],
+    "text": "Bioprinting is a cutting-edge technology that involves the layer-by-layer deposition of cells, growth factors, and biomaterials to create complex tissue structures. This technique holds great promise for tissue regeneration and personalized medicine, as it allows for the creation of customized tissues and organs. Researchers are exploring various biomaterials and cell types to improve the bioprinting process and enhance tissue regeneration outcomes.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7066162/"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Bioprinting for Tissue Regeneration: Current Advances and Applications
+Keywords: bioprinting, tissue regeneration, 3D printing, biomaterials, regenerative medicine
+Uses: 0
+Text: Bioprinting is a cutting-edge technology that involves the layer-by-layer deposition of cells, growth factors, and biomaterials to create complex tissue structures. This technique holds great promise for tissue regeneration and personalized medicine, as it allows for the creation of customized tissues and organs. Researchers are exploring various biomaterials and cell types to improve the bioprinting process and enhance tissue regeneration outcomes.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7066162/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Advancements in Medical Imaging Technology', 'Benefits of 3D Medical Imaging Technology in Healthcare', 'Advancements in Robotics in Surgery', 'Advancements in Surgical Robotics Technology', 'Nanotechnology in Drug Delivery', 'Nanoparticle Drug Delivery Systems: Advancements and Applications', 'Virtual Reality in Medical Training', 'The Impact of Virtual Reality in Medical Training', 'The Role of Wearable Health Monitoring Devices in Healthcare', 'The Future of Wearable Health Monitoring Devices', 'Telemedicine and Remote Patient Monitoring', 'The Benefits of Telemedicine and Remote Patient Monitoring', 'Gene Editing in Personalized Medicine', 'CRISPR-Cas9: Revolutionizing Gene Editing in Personalized Medicine', 'Bioprinting for Tissue Regeneration: Current Advances and Applications']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BIOPRINTING FOR TISSUE REGENERATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 12.5 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Bioprinting Tissue for Regeneration: Recent Breakthroughs",
+    "keywords": ["bioprinting", "tissue regeneration", "recent advances", "3D printing", "regenerative medicine"],
+    "text": "Bioprinting is a cutting-edge technology that involves the precise layering of biomaterials and living cells to create functional tissue constructs. Recent breakthroughs in bioprinting have shown promising results in regenerating damaged tissues and organs. With the use of 3D printing techniques, researchers are able to create complex structures that mimic the native tissue architecture, promoting cell growth and differentiation. This innovative approach holds great potential for the field of regenerative medicine, offering new possibilities for personalized tissue engineering and organ replacement.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6690131/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Bioprinting: Advancements in Tissue Regeneration",
+    "keywords": ["bioprinting", "tissue regeneration", "3D printing", "bioink", "biomaterials"],
+    "text": "Bioprinting is a cutting-edge technology that involves the layer-by-layer deposition of biomaterials to create 3D tissues and organs. This process utilizes bioinks, which are materials containing living cells, growth factors, and other biologically active components. Researchers are exploring various biomaterials and cell sources to improve the accuracy and functionality of bioprinted tissues for applications in regenerative medicine.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6016761/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Bioprinting Tissue for Regeneration: Recent Breakthroughs",
+    "keywords": ["bioprinting", "tissue regeneration", "recent advances", "3D printing", "regenerative medicine"],
+    "text": "Bioprinting is a cutting-edge technology that involves the precise layering of biomaterials and living cells to create functional tissue constructs. Recent breakthroughs in bioprinting have shown promising results in regenerating damaged tissues and organs. With the use of 3D printing techniques, researchers are able to create complex structures that mimic the native tissue architecture, promoting cell growth and differentiation. This innovative approach holds great potential for the field of regenerative medicine, offering new possibilities for personalized tissue engineering and organ replacement.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6690131/"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Bioprinting Tissue for Regeneration: Recent Breakthroughs
+Keywords: bioprinting, tissue regeneration, recent advances, 3D printing, regenerative medicine
+Uses: 0
+Text: Bioprinting is a cutting-edge technology that involves the precise layering of biomaterials and living cells to create functional tissue constructs. Recent breakthroughs in bioprinting have shown promising results in regenerating damaged tissues and organs. With the use of 3D printing techniques, researchers are able to create complex structures that mimic the native tissue architecture, promoting cell growth and differentiation. This innovative approach holds great potential for the field of regenerative medicine, offering new possibilities for personalized tissue engineering and organ replacement.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6690131/
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Medical imaging technology has seen significant advancements in recent years, particularly with the integration of artificial intelligence and machine learning algorithms. These technologies have improved the accuracy and efficiency of diagnostic imaging procedures, allowing for earlier detection of...
+
+3D medical imaging technology provides healthcare professionals with detailed, three-dimensional images of internal organs, tissues, and structures. This technology offers improved visualization, better accuracy in diagnosis, enhanced surgical planning, and personalized treatment options for patient...
+
+Robotics in surgery refers to the use of robotic systems to assist surgeons in performing procedures with precision, control, and flexibility. These systems can enhance surgical capabilities, reduce invasiveness, and improve patient outcomes. Robotic-assisted surgery has been utilized in various spe...
+
+Surgical robotics technology has advanced significantly in recent years, allowing for more precise and minimally invasive procedures. One of the most well-known systems is the da Vinci Surgical System, which enables surgeons to perform complex surgeries with enhanced dexterity and control. These rob...
+
+Nanotechnology in drug delivery involves the use of nanoparticles to deliver drugs to specific target sites in the body. These nanoparticles can be engineered to release the drug at a controlled rate, improving its efficacy and reducing side effects. This targeted therapy approach holds promise for ...
+
+Nanoparticle drug delivery systems utilize nanotechnology to efficiently deliver drugs to specific target sites in the body, improving drug efficacy and reducing side effects. These systems can be designed to release drugs in a controlled manner, allowing for sustained drug release over time. In add...
+
+Virtual reality (VR) technology is being increasingly utilized in medical training to provide realistic simulations for healthcare professionals. VR allows users to immerse themselves in a 3D environment where they can practice procedures, surgeries, and patient interactions in a safe and controlled...
+
+Virtual reality technology is revolutionizing medical training by providing immersive simulation experiences for healthcare professionals. This allows them to practice surgeries, procedures, and patient interactions in a realistic and risk-free environment. VR in medical training enhances skills dev...
+
+Wearable health monitoring devices are small electronic devices that can be worn on the body to track various health parameters such as heart rate, blood pressure, sleep patterns, and physical activity. These devices are becoming increasingly popular in healthcare as they provide real-time data that...
+
+Wearable health monitoring devices are revolutionizing healthcare by allowing individuals to track their health metrics in real-time. These devices, such as smartwatches and fitness trackers, can monitor heart rate, activity levels, sleep patterns, and more. The data collected by these devices can p...
+
+Telemedicine involves using technology to provide healthcare remotely, allowing patients to consult with healthcare providers without being physically present. Remote patient monitoring uses devices to collect and transmit patient data to healthcare professionals for monitoring purposes.
+
+Telemedicine and remote patient monitoring have revolutionized healthcare by allowing patients to receive medical care and monitoring from the comfort of their own homes. This technology enables healthcare providers to remotely monitor patients' vital signs, medication adherence, and overall health ...
+
+Gene editing in personalized medicine refers to the use of technologies like CRISPR to modify an individual's genetic material in order to treat or prevent diseases. This approach allows for precise modifications to be made to a patient's DNA, offering the potential for highly targeted and effective...
+
+CRISPR-Cas9 is a revolutionary gene-editing technology that allows scientists to make precise changes to an individual's DNA. In personalized medicine, CRISPR-Cas9 holds great promise for treating genetic diseases by correcting the underlying genetic mutations. This approach enables the development ...
+
+Bioprinting is a cutting-edge technology that involves the layer-by-layer deposition of cells, growth factors, and biomaterials to create complex tissue structures. This technique holds great promise for tissue regeneration and personalized medicine, as it allows for the creation of customized tissu...
+
+Bioprinting is a cutting-edge technology that involves the precise layering of biomaterials and living cells to create functional tissue constructs. Recent breakthroughs in bioprinting have shown promising results in regenerating damaged tissues and organs. With the use of 3D printing techniques, re...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+🎲 Choice scenario triggered! (Rolled 21.6 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+4
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+5
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+4
+.
+Topic count decided: 4
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Medical imaging technology has seen significant advancements in recent years, particularly with the integration of artificial intelligence and machine learning algorithms. These technologies have improved the accuracy and efficiency of diagnostic imaging procedures, allowing for earlier detection of...
+
+3D medical imaging technology provides healthcare professionals with detailed, three-dimensional images of internal organs, tissues, and structures. This technology offers improved visualization, better accuracy in diagnosis, enhanced surgical planning, and personalized treatment options for patient...
+
+Robotics in surgery refers to the use of robotic systems to assist surgeons in performing procedures with precision, control, and flexibility. These systems can enhance surgical capabilities, reduce invasiveness, and improve patient outcomes. Robotic-assisted surgery has been utilized in various spe...
+
+Surgical robotics technology has advanced significantly in recent years, allowing for more precise and minimally invasive procedures. One of the most well-known systems is the da Vinci Surgical System, which enables surgeons to perform complex surgeries with enhanced dexterity and control. These rob...
+
+Nanotechnology in drug delivery involves the use of nanoparticles to deliver drugs to specific target sites in the body. These nanoparticles can be engineered to release the drug at a controlled rate, improving its efficacy and reducing side effects. This targeted therapy approach holds promise for ...
+
+Nanoparticle drug delivery systems utilize nanotechnology to efficiently deliver drugs to specific target sites in the body, improving drug efficacy and reducing side effects. These systems can be designed to release drugs in a controlled manner, allowing for sustained drug release over time. In add...
+
+Virtual reality (VR) technology is being increasingly utilized in medical training to provide realistic simulations for healthcare professionals. VR allows users to immerse themselves in a 3D environment where they can practice procedures, surgeries, and patient interactions in a safe and controlled...
+
+Virtual reality technology is revolutionizing medical training by providing immersive simulation experiences for healthcare professionals. This allows them to practice surgeries, procedures, and patient interactions in a realistic and risk-free environment. VR in medical training enhances skills dev...
+
+Wearable health monitoring devices are small electronic devices that can be worn on the body to track various health parameters such as heart rate, blood pressure, sleep patterns, and physical activity. These devices are becoming increasingly popular in healthcare as they provide real-time data that...
+
+Wearable health monitoring devices are revolutionizing healthcare by allowing individuals to track their health metrics in real-time. These devices, such as smartwatches and fitness trackers, can monitor heart rate, activity levels, sleep patterns, and more. The data collected by these devices can p...
+
+Telemedicine involves using technology to provide healthcare remotely, allowing patients to consult with healthcare providers without being physically present. Remote patient monitoring uses devices to collect and transmit patient data to healthcare professionals for monitoring purposes.
+
+Telemedicine and remote patient monitoring have revolutionized healthcare by allowing patients to receive medical care and monitoring from the comfort of their own homes. This technology enables healthcare providers to remotely monitor patients' vital signs, medication adherence, and overall health ...
+
+Gene editing in personalized medicine refers to the use of technologies like CRISPR to modify an individual's genetic material in order to treat or prevent diseases. This approach allows for precise modifications to be made to a patient's DNA, offering the potential for highly targeted and effective...
+
+CRISPR-Cas9 is a revolutionary gene-editing technology that allows scientists to make precise changes to an individual's DNA. In personalized medicine, CRISPR-Cas9 holds great promise for treating genetic diseases by correcting the underlying genetic mutations. This approach enables the development ...
+
+Bioprinting is a cutting-edge technology that involves the layer-by-layer deposition of cells, growth factors, and biomaterials to create complex tissue structures. This technique holds great promise for tissue regeneration and personalized medicine, as it allows for the creation of customized tissu...
+
+Bioprinting is a cutting-edge technology that involves the precise layering of biomaterials and living cells to create functional tissue constructs. Recent breakthroughs in bioprinting have shown promising results in regenerating damaged tissues and organs. With the use of 3D printing techniques, re...}). You are to come up with {4} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+🎲 Choice scenario triggered! (Rolled 7.8 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Weekly Module Structure:
+
+Week 1: Introduction to Medical Imaging Technology
+1. Main topic title: Overview of Medical Imaging Technology
+   - Sub-topics:
+     1.1 Introduction to medical imaging technology advancements
+         - Explanation: Discuss the evolution of medical imaging technology and recent advancements in the field, focusing on the integration of artificial intelligence and machine learning algorithms (as per the database content).
+     1.2 Types of medical imaging technologies
+         - Explanation: Explore different types of medical imaging technologies, such as 3D imaging, robotics in surgery, and nanotechnology in drug delivery, highlighting their applications and benefits.
+     1.3 Role of artificial intelligence in medical imaging
+         - Explanation: Examine how artificial intelligence and machine learning algorithms have improved the accuracy and efficiency of diagnostic imaging procedures, leading to earlier detection of diseases (as mentioned in the database).
+
+   - Learning objectives:
+     - Understand the evolution and recent advancements in medical imaging technology.
+     - Identify different types of medical imaging technologies and their applications.
+     - Explain the role of artificial intelligence in enhancing diagnostic imaging procedures.
+
+   - Estimated number of slides: 15
+   - Lab activities/practical exercises: Virtual tour of a medical imaging facility to demonstrate different imaging modalities.
+   - Real-world applications/examples: Case studies showcasing how AI-powered medical imaging technologies have improved patient outcomes.
+
+Week 2: Advanced Applications of Surgical Robotics
+2. Main topic title: Robotics in Surgery
+   - Sub-topics:
+     2.1 Introduction to robotics in surgery
+         - Explanation: Introduce the concept of robotics in surgery and its benefits in terms of precision, control, and flexibility (as per the database).
+     2.2 Da Vinci Surgical System
+         - Explanation: Discuss the da Vinci Surgical System as a prominent example of surgical robotics technology, highlighting its capabilities in enabling complex surgeries with enhanced dexterity and control.
+     2.3 Advancements in surgical robotics technology
+         - Explanation: Explore recent advancements in surgical robotics technology, focusing on minimally invasive procedures and improved surgical outcomes.
+
+   - Learning objectives:
+     - Define robotics in surgery and its advantages.
+     - Explain the functionality and benefits of the da Vinci Surgical System.
+     - Discuss recent advancements in surgical robotics technology.
+
+   - Estimated number of slides: 20
+   - Lab activities/practical exercises: Hands-on demonstration of a surgical robot to simulate minimally invasive procedures.
+   - Real-world applications/examples: Success stories of patients who have benefitted from robotic-assisted surgeries.
+
+Week 3: Nanotechnology in Drug Delivery
+3. Main topic title: Nanotechnology in Drug Delivery
+   - Sub-topics:
+     3.1 Overview of nanotechnology in drug delivery
+         - Explanation: Provide an overview of how nanoparticles are used to deliver drugs to specific target sites in the body, enhancing drug efficacy and reducing side effects (as per the database).
+     3.2 Targeted therapy approaches
+         - Explanation: Discuss how nanotechnology enables targeted drug delivery, allowing for controlled release and sustained drug effects.
+     3.3 Applications of nanoparticle drug delivery systems
+         - Explanation: Explore the diverse applications of nanoparticle drug delivery systems in personalized medicine and targeted therapies.
+
+   - Learning objectives:
+     - Understand the principles of nanotechnology in drug delivery.
+     - Describe targeted therapy approaches using nanoparticles.
+     - Analyze the applications of nanoparticle drug delivery systems in healthcare.
+
+   - Estimated number of slides: 18
+   - Lab activities/practical exercises: Designing nanoparticles for drug delivery and testing their release kinetics in a simulated environment.
+   - Real-world applications/examples: Case studies showcasing the use of nanotechnology in delivering chemotherapy drugs to cancer cells.
+
+Week 4: Virtual Reality in Medical Training
+4. Main topic title: Virtual Reality in Medical Training
+   - Sub-topics:
+     4.1 Introduction to virtual reality technology
+         - Explanation: Introduce virtual reality technology and its applications in medical training, providing realistic simulations for healthcare professionals (as per the database).
+     4.2 Immersive simulation experiences
+         - Explanation: Discuss how virtual reality allows users to practice surgeries, procedures, and patient interactions in a realistic and risk-free environment.
+     4.3 Skill development in medical training
+         - Explanation: Explore how virtual reality enhances skills development in healthcare professionals through immersive training experiences.
+
+   - Learning objectives:
+     - Define virtual reality technology and its role in medical training.
+     - Explain the benefits of immersive simulation experiences in healthcare education.
+     - Analyze the impact of virtual reality on skill development in medical training.
+
+   - Estimated number of slides: 15
+   - Lab activities/practical exercises: Virtual reality simulation of a surgical procedure for students to practice and receive feedback on their performance.
+   - Real-world applications/examples: Use of virtual reality in training medical students for complex surgical procedures.
+
+This weekly module structure provides a comprehensive overview of key advancements in medical technology for senior undergraduate students, covering topics such as medical imaging technology, surgical robotics, nanotechnology in drug delivery, and virtual reality in medical training. Each topic is designed to build upon the previous one, offering a progressive learning experience that integrates theoretical knowledge with practical applications and real-world examples.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Week 1: Introduction to Medical Technology Advances
+
+Main Topic: Overview of Medical Imaging Technology
+- Sub-Topic 1: Introduction to 3D Medical Imaging Technology
+  - Explanation: Discuss how 3D medical imaging technology provides detailed, three-dimensional images of internal organs, tissues, and structures, leading to improved visualization, accuracy in diagnosis, enhanced surgical planning, and personalized treatment options for patients.
+  - Learning Objectives: Understand the benefits of 3D medical imaging technology in healthcare and its applications in diagnosis and treatment.
+  - Estimated Number of Slides: 10
+  - Lab Activities: Demonstrate the use of 3D medical imaging software to analyze and interpret images of various anatomical structures.
+  - Real-World Applications: Explore case studies where 3D medical imaging technology has been instrumental in improving patient outcomes.
+
+- Sub-Topic 2: Robotics in Surgery
+  - Explanation: Explore the use of robotic systems in surgery to assist surgeons in performing procedures with precision, control, and flexibility, leading to enhanced surgical capabilities, reduced invasiveness, and improved patient outcomes.
+  - Learning Objectives: Understand the role of robotics in surgery and its impact on surgical procedures and patient care.
+  - Estimated Number of Slides: 10
+  - Lab Activities: Simulate robotic-assisted surgical procedures using a surgical robot simulator to understand the mechanics and operation of robotic systems.
+  - Real-World Applications: Discuss the advancements in robotic-assisted surgery and its adoption in various surgical specialties.
+
+Week 2: Advanced Medical Technology Applications
+
+Main Topic: Nanotechnology in Drug Delivery
+- Sub-Topic 1: Nanoparticle Drug Delivery Systems
+  - Explanation: Examine the use of nanoparticles in drug delivery to specific target sites in the body, allowing for controlled release of drugs, improved efficacy, and reduced side effects.
+  - Learning Objectives: Understand how nanoparticle drug delivery systems work and their potential applications in personalized medicine.
+  - Estimated Number of Slides: 12
+  - Lab Activities: Design and create nanoparticles for drug delivery using nanotechnology techniques and evaluate their drug release profiles.
+  - Real-World Applications: Explore current research on nanoparticle drug delivery systems and their impact on targeted therapy approaches.
+
+- Sub-Topic 2: Virtual Reality in Medical Training
+  - Explanation: Discuss the use of virtual reality technology in medical training to provide realistic simulations for healthcare professionals, allowing for practice of procedures, surgeries, and patient interactions in a safe and controlled environment.
+  - Learning Objectives: Explore the benefits of virtual reality in medical training and its role in enhancing skills development and patient care.
+  - Estimated Number of Slides: 12
+  - Lab Activities: Engage in virtual reality simulations of medical procedures to practice surgical techniques and patient interactions.
+  - Real-World Applications: Highlight the integration of virtual reality technology in medical education and its impact on improving healthcare practices.
+
+Week 3: Emerging Trends in Healthcare Technology
+
+Main Topic: Wearable Health Monitoring Devices
+- Sub-Topic 1: Overview of Wearable Health Monitoring Devices
+  - Explanation: Introduce wearable health monitoring devices that track various health parameters such as heart rate, blood pressure, sleep patterns, and physical activity, providing real-time data for individuals to monitor their health.
+  - Learning Objectives: Understand the capabilities of wearable health monitoring devices and their impact on personal health management.
+  - Estimated Number of Slides: 10
+  - Lab Activities: Use wearable health monitoring devices to track and analyze personal health metrics over a period of time and evaluate the data for trends and patterns.
+  - Real-World Applications: Discuss the popularity of wearable health monitoring devices and their role in promoting preventive healthcare practices.
+
+- Sub-Topic 2: Telemedicine and Remote Patient Monitoring
+  - Explanation: Explore the use of technology in telemedicine to provide healthcare remotely and enable remote patient monitoring for vital signs, medication adherence, and overall health management.
+  - Learning Objectives: Understand the benefits of telemedicine and remote patient monitoring in improving access to healthcare and patient outcomes.
+  - Estimated Number of Slides: 10
+  - Lab Activities: Participate in a telemedicine consultation simulation and analyze remote patient monitoring data to make clinical decisions.
+  - Real-World Applications: Examine the impact of telemedicine on healthcare delivery and patient satisfaction, especially in remote or underserved areas.
+
+Overall, this teaching plan provides a comprehensive overview of medical technology advances for senior undergraduate students, covering key topics such as medical imaging technology, robotics in surgery, nanotechnology in drug delivery, virtual reality in medical training, wearable health monitoring devices, and telemedicine. The progression from basic concepts to advanced applications ensures a thorough understanding of the latest advancements in healthcare technology and their real-world implications.
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+Weekly Module Structure:
+
+Week 1: Introduction to Medical Imaging Technology
+1. Main topic title: Overview of Medical Imaging Technology
+   - Sub-topics:
+     1.1 Introduction to medical imaging technology advancements
+         - Explanation: Discuss the evolution of medical imaging technology and recent advancements in the field, focusing on the integration of artificial intelligence and machine learning algorithms (as per the database content).
+     1.2 Types of medical imaging technologies
+         - Explanation: Explore different types of medical imaging technologies, such as 3D imaging, robotics in surgery, and nanotechnology in drug delivery, highlighting their applications and benefits.
+     1.3 Role of artificial intelligence in medical imaging
+         - Explanation: Examine how artificial intelligence and machine learning algorithms have improved the accuracy and efficiency of diagnostic imaging procedures, leading to earlier detection of diseases (as mentioned in the database).
+
+   - Learning objectives:
+     - Understand the evolution and recent advancements in medical imaging technology.
+     - Identify different types of medical imaging technologies and their applications.
+     - Explain the role of artificial intelligence in enhancing diagnostic imaging procedures.
+
+   - Estimated number of slides: 15
+   - Lab activities/practical exercises: Virtual tour of a medical imaging facility to demonstrate different imaging modalities.
+   - Real-world applications/examples: Case studies showcasing how AI-powered medical imaging technologies have improved patient outcomes.
+
+Week 2: Advanced Applications of Surgical Robotics
+2. Main topic title: Robotics in Surgery
+   - Sub-topics:
+     2.1 Introduction to robotics in surgery
+         - Explanation: Introduce the concept of robotics in surgery and its benefits in terms of precision, control, and flexibility (as per the database).
+     2.2 Da Vinci Surgical System
+         - Explanation: Discuss the da Vinci Surgical System as a prominent example of surgical robotics technology, highlighting its capabilities in enabling complex surgeries with enhanced dexterity and control.
+     2.3 Advancements in surgical robotics technology
+         - Explanation: Explore recent advancements in surgical robotics technology, focusing on minimally invasive procedures and improved surgical outcomes.
+
+   - Learning objectives:
+     - Define robotics in surgery and its advantages.
+     - Explain the functionality and benefits of the da Vinci Surgical System.
+     - Discuss recent advancements in surgical robotics technology.
+
+   - Estimated number of slides: 20
+   - Lab activities/practical exercises: Hands-on demonstration of a surgical robot to simulate minimally invasive procedures.
+   - Real-world applications/examples: Success stories of patients who have benefitted from robotic-assisted surgeries.
+
+Week 3: Nanotechnology in Drug Delivery
+3. Main topic title: Nanotechnology in Drug Delivery
+   - Sub-topics:
+     3.1 Overview of nanotechnology in drug delivery
+         - Explanation: Provide an overview of how nanoparticles are used to deliver drugs to specific target sites in the body, enhancing drug efficacy and reducing side effects (as per the database).
+     3.2 Targeted therapy approaches
+         - Explanation: Discuss how nanotechnology enables targeted drug delivery, allowing for controlled release and sustained drug effects.
+     3.3 Applications of nanoparticle drug delivery systems
+         - Explanation: Explore the diverse applications of nanoparticle drug delivery systems in personalized medicine and targeted therapies.
+
+   - Learning objectives:
+     - Understand the principles of nanotechnology in drug delivery.
+     - Describe targeted therapy approaches using nanoparticles.
+     - Analyze the applications of nanoparticle drug delivery systems in healthcare.
+
+   - Estimated number of slides: 18
+   - Lab activities/practical exercises: Designing nanoparticles for drug delivery and testing their release kinetics in a simulated environment.
+   - Real-world applications/examples: Case studies showcasing the use of nanotechnology in delivering chemotherapy drugs to cancer cells.
+
+Week 4: Virtual Reality in Medical Training
+4. Main topic title: Virtual Reality in Medical Training
+   - Sub-topics:
+     4.1 Introduction to virtual reality technology
+         - Explanation: Introduce virtual reality technology and its applications in medical training, providing realistic simulations for healthcare professionals (as per the database).
+     4.2 Immersive simulation experiences
+         - Explanation: Discuss how virtual reality allows users to practice surgeries, procedures, and patient interactions in a realistic and risk-free environment.
+     4.3 Skill development in medical training
+         - Explanation: Explore how virtual reality enhances skills development in healthcare professionals through immersive training experiences.
+
+   - Learning objectives:
+     - Define virtual reality technology and its role in medical training.
+     - Explain the benefits of immersive simulation experiences in healthcare education.
+     - Analyze the impact of virtual reality on skill development in medical training.
+
+   - Estimated number of slides: 15
+   - Lab activities/practical exercises: Virtual reality simulation of a surgical procedure for students to practice and receive feedback on their performance.
+   - Real-world applications/examples: Use of virtual reality in training medical students for complex surgical procedures.
+
+This weekly module structure provides a comprehensive overview of key advancements in medical technology for senior undergraduate students, covering topics such as medical imaging technology, surgical robotics, nanotechnology in drug delivery, and virtual reality in medical training. Each topic is designed to build upon the previous one, offering a progressive learning experience that integrates theoretical knowledge with practical applications and real-world examples.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Weekly Module Structure:
+
+Week 1: Introduction to Medical Imaging Technology
+1. Main topic title: Overview of Medical Imaging Technology
+   - Sub-topics:
+     1.1 Introduction to medical imaging technology advancements
+         - Explanation: Discuss the evolution of medical imaging technology and recent advancements in the field, focusing on the integration of artificial intelligence and machine learning algorithms (as per the database content).
+     1.2 Types of medical imaging technologies
+         - Explanation: Explore different types of medical imaging technologies, such as 3D imaging, robotics in surgery, and nanotechnology in drug delivery, highlighting their applications and benefits.
+     1.3 Role of artificial intelligence in medical imaging
+         - Explanation: Examine how artificial intelligence and machine learning algorithms have improved the accuracy and efficiency of diagnostic imaging procedures, leading to earlier detection of diseases (as mentioned in the database).
+
+   - Learning objectives:
+     - Understand the evolution and recent advancements in medical imaging technology.
+     - Identify different types of medical imaging technologies and their applications.
+     - Explain the role of artificial intelligence in enhancing diagnostic imaging procedures.
+
+   - Estimated number of slides: 15
+   - Lab activities/practical exercises: Virtual tour of a medical imaging facility to demonstrate different imaging modalities.
+   - Real-world applications/examples: Case studies showcasing how AI-powered medical imaging technologies have improved patient outcomes.
+
+Week 2: Advanced Applications of Surgical Robotics
+2. Main topic title: Robotics in Surgery
+   - Sub-topics:
+     2.1 Introduction to robotics in surgery
+         - Explanation: Introduce the concept of robotics in surgery and its benefits in terms of precision, control, and flexibility (as per the database).
+     2.2 Da Vinci Surgical System
+         - Explanation: Discuss the da Vinci Surgical System as a prominent example of surgical robotics technology, highlighting its capabilities in enabling complex surgeries with enhanced dexterity and control.
+     2.3 Advancements in surgical robotics technology
+         - Explanation: Explore recent advancements in surgical robotics technology, focusing on minimally invasive procedures and improved surgical outcomes.
+
+   - Learning objectives:
+     - Define robotics in surgery and its advantages.
+     - Explain the functionality and benefits of the da Vinci Surgical System.
+     - Discuss recent advancements in surgical robotics technology.
+
+   - Estimated number of slides: 20
+   - Lab activities/practical exercises: Hands-on demonstration of a surgical robot to simulate minimally invasive procedures.
+   - Real-world applications/examples: Success stories of patients who have benefitted from robotic-assisted surgeries.
+
+Week 3: Nanotechnology in Drug Delivery
+3. Main topic title: Nanotechnology in Drug Delivery
+   - Sub-topics:
+     3.1 Overview of nanotechnology in drug delivery
+         - Explanation: Provide an overview of how nanoparticles are used to deliver drugs to specific target sites in the body, enhancing drug efficacy and reducing side effects (as per the database).
+     3.2 Targeted therapy approaches
+         - Explanation: Discuss how nanotechnology enables targeted drug delivery, allowing for controlled release and sustained drug effects.
+     3.3 Applications of nanoparticle drug delivery systems
+         - Explanation: Explore the diverse applications of nanoparticle drug delivery systems in personalized medicine and targeted therapies.
+
+   - Learning objectives:
+     - Understand the principles of nanotechnology in drug delivery.
+     - Describe targeted therapy approaches using nanoparticles.
+     - Analyze the applications of nanoparticle drug delivery systems in healthcare.
+
+   - Estimated number of slides: 18
+   - Lab activities/practical exercises: Designing nanoparticles for drug delivery and testing their release kinetics in a simulated environment.
+   - Real-world applications/examples: Case studies showcasing the use of nanotechnology in delivering chemotherapy drugs to cancer cells.
+
+Week 4: Virtual Reality in Medical Training
+4. Main topic title: Virtual Reality in Medical Training
+   - Sub-topics:
+     4.1 Introduction to virtual reality technology
+         - Explanation: Introduce virtual reality technology and its applications in medical training, providing realistic simulations for healthcare professionals (as per the database).
+     4.2 Immersive simulation experiences
+         - Explanation: Discuss how virtual reality allows users to practice surgeries, procedures, and patient interactions in a realistic and risk-free environment.
+     4.3 Skill development in medical training
+         - Explanation: Explore how virtual reality enhances skills development in healthcare professionals through immersive training experiences.
+
+   - Learning objectives:
+     - Define virtual reality technology and its role in medical training.
+     - Explain the benefits of immersive simulation experiences in healthcare education.
+     - Analyze the impact of virtual reality on skill development in medical training.
+
+   - Estimated number of slides: 15
+   - Lab activities/practical exercises: Virtual reality simulation of a surgical procedure for students to practice and receive feedback on their performance.
+   - Real-world applications/examples: Use of virtual reality in training medical students for complex surgical procedures.
+
+This weekly module structure provides a comprehensive overview of key advancements in medical technology for senior undergraduate students, covering topics such as medical imaging technology, surgical robotics, nanotechnology in drug delivery, and virtual reality in medical training. Each topic is designed to build upon the previous one, offering a progressive learning experience that integrates theoretical knowledge with practical applications and real-world examples.}). Total slides available: {8}. Topics to allocate: {4}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[15, 20, 18, 15]
+.
+Slide allocation: [1, 4, 2, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Weekly Module Structure:
+
+Week 1: Introduction to Medical Imaging Technology
+1. Main topic title: Overview of Medical Imaging Technology
+   - Sub-topics:
+     1.1 Introduction to medical imaging technology advancements
+         - Explanation: Discuss the evolution of medical imaging technology and recent advancements in the field, focusing on the integration of artificial intelligence and machine learning algorithms (as per the database content).
+     1.2 Types of medical imaging technologies
+         - Explanation: Explore different types of medical imaging technologies, such as 3D imaging, robotics in surgery, and nanotechnology in drug delivery, highlighting their applications and benefits.
+     1.3 Role of artificial intelligence in medical imaging
+         - Explanation: Examine how artificial intelligence and machine learning algorithms have improved the accuracy and efficiency of diagnostic imaging procedures, leading to earlier detection of diseases (as mentioned in the database).
+
+   - Learning objectives:
+     - Understand the evolution and recent advancements in medical imaging technology.
+     - Identify different types of medical imaging technologies and their applications.
+     - Explain the role of artificial intelligence in enhancing diagnostic imaging procedures.
+
+   - Estimated number of slides: 15
+   - Lab activities/practical exercises: Virtual tour of a medical imaging facility to demonstrate different imaging modalities.
+   - Real-world applications/examples: Case studies showcasing how AI-powered medical imaging technologies have improved patient outcomes.
+
+Week 2: Advanced Applications of Surgical Robotics
+2. Main topic title: Robotics in Surgery
+   - Sub-topics:
+     2.1 Introduction to robotics in surgery
+         - Explanation: Introduce the concept of robotics in surgery and its benefits in terms of precision, control, and flexibility (as per the database).
+     2.2 Da Vinci Surgical System
+         - Explanation: Discuss the da Vinci Surgical System as a prominent example of surgical robotics technology, highlighting its capabilities in enabling complex surgeries with enhanced dexterity and control.
+     2.3 Advancements in surgical robotics technology
+         - Explanation: Explore recent advancements in surgical robotics technology, focusing on minimally invasive procedures and improved surgical outcomes.
+
+   - Learning objectives:
+     - Define robotics in surgery and its advantages.
+     - Explain the functionality and benefits of the da Vinci Surgical System.
+     - Discuss recent advancements in surgical robotics technology.
+
+   - Estimated number of slides: 20
+   - Lab activities/practical exercises: Hands-on demonstration of a surgical robot to simulate minimally invasive procedures.
+   - Real-world applications/examples: Success stories of patients who have benefitted from robotic-assisted surgeries.
+
+Week 3: Nanotechnology in Drug Delivery
+3. Main topic title: Nanotechnology in Drug Delivery
+   - Sub-topics:
+     3.1 Overview of nanotechnology in drug delivery
+         - Explanation: Provide an overview of how nanoparticles are used to deliver drugs to specific target sites in the body, enhancing drug efficacy and reducing side effects (as per the database).
+     3.2 Targeted therapy approaches
+         - Explanation: Discuss how nanotechnology enables targeted drug delivery, allowing for controlled release and sustained drug effects.
+     3.3 Applications of nanoparticle drug delivery systems
+         - Explanation: Explore the diverse applications of nanoparticle drug delivery systems in personalized medicine and targeted therapies.
+
+   - Learning objectives:
+     - Understand the principles of nanotechnology in drug delivery.
+     - Describe targeted therapy approaches using nanoparticles.
+     - Analyze the applications of nanoparticle drug delivery systems in healthcare.
+
+   - Estimated number of slides: 18
+   - Lab activities/practical exercises: Designing nanoparticles for drug delivery and testing their release kinetics in a simulated environment.
+   - Real-world applications/examples: Case studies showcasing the use of nanotechnology in delivering chemotherapy drugs to cancer cells.
+
+Week 4: Virtual Reality in Medical Training
+4. Main topic title: Virtual Reality in Medical Training
+   - Sub-topics:
+     4.1 Introduction to virtual reality technology
+         - Explanation: Introduce virtual reality technology and its applications in medical training, providing realistic simulations for healthcare professionals (as per the database).
+     4.2 Immersive simulation experiences
+         - Explanation: Discuss how virtual reality allows users to practice surgeries, procedures, and patient interactions in a realistic and risk-free environment.
+     4.3 Skill development in medical training
+         - Explanation: Explore how virtual reality enhances skills development in healthcare professionals through immersive training experiences.
+
+   - Learning objectives:
+     - Define virtual reality technology and its role in medical training.
+     - Explain the benefits of immersive simulation experiences in healthcare education.
+     - Analyze the impact of virtual reality on skill development in medical training.
+
+   - Estimated number of slides: 15
+   - Lab activities/practical exercises: Virtual reality simulation of a surgical procedure for students to practice and receive feedback on their performance.
+   - Real-world applications/examples: Use of virtual reality in training medical students for complex surgical procedures.
+
+This weekly module structure provides a comprehensive overview of key advancements in medical technology for senior undergraduate students, covering topics such as medical imaging technology, surgical robotics, nanotechnology in drug delivery, and virtual reality in medical training. Each topic is designed to build upon the previous one, offering a progressive learning experience that integrates theoretical knowledge with practical applications and real-world examples.}). Slide allocation per topic: {[1, 4, 2, 1]}. Database content for reference: ({Medical imaging technology has seen significant advancements in recent years, particularly with the integration of artificial intelligence and machine learning algorithms. These technologies have improved the accuracy and efficiency of diagnostic imaging procedures, allowing for earlier detection of...
+
+3D medical imaging technology provides healthcare professionals with detailed, three-dimensional images of internal organs, tissues, and structures. This technology offers improved visualization, better accuracy in diagnosis, enhanced surgical planning, and personalized treatment options for patient...
+
+Robotics in surgery refers to the use of robotic systems to assist surgeons in performing procedures with precision, control, and flexibility. These systems can enhance surgical capabilities, reduce invasiveness, and improve patient outcomes. Robotic-assisted surgery has been utilized in various spe...
+
+Surgical robotics technology has advanced significantly in recent years, allowing for more precise and minimally invasive procedures. One of the most well-known systems is the da Vinci Surgical System, which enables surgeons to perform complex surgeries with enhanced dexterity and control. These rob...
+
+Nanotechnology in drug delivery involves the use of nanoparticles to deliver drugs to specific target sites in the body. These nanoparticles can be engineered to release the drug at a controlled rate, improving its efficacy and reducing side effects. This targeted therapy approach holds promise for ...
+
+Nanoparticle drug delivery systems utilize nanotechnology to efficiently deliver drugs to specific target sites in the body, improving drug efficacy and reducing side effects. These systems can be designed to release drugs in a controlled manner, allowing for sustained drug release over time. In add...
+
+Virtual reality (VR) technology is being increasingly utilized in medical training to provide realistic simulations for healthcare professionals. VR allows users to immerse themselves in a 3D environment where they can practice procedures, surgeries, and patient interactions in a safe and controlled...
+
+Virtual reality technology is revolutionizing medical training by providing immersive simulation experiences for healthcare professionals. This allows them to practice surgeries, procedures, and patient interactions in a realistic and risk-free environment. VR in medical training enhances skills dev...
+
+Wearable health monitoring devices are small electronic devices that can be worn on the body to track various health parameters such as heart rate, blood pressure, sleep patterns, and physical activity. These devices are becoming increasingly popular in healthcare as they provide real-time data that...
+
+Wearable health monitoring devices are revolutionizing healthcare by allowing individuals to track their health metrics in real-time. These devices, such as smartwatches and fitness trackers, can monitor heart rate, activity levels, sleep patterns, and more. The data collected by these devices can p...
+
+Telemedicine involves using technology to provide healthcare remotely, allowing patients to consult with healthcare providers without being physically present. Remote patient monitoring uses devices to collect and transmit patient data to healthcare professionals for monitoring purposes.
+
+Telemedicine and remote patient monitoring have revolutionized healthcare by allowing patients to receive medical care and monitoring from the comfort of their own homes. This technology enables healthcare providers to remotely monitor patients' vital signs, medication adherence, and overall health ...
+
+Gene editing in personalized medicine refers to the use of technologies like CRISPR to modify an individual's genetic material in order to treat or prevent diseases. This approach allows for precise modifications to be made to a patient's DNA, offering the potential for highly targeted and effective...
+
+CRISPR-Cas9 is a revolutionary gene-editing technology that allows scientists to make precise changes to an individual's DNA. In personalized medicine, CRISPR-Cas9 holds great promise for treating genetic diseases by correcting the underlying genetic mutations. This approach enables the development ...
+
+Bioprinting is a cutting-edge technology that involves the layer-by-layer deposition of cells, growth factors, and biomaterials to create complex tissue structures. This technique holds great promise for tissue regeneration and personalized medicine, as it allows for the creation of customized tissu...
+
+Bioprinting is a cutting-edge technology that involves the precise layering of biomaterials and living cells to create functional tissue constructs. Recent breakthroughs in bioprinting have shown promising results in regenerating damaged tissues and organs. With the use of 3D printing techniques, re...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+Raw response:
+1. Evolution of Medical Imaging Technology
+2. Types of Medical Imaging Technologies
+3. Role of Artificial Intelligence in Diagnostic Imaging
+4. 3D Medical Imaging Technology
+5. Robotics in Surgery: Introduction and Benefits
+6. Da Vinci Surgical System: Capabilities and Applications
+7. Advancements in Surgical Robotics Technology
+8. Nanotechnology in Drug Delivery: Principles and Applications
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_17-55-27.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_17-55-27.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+🎲 Choice scenario triggered! (Rolled 2.1 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Week 1: Introduction to Medical Imaging Technology
+
+Main Topic Title: Overview of Medical Imaging Technology
+
+Introduction:
+- Medical imaging technology has undergone significant advancements in recent years, driven by the integration of artificial intelligence and machine learning algorithms.
+- These advancements have revolutionized diagnostic imaging procedures, leading to earlier disease detection and improved patient outcomes.
+
+Types of Medical Imaging Technologies:
+- Medical imaging technologies encompass a wide range of modalities, such as X-rays, MRIs, CT scans, and ultrasound.
+- Advanced imaging techniques like 3D imaging provide detailed, three-dimensional views of internal structures for accurate diagnosis and treatment planning.
+- Robotics in surgery and nanotechnology play crucial roles in enhancing imaging capabilities and treatment outcomes.
+
+Role of Artificial Intelligence in Medical Imaging:
+- Artificial intelligence and machine learning algorithms analyze medical images to detect patterns and abnormalities that may be missed by human observers.
+- AI-powered diagnostic imaging tools improve the accuracy and efficiency of imaging procedures, leading to better patient care.
+- The integration of AI in medical imaging has transformed the healthcare landscape by enabling personalized and precise treatment strategies.
+
+Learning Objectives:
+- Understand the evolution and recent advancements in medical imaging technology.
+- Identify different types of medical imaging technologies and their applications.
+- Explain the role of artificial intelligence in enhancing diagnostic imaging procedures.
+
+Real-World Examples:
+- Case studies showcasing how AI-powered medical imaging technologies have improved patient outcomes.
+- Virtual tour of a medical imaging facility to demonstrate different imaging modalities and their practical applications.
+
+Assessment Questions:
+1. How has artificial intelligence impacted the field of medical imaging technology?
+2. Discuss the significance of 3D imaging in enhancing diagnostic capabilities.
+3. Explain the benefits of integrating robotics in surgery with medical imaging technologies.
+
+Discussion Points:
+- The ethical implications of using AI in medical imaging.
+- The future potential of medical imaging technology in personalized medicine and precision healthcare.
+
+---
+This is the lecture notes for Week 1 of the course. Each section provides detailed explanations, real-world examples, learning objectives, assessment questions, and discussion points to ensure comprehensive understanding of medical imaging technology advancements. Students will engage in discussions, case studies, and practical exercises to reinforce their knowledge and critical thinking skills.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Week 1: Introduction to Medical Imaging Technology
+
+1. Main topic title: Overview of Medical Imaging Technology
+
+- Sub-topics:
+
+1.1 Introduction to medical imaging technology advancements
+- Explanation: Medical imaging technology has evolved significantly over the years, with recent advancements integrating artificial intelligence and machine learning algorithms. These technologies have revolutionized diagnostic imaging procedures, leading to earlier disease detection and improved patient outcomes.
+
+1.2 Types of medical imaging technologies
+- Explanation: There are various types of medical imaging technologies, including 3D imaging, robotics in surgery, and nanotechnology in drug delivery. Each technology has unique applications and benefits in the healthcare industry, enhancing diagnostic accuracy and treatment outcomes.
+
+1.3 Role of artificial intelligence in medical imaging
+- Explanation: Artificial intelligence plays a crucial role in enhancing diagnostic imaging procedures by analyzing complex medical images such as X-rays, MRIs, and CT scans. AI algorithms can identify patterns and abnormalities that may be missed by human observers, leading to more accurate diagnoses and treatment plans.
+
+- Learning objectives:
+- Understand the evolution and recent advancements in medical imaging technology.
+- Identify different types of medical imaging technologies and their applications.
+- Explain the role of artificial intelligence in enhancing diagnostic imaging procedures.
+
+- Estimated number of slides: 15
+
+- Lab activities/practical exercises: Virtual tour of a medical imaging facility to demonstrate different imaging modalities.
+- Real-world applications/examples: Case studies showcasing how AI-powered medical imaging technologies have improved patient outcomes.
+
+Week 2: Advanced Applications of Surgical Robotics
+
+2. Main topic title: Robotics in Surgery
+
+- Sub-topics:
+
+2.1 Introduction to robotics in surgery
+- Explanation: Robotics in surgery refers to the use of robotic systems to assist surgeons in performing procedures with enhanced precision, control, and flexibility. These systems have transformed the field of surgery by enabling minimally invasive procedures and improving surgical outcomes.
+
+2.2 Da Vinci Surgical System
+- Explanation: The da Vinci Surgical System is a prominent example of surgical robotics technology, known for its capabilities in enabling complex surgeries with enhanced dexterity and control. Surgeons can perform intricate procedures with greater accuracy and efficiency using this advanced robotic system.
+
+2.3 Advancements in surgical robotics technology
+- Explanation: Recent advancements in surgical robotics technology have focused on enhancing minimally invasive procedures and improving patient outcomes. New robotic systems offer improved functionalities, allowing for more precise and less invasive surgical interventions.
+
+- Learning objectives:
+- Define robotics in surgery and its advantages.
+- Explain the functionality and benefits of the da Vinci Surgical System.
+- Discuss recent advancements in surgical robotics technology.
+
+- Estimated number of slides: 20
+
+- Lab activities/practical exercises: Hands-on demonstration of a surgical robot to simulate minimally invasive procedures.
+- Real-world applications/examples: Success stories of patients who have benefitted from robotic-assisted surgeries.
+
+Week 3: Nanotechnology in Drug Delivery
+
+3. Main topic title: Nanotechnology in Drug Delivery
+
+- Sub-topics:
+
+3.1 Overview of nanotechnology in drug delivery
+- Explanation: Nanotechnology involves the use of nanoparticles to deliver drugs to specific target sites in the body, enhancing drug efficacy and reducing side effects. This targeted therapy approach has revolutionized drug delivery systems, allowing for precise and controlled release of medications.
+
+3.2 Targeted therapy approaches
+- Explanation: Nanotechnology enables targeted drug delivery by directing medications to specific cells or tissues, minimizing systemic side effects and maximizing therapeutic effects. This approach allows for personalized medicine and tailored treatment plans for patients.
+
+3.3 Applications of nanoparticle drug delivery systems
+- Explanation: Nanoparticle drug delivery systems have diverse applications in healthcare, including personalized medicine and targeted therapies. These systems can be engineered to release drugs at a controlled rate, improving treatment outcomes and patient adherence.
+
+- Learning objectives:
+- Understand the principles of nanotechnology in drug delivery.
+- Describe targeted therapy approaches using nanoparticles.
+- Analyze the applications of nanoparticle drug delivery systems in healthcare.
+
+- Estimated number of slides: 18
+
+- Lab activities/practical exercises: Designing nanoparticles for drug delivery and testing their release kinetics in a simulated environment.
+- Real-world applications/examples: Case studies showcasing the use of nanotechnology in delivering chemotherapy drugs to cancer cells.
+
+Week 4: Virtual Reality in Medical Training
+
+4. Main topic title: Virtual Reality in Medical Training
+
+- Sub-topics:
+
+4.1 Introduction to virtual reality technology
+- Explanation: Virtual reality technology is used in medical training to provide realistic simulations for healthcare professionals. VR allows users to immerse themselves in a 3D environment where they can practice surgeries, procedures, and patient interactions in a safe and controlled setting.
+
+4.2 Immersive simulation experiences
+- Explanation: Virtual reality offers immersive simulation experiences that allow healthcare professionals to practice complex procedures and interactions in a realistic and risk-free environment. VR simulations enhance skills development and decision-making among medical trainees.
+
+4.3 Skill development in medical training
+- Explanation: Virtual reality enhances skills development in medical training by providing hands-on practice opportunities in a controlled environment. Healthcare professionals can improve their clinical skills, decision-making abilities, and confidence through virtual reality training.
+
+- Learning objectives:
+- Define virtual reality technology and its role in medical training.
+- Explain the benefits of immersive simulation experiences in healthcare education.
+- Analyze the impact of virtual reality on skill development in medical training.
+
+- Estimated number of slides: 15
+
+- Lab activities/practical exercises: Virtual reality simulation of a surgical procedure for students to practice and receive feedback on their performance.
+- Real-world applications/examples: Use of virtual reality in training medical students for complex surgical procedures.
+
+By following this structured weekly module outline and in-depth coverage of key medical technology advancements, senior undergraduate students will gain a comprehensive understanding of medical imaging technology, surgical robotics, nanotechnology in drug delivery, and virtual reality in medical training. Through detailed lecture notes, practical exercises, real-world examples, and interactive learning objectives, students will be equipped with the knowledge and skills necessary to excel in the field of medical technology.
+
+----------------------------------------
+✅ You chose Response 2
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_17-55-50.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+🎲 Choice scenario triggered! (Rolled 8.2 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+The lecture notes provided seem to be suitable for 3 credit hours of senior undergraduate study in medical imaging technology. The content covers a broad overview of medical imaging technology advancements, types of medical imaging technologies, the role of artificial intelligence in medical imaging, and advanced applications of surgical robotics. 
+
+The notes include sufficient depth and detail in explaining each sub-topic, providing a comprehensive understanding of the subject matter. Real-world examples and applications are incorporated, such as case studies showcasing how AI-powered medical imaging technologies have improved patient outcomes. The content also progresses from basic concepts to more advanced applications, ensuring a well-rounded understanding of the topic.
+
+One improvement suggestion could be to include more interactive elements or discussion questions to engage students and promote critical thinking. Additionally, incorporating more hands-on activities or simulations related to medical imaging technology and surgical robotics could enhance the learning experience.
+
+Overall, the lecture notes are comprehensive and suitable for 3 credit hours of senior undergraduate study in medical imaging technology.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+The lecture notes for Week 1: Introduction to Medical Imaging Technology appear to be comprehensive and suitable for 3 credit hours of senior undergraduate study. The content covers a range of sub-topics related to medical imaging technology, including advancements, types of technologies, and the role of artificial intelligence. The learning objectives are clear, and there are real-world applications and examples included. The estimated number of slides and the lab activities/practical exercises also seem appropriate for a senior undergraduate level.
+
+For improvement suggestions, it may be helpful to include more specific details or case studies on the types of medical imaging technologies mentioned, such as 3D imaging or nanotechnology in drug delivery. Additionally, providing more in-depth explanations or examples of how artificial intelligence is utilized in medical imaging could enhance the understanding of students.
+
+Overall, the content is valid for 3 credit hours of senior undergraduate study, but adding more depth and specific examples could further enhance the learning experience.
+
+----------------------------------------
+✅ You chose Response 2
+✅ Content validation passed - suitable for 3 credit hours
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Medical Technology Advances
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Evolution of Medical Imaging Technology)
+🔍 DEBUG: Slide 1 content set to: '• Medical imaging technology has evolved significantly with the integration of artificial intelligen...'
+🔍 DEBUG: Slide 1 content length: 448
+✅ Slide 1 content: • Medical imaging technology has evolved significantly with the integration of artificial intelligence and machine learning algorithms.
+• These advancements have improved the accuracy and efficiency of diagnostic imaging procedures, leading to earlier disease detection and better patient outcomes.
+• AI can analyze medical images such as X-rays, MRIs, and CT scans to identify patterns and abnormalities that may not be visible to the human eye.
+• This integration of AI in medical imaging has revolutionized the field of radiology and has the potential to greatly impact the future of healthcare.
+Generating content for slide 2 (Topic: Types of Medical Imaging Technologies)
+🎲 Choice scenario triggered! (Rolled 28.6 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• X-ray imaging: Uses electromagnetic radiation to create images of internal structures
+• MRI (Magnetic Resonance Imaging): Utilizes magnetic fields and radio waves to produce detailed images of organs and tissues
+• CT (Computed Tomography) scans: Combines X-rays with computer technology to create cross-sectional images of the body
+• Ultrasound imaging: Uses high-frequency sound waves to visualize internal organs and monitor fetal development
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• X-rays: Uses electromagnetic radiation to create images of internal structures
+• MRI (Magnetic Resonance Imaging): Utilizes magnetic fields and radio waves to generate detailed images of organs and tissues
+• CT (Computed Tomography) scans: Combines X-rays with computer technology to produce cross-sectional images of the body
+• Ultrasound: Uses sound waves to create real-time images of internal organs and structures
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 2 content set to: '• X-ray imaging: Uses electromagnetic radiation to create images of internal structures • MRI (Magne...'
+🔍 DEBUG: Slide 2 content length: 446
+✅ Slide 2 content: • X-ray imaging: Uses electromagnetic radiation to create images of internal structures
+• MRI (Magnetic Resonance Imaging): Utilizes magnetic fields and radio waves to produce detailed images of organs and tissues
+• CT (Computed Tomography) scans: Combines X-rays with computer technology to create cross-sectional images of the body
+• Ultrasound imaging: Uses high-frequency sound waves to visualize internal organs and monitor fetal development
+Generating content for slide 3 (Topic: Role of Artificial Intelligence in Diagnostic Imaging)
+🔍 DEBUG: Slide 3 content set to: '• AI plays a crucial role in analyzing medical images like X-rays, MRIs, and CT scans • AI can ident...'
+🔍 DEBUG: Slide 3 content length: 307
+✅ Slide 3 content: • AI plays a crucial role in analyzing medical images like X-rays, MRIs, and CT scans
+• AI can identify patterns and abnormalities not visible to the human eye
+• Enhances diagnostic accuracy and efficiency in detecting diseases
+• Improves patient outcomes by enabling earlier disease detection and treatment
+Generating content for slide 4 (Topic: 3D Medical Imaging Technology)
+🔍 DEBUG: Slide 4 content set to: '• 3D medical imaging technology provides detailed, three-dimensional images of internal organs and t...'
+🔍 DEBUG: Slide 4 content length: 351
+✅ Slide 4 content: • 3D medical imaging technology provides detailed, three-dimensional images of internal organs and tissues
+• Improved visualization enhances accuracy in diagnosis and surgical planning
+• Enables personalized treatment options for patients based on advanced imaging techniques
+• Detects diseases earlier and monitors treatment progress more effectively
+Generating content for slide 5 (Topic: Robotics in Surgery: Introduction and Benefits)
+🔍 DEBUG: Slide 5 content set to: '• Robotics in surgery refers to the use of robotic systems to assist surgeons in performing procedur...'
+🔍 DEBUG: Slide 5 content length: 394
+✅ Slide 5 content: • Robotics in surgery refers to the use of robotic systems to assist surgeons in performing procedures with precision, control, and flexibility
+• Robotic-assisted surgery enhances surgical capabilities, reduces invasiveness, and improves patient outcomes
+• Examples of robotic systems include the da Vinci Surgical System used in various specialties such as urology, gynecology, and orthopedics
+Generating content for slide 6 (Topic: Da Vinci Surgical System: Capabilities and Applications)
+🎲 Choice scenario triggered! (Rolled 12.0 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• The da Vinci Surgical System enables surgeons to perform complex surgeries with enhanced dexterity and control
+• Robotic systems like da Vinci improve patient outcomes, reduce recovery times, and minimize risk of complications
+• Used in various specialties such as urology, gynecology, and orthopedics for precise and minimally invasive procedures
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• The Da Vinci Surgical System is a robotic system used in various specialties such as urology, gynecology, and orthopedics
+• Enables surgeons to perform complex surgeries with enhanced dexterity and control
+• Improves patient outcomes, reduces recovery times, and minimizes the risk of complications
+• Utilizes robotic technology to enhance surgical capabilities and precision
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 6 content set to: '• The Da Vinci Surgical System is a robotic system used in various specialties such as urology, gyne...'
+🔍 DEBUG: Slide 6 content length: 377
+✅ Slide 6 content: • The Da Vinci Surgical System is a robotic system used in various specialties such as urology, gynecology, and orthopedics
+• Enables surgeons to perform complex surgeries with enhanced dexterity and control
+• Improves patient outcomes, reduces recovery times, and minimizes the risk of complications
+• Utilizes robotic technology to enhance surgical capabilities and precision
+Generating content for slide 7 (Topic: Advancements in Surgical Robotics Technology)
+🔍 DEBUG: Slide 7 content set to: '• Surgical robotics technology has advanced, enabling precise and minimally invasive procedures • Th...'
+🔍 DEBUG: Slide 7 content length: 363
+✅ Slide 7 content: • Surgical robotics technology has advanced, enabling precise and minimally invasive procedures
+• The da Vinci Surgical System allows surgeons enhanced dexterity and control in complex surgeries
+• Improved patient outcomes, reduced recovery times, and minimized risk of complications
+• Robotic systems used in specialties like urology, gynecology, and orthopedics
+Generating content for slide 8 (Topic: Nanotechnology in Drug Delivery: Principles and Applications)
+🎲 Choice scenario triggered! (Rolled 27.6 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Nanotechnology in drug delivery utilizes nanoparticles to deliver drugs to specific target sites in the body
+• Nanoparticles can be engineered to release drugs in a controlled manner, improving efficacy and reducing side effects
+• Targeted therapy approach holds promise for treating diseases like cancer and neurological disorders
+• Applications of nanotechnology in drug delivery include personalized medicine and enhanced treatment outcomes
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Nanoparticle drug delivery systems utilize nanotechnology to deliver drugs to specific target sites in the body
+• Nanoparticles can be engineered to release drugs in a controlled manner, improving efficacy and reducing side effects
+• Functionalized nanoparticles with targeting ligands enhance specificity to diseased tissues
+• Revolutionizes drug delivery and administration in healthcare, particularly in treating diseases like cancer and neurological disorders
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 8 content set to: '• Nanoparticle drug delivery systems utilize nanotechnology to deliver drugs to specific target site...'
+🔍 DEBUG: Slide 8 content length: 465
+✅ Slide 8 content: • Nanoparticle drug delivery systems utilize nanotechnology to deliver drugs to specific target sites in the body
+• Nanoparticles can be engineered to release drugs in a controlled manner, improving efficacy and reducing side effects
+• Functionalized nanoparticles with targeting ligands enhance specificity to diseased tissues
+• Revolutionizes drug delivery and administration in healthcare, particularly in treating diseases like cancer and neurological disorders
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Evolution of Medical Imaging Technology)
+✅ Slide 1 title: Revolutionizing Medical Imaging with AI Integration
+Generating title for slide 2 (Topic: Types of Medical Imaging Technologies)
+✅ Slide 2 title: Types of Medical Imaging Technologies
+Generating title for slide 3 (Topic: Role of Artificial Intelligence in Diagnostic Imaging)
+✅ Slide 3 title: "AI in Diagnostic Imaging: Enhancing Disease Detection"
+Generating title for slide 4 (Topic: 3D Medical Imaging Technology)
+✅ Slide 4 title: "Enhancing Healthcare with 3D Imaging Technology"
+Generating title for slide 5 (Topic: Robotics in Surgery: Introduction and Benefits)
+✅ Slide 5 title: Robotic Surgery: Precision and Patient Benefits
+Generating title for slide 6 (Topic: Da Vinci Surgical System: Capabilities and Applications)
+✅ Slide 6 title: Da Vinci Surgical System: Precision in Surgery
+Generating title for slide 7 (Topic: Advancements in Surgical Robotics Technology)
+✅ Slide 7 title: "Advancements in Surgical Robotics"
+Generating title for slide 8 (Topic: Nanotechnology in Drug Delivery: Principles and Applications)
+🎲 Choice scenario triggered! (Rolled 9.9 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Nanotechnology in Drug Delivery: Targeted Therapy Revolution
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+"Nanotechnology in Drug Delivery: Precision and Applications"
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 8 title: Nanotechnology in Drug Delivery: Targeted Therapy Revolution
+Generating overall presentation title...
+🎲 Choice scenario triggered! (Rolled 24.9 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+"Revolutionizing Healthcare: The Future of Medical Technology"
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+"Advancements in Medical Technology: Enhancing Healthcare through Innovation"
+
+----------------------------------------
+✅ You chose Response 2
+✅ Overall presentation title: Advancements in Medical Technology: Enhancing Healthcare through Innovation
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Evolution of Medical Imaging Technology)
+🎲 Choice scenario triggered! (Rolled 16.7 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['evolution of medical imaging technology', 'medical imaging advancements', 'AI integration in medical imaging', 'machine learning in diagnostic imaging', 'improved accuracy in medical imaging', 'efficiency in diagnostic imaging', 'disease detection with AI in medical imaging']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['evolution of medical imaging technology', 'medical imaging advancements', 'AI integration in medical imaging', 'machine learning in diagnostic imaging', 'improved accuracy in medical imaging', 'efficiency in medical imaging procedures', 'disease detection with AI in medical imaging', 'AI analysis of medical images', 'X-ray AI analysis', 'MRI AI integration', 'CT scan AI technology']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Types of Medical Imaging Technologies)
+🎲 Choice scenario triggered! (Rolled 9.3 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['X-ray imaging technology', 'MRI technology', 'CT scan technology', 'Ultrasound imaging technology']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['X-ray imaging technology', 'MRI technology', 'CT scan technology', 'Ultrasound imaging technology', 'Medical imaging techniques', 'Types of medical imaging technologies', 'Imaging modalities in healthcare']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Role of Artificial Intelligence in Diagnostic Imaging)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: 3D Medical Imaging Technology)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Robotics in Surgery: Introduction and Benefits)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Da Vinci Surgical System: Capabilities and Applications)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Advancements in Surgical Robotics Technology)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Nanotechnology in Drug Delivery: Principles and Applications)
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Evolution of Medical Imaging Technology)
+🎲 Choice scenario triggered! (Rolled 2.3 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Wearable health monitoring devices, including smartwatches and fitness trackers, allow individuals to track real-time health metrics like heart rate, activity levels, and sleep patterns.
+- The data collected by these devices offers valuable insights into overall health and can aid in the early detection of potential health issues.
+- Advancements in technology are expected to further enhance wearable health monitoring devices, enabling them to monitor a wider range of health metrics and provide more accurate data.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Wearable health monitoring devices, such as smartwatches and fitness trackers, enable individuals to track health metrics like heart rate, activity levels, and sleep patterns in real-time.
+- The data collected by wearable health monitoring devices can provide valuable insights into overall health and help in the early detection of potential health issues.
+- As technology advances, wearable health monitoring devices are expected to become more sophisticated, expanding their ability to monitor a wider range of health metrics and provide increasingly accurate data.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 1 content is long (520 chars) - consider reducing
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Types of Medical Imaging Technologies)
+🎲 Choice scenario triggered! (Rolled 7.6 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- AI can analyze medical images, such as X-rays, MRIs, and CT scans, to identify patterns and abnormalities that may not be visible to the human eye.
+- This integration of artificial intelligence and machine learning algorithms has revolutionized the field of radiology and has the potential to greatly impact the future of healthcare.
+- AI-powered medical imaging technologies have significantly improved the accuracy and efficiency of diagnostic imaging procedures, leading to earlier detection of diseases and better patient outcomes.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- AI can analyze medical images, such as X-rays, MRIs, and CT scans, to identify patterns and abnormalities that may not be visible to the human eye.
+- This integration of artificial intelligence and machine learning algorithms has revolutionized the field of radiology and has the potential to greatly impact the future of healthcare.
+- The use of AI in medical imaging technology has led to earlier detection of diseases and improved patient outcomes.
+- AI-powered medical imaging technologies have enhanced the accuracy and efficiency of diagnostic imaging procedures, showcasing the potential for significant advancements in healthcare.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 2 content is long (537 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Role of Artificial Intelligence in Diagnostic Imaging)
+🎲 Choice scenario triggered! (Rolled 13.2 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- AI in diagnostic imaging utilizes machine learning algorithms to analyze medical images like X-rays, MRIs, and CT scans, detecting intricate patterns and abnormalities that may go unnoticed by human radiologists.
+- The integration of artificial intelligence in radiology has transformed the field by enhancing diagnostic accuracy and efficiency, ultimately leading to earlier disease detection and improved patient outcomes.
+- AI-powered medical imaging technologies have revolutionized the interpretation of complex imaging studies, enabling radiologists to make more informed decisions and provide personalized treatment plans for patients.
+- By leveraging AI algorithms, diagnostic imaging procedures have become more streamlined and effective, allowing for rapid and precise identification of various diseases and conditions in patients.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- AI algorithms can assist radiologists in detecting subtle abnormalities in medical images, improving the accuracy of diagnosis and treatment planning.
+- By analyzing large datasets of medical images, AI can help identify early signs of diseases, enabling proactive intervention and personalized treatment strategies.
+- Integration of AI in diagnostic imaging has the potential to streamline workflow processes, reduce interpretation time, and enhance overall patient care.
+- AI-powered medical imaging technologies offer a non-invasive and cost-effective approach to disease detection, contributing to improved healthcare accessibility and outcomes.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 3 content is long (843 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: 3D Medical Imaging Technology)
+⚠️ Warning: Slide 4 content is long (887 chars) - consider reducing
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Robotics in Surgery: Introduction and Benefits)
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Da Vinci Surgical System: Capabilities and Applications)
+🎲 Choice scenario triggered! (Rolled 19.1 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- The Da Vinci Surgical System utilizes robotic technology to enhance surgical capabilities and precision, allowing for intricate movements during complex procedures.
+- Robotic-assisted surgery systems, like the da Vinci Surgical System, have demonstrated improved patient outcomes, reduced recovery times, and minimized the risk of post-operative complications.
+- By integrating robotic systems in surgery, surgeons can achieve enhanced dexterity and control, leading to more precise surgical interventions.
+- The da Vinci Surgical System is widely used in specialties such as urology, gynecology, and orthopedics, showcasing its versatility and effectiveness in various surgical fields.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- The Da Vinci Surgical System enables surgeons to perform complex surgeries with enhanced dexterity and control, leading to improved patient outcomes and reduced recovery times.
+- Robotic technology in the Da Vinci Surgical System enhances surgical capabilities, allowing for precise movements and minimizing the risk of complications.
+- The Da Vinci Surgical System is widely utilized in specialties such as urology, gynecology, and orthopedics, showcasing its versatility and effectiveness in various medical fields.
+- With its robotic technology, the Da Vinci Surgical System offers advanced capabilities that revolutionize traditional surgical procedures, providing a new level of precision and efficiency in the operating room.
+
+----------------------------------------
+✅ You chose Response 2
+⚠️ Warning: Slide 6 content is long (733 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Advancements in Surgical Robotics Technology)
+🎲 Choice scenario triggered! (Rolled 10.5 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Surgical robotics technology continues to evolve, incorporating advancements that enable precise and minimally invasive procedures.
+- Recent developments in surgical robotics technology focus on improving patient outcomes, reducing recovery times, and minimizing the risk of complications.
+- The integration of artificial intelligence in surgical robotics enhances the capabilities of robotic systems, allowing for more efficient and accurate surgical procedures.
+- Emerging technologies in surgical robotics expand its applications beyond traditional specialties like urology, gynecology, and orthopedics, paving the way for innovative surgical solutions in various medical fields.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Integration of artificial intelligence algorithms in surgical robotics technology to enhance decision-making and improve procedural outcomes.
+- Advancements in haptic feedback systems within surgical robots to provide surgeons with a sense of touch and better spatial awareness during procedures.
+- Implementation of augmented reality overlays in surgical robotics for real-time guidance and visualization of anatomical structures.
+- Utilization of machine learning algorithms in surgical robotics to analyze data and optimize surgical techniques for personalized patient care.
+
+----------------------------------------
+✅ You chose Response 2
+⚠️ Warning: Slide 7 content is long (579 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Nanotechnology in Drug Delivery: Principles and Applications)
+⚠️ Warning: Slide 8 content is long (713 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Advancements_in_Medical_Technology_Enhancing_Healthcare_through_Innovation_2025-08-31_17-57-58
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancements_in_Medical_Technology_Enhancing_Healthcare_through_Innovation_2025-08-31_17-57-58.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancements_in_Medical_Technology_Enhancing_Healthcare_through_Innovation_2025-08-31_17-57-58.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 4 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancements_in_Medical_Technology_Enhancing_Healthcare_through_Innovation_2025-08-31_17-57-58.pptx
+📊 Rating presentation 4...
+✅ Presentation 4 rated successfully
+📈 Overall Rating: 6.70 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.00 / 2.00
+   - Non-Repetition: 1.79 / 2.00
+   - Content Balance: 1.53 / 2.00
+   - Title Uniqueness: 1.95 / 2.00
+   - Title-Content Match: 1.43 / 2.00
+💾 Result saved to file for presentation 4
+
+📊 Presentation 6/10 (ID: 5)
+📝 Using topic: Theater and Performance Arts
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

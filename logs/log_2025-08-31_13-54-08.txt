@@ -1,0 +1,835 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T13:54:08.685115
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_13-54-08.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 6...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Gender Equality in the Workplace
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Gender pay gap, Workplace discrimination
+Selected topics: ['Gender pay gap', 'Workplace discrimination']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Gender pay gap
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENDER PAY GAP** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Understanding the Gender Pay Gap",
+    "keywords": ["gender pay gap", "wage disparity", "gender inequality", "equal pay"],
+    "text": "The gender pay gap refers to the difference in earnings between men and women in the workforce. Studies show that women, on average, earn less than men for the same work. Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving responsibilities. Closing the gender pay gap is crucial for achieving gender equality in the workplace.",
+    "link": "https://www.payscale.com/data/gender-pay-gap"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Understanding the Gender Pay Gap
+Keywords: gender pay gap, wage disparity, gender inequality, equal pay
+Uses: 0
+Text: The gender pay gap refers to the difference in earnings between men and women in the workforce. Studies show that women, on average, earn less than men for the same work. Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving responsibilities. Closing the gender pay gap is crucial for achieving gender equality in the workplace.Link: https://www.payscale.com/data/gender-pay-gap
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENDER PAY GAP** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "5 Ways Companies Can Address the Gender Pay Gap",
+    "keywords": ["gender pay gap", "workplace equality", "gender equality", "pay disparity", "equal pay"],
+    "text": "Companies can address the gender pay gap by conducting pay audits, implementing transparent pay policies, promoting salary negotiation training, creating mentorship programs for women, and fostering a culture of inclusion and diversity.",
+    "link": "https://www.forbes.com/sites/forbeshumanresourcescouncil/2021/03/08/five-ways-companies-can-address-the-gender-pay-gap/?sh=17b4f3e63c4a"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: 5 Ways Companies Can Address the Gender Pay Gap
+Keywords: gender pay gap, workplace equality, gender equality, pay disparity, equal pay
+Uses: 0
+Text: Companies can address the gender pay gap by conducting pay audits, implementing transparent pay policies, promoting salary negotiation training, creating mentorship programs for women, and fostering a culture of inclusion and diversity.Link: https://www.forbes.com/sites/forbeshumanresourcescouncil/2021/03/08/five-ways-companies-can-address-the-gender-pay-gap/?sh=17b4f3e63c4a
+Researching topic: Workplace discrimination
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WORKPLACE DISCRIMINATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Understanding Workplace Discrimination",
+    "keywords": ["workplace discrimination", "gender equality", "discrimination in the workplace", "gender discrimination"],
+    "text": "Workplace discrimination refers to unfair or unequal treatment of employees based on factors such as gender, race, age, or disability. Gender discrimination specifically involves treating someone unfavorably because of their gender, which can manifest in various ways such as pay inequity, lack of promotion opportunities, or harassment. It is important for companies to address and eliminate workplace discrimination to create a more inclusive and equitable work environment.",
+    "link": "https://www.eeoc.gov/laws/types/sex.cfm"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Understanding Workplace Discrimination
+Keywords: workplace discrimination, gender equality, discrimination in the workplace, gender discrimination
+Uses: 0
+Text: Workplace discrimination refers to unfair or unequal treatment of employees based on factors such as gender, race, age, or disability. Gender discrimination specifically involves treating someone unfavorably because of their gender, which can manifest in various ways such as pay inequity, lack of promotion opportunities, or harassment. It is important for companies to address and eliminate workplace discrimination to create a more inclusive and equitable work environment.Link: https://www.eeoc.gov/laws/types/sex.cfm
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WORKPLACE DISCRIMINATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Types of Workplace Discrimination",
+    "keywords": ["workplace discrimination", "gender equality", "types", "examples"],
+    "text": "Workplace discrimination can take many forms, including but not limited to gender discrimination, racial discrimination, age discrimination, disability discrimination, and sexual orientation discrimination. Examples of workplace discrimination can include unequal pay, denial of promotions, harassment, and unfair treatment based on protected characteristics.",
+    "link": "https://www.eeoc.gov/laws/types/"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Types of Workplace Discrimination
+Keywords: workplace discrimination, gender equality, types, examples
+Uses: 0
+Text: Workplace discrimination can take many forms, including but not limited to gender discrimination, racial discrimination, age discrimination, disability discrimination, and sexual orientation discrimination. Examples of workplace discrimination can include unequal pay, denial of promotions, harassment, and unfair treatment based on protected characteristics.Link: https://www.eeoc.gov/laws/types/
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Gender Equality in the Workplace) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Gender pay gap', 'Workplace discrimination']. The research these yeilded is: ({The gender pay gap refers to the difference in earnings between men and women in the workforce. Studies show that women, on average, earn less than men for the same work. Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving responsibilities. Closing the gender pay gap is crucial for achieving gender equality in the workplace.
+
+Companies can address the gender pay gap by conducting pay audits, implementing transparent pay policies, promoting salary negotiation training, creating mentorship programs for women, and fostering a culture of inclusion and diversity.
+
+Workplace discrimination refers to unfair or unequal treatment of employees based on factors such as gender, race, age, or disability. Gender discrimination specifically involves treating someone unfavorably because of their gender, which can manifest in various ways such as pay inequity, lack of promotion opportunities, or harassment. It is important for companies to address (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Gender diversity initiatives, Unconscious bias training, Flexible work arrangements, Parental leave policies, Employee resource groups, Gender equality training
+Selected topics: ['Gender diversity initiatives', 'Unconscious bias training', 'Flexible work arrangements', 'Parental leave policies', 'Employee resource groups', 'Gender equality training']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Gender diversity initiatives
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination', 'Types of Workplace Discrimination']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENDER DIVERSITY INITIATIVES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Top 10 Gender Diversity Initiatives for the Workplace",
+    "keywords": ["gender diversity initiatives", "workplace", "gender equality", "gender balance", "inclusion"],
+    "text": "Gender diversity initiatives in the workplace are programs and policies designed to promote gender equality and create a more inclusive environment. Some of the top initiatives include gender-neutral recruitment processes, unconscious bias training, mentorship programs for women, flexible work arrangements, leadership development programs for women, employee resource groups for gender diversity, pay equity audits, promoting work-life balance, creating a culture of respect and zero tolerance for discrimination, and setting diversity goals and tracking progress.",
+    "link": "https://www.forbes.com/sites/forbesbusinesscouncil/2021/03/08/top-10-gender-diversity-initiatives-for-the-workplace/?sh=7b4b9d7c4d75"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Top 10 Gender Diversity Initiatives for the Workplace
+Keywords: gender diversity initiatives, workplace, gender equality, gender balance, inclusion
+Uses: 0
+Text: Gender diversity initiatives in the workplace are programs and policies designed to promote gender equality and create a more inclusive environment. Some of the top initiatives include gender-neutral recruitment processes, unconscious bias training, mentorship programs for women, flexible work arrangements, leadership development programs for women, employee resource groups for gender diversity, pay equity audits, promoting work-life balance, creating a culture of respect and zero tolerance for discrimination, and setting diversity goals and tracking progress.Link: https://www.forbes.com/sites/forbesbusinesscouncil/2021/03/08/top-10-gender-diversity-initiatives-for-the-workplace/?sh=7b4b9d7c4d75
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination', 'Types of Workplace Discrimination', 'Top 10 Gender Diversity Initiatives for the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENDER DIVERSITY INITIATIVES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "10 Gender Diversity Initiatives for the Workplace",
+    "keywords": ["gender diversity initiatives", "workplace", "equality", "gender equality", "diversity programs"],
+    "text": "Gender diversity initiatives in the workplace are programs and policies implemented to promote equal opportunities for all employees regardless of gender. Some common initiatives include implementing unconscious bias training, creating mentorship programs for women, establishing gender-neutral parental leave policies, conducting pay equity audits, setting diversity hiring goals, offering flexible work arrangements, promoting women into leadership positions, providing resources for work-life balance, supporting employee resource groups, and fostering a culture of inclusion and belonging.",
+    "link": "https://www.forbes.com/sites/forbesbusinesscouncil/2021/03/24/10-gender-diversity-initiatives-for-the-workplace/?sh=1aa7c21b2a0e"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: 10 Gender Diversity Initiatives for the Workplace
+Keywords: gender diversity initiatives, workplace, equality, gender equality, diversity programs
+Uses: 0
+Text: Gender diversity initiatives in the workplace are programs and policies implemented to promote equal opportunities for all employees regardless of gender. Some common initiatives include implementing unconscious bias training, creating mentorship programs for women, establishing gender-neutral parental leave policies, conducting pay equity audits, setting diversity hiring goals, offering flexible work arrangements, promoting women into leadership positions, providing resources for work-life balance, supporting employee resource groups, and fostering a culture of inclusion and belonging.Link: https://www.forbes.com/sites/forbesbusinesscouncil/2021/03/24/10-gender-diversity-initiatives-for-the-workplace/?sh=1aa7c21b2a0e
+Researching topic: Unconscious bias training
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination', 'Types of Workplace Discrimination', 'Top 10 Gender Diversity Initiatives for the Workplace', '10 Gender Diversity Initiatives for the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **UNCONSCIOUS BIAS TRAINING** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "What is Unconscious Bias Training?",
+    "keywords": ["unconscious bias training", "diversity training", "gender equality in the workplace"],
+    "text": "Unconscious bias training is a type of training designed to educate individuals about the unconscious biases they may hold, particularly in relation to issues such as gender, race, and other forms of diversity. The goal of this training is to help participants recognize and mitigate their biases in order to create a more inclusive and equitable workplace.",
+    "link": "https://www.forbes.com/sites/janicegassam/2020/06/12/what-is-unconscious-bias-training-and-how-can-it-help-improve-your-workplace-culture/?sh=1f4b6c7b7dbd"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: What is Unconscious Bias Training?
+Keywords: unconscious bias training, diversity training, gender equality in the workplace
+Uses: 0
+Text: Unconscious bias training is a type of training designed to educate individuals about the unconscious biases they may hold, particularly in relation to issues such as gender, race, and other forms of diversity. The goal of this training is to help participants recognize and mitigate their biases in order to create a more inclusive and equitable workplace.Link: https://www.forbes.com/sites/janicegassam/2020/06/12/what-is-unconscious-bias-training-and-how-can-it-help-improve-your-workplace-culture/?sh=1f4b6c7b7dbd
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination', 'Types of Workplace Discrimination', 'Top 10 Gender Diversity Initiatives for the Workplace', '10 Gender Diversity Initiatives for the Workplace', 'What is Unconscious Bias Training?']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **UNCONSCIOUS BIAS TRAINING** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Benefits of Unconscious Bias Training in the Workplace",
+    "keywords": ["unconscious bias training", "workplace", "benefits"],
+    "text": "Unconscious bias training in the workplace helps employees recognize and understand their unconscious biases, leading to more inclusive decision-making processes. By raising awareness of biases, employees can make more objective choices and create a more diverse and equitable work environment. Additionally, unconscious bias training can improve teamwork, communication, and overall employee satisfaction.",
+    "link": "https://www.forbes.com/sites/forbeshumanresourcescouncil/2020/02/25/why-unconscious-bias-training-is-an-essential-investment-for-your-workforce/#3f2d5d4a38c2"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: The Benefits of Unconscious Bias Training in the Workplace
+Keywords: unconscious bias training, workplace, benefits
+Uses: 0
+Text: Unconscious bias training in the workplace helps employees recognize and understand their unconscious biases, leading to more inclusive decision-making processes. By raising awareness of biases, employees can make more objective choices and create a more diverse and equitable work environment. Additionally, unconscious bias training can improve teamwork, communication, and overall employee satisfaction.Link: https://www.forbes.com/sites/forbeshumanresourcescouncil/2020/02/25/why-unconscious-bias-training-is-an-essential-investment-for-your-workforce/#3f2d5d4a38c2
+Researching topic: Flexible work arrangements
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination', 'Types of Workplace Discrimination', 'Top 10 Gender Diversity Initiatives for the Workplace', '10 Gender Diversity Initiatives for the Workplace', 'What is Unconscious Bias Training?', 'The Benefits of Unconscious Bias Training in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **FLEXIBLE WORK ARRANGEMENTS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Importance of Flexible Work Arrangements for Gender Equality in the Workplace",
+    "keywords": ["flexible work arrangements", "gender equality", "workplace", "benefits"],
+    "text": "Flexible work arrangements, such as telecommuting, flextime, and compressed workweeks, are crucial for achieving gender equality in the workplace. These arrangements allow employees to better balance their work and personal responsibilities, which is especially important for women who often bear the brunt of caregiving duties. By offering flexible work options, companies can attract and retain top talent, increase employee satisfaction and productivity, and create a more inclusive work environment.",
+    "link": "https://www.shrm.org/resourcesandtools/tools-and-samples/toolkits/pages/understandingandmanagingtelecommuting.aspx"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: The Importance of Flexible Work Arrangements for Gender Equality in the Workplace
+Keywords: flexible work arrangements, gender equality, workplace, benefits
+Uses: 0
+Text: Flexible work arrangements, such as telecommuting, flextime, and compressed workweeks, are crucial for achieving gender equality in the workplace. These arrangements allow employees to better balance their work and personal responsibilities, which is especially important for women who often bear the brunt of caregiving duties. By offering flexible work options, companies can attract and retain top talent, increase employee satisfaction and productivity, and create a more inclusive work environment.Link: https://www.shrm.org/resourcesandtools/tools-and-samples/toolkits/pages/understandingandmanagingtelecommuting.aspx
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination', 'Types of Workplace Discrimination', 'Top 10 Gender Diversity Initiatives for the Workplace', '10 Gender Diversity Initiatives for the Workplace', 'What is Unconscious Bias Training?', 'The Benefits of Unconscious Bias Training in the Workplace', 'The Importance of Flexible Work Arrangements for Gender Equality in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **FLEXIBLE WORK ARRANGEMENTS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Benefits of Offering Remote Work Options for Gender Equality in the Workplace",
+    "keywords": ["remote work", "telecommuting", "gender equality", "workplace", "benefits"],
+    "text": "Offering remote work options can help promote gender equality in the workplace by providing flexibility for employees to balance work and personal responsibilities. Remote work can also help reduce the gender pay gap by allowing employees to work from anywhere, regardless of their location or caregiving responsibilities. Additionally, remote work can create a more inclusive work environment by accommodating individuals with disabilities or health conditions that may prevent them from working in a traditional office setting.",
+    "link": "https://www.shrm.org/resourcesandtools/hr-topics/employee-relations/pages/how-telecommuting-promotes-gender-equality.aspx"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: The Benefits of Offering Remote Work Options for Gender Equality in the Workplace
+Keywords: remote work, telecommuting, gender equality, workplace, benefits
+Uses: 0
+Text: Offering remote work options can help promote gender equality in the workplace by providing flexibility for employees to balance work and personal responsibilities. Remote work can also help reduce the gender pay gap by allowing employees to work from anywhere, regardless of their location or caregiving responsibilities. Additionally, remote work can create a more inclusive work environment by accommodating individuals with disabilities or health conditions that may prevent them from working in a traditional office setting.Link: https://www.shrm.org/resourcesandtools/hr-topics/employee-relations/pages/how-telecommuting-promotes-gender-equality.aspx
+Researching topic: Parental leave policies
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination', 'Types of Workplace Discrimination', 'Top 10 Gender Diversity Initiatives for the Workplace', '10 Gender Diversity Initiatives for the Workplace', 'What is Unconscious Bias Training?', 'The Benefits of Unconscious Bias Training in the Workplace', 'The Importance of Flexible Work Arrangements for Gender Equality in the Workplace', 'The Benefits of Offering Remote Work Options for Gender Equality in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **PARENTAL LEAVE POLICIES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Importance of Parental Leave Policies for Gender Equality in the Workplace",
+    "keywords": ["parental leave policies", "gender equality", "workplace", "maternity leave", "paternity leave"],
+    "text": "Parental leave policies play a crucial role in promoting gender equality in the workplace by allowing both mothers and fathers to take time off to care for their children. These policies help to reduce the burden on women, who traditionally take on the majority of caregiving responsibilities, and encourage men to take a more active role in childcare. By providing equal opportunities for both parents to take leave, companies can create a more inclusive and supportive work environment.",
+    "link": "https://www.shrm.org/resourcesandtools/tools-and-samples/toolkits/pages/parentalleave.aspx"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: The Importance of Parental Leave Policies for Gender Equality in the Workplace
+Keywords: parental leave policies, gender equality, workplace, maternity leave, paternity leave
+Uses: 0
+Text: Parental leave policies play a crucial role in promoting gender equality in the workplace by allowing both mothers and fathers to take time off to care for their children. These policies help to reduce the burden on women, who traditionally take on the majority of caregiving responsibilities, and encourage men to take a more active role in childcare. By providing equal opportunities for both parents to take leave, companies can create a more inclusive and supportive work environment.Link: https://www.shrm.org/resourcesandtools/tools-and-samples/toolkits/pages/parentalleave.aspx
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination', 'Types of Workplace Discrimination', 'Top 10 Gender Diversity Initiatives for the Workplace', '10 Gender Diversity Initiatives for the Workplace', 'What is Unconscious Bias Training?', 'The Benefits of Unconscious Bias Training in the Workplace', 'The Importance of Flexible Work Arrangements for Gender Equality in the Workplace', 'The Benefits of Offering Remote Work Options for Gender Equality in the Workplace', 'The Importance of Parental Leave Policies for Gender Equality in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **PARENTAL LEAVE POLICIES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Impact of Paternity Leave on Gender Equality in the Workplace",
+    "keywords": ["paternity leave", "gender equality", "workplace", "impact"],
+    "text": "Paternity leave policies have been shown to have a positive impact on gender equality in the workplace by promoting a more equal distribution of caregiving responsibilities between men and women. When fathers are encouraged to take time off work to care for their children, it helps to break down traditional gender roles and stereotypes. This, in turn, can lead to a more balanced and inclusive work environment where both men and women are able to fully participate in both their careers and their family lives.",
+    "link": "https://www.shrm.org/resourcesandtools/hr-topics/benefits/pages/paternity-leave-boosts-gender-equality.aspx"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: The Impact of Paternity Leave on Gender Equality in the Workplace
+Keywords: paternity leave, gender equality, workplace, impact
+Uses: 0
+Text: Paternity leave policies have been shown to have a positive impact on gender equality in the workplace by promoting a more equal distribution of caregiving responsibilities between men and women. When fathers are encouraged to take time off work to care for their children, it helps to break down traditional gender roles and stereotypes. This, in turn, can lead to a more balanced and inclusive work environment where both men and women are able to fully participate in both their careers and their family lives.Link: https://www.shrm.org/resourcesandtools/hr-topics/benefits/pages/paternity-leave-boosts-gender-equality.aspx
+Researching topic: Employee resource groups
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination', 'Types of Workplace Discrimination', 'Top 10 Gender Diversity Initiatives for the Workplace', '10 Gender Diversity Initiatives for the Workplace', 'What is Unconscious Bias Training?', 'The Benefits of Unconscious Bias Training in the Workplace', 'The Importance of Flexible Work Arrangements for Gender Equality in the Workplace', 'The Benefits of Offering Remote Work Options for Gender Equality in the Workplace', 'The Importance of Parental Leave Policies for Gender Equality in the Workplace', 'The Impact of Paternity Leave on Gender Equality in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **EMPLOYEE RESOURCE GROUPS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of Employee Resource Groups in Promoting Gender Equality in the Workplace",
+    "keywords": ["employee resource groups", "gender equality", "workplace", "diversity", "inclusion"],
+    "text": "Employee Resource Groups (ERGs) are voluntary, employee-led groups within companies that aim to foster a diverse and inclusive workplace. These groups often focus on specific demographics, such as women, LGBTQ+ individuals, or people of color, to provide support, networking opportunities, and professional development. ERGs play a crucial role in promoting gender equality by advocating for policies and practices that support gender diversity and inclusion in the workplace.",
+    "link": "https://www.forbes.com/sites/forbescommunicationscouncil/2019/07/01/employee-resource-groups-the-key-to-gender-equality-in-the-workplace/?sh=3d4c5f8d3a58"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: The Role of Employee Resource Groups in Promoting Gender Equality in the Workplace
+Keywords: employee resource groups, gender equality, workplace, diversity, inclusion
+Uses: 0
+Text: Employee Resource Groups (ERGs) are voluntary, employee-led groups within companies that aim to foster a diverse and inclusive workplace. These groups often focus on specific demographics, such as women, LGBTQ+ individuals, or people of color, to provide support, networking opportunities, and professional development. ERGs play a crucial role in promoting gender equality by advocating for policies and practices that support gender diversity and inclusion in the workplace.Link: https://www.forbes.com/sites/forbescommunicationscouncil/2019/07/01/employee-resource-groups-the-key-to-gender-equality-in-the-workplace/?sh=3d4c5f8d3a58
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination', 'Types of Workplace Discrimination', 'Top 10 Gender Diversity Initiatives for the Workplace', '10 Gender Diversity Initiatives for the Workplace', 'What is Unconscious Bias Training?', 'The Benefits of Unconscious Bias Training in the Workplace', 'The Importance of Flexible Work Arrangements for Gender Equality in the Workplace', 'The Benefits of Offering Remote Work Options for Gender Equality in the Workplace', 'The Importance of Parental Leave Policies for Gender Equality in the Workplace', 'The Impact of Paternity Leave on Gender Equality in the Workplace', 'The Role of Employee Resource Groups in Promoting Gender Equality in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **EMPLOYEE RESOURCE GROUPS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Power of Employee Resource Groups in Promoting Gender Equality in the Workplace",
+    "keywords": ["employee resource groups", "gender equality", "workplace", "diversity", "inclusion"],
+    "text": "Employee resource groups (ERGs) are voluntary, employee-led groups within organizations that are formed based on shared characteristics, backgrounds, or interests. These groups play a crucial role in promoting gender equality in the workplace by providing a platform for employees to connect, support each other, and advocate for change. ERGs can help create a more inclusive and diverse work environment by fostering a sense of belonging and empowerment among employees.",
+    "link": "https://www.forbes.com/sites/forbeshumanresourcescouncil/2019/08/07/how-employee-resource-groups-can-advance-diversity-and-inclusion-in-the-workplace/#3c7489f73c4d"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: The Power of Employee Resource Groups in Promoting Gender Equality in the Workplace
+Keywords: employee resource groups, gender equality, workplace, diversity, inclusion
+Uses: 0
+Text: Employee resource groups (ERGs) are voluntary, employee-led groups within organizations that are formed based on shared characteristics, backgrounds, or interests. These groups play a crucial role in promoting gender equality in the workplace by providing a platform for employees to connect, support each other, and advocate for change. ERGs can help create a more inclusive and diverse work environment by fostering a sense of belonging and empowerment among employees.Link: https://www.forbes.com/sites/forbeshumanresourcescouncil/2019/08/07/how-employee-resource-groups-can-advance-diversity-and-inclusion-in-the-workplace/#3c7489f73c4d
+Researching topic: Gender equality training
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination', 'Types of Workplace Discrimination', 'Top 10 Gender Diversity Initiatives for the Workplace', '10 Gender Diversity Initiatives for the Workplace', 'What is Unconscious Bias Training?', 'The Benefits of Unconscious Bias Training in the Workplace', 'The Importance of Flexible Work Arrangements for Gender Equality in the Workplace', 'The Benefits of Offering Remote Work Options for Gender Equality in the Workplace', 'The Importance of Parental Leave Policies for Gender Equality in the Workplace', 'The Impact of Paternity Leave on Gender Equality in the Workplace', 'The Role of Employee Resource Groups in Promoting Gender Equality in the Workplace', 'The Power of Employee Resource Groups in Promoting Gender Equality in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENDER EQUALITY TRAINING** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Benefits of Gender Equality Training in the Workplace",
+    "keywords": ["gender equality training", "workplace training", "gender equality benefits", "gender equality initiatives"],
+    "text": "Gender equality training in the workplace helps educate employees on issues related to gender bias, discrimination, and stereotypes. It aims to create a more inclusive and diverse work environment where all employees feel valued and respected. By raising awareness and promoting understanding, gender equality training can lead to increased collaboration, creativity, and productivity among team members.",
+    "link": "https://www.forbes.com/sites/forbestechcouncil/2021/03/08/the-importance-of-gender-equality-training-in-the-workplace/?sh=5e0f4e5d6b9d"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: The Benefits of Gender Equality Training in the Workplace
+Keywords: gender equality training, workplace training, gender equality benefits, gender equality initiatives
+Uses: 0
+Text: Gender equality training in the workplace helps educate employees on issues related to gender bias, discrimination, and stereotypes. It aims to create a more inclusive and diverse work environment where all employees feel valued and respected. By raising awareness and promoting understanding, gender equality training can lead to increased collaboration, creativity, and productivity among team members.Link: https://www.forbes.com/sites/forbestechcouncil/2021/03/08/the-importance-of-gender-equality-training-in-the-workplace/?sh=5e0f4e5d6b9d
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', '5 Ways Companies Can Address the Gender Pay Gap', 'Understanding Workplace Discrimination', 'Types of Workplace Discrimination', 'Top 10 Gender Diversity Initiatives for the Workplace', '10 Gender Diversity Initiatives for the Workplace', 'What is Unconscious Bias Training?', 'The Benefits of Unconscious Bias Training in the Workplace', 'The Importance of Flexible Work Arrangements for Gender Equality in the Workplace', 'The Benefits of Offering Remote Work Options for Gender Equality in the Workplace', 'The Importance of Parental Leave Policies for Gender Equality in the Workplace', 'The Impact of Paternity Leave on Gender Equality in the Workplace', 'The Role of Employee Resource Groups in Promoting Gender Equality in the Workplace', 'The Power of Employee Resource Groups in Promoting Gender Equality in the Workplace', 'The Benefits of Gender Equality Training in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENDER EQUALITY TRAINING** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Importance of Gender Equality Training in the Workplace",
+    "keywords": ["gender equality training", "workplace training", "gender equality initiatives", "gender equality education"],
+    "text": "Gender equality training in the workplace is essential for creating a more inclusive and diverse environment. It helps employees understand the importance of gender equality, recognize unconscious biases, and promotes a culture of respect and equality. By providing this training, companies can reduce discrimination and create a more supportive and equitable workplace for all employees.",
+    "link": "https://www.shrm.org/resourcesandtools/tools-and-samples/toolkits/pages/diversityandinclusion.aspx"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: The Importance of Gender Equality Training in the Workplace
+Keywords: gender equality training, workplace training, gender equality initiatives, gender equality education
+Uses: 0
+Text: Gender equality training in the workplace is essential for creating a more inclusive and diverse environment. It helps employees understand the importance of gender equality, recognize unconscious biases, and promotes a culture of respect and equality. By providing this training, companies can reduce discrimination and create a more supportive and equitable workplace for all employees.Link: https://www.shrm.org/resourcesandtools/tools-and-samples/toolkits/pages/diversityandinclusion.aspx
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Gender Equality in the Workplace) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({The gender pay gap refers to the difference in earnings between men and women in the workforce. Studies show that women, on average, earn less than men for the same work. Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving responsibilities. Clo...
+
+Companies can address the gender pay gap by conducting pay audits, implementing transparent pay policies, promoting salary negotiation training, creating mentorship programs for women, and fostering a culture of inclusion and diversity.
+
+Workplace discrimination refers to unfair or unequal treatment of employees based on factors such as gender, race, age, or disability. Gender discrimination specifically involves treating someone unfavorably because of their gender, which can manifest in various ways such as pay inequity, lack of pr...
+
+Workplace discrimination can take many forms, including but not limited to gender discrimination, racial discrimination, age discrimination, disability discrimination, and sexual orientation discrimination. Examples of workplace discrimination can include unequal pay, denial of promotions, harassmen...
+
+Gender diversity initiatives in the workplace are programs and policies designed to promote gender equality and create a more inclusive environment. Some of the top initiatives include gender-neutral recruitment processes, unconscious bias training, mentorship programs for women, flexible work arran...
+
+Gender diversity initiatives in the workplace are programs and policies implemented to promote equal opportunities for all employees regardless of gender. Some common initiatives include implementing unconscious bias training, creating mentorship programs for women, establishing gender-neutral paren...
+
+Unconscious bias training is a type of training designed to educate individuals about the unconscious biases they may hold, particularly in relation to issues such as gender, race, and other forms of diversity. The goal of this training is to help participants recognize and mitigate their biases in ...
+
+Unconscious bias training in the workplace helps employees recognize and understand their unconscious biases, leading to more inclusive decision-making processes. By raising awareness of biases, employees can make more objective choices and create a more diverse and equitable work environment. Addit...
+
+Flexible work arrangements, such as telecommuting, flextime, and compressed workweeks, are crucial for achieving gender equality in the workplace. These arrangements allow employees to better balance their work and personal responsibilities, which is especially important for women who often bear the...
+
+Offering remote work options can help promote gender equality in the workplace by providing flexibility for employees to balance work and personal responsibilities. Remote work can also help reduce the gender pay gap by allowing employees to work from anywhere, regardless of their location or caregi...
+
+Parental leave policies play a crucial role in promoting gender equality in the workplace by allowing both mothers and fathers to take time off to care for their children. These policies help to reduce the burden on women, who traditionally take on the majority of caregiving responsibilities, and en...
+
+Paternity leave policies have been shown to have a positive impact on gender equality in the workplace by promoting a more equal distribution of caregiving responsibilities between men and women. When fathers are encouraged to take time off work to care for their children, it helps to break down tra...
+
+Employee Resource Groups (ERGs) are voluntary, employee-led groups within companies that aim to foster a diverse and inclusive workplace. These groups often focus on specific demographics, such as women, LGBTQ+ individuals, or people of color, to provide support, networking opportunities, and profes...
+
+Employee resource groups (ERGs) are voluntary, employee-led groups within organizations that are formed based on shared characteristics, backgrounds, or interests. These groups play a crucial role in promoting gender equality in the workplace by providing a platform for employees to connect, support...
+
+Gender equality training in the workplace helps educate employees on issues related to gender bias, discrimination, and stereotypes. It aims to create a more inclusive and diverse work environment where all employees feel valued and respected. By raising awareness and promoting understanding, gender...
+
+Gender equality training in the workplace is essential for creating a more inclusive and diverse environment. It helps employees understand the importance of gender equality, recognize unconscious biases, and promotes a culture of respect and equality. By providing this training, companies can reduc...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+Raw response:
+6
+.
+Topic count decided: 6
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Gender Equality in the Workplace) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({The gender pay gap refers to the difference in earnings between men and women in the workforce. Studies show that women, on average, earn less than men for the same work. Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving responsibilities. Clo...
+
+Companies can address the gender pay gap by conducting pay audits, implementing transparent pay policies, promoting salary negotiation training, creating mentorship programs for women, and fostering a culture of inclusion and diversity.
+
+Workplace discrimination refers to unfair or unequal treatment of employees based on factors such as gender, race, age, or disability. Gender discrimination specifically involves treating someone unfavorably because of their gender, which can manifest in various ways such as pay inequity, lack of pr...
+
+Workplace discrimination can take many forms, including but not limited to gender discrimination, racial discrimination, age discrimination, disability discrimination, and sexual orientation discrimination. Examples of workplace discrimination can include unequal pay, denial of promotions, harassmen...
+
+Gender diversity initiatives in the workplace are programs and policies designed to promote gender equality and create a more inclusive environment. Some of the top initiatives include gender-neutral recruitment processes, unconscious bias training, mentorship programs for women, flexible work arran...
+
+Gender diversity initiatives in the workplace are programs and policies implemented to promote equal opportunities for all employees regardless of gender. Some common initiatives include implementing unconscious bias training, creating mentorship programs for women, establishing gender-neutral paren...
+
+Unconscious bias training is a type of training designed to educate individuals about the unconscious biases they may hold, particularly in relation to issues such as gender, race, and other forms of diversity. The goal of this training is to help participants recognize and mitigate their biases in ...
+
+Unconscious bias training in the workplace helps employees recognize and understand their unconscious biases, leading to more inclusive decision-making processes. By raising awareness of biases, employees can make more objective choices and create a more diverse and equitable work environment. Addit...
+
+Flexible work arrangements, such as telecommuting, flextime, and compressed workweeks, are crucial for achieving gender equality in the workplace. These arrangements allow employees to better balance their work and personal responsibilities, which is especially important for women who often bear the...
+
+Offering remote work options can help promote gender equality in the workplace by providing flexibility for employees to balance work and personal responsibilities. Remote work can also help reduce the gender pay gap by allowing employees to work from anywhere, regardless of their location or caregi...
+
+Parental leave policies play a crucial role in promoting gender equality in the workplace by allowing both mothers and fathers to take time off to care for their children. These policies help to reduce the burden on women, who traditionally take on the majority of caregiving responsibilities, and en...
+
+Paternity leave policies have been shown to have a positive impact on gender equality in the workplace by promoting a more equal distribution of caregiving responsibilities between men and women. When fathers are encouraged to take time off work to care for their children, it helps to break down tra...
+
+Employee Resource Groups (ERGs) are voluntary, employee-led groups within companies that aim to foster a diverse and inclusive workplace. These groups often focus on specific demographics, such as women, LGBTQ+ individuals, or people of color, to provide support, networking opportunities, and profes...
+
+Employee resource groups (ERGs) are voluntary, employee-led groups within organizations that are formed based on shared characteristics, backgrounds, or interests. These groups play a crucial role in promoting gender equality in the workplace by providing a platform for employees to connect, support...
+
+Gender equality training in the workplace helps educate employees on issues related to gender bias, discrimination, and stereotypes. It aims to create a more inclusive and diverse work environment where all employees feel valued and respected. By raising awareness and promoting understanding, gender...
+
+Gender equality training in the workplace is essential for creating a more inclusive and diverse environment. It helps employees understand the importance of gender equality, recognize unconscious biases, and promotes a culture of respect and equality. By providing this training, companies can reduc...}). You are to come up with {6} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Teaching Plan for Gender Equality in the Workplace:
+
+Week 1: Introduction to Gender Pay Gap
+1. Main topic title: Understanding the Gender Pay Gap
+   - Sub-topics:
+     1. Factors contributing to the gender pay gap
+     2. Impact of occupational segregation on gender pay disparity
+     3. Effects of caregiving responsibilities on women's earnings
+   - Explanation: This section will delve into the various factors that contribute to the gender pay gap, such as discrimination, occupational segregation, and caregiving responsibilities.
+   - Learning objectives: By the end of this topic, students should be able to identify key factors contributing to the gender pay gap and understand how these factors impact women's earnings.
+   - Estimated number of slides: 10
+   - Lab activities: Analyze wage data to identify disparities based on gender and occupation.
+   - Real-world applications: Discuss recent studies on the gender pay gap in different industries and regions.
+
+Week 2: Addressing the Gender Pay Gap
+2. Main topic title: Strategies to Address the Gender Pay Gap
+   - Sub-topics:
+     1. Conducting pay audits to identify disparities
+     2. Implementing transparent pay policies
+     3. Promoting salary negotiation training for women
+   - Explanation: This section will focus on practical strategies that companies can implement to address and reduce the gender pay gap.
+   - Learning objectives: Students should be able to identify effective strategies for addressing the gender pay gap in the workplace.
+   - Estimated number of slides: 12
+   - Lab activities: Role-playing salary negotiation scenarios to understand the challenges women face.
+   - Real-world applications: Explore case studies of companies that successfully closed the gender pay gap through strategic initiatives.
+
+Week 3: Workplace Discrimination
+3. Main topic title: Understanding Workplace Discrimination
+   - Sub-topics:
+     1. Definition and types of workplace discrimination
+     2. Gender discrimination and its impact
+     3. Examples of workplace discrimination
+   - Explanation: This section will cover the different forms of workplace discrimination, with a focus on gender discrimination and its implications.
+   - Learning objectives: Students should be able to define workplace discrimination, recognize its manifestations, and understand the impact on employees.
+   - Estimated number of slides: 10
+   - Lab activities: Analyze discrimination cases in the workplace and discuss ways to address them.
+   - Real-world applications: Examine recent lawsuits related to gender discrimination in the workplace and their outcomes.
+
+Week 4: Gender Diversity Initiatives
+4. Main topic title: Gender Diversity Initiatives in the Workplace
+   - Sub-topics:
+     1. Gender-neutral recruitment processes
+     2. Unconscious bias training
+     3. Mentorship programs for women
+   - Explanation: This section will explore various initiatives that promote gender equality and create a more inclusive work environment.
+   - Learning objectives: Students should be able to identify key gender diversity initiatives and understand their importance in fostering equality.
+   - Estimated number of slides: 12
+   - Lab activities: Develop a gender diversity initiative plan for a fictional company.
+   - Real-world applications: Research and present on companies known for their successful gender diversity initiatives.
+
+Week 5: Unconscious Bias Training
+5. Main topic title: Unconscious Bias Training in the Workplace
+   - Sub-topics:
+     1. Definition and importance of unconscious bias training
+     2. Benefits of recognizing and mitigating biases
+     3. Practical strategies for addressing unconscious bias
+   - Explanation: This section will focus on the significance of unconscious bias training in promoting a more inclusive work environment.
+   - Learning objectives: Students should be able to define unconscious bias, recognize its impact, and implement strategies to mitigate biases.
+   - Estimated number of slides: 10
+   - Lab activities: Participate in unconscious bias training exercises and reflect on personal biases.
+   - Real-world applications: Discuss how unconscious bias impacts hiring and promotion decisions in real-world companies.
+
+Week 6: Flexible Work Arrangements and Parental Leave Policies
+6. Main topic title: Promoting Work-Life Balance and Gender Equality
+   - Sub-topics:
+     1. Importance of flexible work arrangements for gender equality
+     2. Benefits of remote work options
+     3. Impact of parental leave policies on gender equality
+   - Explanation: This section will explore the role of flexible work arrangements and parental leave policies in promoting work-life balance and gender equality.
+   - Learning objectives: Students should be able to evaluate the impact of work-life balance policies on gender equality in the workplace.
+   - Estimated number of slides: 12
+   - Lab activities: Design a flexible work arrangement policy for a diverse workforce.
+   - Real-world applications: Analyze the impact of flexible work arrangements on employee satisfaction and retention in different industries.
+
+By following this detailed teaching plan, senior undergraduate students will gain a comprehensive understanding of gender equality issues in the workplace and learn practical strategies to promote inclusivity and diversity within organizations.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Gender Equality in the Workplace) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Teaching Plan for Gender Equality in the Workplace:
+
+Week 1: Introduction to Gender Pay Gap
+1. Main topic title: Understanding the Gender Pay Gap
+   - Sub-topics:
+     1. Factors contributing to the gender pay gap
+     2. Impact of occupational segregation on gender pay disparity
+     3. Effects of caregiving responsibilities on women's earnings
+   - Explanation: This section will delve into the various factors that contribute to the gender pay gap, such as discrimination, occupational segregation, and caregiving responsibilities.
+   - Learning objectives: By the end of this topic, students should be able to identify key factors contributing to the gender pay gap and understand how these factors impact women's earnings.
+   - Estimated number of slides: 10
+   - Lab activities: Analyze wage data to identify disparities based on gender and occupation.
+   - Real-world applications: Discuss recent studies on the gender pay gap in different industries and regions.
+
+Week 2: Addressing the Gender Pay Gap
+2. Main topic title: Strategies to Address the Gender Pay Gap
+   - Sub-topics:
+     1. Conducting pay audits to identify disparities
+     2. Implementing transparent pay policies
+     3. Promoting salary negotiation training for women
+   - Explanation: This section will focus on practical strategies that companies can implement to address and reduce the gender pay gap.
+   - Learning objectives: Students should be able to identify effective strategies for addressing the gender pay gap in the workplace.
+   - Estimated number of slides: 12
+   - Lab activities: Role-playing salary negotiation scenarios to understand the challenges women face.
+   - Real-world applications: Explore case studies of companies that successfully closed the gender pay gap through strategic initiatives.
+
+Week 3: Workplace Discrimination
+3. Main topic title: Understanding Workplace Discrimination
+   - Sub-topics:
+     1. Definition and types of workplace discrimination
+     2. Gender discrimination and its impact
+     3. Examples of workplace discrimination
+   - Explanation: This section will cover the different forms of workplace discrimination, with a focus on gender discrimination and its implications.
+   - Learning objectives: Students should be able to define workplace discrimination, recognize its manifestations, and understand the impact on employees.
+   - Estimated number of slides: 10
+   - Lab activities: Analyze discrimination cases in the workplace and discuss ways to address them.
+   - Real-world applications: Examine recent lawsuits related to gender discrimination in the workplace and their outcomes.
+
+Week 4: Gender Diversity Initiatives
+4. Main topic title: Gender Diversity Initiatives in the Workplace
+   - Sub-topics:
+     1. Gender-neutral recruitment processes
+     2. Unconscious bias training
+     3. Mentorship programs for women
+   - Explanation: This section will explore various initiatives that promote gender equality and create a more inclusive work environment.
+   - Learning objectives: Students should be able to identify key gender diversity initiatives and understand their importance in fostering equality.
+   - Estimated number of slides: 12
+   - Lab activities: Develop a gender diversity initiative plan for a fictional company.
+   - Real-world applications: Research and present on companies known for their successful gender diversity initiatives.
+
+Week 5: Unconscious Bias Training
+5. Main topic title: Unconscious Bias Training in the Workplace
+   - Sub-topics:
+     1. Definition and importance of unconscious bias training
+     2. Benefits of recognizing and mitigating biases
+     3. Practical strategies for addressing unconscious bias
+   - Explanation: This section will focus on the significance of unconscious bias training in promoting a more inclusive work environment.
+   - Learning objectives: Students should be able to define unconscious bias, recognize its impact, and implement strategies to mitigate biases.
+   - Estimated number of slides: 10
+   - Lab activities: Participate in unconscious bias training exercises and reflect on personal biases.
+   - Real-world applications: Discuss how unconscious bias impacts hiring and promotion decisions in real-world companies.
+
+Week 6: Flexible Work Arrangements and Parental Leave Policies
+6. Main topic title: Promoting Work-Life Balance and Gender Equality
+   - Sub-topics:
+     1. Importance of flexible work arrangements for gender equality
+     2. Benefits of remote work options
+     3. Impact of parental leave policies on gender equality
+   - Explanation: This section will explore the role of flexible work arrangements and parental leave policies in promoting work-life balance and gender equality.
+   - Learning objectives: Students should be able to evaluate the impact of work-life balance policies on gender equality in the workplace.
+   - Estimated number of slides: 12
+   - Lab activities: Design a flexible work arrangement policy for a diverse workforce.
+   - Real-world applications: Analyze the impact of flexible work arrangements on employee satisfaction and retention in different industries.
+
+By following this detailed teaching plan, senior undergraduate students will gain a comprehensive understanding of gender equality issues in the workplace and learn practical strategies to promote inclusivity and diversity within organizations.}). Total slides available: {8}. Topics to allocate: {6}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[10, 12, 10, 12, 10, 12]
+.
+Slide allocation: [1, 1, 1, 2, 1, 2]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Gender Equality in the Workplace) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Teaching Plan for Gender Equality in the Workplace:
+
+Week 1: Introduction to Gender Pay Gap
+1. Main topic title: Understanding the Gender Pay Gap
+   - Sub-topics:
+     1. Factors contributing to the gender pay gap
+     2. Impact of occupational segregation on gender pay disparity
+     3. Effects of caregiving responsibilities on women's earnings
+   - Explanation: This section will delve into the various factors that contribute to the gender pay gap, such as discrimination, occupational segregation, and caregiving responsibilities.
+   - Learning objectives: By the end of this topic, students should be able to identify key factors contributing to the gender pay gap and understand how these factors impact women's earnings.
+   - Estimated number of slides: 10
+   - Lab activities: Analyze wage data to identify disparities based on gender and occupation.
+   - Real-world applications: Discuss recent studies on the gender pay gap in different industries and regions.
+
+Week 2: Addressing the Gender Pay Gap
+2. Main topic title: Strategies to Address the Gender Pay Gap
+   - Sub-topics:
+     1. Conducting pay audits to identify disparities
+     2. Implementing transparent pay policies
+     3. Promoting salary negotiation training for women
+   - Explanation: This section will focus on practical strategies that companies can implement to address and reduce the gender pay gap.
+   - Learning objectives: Students should be able to identify effective strategies for addressing the gender pay gap in the workplace.
+   - Estimated number of slides: 12
+   - Lab activities: Role-playing salary negotiation scenarios to understand the challenges women face.
+   - Real-world applications: Explore case studies of companies that successfully closed the gender pay gap through strategic initiatives.
+
+Week 3: Workplace Discrimination
+3. Main topic title: Understanding Workplace Discrimination
+   - Sub-topics:
+     1. Definition and types of workplace discrimination
+     2. Gender discrimination and its impact
+     3. Examples of workplace discrimination
+   - Explanation: This section will cover the different forms of workplace discrimination, with a focus on gender discrimination and its implications.
+   - Learning objectives: Students should be able to define workplace discrimination, recognize its manifestations, and understand the impact on employees.
+   - Estimated number of slides: 10
+   - Lab activities: Analyze discrimination cases in the workplace and discuss ways to address them.
+   - Real-world applications: Examine recent lawsuits related to gender discrimination in the workplace and their outcomes.
+
+Week 4: Gender Diversity Initiatives
+4. Main topic title: Gender Diversity Initiatives in the Workplace
+   - Sub-topics:
+     1. Gender-neutral recruitment processes
+     2. Unconscious bias training
+     3. Mentorship programs for women
+   - Explanation: This section will explore various initiatives that promote gender equality and create a more inclusive work environment.
+   - Learning objectives: Students should be able to identify key gender diversity initiatives and understand their importance in fostering equality.
+   - Estimated number of slides: 12
+   - Lab activities: Develop a gender diversity initiative plan for a fictional company.
+   - Real-world applications: Research and present on companies known for their successful gender diversity initiatives.
+
+Week 5: Unconscious Bias Training
+5. Main topic title: Unconscious Bias Training in the Workplace
+   - Sub-topics:
+     1. Definition and importance of unconscious bias training
+     2. Benefits of recognizing and mitigating biases
+     3. Practical strategies for addressing unconscious bias
+   - Explanation: This section will focus on the significance of unconscious bias training in promoting a more inclusive work environment.
+   - Learning objectives: Students should be able to define unconscious bias, recognize its impact, and implement strategies to mitigate biases.
+   - Estimated number of slides: 10
+   - Lab activities: Participate in unconscious bias training exercises and reflect on personal biases.
+   - Real-world applications: Discuss how unconscious bias impacts hiring and promotion decisions in real-world companies.
+
+Week 6: Flexible Work Arrangements and Parental Leave Policies
+6. Main topic title: Promoting Work-Life Balance and Gender Equality
+   - Sub-topics:
+     1. Importance of flexible work arrangements for gender equality
+     2. Benefits of remote work options
+     3. Impact of parental leave policies on gender equality
+   - Explanation: This section will explore the role of flexible work arrangements and parental leave policies in promoting work-life balance and gender equality.
+   - Learning objectives: Students should be able to evaluate the impact of work-life balance policies on gender equality in the workplace.
+   - Estimated number of slides: 12
+   - Lab activities: Design a flexible work arrangement policy for a diverse workforce.
+   - Real-world applications: Analyze the impact of flexible work arrangements on employee satisfaction and retention in different industries.
+
+By following this detailed teaching plan, senior undergraduate students will gain a comprehensive understanding of gender equality issues in the workplace and learn practical strategies to promote inclusivity and diversity within organizations.}). Slide allocation per topic: {[1, 1, 1, 2, 1, 2]}. Database content for reference: ({The gender pay gap refers to the difference in earnings between men and women in the workforce. Studies show that women, on average, earn less than men for the same work. Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving responsibilities. Clo...
+
+Companies can address the gender pay gap by conducting pay audits, implementing transparent pay policies, promoting salary negotiation training, creating mentorship programs for women, and fostering a culture of inclusion and diversity.
+
+Workplace discrimination refers to unfair or unequal treatment of employees based on factors such as gender, race, age, or disability. Gender discrimination specifically involves treating someone unfavorably because of their gender, which can manifest in various ways such as pay inequity, lack of pr...
+
+Workplace discrimination can take many forms, including but not limited to gender discrimination, racial discrimination, age discrimination, disability discrimination, and sexual orientation discrimination. Examples of workplace discrimination can include unequal pay, denial of promotions, harassmen...
+
+Gender diversity initiatives in the workplace are programs and policies designed to promote gender equality and create a more inclusive environment. Some of the top initiatives include gender-neutral recruitment processes, unconscious bias training, mentorship programs for women, flexible work arran...
+
+Gender diversity initiatives in the workplace are programs and policies implemented to promote equal opportunities for all employees regardless of gender. Some common initiatives include implementing unconscious bias training, creating mentorship programs for women, establishing gender-neutral paren...
+
+Unconscious bias training is a type of training designed to educate individuals about the unconscious biases they may hold, particularly in relation to issues such as gender, race, and other forms of diversity. The goal of this training is to help participants recognize and mitigate their biases in ...
+
+Unconscious bias training in the workplace helps employees recognize and understand their unconscious biases, leading to more inclusive decision-making processes. By raising awareness of biases, employees can make more objective choices and create a more diverse and equitable work environment. Addit...
+
+Flexible work arrangements, such as telecommuting, flextime, and compressed workweeks, are crucial for achieving gender equality in the workplace. These arrangements allow employees to better balance their work and personal responsibilities, which is especially important for women who often bear the...
+
+Offering remote work options can help promote gender equality in the workplace by providing flexibility for employees to balance work and personal responsibilities. Remote work can also help reduce the gender pay gap by allowing employees to work from anywhere, regardless of their location or caregi...
+
+Parental leave policies play a crucial role in promoting gender equality in the workplace by allowing both mothers and fathers to take time off to care for their children. These policies help to reduce the burden on women, who traditionally take on the majority of caregiving responsibilities, and en...
+
+Paternity leave policies have been shown to have a positive impact on gender equality in the workplace by promoting a more equal distribution of caregiving responsibilities between men and women. When fathers are encouraged to take time off work to care for their children, it helps to break down tra...
+
+Employee Resource Groups (ERGs) are voluntary, employee-led groups within companies that aim to foster a diverse and inclusive workplace. These groups often focus on specific demographics, such as women, LGBTQ+ individuals, or people of color, to provide support, networking opportunities, and profes...
+
+Employee resource groups (ERGs) are voluntary, employee-led groups within organizations that are formed based on shared characteristics, backgrounds, or interests. These groups play a crucial role in promoting gender equality in the workplace by providing a platform for employees to connect, support...
+
+Gender equality training in the workplace helps educate employees on issues related to gender bias, discrimination, and stereotypes. It aims to create a more inclusive and diverse work environment where all employees feel valued and respected. By raising awareness and promoting understanding, gender...
+
+Gender equality training in the workplace is essential for creating a more inclusive and diverse environment. It helps employees understand the importance of gender equality, recognize unconscious biases, and promotes a culture of respect and equality. By providing this training, companies can reduc...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+Raw response:
+1. Factors contributing to the gender pay gap
+2. Strategies for conducting pay audits
+3. Examples of workplace discrimination
+4. Gender diversity initiatives in recruitment
+5. Importance of unconscious bias training
+6. Benefits of flexible work arrangements
+7. Impact of parental leave policies
+8. Employee Resource Groups (ERGs) for gender equality
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_13-54-49.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_13-54-49.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_13-54-55.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+✅ Content validation passed - suitable for 3 credit hours
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Gender Equality in the Workplace
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Factors contributing to the gender pay gap)
+🔍 DEBUG: Slide 1 content set to: '• Discrimination, occupational segregation, and caregiving responsibilities are key factors contribu...'
+🔍 DEBUG: Slide 1 content length: 435
+✅ Slide 1 content: • Discrimination, occupational segregation, and caregiving responsibilities are key factors contributing to the gender pay gap
+• Discrimination involves treating individuals unfavorably based on gender, leading to unequal pay
+• Occupational segregation restricts women to lower-paying jobs, exacerbating pay disparities
+• Caregiving responsibilities, often falling on women, result in career interruptions and reduced earning potential
+Generating content for slide 2 (Topic: Strategies for conducting pay audits)
+🔍 DEBUG: Slide 2 content set to: 'Conducting pay audits is a key strategy to address the gender pay gap Implementing transparent pay p...'
+🔍 DEBUG: Slide 2 content length: 300
+✅ Slide 2 content: - Conducting pay audits is a key strategy to address the gender pay gap
+- Implementing transparent pay policies promotes fairness and equity in compensation
+- Salary negotiation training can empower women to advocate for equal pay
+- Mentorship programs for women support career advancement and salary growth.
+Generating content for slide 3 (Topic: Examples of workplace discrimination)
+🔍 DEBUG: Slide 3 content set to: '• Unequal pay is a common form of workplace discrimination based on gender • Denial of promotions ca...'
+🔍 DEBUG: Slide 3 content length: 353
+✅ Slide 3 content: • Unequal pay is a common form of workplace discrimination based on gender
+• Denial of promotions can be a discriminatory practice against women
+• Harassment, such as sexual harassment, is a serious example of gender discrimination in the workplace
+• Unfair treatment due to protected characteristics like gender contributes to workplace discrimination.
+Generating content for slide 4 (Topic: Gender diversity initiatives in recruitment)
+🔍 DEBUG: Slide 4 content set to: '• Gender diversity initiatives in recruitment focus on promoting equal opportunities for all candida...'
+🔍 DEBUG: Slide 4 content length: 430
+✅ Slide 4 content: • Gender diversity initiatives in recruitment focus on promoting equal opportunities for all candidates
+• Implementing gender-neutral recruitment processes can help mitigate bias in hiring decisions
+• Unconscious bias training for recruiters can enhance awareness and reduce discriminatory practices
+• Mentorship programs for underrepresented genders in the recruitment process support career growth and diversity in the workplace
+Generating content for slide 5 (Topic: Importance of unconscious bias training)
+🔍 DEBUG: Slide 5 content set to: '• Gender equality training in the workplace educates on gender bias, discrimination, and stereotypes...'
+🔍 DEBUG: Slide 5 content length: 334
+✅ Slide 5 content: • Gender equality training in the workplace educates on gender bias, discrimination, and stereotypes
+• Aims to create inclusive, diverse environment for all employees
+• Promotes collaboration, creativity, and productivity among team members
+• Raises awareness, enhances understanding, and fosters respect and equality in the workplace
+Generating content for slide 6 (Topic: Benefits of flexible work arrangements)
+🔍 DEBUG: Slide 6 content set to: '• Flexible work arrangements, such as telecommuting and flextime, are essential for gender equality ...'
+🔍 DEBUG: Slide 6 content length: 369
+✅ Slide 6 content: • Flexible work arrangements, such as telecommuting and flextime, are essential for gender equality in the workplace
+• These arrangements help employees balance work and personal responsibilities, crucial for women with caregiving duties
+• Companies offering flexible work options attract top talent, boost satisfaction, productivity, and create inclusive environments.
+Generating content for slide 7 (Topic: Impact of parental leave policies)
+🔍 DEBUG: Slide 7 content set to: '• Parental leave policies promote gender equality by allowing both mothers and fathers to care for c...'
+🔍 DEBUG: Slide 7 content length: 369
+✅ Slide 7 content: • Parental leave policies promote gender equality by allowing both mothers and fathers to care for children
+• Reduces burden on women and encourages men to take active caregiving roles
+• Creates inclusive work environment by providing equal opportunities for parental leave uptake
+• Source: The Importance of Parental Leave Policies for Gender Equality in the Workplace
+Generating content for slide 8 (Topic: Employee Resource Groups (ERGs) for gender equality)
+🔍 DEBUG: Slide 8 content set to: '• Employee Resource Groups (ERGs) are voluntary, employee-led groups within companies • ERGs focus o...'
+🔍 DEBUG: Slide 8 content length: 344
+✅ Slide 8 content: • Employee Resource Groups (ERGs) are voluntary, employee-led groups within companies
+• ERGs focus on fostering a diverse and inclusive workplace
+• These groups advocate for policies supporting gender diversity and inclusion
+• ERGs provide support, networking opportunities, and professional development for specific demographics, such as women
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Factors contributing to the gender pay gap)
+✅ Slide 1 title: Factors Contributing to Gender Pay Gap
+Generating title for slide 2 (Topic: Strategies for conducting pay audits)
+✅ Slide 2 title: Strategies for Pay Audits in Gender Pay Gap
+Generating title for slide 3 (Topic: Examples of workplace discrimination)
+✅ Slide 3 title: Examples of Workplace Discrimination
+Generating title for slide 4 (Topic: Gender diversity initiatives in recruitment)
+✅ Slide 4 title: Gender Diversity in Recruitment Initiatives
+Generating title for slide 5 (Topic: Importance of unconscious bias training)
+✅ Slide 5 title: "Benefits of Unconscious Bias Training"
+Generating title for slide 6 (Topic: Benefits of flexible work arrangements)
+✅ Slide 6 title: Maximizing Workplace Flexibility for Gender Equality
+Generating title for slide 7 (Topic: Impact of parental leave policies)
+✅ Slide 7 title: "The Impact of Parental Leave Policies"
+Generating title for slide 8 (Topic: Employee Resource Groups (ERGs) for gender equality)
+✅ Slide 8 title: "Empowerment Through Employee Resource Groups (ERGs)"
+Generating overall presentation title...
+✅ Overall presentation title: Advancing Gender Equality in the Workplace: Strategies and Solutions
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Factors contributing to the gender pay gap)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Strategies for conducting pay audits)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Examples of workplace discrimination)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Gender diversity initiatives in recruitment)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Importance of unconscious bias training)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Benefits of flexible work arrangements)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Impact of parental leave policies)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Employee Resource Groups (ERGs) for gender equality)
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Factors contributing to the gender pay gap)
+⚠️ Warning: Slide 1 content is long (553 chars) - consider reducing
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Strategies for conducting pay audits)
+⚠️ Warning: Slide 2 content is long (612 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Examples of workplace discrimination)
+⚠️ Warning: Slide 3 content is long (545 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Gender diversity initiatives in recruitment)
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Importance of unconscious bias training)
+⚠️ Warning: Slide 5 content is long (540 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Benefits of flexible work arrangements)
+⚠️ Warning: Slide 6 content is long (613 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Impact of parental leave policies)
+⚠️ Warning: Slide 7 content is long (597 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Employee Resource Groups (ERGs) for gender equality)
+⚠️ Warning: Slide 8 content is long (571 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Advancing_Gender_Equality_in_the_Workplace_Strategies_and_Solutions_2025-08-31_13-55-31
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancing_Gender_Equality_in_the_Workplace_Strategies_and_Solutions_2025-08-31_13-55-31.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancing_Gender_Equality_in_the_Workplace_Strategies_and_Solutions_2025-08-31_13-55-31.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 6 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancing_Gender_Equality_in_the_Workplace_Strategies_and_Solutions_2025-08-31_13-55-31.pptx
+📊 Rating presentation 6...
+✅ Presentation 6 rated successfully
+📈 Overall Rating: 6.65 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.08 / 2.00
+   - Non-Repetition: 1.76 / 2.00
+   - Content Balance: 1.66 / 2.00
+   - Title Uniqueness: 1.94 / 2.00
+   - Title-Content Match: 1.20 / 2.00
+💾 Result saved to file for presentation 6
+
+📊 Presentation 8/20 (ID: 7)
+📝 Using topic: Vaccine Development Process
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

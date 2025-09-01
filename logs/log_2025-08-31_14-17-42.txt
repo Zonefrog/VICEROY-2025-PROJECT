@@ -1,0 +1,886 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T14:17:42.836123
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_14-17-42.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 4...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Medical Technology Advances
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Artificial intelligence in medical imaging, Robotics in surgery
+Selected topics: ['Artificial intelligence in medical imaging', 'Robotics in surgery']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Artificial intelligence in medical imaging
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ARTIFICIAL INTELLIGENCE IN MEDICAL IMAGING** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of Artificial Intelligence in Medical Imaging",
+    "keywords": ["artificial intelligence", "medical imaging", "technology", "advancements", "healthcare"],
+    "text": "Artificial intelligence (AI) has made significant advancements in the field of medical imaging, revolutionizing the way healthcare professionals analyze and interpret medical images. AI algorithms can assist in the early detection of diseases, provide more accurate diagnoses, and improve patient outcomes. By leveraging machine learning and deep learning techniques, AI can process large amounts of imaging data quickly and efficiently, helping radiologists and other healthcare providers make more informed decisions. The integration of AI in medical imaging is paving the way for personalized medicine and more precise treatment plans for patients.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6684554/"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: The Role of Artificial Intelligence in Medical Imaging
+Keywords: artificial intelligence, medical imaging, technology, advancements, healthcare
+Uses: 0
+Text: Artificial intelligence (AI) has made significant advancements in the field of medical imaging, revolutionizing the way healthcare professionals analyze and interpret medical images. AI algorithms can assist in the early detection of diseases, provide more accurate diagnoses, and improve patient outcomes. By leveraging machine learning and deep learning techniques, AI can process large amounts of imaging data quickly and efficiently, helping radiologists and other healthcare providers make more informed decisions. The integration of AI in medical imaging is paving the way for personalized medicine and more precise treatment plans for patients.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6684554/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ARTIFICIAL INTELLIGENCE IN MEDICAL IMAGING** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging",
+    "keywords": ["artificial intelligence", "breast cancer detection", "medical imaging"],
+    "text": "Artificial intelligence has made significant advancements in the field of medical imaging, particularly in the early detection of breast cancer. AI algorithms can analyze mammograms with high accuracy, helping radiologists identify potential abnormalities that may indicate the presence of cancer. This technology has the potential to improve diagnostic accuracy and efficiency, ultimately leading to better patient outcomes.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7590616/"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging
+Keywords: artificial intelligence, breast cancer detection, medical imaging
+Uses: 0
+Text: Artificial intelligence has made significant advancements in the field of medical imaging, particularly in the early detection of breast cancer. AI algorithms can analyze mammograms with high accuracy, helping radiologists identify potential abnormalities that may indicate the presence of cancer. This technology has the potential to improve diagnostic accuracy and efficiency, ultimately leading to better patient outcomes.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7590616/
+Researching topic: Robotics in surgery
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROBOTICS IN SURGERY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of Robotics in Surgery",
+    "keywords": ["robotics in surgery", "surgical robots", "minimally invasive surgery", "robot-assisted surgery"],
+    "text": "Robotics in surgery involves the use of robotic systems to assist surgeons in performing complex procedures with precision and control. These surgical robots are designed to enhance the surgeon's capabilities, offering greater dexterity and visualization during operations. The use of robotics in surgery has led to advancements in minimally invasive procedures, allowing for smaller incisions, less pain, and faster recovery times for patients.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6091988/"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: The Role of Robotics in Surgery
+Keywords: robotics in surgery, surgical robots, minimally invasive surgery, robot-assisted surgery
+Uses: 0
+Text: Robotics in surgery involves the use of robotic systems to assist surgeons in performing complex procedures with precision and control. These surgical robots are designed to enhance the surgeon's capabilities, offering greater dexterity and visualization during operations. The use of robotics in surgery has led to advancements in minimally invasive procedures, allowing for smaller incisions, less pain, and faster recovery times for patients.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6091988/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROBOTICS IN SURGERY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Recent Advances in Robotic Surgery Technology",
+    "keywords": ["robotic surgery", "surgical robots", "minimally invasive surgery", "da Vinci Surgical System"],
+    "text": "Robotic surgery technology has seen significant advancements in recent years, allowing for more precise and minimally invasive procedures. The da Vinci Surgical System is one of the most well-known surgical robots, enabling surgeons to operate with enhanced dexterity and control. These advancements have led to reduced recovery times, less scarring, and improved patient outcomes.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6500345/"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Recent Advances in Robotic Surgery Technology
+Keywords: robotic surgery, surgical robots, minimally invasive surgery, da Vinci Surgical System
+Uses: 0
+Text: Robotic surgery technology has seen significant advancements in recent years, allowing for more precise and minimally invasive procedures. The da Vinci Surgical System is one of the most well-known surgical robots, enabling surgeons to operate with enhanced dexterity and control. These advancements have led to reduced recovery times, less scarring, and improved patient outcomes.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6500345/
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Artificial intelligence in medical imaging', 'Robotics in surgery']. The research these yeilded is: ({Artificial intelligence (AI) has made significant advancements in the field of medical imaging, revolutionizing the way healthcare professionals analyze and interpret medical images. AI algorithms can assist in the early detection of diseases, provide more accurate diagnoses, and improve patient outcomes. By leveraging machine learning and deep learning techniques, AI can process large amounts of imaging data quickly and efficiently, helping radiologists and other healthcare providers make more informed decisions. The integration of AI in medical imaging is paving the way for personalized medicine and more precise treatment plans for patients.
+
+Artificial intelligence has made significant advancements in the field of medical imaging, particularly in the early detection of breast cancer. AI algorithms can analyze mammograms with high accuracy, helping radiologists identify potential abnormalities that may indicate the presence of cancer. This technology has the potential to improve diag (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Virtual reality in surgical training, Wearable technology for patient monitoring, Telemedicine for remote healthcare access, Nanotechnology in drug delivery, 3D printing in prosthetics and implants, Augmented reality for surgical navigation
+Selected topics: ['Virtual reality in surgical training', 'Wearable technology for patient monitoring', 'Telemedicine for remote healthcare access', 'Nanotechnology in drug delivery', 'D printing in prosthetics and implants', 'Augmented reality for surgical navigation']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Virtual reality in surgical training
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery', 'Recent Advances in Robotic Surgery Technology']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VIRTUAL REALITY IN SURGICAL TRAINING** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of Virtual Reality in Surgical Training",
+    "keywords": ["Virtual Reality", "Surgical Training", "Medical Technology", "Simulation"],
+    "text": "Virtual reality technology is increasingly being used in surgical training to provide realistic simulations for medical professionals. Surgeons can practice procedures in a safe and controlled environment, improving their skills and decision-making abilities. These simulations can help reduce errors during actual surgeries and enhance the overall quality of patient care.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6261218/"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: The Role of Virtual Reality in Surgical Training
+Keywords: Virtual Reality, Surgical Training, Medical Technology, Simulation
+Uses: 0
+Text: Virtual reality technology is increasingly being used in surgical training to provide realistic simulations for medical professionals. Surgeons can practice procedures in a safe and controlled environment, improving their skills and decision-making abilities. These simulations can help reduce errors during actual surgeries and enhance the overall quality of patient care.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6261218/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery', 'Recent Advances in Robotic Surgery Technology', 'The Role of Virtual Reality in Surgical Training']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VIRTUAL REALITY IN SURGICAL TRAINING** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Benefits of Virtual Reality in Surgical Training",
+    "keywords": ["virtual reality", "surgical training", "medical education", "simulation", "immersive technology"],
+    "text": "Virtual reality technology is increasingly being used in surgical training to provide a realistic and immersive learning experience for medical professionals. By using VR simulations, surgeons can practice procedures in a safe environment before operating on actual patients. This helps improve their skills, confidence, and decision-making abilities. VR also allows for repetitive practice without the need for expensive equipment or cadavers, making it a cost-effective and accessible training tool.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5588886/"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: The Benefits of Virtual Reality in Surgical Training
+Keywords: virtual reality, surgical training, medical education, simulation, immersive technology
+Uses: 0
+Text: Virtual reality technology is increasingly being used in surgical training to provide a realistic and immersive learning experience for medical professionals. By using VR simulations, surgeons can practice procedures in a safe environment before operating on actual patients. This helps improve their skills, confidence, and decision-making abilities. VR also allows for repetitive practice without the need for expensive equipment or cadavers, making it a cost-effective and accessible training tool.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5588886/
+Researching topic: Wearable technology for patient monitoring
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery', 'Recent Advances in Robotic Surgery Technology', 'The Role of Virtual Reality in Surgical Training', 'The Benefits of Virtual Reality in Surgical Training']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WEARABLE TECHNOLOGY FOR PATIENT MONITORING** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of Wearable Technology in Patient Monitoring",
+    "keywords": ["wearable technology", "patient monitoring", "healthcare", "medical devices"],
+    "text": "Wearable technology plays a crucial role in patient monitoring by providing continuous real-time data on various health parameters. These devices can track vital signs, activity levels, sleep patterns, and more, allowing healthcare providers to remotely monitor patients and intervene when necessary. With the advancements in wearable sensors and wireless technology, patients can now receive personalized care and stay connected to their healthcare providers outside of traditional clinical settings.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6041245/"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: The Role of Wearable Technology in Patient Monitoring
+Keywords: wearable technology, patient monitoring, healthcare, medical devices
+Uses: 0
+Text: Wearable technology plays a crucial role in patient monitoring by providing continuous real-time data on various health parameters. These devices can track vital signs, activity levels, sleep patterns, and more, allowing healthcare providers to remotely monitor patients and intervene when necessary. With the advancements in wearable sensors and wireless technology, patients can now receive personalized care and stay connected to their healthcare providers outside of traditional clinical settings.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6041245/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery', 'Recent Advances in Robotic Surgery Technology', 'The Role of Virtual Reality in Surgical Training', 'The Benefits of Virtual Reality in Surgical Training', 'The Role of Wearable Technology in Patient Monitoring']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WEARABLE TECHNOLOGY FOR PATIENT MONITORING** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of Wearable Technology in Chronic Disease Management",
+    "keywords": ["wearable technology", "patient monitoring", "chronic disease management"],
+    "text": "Wearable technology plays a crucial role in chronic disease management by providing continuous monitoring of vital signs and health metrics. These devices allow for real-time tracking of parameters such as heart rate, blood pressure, blood glucose levels, and activity levels, enabling early detection of any abnormalities or changes in health status. Patients can easily share this data with healthcare providers, leading to more personalized and proactive care plans. Overall, wearable technology empowers individuals to take control of their health and improves the management of chronic conditions.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6456380/"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: The Role of Wearable Technology in Chronic Disease Management
+Keywords: wearable technology, patient monitoring, chronic disease management
+Uses: 0
+Text: Wearable technology plays a crucial role in chronic disease management by providing continuous monitoring of vital signs and health metrics. These devices allow for real-time tracking of parameters such as heart rate, blood pressure, blood glucose levels, and activity levels, enabling early detection of any abnormalities or changes in health status. Patients can easily share this data with healthcare providers, leading to more personalized and proactive care plans. Overall, wearable technology empowers individuals to take control of their health and improves the management of chronic conditions.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6456380/
+Researching topic: Telemedicine for remote healthcare access
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery', 'Recent Advances in Robotic Surgery Technology', 'The Role of Virtual Reality in Surgical Training', 'The Benefits of Virtual Reality in Surgical Training', 'The Role of Wearable Technology in Patient Monitoring', 'The Role of Wearable Technology in Chronic Disease Management']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TELEMEDICINE FOR REMOTE HEALTHCARE ACCESS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 3.8 <= 5.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Role of Telemedicine in Remote Healthcare Access",
+    "keywords": ["telemedicine", "remote healthcare access", "telehealth", "virtual care", "digital health"],
+    "text": "Telemedicine refers to the use of technology to provide healthcare services remotely. It allows patients to consult with healthcare providers via video calls, phone calls, or secure messaging, eliminating the need for in-person visits. Telemedicine plays a crucial role in providing healthcare access to individuals in remote or underserved areas, as well as those who have difficulty traveling to healthcare facilities. It has been particularly useful during the COVID-19 pandemic, enabling patients to receive care while minimizing the risk of exposure to the virus.",
+    "link": "https://www.who.int/goe/publications/goe_telemedicine_2010.pdf"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Role of Telemedicine in Remote Healthcare Access",
+    "keywords": ["telemedicine", "remote healthcare access", "telehealth", "virtual care", "telemedicine benefits"],
+    "text": "Telemedicine allows patients to access healthcare remotely through technology such as video calls and online consultations. This helps individuals in rural or underserved areas receive medical care without having to travel long distances. Telemedicine also provides a convenient and efficient way for patients to consult with healthcare providers, leading to improved access to healthcare services and potentially better health outcomes.",
+    "link": "https://www.who.int/goe/publications/goe_telemedicine_2010.pdf"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "The Role of Telemedicine in Remote Healthcare Access",
+    "keywords": ["telemedicine", "remote healthcare access", "telehealth", "virtual care", "telemedicine benefits"],
+    "text": "Telemedicine allows patients to access healthcare remotely through technology such as video calls and online consultations. This helps individuals in rural or underserved areas receive medical care without having to travel long distances. Telemedicine also provides a convenient and efficient way for patients to consult with healthcare providers, leading to improved access to healthcare services and potentially better health outcomes.",
+    "link": "https://www.who.int/goe/publications/goe_telemedicine_2010.pdf"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: The Role of Telemedicine in Remote Healthcare Access
+Keywords: telemedicine, remote healthcare access, telehealth, virtual care, telemedicine benefits
+Uses: 0
+Text: Telemedicine allows patients to access healthcare remotely through technology such as video calls and online consultations. This helps individuals in rural or underserved areas receive medical care without having to travel long distances. Telemedicine also provides a convenient and efficient way for patients to consult with healthcare providers, leading to improved access to healthcare services and potentially better health outcomes.Link: https://www.who.int/goe/publications/goe_telemedicine_2010.pdf
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery', 'Recent Advances in Robotic Surgery Technology', 'The Role of Virtual Reality in Surgical Training', 'The Benefits of Virtual Reality in Surgical Training', 'The Role of Wearable Technology in Patient Monitoring', 'The Role of Wearable Technology in Chronic Disease Management', 'The Role of Telemedicine in Remote Healthcare Access']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **TELEMEDICINE FOR REMOTE HEALTHCARE ACCESS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of Telemedicine in Remote Healthcare Access: A Comprehensive Guide",
+    "keywords": ["telemedicine", "remote healthcare access", "telehealth", "virtual care", "telemedicine benefits"],
+    "text": "Telemedicine, also known as telehealth or virtual care, is a rapidly growing field that leverages technology to provide healthcare services remotely. This allows patients to access medical care from the comfort of their own homes, eliminating the need for in-person visits. Telemedicine offers numerous benefits, including increased access to healthcare for individuals in rural or underserved areas, reduced healthcare costs, and improved patient outcomes through better monitoring and management of chronic conditions.",
+    "link": "https://www.who.int/goe/publications/goe_telemedicine_2010.pdf"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: The Role of Telemedicine in Remote Healthcare Access: A Comprehensive Guide
+Keywords: telemedicine, remote healthcare access, telehealth, virtual care, telemedicine benefits
+Uses: 0
+Text: Telemedicine, also known as telehealth or virtual care, is a rapidly growing field that leverages technology to provide healthcare services remotely. This allows patients to access medical care from the comfort of their own homes, eliminating the need for in-person visits. Telemedicine offers numerous benefits, including increased access to healthcare for individuals in rural or underserved areas, reduced healthcare costs, and improved patient outcomes through better monitoring and management of chronic conditions.Link: https://www.who.int/goe/publications/goe_telemedicine_2010.pdf
+Researching topic: Nanotechnology in drug delivery
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery', 'Recent Advances in Robotic Surgery Technology', 'The Role of Virtual Reality in Surgical Training', 'The Benefits of Virtual Reality in Surgical Training', 'The Role of Wearable Technology in Patient Monitoring', 'The Role of Wearable Technology in Chronic Disease Management', 'The Role of Telemedicine in Remote Healthcare Access', 'The Role of Telemedicine in Remote Healthcare Access: A Comprehensive Guide']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **NANOTECHNOLOGY IN DRUG DELIVERY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Nanotechnology in Drug Delivery: A Comprehensive Overview",
+    "keywords": ["nanotechnology", "drug delivery", "nanoparticles", "nanomedicine"],
+    "text": "Nanotechnology in drug delivery refers to the use of nanoscale materials such as nanoparticles for the targeted delivery of drugs to specific cells or tissues in the body. Nanoparticles can be engineered to have unique properties that allow them to carry drugs more efficiently, increase drug stability, and reduce side effects. This approach has the potential to revolutionize the field of medicine by improving drug efficacy and reducing toxicity.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3223379/"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Nanotechnology in Drug Delivery: A Comprehensive Overview
+Keywords: nanotechnology, drug delivery, nanoparticles, nanomedicine
+Uses: 0
+Text: Nanotechnology in drug delivery refers to the use of nanoscale materials such as nanoparticles for the targeted delivery of drugs to specific cells or tissues in the body. Nanoparticles can be engineered to have unique properties that allow them to carry drugs more efficiently, increase drug stability, and reduce side effects. This approach has the potential to revolutionize the field of medicine by improving drug efficacy and reducing toxicity.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3223379/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery', 'Recent Advances in Robotic Surgery Technology', 'The Role of Virtual Reality in Surgical Training', 'The Benefits of Virtual Reality in Surgical Training', 'The Role of Wearable Technology in Patient Monitoring', 'The Role of Wearable Technology in Chronic Disease Management', 'The Role of Telemedicine in Remote Healthcare Access', 'The Role of Telemedicine in Remote Healthcare Access: A Comprehensive Guide', 'Nanotechnology in Drug Delivery: A Comprehensive Overview']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **NANOTECHNOLOGY IN DRUG DELIVERY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Applications of Nanotechnology in Cancer Drug Delivery",
+    "keywords": ["nanotechnology", "drug delivery", "cancer", "applications"],
+    "text": "Nanotechnology has shown great promise in the field of cancer treatment by revolutionizing drug delivery systems. Nanoparticles can be engineered to target specific cancer cells, reducing side effects and improving treatment efficacy. These nanoparticles can carry chemotherapy drugs directly to tumor sites, enhancing their accumulation and retention. Additionally, nanotechnology allows for the controlled release of drugs, improving their bioavailability and therapeutic effect.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6936292/"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Applications of Nanotechnology in Cancer Drug Delivery
+Keywords: nanotechnology, drug delivery, cancer, applications
+Uses: 0
+Text: Nanotechnology has shown great promise in the field of cancer treatment by revolutionizing drug delivery systems. Nanoparticles can be engineered to target specific cancer cells, reducing side effects and improving treatment efficacy. These nanoparticles can carry chemotherapy drugs directly to tumor sites, enhancing their accumulation and retention. Additionally, nanotechnology allows for the controlled release of drugs, improving their bioavailability and therapeutic effect.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6936292/
+Researching topic: D printing in prosthetics and implants
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery', 'Recent Advances in Robotic Surgery Technology', 'The Role of Virtual Reality in Surgical Training', 'The Benefits of Virtual Reality in Surgical Training', 'The Role of Wearable Technology in Patient Monitoring', 'The Role of Wearable Technology in Chronic Disease Management', 'The Role of Telemedicine in Remote Healthcare Access', 'The Role of Telemedicine in Remote Healthcare Access: A Comprehensive Guide', 'Nanotechnology in Drug Delivery: A Comprehensive Overview', 'Applications of Nanotechnology in Cancer Drug Delivery']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **D PRINTING IN PROSTHETICS AND IMPLANTS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "3D Printing in Prosthetics and Implants: Advancements and Applications",
+    "keywords": ["3D printing", "prosthetics", "implants", "advancements", "applications"],
+    "text": "3D printing technology has revolutionized the field of prosthetics and implants by allowing for customized, precise, and cost-effective solutions. Prosthetic limbs can now be tailored to fit the individual's unique anatomy, improving comfort and functionality. Implants, such as dental implants and orthopedic implants, can also be created using 3D printing for a more precise fit and better integration with the body. This technology has the potential to significantly improve patient outcomes and quality of life.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7144359/"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: 3D Printing in Prosthetics and Implants: Advancements and Applications
+Keywords: 3D printing, prosthetics, implants, advancements, applications
+Uses: 0
+Text: 3D printing technology has revolutionized the field of prosthetics and implants by allowing for customized, precise, and cost-effective solutions. Prosthetic limbs can now be tailored to fit the individual's unique anatomy, improving comfort and functionality. Implants, such as dental implants and orthopedic implants, can also be created using 3D printing for a more precise fit and better integration with the body. This technology has the potential to significantly improve patient outcomes and quality of life.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7144359/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery', 'Recent Advances in Robotic Surgery Technology', 'The Role of Virtual Reality in Surgical Training', 'The Benefits of Virtual Reality in Surgical Training', 'The Role of Wearable Technology in Patient Monitoring', 'The Role of Wearable Technology in Chronic Disease Management', 'The Role of Telemedicine in Remote Healthcare Access', 'The Role of Telemedicine in Remote Healthcare Access: A Comprehensive Guide', 'Nanotechnology in Drug Delivery: A Comprehensive Overview', 'Applications of Nanotechnology in Cancer Drug Delivery', '3D Printing in Prosthetics and Implants: Advancements and Applications']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **D PRINTING IN PROSTHETICS AND IMPLANTS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Custom 3D Printed Prosthetics and Implants: Advancements and Applications",
+    "keywords": ["3D printing", "prosthetics", "implants", "customization", "advancements", "applications"],
+    "text": "3D printing technology has revolutionized the field of prosthetics and implants by allowing for the creation of customized devices tailored to individual patients. This personalization leads to better comfort, fit, and function for the wearer. Advances in materials used for 3D printing have also improved the durability and biomechanical properties of prosthetics and implants. The applications of 3D printing in this field range from creating prosthetic limbs to custom implants for bone reconstruction.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7144831/"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Custom 3D Printed Prosthetics and Implants: Advancements and Applications
+Keywords: 3D printing, prosthetics, implants, customization, advancements, applications
+Uses: 0
+Text: 3D printing technology has revolutionized the field of prosthetics and implants by allowing for the creation of customized devices tailored to individual patients. This personalization leads to better comfort, fit, and function for the wearer. Advances in materials used for 3D printing have also improved the durability and biomechanical properties of prosthetics and implants. The applications of 3D printing in this field range from creating prosthetic limbs to custom implants for bone reconstruction.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7144831/
+Researching topic: Augmented reality for surgical navigation
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery', 'Recent Advances in Robotic Surgery Technology', 'The Role of Virtual Reality in Surgical Training', 'The Benefits of Virtual Reality in Surgical Training', 'The Role of Wearable Technology in Patient Monitoring', 'The Role of Wearable Technology in Chronic Disease Management', 'The Role of Telemedicine in Remote Healthcare Access', 'The Role of Telemedicine in Remote Healthcare Access: A Comprehensive Guide', 'Nanotechnology in Drug Delivery: A Comprehensive Overview', 'Applications of Nanotechnology in Cancer Drug Delivery', '3D Printing in Prosthetics and Implants: Advancements and Applications', 'Custom 3D Printed Prosthetics and Implants: Advancements and Applications']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **AUGMENTED REALITY FOR SURGICAL NAVIGATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Augmented Reality for Surgical Navigation",
+    "keywords": ["augmented reality", "surgical navigation", "medical technology", "surgery", "navigation system"],
+    "text": "Augmented reality (AR) for surgical navigation is a cutting-edge technology that overlays digital information onto the surgeon's view during a procedure. This technology can provide real-time guidance, enhance visualization of critical structures, and improve accuracy in surgical tasks. By using AR, surgeons can have a better understanding of complex anatomy, leading to more precise and efficient surgeries.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6615250/"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Augmented Reality for Surgical Navigation
+Keywords: augmented reality, surgical navigation, medical technology, surgery, navigation system
+Uses: 0
+Text: Augmented reality (AR) for surgical navigation is a cutting-edge technology that overlays digital information onto the surgeon's view during a procedure. This technology can provide real-time guidance, enhance visualization of critical structures, and improve accuracy in surgical tasks. By using AR, surgeons can have a better understanding of complex anatomy, leading to more precise and efficient surgeries.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6615250/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Role of Artificial Intelligence in Medical Imaging', 'The Impact of Artificial Intelligence on Breast Cancer Detection in Medical Imaging', 'The Role of Robotics in Surgery', 'Recent Advances in Robotic Surgery Technology', 'The Role of Virtual Reality in Surgical Training', 'The Benefits of Virtual Reality in Surgical Training', 'The Role of Wearable Technology in Patient Monitoring', 'The Role of Wearable Technology in Chronic Disease Management', 'The Role of Telemedicine in Remote Healthcare Access', 'The Role of Telemedicine in Remote Healthcare Access: A Comprehensive Guide', 'Nanotechnology in Drug Delivery: A Comprehensive Overview', 'Applications of Nanotechnology in Cancer Drug Delivery', '3D Printing in Prosthetics and Implants: Advancements and Applications', 'Custom 3D Printed Prosthetics and Implants: Advancements and Applications', 'Augmented Reality for Surgical Navigation']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **AUGMENTED REALITY FOR SURGICAL NAVIGATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Augmented Reality in Surgical Navigation: A Game-Changer in the Operating Room",
+    "keywords": ["augmented reality", "surgical navigation", "operating room", "medical technology"],
+    "text": "Augmented reality (AR) technology is revolutionizing the way surgeons navigate during procedures in the operating room. By overlaying digital information onto the surgeon's field of view in real-time, AR systems provide enhanced visualization of anatomical structures, critical information, and guidance during surgery. This technology allows for more precise and efficient procedures, ultimately improving patient outcomes.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7682333/"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Augmented Reality in Surgical Navigation: A Game-Changer in the Operating Room
+Keywords: augmented reality, surgical navigation, operating room, medical technology
+Uses: 0
+Text: Augmented reality (AR) technology is revolutionizing the way surgeons navigate during procedures in the operating room. By overlaying digital information onto the surgeon's field of view in real-time, AR systems provide enhanced visualization of anatomical structures, critical information, and guidance during surgery. This technology allows for more precise and efficient procedures, ultimately improving patient outcomes.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7682333/
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Artificial intelligence (AI) has made significant advancements in the field of medical imaging, revolutionizing the way healthcare professionals analyze and interpret medical images. AI algorithms can assist in the early detection of diseases, provide more accurate diagnoses, and improve patient out...
+
+Artificial intelligence has made significant advancements in the field of medical imaging, particularly in the early detection of breast cancer. AI algorithms can analyze mammograms with high accuracy, helping radiologists identify potential abnormalities that may indicate the presence of cancer. Th...
+
+Robotics in surgery involves the use of robotic systems to assist surgeons in performing complex procedures with precision and control. These surgical robots are designed to enhance the surgeon's capabilities, offering greater dexterity and visualization during operations. The use of robotics in sur...
+
+Robotic surgery technology has seen significant advancements in recent years, allowing for more precise and minimally invasive procedures. The da Vinci Surgical System is one of the most well-known surgical robots, enabling surgeons to operate with enhanced dexterity and control. These advancements ...
+
+Virtual reality technology is increasingly being used in surgical training to provide realistic simulations for medical professionals. Surgeons can practice procedures in a safe and controlled environment, improving their skills and decision-making abilities. These simulations can help reduce errors...
+
+Virtual reality technology is increasingly being used in surgical training to provide a realistic and immersive learning experience for medical professionals. By using VR simulations, surgeons can practice procedures in a safe environment before operating on actual patients. This helps improve their...
+
+Wearable technology plays a crucial role in patient monitoring by providing continuous real-time data on various health parameters. These devices can track vital signs, activity levels, sleep patterns, and more, allowing healthcare providers to remotely monitor patients and intervene when necessary....
+
+Wearable technology plays a crucial role in chronic disease management by providing continuous monitoring of vital signs and health metrics. These devices allow for real-time tracking of parameters such as heart rate, blood pressure, blood glucose levels, and activity levels, enabling early detectio...
+
+Telemedicine allows patients to access healthcare remotely through technology such as video calls and online consultations. This helps individuals in rural or underserved areas receive medical care without having to travel long distances. Telemedicine also provides a convenient and efficient way for...
+
+Telemedicine, also known as telehealth or virtual care, is a rapidly growing field that leverages technology to provide healthcare services remotely. This allows patients to access medical care from the comfort of their own homes, eliminating the need for in-person visits. Telemedicine offers numero...
+
+Nanotechnology in drug delivery refers to the use of nanoscale materials such as nanoparticles for the targeted delivery of drugs to specific cells or tissues in the body. Nanoparticles can be engineered to have unique properties that allow them to carry drugs more efficiently, increase drug stabili...
+
+Nanotechnology has shown great promise in the field of cancer treatment by revolutionizing drug delivery systems. Nanoparticles can be engineered to target specific cancer cells, reducing side effects and improving treatment efficacy. These nanoparticles can carry chemotherapy drugs directly to tumo...
+
+3D printing technology has revolutionized the field of prosthetics and implants by allowing for customized, precise, and cost-effective solutions. Prosthetic limbs can now be tailored to fit the individual's unique anatomy, improving comfort and functionality. Implants, such as dental implants and o...
+
+3D printing technology has revolutionized the field of prosthetics and implants by allowing for the creation of customized devices tailored to individual patients. This personalization leads to better comfort, fit, and function for the wearer. Advances in materials used for 3D printing have also imp...
+
+Augmented reality (AR) for surgical navigation is a cutting-edge technology that overlays digital information onto the surgeon's view during a procedure. This technology can provide real-time guidance, enhance visualization of critical structures, and improve accuracy in surgical tasks. By using AR,...
+
+Augmented reality (AR) technology is revolutionizing the way surgeons navigate during procedures in the operating room. By overlaying digital information onto the surgeon's field of view in real-time, AR systems provide enhanced visualization of anatomical structures, critical information, and guida...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+Raw response:
+6
+.
+Topic count decided: 6
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Artificial intelligence (AI) has made significant advancements in the field of medical imaging, revolutionizing the way healthcare professionals analyze and interpret medical images. AI algorithms can assist in the early detection of diseases, provide more accurate diagnoses, and improve patient out...
+
+Artificial intelligence has made significant advancements in the field of medical imaging, particularly in the early detection of breast cancer. AI algorithms can analyze mammograms with high accuracy, helping radiologists identify potential abnormalities that may indicate the presence of cancer. Th...
+
+Robotics in surgery involves the use of robotic systems to assist surgeons in performing complex procedures with precision and control. These surgical robots are designed to enhance the surgeon's capabilities, offering greater dexterity and visualization during operations. The use of robotics in sur...
+
+Robotic surgery technology has seen significant advancements in recent years, allowing for more precise and minimally invasive procedures. The da Vinci Surgical System is one of the most well-known surgical robots, enabling surgeons to operate with enhanced dexterity and control. These advancements ...
+
+Virtual reality technology is increasingly being used in surgical training to provide realistic simulations for medical professionals. Surgeons can practice procedures in a safe and controlled environment, improving their skills and decision-making abilities. These simulations can help reduce errors...
+
+Virtual reality technology is increasingly being used in surgical training to provide a realistic and immersive learning experience for medical professionals. By using VR simulations, surgeons can practice procedures in a safe environment before operating on actual patients. This helps improve their...
+
+Wearable technology plays a crucial role in patient monitoring by providing continuous real-time data on various health parameters. These devices can track vital signs, activity levels, sleep patterns, and more, allowing healthcare providers to remotely monitor patients and intervene when necessary....
+
+Wearable technology plays a crucial role in chronic disease management by providing continuous monitoring of vital signs and health metrics. These devices allow for real-time tracking of parameters such as heart rate, blood pressure, blood glucose levels, and activity levels, enabling early detectio...
+
+Telemedicine allows patients to access healthcare remotely through technology such as video calls and online consultations. This helps individuals in rural or underserved areas receive medical care without having to travel long distances. Telemedicine also provides a convenient and efficient way for...
+
+Telemedicine, also known as telehealth or virtual care, is a rapidly growing field that leverages technology to provide healthcare services remotely. This allows patients to access medical care from the comfort of their own homes, eliminating the need for in-person visits. Telemedicine offers numero...
+
+Nanotechnology in drug delivery refers to the use of nanoscale materials such as nanoparticles for the targeted delivery of drugs to specific cells or tissues in the body. Nanoparticles can be engineered to have unique properties that allow them to carry drugs more efficiently, increase drug stabili...
+
+Nanotechnology has shown great promise in the field of cancer treatment by revolutionizing drug delivery systems. Nanoparticles can be engineered to target specific cancer cells, reducing side effects and improving treatment efficacy. These nanoparticles can carry chemotherapy drugs directly to tumo...
+
+3D printing technology has revolutionized the field of prosthetics and implants by allowing for customized, precise, and cost-effective solutions. Prosthetic limbs can now be tailored to fit the individual's unique anatomy, improving comfort and functionality. Implants, such as dental implants and o...
+
+3D printing technology has revolutionized the field of prosthetics and implants by allowing for the creation of customized devices tailored to individual patients. This personalization leads to better comfort, fit, and function for the wearer. Advances in materials used for 3D printing have also imp...
+
+Augmented reality (AR) for surgical navigation is a cutting-edge technology that overlays digital information onto the surgeon's view during a procedure. This technology can provide real-time guidance, enhance visualization of critical structures, and improve accuracy in surgical tasks. By using AR,...
+
+Augmented reality (AR) technology is revolutionizing the way surgeons navigate during procedures in the operating room. By overlaying digital information onto the surgeon's field of view in real-time, AR systems provide enhanced visualization of anatomical structures, critical information, and guida...}). You are to come up with {6} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Week 1: Introduction to Medical Technology Advances
+
+Main Topic: Overview of Artificial Intelligence in Medical Imaging
+- Sub-Topic 1: Role of AI in early detection of breast cancer
+    - Explanation: AI algorithms can analyze mammograms with high accuracy, aiding in the identification of potential abnormalities that may indicate the presence of cancer.
+    - Learning Objectives: Understand how AI algorithms can assist in the early detection of breast cancer.
+    - Estimated Number of Slides: 10
+    - Lab Activities: Analyze sample mammograms with AI software to identify potential abnormalities.
+    - Real-World Applications: Use of AI in mammography to improve accuracy and efficiency in breast cancer detection.
+
+- Sub-Topic 2: Applications of Robotics in Surgery
+    - Explanation: Robotic systems assist surgeons in performing complex procedures with precision and control, enhancing dexterity and visualization during operations.
+    - Learning Objectives: Explore the role of robotics in enhancing surgical capabilities.
+    - Estimated Number of Slides: 8
+    - Lab Activities: Demonstrate the use of a surgical robot in a simulated surgical procedure.
+    - Real-World Applications: Utilization of robotic surgery technology to improve surgical outcomes and patient care.
+
+- Sub-Topic 3: Virtual Reality in Surgical Training
+    - Explanation: VR technology provides realistic simulations for surgeons to practice procedures in a safe environment, enhancing skills and decision-making abilities.
+    - Learning Objectives: Understand the benefits of virtual reality in surgical training.
+    - Estimated Number of Slides: 6
+    - Lab Activities: Engage in a VR surgical simulation to practice a specific procedure.
+    - Real-World Applications: Use of VR simulations to train surgeons and reduce errors in surgical procedures.
+
+Week 2: Advanced Medical Technology Applications
+
+Main Topic: Wearable Technology in Patient Monitoring
+- Sub-Topic 1: Role of Wearable Devices in Continuous Health Monitoring
+    - Explanation: Wearable devices track vital signs, activity levels, and sleep patterns, allowing healthcare providers to remotely monitor patients and intervene when necessary.
+    - Learning Objectives: Explore the capabilities of wearable technology in healthcare monitoring.
+    - Estimated Number of Slides: 8
+    - Lab Activities: Collect and analyze data from wearable devices to monitor vital signs.
+    - Real-World Applications: Use of wearable technology in chronic disease management for continuous monitoring of health parameters.
+
+- Sub-Topic 2: Telemedicine for Remote Healthcare Services
+    - Explanation: Telemedicine allows patients to access healthcare remotely through technology, providing convenient and efficient medical care without in-person visits.
+    - Learning Objectives: Understand the benefits and challenges of telemedicine in healthcare delivery.
+    - Estimated Number of Slides: 10
+    - Lab Activities: Participate in a telemedicine consultation to experience remote healthcare delivery.
+    - Real-World Applications: Utilization of telemedicine to improve access to healthcare in rural and underserved areas.
+
+- Sub-Topic 3: Nanotechnology in Drug Delivery for Targeted Therapy
+    - Explanation: Nanoparticles are used for targeted drug delivery to specific cells or tissues, enhancing drug efficiency and reducing side effects.
+    - Learning Objectives: Explore the applications of nanotechnology in drug delivery for cancer treatment.
+    - Estimated Number of Slides: 6
+    - Lab Activities: Design nanoparticles for targeted drug delivery in a specific disease model.
+    - Real-World Applications: Advancements in nanotechnology for precise drug delivery in cancer therapy.
+
+Week 3: Innovations in Medical Technology
+
+Main Topic: 3D Printing in Prosthetics and Implants
+- Sub-Topic 1: Customization and Personalization of Prosthetic Limbs
+    - Explanation: 3D printing technology allows for the creation of customized prosthetic limbs tailored to individual patients for improved comfort and functionality.
+    - Learning Objectives: Understand the benefits of 3D printing in prosthetics for personalized patient care.
+    - Estimated Number of Slides: 8
+    - Lab Activities: Design and 3D print a prototype prosthetic limb based on specific patient requirements.
+    - Real-World Applications: Use of 3D printing in prosthetics for precise and cost-effective solutions.
+
+- Sub-Topic 2: Augmented Reality for Surgical Navigation
+    - Explanation: AR technology overlays digital information onto the surgeon's view during a procedure, providing real-time guidance and enhancing visualization of critical structures.
+    - Learning Objectives: Explore the applications of AR in surgical navigation and accuracy.
+    - Estimated Number of Slides: 6
+    - Lab Activities: Use AR technology to navigate a simulated surgical procedure and identify critical structures.
+    - Real-World Applications: Utilization of AR for enhanced visualization and accuracy in surgical tasks.
+
+- Sub-Topic 3: Emerging Trends in Medical Technology
+    - Explanation: Explore current and future trends in medical technology, including AI, robotics, VR, wearable devices, telemedicine, nanotechnology, and 3D printing.
+    - Learning Objectives: Identify key developments and potential impact of emerging technologies on healthcare.
+    - Estimated Number of Slides: 8
+    - Lab Activities: Research and present on a specific emerging technology in healthcare and its potential applications.
+    - Real-World Applications: Stay updated on the latest advancements in medical technology to improve patient care and outcomes.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Week 1: Introduction to Medical Technology Advances
+
+Main Topic: Overview of Artificial Intelligence in Medical Imaging
+- Sub-Topic 1: Role of AI in early detection of breast cancer
+    - Explanation: AI algorithms can analyze mammograms with high accuracy, aiding in the identification of potential abnormalities that may indicate the presence of cancer.
+    - Learning Objectives: Understand how AI algorithms can assist in the early detection of breast cancer.
+    - Estimated Number of Slides: 10
+    - Lab Activities: Analyze sample mammograms with AI software to identify potential abnormalities.
+    - Real-World Applications: Use of AI in mammography to improve accuracy and efficiency in breast cancer detection.
+
+- Sub-Topic 2: Applications of Robotics in Surgery
+    - Explanation: Robotic systems assist surgeons in performing complex procedures with precision and control, enhancing dexterity and visualization during operations.
+    - Learning Objectives: Explore the role of robotics in enhancing surgical capabilities.
+    - Estimated Number of Slides: 8
+    - Lab Activities: Demonstrate the use of a surgical robot in a simulated surgical procedure.
+    - Real-World Applications: Utilization of robotic surgery technology to improve surgical outcomes and patient care.
+
+- Sub-Topic 3: Virtual Reality in Surgical Training
+    - Explanation: VR technology provides realistic simulations for surgeons to practice procedures in a safe environment, enhancing skills and decision-making abilities.
+    - Learning Objectives: Understand the benefits of virtual reality in surgical training.
+    - Estimated Number of Slides: 6
+    - Lab Activities: Engage in a VR surgical simulation to practice a specific procedure.
+    - Real-World Applications: Use of VR simulations to train surgeons and reduce errors in surgical procedures.
+
+Week 2: Advanced Medical Technology Applications
+
+Main Topic: Wearable Technology in Patient Monitoring
+- Sub-Topic 1: Role of Wearable Devices in Continuous Health Monitoring
+    - Explanation: Wearable devices track vital signs, activity levels, and sleep patterns, allowing healthcare providers to remotely monitor patients and intervene when necessary.
+    - Learning Objectives: Explore the capabilities of wearable technology in healthcare monitoring.
+    - Estimated Number of Slides: 8
+    - Lab Activities: Collect and analyze data from wearable devices to monitor vital signs.
+    - Real-World Applications: Use of wearable technology in chronic disease management for continuous monitoring of health parameters.
+
+- Sub-Topic 2: Telemedicine for Remote Healthcare Services
+    - Explanation: Telemedicine allows patients to access healthcare remotely through technology, providing convenient and efficient medical care without in-person visits.
+    - Learning Objectives: Understand the benefits and challenges of telemedicine in healthcare delivery.
+    - Estimated Number of Slides: 10
+    - Lab Activities: Participate in a telemedicine consultation to experience remote healthcare delivery.
+    - Real-World Applications: Utilization of telemedicine to improve access to healthcare in rural and underserved areas.
+
+- Sub-Topic 3: Nanotechnology in Drug Delivery for Targeted Therapy
+    - Explanation: Nanoparticles are used for targeted drug delivery to specific cells or tissues, enhancing drug efficiency and reducing side effects.
+    - Learning Objectives: Explore the applications of nanotechnology in drug delivery for cancer treatment.
+    - Estimated Number of Slides: 6
+    - Lab Activities: Design nanoparticles for targeted drug delivery in a specific disease model.
+    - Real-World Applications: Advancements in nanotechnology for precise drug delivery in cancer therapy.
+
+Week 3: Innovations in Medical Technology
+
+Main Topic: 3D Printing in Prosthetics and Implants
+- Sub-Topic 1: Customization and Personalization of Prosthetic Limbs
+    - Explanation: 3D printing technology allows for the creation of customized prosthetic limbs tailored to individual patients for improved comfort and functionality.
+    - Learning Objectives: Understand the benefits of 3D printing in prosthetics for personalized patient care.
+    - Estimated Number of Slides: 8
+    - Lab Activities: Design and 3D print a prototype prosthetic limb based on specific patient requirements.
+    - Real-World Applications: Use of 3D printing in prosthetics for precise and cost-effective solutions.
+
+- Sub-Topic 2: Augmented Reality for Surgical Navigation
+    - Explanation: AR technology overlays digital information onto the surgeon's view during a procedure, providing real-time guidance and enhancing visualization of critical structures.
+    - Learning Objectives: Explore the applications of AR in surgical navigation and accuracy.
+    - Estimated Number of Slides: 6
+    - Lab Activities: Use AR technology to navigate a simulated surgical procedure and identify critical structures.
+    - Real-World Applications: Utilization of AR for enhanced visualization and accuracy in surgical tasks.
+
+- Sub-Topic 3: Emerging Trends in Medical Technology
+    - Explanation: Explore current and future trends in medical technology, including AI, robotics, VR, wearable devices, telemedicine, nanotechnology, and 3D printing.
+    - Learning Objectives: Identify key developments and potential impact of emerging technologies on healthcare.
+    - Estimated Number of Slides: 8
+    - Lab Activities: Research and present on a specific emerging technology in healthcare and its potential applications.
+    - Real-World Applications: Stay updated on the latest advancements in medical technology to improve patient care and outcomes.}). Total slides available: {8}. Topics to allocate: {6}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[10, 8, 6, 8, 6, 8]
+.
+Slide allocation: [3, 1, 1, 1, 1, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Week 1: Introduction to Medical Technology Advances
+
+Main Topic: Overview of Artificial Intelligence in Medical Imaging
+- Sub-Topic 1: Role of AI in early detection of breast cancer
+    - Explanation: AI algorithms can analyze mammograms with high accuracy, aiding in the identification of potential abnormalities that may indicate the presence of cancer.
+    - Learning Objectives: Understand how AI algorithms can assist in the early detection of breast cancer.
+    - Estimated Number of Slides: 10
+    - Lab Activities: Analyze sample mammograms with AI software to identify potential abnormalities.
+    - Real-World Applications: Use of AI in mammography to improve accuracy and efficiency in breast cancer detection.
+
+- Sub-Topic 2: Applications of Robotics in Surgery
+    - Explanation: Robotic systems assist surgeons in performing complex procedures with precision and control, enhancing dexterity and visualization during operations.
+    - Learning Objectives: Explore the role of robotics in enhancing surgical capabilities.
+    - Estimated Number of Slides: 8
+    - Lab Activities: Demonstrate the use of a surgical robot in a simulated surgical procedure.
+    - Real-World Applications: Utilization of robotic surgery technology to improve surgical outcomes and patient care.
+
+- Sub-Topic 3: Virtual Reality in Surgical Training
+    - Explanation: VR technology provides realistic simulations for surgeons to practice procedures in a safe environment, enhancing skills and decision-making abilities.
+    - Learning Objectives: Understand the benefits of virtual reality in surgical training.
+    - Estimated Number of Slides: 6
+    - Lab Activities: Engage in a VR surgical simulation to practice a specific procedure.
+    - Real-World Applications: Use of VR simulations to train surgeons and reduce errors in surgical procedures.
+
+Week 2: Advanced Medical Technology Applications
+
+Main Topic: Wearable Technology in Patient Monitoring
+- Sub-Topic 1: Role of Wearable Devices in Continuous Health Monitoring
+    - Explanation: Wearable devices track vital signs, activity levels, and sleep patterns, allowing healthcare providers to remotely monitor patients and intervene when necessary.
+    - Learning Objectives: Explore the capabilities of wearable technology in healthcare monitoring.
+    - Estimated Number of Slides: 8
+    - Lab Activities: Collect and analyze data from wearable devices to monitor vital signs.
+    - Real-World Applications: Use of wearable technology in chronic disease management for continuous monitoring of health parameters.
+
+- Sub-Topic 2: Telemedicine for Remote Healthcare Services
+    - Explanation: Telemedicine allows patients to access healthcare remotely through technology, providing convenient and efficient medical care without in-person visits.
+    - Learning Objectives: Understand the benefits and challenges of telemedicine in healthcare delivery.
+    - Estimated Number of Slides: 10
+    - Lab Activities: Participate in a telemedicine consultation to experience remote healthcare delivery.
+    - Real-World Applications: Utilization of telemedicine to improve access to healthcare in rural and underserved areas.
+
+- Sub-Topic 3: Nanotechnology in Drug Delivery for Targeted Therapy
+    - Explanation: Nanoparticles are used for targeted drug delivery to specific cells or tissues, enhancing drug efficiency and reducing side effects.
+    - Learning Objectives: Explore the applications of nanotechnology in drug delivery for cancer treatment.
+    - Estimated Number of Slides: 6
+    - Lab Activities: Design nanoparticles for targeted drug delivery in a specific disease model.
+    - Real-World Applications: Advancements in nanotechnology for precise drug delivery in cancer therapy.
+
+Week 3: Innovations in Medical Technology
+
+Main Topic: 3D Printing in Prosthetics and Implants
+- Sub-Topic 1: Customization and Personalization of Prosthetic Limbs
+    - Explanation: 3D printing technology allows for the creation of customized prosthetic limbs tailored to individual patients for improved comfort and functionality.
+    - Learning Objectives: Understand the benefits of 3D printing in prosthetics for personalized patient care.
+    - Estimated Number of Slides: 8
+    - Lab Activities: Design and 3D print a prototype prosthetic limb based on specific patient requirements.
+    - Real-World Applications: Use of 3D printing in prosthetics for precise and cost-effective solutions.
+
+- Sub-Topic 2: Augmented Reality for Surgical Navigation
+    - Explanation: AR technology overlays digital information onto the surgeon's view during a procedure, providing real-time guidance and enhancing visualization of critical structures.
+    - Learning Objectives: Explore the applications of AR in surgical navigation and accuracy.
+    - Estimated Number of Slides: 6
+    - Lab Activities: Use AR technology to navigate a simulated surgical procedure and identify critical structures.
+    - Real-World Applications: Utilization of AR for enhanced visualization and accuracy in surgical tasks.
+
+- Sub-Topic 3: Emerging Trends in Medical Technology
+    - Explanation: Explore current and future trends in medical technology, including AI, robotics, VR, wearable devices, telemedicine, nanotechnology, and 3D printing.
+    - Learning Objectives: Identify key developments and potential impact of emerging technologies on healthcare.
+    - Estimated Number of Slides: 8
+    - Lab Activities: Research and present on a specific emerging technology in healthcare and its potential applications.
+    - Real-World Applications: Stay updated on the latest advancements in medical technology to improve patient care and outcomes.}). Slide allocation per topic: {[3, 1, 1, 1, 1, 1]}. Database content for reference: ({Artificial intelligence (AI) has made significant advancements in the field of medical imaging, revolutionizing the way healthcare professionals analyze and interpret medical images. AI algorithms can assist in the early detection of diseases, provide more accurate diagnoses, and improve patient out...
+
+Artificial intelligence has made significant advancements in the field of medical imaging, particularly in the early detection of breast cancer. AI algorithms can analyze mammograms with high accuracy, helping radiologists identify potential abnormalities that may indicate the presence of cancer. Th...
+
+Robotics in surgery involves the use of robotic systems to assist surgeons in performing complex procedures with precision and control. These surgical robots are designed to enhance the surgeon's capabilities, offering greater dexterity and visualization during operations. The use of robotics in sur...
+
+Robotic surgery technology has seen significant advancements in recent years, allowing for more precise and minimally invasive procedures. The da Vinci Surgical System is one of the most well-known surgical robots, enabling surgeons to operate with enhanced dexterity and control. These advancements ...
+
+Virtual reality technology is increasingly being used in surgical training to provide realistic simulations for medical professionals. Surgeons can practice procedures in a safe and controlled environment, improving their skills and decision-making abilities. These simulations can help reduce errors...
+
+Virtual reality technology is increasingly being used in surgical training to provide a realistic and immersive learning experience for medical professionals. By using VR simulations, surgeons can practice procedures in a safe environment before operating on actual patients. This helps improve their...
+
+Wearable technology plays a crucial role in patient monitoring by providing continuous real-time data on various health parameters. These devices can track vital signs, activity levels, sleep patterns, and more, allowing healthcare providers to remotely monitor patients and intervene when necessary....
+
+Wearable technology plays a crucial role in chronic disease management by providing continuous monitoring of vital signs and health metrics. These devices allow for real-time tracking of parameters such as heart rate, blood pressure, blood glucose levels, and activity levels, enabling early detectio...
+
+Telemedicine allows patients to access healthcare remotely through technology such as video calls and online consultations. This helps individuals in rural or underserved areas receive medical care without having to travel long distances. Telemedicine also provides a convenient and efficient way for...
+
+Telemedicine, also known as telehealth or virtual care, is a rapidly growing field that leverages technology to provide healthcare services remotely. This allows patients to access medical care from the comfort of their own homes, eliminating the need for in-person visits. Telemedicine offers numero...
+
+Nanotechnology in drug delivery refers to the use of nanoscale materials such as nanoparticles for the targeted delivery of drugs to specific cells or tissues in the body. Nanoparticles can be engineered to have unique properties that allow them to carry drugs more efficiently, increase drug stabili...
+
+Nanotechnology has shown great promise in the field of cancer treatment by revolutionizing drug delivery systems. Nanoparticles can be engineered to target specific cancer cells, reducing side effects and improving treatment efficacy. These nanoparticles can carry chemotherapy drugs directly to tumo...
+
+3D printing technology has revolutionized the field of prosthetics and implants by allowing for customized, precise, and cost-effective solutions. Prosthetic limbs can now be tailored to fit the individual's unique anatomy, improving comfort and functionality. Implants, such as dental implants and o...
+
+3D printing technology has revolutionized the field of prosthetics and implants by allowing for the creation of customized devices tailored to individual patients. This personalization leads to better comfort, fit, and function for the wearer. Advances in materials used for 3D printing have also imp...
+
+Augmented reality (AR) for surgical navigation is a cutting-edge technology that overlays digital information onto the surgeon's view during a procedure. This technology can provide real-time guidance, enhance visualization of critical structures, and improve accuracy in surgical tasks. By using AR,...
+
+Augmented reality (AR) technology is revolutionizing the way surgeons navigate during procedures in the operating room. By overlaying digital information onto the surgeon's field of view in real-time, AR systems provide enhanced visualization of anatomical structures, critical information, and guida...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+Raw response:
+1. Role of AI in early detection of breast cancer using mammogram analysis
+2. Applications of robotic systems in enhancing surgical capabilities
+3. Benefits of virtual reality in surgical training for improved skills and decision-making
+4. Wearable technology for continuous monitoring of vital signs in healthcare
+5. Telemedicine: Benefits and challenges in remote healthcare delivery
+6. Nanotechnology in drug delivery for targeted therapy in cancer treatment
+7. Customization and personalization of prosthetic limbs using 3D printing technology
+8. Augmented reality for surgical navigation: Enhancing visualization and accuracy in procedures
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_14-18-41.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_14-18-41.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_14-18-50.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+⚠️ Content validation suggestions: Overall, the lecture notes provide a good overview of artificial intelligence in medical imaging, robotics in surgery, and virtual reality in surgical training. However, there are a few areas where the content could be improved for a 3 credit hour senior undergraduate study:
+
+1. Depth and Detail: While the explanations for each sub-topic are informative, they could be expanded upon to provide more in-depth information on the topics. For example, including specific AI algorithms used in breast cancer detection or detailing the types of robotic systems commonly used in surgery would enhance the depth of the content.
+
+2. Real-World Examples and Applications: The lecture notes briefly mention real-world applications of each technology, but more specific examples or case studies could be included to demonstrate the impact of AI, robotics, and virtual reality in the medical field. Providing concrete examples would make the content more engaging and relevant to students.
+
+3. Progressive Complexity: The content could be structured in a way that gradually increases in complexity from basic to advanced concepts. For instance, starting with the basics of how AI analyzes mammograms for breast cancer detection and then moving on to more advanced topics such as the integration of AI with other imaging modalities.
+
+4. Self-Contained Learning Material: The lecture notes should be self-contained and comprehensive enough to serve as standalone learning material for students. Additional resources, references, or suggested readings could be included to further enhance the students' understanding of the topics.
+
+Overall, while the lecture notes provide a good introduction to medical technology advances, they could be improved by incorporating more depth, real-world examples, progressive complexity, and additional resources for a 3 credit hour senior undergraduate study. Specific improvement suggestions could include expanding on the explanations, including specific case studies, structuring the content in a more progressive manner, and providing additional resources for further reading.
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Medical Technology Advances
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Role of AI in early detection of breast cancer using mammogram analysis)
+🔍 DEBUG: Slide 1 content set to: '• AI algorithms in medical imaging can analyze mammograms with high accuracy • AI assists in identif...'
+🔍 DEBUG: Slide 1 content length: 317
+✅ Slide 1 content: • AI algorithms in medical imaging can analyze mammograms with high accuracy
+• AI assists in identifying potential abnormalities that may indicate breast cancer
+• Improved diagnostic accuracy and efficiency with AI technology
+• Better patient outcomes and survival rates with early detection of breast cancer using AI
+Generating content for slide 2 (Topic: Applications of robotic systems in enhancing surgical capabilities)
+🔍 DEBUG: Slide 2 content set to: '• Robotic surgery technology has advanced significantly in recent years • The da Vinci Surgical Syst...'
+🔍 DEBUG: Slide 2 content length: 367
+✅ Slide 2 content: • Robotic surgery technology has advanced significantly in recent years
+• The da Vinci Surgical System enables surgeons to operate with enhanced dexterity and control
+• Advancements in robotic systems have led to reduced recovery times, less scarring, and improved patient outcomes
+• Robotic systems in surgery allow for more precise and minimally invasive procedures
+Generating content for slide 3 (Topic: Benefits of virtual reality in surgical training for improved skills and decision-making)
+🔍 DEBUG: Slide 3 content set to: '• Virtual reality technology enhances surgical training by providing realistic and immersive simulat...'
+🔍 DEBUG: Slide 3 content length: 379
+✅ Slide 3 content: • Virtual reality technology enhances surgical training by providing realistic and immersive simulations
+• Surgeons can practice procedures in a safe environment to improve skills and decision-making
+• VR training allows for repetitive practice without the need for expensive equipment or cadavers
+• Cost-effective and accessible tool for enhancing surgical skills and confidence
+Generating content for slide 4 (Topic: Wearable technology for continuous monitoring of vital signs in healthcare)
+🔍 DEBUG: Slide 4 content set to: '• Wearable technology provides continuous monitoring of vital signs in healthcare • Devices track pa...'
+🔍 DEBUG: Slide 4 content length: 339
+✅ Slide 4 content: • Wearable technology provides continuous monitoring of vital signs in healthcare
+• Devices track parameters such as heart rate, activity levels, and sleep patterns
+• Allows for remote monitoring of patients and timely intervention when needed
+• Enables personalized care and improved connectivity between patients and healthcare providers
+Generating content for slide 5 (Topic: Telemedicine: Benefits and challenges in remote healthcare delivery)
+🔍 DEBUG: Slide 5 content set to: '• Telemedicine allows remote access to healthcare through technology like video calls and online con...'
+🔍 DEBUG: Slide 5 content length: 491
+✅ Slide 5 content: • Telemedicine allows remote access to healthcare through technology like video calls and online consultations
+• Benefits include improved access to healthcare for underserved areas and convenient consultations for patients
+• Challenges in telemedicine include digital divide, lack of physical examination, and data security concerns
+• Potential solutions involve improving internet infrastructure, integrating telemedicine with in-person care, and implementing robust cybersecurity measures
+Generating content for slide 6 (Topic: Nanotechnology in drug delivery for targeted therapy in cancer treatment)
+🔍 DEBUG: Slide 6 content set to: '• Nanotechnology in drug delivery revolutionizes cancer treatment • Nanoparticles target specific ca...'
+🔍 DEBUG: Slide 6 content length: 269
+✅ Slide 6 content: • Nanotechnology in drug delivery revolutionizes cancer treatment
+• Nanoparticles target specific cancer cells, reducing side effects
+• Enhanced drug accumulation and retention at tumor sites
+• Controlled release of drugs improves bioavailability and therapeutic effect
+Generating content for slide 7 (Topic: Customization and personalization of prosthetic limbs using 3D printing technology)
+🔍 DEBUG: Slide 7 content set to: '• 3D printing technology allows for customization of prosthetic limbs tailored to individual patient...'
+🔍 DEBUG: Slide 7 content length: 365
+✅ Slide 7 content: • 3D printing technology allows for customization of prosthetic limbs tailored to individual patients
+• Personalized prosthetics improve comfort, fit, and functionality for the wearer
+• Advances in materials enhance durability and biomechanical properties of prosthetics
+• Applications range from creating prosthetic limbs to custom implants for bone reconstruction
+Generating content for slide 8 (Topic: Augmented reality for surgical navigation: Enhancing visualization and accuracy in procedures)
+🔍 DEBUG: Slide 8 content set to: '• Augmented reality (AR) technology overlays digital information onto the surgeon's field of view in...'
+🔍 DEBUG: Slide 8 content length: 399
+✅ Slide 8 content: • Augmented reality (AR) technology overlays digital information onto the surgeon's field of view in real-time
+• AR systems enhance visualization of anatomical structures and provide guidance during surgery
+• Improved accuracy in surgical tasks with AR, leading to more precise and efficient procedures
+• Surgeons gain a better understanding of complex anatomy, ultimately improving patient outcomes
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Role of AI in early detection of breast cancer using mammogram analysis)
+✅ Slide 1 title: AI in Early Breast Cancer Detection: Mammogram Analysis
+Generating title for slide 2 (Topic: Applications of robotic systems in enhancing surgical capabilities)
+✅ Slide 2 title: Enhancing Surgical Capabilities with Robotic Systems
+Generating title for slide 3 (Topic: Benefits of virtual reality in surgical training for improved skills and decision-making)
+✅ Slide 3 title: Benefits of VR in Surgical Training
+Generating title for slide 4 (Topic: Wearable technology for continuous monitoring of vital signs in healthcare)
+✅ Slide 4 title: Continuous Vital Sign Monitoring with Wearable Technology
+Generating title for slide 5 (Topic: Telemedicine: Benefits and challenges in remote healthcare delivery)
+✅ Slide 5 title: "Telemedicine: Remote Healthcare Benefits and Challenges"
+Generating title for slide 6 (Topic: Nanotechnology in drug delivery for targeted therapy in cancer treatment)
+✅ Slide 6 title: "Nanotechnology in Cancer Drug Delivery: Targeted Therapy Advancements"
+Generating title for slide 7 (Topic: Customization and personalization of prosthetic limbs using 3D printing technology)
+✅ Slide 7 title: "Customized Prosthetic Limbs with 3D Printing"
+Generating title for slide 8 (Topic: Augmented reality for surgical navigation: Enhancing visualization and accuracy in procedures)
+✅ Slide 8 title: Augmented Reality in Surgical Navigation: Precision Enhancement
+Generating overall presentation title...
+🎲 Choice scenario triggered! (Rolled 2.3 <= 5.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+"Cutting-Edge Medical Technology: Innovations Revolutionizing Healthcare"
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+"Advancements in Medical Technology: Innovations Shaping the Future of Healthcare"
+
+----------------------------------------
+✅ You chose Response 2
+✅ Overall presentation title: Advancements in Medical Technology: Innovations Shaping the Future of Healthcare
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Role of AI in early detection of breast cancer using mammogram analysis)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Applications of robotic systems in enhancing surgical capabilities)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Benefits of virtual reality in surgical training for improved skills and decision-making)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Wearable technology for continuous monitoring of vital signs in healthcare)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Telemedicine: Benefits and challenges in remote healthcare delivery)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Nanotechnology in drug delivery for targeted therapy in cancer treatment)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Customization and personalization of prosthetic limbs using 3D printing technology)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Augmented reality for surgical navigation: Enhancing visualization and accuracy in procedures)
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Role of AI in early detection of breast cancer using mammogram analysis)
+⚠️ Warning: Slide 1 content is long (785 chars) - consider reducing
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Applications of robotic systems in enhancing surgical capabilities)
+⚠️ Warning: Slide 2 content is long (657 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Benefits of virtual reality in surgical training for improved skills and decision-making)
+⚠️ Warning: Slide 3 content is long (732 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Wearable technology for continuous monitoring of vital signs in healthcare)
+⚠️ Warning: Slide 4 content is long (558 chars) - consider reducing
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Telemedicine: Benefits and challenges in remote healthcare delivery)
+⚠️ Warning: Slide 5 content is long (550 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Nanotechnology in drug delivery for targeted therapy in cancer treatment)
+⚠️ Warning: Slide 6 content is long (730 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Customization and personalization of prosthetic limbs using 3D printing technology)
+⚠️ Warning: Slide 7 content is long (614 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Augmented reality for surgical navigation: Enhancing visualization and accuracy in procedures)
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Advancements_in_Medical_Technology_Innovations_Shaping_the_Future_of_Healthcare_2025-08-31_14-19-37
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancements_in_Medical_Technology_Innovations_Shaping_the_Future_of_Healthcare_2025-08-31_14-19-37.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancements_in_Medical_Technology_Innovations_Shaping_the_Future_of_Healthcare_2025-08-31_14-19-37.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 4 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancements_in_Medical_Technology_Innovations_Shaping_the_Future_of_Healthcare_2025-08-31_14-19-37.pptx
+📊 Rating presentation 4...
+✅ Presentation 4 rated successfully
+📈 Overall Rating: 7.01 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.08 / 2.00
+   - Non-Repetition: 1.84 / 2.00
+   - Content Balance: 1.54 / 2.00
+   - Title Uniqueness: 1.99 / 2.00
+   - Title-Content Match: 1.55 / 2.00
+💾 Result saved to file for presentation 4
+
+📊 Presentation 6/10 (ID: 5)
+📝 Using topic: Theater and Performance Arts
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

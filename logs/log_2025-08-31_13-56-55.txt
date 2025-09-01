@@ -1,0 +1,772 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T13:56:55.422587
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_13-56-55.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 8...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+The Renaissance Period
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Renaissance art, Key figures of the Renaissance
+Selected topics: ['Renaissance art', 'Key figures of the Renaissance']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Renaissance art
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE ART** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Renaissance Art",
+    "keywords": ["Renaissance", "art", "painting", "sculpture", "artists"],
+    "text": "Renaissance art refers to the art produced in Europe during the Renaissance period, which spanned from the 14th to the 17th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists focused on portraying the human figure realistically and creating works that reflected the beauty of the natural world. Some famous Renaissance artists include Leonardo da Vinci, Michelangelo, and Raphael.",
+    "link": "https://www.metmuseum.org/toah/hd/arth/hd_arth.htm"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Renaissance Art
+Keywords: Renaissance, art, painting, sculpture, artists
+Uses: 0
+Text: Renaissance art refers to the art produced in Europe during the Renaissance period, which spanned from the 14th to the 17th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists focused on portraying the human figure realistically and creating works that reflected the beauty of the natural world. Some famous Renaissance artists include Leonardo da Vinci, Michelangelo, and Raphael.Link: https://www.metmuseum.org/toah/hd/arth/hd_arth.htm
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE ART** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Famous Renaissance Artists",
+    "keywords": ["Renaissance", "artists", "famous", "painters"],
+    "text": "The Renaissance period was known for producing some of the most famous artists in history. Some of the most prominent Renaissance artists include Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli.",
+    "link": "https://www.history.com/topics/renaissance/renaissance-art"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Famous Renaissance Artists
+Keywords: Renaissance, artists, famous, painters
+Uses: 0
+Text: The Renaissance period was known for producing some of the most famous artists in history. Some of the most prominent Renaissance artists include Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli.Link: https://www.history.com/topics/renaissance/renaissance-art
+Researching topic: Key figures of the Renaissance
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **KEY FIGURES OF THE RENAISSANCE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Key Figures of the Renaissance",
+    "keywords": ["Renaissance", "key figures", "important people", "prominent individuals"],
+    "text": "One key figure of the Renaissance is Leonardo da Vinci, a renowned polymath known for his contributions in art, science, and engineering. Another important figure is Michelangelo, a sculptor, painter, and architect famous for works like the Sistine Chapel ceiling. Additionally, Niccolò Machiavelli, an Italian diplomat and philosopher, is known for his political treatise 'The Prince.'",
+    "link": "https://www.history.com/topics/renaissance/renaissance"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Key Figures of the Renaissance
+Keywords: Renaissance, key figures, important people, prominent individuals
+Uses: 0
+Text: One key figure of the Renaissance is Leonardo da Vinci, a renowned polymath known for his contributions in art, science, and engineering. Another important figure is Michelangelo, a sculptor, painter, and architect famous for works like the Sistine Chapel ceiling. Additionally, Niccolò Machiavelli, an Italian diplomat and philosopher, is known for his political treatise 'The Prince.'Link: https://www.history.com/topics/renaissance/renaissance
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **KEY FIGURES OF THE RENAISSANCE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Leonardo da Vinci",
+    "keywords": ["artist", "inventor", "scientist", "Renaissance man", "Mona Lisa", "The Last Supper"],
+    "text": "Leonardo da Vinci was a renowned Italian artist, inventor, and scientist who epitomized the term Renaissance man. He is best known for iconic works such as the Mona Lisa and The Last Supper. Da Vinci's diverse talents and contributions to various fields have made him one of the most celebrated figures of the Renaissance.",
+    "link": "https://www.biography.com/artist/leonardo-da-vinci"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Leonardo da Vinci
+Keywords: artist, inventor, scientist, Renaissance man, Mona Lisa, The Last Supper
+Uses: 0
+Text: Leonardo da Vinci was a renowned Italian artist, inventor, and scientist who epitomized the term Renaissance man. He is best known for iconic works such as the Mona Lisa and The Last Supper. Da Vinci's diverse talents and contributions to various fields have made him one of the most celebrated figures of the Renaissance.Link: https://www.biography.com/artist/leonardo-da-vinci
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (The Renaissance Period) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Renaissance art', 'Key figures of the Renaissance']. The research these yeilded is: ({Renaissance art refers to the art produced in Europe during the Renaissance period, which spanned from the 14th to the 17th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists focused on portraying the human figure realistically and creating works that reflected the beauty of the natural world. Some famous Renaissance artists include Leonardo da Vinci, Michelangelo, and Raphael.
+
+The Renaissance period was known for producing some of the most famous artists in history. Some of the most prominent Renaissance artists include Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli.
+
+One key figure of the Renaissance is Leonardo da Vinci, a renowned polymath known for his contributions in art, science, and engineering. Another important figure is Michelangelo, a sculptor, painter, and architect famous for works like the Sistine Chapel ceiling. Additionally, Niccolò Machiavelli, an Italian diplomat and philosopher, (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Renaissance architecture, Scientific advancements during the Renaissance, Humanism in Renaissance literature, Patronage of the arts in the Renaissance, Impact of the printing press on Renaissance society, Women in the Renaissance
+Selected topics: ['Renaissance architecture', 'Scientific advancements during the Renaissance', 'Humanism in Renaissance literature', 'Patronage of the arts in the Renaissance', 'Impact of the printing press on Renaissance society', 'Women in the Renaissance']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Renaissance architecture
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance', 'Leonardo da Vinci']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE ARCHITECTURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Renaissance Architecture",
+    "keywords": ["Renaissance", "architecture", "design", "buildings", "style"],
+    "text": "Renaissance architecture is the architectural style that emerged in Europe during the late 14th to early 17th centuries. It was heavily influenced by classical Roman and Greek architecture, with an emphasis on symmetry, proportion, and geometry. Renaissance architects sought to create harmonious buildings that reflected the ideals of humanism and the revival of classical learning. Some key features of Renaissance architecture include domes, columns, arches, and pilasters. Famous examples of Renaissance architecture include St. Peter's Basilica in Rome and the Palazzo Medici Riccardi in Florence.",
+    "link": "https://www.britannica.com/art/Western-architecture/Renaissance-architecture"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Renaissance Architecture
+Keywords: Renaissance, architecture, design, buildings, style
+Uses: 0
+Text: Renaissance architecture is the architectural style that emerged in Europe during the late 14th to early 17th centuries. It was heavily influenced by classical Roman and Greek architecture, with an emphasis on symmetry, proportion, and geometry. Renaissance architects sought to create harmonious buildings that reflected the ideals of humanism and the revival of classical learning. Some key features of Renaissance architecture include domes, columns, arches, and pilasters. Famous examples of Renaissance architecture include St. Peter's Basilica in Rome and the Palazzo Medici Riccardi in Florence.Link: https://www.britannica.com/art/Western-architecture/Renaissance-architecture
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance', 'Leonardo da Vinci', 'Renaissance Architecture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE ARCHITECTURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Renaissance Architecture: St. Peter's Basilica",
+    "keywords": ["Renaissance Architecture", "St. Peter's Basilica", "Baroque architecture", "Michelangelo", "Vatican City"],
+    "text": "St. Peter's Basilica in Vatican City is a prime example of Renaissance architecture, with influences from both the Renaissance and Baroque styles. The basilica was designed by famous Renaissance architect Michelangelo, among others, and is considered one of the holiest Catholic shrines. It features a grand dome, intricate facade, and impressive colonnades in the Renaissance architectural style.",
+    "link": "https://www.britannica.com/topic/Saint-Peters-Basilica-Vatican-City"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Renaissance Architecture: St. Peter's Basilica
+Keywords: Renaissance Architecture, St. Peter's Basilica, Baroque architecture, Michelangelo, Vatican City
+Uses: 0
+Text: St. Peter's Basilica in Vatican City is a prime example of Renaissance architecture, with influences from both the Renaissance and Baroque styles. The basilica was designed by famous Renaissance architect Michelangelo, among others, and is considered one of the holiest Catholic shrines. It features a grand dome, intricate facade, and impressive colonnades in the Renaissance architectural style.Link: https://www.britannica.com/topic/Saint-Peters-Basilica-Vatican-City
+Researching topic: Scientific advancements during the Renaissance
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance', 'Leonardo da Vinci', 'Renaissance Architecture', "Renaissance Architecture: St. Peter's Basilica"]. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SCIENTIFIC ADVANCEMENTS DURING THE RENAISSANCE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Scientific Advancements During the Renaissance",
+    "keywords": ["Scientific Revolution", "Renaissance science", "Renaissance inventions"],
+    "text": "During the Renaissance, there were significant advancements in various fields of science such as astronomy, anatomy, and physics. Key figures like Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries that challenged traditional beliefs and laid the foundation for modern science.",
+    "link": "https://www.history.com/topics/scientific-revolution"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Scientific Advancements During the Renaissance
+Keywords: Scientific Revolution, Renaissance science, Renaissance inventions
+Uses: 0
+Text: During the Renaissance, there were significant advancements in various fields of science such as astronomy, anatomy, and physics. Key figures like Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries that challenged traditional beliefs and laid the foundation for modern science.Link: https://www.history.com/topics/scientific-revolution
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance', 'Leonardo da Vinci', 'Renaissance Architecture', "Renaissance Architecture: St. Peter's Basilica", 'Scientific Advancements During the Renaissance']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SCIENTIFIC ADVANCEMENTS DURING THE RENAISSANCE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Copernicus and the Heliocentric Model",
+    "keywords": ["Copernicus", "heliocentric model", "Renaissance", "astronomy"],
+    "text": "Nicolaus Copernicus, a Renaissance mathematician and astronomer, proposed the heliocentric model of the universe in which the Sun is at the center and the Earth and other planets revolve around it. This was a significant departure from the previously accepted geocentric model. Copernicus' work laid the foundation for modern astronomy and challenged existing beliefs about the cosmos.",
+    "link": "https://www.britannica.com/biography/Nicolaus-Copernicus"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Copernicus and the Heliocentric Model
+Keywords: Copernicus, heliocentric model, Renaissance, astronomy
+Uses: 0
+Text: Nicolaus Copernicus, a Renaissance mathematician and astronomer, proposed the heliocentric model of the universe in which the Sun is at the center and the Earth and other planets revolve around it. This was a significant departure from the previously accepted geocentric model. Copernicus' work laid the foundation for modern astronomy and challenged existing beliefs about the cosmos.Link: https://www.britannica.com/biography/Nicolaus-Copernicus
+Researching topic: Humanism in Renaissance literature
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance', 'Leonardo da Vinci', 'Renaissance Architecture', "Renaissance Architecture: St. Peter's Basilica", 'Scientific Advancements During the Renaissance', 'Copernicus and the Heliocentric Model']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **HUMANISM IN RENAISSANCE LITERATURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Humanism in Renaissance Literature",
+    "keywords": ["humanism", "Renaissance literature", "literary humanism", "humanistic values"],
+    "text": "Humanism in Renaissance literature refers to the literary movement that focused on human values, potential, and achievements. It emphasized the importance of human experience, reason, and individualism. Writers during this period sought to capture the essence of human emotions and experiences in their works, often drawing inspiration from classical texts. Humanistic values such as the importance of education, critical thinking, and the pursuit of knowledge were prominent themes in Renaissance literature.",
+    "link": "https://www.britannica.com/art/humanism"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Humanism in Renaissance Literature
+Keywords: humanism, Renaissance literature, literary humanism, humanistic values
+Uses: 0
+Text: Humanism in Renaissance literature refers to the literary movement that focused on human values, potential, and achievements. It emphasized the importance of human experience, reason, and individualism. Writers during this period sought to capture the essence of human emotions and experiences in their works, often drawing inspiration from classical texts. Humanistic values such as the importance of education, critical thinking, and the pursuit of knowledge were prominent themes in Renaissance literature.Link: https://www.britannica.com/art/humanism
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance', 'Leonardo da Vinci', 'Renaissance Architecture', "Renaissance Architecture: St. Peter's Basilica", 'Scientific Advancements During the Renaissance', 'Copernicus and the Heliocentric Model', 'Humanism in Renaissance Literature']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **HUMANISM IN RENAISSANCE LITERATURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Humanism in Renaissance Literature: Petrarch and the Birth of Humanism",
+    "keywords": ["Humanism", "Renaissance Literature", "Petrarch", "Italian literature", "Humanist movement"],
+    "text": "Petrarch, an Italian poet and scholar, is often referred to as the 'Father of Humanism'. He played a key role in the development of humanism in Renaissance literature through his focus on the individual, the study of classical texts, and the promotion of a more secular worldview. Petrarch's works, such as his sonnets and letters, reflected humanist ideals of education, critical thinking, and the importance of human experience. His emphasis on the value of human emotions and intellect had a lasting impact on Renaissance literature and the humanist movement as a whole.",
+    "link": "https://www.britannica.com/biography/Francesco-Petrarca" 
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Humanism in Renaissance Literature: Petrarch and the Birth of Humanism
+Keywords: Humanism, Renaissance Literature, Petrarch, Italian literature, Humanist movement
+Uses: 0
+Text: Petrarch, an Italian poet and scholar, is often referred to as the 'Father of Humanism'. He played a key role in the development of humanism in Renaissance literature through his focus on the individual, the study of classical texts, and the promotion of a more secular worldview. Petrarch's works, such as his sonnets and letters, reflected humanist ideals of education, critical thinking, and the importance of human experience. His emphasis on the value of human emotions and intellect had a lasting impact on Renaissance literature and the humanist movement as a whole.Link: https://www.britannica.com/biography/Francesco-Petrarca
+Researching topic: Patronage of the arts in the Renaissance
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance', 'Leonardo da Vinci', 'Renaissance Architecture', "Renaissance Architecture: St. Peter's Basilica", 'Scientific Advancements During the Renaissance', 'Copernicus and the Heliocentric Model', 'Humanism in Renaissance Literature', 'Humanism in Renaissance Literature: Petrarch and the Birth of Humanism']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **PATRONAGE OF THE ARTS IN THE RENAISSANCE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Patronage of the Arts in the Renaissance",
+    "keywords": ["Renaissance", "patronage", "arts", "Italy", "wealthy families"],
+    "text": "During the Renaissance period in Italy, the arts flourished due to the patronage of wealthy and powerful families. These patrons would commission artworks from talented artists, providing them with financial support and resources to create masterpieces. Some of the most famous patrons of the arts during this time included the Medici family in Florence and the Sforza family in Milan. This patronage system allowed artists like Leonardo da Vinci and Michelangelo to produce some of their most iconic works.",
+    "link": "https://www.metmuseum.org/toah/hd/parm/hd_parm.htm"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Patronage of the Arts in the Renaissance
+Keywords: Renaissance, patronage, arts, Italy, wealthy families
+Uses: 0
+Text: During the Renaissance period in Italy, the arts flourished due to the patronage of wealthy and powerful families. These patrons would commission artworks from talented artists, providing them with financial support and resources to create masterpieces. Some of the most famous patrons of the arts during this time included the Medici family in Florence and the Sforza family in Milan. This patronage system allowed artists like Leonardo da Vinci and Michelangelo to produce some of their most iconic works.Link: https://www.metmuseum.org/toah/hd/parm/hd_parm.htm
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance', 'Leonardo da Vinci', 'Renaissance Architecture', "Renaissance Architecture: St. Peter's Basilica", 'Scientific Advancements During the Renaissance', 'Copernicus and the Heliocentric Model', 'Humanism in Renaissance Literature', 'Humanism in Renaissance Literature: Petrarch and the Birth of Humanism', 'Patronage of the Arts in the Renaissance']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **PATRONAGE OF THE ARTS IN THE RENAISSANCE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Renaissance Patronage of the Arts",
+    "keywords": ["Renaissance", "Patronage", "Arts", "Support", "Artists"],
+    "text": "During the Renaissance period, wealthy individuals such as rulers, nobles, and merchants provided financial support to artists, musicians, writers, and scholars. This patronage system allowed artists to focus on their work without worrying about financial constraints, leading to the creation of many masterpieces. Patrons often commissioned specific works, providing detailed instructions and guidelines to the artists. Some famous patrons of the arts during the Renaissance include the Medici family in Florence and Pope Julius II in Rome.",
+    "link": "https://www.britannica.com/topic/patronage-art" 
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Renaissance Patronage of the Arts
+Keywords: Renaissance, Patronage, Arts, Support, Artists
+Uses: 0
+Text: During the Renaissance period, wealthy individuals such as rulers, nobles, and merchants provided financial support to artists, musicians, writers, and scholars. This patronage system allowed artists to focus on their work without worrying about financial constraints, leading to the creation of many masterpieces. Patrons often commissioned specific works, providing detailed instructions and guidelines to the artists. Some famous patrons of the arts during the Renaissance include the Medici family in Florence and Pope Julius II in Rome.Link: https://www.britannica.com/topic/patronage-art
+Researching topic: Impact of the printing press on Renaissance society
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance', 'Leonardo da Vinci', 'Renaissance Architecture', "Renaissance Architecture: St. Peter's Basilica", 'Scientific Advancements During the Renaissance', 'Copernicus and the Heliocentric Model', 'Humanism in Renaissance Literature', 'Humanism in Renaissance Literature: Petrarch and the Birth of Humanism', 'Patronage of the Arts in the Renaissance', 'Renaissance Patronage of the Arts']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF THE PRINTING PRESS ON RENAISSANCE SOCIETY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Impact of the Printing Press on Renaissance Society",
+    "keywords": ["Printing Press", "Renaissance Society", "Impact", "Gutenberg", "Communication", "Knowledge dissemination"],
+    "text": "The invention of the printing press by Johannes Gutenberg in the mid-15th century revolutionized communication and knowledge dissemination in Renaissance society. Prior to this invention, books were copied by hand, making them expensive and limited in availability. With the printing press, books could be produced more quickly and in larger quantities, leading to increased literacy rates and the spread of ideas. This played a significant role in the intellectual and cultural flourishing of the Renaissance period.",
+    "link": "https://www.britannica.com/technology/printing-press"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Impact of the Printing Press on Renaissance Society
+Keywords: Printing Press, Renaissance Society, Impact, Gutenberg, Communication, Knowledge dissemination
+Uses: 0
+Text: The invention of the printing press by Johannes Gutenberg in the mid-15th century revolutionized communication and knowledge dissemination in Renaissance society. Prior to this invention, books were copied by hand, making them expensive and limited in availability. With the printing press, books could be produced more quickly and in larger quantities, leading to increased literacy rates and the spread of ideas. This played a significant role in the intellectual and cultural flourishing of the Renaissance period.Link: https://www.britannica.com/technology/printing-press
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance', 'Leonardo da Vinci', 'Renaissance Architecture', "Renaissance Architecture: St. Peter's Basilica", 'Scientific Advancements During the Renaissance', 'Copernicus and the Heliocentric Model', 'Humanism in Renaissance Literature', 'Humanism in Renaissance Literature: Petrarch and the Birth of Humanism', 'Patronage of the Arts in the Renaissance', 'Renaissance Patronage of the Arts', 'Impact of the Printing Press on Renaissance Society']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF THE PRINTING PRESS ON RENAISSANCE SOCIETY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Spread of Knowledge and Ideas Through the Printing Press in Renaissance Society",
+    "keywords": ["printing press", "knowledge dissemination", "Renaissance society", "Gutenberg"],
+    "text": "The invention of the printing press by Johannes Gutenberg in the mid-15th century revolutionized the way information was spread in Renaissance society. Prior to the printing press, books were painstakingly copied by hand, making them rare and expensive. With the printing press, books could be produced much more quickly and at a lower cost, leading to a significant increase in literacy and access to knowledge. This democratization of information played a crucial role in the spread of ideas, scientific advancements, and cultural developments during the Renaissance.",
+    "link": "https://www.britannica.com/technology/printing-press"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Spread of Knowledge and Ideas Through the Printing Press in Renaissance Society
+Keywords: printing press, knowledge dissemination, Renaissance society, Gutenberg
+Uses: 0
+Text: The invention of the printing press by Johannes Gutenberg in the mid-15th century revolutionized the way information was spread in Renaissance society. Prior to the printing press, books were painstakingly copied by hand, making them rare and expensive. With the printing press, books could be produced much more quickly and at a lower cost, leading to a significant increase in literacy and access to knowledge. This democratization of information played a crucial role in the spread of ideas, scientific advancements, and cultural developments during the Renaissance.Link: https://www.britannica.com/technology/printing-press
+Researching topic: Women in the Renaissance
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance', 'Leonardo da Vinci', 'Renaissance Architecture', "Renaissance Architecture: St. Peter's Basilica", 'Scientific Advancements During the Renaissance', 'Copernicus and the Heliocentric Model', 'Humanism in Renaissance Literature', 'Humanism in Renaissance Literature: Petrarch and the Birth of Humanism', 'Patronage of the Arts in the Renaissance', 'Renaissance Patronage of the Arts', 'Impact of the Printing Press on Renaissance Society', 'Spread of Knowledge and Ideas Through the Printing Press in Renaissance Society']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WOMEN IN THE RENAISSANCE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Women in the Renaissance",
+    "keywords": ["Renaissance", "women", "gender roles", "education", "art", "literature"],
+    "text": "Women in the Renaissance period were often limited in terms of education and career opportunities. They were expected to focus on domestic duties and motherhood. However, some women did break through these societal norms and made significant contributions to the arts and literature. For example, Artemisia Gentileschi was a talented painter known for her powerful depictions of women in biblical and mythological scenes. Women like Christine de Pizan also made a mark in the literary world with works that challenged traditional gender roles.",
+    "link": "https://www.metmuseum.org/toah/hd/renw/hd_renw.htm"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Women in the Renaissance
+Keywords: Renaissance, women, gender roles, education, art, literature
+Uses: 0
+Text: Women in the Renaissance period were often limited in terms of education and career opportunities. They were expected to focus on domestic duties and motherhood. However, some women did break through these societal norms and made significant contributions to the arts and literature. For example, Artemisia Gentileschi was a talented painter known for her powerful depictions of women in biblical and mythological scenes. Women like Christine de Pizan also made a mark in the literary world with works that challenged traditional gender roles.Link: https://www.metmuseum.org/toah/hd/renw/hd_renw.htm
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Key Figures of the Renaissance', 'Leonardo da Vinci', 'Renaissance Architecture', "Renaissance Architecture: St. Peter's Basilica", 'Scientific Advancements During the Renaissance', 'Copernicus and the Heliocentric Model', 'Humanism in Renaissance Literature', 'Humanism in Renaissance Literature: Petrarch and the Birth of Humanism', 'Patronage of the Arts in the Renaissance', 'Renaissance Patronage of the Arts', 'Impact of the Printing Press on Renaissance Society', 'Spread of Knowledge and Ideas Through the Printing Press in Renaissance Society', 'Women in the Renaissance']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WOMEN IN THE RENAISSANCE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Women in the Renaissance",
+    "keywords": ["Renaissance", "women", "gender roles", "education", "art", "literature"],
+    "text": "During the Renaissance, women's roles were largely confined to the domestic sphere, with limited access to education and professional opportunities. However, some women were able to break through these barriers and achieve recognition in various fields such as art and literature. Notable female artists from this period include Sofonisba Anguissola and Artemisia Gentileschi, who defied societal norms to pursue successful careers in a male-dominated industry. Women also played a significant role in the literary scene, with figures like Vittoria Colonna and Veronica Franco making important contributions to poetry and prose.",
+    "link": "https://www.metmuseum.org/toah/hd/renw/hd_renw.htm"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Women in the Renaissance
+Keywords: Renaissance, women, gender roles, education, art, literature
+Uses: 0
+Text: During the Renaissance, women's roles were largely confined to the domestic sphere, with limited access to education and professional opportunities. However, some women were able to break through these barriers and achieve recognition in various fields such as art and literature. Notable female artists from this period include Sofonisba Anguissola and Artemisia Gentileschi, who defied societal norms to pursue successful careers in a male-dominated industry. Women also played a significant role in the literary scene, with figures like Vittoria Colonna and Veronica Franco making important contributions to poetry and prose.Link: https://www.metmuseum.org/toah/hd/renw/hd_renw.htm
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (The Renaissance Period) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Renaissance art refers to the art produced in Europe during the Renaissance period, which spanned from the 14th to the 17th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists focused on portraying the human figure realistically an...
+
+The Renaissance period was known for producing some of the most famous artists in history. Some of the most prominent Renaissance artists include Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli.
+
+One key figure of the Renaissance is Leonardo da Vinci, a renowned polymath known for his contributions in art, science, and engineering. Another important figure is Michelangelo, a sculptor, painter, and architect famous for works like the Sistine Chapel ceiling. Additionally, Niccolò Machiavelli, ...
+
+Leonardo da Vinci was a renowned Italian artist, inventor, and scientist who epitomized the term Renaissance man. He is best known for iconic works such as the Mona Lisa and The Last Supper. Da Vinci's diverse talents and contributions to various fields have made him one of the most celebrated figur...
+
+Renaissance architecture is the architectural style that emerged in Europe during the late 14th to early 17th centuries. It was heavily influenced by classical Roman and Greek architecture, with an emphasis on symmetry, proportion, and geometry. Renaissance architects sought to create harmonious bui...
+
+St. Peter's Basilica in Vatican City is a prime example of Renaissance architecture, with influences from both the Renaissance and Baroque styles. The basilica was designed by famous Renaissance architect Michelangelo, among others, and is considered one of the holiest Catholic shrines. It features ...
+
+During the Renaissance, there were significant advancements in various fields of science such as astronomy, anatomy, and physics. Key figures like Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries that challenged traditional beliefs and laid the foundation for...
+
+Nicolaus Copernicus, a Renaissance mathematician and astronomer, proposed the heliocentric model of the universe in which the Sun is at the center and the Earth and other planets revolve around it. This was a significant departure from the previously accepted geocentric model. Copernicus' work laid ...
+
+Humanism in Renaissance literature refers to the literary movement that focused on human values, potential, and achievements. It emphasized the importance of human experience, reason, and individualism. Writers during this period sought to capture the essence of human emotions and experiences in the...
+
+Petrarch, an Italian poet and scholar, is often referred to as the 'Father of Humanism'. He played a key role in the development of humanism in Renaissance literature through his focus on the individual, the study of classical texts, and the promotion of a more secular worldview. Petrarch's works, s...
+
+During the Renaissance period in Italy, the arts flourished due to the patronage of wealthy and powerful families. These patrons would commission artworks from talented artists, providing them with financial support and resources to create masterpieces. Some of the most famous patrons of the arts du...
+
+During the Renaissance period, wealthy individuals such as rulers, nobles, and merchants provided financial support to artists, musicians, writers, and scholars. This patronage system allowed artists to focus on their work without worrying about financial constraints, leading to the creation of many...
+
+The invention of the printing press by Johannes Gutenberg in the mid-15th century revolutionized communication and knowledge dissemination in Renaissance society. Prior to this invention, books were copied by hand, making them expensive and limited in availability. With the printing press, books cou...
+
+The invention of the printing press by Johannes Gutenberg in the mid-15th century revolutionized the way information was spread in Renaissance society. Prior to the printing press, books were painstakingly copied by hand, making them rare and expensive. With the printing press, books could be produc...
+
+Women in the Renaissance period were often limited in terms of education and career opportunities. They were expected to focus on domestic duties and motherhood. However, some women did break through these societal norms and made significant contributions to the arts and literature. For example, Art...
+
+During the Renaissance, women's roles were largely confined to the domestic sphere, with limited access to education and professional opportunities. However, some women were able to break through these barriers and achieve recognition in various fields such as art and literature. Notable female arti...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+Raw response:
+4
+.
+Topic count decided: 4
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (The Renaissance Period) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Renaissance art refers to the art produced in Europe during the Renaissance period, which spanned from the 14th to the 17th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists focused on portraying the human figure realistically an...
+
+The Renaissance period was known for producing some of the most famous artists in history. Some of the most prominent Renaissance artists include Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli.
+
+One key figure of the Renaissance is Leonardo da Vinci, a renowned polymath known for his contributions in art, science, and engineering. Another important figure is Michelangelo, a sculptor, painter, and architect famous for works like the Sistine Chapel ceiling. Additionally, Niccolò Machiavelli, ...
+
+Leonardo da Vinci was a renowned Italian artist, inventor, and scientist who epitomized the term Renaissance man. He is best known for iconic works such as the Mona Lisa and The Last Supper. Da Vinci's diverse talents and contributions to various fields have made him one of the most celebrated figur...
+
+Renaissance architecture is the architectural style that emerged in Europe during the late 14th to early 17th centuries. It was heavily influenced by classical Roman and Greek architecture, with an emphasis on symmetry, proportion, and geometry. Renaissance architects sought to create harmonious bui...
+
+St. Peter's Basilica in Vatican City is a prime example of Renaissance architecture, with influences from both the Renaissance and Baroque styles. The basilica was designed by famous Renaissance architect Michelangelo, among others, and is considered one of the holiest Catholic shrines. It features ...
+
+During the Renaissance, there were significant advancements in various fields of science such as astronomy, anatomy, and physics. Key figures like Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries that challenged traditional beliefs and laid the foundation for...
+
+Nicolaus Copernicus, a Renaissance mathematician and astronomer, proposed the heliocentric model of the universe in which the Sun is at the center and the Earth and other planets revolve around it. This was a significant departure from the previously accepted geocentric model. Copernicus' work laid ...
+
+Humanism in Renaissance literature refers to the literary movement that focused on human values, potential, and achievements. It emphasized the importance of human experience, reason, and individualism. Writers during this period sought to capture the essence of human emotions and experiences in the...
+
+Petrarch, an Italian poet and scholar, is often referred to as the 'Father of Humanism'. He played a key role in the development of humanism in Renaissance literature through his focus on the individual, the study of classical texts, and the promotion of a more secular worldview. Petrarch's works, s...
+
+During the Renaissance period in Italy, the arts flourished due to the patronage of wealthy and powerful families. These patrons would commission artworks from talented artists, providing them with financial support and resources to create masterpieces. Some of the most famous patrons of the arts du...
+
+During the Renaissance period, wealthy individuals such as rulers, nobles, and merchants provided financial support to artists, musicians, writers, and scholars. This patronage system allowed artists to focus on their work without worrying about financial constraints, leading to the creation of many...
+
+The invention of the printing press by Johannes Gutenberg in the mid-15th century revolutionized communication and knowledge dissemination in Renaissance society. Prior to this invention, books were copied by hand, making them expensive and limited in availability. With the printing press, books cou...
+
+The invention of the printing press by Johannes Gutenberg in the mid-15th century revolutionized the way information was spread in Renaissance society. Prior to the printing press, books were painstakingly copied by hand, making them rare and expensive. With the printing press, books could be produc...
+
+Women in the Renaissance period were often limited in terms of education and career opportunities. They were expected to focus on domestic duties and motherhood. However, some women did break through these societal norms and made significant contributions to the arts and literature. For example, Art...
+
+During the Renaissance, women's roles were largely confined to the domestic sphere, with limited access to education and professional opportunities. However, some women were able to break through these barriers and achieve recognition in various fields such as art and literature. Notable female arti...}). You are to come up with {4} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Week 1: Introduction to the Renaissance Period
+
+Main Topic Title: Overview of the Renaissance Period
+- Sub-topics:
+  1. Historical Context of the Renaissance Period: Discuss the time frame of the Renaissance period (14th to 17th century) and the key historical events that influenced the art and culture of the time.
+  2. Characteristics of Renaissance Art: Explore the main features of Renaissance art, such as the renewed interest in classical antiquity, humanism, and naturalism, as well as the focus on portraying the human figure realistically.
+  3. Prominent Renaissance Artists: Introduce students to key figures of the Renaissance period, including Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli.
+- Brief Explanation: This topic will provide students with a foundational understanding of the Renaissance period, its significance, and the key artistic movements and figures that defined this era.
+- Learning Objectives: By the end of this topic, students should be able to identify the historical context of the Renaissance period, recognize the characteristics of Renaissance art, and name prominent artists of the period.
+- Estimated number of slides: 10
+- Lab activities or practical exercises: Analyze and compare artworks by different Renaissance artists to identify common themes and characteristics.
+- Real-world applications and examples: Discuss how the influence of the Renaissance period can still be seen in modern art and architecture.
+
+Week 2: Renaissance Artists and Their Contributions
+
+Main Topic Title: Leonardo da Vinci and Michelangelo
+- Sub-topics:
+  1. Leonardo da Vinci: Explore the life and works of Leonardo da Vinci, focusing on iconic pieces such as the Mona Lisa and The Last Supper.
+  2. Michelangelo: Discuss the contributions of Michelangelo to art, sculpture, and architecture, with a focus on works like the Sistine Chapel ceiling.
+  3. Comparison of Leonardo da Vinci and Michelangelo: Analyze the artistic styles and techniques of these two Renaissance masters and compare their contributions to the art world.
+- Brief Explanation: This topic will delve deeper into the lives and works of Leonardo da Vinci and Michelangelo, highlighting their significance and impact on Renaissance art.
+- Learning Objectives: By the end of this topic, students should be able to differentiate between the artistic styles of Leonardo da Vinci and Michelangelo, identify key works by each artist, and understand their contributions to the Renaissance period.
+- Estimated number of slides: 15
+- Lab activities or practical exercises: Create a presentation comparing and contrasting the works of Leonardo da Vinci and Michelangelo.
+- Real-world applications and examples: Explore how the techniques and innovations of Leonardo da Vinci and Michelangelo have influenced contemporary art and design.
+
+Week 3: Renaissance Architecture and Science
+
+Main Topic Title: Renaissance Architecture and Scientific Advancements
+- Sub-topics:
+  1. Renaissance Architecture: Discuss the key characteristics of Renaissance architecture, including influences from classical Roman and Greek styles, symmetry, proportion, and geometry.
+  2. St. Peter's Basilica: Explore the architectural features of St. Peter's Basilica in Vatican City, designed by Michelangelo, and its significance as a prime example of Renaissance architecture.
+  3. Scientific Advancements: Examine the contributions of Renaissance scientists such as Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler to fields like astronomy, anatomy, and physics.
+- Brief Explanation: This topic will introduce students to the architectural principles of the Renaissance period and the scientific advancements that shaped the era.
+- Learning Objectives: By the end of this topic, students should be able to identify key features of Renaissance architecture, analyze the design of St. Peter's Basilica, and understand the scientific discoveries of Renaissance scientists.
+- Estimated number of slides: 12
+- Lab activities or practical exercises: Design a blueprint for a Renaissance-style building incorporating elements of symmetry and proportion.
+- Real-world applications and examples: Discuss how Renaissance architectural principles are still utilized in contemporary building design and urban planning.
+
+Week 4: Humanism in Renaissance Literature and Patronage of the Arts
+
+Main Topic Title: Humanism in Renaissance Literature and Patronage of the Arts
+- Sub-topics:
+  1. Humanism in Renaissance Literature: Explore the literary movement of humanism in Renaissance literature, focusing on the emphasis on human values, reason, and individualism.
+  2. Petrarch and the Development of Humanism: Discuss the role of Petrarch in the development of humanism in Renaissance literature and his contributions to secular worldview and classical texts.
+  3. Patronage of the Arts: Examine the patronage system in Renaissance society, where wealthy individuals supported artists, musicians, and scholars to create masterpieces.
+- Brief Explanation: This topic will examine the literary and cultural aspects of the Renaissance period, including the influence of humanism on literature and the importance of patronage in fostering artistic creativity.
+- Learning Objectives: By the end of this topic, students should be able to define humanism in Renaissance literature, analyze Petrarch's impact on humanism, and understand the role of patrons in supporting artistic endeavors.
+- Estimated number of slides: 10
+- Lab activities or practical exercises: Write a short essay exploring the themes of humanism in a Renaissance literary work.
+- Real-world applications and examples: Investigate how humanistic ideals are reflected in contemporary literature and how patronage continues to play a role in supporting artists and creatives.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (The Renaissance Period) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Week 1: Introduction to the Renaissance Period
+
+Main Topic Title: Overview of the Renaissance Period
+- Sub-topics:
+  1. Historical Context of the Renaissance Period: Discuss the time frame of the Renaissance period (14th to 17th century) and the key historical events that influenced the art and culture of the time.
+  2. Characteristics of Renaissance Art: Explore the main features of Renaissance art, such as the renewed interest in classical antiquity, humanism, and naturalism, as well as the focus on portraying the human figure realistically.
+  3. Prominent Renaissance Artists: Introduce students to key figures of the Renaissance period, including Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli.
+- Brief Explanation: This topic will provide students with a foundational understanding of the Renaissance period, its significance, and the key artistic movements and figures that defined this era.
+- Learning Objectives: By the end of this topic, students should be able to identify the historical context of the Renaissance period, recognize the characteristics of Renaissance art, and name prominent artists of the period.
+- Estimated number of slides: 10
+- Lab activities or practical exercises: Analyze and compare artworks by different Renaissance artists to identify common themes and characteristics.
+- Real-world applications and examples: Discuss how the influence of the Renaissance period can still be seen in modern art and architecture.
+
+Week 2: Renaissance Artists and Their Contributions
+
+Main Topic Title: Leonardo da Vinci and Michelangelo
+- Sub-topics:
+  1. Leonardo da Vinci: Explore the life and works of Leonardo da Vinci, focusing on iconic pieces such as the Mona Lisa and The Last Supper.
+  2. Michelangelo: Discuss the contributions of Michelangelo to art, sculpture, and architecture, with a focus on works like the Sistine Chapel ceiling.
+  3. Comparison of Leonardo da Vinci and Michelangelo: Analyze the artistic styles and techniques of these two Renaissance masters and compare their contributions to the art world.
+- Brief Explanation: This topic will delve deeper into the lives and works of Leonardo da Vinci and Michelangelo, highlighting their significance and impact on Renaissance art.
+- Learning Objectives: By the end of this topic, students should be able to differentiate between the artistic styles of Leonardo da Vinci and Michelangelo, identify key works by each artist, and understand their contributions to the Renaissance period.
+- Estimated number of slides: 15
+- Lab activities or practical exercises: Create a presentation comparing and contrasting the works of Leonardo da Vinci and Michelangelo.
+- Real-world applications and examples: Explore how the techniques and innovations of Leonardo da Vinci and Michelangelo have influenced contemporary art and design.
+
+Week 3: Renaissance Architecture and Science
+
+Main Topic Title: Renaissance Architecture and Scientific Advancements
+- Sub-topics:
+  1. Renaissance Architecture: Discuss the key characteristics of Renaissance architecture, including influences from classical Roman and Greek styles, symmetry, proportion, and geometry.
+  2. St. Peter's Basilica: Explore the architectural features of St. Peter's Basilica in Vatican City, designed by Michelangelo, and its significance as a prime example of Renaissance architecture.
+  3. Scientific Advancements: Examine the contributions of Renaissance scientists such as Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler to fields like astronomy, anatomy, and physics.
+- Brief Explanation: This topic will introduce students to the architectural principles of the Renaissance period and the scientific advancements that shaped the era.
+- Learning Objectives: By the end of this topic, students should be able to identify key features of Renaissance architecture, analyze the design of St. Peter's Basilica, and understand the scientific discoveries of Renaissance scientists.
+- Estimated number of slides: 12
+- Lab activities or practical exercises: Design a blueprint for a Renaissance-style building incorporating elements of symmetry and proportion.
+- Real-world applications and examples: Discuss how Renaissance architectural principles are still utilized in contemporary building design and urban planning.
+
+Week 4: Humanism in Renaissance Literature and Patronage of the Arts
+
+Main Topic Title: Humanism in Renaissance Literature and Patronage of the Arts
+- Sub-topics:
+  1. Humanism in Renaissance Literature: Explore the literary movement of humanism in Renaissance literature, focusing on the emphasis on human values, reason, and individualism.
+  2. Petrarch and the Development of Humanism: Discuss the role of Petrarch in the development of humanism in Renaissance literature and his contributions to secular worldview and classical texts.
+  3. Patronage of the Arts: Examine the patronage system in Renaissance society, where wealthy individuals supported artists, musicians, and scholars to create masterpieces.
+- Brief Explanation: This topic will examine the literary and cultural aspects of the Renaissance period, including the influence of humanism on literature and the importance of patronage in fostering artistic creativity.
+- Learning Objectives: By the end of this topic, students should be able to define humanism in Renaissance literature, analyze Petrarch's impact on humanism, and understand the role of patrons in supporting artistic endeavors.
+- Estimated number of slides: 10
+- Lab activities or practical exercises: Write a short essay exploring the themes of humanism in a Renaissance literary work.
+- Real-world applications and examples: Investigate how humanistic ideals are reflected in contemporary literature and how patronage continues to play a role in supporting artists and creatives.}). Total slides available: {8}. Topics to allocate: {4}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[10, 15, 12, 10]
+.
+Slide allocation: [1, 4, 2, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (The Renaissance Period) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Week 1: Introduction to the Renaissance Period
+
+Main Topic Title: Overview of the Renaissance Period
+- Sub-topics:
+  1. Historical Context of the Renaissance Period: Discuss the time frame of the Renaissance period (14th to 17th century) and the key historical events that influenced the art and culture of the time.
+  2. Characteristics of Renaissance Art: Explore the main features of Renaissance art, such as the renewed interest in classical antiquity, humanism, and naturalism, as well as the focus on portraying the human figure realistically.
+  3. Prominent Renaissance Artists: Introduce students to key figures of the Renaissance period, including Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli.
+- Brief Explanation: This topic will provide students with a foundational understanding of the Renaissance period, its significance, and the key artistic movements and figures that defined this era.
+- Learning Objectives: By the end of this topic, students should be able to identify the historical context of the Renaissance period, recognize the characteristics of Renaissance art, and name prominent artists of the period.
+- Estimated number of slides: 10
+- Lab activities or practical exercises: Analyze and compare artworks by different Renaissance artists to identify common themes and characteristics.
+- Real-world applications and examples: Discuss how the influence of the Renaissance period can still be seen in modern art and architecture.
+
+Week 2: Renaissance Artists and Their Contributions
+
+Main Topic Title: Leonardo da Vinci and Michelangelo
+- Sub-topics:
+  1. Leonardo da Vinci: Explore the life and works of Leonardo da Vinci, focusing on iconic pieces such as the Mona Lisa and The Last Supper.
+  2. Michelangelo: Discuss the contributions of Michelangelo to art, sculpture, and architecture, with a focus on works like the Sistine Chapel ceiling.
+  3. Comparison of Leonardo da Vinci and Michelangelo: Analyze the artistic styles and techniques of these two Renaissance masters and compare their contributions to the art world.
+- Brief Explanation: This topic will delve deeper into the lives and works of Leonardo da Vinci and Michelangelo, highlighting their significance and impact on Renaissance art.
+- Learning Objectives: By the end of this topic, students should be able to differentiate between the artistic styles of Leonardo da Vinci and Michelangelo, identify key works by each artist, and understand their contributions to the Renaissance period.
+- Estimated number of slides: 15
+- Lab activities or practical exercises: Create a presentation comparing and contrasting the works of Leonardo da Vinci and Michelangelo.
+- Real-world applications and examples: Explore how the techniques and innovations of Leonardo da Vinci and Michelangelo have influenced contemporary art and design.
+
+Week 3: Renaissance Architecture and Science
+
+Main Topic Title: Renaissance Architecture and Scientific Advancements
+- Sub-topics:
+  1. Renaissance Architecture: Discuss the key characteristics of Renaissance architecture, including influences from classical Roman and Greek styles, symmetry, proportion, and geometry.
+  2. St. Peter's Basilica: Explore the architectural features of St. Peter's Basilica in Vatican City, designed by Michelangelo, and its significance as a prime example of Renaissance architecture.
+  3. Scientific Advancements: Examine the contributions of Renaissance scientists such as Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler to fields like astronomy, anatomy, and physics.
+- Brief Explanation: This topic will introduce students to the architectural principles of the Renaissance period and the scientific advancements that shaped the era.
+- Learning Objectives: By the end of this topic, students should be able to identify key features of Renaissance architecture, analyze the design of St. Peter's Basilica, and understand the scientific discoveries of Renaissance scientists.
+- Estimated number of slides: 12
+- Lab activities or practical exercises: Design a blueprint for a Renaissance-style building incorporating elements of symmetry and proportion.
+- Real-world applications and examples: Discuss how Renaissance architectural principles are still utilized in contemporary building design and urban planning.
+
+Week 4: Humanism in Renaissance Literature and Patronage of the Arts
+
+Main Topic Title: Humanism in Renaissance Literature and Patronage of the Arts
+- Sub-topics:
+  1. Humanism in Renaissance Literature: Explore the literary movement of humanism in Renaissance literature, focusing on the emphasis on human values, reason, and individualism.
+  2. Petrarch and the Development of Humanism: Discuss the role of Petrarch in the development of humanism in Renaissance literature and his contributions to secular worldview and classical texts.
+  3. Patronage of the Arts: Examine the patronage system in Renaissance society, where wealthy individuals supported artists, musicians, and scholars to create masterpieces.
+- Brief Explanation: This topic will examine the literary and cultural aspects of the Renaissance period, including the influence of humanism on literature and the importance of patronage in fostering artistic creativity.
+- Learning Objectives: By the end of this topic, students should be able to define humanism in Renaissance literature, analyze Petrarch's impact on humanism, and understand the role of patrons in supporting artistic endeavors.
+- Estimated number of slides: 10
+- Lab activities or practical exercises: Write a short essay exploring the themes of humanism in a Renaissance literary work.
+- Real-world applications and examples: Investigate how humanistic ideals are reflected in contemporary literature and how patronage continues to play a role in supporting artists and creatives.}). Slide allocation per topic: {[1, 4, 2, 1]}. Database content for reference: ({Renaissance art refers to the art produced in Europe during the Renaissance period, which spanned from the 14th to the 17th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists focused on portraying the human figure realistically an...
+
+The Renaissance period was known for producing some of the most famous artists in history. Some of the most prominent Renaissance artists include Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli.
+
+One key figure of the Renaissance is Leonardo da Vinci, a renowned polymath known for his contributions in art, science, and engineering. Another important figure is Michelangelo, a sculptor, painter, and architect famous for works like the Sistine Chapel ceiling. Additionally, Niccolò Machiavelli, ...
+
+Leonardo da Vinci was a renowned Italian artist, inventor, and scientist who epitomized the term Renaissance man. He is best known for iconic works such as the Mona Lisa and The Last Supper. Da Vinci's diverse talents and contributions to various fields have made him one of the most celebrated figur...
+
+Renaissance architecture is the architectural style that emerged in Europe during the late 14th to early 17th centuries. It was heavily influenced by classical Roman and Greek architecture, with an emphasis on symmetry, proportion, and geometry. Renaissance architects sought to create harmonious bui...
+
+St. Peter's Basilica in Vatican City is a prime example of Renaissance architecture, with influences from both the Renaissance and Baroque styles. The basilica was designed by famous Renaissance architect Michelangelo, among others, and is considered one of the holiest Catholic shrines. It features ...
+
+During the Renaissance, there were significant advancements in various fields of science such as astronomy, anatomy, and physics. Key figures like Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries that challenged traditional beliefs and laid the foundation for...
+
+Nicolaus Copernicus, a Renaissance mathematician and astronomer, proposed the heliocentric model of the universe in which the Sun is at the center and the Earth and other planets revolve around it. This was a significant departure from the previously accepted geocentric model. Copernicus' work laid ...
+
+Humanism in Renaissance literature refers to the literary movement that focused on human values, potential, and achievements. It emphasized the importance of human experience, reason, and individualism. Writers during this period sought to capture the essence of human emotions and experiences in the...
+
+Petrarch, an Italian poet and scholar, is often referred to as the 'Father of Humanism'. He played a key role in the development of humanism in Renaissance literature through his focus on the individual, the study of classical texts, and the promotion of a more secular worldview. Petrarch's works, s...
+
+During the Renaissance period in Italy, the arts flourished due to the patronage of wealthy and powerful families. These patrons would commission artworks from talented artists, providing them with financial support and resources to create masterpieces. Some of the most famous patrons of the arts du...
+
+During the Renaissance period, wealthy individuals such as rulers, nobles, and merchants provided financial support to artists, musicians, writers, and scholars. This patronage system allowed artists to focus on their work without worrying about financial constraints, leading to the creation of many...
+
+The invention of the printing press by Johannes Gutenberg in the mid-15th century revolutionized communication and knowledge dissemination in Renaissance society. Prior to this invention, books were copied by hand, making them expensive and limited in availability. With the printing press, books cou...
+
+The invention of the printing press by Johannes Gutenberg in the mid-15th century revolutionized the way information was spread in Renaissance society. Prior to the printing press, books were painstakingly copied by hand, making them rare and expensive. With the printing press, books could be produc...
+
+Women in the Renaissance period were often limited in terms of education and career opportunities. They were expected to focus on domestic duties and motherhood. However, some women did break through these societal norms and made significant contributions to the arts and literature. For example, Art...
+
+During the Renaissance, women's roles were largely confined to the domestic sphere, with limited access to education and professional opportunities. However, some women were able to break through these barriers and achieve recognition in various fields such as art and literature. Notable female arti...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+Raw response:
+1. Key Figures of the Renaissance Period: Leonardo da Vinci
+2. Key Figures of the Renaissance Period: Michelangelo
+3. Characteristics of Renaissance Architecture
+4. St. Peter's Basilica: Architectural Features
+5. Scientific Advancements in the Renaissance Period
+6. Humanism in Renaissance Literature
+7. Petrarch and Humanism in Renaissance Literature
+8. Patronage of the Arts in Renaissance Society
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_13-57-34.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_13-57-34.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_13-57-40.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+⚠️ Content validation suggestions: Overall, the lecture notes provide a solid introduction to the Renaissance period, covering key historical events, characteristics of Renaissance art, prominent artists, learning objectives, real-world applications, and assessment questions. 
+
+In terms of depth and detail, the notes provide a good overview of the Renaissance period, but could benefit from more specific examples of artwork and detailed analysis of the works of the mentioned artists. Including more in-depth information on the impact of the Renaissance on various aspects of society, such as politics, religion, and economics, would also enhance the comprehensiveness of the content.
+
+The real-world applications section is well-developed, connecting the historical period to modern art, architecture, and societal values. However, expanding on how Renaissance ideals have influenced specific scientific advancements or technological innovations would further enrich the content.
+
+The progressive complexity of the material is appropriate for senior undergraduate study, as it introduces basic concepts of the Renaissance period and gradually delves into more advanced topics related to art, culture, and societal impact.
+
+Overall, the lecture notes are suitable for 3 credit hours of senior undergraduate study, but could be improved by adding more specific examples, in-depth analysis, and expanding on the real-world applications of Renaissance ideals.
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: The Renaissance Period
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Key Figures of the Renaissance Period: Leonardo da Vinci)
+🔍 DEBUG: Slide 1 content set to: '• Leonardo da Vinci: Renowned polymath in art, science, and engineering • Known for iconic works lik...'
+🔍 DEBUG: Slide 1 content length: 273
+✅ Slide 1 content: • Leonardo da Vinci: Renowned polymath in art, science, and engineering
+• Known for iconic works like the Mona Lisa and The Last Supper
+• Epitomized the term Renaissance man with diverse talents
+• Celebrated for contributions to various fields during the Renaissance period
+Generating content for slide 2 (Topic: Key Figures of the Renaissance Period: Michelangelo)
+🔍 DEBUG: Slide 2 content set to: '• Michelangelo: Renowned sculptor, painter, and architect during the Renaissance period • Known for ...'
+🔍 DEBUG: Slide 2 content length: 273
+✅ Slide 2 content: • Michelangelo: Renowned sculptor, painter, and architect during the Renaissance period
+• Known for iconic works like the Sistine Chapel ceiling in Vatican City
+• Demonstrated mastery in various artistic mediums and left a lasting impact on Renaissance art and architecture
+Generating content for slide 3 (Topic: Characteristics of Renaissance Architecture)
+🔍 DEBUG: Slide 3 content set to: '• Renaissance architecture emerged in Europe from the late 14th to early 17th centuries • Influenced...'
+🔍 DEBUG: Slide 3 content length: 343
+✅ Slide 3 content: • Renaissance architecture emerged in Europe from the late 14th to early 17th centuries
+• Influenced by classical Roman and Greek architecture, emphasizing symmetry, proportion, and geometry
+• Key features include domes, columns, arches, and pilasters
+• Examples include St. Peter's Basilica in Rome and the Palazzo Medici Riccardi in Florence
+Generating content for slide 4 (Topic: St. Peter's Basilica: Architectural Features)
+🔍 DEBUG: Slide 4 content set to: '• St. Peter's Basilica in Vatican City exemplifies Renaissance architecture • Designed by renowned a...'
+🔍 DEBUG: Slide 4 content length: 242
+✅ Slide 4 content: • St. Peter's Basilica in Vatican City exemplifies Renaissance architecture
+• Designed by renowned architect Michelangelo
+• Features grand dome, intricate facade, and impressive colonnades
+• Influences from both Renaissance and Baroque styles
+Generating content for slide 5 (Topic: Scientific Advancements in the Renaissance Period)
+🔍 DEBUG: Slide 5 content set to: '• Significant scientific advancements in astronomy, anatomy, and physics occurred during the Renaiss...'
+🔍 DEBUG: Slide 5 content length: 436
+✅ Slide 5 content: • Significant scientific advancements in astronomy, anatomy, and physics occurred during the Renaissance period
+• Key figures such as Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries
+• Copernicus proposed the heliocentric model challenging the geocentric view of the universe
+• The spread of knowledge through the printing press facilitated the dissemination of scientific ideas and advancements
+Generating content for slide 6 (Topic: Humanism in Renaissance Literature)
+🔍 DEBUG: Slide 6 content set to: '• Humanism in Renaissance literature focused on human values, potential, and achievements • Emphasiz...'
+🔍 DEBUG: Slide 6 content length: 337
+✅ Slide 6 content: • Humanism in Renaissance literature focused on human values, potential, and achievements
+• Emphasized human experience, reason, and individualism in literary works
+• Writers drew inspiration from classical texts to capture human emotions and experiences
+• Prominent themes included education, critical thinking, and pursuit of knowledge
+Generating content for slide 7 (Topic: Petrarch and Humanism in Renaissance Literature)
+🔍 DEBUG: Slide 7 content set to: '• Petrarch, known as the 'Father of Humanism', played a pivotal role in Renaissance literature • Emp...'
+🔍 DEBUG: Slide 7 content length: 366
+✅ Slide 7 content: • Petrarch, known as the 'Father of Humanism', played a pivotal role in Renaissance literature
+• Emphasized individualism, study of classical texts, and a more secular worldview
+• Works like sonnets and letters reflected humanist ideals of education, critical thinking, and human experience
+• Influence on Renaissance literature and the humanist movement as a whole.
+Generating content for slide 8 (Topic: Patronage of the Arts in Renaissance Society)
+🔍 DEBUG: Slide 8 content set to: '• Wealthy individuals like rulers, nobles, and merchants supported artists, musicians, writers, and ...'
+🔍 DEBUG: Slide 8 content length: 399
+✅ Slide 8 content: • Wealthy individuals like rulers, nobles, and merchants supported artists, musicians, writers, and scholars during the Renaissance
+• Patronage system allowed artists to focus on their work without financial constraints
+• Patrons commissioned specific works, providing detailed instructions and guidelines to artists
+• Famous patrons include the Medici family in Florence and Pope Julius II in Rome.
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Key Figures of the Renaissance Period: Leonardo da Vinci)
+✅ Slide 1 title: Leonardo da Vinci: Renaissance Polymath
+Generating title for slide 2 (Topic: Key Figures of the Renaissance Period: Michelangelo)
+✅ Slide 2 title: Michelangelo: Renaissance Master of Art
+Generating title for slide 3 (Topic: Characteristics of Renaissance Architecture)
+✅ Slide 3 title: Title: Key Characteristics of Renaissance Architecture
+Generating title for slide 4 (Topic: St. Peter's Basilica: Architectural Features)
+✅ Slide 4 title: St. Peter's Basilica: Architectural Marvels
+Generating title for slide 5 (Topic: Scientific Advancements in the Renaissance Period)
+✅ Slide 5 title: Scientific Breakthroughs in the Renaissance
+Generating title for slide 6 (Topic: Humanism in Renaissance Literature)
+✅ Slide 6 title: Humanism in Renaissance Literature: Human Values and Achievements
+Generating title for slide 7 (Topic: Petrarch and Humanism in Renaissance Literature)
+✅ Slide 7 title: "Petrarch: Father of Renaissance Humanism"
+Generating title for slide 8 (Topic: Patronage of the Arts in Renaissance Society)
+✅ Slide 8 title: Patronage of the Arts in Renaissance Society
+Generating overall presentation title...
+✅ Overall presentation title: The Renaissance Revival: Exploring the Art, Architecture, Science, and Humanism of a Transformative Era
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Key Figures of the Renaissance Period: Leonardo da Vinci)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Key Figures of the Renaissance Period: Michelangelo)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Characteristics of Renaissance Architecture)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: St. Peter's Basilica: Architectural Features)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Scientific Advancements in the Renaissance Period)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Humanism in Renaissance Literature)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Petrarch and Humanism in Renaissance Literature)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Patronage of the Arts in Renaissance Society)
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Key Figures of the Renaissance Period: Leonardo da Vinci)
+⚠️ Warning: Slide 1 content is long (618 chars) - consider reducing
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Key Figures of the Renaissance Period: Michelangelo)
+⚠️ Warning: Slide 2 content is long (645 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Characteristics of Renaissance Architecture)
+⚠️ Warning: Slide 3 content is long (708 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: St. Peter's Basilica: Architectural Features)
+⚠️ Warning: Slide 4 content is long (568 chars) - consider reducing
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Scientific Advancements in the Renaissance Period)
+⚠️ Warning: Slide 5 content is long (598 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Humanism in Renaissance Literature)
+⚠️ Warning: Slide 6 content is long (664 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Petrarch and Humanism in Renaissance Literature)
+⚠️ Warning: Slide 7 content is long (584 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Patronage of the Arts in Renaissance Society)
+⚠️ Warning: Slide 8 content is long (838 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: The_Renaissance_Revival_Exploring_the_Art,_Architecture,_Science,_and_Humanism_of_a_Transformative_Era_2025-08-31_13-58-23
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\The_Renaissance_Revival_Exploring_the_Art,_Architecture,_Science,_and_Humanism_of_a_Transformative_Era_2025-08-31_13-58-23.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\The_Renaissance_Revival_Exploring_the_Art,_Architecture,_Science,_and_Humanism_of_a_Transformative_Era_2025-08-31_13-58-23.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 8 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\The_Renaissance_Revival_Exploring_the_Art,_Architecture,_Science,_and_Humanism_of_a_Transformative_Era_2025-08-31_13-58-23.pptx
+📊 Rating presentation 8...
+✅ Presentation 8 rated successfully
+📈 Overall Rating: 7.02 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.00 / 2.00
+   - Non-Repetition: 1.83 / 2.00
+   - Content Balance: 1.72 / 2.00
+   - Title Uniqueness: 1.87 / 2.00
+   - Title-Content Match: 1.60 / 2.00
+💾 Result saved to file for presentation 8
+
+📊 Presentation 10/20 (ID: 9)
+📝 Using topic: Immigration and Cultural Integration
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

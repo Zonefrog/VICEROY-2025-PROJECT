@@ -1,0 +1,1769 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T18:43:14.490580
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_18-43-14.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 8...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+The Renaissance Period
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+🎲 Choice scenario triggered! (Rolled 16.4 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Renaissance Art, Key Figures of the Renaissance
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Renaissance art, Renaissance literature
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI topic response: Renaissance art, Renaissance literature
+Selected topics: ['Renaissance art', 'Renaissance literature']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Renaissance art
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE ART** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 4.5 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Renaissance Art",
+    "keywords": ["Renaissance", "art", "painting", "sculpture", "Italy", "humanism"],
+    "text": "Renaissance art is the painting, sculpture, and decorative arts of the period of European history known as the Renaissance, which emerged in Italy in the late 14th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists such as Leonardo da Vinci, Michelangelo, and Raphael created some of the most famous works of art in history during this period.",
+    "link": "https://www.metmuseum.org/toah/hd/itren/hd_itren.htm"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Renaissance Art",
+    "keywords": ["Renaissance", "art", "painting", "sculpture", "Italy"],
+    "text": "Renaissance art is the painting, sculpture, and decorative arts of the period of European history known as the Renaissance, which emerged as a distinct style in Italy in about 1400. It is characterized by a renewed interest in human-centered classical art, architecture, literature, and learning.",
+    "link": "https://www.metmuseum.org/toah/hd/itar/hd_itar.htm"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Renaissance Art",
+    "keywords": ["Renaissance", "art", "painting", "sculpture", "Italy", "humanism"],
+    "text": "Renaissance art is the painting, sculpture, and decorative arts of the period of European history known as the Renaissance, which emerged in Italy in the late 14th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists such as Leonardo da Vinci, Michelangelo, and Raphael created some of the most famous works of art in history during this period.",
+    "link": "https://www.metmuseum.org/toah/hd/itren/hd_itren.htm"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Renaissance Art
+Keywords: Renaissance, art, painting, sculpture, Italy, humanism
+Uses: 0
+Text: Renaissance art is the painting, sculpture, and decorative arts of the period of European history known as the Renaissance, which emerged in Italy in the late 14th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists such as Leonardo da Vinci, Michelangelo, and Raphael created some of the most famous works of art in history during this period.Link: https://www.metmuseum.org/toah/hd/itren/hd_itren.htm
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE ART** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Famous Renaissance Artists",
+    "keywords": ["Renaissance Art", "artists", "famous", "painters"],
+    "text": "Some of the most famous Renaissance artists include Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli. These artists made significant contributions to the art world during the Renaissance period.",
+    "link": "https://www.history.com/topics/renaissance/renaissance-art"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Famous Renaissance Artists
+Keywords: Renaissance Art, artists, famous, painters
+Uses: 0
+Text: Some of the most famous Renaissance artists include Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli. These artists made significant contributions to the art world during the Renaissance period.Link: https://www.history.com/topics/renaissance/renaissance-art
+Researching topic: Renaissance literature
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE LITERATURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Renaissance Literature",
+    "keywords": ["Renaissance", "literature", "poetry", "drama", "prose"],
+    "text": "Renaissance literature refers to the body of written works produced during the Renaissance period, which spanned from the 14th to the 17th century. This literary movement was characterized by a renewed interest in classical texts, humanism, and the individual. Some key genres of Renaissance literature include poetry, drama, and prose. Notable writers of this period include William Shakespeare, John Milton, and Miguel de Cervantes.",
+    "link": "https://www.britannica.com/art/Western-literature/The-Renaissance"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Renaissance Literature
+Keywords: Renaissance, literature, poetry, drama, prose
+Uses: 0
+Text: Renaissance literature refers to the body of written works produced during the Renaissance period, which spanned from the 14th to the 17th century. This literary movement was characterized by a renewed interest in classical texts, humanism, and the individual. Some key genres of Renaissance literature include poetry, drama, and prose. Notable writers of this period include William Shakespeare, John Milton, and Miguel de Cervantes.Link: https://www.britannica.com/art/Western-literature/The-Renaissance
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE LITERATURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 21.3 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Renaissance Drama",
+    "keywords": ["Renaissance", "drama", "theater", "playwrights"],
+    "text": "Renaissance drama refers to theatrical performances and plays that were produced during the Renaissance period. This era saw the emergence of famous playwrights such as William Shakespeare, Christopher Marlowe, and Ben Jonson, who created some of the most iconic works in English literature. Renaissance drama often explored themes of love, power, politics, and the human condition, and it played a significant role in shaping the cultural landscape of the time.",
+    "link": "https://www.britannica.com/art/dramatic-literature" 
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Renaissance Drama",
+    "keywords": ["Renaissance Drama", "Renaissance Theater", "Drama in the Renaissance", "Renaissance Playwrights"],
+    "text": "Renaissance drama refers to the theater productions and plays that were popular during the Renaissance period. It was a time of great innovation and creativity in the world of theater, with playwrights like William Shakespeare and Christopher Marlowe producing some of the most iconic works in English literature. The plays of this era often explored themes of love, power, and the human condition, and were performed in theaters like the Globe Theatre in London.",
+    "link": "https://www.britannica.com/art/dramatic-literature/Renaissance"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Renaissance Drama",
+    "keywords": ["Renaissance Drama", "Renaissance Theater", "Drama in the Renaissance", "Renaissance Playwrights"],
+    "text": "Renaissance drama refers to the theater productions and plays that were popular during the Renaissance period. It was a time of great innovation and creativity in the world of theater, with playwrights like William Shakespeare and Christopher Marlowe producing some of the most iconic works in English literature. The plays of this era often explored themes of love, power, and the human condition, and were performed in theaters like the Globe Theatre in London.",
+    "link": "https://www.britannica.com/art/dramatic-literature/Renaissance"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Renaissance Drama
+Keywords: Renaissance Drama, Renaissance Theater, Drama in the Renaissance, Renaissance Playwrights
+Uses: 0
+Text: Renaissance drama refers to the theater productions and plays that were popular during the Renaissance period. It was a time of great innovation and creativity in the world of theater, with playwrights like William Shakespeare and Christopher Marlowe producing some of the most iconic works in English literature. The plays of this era often explored themes of love, power, and the human condition, and were performed in theaters like the Globe Theatre in London.Link: https://www.britannica.com/art/dramatic-literature/Renaissance
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (The Renaissance Period) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Renaissance art', 'Renaissance literature']. The research these yeilded is: ({Renaissance art is the painting, sculpture, and decorative arts of the period of European history known as the Renaissance, which emerged in Italy in the late 14th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists such as Leonardo da Vinci, Michelangelo, and Raphael created some of the most famous works of art in history during this period.
+
+Some of the most famous Renaissance artists include Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli. These artists made significant contributions to the art world during the Renaissance period.
+
+Renaissance literature refers to the body of written works produced during the Renaissance period, which spanned from the 14th to the 17th century. This literary movement was characterized by a renewed interest in classical texts, humanism, and the individual. Some key genres of Renaissance literature include poetry, drama, and prose. Notable writers of this period includ (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Renaissance architecture, Renaissance music, Renaissance philosophy, Renaissance science, Renaissance fashion, Renaissance technology
+Selected topics: ['Renaissance architecture', 'Renaissance music', 'Renaissance philosophy', 'Renaissance science', 'Renaissance fashion', 'Renaissance technology']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Renaissance architecture
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature', 'Renaissance Drama']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE ARCHITECTURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 14.1 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Renaissance Architecture",
+    "keywords": ["Renaissance", "architecture", "design", "buildings", "Italy"],
+    "text": "Renaissance architecture is the architectural style that emerged in Europe during the late 14th to early 17th centuries. It is characterized by a revival of classical forms, symmetry, and proportion, inspired by the architecture of ancient Rome and Greece. Renaissance architects sought to create buildings that were harmonious, balanced, and visually pleasing. Italy was a center of Renaissance architecture, with famous examples including the Florence Cathedral and St. Peter's Basilica in Vatican City.",
+    "link": "https://www.britannica.com/art/Western-architecture/Renaissance"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Renaissance Architecture",
+    "keywords": ["Renaissance", "Architecture", "History", "Design", "Innovation"],
+    "text": "Renaissance architecture is the architectural style that emerged in Europe during the Renaissance period, which lasted from the 14th to the 17th century. This style was characterized by a revival of classical forms and an emphasis on symmetry, proportion, and geometry. Renaissance architects drew inspiration from ancient Roman and Greek architecture, incorporating elements such as columns, domes, and arches into their designs. Some famous examples of Renaissance architecture include St. Peter's Basilica in Vatican City and the Palazzo Pitti in Florence.",
+    "link": "https://www.britannica.com/art/Western-architecture/Renaissance#ref1040532"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Renaissance Architecture",
+    "keywords": ["Renaissance", "Architecture", "History", "Design", "Innovation"],
+    "text": "Renaissance architecture is the architectural style that emerged in Europe during the Renaissance period, which lasted from the 14th to the 17th century. This style was characterized by a revival of classical forms and an emphasis on symmetry, proportion, and geometry. Renaissance architects drew inspiration from ancient Roman and Greek architecture, incorporating elements such as columns, domes, and arches into their designs. Some famous examples of Renaissance architecture include St. Peter's Basilica in Vatican City and the Palazzo Pitti in Florence.",
+    "link": "https://www.britannica.com/art/Western-architecture/Renaissance#ref1040532"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Renaissance Architecture
+Keywords: Renaissance, Architecture, History, Design, Innovation
+Uses: 0
+Text: Renaissance architecture is the architectural style that emerged in Europe during the Renaissance period, which lasted from the 14th to the 17th century. This style was characterized by a revival of classical forms and an emphasis on symmetry, proportion, and geometry. Renaissance architects drew inspiration from ancient Roman and Greek architecture, incorporating elements such as columns, domes, and arches into their designs. Some famous examples of Renaissance architecture include St. Peter's Basilica in Vatican City and the Palazzo Pitti in Florence.Link: https://www.britannica.com/art/Western-architecture/Renaissance#ref1040532
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature', 'Renaissance Drama', 'Renaissance Architecture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE ARCHITECTURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Key Features of Renaissance Architecture",
+    "keywords": ["Renaissance Architecture", "Features", "Design", "Elements", "Style"],
+    "text": "Renaissance architecture is characterized by symmetry, proportion, and harmony. Key features include the use of classical orders (Doric, Ionic, and Corinthian), domes, columns, pilasters, arches, and pediments. Buildings often have a sense of balance and harmony, with a focus on mathematical principles and perspective.",
+    "link": "https://www.britannica.com/art/Western-architecture/Renaissance"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Key Features of Renaissance Architecture
+Keywords: Renaissance Architecture, Features, Design, Elements, Style
+Uses: 0
+Text: Renaissance architecture is characterized by symmetry, proportion, and harmony. Key features include the use of classical orders (Doric, Ionic, and Corinthian), domes, columns, pilasters, arches, and pediments. Buildings often have a sense of balance and harmony, with a focus on mathematical principles and perspective.Link: https://www.britannica.com/art/Western-architecture/Renaissance
+Researching topic: Renaissance music
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature', 'Renaissance Drama', 'Renaissance Architecture', 'Key Features of Renaissance Architecture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE MUSIC** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Renaissance Music",
+    "keywords": ["Renaissance music", "musical instruments", "composers", "Madrigal", "Motet"],
+    "text": "Renaissance music is European music written during the Renaissance period, which lasted from the 14th to the 17th century. This era saw the development of new musical forms, such as the madrigal and motet. Composers like Josquin des Prez and Giovanni Pierluigi da Palestrina were prominent figures in Renaissance music. Instruments commonly used during this time included the lute, viol, and harpsichord.",
+    "link": "https://www.britannica.com/art/Western-music/Renaissance-music"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Renaissance Music
+Keywords: Renaissance music, musical instruments, composers, Madrigal, Motet
+Uses: 0
+Text: Renaissance music is European music written during the Renaissance period, which lasted from the 14th to the 17th century. This era saw the development of new musical forms, such as the madrigal and motet. Composers like Josquin des Prez and Giovanni Pierluigi da Palestrina were prominent figures in Renaissance music. Instruments commonly used during this time included the lute, viol, and harpsichord.Link: https://www.britannica.com/art/Western-music/Renaissance-music
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature', 'Renaissance Drama', 'Renaissance Architecture', 'Key Features of Renaissance Architecture', 'Renaissance Music']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE MUSIC** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Instruments Used in Renaissance Music",
+    "keywords": ["Renaissance Music", "instruments", "musical instruments"],
+    "text": "During the Renaissance period, various musical instruments were used to create beautiful music. Some common instruments included the lute, viola da gamba, harpsichord, organ, recorder, and sackbut. These instruments played a significant role in shaping the sound of Renaissance music.",
+    "link": "https://www.britannica.com/art/Renaissance-music"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Instruments Used in Renaissance Music
+Keywords: Renaissance Music, instruments, musical instruments
+Uses: 0
+Text: During the Renaissance period, various musical instruments were used to create beautiful music. Some common instruments included the lute, viola da gamba, harpsichord, organ, recorder, and sackbut. These instruments played a significant role in shaping the sound of Renaissance music.Link: https://www.britannica.com/art/Renaissance-music
+Researching topic: Renaissance philosophy
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature', 'Renaissance Drama', 'Renaissance Architecture', 'Key Features of Renaissance Architecture', 'Renaissance Music', 'Instruments Used in Renaissance Music']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE PHILOSOPHY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 6.8 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Renaissance Philosophy",
+    "keywords": ["humanism", "scholasticism", "Neoplatonism", "skepticism", "individualism"],
+    "text": "Renaissance philosophy was characterized by a revival of interest in classical texts, a focus on humanism, and a shift away from medieval scholasticism. Key philosophical movements during this period included Neoplatonism, skepticism, and a growing emphasis on individualism.",
+    "link": "https://www.britannica.com/topic/Western-philosophy/Renaissance-philosophy"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Renaissance Philosophy",
+    "keywords": ["philosophy", "Renaissance", "humanism", "scholasticism"],
+    "text": "Renaissance philosophy was greatly influenced by the revival of classical learning and the humanist movement. Humanism emphasized the importance of human values, individualism, and rationality. Renaissance philosophers sought to reconcile ancient Greek and Roman ideas with Christian theology, leading to a blending of classical and Christian thought. This period also saw a decline in the dominance of scholasticism, a medieval philosophical system based on the teachings of the Church Fathers and Aristotle.",
+    "link": "https://plato.stanford.edu/entries/renaissance/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Renaissance Philosophy",
+    "keywords": ["philosophy", "Renaissance", "humanism", "scholasticism"],
+    "text": "Renaissance philosophy was greatly influenced by the revival of classical learning and the humanist movement. Humanism emphasized the importance of human values, individualism, and rationality. Renaissance philosophers sought to reconcile ancient Greek and Roman ideas with Christian theology, leading to a blending of classical and Christian thought. This period also saw a decline in the dominance of scholasticism, a medieval philosophical system based on the teachings of the Church Fathers and Aristotle.",
+    "link": "https://plato.stanford.edu/entries/renaissance/"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Renaissance Philosophy
+Keywords: philosophy, Renaissance, humanism, scholasticism
+Uses: 0
+Text: Renaissance philosophy was greatly influenced by the revival of classical learning and the humanist movement. Humanism emphasized the importance of human values, individualism, and rationality. Renaissance philosophers sought to reconcile ancient Greek and Roman ideas with Christian theology, leading to a blending of classical and Christian thought. This period also saw a decline in the dominance of scholasticism, a medieval philosophical system based on the teachings of the Church Fathers and Aristotle.Link: https://plato.stanford.edu/entries/renaissance/
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature', 'Renaissance Drama', 'Renaissance Architecture', 'Key Features of Renaissance Architecture', 'Renaissance Music', 'Instruments Used in Renaissance Music', 'Renaissance Philosophy']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE PHILOSOPHY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Renaissance Philosophy: Humanism and Individualism",
+    "keywords": ["Renaissance Philosophy", "Humanism", "Individualism"],
+    "text": "Renaissance philosophy was characterized by a renewed focus on humanism and individualism. Humanism emphasized the importance of human values, potential, and achievements, leading to a shift from the medieval emphasis on the divine. Individualism promoted the idea of self-expression, personal freedom, and the importance of the individual in society.",
+    "link": "https://www.britannica.com/topic/Renaissance-philosophy"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Renaissance Philosophy: Humanism and Individualism
+Keywords: Renaissance Philosophy, Humanism, Individualism
+Uses: 0
+Text: Renaissance philosophy was characterized by a renewed focus on humanism and individualism. Humanism emphasized the importance of human values, potential, and achievements, leading to a shift from the medieval emphasis on the divine. Individualism promoted the idea of self-expression, personal freedom, and the importance of the individual in society.Link: https://www.britannica.com/topic/Renaissance-philosophy
+Researching topic: Renaissance science
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature', 'Renaissance Drama', 'Renaissance Architecture', 'Key Features of Renaissance Architecture', 'Renaissance Music', 'Instruments Used in Renaissance Music', 'Renaissance Philosophy', 'Renaissance Philosophy: Humanism and Individualism']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE SCIENCE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 24.5 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Renaissance Science",
+    "keywords": ["Renaissance", "science", "scientific revolution", "astronomy", "medicine"],
+    "text": "During the Renaissance period, there were significant advancements in various scientific fields. The era marked the beginning of the scientific revolution, with notable figures like Copernicus challenging the geocentric theory and proposing a heliocentric model of the universe. In the field of medicine, Andreas Vesalius revolutionized the understanding of human anatomy through his detailed anatomical drawings and dissections. The Renaissance also saw advancements in other sciences such as chemistry, optics, and physics.",
+    "link": "https://www.history.com/topics/renaissance/renaissance-science"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Renaissance Science",
+    "keywords": ["Renaissance", "science", "scientific revolution", "astronomy", "medicine"],
+    "text": "During the Renaissance period, there were significant advancements in the field of science that laid the foundation for the Scientific Revolution. Prominent figures such as Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries in astronomy, challenging the geocentric view of the universe. In the field of medicine, Andreas Vesalius revolutionized the study of human anatomy through his detailed anatomical drawings. The Renaissance also saw an increased emphasis on empirical observation and experimentation, marking a shift towards modern scientific methods.",
+    "link": "https://www.britannica.com/science/science-technology-and-medicine-in-the-16th-and-17th-centuries"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Renaissance Science",
+    "keywords": ["Renaissance", "science", "scientific revolution", "astronomy", "medicine"],
+    "text": "During the Renaissance period, there were significant advancements in the field of science that laid the foundation for the Scientific Revolution. Prominent figures such as Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries in astronomy, challenging the geocentric view of the universe. In the field of medicine, Andreas Vesalius revolutionized the study of human anatomy through his detailed anatomical drawings. The Renaissance also saw an increased emphasis on empirical observation and experimentation, marking a shift towards modern scientific methods.",
+    "link": "https://www.britannica.com/science/science-technology-and-medicine-in-the-16th-and-17th-centuries"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Renaissance Science
+Keywords: Renaissance, science, scientific revolution, astronomy, medicine
+Uses: 0
+Text: During the Renaissance period, there were significant advancements in the field of science that laid the foundation for the Scientific Revolution. Prominent figures such as Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries in astronomy, challenging the geocentric view of the universe. In the field of medicine, Andreas Vesalius revolutionized the study of human anatomy through his detailed anatomical drawings. The Renaissance also saw an increased emphasis on empirical observation and experimentation, marking a shift towards modern scientific methods.Link: https://www.britannica.com/science/science-technology-and-medicine-in-the-16th-and-17th-centuries
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature', 'Renaissance Drama', 'Renaissance Architecture', 'Key Features of Renaissance Architecture', 'Renaissance Music', 'Instruments Used in Renaissance Music', 'Renaissance Philosophy', 'Renaissance Philosophy: Humanism and Individualism', 'Renaissance Science']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE SCIENCE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Inventions and Discoveries of the Renaissance Period",
+    "keywords": ["Renaissance Science", "inventions", "discoveries", "Renaissance Period"],
+    "text": "The Renaissance period was a time of great innovation and discovery in the field of science. Some notable inventions and discoveries of this time include the telescope by Galileo Galilei, the printing press by Johannes Gutenberg, and the concept of gravity by Isaac Newton. These advancements in technology and scientific understanding laid the foundation for future developments in science and technology.",
+    "link": "https://www.history.com/topics/renaissance/renaissance" 
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Inventions and Discoveries of the Renaissance Period
+Keywords: Renaissance Science, inventions, discoveries, Renaissance Period
+Uses: 0
+Text: The Renaissance period was a time of great innovation and discovery in the field of science. Some notable inventions and discoveries of this time include the telescope by Galileo Galilei, the printing press by Johannes Gutenberg, and the concept of gravity by Isaac Newton. These advancements in technology and scientific understanding laid the foundation for future developments in science and technology.Link: https://www.history.com/topics/renaissance/renaissance
+Researching topic: Renaissance fashion
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature', 'Renaissance Drama', 'Renaissance Architecture', 'Key Features of Renaissance Architecture', 'Renaissance Music', 'Instruments Used in Renaissance Music', 'Renaissance Philosophy', 'Renaissance Philosophy: Humanism and Individualism', 'Renaissance Science', 'Inventions and Discoveries of the Renaissance Period']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE FASHION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 25.9 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Renaissance Fashion",
+    "keywords": ["Renaissance", "fashion", "clothing", "textiles", "styles"],
+    "text": "During the Renaissance period, fashion played a significant role in reflecting social status and wealth. Clothing was used as a way to showcase one's position in society, with elaborate garments, rich fabrics, and intricate designs being popular among the elite. Women's fashion included elaborate gowns with tight bodices and voluminous skirts, often made of luxurious materials like silk and velvet. Men's fashion featured doublets, hose, and codpieces, with emphasis on tailored silhouettes and embellishments. Accessories such as ruffs, collars, and hats were also common during this time.",
+    "link": "https://www.metmuseum.org/toah/hd/renai/hd_renai.htm"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Renaissance Fashion",
+    "keywords": ["Renaissance", "fashion", "clothing", "style", "trends"],
+    "text": "During the Renaissance period, fashion played a significant role in expressing one's social status and wealth. Men typically wore doublets, hose, and codpieces, while women wore elaborate gowns with corsets and farthingales to create a conical shape. Fabrics such as silk, velvet, and brocade were popular, often embellished with embroidery and lace. Accessories like ruffs, collars, and hats were also common in Renaissance fashion.",
+    "link": "https://www.metmuseum.org/toah/hd/renn/hd_renn.htm"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Renaissance Fashion",
+    "keywords": ["Renaissance", "fashion", "clothing", "textiles", "styles"],
+    "text": "During the Renaissance period, fashion played a significant role in reflecting social status and wealth. Clothing was used as a way to showcase one's position in society, with elaborate garments, rich fabrics, and intricate designs being popular among the elite. Women's fashion included elaborate gowns with tight bodices and voluminous skirts, often made of luxurious materials like silk and velvet. Men's fashion featured doublets, hose, and codpieces, with emphasis on tailored silhouettes and embellishments. Accessories such as ruffs, collars, and hats were also common during this time.",
+    "link": "https://www.metmuseum.org/toah/hd/renai/hd_renai.htm"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Renaissance Fashion
+Keywords: Renaissance, fashion, clothing, textiles, styles
+Uses: 0
+Text: During the Renaissance period, fashion played a significant role in reflecting social status and wealth. Clothing was used as a way to showcase one's position in society, with elaborate garments, rich fabrics, and intricate designs being popular among the elite. Women's fashion included elaborate gowns with tight bodices and voluminous skirts, often made of luxurious materials like silk and velvet. Men's fashion featured doublets, hose, and codpieces, with emphasis on tailored silhouettes and embellishments. Accessories such as ruffs, collars, and hats were also common during this time.Link: https://www.metmuseum.org/toah/hd/renai/hd_renai.htm
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature', 'Renaissance Drama', 'Renaissance Architecture', 'Key Features of Renaissance Architecture', 'Renaissance Music', 'Instruments Used in Renaissance Music', 'Renaissance Philosophy', 'Renaissance Philosophy: Humanism and Individualism', 'Renaissance Science', 'Inventions and Discoveries of the Renaissance Period', 'Renaissance Fashion']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE FASHION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Renaissance Fashion Trends",
+    "keywords": ["renaissance fashion", "renaissance clothing", "fashion trends", "historical clothing"],
+    "text": "During the Renaissance period, fashion was a significant marker of social status and wealth. Men typically wore doublets, breeches, and hose, while women's clothing featured elaborate gowns with tight bodices and full skirts. Fabrics such as silk, velvet, and brocade were popular among the wealthy. Accessories like hats, gloves, and jewelry were also essential components of Renaissance fashion.",
+    "link": "https://www.metmuseum.org/toah/hd/renf/hd_renf.htm"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Renaissance Fashion Trends
+Keywords: renaissance fashion, renaissance clothing, fashion trends, historical clothing
+Uses: 0
+Text: During the Renaissance period, fashion was a significant marker of social status and wealth. Men typically wore doublets, breeches, and hose, while women's clothing featured elaborate gowns with tight bodices and full skirts. Fabrics such as silk, velvet, and brocade were popular among the wealthy. Accessories like hats, gloves, and jewelry were also essential components of Renaissance fashion.Link: https://www.metmuseum.org/toah/hd/renf/hd_renf.htm
+Researching topic: Renaissance technology
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature', 'Renaissance Drama', 'Renaissance Architecture', 'Key Features of Renaissance Architecture', 'Renaissance Music', 'Instruments Used in Renaissance Music', 'Renaissance Philosophy', 'Renaissance Philosophy: Humanism and Individualism', 'Renaissance Science', 'Inventions and Discoveries of the Renaissance Period', 'Renaissance Fashion', 'Renaissance Fashion Trends']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE TECHNOLOGY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Renaissance Technology",
+    "keywords": ["Renaissance", "technology", "inventions", "innovations"],
+    "text": "During the Renaissance period, significant advancements in technology were made. Innovations such as the printing press, eyeglasses, and the mechanical clock transformed society. The development of gunpowder also revolutionized warfare. These technological advances played a crucial role in shaping the modern world.",
+    "link": "https://www.history.com/topics/renaissance/renaissance-technology-inventions"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Renaissance Technology
+Keywords: Renaissance, technology, inventions, innovations
+Uses: 0
+Text: During the Renaissance period, significant advancements in technology were made. Innovations such as the printing press, eyeglasses, and the mechanical clock transformed society. The development of gunpowder also revolutionized warfare. These technological advances played a crucial role in shaping the modern world.Link: https://www.history.com/topics/renaissance/renaissance-technology-inventions
+Prompt:
+Initial Prompt: (The Renaissance Period) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Renaissance Art', 'Famous Renaissance Artists', 'Renaissance Literature', 'Renaissance Drama', 'Renaissance Architecture', 'Key Features of Renaissance Architecture', 'Renaissance Music', 'Instruments Used in Renaissance Music', 'Renaissance Philosophy', 'Renaissance Philosophy: Humanism and Individualism', 'Renaissance Science', 'Inventions and Discoveries of the Renaissance Period', 'Renaissance Fashion', 'Renaissance Fashion Trends', 'Renaissance Technology']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RENAISSANCE TECHNOLOGY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Renaissance Technology: Printing Press",
+    "keywords": ["Gutenberg", "printing press", "Johannes Gutenberg", "printing technology", "Renaissance"],
+    "text": "The printing press was a key technological advancement of the Renaissance period, credited to Johannes Gutenberg. It revolutionized the way information was distributed and made books more accessible to the general population. The printing press allowed for the mass production of books, leading to an increase in literacy rates and the dissemination of knowledge across Europe.",
+    "link": "https://www.history.com/topics/inventions/printing-press"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Renaissance Technology: Printing Press
+Keywords: Gutenberg, printing press, Johannes Gutenberg, printing technology, Renaissance
+Uses: 0
+Text: The printing press was a key technological advancement of the Renaissance period, credited to Johannes Gutenberg. It revolutionized the way information was distributed and made books more accessible to the general population. The printing press allowed for the mass production of books, leading to an increase in literacy rates and the dissemination of knowledge across Europe.Link: https://www.history.com/topics/inventions/printing-press
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (The Renaissance Period) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Renaissance art is the painting, sculpture, and decorative arts of the period of European history known as the Renaissance, which emerged in Italy in the late 14th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists such as Leonard...
+
+Some of the most famous Renaissance artists include Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli. These artists made significant contributions to the art world during the Renaissance period.
+
+Renaissance literature refers to the body of written works produced during the Renaissance period, which spanned from the 14th to the 17th century. This literary movement was characterized by a renewed interest in classical texts, humanism, and the individual. Some key genres of Renaissance literatu...
+
+Renaissance drama refers to the theater productions and plays that were popular during the Renaissance period. It was a time of great innovation and creativity in the world of theater, with playwrights like William Shakespeare and Christopher Marlowe producing some of the most iconic works in Englis...
+
+Renaissance architecture is the architectural style that emerged in Europe during the Renaissance period, which lasted from the 14th to the 17th century. This style was characterized by a revival of classical forms and an emphasis on symmetry, proportion, and geometry. Renaissance architects drew in...
+
+Renaissance architecture is characterized by symmetry, proportion, and harmony. Key features include the use of classical orders (Doric, Ionic, and Corinthian), domes, columns, pilasters, arches, and pediments. Buildings often have a sense of balance and harmony, with a focus on mathematical princip...
+
+Renaissance music is European music written during the Renaissance period, which lasted from the 14th to the 17th century. This era saw the development of new musical forms, such as the madrigal and motet. Composers like Josquin des Prez and Giovanni Pierluigi da Palestrina were prominent figures in...
+
+During the Renaissance period, various musical instruments were used to create beautiful music. Some common instruments included the lute, viola da gamba, harpsichord, organ, recorder, and sackbut. These instruments played a significant role in shaping the sound of Renaissance music.
+
+Renaissance philosophy was greatly influenced by the revival of classical learning and the humanist movement. Humanism emphasized the importance of human values, individualism, and rationality. Renaissance philosophers sought to reconcile ancient Greek and Roman ideas with Christian theology, leadin...
+
+Renaissance philosophy was characterized by a renewed focus on humanism and individualism. Humanism emphasized the importance of human values, potential, and achievements, leading to a shift from the medieval emphasis on the divine. Individualism promoted the idea of self-expression, personal freedo...
+
+During the Renaissance period, there were significant advancements in the field of science that laid the foundation for the Scientific Revolution. Prominent figures such as Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries in astronomy, challenging the geocent...
+
+The Renaissance period was a time of great innovation and discovery in the field of science. Some notable inventions and discoveries of this time include the telescope by Galileo Galilei, the printing press by Johannes Gutenberg, and the concept of gravity by Isaac Newton. These advancements in tech...
+
+During the Renaissance period, fashion played a significant role in reflecting social status and wealth. Clothing was used as a way to showcase one's position in society, with elaborate garments, rich fabrics, and intricate designs being popular among the elite. Women's fashion included elaborate go...
+
+During the Renaissance period, fashion was a significant marker of social status and wealth. Men typically wore doublets, breeches, and hose, while women's clothing featured elaborate gowns with tight bodices and full skirts. Fabrics such as silk, velvet, and brocade were popular among the wealthy. ...
+
+During the Renaissance period, significant advancements in technology were made. Innovations such as the printing press, eyeglasses, and the mechanical clock transformed society. The development of gunpowder also revolutionized warfare. These technological advances played a crucial role in shaping t...
+
+The printing press was a key technological advancement of the Renaissance period, credited to Johannes Gutenberg. It revolutionized the way information was distributed and made books more accessible to the general population. The printing press allowed for the mass production of books, leading to an...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+🎲 Choice scenario triggered! (Rolled 25.5 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+4
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+5
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+4
+.
+Topic count decided: 4
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (The Renaissance Period) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Renaissance art is the painting, sculpture, and decorative arts of the period of European history known as the Renaissance, which emerged in Italy in the late 14th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists such as Leonard...
+
+Some of the most famous Renaissance artists include Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli. These artists made significant contributions to the art world during the Renaissance period.
+
+Renaissance literature refers to the body of written works produced during the Renaissance period, which spanned from the 14th to the 17th century. This literary movement was characterized by a renewed interest in classical texts, humanism, and the individual. Some key genres of Renaissance literatu...
+
+Renaissance drama refers to the theater productions and plays that were popular during the Renaissance period. It was a time of great innovation and creativity in the world of theater, with playwrights like William Shakespeare and Christopher Marlowe producing some of the most iconic works in Englis...
+
+Renaissance architecture is the architectural style that emerged in Europe during the Renaissance period, which lasted from the 14th to the 17th century. This style was characterized by a revival of classical forms and an emphasis on symmetry, proportion, and geometry. Renaissance architects drew in...
+
+Renaissance architecture is characterized by symmetry, proportion, and harmony. Key features include the use of classical orders (Doric, Ionic, and Corinthian), domes, columns, pilasters, arches, and pediments. Buildings often have a sense of balance and harmony, with a focus on mathematical princip...
+
+Renaissance music is European music written during the Renaissance period, which lasted from the 14th to the 17th century. This era saw the development of new musical forms, such as the madrigal and motet. Composers like Josquin des Prez and Giovanni Pierluigi da Palestrina were prominent figures in...
+
+During the Renaissance period, various musical instruments were used to create beautiful music. Some common instruments included the lute, viola da gamba, harpsichord, organ, recorder, and sackbut. These instruments played a significant role in shaping the sound of Renaissance music.
+
+Renaissance philosophy was greatly influenced by the revival of classical learning and the humanist movement. Humanism emphasized the importance of human values, individualism, and rationality. Renaissance philosophers sought to reconcile ancient Greek and Roman ideas with Christian theology, leadin...
+
+Renaissance philosophy was characterized by a renewed focus on humanism and individualism. Humanism emphasized the importance of human values, potential, and achievements, leading to a shift from the medieval emphasis on the divine. Individualism promoted the idea of self-expression, personal freedo...
+
+During the Renaissance period, there were significant advancements in the field of science that laid the foundation for the Scientific Revolution. Prominent figures such as Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries in astronomy, challenging the geocent...
+
+The Renaissance period was a time of great innovation and discovery in the field of science. Some notable inventions and discoveries of this time include the telescope by Galileo Galilei, the printing press by Johannes Gutenberg, and the concept of gravity by Isaac Newton. These advancements in tech...
+
+During the Renaissance period, fashion played a significant role in reflecting social status and wealth. Clothing was used as a way to showcase one's position in society, with elaborate garments, rich fabrics, and intricate designs being popular among the elite. Women's fashion included elaborate go...
+
+During the Renaissance period, fashion was a significant marker of social status and wealth. Men typically wore doublets, breeches, and hose, while women's clothing featured elaborate gowns with tight bodices and full skirts. Fabrics such as silk, velvet, and brocade were popular among the wealthy. ...
+
+During the Renaissance period, significant advancements in technology were made. Innovations such as the printing press, eyeglasses, and the mechanical clock transformed society. The development of gunpowder also revolutionized warfare. These technological advances played a crucial role in shaping t...
+
+The printing press was a key technological advancement of the Renaissance period, credited to Johannes Gutenberg. It revolutionized the way information was distributed and made books more accessible to the general population. The printing press allowed for the mass production of books, leading to an...}). You are to come up with {4} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Week 1: Introduction to the Renaissance Period
+
+Main Topic Title: Overview of the Renaissance Period
+- Sub-Topic 1: Historical Context of the Renaissance
+  - This sub-topic covers the emergence of the Renaissance in Italy in the late 14th century and the key characteristics of the period, such as a renewed interest in classical antiquity, humanism, and naturalism.
+- Sub-Topic 2: Key Figures of the Renaissance
+  - This sub-topic explores prominent artists, writers, architects, and philosophers of the Renaissance, including Leonardo da Vinci, Michelangelo, William Shakespeare, and Nicolaus Copernicus.
+- Sub-Topic 3: Impact of the Renaissance
+  - This sub-topic discusses the lasting influence of the Renaissance on art, literature, architecture, philosophy, science, and technology.
+
+Learning Objectives:
+- Understand the historical context and key characteristics of the Renaissance period.
+- Identify and analyze the contributions of prominent figures of the Renaissance.
+- Evaluate the impact of the Renaissance on various aspects of society and culture.
+
+Estimated Number of Slides: 15
+Lab Activities or Practical Exercises:
+- Analyze and discuss a Renaissance artwork by one of the famous artists.
+- Research and present a brief biography of a key figure of the Renaissance.
+Real-World Applications and Examples:
+- Drawing parallels between Renaissance values of humanism and individualism with contemporary society.
+- Exploring how Renaissance scientific advancements laid the foundation for modern science and technology.
+
+Week 2: Renaissance Art and Architecture
+
+Main Topic Title: Renaissance Art and Architecture
+- Sub-Topic 1: Characteristics of Renaissance Art
+  - This sub-topic delves into the defining features of Renaissance art, such as realism, perspective, and classical influences.
+- Sub-Topic 2: Major Artists and Their Works
+  - This sub-topic highlights the works of renowned Renaissance artists like Leonardo da Vinci, Michelangelo, and Raphael, discussing their techniques and themes.
+- Sub-Topic 3: Renaissance Architecture
+  - This sub-topic explores the principles of Renaissance architecture, including symmetry, proportion, and classical orders.
+
+Learning Objectives:
+- Identify the key characteristics of Renaissance art and architecture.
+- Analyze the works of major Renaissance artists and understand their significance.
+- Explain the principles of Renaissance architecture and their application in notable buildings.
+
+Estimated Number of Slides: 20
+Lab Activities or Practical Exercises:
+- Create a visual presentation comparing and contrasting Renaissance art with art from other periods.
+- Visit a local museum or architectural site to observe Renaissance influences in art and architecture.
+Real-World Applications and Examples:
+- Examining how Renaissance art and architecture continue to inspire contemporary artists and architects.
+- Discussing the role of art and architecture in shaping cultural identity and heritage.
+
+Week 3: Renaissance Literature and Drama
+
+Main Topic Title: Renaissance Literature and Drama
+- Sub-Topic 1: Characteristics of Renaissance Literature
+  - This sub-topic explores the themes and styles of Renaissance literature, including humanism, individualism, and the revival of classical texts.
+- Sub-Topic 2: Major Literary Works and Authors
+  - This sub-topic examines significant works of Renaissance literature and introduces prominent authors such as William Shakespeare and Christopher Marlowe.
+- Sub-Topic 3: Renaissance Drama
+  - This sub-topic focuses on the innovations and themes of Renaissance theater, highlighting the contributions of playwrights like Shakespeare.
+
+Learning Objectives:
+- Define the characteristics of Renaissance literature and drama.
+- Analyze key literary works and authors of the Renaissance period.
+- Explore the evolution of Renaissance drama and its impact on theater.
+
+Estimated Number of Slides: 18
+Lab Activities or Practical Exercises:
+- Analyze and perform a scene from a Renaissance play.
+- Create a modern adaptation of a Renaissance literary work and present it to the class.
+Real-World Applications and Examples:
+- Exploring how Renaissance themes and narratives are still relevant in contemporary literature and theater.
+- Discussing the influence of Renaissance drama on modern storytelling techniques.
+
+Week 4: Renaissance Music and Philosophy
+
+Main Topic Title: Renaissance Music and Philosophy
+- Sub-Topic 1: Musical Forms of the Renaissance
+  - This sub-topic introduces the musical styles and forms of the Renaissance period, such as the madrigal and motet.
+- Sub-Topic 2: Prominent Composers
+  - This sub-topic highlights the works of notable Renaissance composers like Josquin des Prez and Giovanni Pierluigi da Palestrina.
+- Sub-Topic 3: Humanism in Renaissance Philosophy
+  - This sub-topic examines the humanist movement in Renaissance philosophy and its impact on intellectual thought.
+
+Learning Objectives:
+- Identify the musical forms and composers of the Renaissance era.
+- Analyze the contributions of prominent Renaissance composers to music history.
+- Understand the principles of humanism in Renaissance philosophy and its influence on society.
+
+Estimated Number of Slides: 17
+Lab Activities or Practical Exercises:
+- Listen to and analyze a piece of Renaissance music, discussing its form and style.
+- Research and present a philosophical concept from the Renaissance period, connecting it to modern-day ethics and values.
+Real-World Applications and Examples:
+- Exploring the role of music in expressing cultural and social values during the Renaissance.
+- Discussing how humanist ideals of the Renaissance have shaped contemporary philosophical thought.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (The Renaissance Period) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Week 1: Introduction to the Renaissance Period
+
+Main Topic Title: Overview of the Renaissance Period
+- Sub-Topic 1: Historical Context of the Renaissance
+  - This sub-topic covers the emergence of the Renaissance in Italy in the late 14th century and the key characteristics of the period, such as a renewed interest in classical antiquity, humanism, and naturalism.
+- Sub-Topic 2: Key Figures of the Renaissance
+  - This sub-topic explores prominent artists, writers, architects, and philosophers of the Renaissance, including Leonardo da Vinci, Michelangelo, William Shakespeare, and Nicolaus Copernicus.
+- Sub-Topic 3: Impact of the Renaissance
+  - This sub-topic discusses the lasting influence of the Renaissance on art, literature, architecture, philosophy, science, and technology.
+
+Learning Objectives:
+- Understand the historical context and key characteristics of the Renaissance period.
+- Identify and analyze the contributions of prominent figures of the Renaissance.
+- Evaluate the impact of the Renaissance on various aspects of society and culture.
+
+Estimated Number of Slides: 15
+Lab Activities or Practical Exercises:
+- Analyze and discuss a Renaissance artwork by one of the famous artists.
+- Research and present a brief biography of a key figure of the Renaissance.
+Real-World Applications and Examples:
+- Drawing parallels between Renaissance values of humanism and individualism with contemporary society.
+- Exploring how Renaissance scientific advancements laid the foundation for modern science and technology.
+
+Week 2: Renaissance Art and Architecture
+
+Main Topic Title: Renaissance Art and Architecture
+- Sub-Topic 1: Characteristics of Renaissance Art
+  - This sub-topic delves into the defining features of Renaissance art, such as realism, perspective, and classical influences.
+- Sub-Topic 2: Major Artists and Their Works
+  - This sub-topic highlights the works of renowned Renaissance artists like Leonardo da Vinci, Michelangelo, and Raphael, discussing their techniques and themes.
+- Sub-Topic 3: Renaissance Architecture
+  - This sub-topic explores the principles of Renaissance architecture, including symmetry, proportion, and classical orders.
+
+Learning Objectives:
+- Identify the key characteristics of Renaissance art and architecture.
+- Analyze the works of major Renaissance artists and understand their significance.
+- Explain the principles of Renaissance architecture and their application in notable buildings.
+
+Estimated Number of Slides: 20
+Lab Activities or Practical Exercises:
+- Create a visual presentation comparing and contrasting Renaissance art with art from other periods.
+- Visit a local museum or architectural site to observe Renaissance influences in art and architecture.
+Real-World Applications and Examples:
+- Examining how Renaissance art and architecture continue to inspire contemporary artists and architects.
+- Discussing the role of art and architecture in shaping cultural identity and heritage.
+
+Week 3: Renaissance Literature and Drama
+
+Main Topic Title: Renaissance Literature and Drama
+- Sub-Topic 1: Characteristics of Renaissance Literature
+  - This sub-topic explores the themes and styles of Renaissance literature, including humanism, individualism, and the revival of classical texts.
+- Sub-Topic 2: Major Literary Works and Authors
+  - This sub-topic examines significant works of Renaissance literature and introduces prominent authors such as William Shakespeare and Christopher Marlowe.
+- Sub-Topic 3: Renaissance Drama
+  - This sub-topic focuses on the innovations and themes of Renaissance theater, highlighting the contributions of playwrights like Shakespeare.
+
+Learning Objectives:
+- Define the characteristics of Renaissance literature and drama.
+- Analyze key literary works and authors of the Renaissance period.
+- Explore the evolution of Renaissance drama and its impact on theater.
+
+Estimated Number of Slides: 18
+Lab Activities or Practical Exercises:
+- Analyze and perform a scene from a Renaissance play.
+- Create a modern adaptation of a Renaissance literary work and present it to the class.
+Real-World Applications and Examples:
+- Exploring how Renaissance themes and narratives are still relevant in contemporary literature and theater.
+- Discussing the influence of Renaissance drama on modern storytelling techniques.
+
+Week 4: Renaissance Music and Philosophy
+
+Main Topic Title: Renaissance Music and Philosophy
+- Sub-Topic 1: Musical Forms of the Renaissance
+  - This sub-topic introduces the musical styles and forms of the Renaissance period, such as the madrigal and motet.
+- Sub-Topic 2: Prominent Composers
+  - This sub-topic highlights the works of notable Renaissance composers like Josquin des Prez and Giovanni Pierluigi da Palestrina.
+- Sub-Topic 3: Humanism in Renaissance Philosophy
+  - This sub-topic examines the humanist movement in Renaissance philosophy and its impact on intellectual thought.
+
+Learning Objectives:
+- Identify the musical forms and composers of the Renaissance era.
+- Analyze the contributions of prominent Renaissance composers to music history.
+- Understand the principles of humanism in Renaissance philosophy and its influence on society.
+
+Estimated Number of Slides: 17
+Lab Activities or Practical Exercises:
+- Listen to and analyze a piece of Renaissance music, discussing its form and style.
+- Research and present a philosophical concept from the Renaissance period, connecting it to modern-day ethics and values.
+Real-World Applications and Examples:
+- Exploring the role of music in expressing cultural and social values during the Renaissance.
+- Discussing how humanist ideals of the Renaissance have shaped contemporary philosophical thought.}). Total slides available: {8}. Topics to allocate: {4}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+🎲 Choice scenario triggered! (Rolled 29.1 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+[5, 6, 4, 3]
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+[15, 20, 18, 17]
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+[5, 6, 4, 3]
+.
+Slide allocation: [2, 3, 2, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (The Renaissance Period) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Week 1: Introduction to the Renaissance Period
+
+Main Topic Title: Overview of the Renaissance Period
+- Sub-Topic 1: Historical Context of the Renaissance
+  - This sub-topic covers the emergence of the Renaissance in Italy in the late 14th century and the key characteristics of the period, such as a renewed interest in classical antiquity, humanism, and naturalism.
+- Sub-Topic 2: Key Figures of the Renaissance
+  - This sub-topic explores prominent artists, writers, architects, and philosophers of the Renaissance, including Leonardo da Vinci, Michelangelo, William Shakespeare, and Nicolaus Copernicus.
+- Sub-Topic 3: Impact of the Renaissance
+  - This sub-topic discusses the lasting influence of the Renaissance on art, literature, architecture, philosophy, science, and technology.
+
+Learning Objectives:
+- Understand the historical context and key characteristics of the Renaissance period.
+- Identify and analyze the contributions of prominent figures of the Renaissance.
+- Evaluate the impact of the Renaissance on various aspects of society and culture.
+
+Estimated Number of Slides: 15
+Lab Activities or Practical Exercises:
+- Analyze and discuss a Renaissance artwork by one of the famous artists.
+- Research and present a brief biography of a key figure of the Renaissance.
+Real-World Applications and Examples:
+- Drawing parallels between Renaissance values of humanism and individualism with contemporary society.
+- Exploring how Renaissance scientific advancements laid the foundation for modern science and technology.
+
+Week 2: Renaissance Art and Architecture
+
+Main Topic Title: Renaissance Art and Architecture
+- Sub-Topic 1: Characteristics of Renaissance Art
+  - This sub-topic delves into the defining features of Renaissance art, such as realism, perspective, and classical influences.
+- Sub-Topic 2: Major Artists and Their Works
+  - This sub-topic highlights the works of renowned Renaissance artists like Leonardo da Vinci, Michelangelo, and Raphael, discussing their techniques and themes.
+- Sub-Topic 3: Renaissance Architecture
+  - This sub-topic explores the principles of Renaissance architecture, including symmetry, proportion, and classical orders.
+
+Learning Objectives:
+- Identify the key characteristics of Renaissance art and architecture.
+- Analyze the works of major Renaissance artists and understand their significance.
+- Explain the principles of Renaissance architecture and their application in notable buildings.
+
+Estimated Number of Slides: 20
+Lab Activities or Practical Exercises:
+- Create a visual presentation comparing and contrasting Renaissance art with art from other periods.
+- Visit a local museum or architectural site to observe Renaissance influences in art and architecture.
+Real-World Applications and Examples:
+- Examining how Renaissance art and architecture continue to inspire contemporary artists and architects.
+- Discussing the role of art and architecture in shaping cultural identity and heritage.
+
+Week 3: Renaissance Literature and Drama
+
+Main Topic Title: Renaissance Literature and Drama
+- Sub-Topic 1: Characteristics of Renaissance Literature
+  - This sub-topic explores the themes and styles of Renaissance literature, including humanism, individualism, and the revival of classical texts.
+- Sub-Topic 2: Major Literary Works and Authors
+  - This sub-topic examines significant works of Renaissance literature and introduces prominent authors such as William Shakespeare and Christopher Marlowe.
+- Sub-Topic 3: Renaissance Drama
+  - This sub-topic focuses on the innovations and themes of Renaissance theater, highlighting the contributions of playwrights like Shakespeare.
+
+Learning Objectives:
+- Define the characteristics of Renaissance literature and drama.
+- Analyze key literary works and authors of the Renaissance period.
+- Explore the evolution of Renaissance drama and its impact on theater.
+
+Estimated Number of Slides: 18
+Lab Activities or Practical Exercises:
+- Analyze and perform a scene from a Renaissance play.
+- Create a modern adaptation of a Renaissance literary work and present it to the class.
+Real-World Applications and Examples:
+- Exploring how Renaissance themes and narratives are still relevant in contemporary literature and theater.
+- Discussing the influence of Renaissance drama on modern storytelling techniques.
+
+Week 4: Renaissance Music and Philosophy
+
+Main Topic Title: Renaissance Music and Philosophy
+- Sub-Topic 1: Musical Forms of the Renaissance
+  - This sub-topic introduces the musical styles and forms of the Renaissance period, such as the madrigal and motet.
+- Sub-Topic 2: Prominent Composers
+  - This sub-topic highlights the works of notable Renaissance composers like Josquin des Prez and Giovanni Pierluigi da Palestrina.
+- Sub-Topic 3: Humanism in Renaissance Philosophy
+  - This sub-topic examines the humanist movement in Renaissance philosophy and its impact on intellectual thought.
+
+Learning Objectives:
+- Identify the musical forms and composers of the Renaissance era.
+- Analyze the contributions of prominent Renaissance composers to music history.
+- Understand the principles of humanism in Renaissance philosophy and its influence on society.
+
+Estimated Number of Slides: 17
+Lab Activities or Practical Exercises:
+- Listen to and analyze a piece of Renaissance music, discussing its form and style.
+- Research and present a philosophical concept from the Renaissance period, connecting it to modern-day ethics and values.
+Real-World Applications and Examples:
+- Exploring the role of music in expressing cultural and social values during the Renaissance.
+- Discussing how humanist ideals of the Renaissance have shaped contemporary philosophical thought.}). Slide allocation per topic: {[2, 3, 2, 1]}. Database content for reference: ({Renaissance art is the painting, sculpture, and decorative arts of the period of European history known as the Renaissance, which emerged in Italy in the late 14th century. It is characterized by a renewed interest in classical antiquity, humanism, and naturalism. Renaissance artists such as Leonard...
+
+Some of the most famous Renaissance artists include Leonardo da Vinci, Michelangelo, Raphael, and Sandro Botticelli. These artists made significant contributions to the art world during the Renaissance period.
+
+Renaissance literature refers to the body of written works produced during the Renaissance period, which spanned from the 14th to the 17th century. This literary movement was characterized by a renewed interest in classical texts, humanism, and the individual. Some key genres of Renaissance literatu...
+
+Renaissance drama refers to the theater productions and plays that were popular during the Renaissance period. It was a time of great innovation and creativity in the world of theater, with playwrights like William Shakespeare and Christopher Marlowe producing some of the most iconic works in Englis...
+
+Renaissance architecture is the architectural style that emerged in Europe during the Renaissance period, which lasted from the 14th to the 17th century. This style was characterized by a revival of classical forms and an emphasis on symmetry, proportion, and geometry. Renaissance architects drew in...
+
+Renaissance architecture is characterized by symmetry, proportion, and harmony. Key features include the use of classical orders (Doric, Ionic, and Corinthian), domes, columns, pilasters, arches, and pediments. Buildings often have a sense of balance and harmony, with a focus on mathematical princip...
+
+Renaissance music is European music written during the Renaissance period, which lasted from the 14th to the 17th century. This era saw the development of new musical forms, such as the madrigal and motet. Composers like Josquin des Prez and Giovanni Pierluigi da Palestrina were prominent figures in...
+
+During the Renaissance period, various musical instruments were used to create beautiful music. Some common instruments included the lute, viola da gamba, harpsichord, organ, recorder, and sackbut. These instruments played a significant role in shaping the sound of Renaissance music.
+
+Renaissance philosophy was greatly influenced by the revival of classical learning and the humanist movement. Humanism emphasized the importance of human values, individualism, and rationality. Renaissance philosophers sought to reconcile ancient Greek and Roman ideas with Christian theology, leadin...
+
+Renaissance philosophy was characterized by a renewed focus on humanism and individualism. Humanism emphasized the importance of human values, potential, and achievements, leading to a shift from the medieval emphasis on the divine. Individualism promoted the idea of self-expression, personal freedo...
+
+During the Renaissance period, there were significant advancements in the field of science that laid the foundation for the Scientific Revolution. Prominent figures such as Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries in astronomy, challenging the geocent...
+
+The Renaissance period was a time of great innovation and discovery in the field of science. Some notable inventions and discoveries of this time include the telescope by Galileo Galilei, the printing press by Johannes Gutenberg, and the concept of gravity by Isaac Newton. These advancements in tech...
+
+During the Renaissance period, fashion played a significant role in reflecting social status and wealth. Clothing was used as a way to showcase one's position in society, with elaborate garments, rich fabrics, and intricate designs being popular among the elite. Women's fashion included elaborate go...
+
+During the Renaissance period, fashion was a significant marker of social status and wealth. Men typically wore doublets, breeches, and hose, while women's clothing featured elaborate gowns with tight bodices and full skirts. Fabrics such as silk, velvet, and brocade were popular among the wealthy. ...
+
+During the Renaissance period, significant advancements in technology were made. Innovations such as the printing press, eyeglasses, and the mechanical clock transformed society. The development of gunpowder also revolutionized warfare. These technological advances played a crucial role in shaping t...
+
+The printing press was a key technological advancement of the Renaissance period, credited to Johannes Gutenberg. It revolutionized the way information was distributed and made books more accessible to the general population. The printing press allowed for the mass production of books, leading to an...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+Raw response:
+1. Characteristics of Renaissance Art: Realism, Perspective, and Classical Influences
+2. Major Renaissance Artists: Leonardo da Vinci, Michelangelo, Raphael
+3. Renaissance Architecture Principles: Symmetry, Proportion, Classical Orders
+4. Musical Forms of the Renaissance: Madrigal and Motet
+5. Prominent Renaissance Composers: Josquin des Prez, Giovanni Pierluigi da Palestrina
+6. Humanism in Renaissance Philosophy: Influence on Intellectual Thought
+7. Renaissance Scientific Advancements: Contributions to Modern Science
+8. Fashion in the Renaissance Period: Reflection of Social Status and Wealth
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_18-44-24.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_18-44-24.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+🎲 Choice scenario triggered! (Rolled 19.1 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Lecture Notes: 
+
+Week 1: Introduction to the Renaissance Period
+
+Main Topic Title: Overview of the Renaissance Period
+- Sub-Topic 1: Historical Context of the Renaissance
+  - The Renaissance was a period of cultural rebirth that emerged in Italy in the late 14th century. It was characterized by a renewed interest in classical antiquity, humanism, and naturalism. The revival of ancient Greek and Roman ideas led to a shift in artistic, literary, and philosophical expression.
+- Sub-Topic 2: Key Figures of the Renaissance
+  - Prominent artists, writers, architects, and philosophers of the Renaissance include Leonardo da Vinci, known for his iconic paintings like the Mona Lisa and The Last Supper; Michelangelo, renowned for his sculptures such as David and the Sistine Chapel ceiling; William Shakespeare, the playwright behind timeless works like Romeo and Juliet and Hamlet; and Nicolaus Copernicus, the astronomer who proposed a heliocentric model of the universe.
+- Sub-Topic 3: Impact of the Renaissance
+  - The Renaissance had a lasting influence on art, literature, architecture, philosophy, science, and technology. It marked a shift towards humanism, individualism, and the exploration of the natural world. The period laid the foundation for modern society's values and advancements.
+
+Learning Objectives:
+- Understand the historical context and key characteristics of the Renaissance period.
+- Identify and analyze the contributions of prominent figures of the Renaissance.
+- Evaluate the impact of the Renaissance on various aspects of society and culture.
+
+Estimated Number of Slides: 15
+
+Lab Activities or Practical Exercises:
+- Analyze and discuss a Renaissance artwork by one of the famous artists.
+- Research and present a brief biography of a key figure of the Renaissance.
+
+Real-World Applications and Examples:
+- Drawing parallels between Renaissance values of humanism and individualism with contemporary society.
+- Exploring how Renaissance scientific advancements laid the foundation for modern science and technology.
+
+Assessment Questions:
+1. What were the key characteristics of the Renaissance period?
+2. How did prominent figures like Leonardo da Vinci and William Shakespeare contribute to the Renaissance?
+3. In what ways did the Renaissance impact art, literature, and philosophy?
+
+Discussion Points:
+- How did the Renaissance challenge traditional beliefs and inspire innovation?
+- What role did patronage play in supporting Renaissance artists and thinkers?
+- How does the legacy of the Renaissance continue to influence modern culture and society?
+
+---
+
+Week 2: Renaissance Art and Architecture
+
+Main Topic Title: Renaissance Art and Architecture
+- Sub-Topic 1: Characteristics of Renaissance Art
+  - Renaissance art is characterized by realism, perspective, and classical influences. Artists sought to depict the natural world accurately and with depth, drawing inspiration from ancient Greek and Roman art.
+- Sub-Topic 2: Major Artists and Their Works
+  - Prominent Renaissance artists include Leonardo da Vinci, known for his anatomical drawings and innovative techniques; Michelangelo, famous for his sculptures and frescoes; and Raphael, celebrated for his harmonious compositions and idealized figures.
+- Sub-Topic 3: Renaissance Architecture
+  - Renaissance architecture emphasizes symmetry, proportion, and classical orders. Buildings like St. Peter's Basilica in Rome showcase the grandeur and elegance of Renaissance design.
+
+Learning Objectives:
+- Identify the key characteristics of Renaissance art and architecture.
+- Analyze the works of major Renaissance artists and understand their significance.
+- Explain the principles of Renaissance architecture and their application in notable buildings.
+
+Estimated Number of Slides: 20
+
+Lab Activities or Practical Exercises:
+- Create a visual presentation comparing and contrasting Renaissance art with art from other periods.
+- Visit a local museum or architectural site to observe Renaissance influences in art and architecture.
+
+Real-World Applications and Examples:
+- Examining how Renaissance art and architecture continue to inspire contemporary artists and architects.
+- Discussing the role of art and architecture in shaping cultural identity and heritage.
+
+Assessment Questions:
+1. What are the defining features of Renaissance art?
+2. How did artists like Leonardo da Vinci and Michelangelo revolutionize art during the Renaissance?
+3. What architectural principles characterize Renaissance buildings?
+
+Discussion Points:
+- How did the Renaissance break away from medieval artistic conventions?
+- In what ways did Renaissance art reflect the values and aspirations of society?
+- How has Renaissance architecture influenced modern urban design and construction?
+
+---
+
+Week 3: Renaissance Literature and Drama
+
+Main Topic Title: Renaissance Literature and Drama
+- Sub-Topic 1: Characteristics of Renaissance Literature
+  - Renaissance literature is marked by themes of humanism, individualism, and the revival of classical texts. Writers like William Shakespeare and John Milton explored complex human emotions and moral dilemmas in their works.
+- Sub-Topic 2: Major Literary Works and Authors
+  - Significant works of Renaissance literature include Shakespeare's plays, Milton's epic poem Paradise Lost, and Cervantes' novel Don Quixote. These texts continue to resonate with audiences worldwide.
+- Sub-Topic 3: Renaissance Drama
+  - Renaissance theater flourished with the works of playwrights like Shakespeare and Marlowe. Their plays delved into themes of love, power, and the human experience, captivating audiences with rich storytelling.
+
+Learning Objectives:
+- Define the characteristics of Renaissance literature and drama.
+- Analyze key literary works and authors of the Renaissance period.
+- Explore the evolution of Renaissance drama and its impact on theater.
+
+Estimated Number of Slides: 18
+
+Lab Activities or Practical Exercises:
+- Analyze and perform a scene from a Renaissance play.
+- Create a modern adaptation of a Renaissance literary work and present it to the class.
+
+Real-World Applications and Examples:
+- Exploring how Renaissance themes and narratives are still relevant in contemporary literature and theater.
+- Discussing the influence of Renaissance drama on modern storytelling techniques.
+
+Assessment Questions:
+1. How did Renaissance literature reflect the values and beliefs of the period?
+2. What are some key works of Renaissance literature and their significance?
+3. How did Renaissance drama contribute to the development of theater as an art form?
+
+Discussion Points:
+- How did the printing press impact the dissemination of Renaissance literature?
+- In what ways did Renaissance playwrights innovate storytelling techniques?
+- How has the legacy of Renaissance literature influenced modern literature and drama?
+
+---
+
+Week 4: Renaissance Music and Philosophy
+
+Main Topic Title: Renaissance Music and Philosophy
+- Sub-Topic 1: Musical Forms of the Renaissance
+  - Renaissance music encompasses forms like the madrigal and motet, characterized by intricate harmonies and expressive melodies. Composers like Josquin des Prez and Palestrina were masters of these forms.
+- Sub-Topic 2: Prominent Composers
+  - Josquin des Prez and Palestrina were influential figures in Renaissance music, known for their polyphonic compositions and innovative use of vocal textures.
+- Sub-Topic 3: Humanism in Renaissance Philosophy
+  - Renaissance philosophers embraced humanist ideals, emphasizing the importance of reason, ethics, and individual potential. The blending of classical and Christian thought shaped intellectual discourse during this period.
+
+Learning Objectives:
+- Identify the musical forms and composers of the Renaissance era.
+- Analyze the contributions of prominent Renaissance composers to music history.
+- Understand the principles of humanism in Renaissance philosophy and its influence on society.
+
+Estimated Number of Slides: 17
+
+Lab Activities or Practical Exercises:
+- Listen to and analyze a piece of Renaissance music, discussing its form and style.
+- Research and present a philosophical concept from the Renaissance period, connecting it to modern-day ethics and values.
+
+Real-World Applications and Examples:
+- Exploring the role of music in expressing cultural and social values during the Renaissance.
+- Discussing how humanist ideals of the Renaissance have shaped contemporary philosophical thought.
+
+Assessment Questions:
+1. What musical forms were popular during the Renaissance period?
+2. How did Josquin des Prez and Palestrina contribute to Renaissance music?
+3. What were the key principles of humanism in Renaissance philosophy?
+
+Discussion Points:
+- How did Renaissance music reflect the cultural and social context of the period?
+- In what ways did Renaissance composers innovate musical techniques and styles?
+- How has humanist philosophy influenced modern ethical and moral discourse?
+
+---
+
+Overall, the Renaissance period was a transformative era that reshaped art, literature, music, and philosophy. By exploring the contributions of key figures and analyzing the cultural impact of the period, we gain insights into the enduring legacy of the Renaissance in shaping contemporary society and culture. Through engaging with the diverse expressions of creativity and intellectual thought during this period, we can appreciate the richness and complexity of the Renaissance as a pivotal moment in history.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Lecture Notes for Senior Undergraduate Students on the Renaissance Period
+
+Week 1: Introduction to the Renaissance Period
+
+Main Topic Title: Overview of the Renaissance Period
+
+- Sub-Topic 1: Historical Context of the Renaissance
+  - The Renaissance period emerged in Italy in the late 14th century, characterized by a revival of classical antiquity, humanism, and naturalism. This cultural movement marked a shift towards individualism and intellectual curiosity.
+
+- Sub-Topic 2: Key Figures of the Renaissance
+  - Prominent figures of the Renaissance include Leonardo da Vinci, known for his iconic paintings like the Mona Lisa and The Last Supper. Michelangelo, renowned for his sculptures such as David and the Sistine Chapel ceiling. William Shakespeare, a prolific playwright and poet. Nicolaus Copernicus, who revolutionized astronomy with his heliocentric model of the universe.
+
+- Sub-Topic 3: Impact of the Renaissance
+  - The Renaissance had a lasting influence on art, literature, architecture, philosophy, science, and technology. It shaped modern society's views on humanism, individualism, and the pursuit of knowledge.
+
+Learning Objectives:
+- Understand the historical context and key characteristics of the Renaissance period.
+- Identify and analyze the contributions of prominent figures of the Renaissance.
+- Evaluate the impact of the Renaissance on various aspects of society and culture.
+
+Assessment Questions:
+1. Discuss the significance of humanism in the Renaissance period.
+2. How did the Renaissance challenge traditional beliefs and institutions?
+3. Explain the contributions of Leonardo da Vinci and Michelangelo to Renaissance art.
+
+Week 2: Renaissance Art and Architecture
+
+Main Topic Title: Renaissance Art and Architecture
+
+- Sub-Topic 1: Characteristics of Renaissance Art
+  - Renaissance art is known for its realism, perspective, and classical influences. Artists aimed to depict the natural world accurately and with a sense of depth and dimension.
+
+- Sub-Topic 2: Major Artists and Their Works
+  - Leonardo da Vinci's Vitruvian Man exemplifies the blend of art and science in the Renaissance. Michelangelo's David showcases his mastery of sculpting human anatomy. Raphael's School of Athens illustrates classical ideals in art.
+
+- Sub-Topic 3: Renaissance Architecture
+  - Renaissance architecture emphasizes symmetry, proportion, and classical orders. Buildings like St. Peter's Basilica in Rome showcase the grandeur and elegance of Renaissance design.
+
+Learning Objectives:
+- Identify the key characteristics of Renaissance art and architecture.
+- Analyze the works of major Renaissance artists and understand their significance.
+- Explain the principles of Renaissance architecture and their application in notable buildings.
+
+Assessment Questions:
+1. How did perspective contribute to the realism of Renaissance art?
+2. Discuss the influence of classical antiquity on Renaissance architecture.
+3. Analyze the significance of Leonardo da Vinci's contributions to both art and science.
+
+Week 3: Renaissance Literature and Drama
+
+Main Topic Title: Renaissance Literature and Drama
+
+- Sub-Topic 1: Characteristics of Renaissance Literature
+  - Renaissance literature focused on humanism, individualism, and the revival of classical texts. Writers like William Shakespeare and John Milton explored themes of love, power, and morality.
+
+- Sub-Topic 2: Major Literary Works and Authors
+  - Shakespeare's plays like Hamlet and Romeo and Juliet are timeless classics of Renaissance drama. Cervantes' Don Quixote is a landmark in the development of the novel.
+
+- Sub-Topic 3: Renaissance Drama
+  - Renaissance theater was marked by innovation and exploration of human emotions and societal norms. Playwrights like Marlowe and Webster pushed the boundaries of dramatic storytelling.
+
+Learning Objectives:
+- Define the characteristics of Renaissance literature and drama.
+- Analyze key literary works and authors of the Renaissance period.
+- Explore the evolution of Renaissance drama and its impact on theater.
+
+Assessment Questions:
+1. How did humanism influence the themes of Renaissance literature?
+2. Discuss the role of women in Renaissance drama.
+3. Compare and contrast the styles of Shakespeare and Marlowe in their plays.
+
+Week 4: Renaissance Music and Philosophy
+
+Main Topic Title: Renaissance Music and Philosophy
+
+- Sub-Topic 1: Musical Forms of the Renaissance
+  - The madrigal and motet were popular musical forms of the Renaissance, showcasing intricate vocal harmonies and expressive lyrics. Composers like Josquin des Prez and Palestrina were masters of these forms.
+
+- Sub-Topic 2: Prominent Composers
+  - Josquin des Prez's Ave Maria exemplifies the complexity and beauty of Renaissance choral music. Palestrina's Pope Marcellus Mass is a pinnacle of Renaissance polyphony.
+
+- Sub-Topic 3: Humanism in Renaissance Philosophy
+  - Renaissance philosophy emphasized human values, rationality, and the blending of classical and Christian thought. Philosophers like Pico della Mirandola and Erasmus promoted the idea of individual agency and moral responsibility.
+
+Learning Objectives:
+- Identify the musical forms and composers of the Renaissance era.
+- Analyze the contributions of prominent Renaissance composers to music history.
+- Understand the principles of humanism in Renaissance philosophy and its influence on society.
+
+Assessment Questions:
+1. How did the madrigal reflect the humanistic ideals of the Renaissance?
+2. Discuss the role of music in expressing cultural values during the Renaissance.
+3. Explain the concept of individualism in Renaissance philosophy.
+
+These comprehensive lecture notes provide a detailed exploration of the Renaissance period, covering art, literature, music, architecture, and philosophy. By engaging with the rich cultural heritage of this era, students will gain a deeper understanding of how the Renaissance continues to shape our world today.
+
+----------------------------------------
+✅ You chose Response 1
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_18-44-51.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+✅ Content validation passed - suitable for 3 credit hours
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: The Renaissance Period
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Characteristics of Renaissance Art: Realism, Perspective, and Classical Influences)
+🎲 Choice scenario triggered! (Rolled 0.4 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Renaissance art is characterized by realism, perspective, and classical influences
+• Realism in art focused on depicting subjects accurately and lifelike
+• Perspective techniques created depth and dimension in artwork
+• Classical influences from ancient Greek and Roman art inspired Renaissance artists like Leonardo da Vinci and Michelangelo
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Realism, perspective, and classical influences are key characteristics of Renaissance art
+• Realism: Artists focused on depicting subjects realistically, with attention to detail and lifelike representations
+• Perspective: Use of linear perspective to create depth and dimension in artworks, giving a sense of realism and spatial relationships
+• Classical Influences: Inspiration drawn from ancient Greek and Roman art, incorporating themes, styles, and techniques from classical antiquity
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 1 content set to: '• Renaissance art is characterized by realism, perspective, and classical influences • Realism in ar...'
+🔍 DEBUG: Slide 1 content length: 344
+✅ Slide 1 content: • Renaissance art is characterized by realism, perspective, and classical influences
+• Realism in art focused on depicting subjects accurately and lifelike
+• Perspective techniques created depth and dimension in artwork
+• Classical influences from ancient Greek and Roman art inspired Renaissance artists like Leonardo da Vinci and Michelangelo
+Generating content for slide 2 (Topic: Major Renaissance Artists: Leonardo da Vinci, Michelangelo, Raphael)
+🎲 Choice scenario triggered! (Rolled 32.7 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Leonardo da Vinci, Michelangelo, and Raphael are major Renaissance artists known for their significant contributions to art
+• Leonardo da Vinci is famous for iconic works like the Mona Lisa and The Last Supper
+• Michelangelo is renowned for masterpieces such as the sculpture of David and the Sistine Chapel ceiling
+• Raphael's works, including The School of Athens, exemplify the classical influences and harmony of Renaissance art
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Leonardo da Vinci: 
+  - Known for iconic paintings like the Mona Lisa and The Last Supper
+  - Mastered the technique of sfumato to create realistic, lifelike portraits
+  - Versatile genius in various fields including anatomy, engineering, and astronomy
+
+• Michelangelo: 
+  - Renowned for sculptures such as David and the Sistine Chapel ceiling
+  - Emphasized human anatomy and muscular forms in his artwork
+  - Demonstrated mastery in both painting and sculpture
+
+• Raphael: 
+  - Known for works like The School of Athens and The Sistine Madonna
+  - Blended classical influences with idealized beauty in his paintings
+  - Achieved harmony and balance in compositions through perspective and color palette
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 2 content set to: '• Leonardo da Vinci, Michelangelo, and Raphael are major Renaissance artists known for their signifi...'
+🔍 DEBUG: Slide 2 content length: 434
+✅ Slide 2 content: • Leonardo da Vinci, Michelangelo, and Raphael are major Renaissance artists known for their significant contributions to art
+• Leonardo da Vinci is famous for iconic works like the Mona Lisa and The Last Supper
+• Michelangelo is renowned for masterpieces such as the sculpture of David and the Sistine Chapel ceiling
+• Raphael's works, including The School of Athens, exemplify the classical influences and harmony of Renaissance art
+Generating content for slide 3 (Topic: Renaissance Architecture Principles: Symmetry, Proportion, Classical Orders)
+🎲 Choice scenario triggered! (Rolled 9.8 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Renaissance architecture principles focus on symmetry, proportion, and classical orders
+• Symmetry creates balance and harmony in architectural design
+• Proportion ensures that elements within a building are appropriately scaled and related
+• Classical orders, such as Doric, Ionic, and Corinthian, provide a framework for architectural elements like columns and capitals
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Renaissance architecture principles focus on symmetry, proportion, and classical orders
+• Symmetry creates balance and harmony in architectural design
+• Proportion ensures that elements relate harmoniously to each other
+• Classical orders such as Doric, Ionic, and Corinthian columns are key features in Renaissance architecture
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 3 content set to: '• Renaissance architecture principles focus on symmetry, proportion, and classical orders • Symmetry...'
+🔍 DEBUG: Slide 3 content length: 373
+✅ Slide 3 content: • Renaissance architecture principles focus on symmetry, proportion, and classical orders
+• Symmetry creates balance and harmony in architectural design
+• Proportion ensures that elements within a building are appropriately scaled and related
+• Classical orders, such as Doric, Ionic, and Corinthian, provide a framework for architectural elements like columns and capitals
+Generating content for slide 4 (Topic: Musical Forms of the Renaissance: Madrigal and Motet)
+🔍 DEBUG: Slide 4 content set to: '• Musical Forms of the Renaissance: Madrigal and Motet The Renaissance period saw the development of...'
+🔍 DEBUG: Slide 4 content length: 453
+✅ Slide 4 content: • Musical Forms of the Renaissance: Madrigal and Motet
+- The Renaissance period saw the development of new musical forms like the madrigal and motet
+- Composers such as Josquin des Prez and Giovanni Pierluigi da Palestrina were prominent figures in Renaissance music
+- Instruments commonly used during this time included the lute, viol, and harpsichord
+- The madrigal was a secular vocal composition with multiple voices, often expressing emotions or telling a story
+- The motet was a sacred vocal composition with polyphonic textures, often performed in religious settings.
+Generating content for slide 5 (Topic: Prominent Renaissance Composers: Josquin des Prez, Giovanni Pierluigi da Palestrina)
+🎲 Choice scenario triggered! (Rolled 11.7 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Josquin des Prez: 
+  - Renowned composer of the Renaissance period
+  - Known for his masses, motets, and chansons
+  - Composed "Ave Maria," "Missa Pange lingua," and "Miserere mei, Deus"
+
+• Giovanni Pierluigi da Palestrina: 
+  - Influential composer of sacred music
+  - Master of polyphony and counterpoint
+  - Composed over 100 masses and 250 motets
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Josquin des Prez: 
+  - Renowned composer of the Renaissance period
+  - Known for his sacred and secular compositions
+  - Influenced future generations of composers with his innovative style
+
+• Giovanni Pierluigi da Palestrina: 
+  - Prominent composer of sacred music during the Renaissance
+  - Known for his polyphonic compositions and smooth, flowing melodies
+  - Considered a master of counterpoint and sacred choral music
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 5 content set to: '• Josquin des Prez: - Renowned composer of the Renaissance period - Known for his masses, motets, an...'
+🔍 DEBUG: Slide 5 content length: 337
+✅ Slide 5 content: • Josquin des Prez: 
+  - Renowned composer of the Renaissance period
+  - Known for his masses, motets, and chansons
+  - Composed "Ave Maria," "Missa Pange lingua," and "Miserere mei, Deus"
+
+• Giovanni Pierluigi da Palestrina: 
+  - Influential composer of sacred music
+  - Master of polyphony and counterpoint
+  - Composed over 100 masses and 250 motets
+Generating content for slide 6 (Topic: Humanism in Renaissance Philosophy: Influence on Intellectual Thought)
+🔍 DEBUG: Slide 6 content set to: '• Humanism in Renaissance philosophy emphasized the importance of human values, potential, and achie...'
+🔍 DEBUG: Slide 6 content length: 479
+✅ Slide 6 content: • Humanism in Renaissance philosophy emphasized the importance of human values, potential, and achievements
+• Humanism led to a shift from medieval emphasis on the divine to a focus on human capabilities and rationality
+• Influence on intellectual thought included the promotion of individualism and self-expression in society
+• Renaissance philosophers sought to reconcile classical ideas with Christian theology, blending ancient Greek and Roman concepts with Christian thought
+Generating content for slide 7 (Topic: Renaissance Scientific Advancements: Contributions to Modern Science)
+🎲 Choice scenario triggered! (Rolled 14.6 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Significant advancements in science during the Renaissance period laid the foundation for modern science
+• Prominent figures like Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries in astronomy
+• Andreas Vesalius revolutionized the study of human anatomy with detailed anatomical drawings
+• Increased emphasis on empirical observation and experimentation marked a shift towards modern scientific methods
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Renaissance Scientific Advancements paved the way for modern science
+• Key figures like Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries in astronomy
+• Andreas Vesalius revolutionized the study of human anatomy through detailed anatomical drawings
+• Increased emphasis on empirical observation and experimentation marked a shift towards modern scientific methods
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 7 content set to: '• Significant advancements in science during the Renaissance period laid the foundation for modern s...'
+🔍 DEBUG: Slide 7 content length: 444
+✅ Slide 7 content: • Significant advancements in science during the Renaissance period laid the foundation for modern science
+• Prominent figures like Nicolaus Copernicus, Galileo Galilei, and Johannes Kepler made groundbreaking discoveries in astronomy
+• Andreas Vesalius revolutionized the study of human anatomy with detailed anatomical drawings
+• Increased emphasis on empirical observation and experimentation marked a shift towards modern scientific methods
+Generating content for slide 8 (Topic: Fashion in the Renaissance Period: Reflection of Social Status and Wealth)
+🔍 DEBUG: Slide 8 content set to: '• Fashion in the Renaissance period was a reflection of social status and wealth • Men typically wor...'
+🔍 DEBUG: Slide 8 content length: 383
+✅ Slide 8 content: • Fashion in the Renaissance period was a reflection of social status and wealth
+• Men typically wore doublets, breeches, and hose, while women's clothing featured elaborate gowns with tight bodices and full skirts
+• Fabrics such as silk, velvet, and brocade were popular among the wealthy
+• Accessories like hats, gloves, and jewelry were essential components of Renaissance fashion
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Characteristics of Renaissance Art: Realism, Perspective, and Classical Influences)
+✅ Slide 1 title: Characteristics of Renaissance Art: Realism, Perspective, Classical Influences
+Generating title for slide 2 (Topic: Major Renaissance Artists: Leonardo da Vinci, Michelangelo, Raphael)
+🎲 Choice scenario triggered! (Rolled 10.5 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Major Renaissance Artists: Leonardo, Michelangelo, Raphael
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Major Renaissance Artists: Leonardo, Michelangelo, Raphael
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 2 title: Major Renaissance Artists: Leonardo, Michelangelo, Raphael
+Generating title for slide 3 (Topic: Renaissance Architecture Principles: Symmetry, Proportion, Classical Orders)
+✅ Slide 3 title: Renaissance Architecture Principles: Symmetry, Proportion, Classical Orders
+Generating title for slide 4 (Topic: Musical Forms of the Renaissance: Madrigal and Motet)
+✅ Slide 4 title: Renaissance Musical Forms: Madrigal and Motet
+Generating title for slide 5 (Topic: Prominent Renaissance Composers: Josquin des Prez, Giovanni Pierluigi da Palestrina)
+✅ Slide 5 title: Prominent Renaissance Composers: Josquin des Prez & Palestrina
+Generating title for slide 6 (Topic: Humanism in Renaissance Philosophy: Influence on Intellectual Thought)
+✅ Slide 6 title: Humanism's Influence on Renaissance Intellectual Thought
+Generating title for slide 7 (Topic: Renaissance Scientific Advancements: Contributions to Modern Science)
+🎲 Choice scenario triggered! (Rolled 19.8 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Renaissance Scientific Advancements: Contributions to Modern Science
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Renaissance Scientific Advancements: Contributions to Modern Science
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 7 title: Renaissance Scientific Advancements: Contributions to Modern Science
+Generating title for slide 8 (Topic: Fashion in the Renaissance Period: Reflection of Social Status and Wealth)
+🎲 Choice scenario triggered! (Rolled 7.0 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Renaissance Fashion: Social Status and Wealth Reflection
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Title: Renaissance Fashion: Social Status and Wealth
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 8 title: Renaissance Fashion: Social Status and Wealth Reflection
+Generating overall presentation title...
+✅ Overall presentation title: The Renaissance: A Cultural and Intellectual Revolution
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Characteristics of Renaissance Art: Realism, Perspective, and Classical Influences)
+🎲 Choice scenario triggered! (Rolled 5.1 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['Renaissance Art characteristics',
+'Realism in Renaissance Art',
+'Perspective techniques in Renaissance Art',
+'Classical influences in Renaissance Art',
+'Leonardo da Vinci art influences',
+'Michelangelo art influences']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['Renaissance Art characteristics realism perspective classical influences',
+'Renaissance Art realism techniques',
+'Renaissance Art perspective in artwork',
+'Classical influences in Renaissance Art',
+'Leonardo da Vinci Michelangelo Renaissance Art inspiration']
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Major Renaissance Artists: Leonardo da Vinci, Michelangelo, Raphael)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Renaissance Architecture Principles: Symmetry, Proportion, Classical Orders)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Musical Forms of the Renaissance: Madrigal and Motet)
+🎲 Choice scenario triggered! (Rolled 32.3 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['Renaissance music forms', 'Madrigal music composition', 'Motet music composition', 'Josquin des Prez music', 'Giovanni Pierluigi da Palestrina compositions', 'Renaissance musical instruments', 'Lute viol harpsichord in Renaissance music']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['Madrigal Renaissance music', 'Motet Renaissance music', 'Josquin des Prez music', 'Giovanni Pierluigi da Palestrina music', 'Renaissance musical instruments', 'Lute viol harpsichord Renaissance music', 'Secular vocal composition Renaissance music']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Prominent Renaissance Composers: Josquin des Prez, Giovanni Pierluigi da Palestrina)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Humanism in Renaissance Philosophy: Influence on Intellectual Thought)
+🎲 Choice scenario triggered! (Rolled 22.4 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['Humanism Renaissance philosophy', 'Humanism influence intellectual thought', 'Renaissance philosophers individualism', 'Renaissance philosophy Christian theology', 'Classical ideas Christian thought reconciliation']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['Humanism Renaissance philosophy', 'Humanism influence intellectual thought Renaissance', 'Renaissance philosophers humanism impact', 'Humanism individualism society Renaissance', 'Classical ideas Christian theology Renaissance', 'Greek Roman Christian blend Renaissance']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Renaissance Scientific Advancements: Contributions to Modern Science)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Fashion in the Renaissance Period: Reflection of Social Status and Wealth)
+Error parsing search keywords for slide 8: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1). Skipping.
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Characteristics of Renaissance Art: Realism, Perspective, and Classical Influences)
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Major Renaissance Artists: Leonardo da Vinci, Michelangelo, Raphael)
+🎲 Choice scenario triggered! (Rolled 33.8 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Leonardo da Vinci's artwork demonstrates his diverse talents in painting, sculpture, engineering, and anatomy.
+- Michelangelo's frescoes in the Sistine Chapel showcase his mastery of the human form and dramatic compositions.
+- Raphael's paintings are known for their idealized figures, balanced compositions, and use of perspective.
+- The High Renaissance period, marked by the works of these artists, represents a pinnacle of artistic achievement in Western history.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Leonardo da Vinci's artistic talents extended beyond painting to include fields like anatomy, engineering, and scientific observation.
+- Michelangelo's architectural achievements, such as the design of St. Peter's Basilica in Rome, showcase his versatile skills and innovative approach to design.
+- Raphael's frescoes in the Vatican Palace, particularly the Stanza della Segnatura, demonstrate his ability to blend classical themes with contemporary ideals in a harmonious manner.
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Renaissance Architecture Principles: Symmetry, Proportion, Classical Orders)
+⚠️ Warning: Slide 3 content is long (666 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Musical Forms of the Renaissance: Madrigal and Motet)
+⚠️ Warning: Slide 4 content is long (716 chars) - consider reducing
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Prominent Renaissance Composers: Josquin des Prez, Giovanni Pierluigi da Palestrina)
+🎲 Choice scenario triggered! (Rolled 10.5 <= 35.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Josquin des Prez and Palestrina were both masters of polyphony and counterpoint, known for their intricate and harmonically rich compositions.
+- Josquin des Prez's works, such as "Ave Maria," "Missa Pange lingua," and "Miserere mei, Deus," showcase his innovative use of musical forms and expressive techniques.
+- Palestrina's extensive repertoire of over 100 masses and 250 motets demonstrates his profound influence on sacred music during the Renaissance period.
+- Both composers utilized the lute, viola da gamba, harpsichord, organ, and other instruments to enhance the depth and complexity of their compositions.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Josquin des Prez and Palestrina were both masters of polyphony and counterpoint, showcasing their innovative approaches to composition in the Renaissance period.
+- Josquin des Prez's compositions, such as "Ave Maria" and "Missa Pange lingua," exemplify his skill in blending sacred and secular music with expressive melodies and intricate harmonies.
+- Palestrina's extensive repertoire of over 100 masses and 250 motets demonstrates his profound influence on sacred music, emphasizing clarity, balance, and elegance in his compositions.
+- The use of instruments like the lute, viola da gamba, and harpsichord added richness and texture to the performances of Josquin des Prez and Palestrina's works, enhancing the overall musical experience of the Renaissance era.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 5 content is long (619 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Humanism in Renaissance Philosophy: Influence on Intellectual Thought)
+⚠️ Warning: Slide 6 content is long (830 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Renaissance Scientific Advancements: Contributions to Modern Science)
+⚠️ Warning: Slide 7 content is long (684 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Fashion in the Renaissance Period: Reflection of Social Status and Wealth)
+⚠️ Warning: Slide 8 content is long (831 chars) - consider reducing
+✅ Slide 8: Enhanced content with 0 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: The_Renaissance_A_Cultural_and_Intellectual_Revolution_2025-08-31_18-46-19
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\The_Renaissance_A_Cultural_and_Intellectual_Revolution_2025-08-31_18-46-19.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\The_Renaissance_A_Cultural_and_Intellectual_Revolution_2025-08-31_18-46-19.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 8 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\The_Renaissance_A_Cultural_and_Intellectual_Revolution_2025-08-31_18-46-19.pptx
+📊 Rating presentation 8...
+✅ Presentation 8 rated successfully
+📈 Overall Rating: 6.89 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.00 / 2.00
+   - Non-Repetition: 1.88 / 2.00
+   - Content Balance: 1.54 / 2.00
+   - Title Uniqueness: 1.98 / 2.00
+   - Title-Content Match: 1.49 / 2.00
+💾 Result saved to file for presentation 8
+
+📊 Presentation 10/10 (ID: 9)
+📝 Using topic: Immigration and Cultural Integration
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

@@ -1,0 +1,992 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T14:21:21.872748
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_14-21-21.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 6...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Gender Equality in the Workplace
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Gender pay gap, Workplace discrimination
+Selected topics: ['Gender pay gap', 'Workplace discrimination']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Gender pay gap
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENDER PAY GAP** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Understanding the Gender Pay Gap",
+    "keywords": ["gender pay gap", "wage disparity", "gender inequality", "equal pay"],
+    "text": "The gender pay gap refers to the difference in earnings between men and women in the workforce. It is typically calculated as the median or average salary of men compared to that of women. Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving responsibilities. Efforts to address the gender pay gap include promoting pay transparency, implementing equal pay laws, and providing support for women to advance in their careers.",
+    "link": "https://www.payscale.com/data/gender-pay-gap"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Understanding the Gender Pay Gap
+Keywords: gender pay gap, wage disparity, gender inequality, equal pay
+Uses: 0
+Text: The gender pay gap refers to the difference in earnings between men and women in the workforce. It is typically calculated as the median or average salary of men compared to that of women. Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving responsibilities. Efforts to address the gender pay gap include promoting pay transparency, implementing equal pay laws, and providing support for women to advance in their careers.Link: https://www.payscale.com/data/gender-pay-gap
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENDER PAY GAP** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Gender Pay Gap Statistics by Country",
+    "keywords": ["gender pay gap", "statistics", "country", "gender equality", "workplace"],
+    "text": "There are significant differences in gender pay gap statistics across various countries. For example, in the United States, women make about 82 cents for every dollar a man earns. In the United Kingdom, women earn about 81 pence for every pound earned by men. On the other hand, countries like Iceland and Sweden have made significant progress in narrowing the gender pay gap.",
+    "link": "https://www.payscale.com/data/gender-pay-gap" 
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Gender Pay Gap Statistics by Country
+Keywords: gender pay gap, statistics, country, gender equality, workplace
+Uses: 0
+Text: There are significant differences in gender pay gap statistics across various countries. For example, in the United States, women make about 82 cents for every dollar a man earns. In the United Kingdom, women earn about 81 pence for every pound earned by men. On the other hand, countries like Iceland and Sweden have made significant progress in narrowing the gender pay gap.Link: https://www.payscale.com/data/gender-pay-gap
+Researching topic: Workplace discrimination
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WORKPLACE DISCRIMINATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Workplace Discrimination Against Women",
+    "keywords": ["gender discrimination", "workplace inequality", "gender bias"],
+    "text": "Workplace discrimination against women refers to the unfair treatment of female employees based on their gender. This can manifest in various forms such as unequal pay, lack of promotions, harassment, and exclusion from leadership positions. Gender bias in the workplace can create a hostile environment and hinder women's career advancement.",
+    "link": "https://www.eeoc.gov/laws/guidance/what-you-should-know-workplace-discrimination"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Workplace Discrimination Against Women
+Keywords: gender discrimination, workplace inequality, gender bias
+Uses: 0
+Text: Workplace discrimination against women refers to the unfair treatment of female employees based on their gender. This can manifest in various forms such as unequal pay, lack of promotions, harassment, and exclusion from leadership positions. Gender bias in the workplace can create a hostile environment and hinder women's career advancement.Link: https://www.eeoc.gov/laws/guidance/what-you-should-know-workplace-discrimination
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WORKPLACE DISCRIMINATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Types of Workplace Discrimination Against Women",
+    "keywords": ["workplace discrimination", "gender equality", "women", "types"],
+    "text": "There are various types of workplace discrimination that women may face, including unequal pay, lack of promotion opportunities, sexual harassment, maternal discrimination, and stereotyping. Unequal pay refers to women being paid less than men for the same work. Lack of promotion opportunities can occur when women are passed over for promotions in favor of less qualified male colleagues. Sexual harassment involves unwanted advances or inappropriate behavior towards women in the workplace. Maternal discrimination occurs when women are treated unfairly due to pregnancy or motherhood. Stereotyping involves making assumptions about women based on their gender.",
+    "link": "https://www.eeoc.gov/sex-based-discrimination"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Types of Workplace Discrimination Against Women
+Keywords: workplace discrimination, gender equality, women, types
+Uses: 0
+Text: There are various types of workplace discrimination that women may face, including unequal pay, lack of promotion opportunities, sexual harassment, maternal discrimination, and stereotyping. Unequal pay refers to women being paid less than men for the same work. Lack of promotion opportunities can occur when women are passed over for promotions in favor of less qualified male colleagues. Sexual harassment involves unwanted advances or inappropriate behavior towards women in the workplace. Maternal discrimination occurs when women are treated unfairly due to pregnancy or motherhood. Stereotyping involves making assumptions about women based on their gender.Link: https://www.eeoc.gov/sex-based-discrimination
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Gender Equality in the Workplace) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Gender pay gap', 'Workplace discrimination']. The research these yeilded is: ({The gender pay gap refers to the difference in earnings between men and women in the workforce. It is typically calculated as the median or average salary of men compared to that of women. Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving responsibilities. Efforts to address the gender pay gap include promoting pay transparency, implementing equal pay laws, and providing support for women to advance in their careers.
+
+There are significant differences in gender pay gap statistics across various countries. For example, in the United States, women make about 82 cents for every dollar a man earns. In the United Kingdom, women earn about 81 pence for every pound earned by men. On the other hand, countries like Iceland and Sweden have made significant progress in narrowing the gender pay gap.
+
+Workplace discrimination against women refers to the unfair treatment of female employees based on their gender. This can manifest in various  (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Gender stereotypes in the workplace, Glass ceiling phenomenon, Unconscious bias in hiring practices, Gender diversity initiatives, Intersectionality in gender equality, Mentorship programs for women
+Selected topics: ['Gender stereotypes in the workplace', 'Glass ceiling phenomenon', 'Unconscious bias in hiring practices', 'Gender diversity initiatives', 'Intersectionality in gender equality', 'Mentorship programs for women']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Gender stereotypes in the workplace
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women', 'Types of Workplace Discrimination Against Women']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENDER STEREOTYPES IN THE WORKPLACE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Gender Stereotypes in the Workplace",
+    "keywords": ["gender stereotypes", "workplace", "gender bias", "gender roles", "work environment"],
+    "text": "Gender stereotypes in the workplace refer to preconceived ideas about the roles and characteristics that men and women are expected to fulfill. These stereotypes can lead to bias in hiring, promotion, and overall treatment of employees based on their gender. Common stereotypes include the belief that women are not as competent in leadership roles or that men are better suited for technical positions.",
+    "link": "https://www.forbes.com/sites/forbeshumanresourcescouncil/2020/03/06/how-to-overcome-gender-stereotypes-in-the-workplace/?sh=4b7f1aae7e38"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Gender Stereotypes in the Workplace
+Keywords: gender stereotypes, workplace, gender bias, gender roles, work environment
+Uses: 0
+Text: Gender stereotypes in the workplace refer to preconceived ideas about the roles and characteristics that men and women are expected to fulfill. These stereotypes can lead to bias in hiring, promotion, and overall treatment of employees based on their gender. Common stereotypes include the belief that women are not as competent in leadership roles or that men are better suited for technical positions.Link: https://www.forbes.com/sites/forbeshumanresourcescouncil/2020/03/06/how-to-overcome-gender-stereotypes-in-the-workplace/?sh=4b7f1aae7e38
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women', 'Types of Workplace Discrimination Against Women', 'Gender Stereotypes in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENDER STEREOTYPES IN THE WORKPLACE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "How Gender Stereotypes Affect Women in the Workplace",
+    "keywords": ["gender stereotypes", "women in the workplace", "impact of stereotypes on women", "gender bias at work"],
+    "text": "Gender stereotypes in the workplace refer to preconceived notions about the roles, behaviors, and capabilities of individuals based on their gender. These stereotypes can have a significant impact on women, leading to biases in hiring, promotion, and salary decisions. Women may be perceived as less competent or less suitable for leadership roles due to these ingrained stereotypes. Gender stereotypes can also contribute to a hostile work environment, where women feel undervalued and marginalized.",
+    "link": "https://www.forbes.com/sites/forbescoachescouncil/2021/03/08/how-gender-stereotypes-affect-women-in-the-workplace/?sh=6e3846c669d1"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: How Gender Stereotypes Affect Women in the Workplace
+Keywords: gender stereotypes, women in the workplace, impact of stereotypes on women, gender bias at work
+Uses: 0
+Text: Gender stereotypes in the workplace refer to preconceived notions about the roles, behaviors, and capabilities of individuals based on their gender. These stereotypes can have a significant impact on women, leading to biases in hiring, promotion, and salary decisions. Women may be perceived as less competent or less suitable for leadership roles due to these ingrained stereotypes. Gender stereotypes can also contribute to a hostile work environment, where women feel undervalued and marginalized.Link: https://www.forbes.com/sites/forbescoachescouncil/2021/03/08/how-gender-stereotypes-affect-women-in-the-workplace/?sh=6e3846c669d1
+Researching topic: Glass ceiling phenomenon
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women', 'Types of Workplace Discrimination Against Women', 'Gender Stereotypes in the Workplace', 'How Gender Stereotypes Affect Women in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GLASS CEILING PHENOMENON** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Understanding the Glass Ceiling Phenomenon in the Workplace",
+    "keywords": ["glass ceiling", "workplace", "gender equality", "career advancement", "barriers"],
+    "text": "The glass ceiling is an invisible barrier that prevents women and minorities from advancing to higher positions in the workplace. It is often attributed to factors such as gender discrimination, stereotypes, and lack of opportunities for career development. This phenomenon can lead to disparities in pay, representation in leadership roles, and overall career progression.",
+    "link": "https://www.forbes.com/sites/forbescoachescouncil/2020/03/03/the-glass-ceiling-is-real-and-it-hurts-women-and-minorities/?sh=1cbe8c6e6f6a"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Understanding the Glass Ceiling Phenomenon in the Workplace
+Keywords: glass ceiling, workplace, gender equality, career advancement, barriers
+Uses: 0
+Text: The glass ceiling is an invisible barrier that prevents women and minorities from advancing to higher positions in the workplace. It is often attributed to factors such as gender discrimination, stereotypes, and lack of opportunities for career development. This phenomenon can lead to disparities in pay, representation in leadership roles, and overall career progression.Link: https://www.forbes.com/sites/forbescoachescouncil/2020/03/03/the-glass-ceiling-is-real-and-it-hurts-women-and-minorities/?sh=1cbe8c6e6f6a
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women', 'Types of Workplace Discrimination Against Women', 'Gender Stereotypes in the Workplace', 'How Gender Stereotypes Affect Women in the Workplace', 'Understanding the Glass Ceiling Phenomenon in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GLASS CEILING PHENOMENON** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Breaking the Glass Ceiling: Strategies for Women in the Workplace",
+    "keywords": ["glass ceiling", "gender equality", "workplace advancement", "career progression", "women in leadership"],
+    "text": "Breaking through the glass ceiling in the workplace refers to the invisible barrier that prevents women from advancing to higher positions in their careers. Strategies for women to overcome this barrier include seeking mentorship, building strong networks, advocating for themselves, acquiring new skills, and challenging gender biases.",
+    "link": "https://www.forbes.com/sites/forbescoachescouncil/2021/03/08/breaking-the-glass-ceiling-strategies-for-women-in-the-workplace/?sh=2c1b1d7b3c7d"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Breaking the Glass Ceiling: Strategies for Women in the Workplace
+Keywords: glass ceiling, gender equality, workplace advancement, career progression, women in leadership
+Uses: 0
+Text: Breaking through the glass ceiling in the workplace refers to the invisible barrier that prevents women from advancing to higher positions in their careers. Strategies for women to overcome this barrier include seeking mentorship, building strong networks, advocating for themselves, acquiring new skills, and challenging gender biases.Link: https://www.forbes.com/sites/forbescoachescouncil/2021/03/08/breaking-the-glass-ceiling-strategies-for-women-in-the-workplace/?sh=2c1b1d7b3c7d
+Researching topic: Unconscious bias in hiring practices
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women', 'Types of Workplace Discrimination Against Women', 'Gender Stereotypes in the Workplace', 'How Gender Stereotypes Affect Women in the Workplace', 'Understanding the Glass Ceiling Phenomenon in the Workplace', 'Breaking the Glass Ceiling: Strategies for Women in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **UNCONSCIOUS BIAS IN HIRING PRACTICES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Unconscious Bias in Hiring Practices",
+    "keywords": ["unconscious bias", "hiring practices", "gender equality", "workplace", "diversity"],
+    "text": "Unconscious bias in hiring practices refers to the unintentional preferences or stereotypes that influence decision-making during the recruitment process. These biases can lead to discrimination against certain groups, including women, and result in unequal opportunities in the workplace.",
+    "link": "https://www.forbes.com/sites/forbeshumanresourcescouncil/2018/09/18/why-unconscious-bias-is-the-number-one-enemy-of-diversity-and-inclusion-in-the-workplace/"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Unconscious Bias in Hiring Practices
+Keywords: unconscious bias, hiring practices, gender equality, workplace, diversity
+Uses: 0
+Text: Unconscious bias in hiring practices refers to the unintentional preferences or stereotypes that influence decision-making during the recruitment process. These biases can lead to discrimination against certain groups, including women, and result in unequal opportunities in the workplace.Link: https://www.forbes.com/sites/forbeshumanresourcescouncil/2018/09/18/why-unconscious-bias-is-the-number-one-enemy-of-diversity-and-inclusion-in-the-workplace/
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women', 'Types of Workplace Discrimination Against Women', 'Gender Stereotypes in the Workplace', 'How Gender Stereotypes Affect Women in the Workplace', 'Understanding the Glass Ceiling Phenomenon in the Workplace', 'Breaking the Glass Ceiling: Strategies for Women in the Workplace', 'Unconscious Bias in Hiring Practices']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **UNCONSCIOUS BIAS IN HIRING PRACTICES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Strategies to Reduce Unconscious Bias in Hiring Practices",
+    "keywords": ["unconscious bias", "hiring practices", "diversity", "inclusion", "recruitment"],
+    "text": "To reduce unconscious bias in hiring practices, companies can implement strategies such as blind recruitment, where identifying information like name, gender, and age are removed from resumes during the initial screening process. Another approach is to use diverse interview panels to ensure a variety of perspectives are considered in the decision-making process. Training hiring managers on unconscious bias and promoting diversity and inclusion within the organization can also help mitigate bias in recruitment.",
+    "link": "https://www.forbes.com/sites/forbeshumanresourcescouncil/2020/03/09/five-strategies-to-reduce-unconscious-bias-in-hiring-practices/?sh=3f6e9b4c7fb2"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Strategies to Reduce Unconscious Bias in Hiring Practices
+Keywords: unconscious bias, hiring practices, diversity, inclusion, recruitment
+Uses: 0
+Text: To reduce unconscious bias in hiring practices, companies can implement strategies such as blind recruitment, where identifying information like name, gender, and age are removed from resumes during the initial screening process. Another approach is to use diverse interview panels to ensure a variety of perspectives are considered in the decision-making process. Training hiring managers on unconscious bias and promoting diversity and inclusion within the organization can also help mitigate bias in recruitment.Link: https://www.forbes.com/sites/forbeshumanresourcescouncil/2020/03/09/five-strategies-to-reduce-unconscious-bias-in-hiring-practices/?sh=3f6e9b4c7fb2
+Researching topic: Gender diversity initiatives
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women', 'Types of Workplace Discrimination Against Women', 'Gender Stereotypes in the Workplace', 'How Gender Stereotypes Affect Women in the Workplace', 'Understanding the Glass Ceiling Phenomenon in the Workplace', 'Breaking the Glass Ceiling: Strategies for Women in the Workplace', 'Unconscious Bias in Hiring Practices', 'Strategies to Reduce Unconscious Bias in Hiring Practices']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENDER DIVERSITY INITIATIVES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Gender Diversity Initiatives in the Workplace",
+    "keywords": ["gender diversity initiatives", "workplace gender equality programs", "gender diversity programs", "diversity and inclusion initiatives"],
+    "text": "Gender diversity initiatives in the workplace refer to programs and strategies implemented by companies to promote gender equality and create a more inclusive work environment. These initiatives may include mentorship programs for women, unconscious bias training for employees, flexible work arrangements, leadership development programs for women, and setting gender diversity goals.",
+    "link": "https://www.forbes.com/sites/forbescoachescouncil/2020/03/02/seven-steps-to-implementing-a-successful-gender-diversity-initiative-in-the-workplace/?sh=1eeb0bd02f2a"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Gender Diversity Initiatives in the Workplace
+Keywords: gender diversity initiatives, workplace gender equality programs, gender diversity programs, diversity and inclusion initiatives
+Uses: 0
+Text: Gender diversity initiatives in the workplace refer to programs and strategies implemented by companies to promote gender equality and create a more inclusive work environment. These initiatives may include mentorship programs for women, unconscious bias training for employees, flexible work arrangements, leadership development programs for women, and setting gender diversity goals.Link: https://www.forbes.com/sites/forbescoachescouncil/2020/03/02/seven-steps-to-implementing-a-successful-gender-diversity-initiative-in-the-workplace/?sh=1eeb0bd02f2a
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women', 'Types of Workplace Discrimination Against Women', 'Gender Stereotypes in the Workplace', 'How Gender Stereotypes Affect Women in the Workplace', 'Understanding the Glass Ceiling Phenomenon in the Workplace', 'Breaking the Glass Ceiling: Strategies for Women in the Workplace', 'Unconscious Bias in Hiring Practices', 'Strategies to Reduce Unconscious Bias in Hiring Practices', 'Gender Diversity Initiatives in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **GENDER DIVERSITY INITIATIVES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Benefits of Gender Diversity Initiatives in the Workplace",
+    "keywords": ["gender diversity initiatives", "workplace benefits", "gender equality", "diversity and inclusion"],
+    "text": "Gender diversity initiatives in the workplace have been shown to bring numerous benefits. Companies with diverse teams are more innovative and creative, leading to better problem-solving and decision-making. Additionally, gender diversity initiatives can improve employee morale and retention, as employees feel valued and included. By promoting gender equality through these initiatives, companies also enhance their reputation and attract top talent. Overall, fostering diversity and inclusion in the workplace through gender diversity initiatives is not only the right thing to do, but it also positively impacts business performance.",
+    "link": "https://www.forbes.com/sites/forbesbusinesscouncil/2021/06/25/the-business-case-for-gender-diversity-and-inclusion/?sh=5a9a265e2d4e"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Benefits of Gender Diversity Initiatives in the Workplace
+Keywords: gender diversity initiatives, workplace benefits, gender equality, diversity and inclusion
+Uses: 0
+Text: Gender diversity initiatives in the workplace have been shown to bring numerous benefits. Companies with diverse teams are more innovative and creative, leading to better problem-solving and decision-making. Additionally, gender diversity initiatives can improve employee morale and retention, as employees feel valued and included. By promoting gender equality through these initiatives, companies also enhance their reputation and attract top talent. Overall, fostering diversity and inclusion in the workplace through gender diversity initiatives is not only the right thing to do, but it also positively impacts business performance.Link: https://www.forbes.com/sites/forbesbusinesscouncil/2021/06/25/the-business-case-for-gender-diversity-and-inclusion/?sh=5a9a265e2d4e
+Researching topic: Intersectionality in gender equality
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women', 'Types of Workplace Discrimination Against Women', 'Gender Stereotypes in the Workplace', 'How Gender Stereotypes Affect Women in the Workplace', 'Understanding the Glass Ceiling Phenomenon in the Workplace', 'Breaking the Glass Ceiling: Strategies for Women in the Workplace', 'Unconscious Bias in Hiring Practices', 'Strategies to Reduce Unconscious Bias in Hiring Practices', 'Gender Diversity Initiatives in the Workplace', 'Benefits of Gender Diversity Initiatives in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INTERSECTIONALITY IN GENDER EQUALITY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Intersectionality in Gender Equality: What It Means and Why It Matters",
+    "keywords": ["intersectionality", "gender equality", "discrimination", "diversity", "inclusion"],
+    "text": "Intersectionality in gender equality refers to the interconnected nature of social categorizations such as race, class, and gender as they apply to a given individual or group. It recognizes that different forms of discrimination can overlap and intersect, creating unique experiences of oppression. Understanding intersectionality is crucial in addressing the complexities of inequality and ensuring that all individuals are included in efforts to promote gender equality.",
+    "link": "https://www.forbes.com/sites/forbescommunicationscouncil/2020/03/06/intersectionality-in-the-workplace-why-it-matters-and-what-you-can-do-about-it/?sh=3b2e7b1c5c51"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Intersectionality in Gender Equality: What It Means and Why It Matters
+Keywords: intersectionality, gender equality, discrimination, diversity, inclusion
+Uses: 0
+Text: Intersectionality in gender equality refers to the interconnected nature of social categorizations such as race, class, and gender as they apply to a given individual or group. It recognizes that different forms of discrimination can overlap and intersect, creating unique experiences of oppression. Understanding intersectionality is crucial in addressing the complexities of inequality and ensuring that all individuals are included in efforts to promote gender equality.Link: https://www.forbes.com/sites/forbescommunicationscouncil/2020/03/06/intersectionality-in-the-workplace-why-it-matters-and-what-you-can-do-about-it/?sh=3b2e7b1c5c51
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women', 'Types of Workplace Discrimination Against Women', 'Gender Stereotypes in the Workplace', 'How Gender Stereotypes Affect Women in the Workplace', 'Understanding the Glass Ceiling Phenomenon in the Workplace', 'Breaking the Glass Ceiling: Strategies for Women in the Workplace', 'Unconscious Bias in Hiring Practices', 'Strategies to Reduce Unconscious Bias in Hiring Practices', 'Gender Diversity Initiatives in the Workplace', 'Benefits of Gender Diversity Initiatives in the Workplace', 'Intersectionality in Gender Equality: What It Means and Why It Matters']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INTERSECTIONALITY IN GENDER EQUALITY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Importance of Intersectionality in Gender Equality in the Workplace",
+    "keywords": ["intersectionality", "gender equality", "workplace", "diversity", "discrimination"],
+    "text": "Intersectionality in gender equality refers to the understanding that gender discrimination is often compounded by other factors such as race, ethnicity, sexual orientation, disability, and socioeconomic status. This approach recognizes that individuals may face multiple forms of discrimination simultaneously, leading to unique challenges and experiences in the workplace. By considering intersectionality, organizations can develop more inclusive policies and practices that address the diverse needs of all employees.",
+    "link": "https://www.forbes.com/sites/forbescoachescouncil/2020/03/02/why-intersectionality-is-critical-for-gender-equality-in-the-workplace/?sh=7c6e6c7d5c2e"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: The Importance of Intersectionality in Gender Equality in the Workplace
+Keywords: intersectionality, gender equality, workplace, diversity, discrimination
+Uses: 0
+Text: Intersectionality in gender equality refers to the understanding that gender discrimination is often compounded by other factors such as race, ethnicity, sexual orientation, disability, and socioeconomic status. This approach recognizes that individuals may face multiple forms of discrimination simultaneously, leading to unique challenges and experiences in the workplace. By considering intersectionality, organizations can develop more inclusive policies and practices that address the diverse needs of all employees.Link: https://www.forbes.com/sites/forbescoachescouncil/2020/03/02/why-intersectionality-is-critical-for-gender-equality-in-the-workplace/?sh=7c6e6c7d5c2e
+Researching topic: Mentorship programs for women
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women', 'Types of Workplace Discrimination Against Women', 'Gender Stereotypes in the Workplace', 'How Gender Stereotypes Affect Women in the Workplace', 'Understanding the Glass Ceiling Phenomenon in the Workplace', 'Breaking the Glass Ceiling: Strategies for Women in the Workplace', 'Unconscious Bias in Hiring Practices', 'Strategies to Reduce Unconscious Bias in Hiring Practices', 'Gender Diversity Initiatives in the Workplace', 'Benefits of Gender Diversity Initiatives in the Workplace', 'Intersectionality in Gender Equality: What It Means and Why It Matters', 'The Importance of Intersectionality in Gender Equality in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **MENTORSHIP PROGRAMS FOR WOMEN** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Benefits of Mentorship Programs for Women in the Workplace",
+    "keywords": ["mentorship programs", "women", "workplace", "benefits"],
+    "text": "Mentorship programs for women in the workplace have been shown to provide numerous benefits, including career advancement, skill development, increased confidence, and expanded networks. These programs offer women the opportunity to receive guidance and support from more experienced professionals, helping them navigate challenges and achieve their goals.",
+    "link": "https://www.forbes.com/sites/forbescoachescouncil/2019/03/20/the-importance-of-mentorship-for-women-in-business/?sh=2c4d6d4e1b7c"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Benefits of Mentorship Programs for Women in the Workplace
+Keywords: mentorship programs, women, workplace, benefits
+Uses: 0
+Text: Mentorship programs for women in the workplace have been shown to provide numerous benefits, including career advancement, skill development, increased confidence, and expanded networks. These programs offer women the opportunity to receive guidance and support from more experienced professionals, helping them navigate challenges and achieve their goals.Link: https://www.forbes.com/sites/forbescoachescouncil/2019/03/20/the-importance-of-mentorship-for-women-in-business/?sh=2c4d6d4e1b7c
+Prompt:
+Initial Prompt: (Gender Equality in the Workplace) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Understanding the Gender Pay Gap', 'Gender Pay Gap Statistics by Country', 'Workplace Discrimination Against Women', 'Types of Workplace Discrimination Against Women', 'Gender Stereotypes in the Workplace', 'How Gender Stereotypes Affect Women in the Workplace', 'Understanding the Glass Ceiling Phenomenon in the Workplace', 'Breaking the Glass Ceiling: Strategies for Women in the Workplace', 'Unconscious Bias in Hiring Practices', 'Strategies to Reduce Unconscious Bias in Hiring Practices', 'Gender Diversity Initiatives in the Workplace', 'Benefits of Gender Diversity Initiatives in the Workplace', 'Intersectionality in Gender Equality: What It Means and Why It Matters', 'The Importance of Intersectionality in Gender Equality in the Workplace', 'Benefits of Mentorship Programs for Women in the Workplace']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **MENTORSHIP PROGRAMS FOR WOMEN** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Power of Mentorship Programs for Women in the Workplace",
+    "keywords": ["mentorship programs", "women in the workplace", "career development", "professional growth"],
+    "text": "Mentorship programs for women in the workplace have been shown to significantly impact career development and professional growth. These programs provide guidance, support, and networking opportunities that can help women navigate the challenges they may face in male-dominated industries. Mentors can offer valuable insights, advice, and encouragement, ultimately helping women advance in their careers and break through barriers.",
+    "link": "https://www.forbes.com/sites/forbesbusinesscouncil/2021/03/08/the-power-of-mentorship-programs-for-women-in-the-workplace/?sh=1c32e2e31f15"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: The Power of Mentorship Programs for Women in the Workplace
+Keywords: mentorship programs, women in the workplace, career development, professional growth
+Uses: 0
+Text: Mentorship programs for women in the workplace have been shown to significantly impact career development and professional growth. These programs provide guidance, support, and networking opportunities that can help women navigate the challenges they may face in male-dominated industries. Mentors can offer valuable insights, advice, and encouragement, ultimately helping women advance in their careers and break through barriers.Link: https://www.forbes.com/sites/forbesbusinesscouncil/2021/03/08/the-power-of-mentorship-programs-for-women-in-the-workplace/?sh=1c32e2e31f15
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Gender Equality in the Workplace) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({The gender pay gap refers to the difference in earnings between men and women in the workforce. It is typically calculated as the median or average salary of men compared to that of women. Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving res...
+
+There are significant differences in gender pay gap statistics across various countries. For example, in the United States, women make about 82 cents for every dollar a man earns. In the United Kingdom, women earn about 81 pence for every pound earned by men. On the other hand, countries like Icelan...
+
+Workplace discrimination against women refers to the unfair treatment of female employees based on their gender. This can manifest in various forms such as unequal pay, lack of promotions, harassment, and exclusion from leadership positions. Gender bias in the workplace can create a hostile environm...
+
+There are various types of workplace discrimination that women may face, including unequal pay, lack of promotion opportunities, sexual harassment, maternal discrimination, and stereotyping. Unequal pay refers to women being paid less than men for the same work. Lack of promotion opportunities can o...
+
+Gender stereotypes in the workplace refer to preconceived ideas about the roles and characteristics that men and women are expected to fulfill. These stereotypes can lead to bias in hiring, promotion, and overall treatment of employees based on their gender. Common stereotypes include the belief tha...
+
+Gender stereotypes in the workplace refer to preconceived notions about the roles, behaviors, and capabilities of individuals based on their gender. These stereotypes can have a significant impact on women, leading to biases in hiring, promotion, and salary decisions. Women may be perceived as less ...
+
+The glass ceiling is an invisible barrier that prevents women and minorities from advancing to higher positions in the workplace. It is often attributed to factors such as gender discrimination, stereotypes, and lack of opportunities for career development. This phenomenon can lead to disparities in...
+
+Breaking through the glass ceiling in the workplace refers to the invisible barrier that prevents women from advancing to higher positions in their careers. Strategies for women to overcome this barrier include seeking mentorship, building strong networks, advocating for themselves, acquiring new sk...
+
+Unconscious bias in hiring practices refers to the unintentional preferences or stereotypes that influence decision-making during the recruitment process. These biases can lead to discrimination against certain groups, including women, and result in unequal opportunities in the workplace.
+
+To reduce unconscious bias in hiring practices, companies can implement strategies such as blind recruitment, where identifying information like name, gender, and age are removed from resumes during the initial screening process. Another approach is to use diverse interview panels to ensure a variet...
+
+Gender diversity initiatives in the workplace refer to programs and strategies implemented by companies to promote gender equality and create a more inclusive work environment. These initiatives may include mentorship programs for women, unconscious bias training for employees, flexible work arrange...
+
+Gender diversity initiatives in the workplace have been shown to bring numerous benefits. Companies with diverse teams are more innovative and creative, leading to better problem-solving and decision-making. Additionally, gender diversity initiatives can improve employee morale and retention, as emp...
+
+Intersectionality in gender equality refers to the interconnected nature of social categorizations such as race, class, and gender as they apply to a given individual or group. It recognizes that different forms of discrimination can overlap and intersect, creating unique experiences of oppression. ...
+
+Intersectionality in gender equality refers to the understanding that gender discrimination is often compounded by other factors such as race, ethnicity, sexual orientation, disability, and socioeconomic status. This approach recognizes that individuals may face multiple forms of discrimination simu...
+
+Mentorship programs for women in the workplace have been shown to provide numerous benefits, including career advancement, skill development, increased confidence, and expanded networks. These programs offer women the opportunity to receive guidance and support from more experienced professionals, h...
+
+Mentorship programs for women in the workplace have been shown to significantly impact career development and professional growth. These programs provide guidance, support, and networking opportunities that can help women navigate the challenges they may face in male-dominated industries. Mentors ca...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+Raw response:
+6
+.
+Topic count decided: 6
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Gender Equality in the Workplace) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({The gender pay gap refers to the difference in earnings between men and women in the workforce. It is typically calculated as the median or average salary of men compared to that of women. Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving res...
+
+There are significant differences in gender pay gap statistics across various countries. For example, in the United States, women make about 82 cents for every dollar a man earns. In the United Kingdom, women earn about 81 pence for every pound earned by men. On the other hand, countries like Icelan...
+
+Workplace discrimination against women refers to the unfair treatment of female employees based on their gender. This can manifest in various forms such as unequal pay, lack of promotions, harassment, and exclusion from leadership positions. Gender bias in the workplace can create a hostile environm...
+
+There are various types of workplace discrimination that women may face, including unequal pay, lack of promotion opportunities, sexual harassment, maternal discrimination, and stereotyping. Unequal pay refers to women being paid less than men for the same work. Lack of promotion opportunities can o...
+
+Gender stereotypes in the workplace refer to preconceived ideas about the roles and characteristics that men and women are expected to fulfill. These stereotypes can lead to bias in hiring, promotion, and overall treatment of employees based on their gender. Common stereotypes include the belief tha...
+
+Gender stereotypes in the workplace refer to preconceived notions about the roles, behaviors, and capabilities of individuals based on their gender. These stereotypes can have a significant impact on women, leading to biases in hiring, promotion, and salary decisions. Women may be perceived as less ...
+
+The glass ceiling is an invisible barrier that prevents women and minorities from advancing to higher positions in the workplace. It is often attributed to factors such as gender discrimination, stereotypes, and lack of opportunities for career development. This phenomenon can lead to disparities in...
+
+Breaking through the glass ceiling in the workplace refers to the invisible barrier that prevents women from advancing to higher positions in their careers. Strategies for women to overcome this barrier include seeking mentorship, building strong networks, advocating for themselves, acquiring new sk...
+
+Unconscious bias in hiring practices refers to the unintentional preferences or stereotypes that influence decision-making during the recruitment process. These biases can lead to discrimination against certain groups, including women, and result in unequal opportunities in the workplace.
+
+To reduce unconscious bias in hiring practices, companies can implement strategies such as blind recruitment, where identifying information like name, gender, and age are removed from resumes during the initial screening process. Another approach is to use diverse interview panels to ensure a variet...
+
+Gender diversity initiatives in the workplace refer to programs and strategies implemented by companies to promote gender equality and create a more inclusive work environment. These initiatives may include mentorship programs for women, unconscious bias training for employees, flexible work arrange...
+
+Gender diversity initiatives in the workplace have been shown to bring numerous benefits. Companies with diverse teams are more innovative and creative, leading to better problem-solving and decision-making. Additionally, gender diversity initiatives can improve employee morale and retention, as emp...
+
+Intersectionality in gender equality refers to the interconnected nature of social categorizations such as race, class, and gender as they apply to a given individual or group. It recognizes that different forms of discrimination can overlap and intersect, creating unique experiences of oppression. ...
+
+Intersectionality in gender equality refers to the understanding that gender discrimination is often compounded by other factors such as race, ethnicity, sexual orientation, disability, and socioeconomic status. This approach recognizes that individuals may face multiple forms of discrimination simu...
+
+Mentorship programs for women in the workplace have been shown to provide numerous benefits, including career advancement, skill development, increased confidence, and expanded networks. These programs offer women the opportunity to receive guidance and support from more experienced professionals, h...
+
+Mentorship programs for women in the workplace have been shown to significantly impact career development and professional growth. These programs provide guidance, support, and networking opportunities that can help women navigate the challenges they may face in male-dominated industries. Mentors ca...}). You are to come up with {6} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Week 1: Introduction to Gender Pay Gap and Workplace Discrimination
+
+1. Main Topic Title: Understanding the Gender Pay Gap
+   - Sub-Topics:
+     1.1 Definition and Calculation of Gender Pay Gap
+         - This sub-topic will cover the definition and calculation methods of the gender pay gap, focusing on how it is typically measured as the difference in earnings between men and women.
+     1.2 Factors Contributing to the Gender Pay Gap
+         - This sub-topic will explore the various factors that contribute to the gender pay gap, such as occupational segregation, discrimination, and caregiving responsibilities.
+     1.3 Global Variances in Gender Pay Gap
+         - This sub-topic will discuss the significant differences in gender pay gap statistics across different countries, using examples from the United States and the United Kingdom.
+
+   - Learning Objectives:
+     - Understand the concept and calculation methods of the gender pay gap.
+     - Identify key factors contributing to the gender pay gap.
+     - Compare and contrast global variances in gender pay gap statistics.
+
+   - Estimated Number of Slides: 15
+   - Lab Activities/Practical Exercises: Analyze real-world data on gender pay gap statistics in different countries and calculate the pay gap ratio.
+   - Real-World Applications and Examples: Discuss how gender pay gap data can inform policy decisions and organizational practices to promote gender equality in the workplace.
+
+2. Main Topic Title: Workplace Discrimination Against Women
+   - Sub-Topics:
+     2.1 Forms of Workplace Discrimination
+         - This sub-topic will cover various forms of workplace discrimination against women, including unequal pay, lack of promotions, harassment, and exclusion from leadership roles.
+     2.2 Gender Bias in the Workplace
+         - This sub-topic will explore how gender bias in the workplace can create a hostile environment for women employees, affecting their career advancement and overall well-being.
+     2.3 Types of Workplace Discrimination
+         - This sub-topic will delve into specific types of discrimination women may face, such as maternal discrimination, sexual harassment, and stereotyping.
+
+   - Learning Objectives:
+     - Identify different forms of workplace discrimination against women.
+     - Understand the impact of gender bias on women's career progression.
+     - Recognize the types of discrimination women may experience in the workplace.
+
+   - Estimated Number of Slides: 20
+   - Lab Activities/Practical Exercises: Role-playing scenarios to simulate workplace discrimination situations and discuss strategies for addressing them.
+   - Real-World Applications and Examples: Examine case studies of companies that have successfully addressed workplace discrimination issues and improved gender equality outcomes.
+
+Week 2: Gender Stereotypes and the Glass Ceiling
+
+3. Main Topic Title: Gender Stereotypes in the Workplace
+   - Sub-Topics:
+     3.1 Definition of Gender Stereotypes
+         - This sub-topic will define gender stereotypes in the workplace and how they influence hiring, promotion, and treatment of employees based on gender.
+     3.2 Impact of Gender Stereotypes
+         - This sub-topic will explore the impact of gender stereotypes on women in the workplace, highlighting biases in decision-making processes and opportunities.
+     3.3 Common Stereotypes in the Workplace
+         - This sub-topic will discuss common stereotypes about women's roles, behaviors, and capabilities that can hinder their professional advancement.
+
+   - Learning Objectives:
+     - Define gender stereotypes and their implications in the workplace.
+     - Analyze the effects of gender stereotypes on women's career progression.
+     - Identify prevalent stereotypes that affect women in professional settings.
+
+   - Estimated Number of Slides: 18
+   - Lab Activities/Practical Exercises: Conduct a survey or focus group to identify prevalent gender stereotypes in the workplace and discuss strategies to challenge them.
+   - Real-World Applications and Examples: Explore how companies have implemented diversity and inclusion programs to combat gender stereotypes and promote a more inclusive work environment.
+
+4. Main Topic Title: The Glass Ceiling Phenomenon
+   - Sub-Topics:
+     4.1 Definition and Causes of the Glass Ceiling
+         - This sub-topic will define the concept of the glass ceiling and examine the factors contributing to barriers for women's advancement in the workplace.
+     4.2 Impacts of the Glass Ceiling
+         - This sub-topic will explore the impacts of the glass ceiling on women's career trajectories, organizational diversity, and overall business performance.
+     4.3 Strategies to Break Through the Glass Ceiling
+         - This sub-topic will discuss strategies and best practices for women to overcome the glass ceiling, including mentorship, networking, and skill development.
+
+   - Learning Objectives:
+     - Understand the definition and causes of the glass ceiling phenomenon.
+     - Evaluate the effects of the glass ceiling on women's career progression and organizational dynamics.
+     - Identify effective strategies for breaking through the glass ceiling in the workplace.
+
+   - Estimated Number of Slides: 22
+   - Lab Activities/Practical Exercises: Role-playing exercises to simulate scenarios where women encounter barriers to advancement and develop action plans to overcome them.
+   - Real-World Applications and Examples: Showcase success stories of women who have shattered the glass ceiling in their respective industries and share lessons learned from their experiences.
+
+Week 3: Unconscious Bias and Gender Diversity Initiatives
+
+5. Main Topic Title: Unconscious Bias in Hiring Practices
+   - Sub-Topics:
+     5.1 Definition of Unconscious Bias
+         - This sub-topic will define unconscious bias in hiring practices and how it can shape decision-making processes, particularly in recruitment and selection.
+     5.2 Impact of Unconscious Bias
+         - This sub-topic will explore the impact of unconscious bias on hiring outcomes, diversity initiatives, and overall organizational culture.
+     5.3 Strategies to Reduce Unconscious Bias
+         - This sub-topic will discuss practical strategies and tools to mitigate unconscious bias in hiring practices, such as blind recruitment and diverse interview panels.
+
+   - Learning Objectives:
+     - Define unconscious bias and its implications in hiring practices.
+     - Analyze the effects of unconscious bias on diversity and inclusion efforts in the workplace.
+     - Identify effective strategies for minimizing unconscious bias in recruitment processes.
+
+   - Estimated Number of Slides: 20
+   - Lab Activities/Practical Exercises: Conduct a bias awareness training session using case studies and interactive exercises to raise awareness of unconscious bias in decision-making.
+   - Real-World Applications and Examples: Examine research studies and industry reports on the impact of unconscious bias on hiring practices and organizational performance.
+
+6. Main Topic Title: Gender Diversity Initiatives in the Workplace
+   - Sub-Topics:
+     6.1 Definition of Gender Diversity Initiatives
+         - This sub-topic will define gender diversity initiatives and their importance in promoting gender equality, inclusion, and organizational success.
+     6.2 Benefits of Gender Diversity
+         - This sub-topic will explore the benefits of gender diversity initiatives, including enhanced innovation, employee engagement, and business performance.
+     6.3 Best Practices for Gender Diversity
+         - This sub-topic will discuss best practices for implementing gender diversity initiatives, such as mentorship programs, unconscious bias training, and flexible work arrangements.
+
+   - Learning Objectives:
+     - Define gender diversity initiatives and their significance in fostering inclusive workplaces.
+     - Evaluate the advantages of gender diversity for organizational performance and employee well-being.
+     - Identify key strategies for promoting gender diversity and inclusion in the workplace.
+
+   - Estimated Number of Slides: 25
+   - Lab Activities/Practical Exercises: Develop a gender diversity action plan for a fictional company, incorporating key initiatives and measurable goals to enhance gender equality.
+   - Real-World Applications and Examples: Showcase case studies of organizations that have successfully implemented gender diversity initiatives and achieved positive outcomes in terms of talent retention, innovation, and market competitiveness.
+
+By structuring the teaching plan in this manner, students will have a comprehensive understanding of gender equality issues in the workplace, ranging from the gender pay gap and workplace discrimination to gender stereotypes, the glass ceiling phenomenon, unconscious bias, and gender diversity initiatives. The progressive complexity of topics and interactive learning activities will enhance student engagement and facilitate critical thinking about real-world applications of gender equality principles in professional settings.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Gender Equality in the Workplace) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Week 1: Introduction to Gender Pay Gap and Workplace Discrimination
+
+1. Main Topic Title: Understanding the Gender Pay Gap
+   - Sub-Topics:
+     1.1 Definition and Calculation of Gender Pay Gap
+         - This sub-topic will cover the definition and calculation methods of the gender pay gap, focusing on how it is typically measured as the difference in earnings between men and women.
+     1.2 Factors Contributing to the Gender Pay Gap
+         - This sub-topic will explore the various factors that contribute to the gender pay gap, such as occupational segregation, discrimination, and caregiving responsibilities.
+     1.3 Global Variances in Gender Pay Gap
+         - This sub-topic will discuss the significant differences in gender pay gap statistics across different countries, using examples from the United States and the United Kingdom.
+
+   - Learning Objectives:
+     - Understand the concept and calculation methods of the gender pay gap.
+     - Identify key factors contributing to the gender pay gap.
+     - Compare and contrast global variances in gender pay gap statistics.
+
+   - Estimated Number of Slides: 15
+   - Lab Activities/Practical Exercises: Analyze real-world data on gender pay gap statistics in different countries and calculate the pay gap ratio.
+   - Real-World Applications and Examples: Discuss how gender pay gap data can inform policy decisions and organizational practices to promote gender equality in the workplace.
+
+2. Main Topic Title: Workplace Discrimination Against Women
+   - Sub-Topics:
+     2.1 Forms of Workplace Discrimination
+         - This sub-topic will cover various forms of workplace discrimination against women, including unequal pay, lack of promotions, harassment, and exclusion from leadership roles.
+     2.2 Gender Bias in the Workplace
+         - This sub-topic will explore how gender bias in the workplace can create a hostile environment for women employees, affecting their career advancement and overall well-being.
+     2.3 Types of Workplace Discrimination
+         - This sub-topic will delve into specific types of discrimination women may face, such as maternal discrimination, sexual harassment, and stereotyping.
+
+   - Learning Objectives:
+     - Identify different forms of workplace discrimination against women.
+     - Understand the impact of gender bias on women's career progression.
+     - Recognize the types of discrimination women may experience in the workplace.
+
+   - Estimated Number of Slides: 20
+   - Lab Activities/Practical Exercises: Role-playing scenarios to simulate workplace discrimination situations and discuss strategies for addressing them.
+   - Real-World Applications and Examples: Examine case studies of companies that have successfully addressed workplace discrimination issues and improved gender equality outcomes.
+
+Week 2: Gender Stereotypes and the Glass Ceiling
+
+3. Main Topic Title: Gender Stereotypes in the Workplace
+   - Sub-Topics:
+     3.1 Definition of Gender Stereotypes
+         - This sub-topic will define gender stereotypes in the workplace and how they influence hiring, promotion, and treatment of employees based on gender.
+     3.2 Impact of Gender Stereotypes
+         - This sub-topic will explore the impact of gender stereotypes on women in the workplace, highlighting biases in decision-making processes and opportunities.
+     3.3 Common Stereotypes in the Workplace
+         - This sub-topic will discuss common stereotypes about women's roles, behaviors, and capabilities that can hinder their professional advancement.
+
+   - Learning Objectives:
+     - Define gender stereotypes and their implications in the workplace.
+     - Analyze the effects of gender stereotypes on women's career progression.
+     - Identify prevalent stereotypes that affect women in professional settings.
+
+   - Estimated Number of Slides: 18
+   - Lab Activities/Practical Exercises: Conduct a survey or focus group to identify prevalent gender stereotypes in the workplace and discuss strategies to challenge them.
+   - Real-World Applications and Examples: Explore how companies have implemented diversity and inclusion programs to combat gender stereotypes and promote a more inclusive work environment.
+
+4. Main Topic Title: The Glass Ceiling Phenomenon
+   - Sub-Topics:
+     4.1 Definition and Causes of the Glass Ceiling
+         - This sub-topic will define the concept of the glass ceiling and examine the factors contributing to barriers for women's advancement in the workplace.
+     4.2 Impacts of the Glass Ceiling
+         - This sub-topic will explore the impacts of the glass ceiling on women's career trajectories, organizational diversity, and overall business performance.
+     4.3 Strategies to Break Through the Glass Ceiling
+         - This sub-topic will discuss strategies and best practices for women to overcome the glass ceiling, including mentorship, networking, and skill development.
+
+   - Learning Objectives:
+     - Understand the definition and causes of the glass ceiling phenomenon.
+     - Evaluate the effects of the glass ceiling on women's career progression and organizational dynamics.
+     - Identify effective strategies for breaking through the glass ceiling in the workplace.
+
+   - Estimated Number of Slides: 22
+   - Lab Activities/Practical Exercises: Role-playing exercises to simulate scenarios where women encounter barriers to advancement and develop action plans to overcome them.
+   - Real-World Applications and Examples: Showcase success stories of women who have shattered the glass ceiling in their respective industries and share lessons learned from their experiences.
+
+Week 3: Unconscious Bias and Gender Diversity Initiatives
+
+5. Main Topic Title: Unconscious Bias in Hiring Practices
+   - Sub-Topics:
+     5.1 Definition of Unconscious Bias
+         - This sub-topic will define unconscious bias in hiring practices and how it can shape decision-making processes, particularly in recruitment and selection.
+     5.2 Impact of Unconscious Bias
+         - This sub-topic will explore the impact of unconscious bias on hiring outcomes, diversity initiatives, and overall organizational culture.
+     5.3 Strategies to Reduce Unconscious Bias
+         - This sub-topic will discuss practical strategies and tools to mitigate unconscious bias in hiring practices, such as blind recruitment and diverse interview panels.
+
+   - Learning Objectives:
+     - Define unconscious bias and its implications in hiring practices.
+     - Analyze the effects of unconscious bias on diversity and inclusion efforts in the workplace.
+     - Identify effective strategies for minimizing unconscious bias in recruitment processes.
+
+   - Estimated Number of Slides: 20
+   - Lab Activities/Practical Exercises: Conduct a bias awareness training session using case studies and interactive exercises to raise awareness of unconscious bias in decision-making.
+   - Real-World Applications and Examples: Examine research studies and industry reports on the impact of unconscious bias on hiring practices and organizational performance.
+
+6. Main Topic Title: Gender Diversity Initiatives in the Workplace
+   - Sub-Topics:
+     6.1 Definition of Gender Diversity Initiatives
+         - This sub-topic will define gender diversity initiatives and their importance in promoting gender equality, inclusion, and organizational success.
+     6.2 Benefits of Gender Diversity
+         - This sub-topic will explore the benefits of gender diversity initiatives, including enhanced innovation, employee engagement, and business performance.
+     6.3 Best Practices for Gender Diversity
+         - This sub-topic will discuss best practices for implementing gender diversity initiatives, such as mentorship programs, unconscious bias training, and flexible work arrangements.
+
+   - Learning Objectives:
+     - Define gender diversity initiatives and their significance in fostering inclusive workplaces.
+     - Evaluate the advantages of gender diversity for organizational performance and employee well-being.
+     - Identify key strategies for promoting gender diversity and inclusion in the workplace.
+
+   - Estimated Number of Slides: 25
+   - Lab Activities/Practical Exercises: Develop a gender diversity action plan for a fictional company, incorporating key initiatives and measurable goals to enhance gender equality.
+   - Real-World Applications and Examples: Showcase case studies of organizations that have successfully implemented gender diversity initiatives and achieved positive outcomes in terms of talent retention, innovation, and market competitiveness.
+
+By structuring the teaching plan in this manner, students will have a comprehensive understanding of gender equality issues in the workplace, ranging from the gender pay gap and workplace discrimination to gender stereotypes, the glass ceiling phenomenon, unconscious bias, and gender diversity initiatives. The progressive complexity of topics and interactive learning activities will enhance student engagement and facilitate critical thinking about real-world applications of gender equality principles in professional settings.}). Total slides available: {8}. Topics to allocate: {6}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[15, 20, 18, 22, 20, 25]
+.
+Slide allocation: [1, 1, 1, 1, 1, 3]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Gender Equality in the Workplace) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Week 1: Introduction to Gender Pay Gap and Workplace Discrimination
+
+1. Main Topic Title: Understanding the Gender Pay Gap
+   - Sub-Topics:
+     1.1 Definition and Calculation of Gender Pay Gap
+         - This sub-topic will cover the definition and calculation methods of the gender pay gap, focusing on how it is typically measured as the difference in earnings between men and women.
+     1.2 Factors Contributing to the Gender Pay Gap
+         - This sub-topic will explore the various factors that contribute to the gender pay gap, such as occupational segregation, discrimination, and caregiving responsibilities.
+     1.3 Global Variances in Gender Pay Gap
+         - This sub-topic will discuss the significant differences in gender pay gap statistics across different countries, using examples from the United States and the United Kingdom.
+
+   - Learning Objectives:
+     - Understand the concept and calculation methods of the gender pay gap.
+     - Identify key factors contributing to the gender pay gap.
+     - Compare and contrast global variances in gender pay gap statistics.
+
+   - Estimated Number of Slides: 15
+   - Lab Activities/Practical Exercises: Analyze real-world data on gender pay gap statistics in different countries and calculate the pay gap ratio.
+   - Real-World Applications and Examples: Discuss how gender pay gap data can inform policy decisions and organizational practices to promote gender equality in the workplace.
+
+2. Main Topic Title: Workplace Discrimination Against Women
+   - Sub-Topics:
+     2.1 Forms of Workplace Discrimination
+         - This sub-topic will cover various forms of workplace discrimination against women, including unequal pay, lack of promotions, harassment, and exclusion from leadership roles.
+     2.2 Gender Bias in the Workplace
+         - This sub-topic will explore how gender bias in the workplace can create a hostile environment for women employees, affecting their career advancement and overall well-being.
+     2.3 Types of Workplace Discrimination
+         - This sub-topic will delve into specific types of discrimination women may face, such as maternal discrimination, sexual harassment, and stereotyping.
+
+   - Learning Objectives:
+     - Identify different forms of workplace discrimination against women.
+     - Understand the impact of gender bias on women's career progression.
+     - Recognize the types of discrimination women may experience in the workplace.
+
+   - Estimated Number of Slides: 20
+   - Lab Activities/Practical Exercises: Role-playing scenarios to simulate workplace discrimination situations and discuss strategies for addressing them.
+   - Real-World Applications and Examples: Examine case studies of companies that have successfully addressed workplace discrimination issues and improved gender equality outcomes.
+
+Week 2: Gender Stereotypes and the Glass Ceiling
+
+3. Main Topic Title: Gender Stereotypes in the Workplace
+   - Sub-Topics:
+     3.1 Definition of Gender Stereotypes
+         - This sub-topic will define gender stereotypes in the workplace and how they influence hiring, promotion, and treatment of employees based on gender.
+     3.2 Impact of Gender Stereotypes
+         - This sub-topic will explore the impact of gender stereotypes on women in the workplace, highlighting biases in decision-making processes and opportunities.
+     3.3 Common Stereotypes in the Workplace
+         - This sub-topic will discuss common stereotypes about women's roles, behaviors, and capabilities that can hinder their professional advancement.
+
+   - Learning Objectives:
+     - Define gender stereotypes and their implications in the workplace.
+     - Analyze the effects of gender stereotypes on women's career progression.
+     - Identify prevalent stereotypes that affect women in professional settings.
+
+   - Estimated Number of Slides: 18
+   - Lab Activities/Practical Exercises: Conduct a survey or focus group to identify prevalent gender stereotypes in the workplace and discuss strategies to challenge them.
+   - Real-World Applications and Examples: Explore how companies have implemented diversity and inclusion programs to combat gender stereotypes and promote a more inclusive work environment.
+
+4. Main Topic Title: The Glass Ceiling Phenomenon
+   - Sub-Topics:
+     4.1 Definition and Causes of the Glass Ceiling
+         - This sub-topic will define the concept of the glass ceiling and examine the factors contributing to barriers for women's advancement in the workplace.
+     4.2 Impacts of the Glass Ceiling
+         - This sub-topic will explore the impacts of the glass ceiling on women's career trajectories, organizational diversity, and overall business performance.
+     4.3 Strategies to Break Through the Glass Ceiling
+         - This sub-topic will discuss strategies and best practices for women to overcome the glass ceiling, including mentorship, networking, and skill development.
+
+   - Learning Objectives:
+     - Understand the definition and causes of the glass ceiling phenomenon.
+     - Evaluate the effects of the glass ceiling on women's career progression and organizational dynamics.
+     - Identify effective strategies for breaking through the glass ceiling in the workplace.
+
+   - Estimated Number of Slides: 22
+   - Lab Activities/Practical Exercises: Role-playing exercises to simulate scenarios where women encounter barriers to advancement and develop action plans to overcome them.
+   - Real-World Applications and Examples: Showcase success stories of women who have shattered the glass ceiling in their respective industries and share lessons learned from their experiences.
+
+Week 3: Unconscious Bias and Gender Diversity Initiatives
+
+5. Main Topic Title: Unconscious Bias in Hiring Practices
+   - Sub-Topics:
+     5.1 Definition of Unconscious Bias
+         - This sub-topic will define unconscious bias in hiring practices and how it can shape decision-making processes, particularly in recruitment and selection.
+     5.2 Impact of Unconscious Bias
+         - This sub-topic will explore the impact of unconscious bias on hiring outcomes, diversity initiatives, and overall organizational culture.
+     5.3 Strategies to Reduce Unconscious Bias
+         - This sub-topic will discuss practical strategies and tools to mitigate unconscious bias in hiring practices, such as blind recruitment and diverse interview panels.
+
+   - Learning Objectives:
+     - Define unconscious bias and its implications in hiring practices.
+     - Analyze the effects of unconscious bias on diversity and inclusion efforts in the workplace.
+     - Identify effective strategies for minimizing unconscious bias in recruitment processes.
+
+   - Estimated Number of Slides: 20
+   - Lab Activities/Practical Exercises: Conduct a bias awareness training session using case studies and interactive exercises to raise awareness of unconscious bias in decision-making.
+   - Real-World Applications and Examples: Examine research studies and industry reports on the impact of unconscious bias on hiring practices and organizational performance.
+
+6. Main Topic Title: Gender Diversity Initiatives in the Workplace
+   - Sub-Topics:
+     6.1 Definition of Gender Diversity Initiatives
+         - This sub-topic will define gender diversity initiatives and their importance in promoting gender equality, inclusion, and organizational success.
+     6.2 Benefits of Gender Diversity
+         - This sub-topic will explore the benefits of gender diversity initiatives, including enhanced innovation, employee engagement, and business performance.
+     6.3 Best Practices for Gender Diversity
+         - This sub-topic will discuss best practices for implementing gender diversity initiatives, such as mentorship programs, unconscious bias training, and flexible work arrangements.
+
+   - Learning Objectives:
+     - Define gender diversity initiatives and their significance in fostering inclusive workplaces.
+     - Evaluate the advantages of gender diversity for organizational performance and employee well-being.
+     - Identify key strategies for promoting gender diversity and inclusion in the workplace.
+
+   - Estimated Number of Slides: 25
+   - Lab Activities/Practical Exercises: Develop a gender diversity action plan for a fictional company, incorporating key initiatives and measurable goals to enhance gender equality.
+   - Real-World Applications and Examples: Showcase case studies of organizations that have successfully implemented gender diversity initiatives and achieved positive outcomes in terms of talent retention, innovation, and market competitiveness.
+
+By structuring the teaching plan in this manner, students will have a comprehensive understanding of gender equality issues in the workplace, ranging from the gender pay gap and workplace discrimination to gender stereotypes, the glass ceiling phenomenon, unconscious bias, and gender diversity initiatives. The progressive complexity of topics and interactive learning activities will enhance student engagement and facilitate critical thinking about real-world applications of gender equality principles in professional settings.}). Slide allocation per topic: {[1, 1, 1, 1, 1, 3]}. Database content for reference: ({The gender pay gap refers to the difference in earnings between men and women in the workforce. It is typically calculated as the median or average salary of men compared to that of women. Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving res...
+
+There are significant differences in gender pay gap statistics across various countries. For example, in the United States, women make about 82 cents for every dollar a man earns. In the United Kingdom, women earn about 81 pence for every pound earned by men. On the other hand, countries like Icelan...
+
+Workplace discrimination against women refers to the unfair treatment of female employees based on their gender. This can manifest in various forms such as unequal pay, lack of promotions, harassment, and exclusion from leadership positions. Gender bias in the workplace can create a hostile environm...
+
+There are various types of workplace discrimination that women may face, including unequal pay, lack of promotion opportunities, sexual harassment, maternal discrimination, and stereotyping. Unequal pay refers to women being paid less than men for the same work. Lack of promotion opportunities can o...
+
+Gender stereotypes in the workplace refer to preconceived ideas about the roles and characteristics that men and women are expected to fulfill. These stereotypes can lead to bias in hiring, promotion, and overall treatment of employees based on their gender. Common stereotypes include the belief tha...
+
+Gender stereotypes in the workplace refer to preconceived notions about the roles, behaviors, and capabilities of individuals based on their gender. These stereotypes can have a significant impact on women, leading to biases in hiring, promotion, and salary decisions. Women may be perceived as less ...
+
+The glass ceiling is an invisible barrier that prevents women and minorities from advancing to higher positions in the workplace. It is often attributed to factors such as gender discrimination, stereotypes, and lack of opportunities for career development. This phenomenon can lead to disparities in...
+
+Breaking through the glass ceiling in the workplace refers to the invisible barrier that prevents women from advancing to higher positions in their careers. Strategies for women to overcome this barrier include seeking mentorship, building strong networks, advocating for themselves, acquiring new sk...
+
+Unconscious bias in hiring practices refers to the unintentional preferences or stereotypes that influence decision-making during the recruitment process. These biases can lead to discrimination against certain groups, including women, and result in unequal opportunities in the workplace.
+
+To reduce unconscious bias in hiring practices, companies can implement strategies such as blind recruitment, where identifying information like name, gender, and age are removed from resumes during the initial screening process. Another approach is to use diverse interview panels to ensure a variet...
+
+Gender diversity initiatives in the workplace refer to programs and strategies implemented by companies to promote gender equality and create a more inclusive work environment. These initiatives may include mentorship programs for women, unconscious bias training for employees, flexible work arrange...
+
+Gender diversity initiatives in the workplace have been shown to bring numerous benefits. Companies with diverse teams are more innovative and creative, leading to better problem-solving and decision-making. Additionally, gender diversity initiatives can improve employee morale and retention, as emp...
+
+Intersectionality in gender equality refers to the interconnected nature of social categorizations such as race, class, and gender as they apply to a given individual or group. It recognizes that different forms of discrimination can overlap and intersect, creating unique experiences of oppression. ...
+
+Intersectionality in gender equality refers to the understanding that gender discrimination is often compounded by other factors such as race, ethnicity, sexual orientation, disability, and socioeconomic status. This approach recognizes that individuals may face multiple forms of discrimination simu...
+
+Mentorship programs for women in the workplace have been shown to provide numerous benefits, including career advancement, skill development, increased confidence, and expanded networks. These programs offer women the opportunity to receive guidance and support from more experienced professionals, h...
+
+Mentorship programs for women in the workplace have been shown to significantly impact career development and professional growth. These programs provide guidance, support, and networking opportunities that can help women navigate the challenges they may face in male-dominated industries. Mentors ca...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+Raw response:
+1. Definition and Calculation of Gender Pay Gap
+2. Factors Contributing to the Gender Pay Gap
+3. Global Variances in Gender Pay Gap
+4. Forms of Workplace Discrimination Against Women
+5. Gender Bias in the Workplace
+6. Types of Workplace Discrimination
+7. Impact of Gender Stereotypes
+8. Strategies to Break Through the Glass Ceiling
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_14-22-04.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_14-22-04.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_14-22-21.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+✅ Content validation passed - suitable for 3 credit hours
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Gender Equality in the Workplace
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Definition and Calculation of Gender Pay Gap)
+🔍 DEBUG: Slide 1 content set to: '• The gender pay gap refers to the difference in earnings between men and women in the workforce, ty...'
+🔍 DEBUG: Slide 1 content length: 405
+✅ Slide 1 content: • The gender pay gap refers to the difference in earnings between men and women in the workforce, typically calculated by comparing median or average salaries.
+• Factors contributing to the gender pay gap include occupational segregation, discrimination, and caregiving responsibilities.
+• For example, if men earn $50,000 on average and women earn $40,000 on average, the gender pay gap would be $10,000.
+Generating content for slide 2 (Topic: Factors Contributing to the Gender Pay Gap)
+🔍 DEBUG: Slide 2 content set to: '• Occupational segregation: Men and women often work in different industries or roles, leading to di...'
+🔍 DEBUG: Slide 2 content length: 373
+✅ Slide 2 content: • Occupational segregation: Men and women often work in different industries or roles, leading to disparities in pay.
+• Discrimination: Bias, whether conscious or unconscious, can result in women being paid less than men for the same work.
+• Caregiving responsibilities: Women's roles as caregivers can impact their ability to advance in their careers and earn equal pay.
+• Example: A study found that women in caregiving roles earned 12% less than men, highlighting the impact of caregiving responsibilities on the gender pay gap.
+Generating content for slide 3 (Topic: Global Variances in Gender Pay Gap)
+🔍 DEBUG: Slide 3 content set to: '• Global variances in gender pay gap exist across countries • Examples: - United States: Women earn ...'
+🔍 DEBUG: Slide 3 content length: 466
+✅ Slide 3 content: • Global variances in gender pay gap exist across countries
+• Examples: 
+  - United States: Women earn about 82 cents for every dollar men earn
+  - United Kingdom: Women earn about 81 pence for every pound earned by men
+  - Iceland and Sweden have made progress in narrowing the gender pay gap
+• Factors contributing to variances: 
+  - Cultural norms
+  - Legal frameworks
+  - Economic conditions
+• Understanding global differences is crucial for addressing gender pay disparities.
+Generating content for slide 4 (Topic: Forms of Workplace Discrimination Against Women)
+🔍 DEBUG: Slide 4 content set to: '• Unequal pay: Women being paid less than men for the same work • Lack of promotion opportunities: W...'
+🔍 DEBUG: Slide 4 content length: 423
+✅ Slide 4 content: • Unequal pay: Women being paid less than men for the same work
+• Lack of promotion opportunities: Women passed over for promotions in favor of less qualified male colleagues
+• Sexual harassment: Involves unwanted advances or inappropriate behavior towards women in the workplace
+• Maternal discrimination: Unfair treatment due to pregnancy or motherhood
+• Stereotyping: Making assumptions about women based on their gender
+Generating content for slide 5 (Topic: Gender Bias in the Workplace)
+🎲 Choice scenario triggered! (Rolled 3.8 <= 5.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Unconscious bias in hiring practices influences decision-making during recruitment
+- Biases can lead to discrimination against certain groups, including women
+- Result in unequal opportunities and hinder gender equality in the workplace
+- Strategies to reduce unconscious bias: blind recruitment, diverse interview panels, training managers
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Unconscious bias in hiring practices can lead to discrimination against certain groups, including women
+- These biases influence decision-making during recruitment, resulting in unequal opportunities
+- Strategies to reduce unconscious bias include blind recruitment, diverse interview panels, and training on bias mitigation
+- Link: https://www.forbes.com/sites/forbeshumanresourcescouncil/2018/09/18/why-unconscious-bias-is-the-number-one-enemy-of-diversity-and-inclusion-in-the-workplace/
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 5 content set to: 'Unconscious bias in hiring practices can lead to discrimination against certain groups, including wo...'
+🔍 DEBUG: Slide 5 content length: 484
+✅ Slide 5 content: - Unconscious bias in hiring practices can lead to discrimination against certain groups, including women
+- These biases influence decision-making during recruitment, resulting in unequal opportunities
+- Strategies to reduce unconscious bias include blind recruitment, diverse interview panels, and training on bias mitigation
+- Link: https://www.forbes.com/sites/forbeshumanresourcescouncil/2018/09/18/why-unconscious-bias-is-the-number-one-enemy-of-diversity-and-inclusion-in-the-workplace/
+Generating content for slide 6 (Topic: Types of Workplace Discrimination)
+🔍 DEBUG: Slide 6 content set to: '• Unequal pay: Women being paid less than men for the same work • Lack of promotion opportunities: W...'
+🔍 DEBUG: Slide 6 content length: 423
+✅ Slide 6 content: • Unequal pay: Women being paid less than men for the same work
+• Lack of promotion opportunities: Women passed over for promotions in favor of less qualified male colleagues
+• Sexual harassment: Involves unwanted advances or inappropriate behavior towards women in the workplace
+• Maternal discrimination: Unfair treatment due to pregnancy or motherhood
+• Stereotyping: Making assumptions about women based on their gender
+Generating content for slide 7 (Topic: Impact of Gender Stereotypes)
+🔍 DEBUG: Slide 7 content set to: '• Gender stereotypes in the workplace are preconceived notions about roles, behaviors, and capabilit...'
+🔍 DEBUG: Slide 7 content length: 439
+✅ Slide 7 content: • Gender stereotypes in the workplace are preconceived notions about roles, behaviors, and capabilities based on gender
+• Stereotypes can lead to biases in hiring, promotion, and salary decisions
+• Impact on women can include being perceived as less competent for leadership roles and facing a hostile work environment
+• Examples: Women being passed over for promotions, perceived as less suitable for leadership roles based on stereotypes
+Generating content for slide 8 (Topic: Strategies to Break Through the Glass Ceiling)
+🔍 DEBUG: Slide 8 content set to: 'Seek mentorship from experienced professionals in the industry Build strong networks to expand oppor...'
+🔍 DEBUG: Slide 8 content length: 269
+✅ Slide 8 content: - Seek mentorship from experienced professionals in the industry
+- Build strong networks to expand opportunities and connections
+- Advocate for oneself in seeking promotions and career advancement
+- Acquire new skills through training and professional development opportunities
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Definition and Calculation of Gender Pay Gap)
+✅ Slide 1 title: Understanding Gender Pay Gap Calculation
+Generating title for slide 2 (Topic: Factors Contributing to the Gender Pay Gap)
+✅ Slide 2 title: Factors in Gender Pay Gap
+Generating title for slide 3 (Topic: Global Variances in Gender Pay Gap)
+✅ Slide 3 title: Global Gender Pay Gap Variances: Country Disparities
+Generating title for slide 4 (Topic: Forms of Workplace Discrimination Against Women)
+✅ Slide 4 title: Forms of Workplace Discrimination Against Women
+Generating title for slide 5 (Topic: Gender Bias in the Workplace)
+✅ Slide 5 title: Title: Addressing Gender Bias in Hiring Practices
+Generating title for slide 6 (Topic: Types of Workplace Discrimination)
+✅ Slide 6 title: Types of Workplace Discrimination Against Women
+Generating title for slide 7 (Topic: Impact of Gender Stereotypes)
+✅ Slide 7 title: The Impact of Gender Stereotypes
+Generating title for slide 8 (Topic: Strategies to Break Through the Glass Ceiling)
+✅ Slide 8 title: "Strategies to Break the Glass Ceiling"
+Generating overall presentation title...
+✅ Overall presentation title: Breaking Barriers: Understanding and Addressing Gender Inequality in the Workplace
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Definition and Calculation of Gender Pay Gap)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Factors Contributing to the Gender Pay Gap)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Global Variances in Gender Pay Gap)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Forms of Workplace Discrimination Against Women)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Gender Bias in the Workplace)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Types of Workplace Discrimination)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Impact of Gender Stereotypes)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Strategies to Break Through the Glass Ceiling)
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Definition and Calculation of Gender Pay Gap)
+⚠️ Warning: Slide 1 content is long (590 chars) - consider reducing
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Factors Contributing to the Gender Pay Gap)
+⚠️ Warning: Slide 2 content is long (671 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Global Variances in Gender Pay Gap)
+⚠️ Warning: Slide 3 content is long (657 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Forms of Workplace Discrimination Against Women)
+⚠️ Warning: Slide 4 content is long (562 chars) - consider reducing
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Gender Bias in the Workplace)
+⚠️ Warning: Slide 5 content is long (694 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Types of Workplace Discrimination)
+⚠️ Warning: Slide 6 content is long (758 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Impact of Gender Stereotypes)
+⚠️ Warning: Slide 7 content is long (720 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Strategies to Break Through the Glass Ceiling)
+⚠️ Warning: Slide 8 content is long (660 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Breaking_Barriers_Understanding_and_Addressing_Gender_Inequality_in_the_Workplace_2025-08-31_14-23-19
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Breaking_Barriers_Understanding_and_Addressing_Gender_Inequality_in_the_Workplace_2025-08-31_14-23-19.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Breaking_Barriers_Understanding_and_Addressing_Gender_Inequality_in_the_Workplace_2025-08-31_14-23-19.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 6 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Breaking_Barriers_Understanding_and_Addressing_Gender_Inequality_in_the_Workplace_2025-08-31_14-23-19.pptx
+📊 Rating presentation 6...
+✅ Presentation 6 rated successfully
+📈 Overall Rating: 6.75 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.00 / 2.00
+   - Non-Repetition: 1.81 / 2.00
+   - Content Balance: 1.83 / 2.00
+   - Title Uniqueness: 1.85 / 2.00
+   - Title-Content Match: 1.25 / 2.00
+💾 Result saved to file for presentation 6
+
+📊 Presentation 8/10 (ID: 7)
+📝 Using topic: Vaccine Development Process
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

@@ -1,0 +1,1239 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T16:13:08.155163
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_16-13-08.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 1...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Sustainable Agriculture
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Regenerative agriculture, Agroecology
+Selected topics: ['Regenerative agriculture', 'Agroecology']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Regenerative agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **REGENERATIVE AGRICULTURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "What is Regenerative Agriculture?",
+    "keywords": ["regenerative agriculture", "sustainable farming", "soil health", "ecosystem restoration"],
+    "text": "Regenerative agriculture is a farming practice that focuses on improving soil health, restoring ecosystem balance, and enhancing biodiversity. It aims to create a self-sustaining system that benefits both the environment and the farmers. By using techniques such as cover cropping, crop rotation, and minimal tillage, regenerative agriculture helps sequester carbon, reduce erosion, and improve water retention in the soil.",
+    "link": "https://www.nationalgeographic.com/environment/article/regenerative-agriculture"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: What is Regenerative Agriculture?
+Keywords: regenerative agriculture, sustainable farming, soil health, ecosystem restoration
+Uses: 0
+Text: Regenerative agriculture is a farming practice that focuses on improving soil health, restoring ecosystem balance, and enhancing biodiversity. It aims to create a self-sustaining system that benefits both the environment and the farmers. By using techniques such as cover cropping, crop rotation, and minimal tillage, regenerative agriculture helps sequester carbon, reduce erosion, and improve water retention in the soil.Link: https://www.nationalgeographic.com/environment/article/regenerative-agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **REGENERATIVE AGRICULTURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 0.7 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Benefits of Regenerative Agriculture",
+    "keywords": ["regenerative agriculture", "benefits", "sustainable farming", "environmental impact"],
+    "text": "Regenerative agriculture offers numerous benefits such as improving soil health, increasing biodiversity, sequestering carbon, reducing water usage, and promoting resilience to climate change. By mimicking natural ecosystems, regenerative practices enhance the overall health of the environment and provide long-term sustainability for farmers.",
+    "link": "https://www.nationalgeographic.com/environment/article/food-forests-offer-hope-in-a-changing-climate"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Benefits of Regenerative Agriculture",
+    "keywords": ["regenerative agriculture", "benefits", "sustainable farming", "soil health", "biodiversity"],
+    "text": "Regenerative agriculture offers numerous benefits such as improved soil health, increased biodiversity, and reduced environmental impact. By focusing on restoring and enhancing soil health, regenerative practices help sequester carbon dioxide, improve water retention, and promote nutrient cycling. This leads to more resilient and productive farms that are better equipped to withstand climate change and pests.",
+    "link": "https://www.nationalgeographic.com/environment/article/regenerative-farming-agriculture-climate-change"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Benefits of Regenerative Agriculture",
+    "keywords": ["regenerative agriculture", "benefits", "sustainable farming", "soil health", "biodiversity"],
+    "text": "Regenerative agriculture offers numerous benefits such as improved soil health, increased biodiversity, and reduced environmental impact. By focusing on restoring and enhancing soil health, regenerative practices help sequester carbon dioxide, improve water retention, and promote nutrient cycling. This leads to more resilient and productive farms that are better equipped to withstand climate change and pests.",
+    "link": "https://www.nationalgeographic.com/environment/article/regenerative-farming-agriculture-climate-change"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Benefits of Regenerative Agriculture
+Keywords: regenerative agriculture, benefits, sustainable farming, soil health, biodiversity
+Uses: 0
+Text: Regenerative agriculture offers numerous benefits such as improved soil health, increased biodiversity, and reduced environmental impact. By focusing on restoring and enhancing soil health, regenerative practices help sequester carbon dioxide, improve water retention, and promote nutrient cycling. This leads to more resilient and productive farms that are better equipped to withstand climate change and pests.Link: https://www.nationalgeographic.com/environment/article/regenerative-farming-agriculture-climate-change
+Researching topic: Agroecology
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **AGROECOLOGY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "What is Agroecology?",
+    "keywords": ["agroecology", "sustainable agriculture", "ecological farming", "food systems", "biodiversity"],
+    "text": "Agroecology is a holistic approach to agriculture that seeks to integrate ecological principles into farming practices. It focuses on creating sustainable food systems that work in harmony with nature, promoting biodiversity, soil health, and natural resource conservation. Agroecology aims to enhance the resilience of farming systems to climate change and other environmental challenges.",
+    "link": "https://www.fao.org/agroecology/en/"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: What is Agroecology?
+Keywords: agroecology, sustainable agriculture, ecological farming, food systems, biodiversity
+Uses: 0
+Text: Agroecology is a holistic approach to agriculture that seeks to integrate ecological principles into farming practices. It focuses on creating sustainable food systems that work in harmony with nature, promoting biodiversity, soil health, and natural resource conservation. Agroecology aims to enhance the resilience of farming systems to climate change and other environmental challenges.Link: https://www.fao.org/agroecology/en/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **AGROECOLOGY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 7.4 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Agroecology Principles and Practices",
+    "keywords": ["agroecology", "principles", "practices", "sustainable agriculture", "ecosystem health"],
+    "text": "Agroecology is a holistic approach to agriculture that seeks to optimize interactions between plants, animals, humans, and the environment. It focuses on principles such as biodiversity, recycling nutrients, synergies, efficiency, and resilience. Practices include crop diversification, agroforestry, crop rotation, intercropping, and the use of natural predators for pest control.",
+    "link": "https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Agroecology-Principles-and-Practices" 
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Agroecology Principles and Practices",
+    "keywords": ["agroecology", "principles", "practices"],
+    "text": "Agroecology is a holistic approach to agriculture that focuses on sustainable practices, biodiversity, and the integration of natural ecosystems. Some key principles of agroecology include promoting biodiversity, recycling nutrients, minimizing the use of external inputs, and enhancing soil health. Practices associated with agroecology include crop rotation, cover cropping, agroforestry, and integrated pest management.",
+    "link": "https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Principles-of-Agroecology/Principles-and-Practices-of-Agroecology"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Agroecology Principles and Practices",
+    "keywords": ["agroecology", "principles", "practices"],
+    "text": "Agroecology is a holistic approach to agriculture that focuses on sustainable practices, biodiversity, and the integration of natural ecosystems. Some key principles of agroecology include promoting biodiversity, recycling nutrients, minimizing the use of external inputs, and enhancing soil health. Practices associated with agroecology include crop rotation, cover cropping, agroforestry, and integrated pest management.",
+    "link": "https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Principles-of-Agroecology/Principles-and-Practices-of-Agroecology"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Agroecology Principles and Practices
+Keywords: agroecology, principles, practices
+Uses: 0
+Text: Agroecology is a holistic approach to agriculture that focuses on sustainable practices, biodiversity, and the integration of natural ecosystems. Some key principles of agroecology include promoting biodiversity, recycling nutrients, minimizing the use of external inputs, and enhancing soil health. Practices associated with agroecology include crop rotation, cover cropping, agroforestry, and integrated pest management.Link: https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Principles-of-Agroecology/Principles-and-Practices-of-Agroecology
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Regenerative agriculture', 'Agroecology']. The research these yeilded is: ({Regenerative agriculture is a farming practice that focuses on improving soil health, restoring ecosystem balance, and enhancing biodiversity. It aims to create a self-sustaining system that benefits both the environment and the farmers. By using techniques such as cover cropping, crop rotation, and minimal tillage, regenerative agriculture helps sequester carbon, reduce erosion, and improve water retention in the soil.
+
+Regenerative agriculture offers numerous benefits such as improved soil health, increased biodiversity, and reduced environmental impact. By focusing on restoring and enhancing soil health, regenerative practices help sequester carbon dioxide, improve water retention, and promote nutrient cycling. This leads to more resilient and productive farms that are better equipped to withstand climate change and pests.
+
+Agroecology is a holistic approach to agriculture that seeks to integrate ecological principles into farming practices. It focuses on creating sustainable food s (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Soil microbiology, Water conservation techniques, Integrated pest management, Sustainable crop rotation, Climate-smart agriculture, Biodiversity conservation efforts
+Selected topics: ['Soil microbiology', 'Water conservation techniques', 'Integrated pest management', 'Sustainable crop rotation', 'Climate-smart agriculture', 'Biodiversity conservation efforts']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Soil microbiology
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?', 'Agroecology Principles and Practices']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SOIL MICROBIOLOGY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture",
+    "keywords": ["soil microbiology", "microorganisms", "sustainable agriculture", "soil health", "nutrient cycling"],
+    "text": "Soil microbiology is the study of microorganisms in soil, including bacteria, fungi, protozoa, and algae. These microorganisms play a crucial role in sustainable agriculture by contributing to soil health, nutrient cycling, and plant growth. Bacteria and fungi decompose organic matter, releasing nutrients for plants, while also helping to suppress plant diseases. Understanding soil microbiology is essential for maintaining healthy soils and promoting sustainable agricultural practices.",
+    "link": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/soil-microbiology"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture
+Keywords: soil microbiology, microorganisms, sustainable agriculture, soil health, nutrient cycling
+Uses: 0
+Text: Soil microbiology is the study of microorganisms in soil, including bacteria, fungi, protozoa, and algae. These microorganisms play a crucial role in sustainable agriculture by contributing to soil health, nutrient cycling, and plant growth. Bacteria and fungi decompose organic matter, releasing nutrients for plants, while also helping to suppress plant diseases. Understanding soil microbiology is essential for maintaining healthy soils and promoting sustainable agricultural practices.Link: https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/soil-microbiology
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?', 'Agroecology Principles and Practices', 'Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SOIL MICROBIOLOGY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Soil Microbiology: Importance in Sustainable Agriculture",
+    "keywords": ["soil microbiology", "sustainable agriculture", "microorganisms", "soil health"],
+    "text": "Soil microbiology is the study of microorganisms in soil, including bacteria, fungi, protozoa, and algae. These microorganisms play a crucial role in sustainable agriculture by contributing to nutrient cycling, decomposition of organic matter, and disease suppression. They also help improve soil structure, increase water retention, and enhance plant growth by aiding in nutrient uptake. Understanding soil microbiology is essential for maintaining soil health and promoting sustainable farming practices.",
+    "link": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/soil-microbiology"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Soil Microbiology: Importance in Sustainable Agriculture
+Keywords: soil microbiology, sustainable agriculture, microorganisms, soil health
+Uses: 0
+Text: Soil microbiology is the study of microorganisms in soil, including bacteria, fungi, protozoa, and algae. These microorganisms play a crucial role in sustainable agriculture by contributing to nutrient cycling, decomposition of organic matter, and disease suppression. They also help improve soil structure, increase water retention, and enhance plant growth by aiding in nutrient uptake. Understanding soil microbiology is essential for maintaining soil health and promoting sustainable farming practices.Link: https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/soil-microbiology
+Researching topic: Water conservation techniques
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?', 'Agroecology Principles and Practices', 'Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture', 'Soil Microbiology: Importance in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WATER CONSERVATION TECHNIQUES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Water Conservation Techniques in Sustainable Agriculture",
+    "keywords": ["water conservation", "sustainable agriculture", "irrigation methods", "rainwater harvesting", "drip irrigation"],
+    "text": "Water conservation techniques in sustainable agriculture aim to reduce water usage while maintaining or increasing crop yields. Some common techniques include implementing efficient irrigation methods such as drip irrigation, using rainwater harvesting systems to capture and store rainwater for later use, and practicing soil moisture conservation through mulching and cover cropping.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/water/manage/conservation/"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Water Conservation Techniques in Sustainable Agriculture
+Keywords: water conservation, sustainable agriculture, irrigation methods, rainwater harvesting, drip irrigation
+Uses: 0
+Text: Water conservation techniques in sustainable agriculture aim to reduce water usage while maintaining or increasing crop yields. Some common techniques include implementing efficient irrigation methods such as drip irrigation, using rainwater harvesting systems to capture and store rainwater for later use, and practicing soil moisture conservation through mulching and cover cropping.Link: https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/water/manage/conservation/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?', 'Agroecology Principles and Practices', 'Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture', 'Soil Microbiology: Importance in Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **WATER CONSERVATION TECHNIQUES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture",
+    "keywords": ["drip irrigation", "water conservation", "sustainable agriculture", "irrigation techniques"],
+    "text": "Drip irrigation is a water-efficient method of watering crops by delivering water directly to the base of plants through a network of tubes and emitters. This technique reduces water wastage by minimizing evaporation and runoff, leading to significant water savings compared to traditional irrigation methods.",
+    "link": "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/water/manage/irrigation/?cid=nrcs143_021449" 
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture
+Keywords: drip irrigation, water conservation, sustainable agriculture, irrigation techniques
+Uses: 0
+Text: Drip irrigation is a water-efficient method of watering crops by delivering water directly to the base of plants through a network of tubes and emitters. This technique reduces water wastage by minimizing evaporation and runoff, leading to significant water savings compared to traditional irrigation methods.Link: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/water/manage/irrigation/?cid=nrcs143_021449
+Researching topic: Integrated pest management
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?', 'Agroecology Principles and Practices', 'Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture', 'Soil Microbiology: Importance in Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INTEGRATED PEST MANAGEMENT** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+  "title": "Integrated Pest Management: An Overview",
+  "keywords": ["Integrated Pest Management", "IPM", "pest control", "sustainable agriculture"],
+  "text": "Integrated Pest Management (IPM) is a holistic approach to pest control that aims to minimize the impact of pests while promoting environmental sustainability. It involves a combination of techniques such as biological control, habitat manipulation, use of resistant varieties, and the judicious use of pesticides when necessary. The goal of IPM is to reduce reliance on chemical pesticides and instead focus on long-term prevention of pest problems.",
+  "link": "https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Integrated Pest Management: An Overview
+Keywords: Integrated Pest Management, IPM, pest control, sustainable agriculture
+Uses: 0
+Text: Integrated Pest Management (IPM) is a holistic approach to pest control that aims to minimize the impact of pests while promoting environmental sustainability. It involves a combination of techniques such as biological control, habitat manipulation, use of resistant varieties, and the judicious use of pesticides when necessary. The goal of IPM is to reduce reliance on chemical pesticides and instead focus on long-term prevention of pest problems.Link: https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?', 'Agroecology Principles and Practices', 'Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture', 'Soil Microbiology: Importance in Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Integrated Pest Management: An Overview']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INTEGRATED PEST MANAGEMENT** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Integrated Pest Management Strategies for Sustainable Agriculture",
+    "keywords": ["Integrated Pest Management", "IPM", "sustainable agriculture", "pest control", "pest management strategies"],
+    "text": "Integrated Pest Management (IPM) is a holistic approach to pest control that focuses on sustainable and environmentally-friendly practices. IPM combines biological, cultural, physical, and chemical tools to manage pests effectively while minimizing risks to human health and the environment. Some common strategies used in IPM include crop rotation, habitat manipulation, biological control, and the use of resistant varieties. By integrating multiple pest management tactics, IPM helps reduce reliance on chemical pesticides and promotes long-term pest control solutions.",
+    "link": "https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Integrated Pest Management Strategies for Sustainable Agriculture
+Keywords: Integrated Pest Management, IPM, sustainable agriculture, pest control, pest management strategies
+Uses: 0
+Text: Integrated Pest Management (IPM) is a holistic approach to pest control that focuses on sustainable and environmentally-friendly practices. IPM combines biological, cultural, physical, and chemical tools to manage pests effectively while minimizing risks to human health and the environment. Some common strategies used in IPM include crop rotation, habitat manipulation, biological control, and the use of resistant varieties. By integrating multiple pest management tactics, IPM helps reduce reliance on chemical pesticides and promotes long-term pest control solutions.Link: https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles
+Researching topic: Sustainable crop rotation
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?', 'Agroecology Principles and Practices', 'Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture', 'Soil Microbiology: Importance in Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Integrated Pest Management: An Overview', 'Integrated Pest Management Strategies for Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SUSTAINABLE CROP ROTATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Sustainable Crop Rotation: An Overview",
+    "keywords": ["sustainable agriculture", "crop rotation", "benefits", "soil health", "pest management"],
+    "text": "Sustainable crop rotation is a farming practice that involves planting different crops in a sequential order on the same piece of land. This method helps improve soil health, reduce pests and diseases, increase crop yields, and decrease the need for synthetic fertilizers and pesticides. By rotating crops, farmers can disrupt pest life cycles, prevent soil erosion, and enhance nutrient availability in the soil. Overall, sustainable crop rotation is a key strategy in promoting sustainable agriculture practices.",
+    "link": "https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Crop-Rotations/Sustainable-Crop-Rotations/"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Sustainable Crop Rotation: An Overview
+Keywords: sustainable agriculture, crop rotation, benefits, soil health, pest management
+Uses: 0
+Text: Sustainable crop rotation is a farming practice that involves planting different crops in a sequential order on the same piece of land. This method helps improve soil health, reduce pests and diseases, increase crop yields, and decrease the need for synthetic fertilizers and pesticides. By rotating crops, farmers can disrupt pest life cycles, prevent soil erosion, and enhance nutrient availability in the soil. Overall, sustainable crop rotation is a key strategy in promoting sustainable agriculture practices.Link: https://www.sare.org/Learning-Center/Books/Building-Soils-for-Better-Crops-3rd-Edition/Text-Version/Crop-Rotations/Sustainable-Crop-Rotations/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?', 'Agroecology Principles and Practices', 'Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture', 'Soil Microbiology: Importance in Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Integrated Pest Management: An Overview', 'Integrated Pest Management Strategies for Sustainable Agriculture', 'Sustainable Crop Rotation: An Overview']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SUSTAINABLE CROP ROTATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 1.4 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Crop Rotation: Benefits and Best Practices for Sustainable Agriculture",
+    "keywords": ["crop rotation", "benefits", "best practices", "sustainable agriculture"],
+    "text": "Crop rotation is a practice used in sustainable agriculture where different crops are planted in a specific sequence on the same piece of land. This technique helps to improve soil fertility, reduce pests and diseases, and increase crop yields. By rotating crops, farmers can break pest cycles, prevent soil erosion, and maintain soil health. Some common crop rotation strategies include alternating between legumes and grains, planting cover crops, and rotating between deep-rooted and shallow-rooted plants.",
+    "link": "https://extension.umn.edu/crop-production-practices/crop-rotation-and-intercropping"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Crop Rotation Benefits and Best Practices for Sustainable Agriculture",
+    "keywords": ["crop rotation", "benefits", "best practices", "sustainable agriculture"],
+    "text": "Crop rotation is a sustainable agricultural practice that involves planting different crops in the same field in sequential seasons. This technique helps improve soil health, reduce pests and diseases, increase crop yield, and promote biodiversity. By rotating crops, farmers can break pest cycles, prevent soil erosion, and enhance nutrient availability. Some common crop rotation strategies include alternating between legumes and cereals, planting cover crops, and incorporating livestock grazing. Overall, crop rotation is a key component of sustainable agriculture that can lead to long-term environmental and economic benefits.",
+    "link": "https://extension.umn.edu/crop-production-practices/crop-rotation-and-intercropping"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Crop Rotation Benefits and Best Practices for Sustainable Agriculture",
+    "keywords": ["crop rotation", "benefits", "best practices", "sustainable agriculture"],
+    "text": "Crop rotation is a sustainable agricultural practice that involves planting different crops in the same field in sequential seasons. This technique helps improve soil health, reduce pests and diseases, increase crop yield, and promote biodiversity. By rotating crops, farmers can break pest cycles, prevent soil erosion, and enhance nutrient availability. Some common crop rotation strategies include alternating between legumes and cereals, planting cover crops, and incorporating livestock grazing. Overall, crop rotation is a key component of sustainable agriculture that can lead to long-term environmental and economic benefits.",
+    "link": "https://extension.umn.edu/crop-production-practices/crop-rotation-and-intercropping"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Crop Rotation Benefits and Best Practices for Sustainable Agriculture
+Keywords: crop rotation, benefits, best practices, sustainable agriculture
+Uses: 0
+Text: Crop rotation is a sustainable agricultural practice that involves planting different crops in the same field in sequential seasons. This technique helps improve soil health, reduce pests and diseases, increase crop yield, and promote biodiversity. By rotating crops, farmers can break pest cycles, prevent soil erosion, and enhance nutrient availability. Some common crop rotation strategies include alternating between legumes and cereals, planting cover crops, and incorporating livestock grazing. Overall, crop rotation is a key component of sustainable agriculture that can lead to long-term environmental and economic benefits.Link: https://extension.umn.edu/crop-production-practices/crop-rotation-and-intercropping
+Researching topic: Climate-smart agriculture
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?', 'Agroecology Principles and Practices', 'Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture', 'Soil Microbiology: Importance in Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Integrated Pest Management: An Overview', 'Integrated Pest Management Strategies for Sustainable Agriculture', 'Sustainable Crop Rotation: An Overview', 'Crop Rotation Benefits and Best Practices for Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CLIMATE-SMART AGRICULTURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "What is Climate-Smart Agriculture?",
+    "keywords": ["climate-smart agriculture", "definition", "practices", "benefits", "climate change", "sustainability"],
+    "text": "Climate-smart agriculture is an approach that helps to transform and reorient agricultural systems to effectively support food security in the face of climate change. It involves implementing practices that increase productivity, enhance resilience to climate change, and reduce greenhouse gas emissions. This approach aims to sustainably increase agricultural productivity, adapt and build resilience to climate change, and reduce or remove greenhouse gas emissions where possible.",
+    "link": "https://www.fao.org/climate-change/resources/climate-smart-agriculture/en/"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: What is Climate-Smart Agriculture?
+Keywords: climate-smart agriculture, definition, practices, benefits, climate change, sustainability
+Uses: 0
+Text: Climate-smart agriculture is an approach that helps to transform and reorient agricultural systems to effectively support food security in the face of climate change. It involves implementing practices that increase productivity, enhance resilience to climate change, and reduce greenhouse gas emissions. This approach aims to sustainably increase agricultural productivity, adapt and build resilience to climate change, and reduce or remove greenhouse gas emissions where possible.Link: https://www.fao.org/climate-change/resources/climate-smart-agriculture/en/
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?', 'Agroecology Principles and Practices', 'Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture', 'Soil Microbiology: Importance in Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Integrated Pest Management: An Overview', 'Integrated Pest Management Strategies for Sustainable Agriculture', 'Sustainable Crop Rotation: An Overview', 'Crop Rotation Benefits and Best Practices for Sustainable Agriculture', 'What is Climate-Smart Agriculture?']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CLIMATE-SMART AGRICULTURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Climate-Smart Agriculture Techniques for Resilient Farming",
+    "keywords": ["climate-smart agriculture", "resilient farming", "sustainable practices", "agricultural techniques"],
+    "text": "Climate-smart agriculture encompasses a range of practices and techniques aimed at mitigating the impacts of climate change on farming systems while ensuring sustainable food production. Some key techniques include conservation tillage, agroforestry, cover cropping, and precision agriculture. These practices help improve soil health, water conservation, and overall farm resilience to changing climate conditions.",
+    "link": "https://www.fao.org/climate-change/resources/csa/en/"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Climate-Smart Agriculture Techniques for Resilient Farming
+Keywords: climate-smart agriculture, resilient farming, sustainable practices, agricultural techniques
+Uses: 0
+Text: Climate-smart agriculture encompasses a range of practices and techniques aimed at mitigating the impacts of climate change on farming systems while ensuring sustainable food production. Some key techniques include conservation tillage, agroforestry, cover cropping, and precision agriculture. These practices help improve soil health, water conservation, and overall farm resilience to changing climate conditions.Link: https://www.fao.org/climate-change/resources/csa/en/
+Researching topic: Biodiversity conservation efforts
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?', 'Agroecology Principles and Practices', 'Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture', 'Soil Microbiology: Importance in Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Integrated Pest Management: An Overview', 'Integrated Pest Management Strategies for Sustainable Agriculture', 'Sustainable Crop Rotation: An Overview', 'Crop Rotation Benefits and Best Practices for Sustainable Agriculture', 'What is Climate-Smart Agriculture?', 'Climate-Smart Agriculture Techniques for Resilient Farming']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BIODIVERSITY CONSERVATION EFFORTS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Biodiversity Conservation Efforts in Sustainable Agriculture",
+    "keywords": ["biodiversity conservation", "sustainable agriculture", "agricultural practices", "ecosystem health"],
+    "text": "Biodiversity conservation efforts in sustainable agriculture focus on promoting and preserving a wide variety of plant and animal species within agricultural landscapes. This is important for maintaining ecosystem health, as diverse ecosystems are more resilient to pests, diseases, and climate change. Some practices include planting cover crops, creating wildlife habitats, implementing agroforestry systems, and reducing the use of chemical inputs.",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0308521X17305303"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Biodiversity Conservation Efforts in Sustainable Agriculture
+Keywords: biodiversity conservation, sustainable agriculture, agricultural practices, ecosystem health
+Uses: 0
+Text: Biodiversity conservation efforts in sustainable agriculture focus on promoting and preserving a wide variety of plant and animal species within agricultural landscapes. This is important for maintaining ecosystem health, as diverse ecosystems are more resilient to pests, diseases, and climate change. Some practices include planting cover crops, creating wildlife habitats, implementing agroforestry systems, and reducing the use of chemical inputs.Link: https://www.sciencedirect.com/science/article/pii/S0308521X17305303
+Prompt:
+Initial Prompt: (Sustainable Agriculture) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['What is Regenerative Agriculture?', 'Benefits of Regenerative Agriculture', 'What is Agroecology?', 'Agroecology Principles and Practices', 'Soil Microbiology: Understanding the Role of Microorganisms in Sustainable Agriculture', 'Soil Microbiology: Importance in Sustainable Agriculture', 'Water Conservation Techniques in Sustainable Agriculture', 'Drip Irrigation: A Water Conservation Technique in Sustainable Agriculture', 'Integrated Pest Management: An Overview', 'Integrated Pest Management Strategies for Sustainable Agriculture', 'Sustainable Crop Rotation: An Overview', 'Crop Rotation Benefits and Best Practices for Sustainable Agriculture', 'What is Climate-Smart Agriculture?', 'Climate-Smart Agriculture Techniques for Resilient Farming', 'Biodiversity Conservation Efforts in Sustainable Agriculture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **BIODIVERSITY CONSERVATION EFFORTS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 11.8 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Importance of Biodiversity Conservation in Sustainable Agriculture",
+    "keywords": ["biodiversity conservation", "sustainable agriculture", "ecosystem services", "agroecosystems"],
+    "text": "Biodiversity conservation in sustainable agriculture is crucial for maintaining ecosystem services that support crop production. By preserving diverse plant and animal species within agroecosystems, farmers can enhance soil fertility, natural pest control, and pollination. This leads to increased resilience to environmental stressors and ultimately promotes long-term food security.",
+    "link": "https://www.nature.com/scitable/knowledge/library/biodiversity-and-sustainability-13240165/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Importance of Biodiversity Conservation in Sustainable Agriculture",
+    "keywords": ["biodiversity conservation", "sustainable agriculture", "benefits", "ecosystem resilience"],
+    "text": "Biodiversity conservation in sustainable agriculture is crucial for maintaining healthy ecosystems. By preserving a variety of plant and animal species, farmers can enhance soil fertility, pest control, and pollination. This leads to increased crop yields and resilience to environmental changes.",
+    "link": "https://www.nature.com/scitable/knowledge/library/biodiversity-and-sustainable-agriculture-17059965/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Importance of Biodiversity Conservation in Sustainable Agriculture",
+    "keywords": ["biodiversity conservation", "sustainable agriculture", "ecosystem services", "agroecosystems"],
+    "text": "Biodiversity conservation in sustainable agriculture is crucial for maintaining ecosystem services that support crop production. By preserving diverse plant and animal species within agroecosystems, farmers can enhance soil fertility, natural pest control, and pollination. This leads to increased resilience to environmental stressors and ultimately promotes long-term food security.",
+    "link": "https://www.nature.com/scitable/knowledge/library/biodiversity-and-sustainability-13240165/"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Importance of Biodiversity Conservation in Sustainable Agriculture
+Keywords: biodiversity conservation, sustainable agriculture, ecosystem services, agroecosystems
+Uses: 0
+Text: Biodiversity conservation in sustainable agriculture is crucial for maintaining ecosystem services that support crop production. By preserving diverse plant and animal species within agroecosystems, farmers can enhance soil fertility, natural pest control, and pollination. This leads to increased resilience to environmental stressors and ultimately promotes long-term food security.Link: https://www.nature.com/scitable/knowledge/library/biodiversity-and-sustainability-13240165/
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Regenerative agriculture is a farming practice that focuses on improving soil health, restoring ecosystem balance, and enhancing biodiversity. It aims to create a self-sustaining system that benefits both the environment and the farmers. By using techniques such as cover cropping, crop rotation, and...
+
+Regenerative agriculture offers numerous benefits such as improved soil health, increased biodiversity, and reduced environmental impact. By focusing on restoring and enhancing soil health, regenerative practices help sequester carbon dioxide, improve water retention, and promote nutrient cycling. T...
+
+Agroecology is a holistic approach to agriculture that seeks to integrate ecological principles into farming practices. It focuses on creating sustainable food systems that work in harmony with nature, promoting biodiversity, soil health, and natural resource conservation. Agroecology aims to enhanc...
+
+Agroecology is a holistic approach to agriculture that focuses on sustainable practices, biodiversity, and the integration of natural ecosystems. Some key principles of agroecology include promoting biodiversity, recycling nutrients, minimizing the use of external inputs, and enhancing soil health. ...
+
+Soil microbiology is the study of microorganisms in soil, including bacteria, fungi, protozoa, and algae. These microorganisms play a crucial role in sustainable agriculture by contributing to soil health, nutrient cycling, and plant growth. Bacteria and fungi decompose organic matter, releasing nut...
+
+Soil microbiology is the study of microorganisms in soil, including bacteria, fungi, protozoa, and algae. These microorganisms play a crucial role in sustainable agriculture by contributing to nutrient cycling, decomposition of organic matter, and disease suppression. They also help improve soil str...
+
+Water conservation techniques in sustainable agriculture aim to reduce water usage while maintaining or increasing crop yields. Some common techniques include implementing efficient irrigation methods such as drip irrigation, using rainwater harvesting systems to capture and store rainwater for late...
+
+Drip irrigation is a water-efficient method of watering crops by delivering water directly to the base of plants through a network of tubes and emitters. This technique reduces water wastage by minimizing evaporation and runoff, leading to significant water savings compared to traditional irrigation...
+
+Integrated Pest Management (IPM) is a holistic approach to pest control that aims to minimize the impact of pests while promoting environmental sustainability. It involves a combination of techniques such as biological control, habitat manipulation, use of resistant varieties, and the judicious use ...
+
+Integrated Pest Management (IPM) is a holistic approach to pest control that focuses on sustainable and environmentally-friendly practices. IPM combines biological, cultural, physical, and chemical tools to manage pests effectively while minimizing risks to human health and the environment. Some com...
+
+Sustainable crop rotation is a farming practice that involves planting different crops in a sequential order on the same piece of land. This method helps improve soil health, reduce pests and diseases, increase crop yields, and decrease the need for synthetic fertilizers and pesticides. By rotating ...
+
+Crop rotation is a sustainable agricultural practice that involves planting different crops in the same field in sequential seasons. This technique helps improve soil health, reduce pests and diseases, increase crop yield, and promote biodiversity. By rotating crops, farmers can break pest cycles, p...
+
+Climate-smart agriculture is an approach that helps to transform and reorient agricultural systems to effectively support food security in the face of climate change. It involves implementing practices that increase productivity, enhance resilience to climate change, and reduce greenhouse gas emissi...
+
+Climate-smart agriculture encompasses a range of practices and techniques aimed at mitigating the impacts of climate change on farming systems while ensuring sustainable food production. Some key techniques include conservation tillage, agroforestry, cover cropping, and precision agriculture. These ...
+
+Biodiversity conservation efforts in sustainable agriculture focus on promoting and preserving a wide variety of plant and animal species within agricultural landscapes. This is important for maintaining ecosystem health, as diverse ecosystems are more resilient to pests, diseases, and climate chang...
+
+Biodiversity conservation in sustainable agriculture is crucial for maintaining ecosystem services that support crop production. By preserving diverse plant and animal species within agroecosystems, farmers can enhance soil fertility, natural pest control, and pollination. This leads to increased re...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+Raw response:
+4
+.
+Topic count decided: 4
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Regenerative agriculture is a farming practice that focuses on improving soil health, restoring ecosystem balance, and enhancing biodiversity. It aims to create a self-sustaining system that benefits both the environment and the farmers. By using techniques such as cover cropping, crop rotation, and...
+
+Regenerative agriculture offers numerous benefits such as improved soil health, increased biodiversity, and reduced environmental impact. By focusing on restoring and enhancing soil health, regenerative practices help sequester carbon dioxide, improve water retention, and promote nutrient cycling. T...
+
+Agroecology is a holistic approach to agriculture that seeks to integrate ecological principles into farming practices. It focuses on creating sustainable food systems that work in harmony with nature, promoting biodiversity, soil health, and natural resource conservation. Agroecology aims to enhanc...
+
+Agroecology is a holistic approach to agriculture that focuses on sustainable practices, biodiversity, and the integration of natural ecosystems. Some key principles of agroecology include promoting biodiversity, recycling nutrients, minimizing the use of external inputs, and enhancing soil health. ...
+
+Soil microbiology is the study of microorganisms in soil, including bacteria, fungi, protozoa, and algae. These microorganisms play a crucial role in sustainable agriculture by contributing to soil health, nutrient cycling, and plant growth. Bacteria and fungi decompose organic matter, releasing nut...
+
+Soil microbiology is the study of microorganisms in soil, including bacteria, fungi, protozoa, and algae. These microorganisms play a crucial role in sustainable agriculture by contributing to nutrient cycling, decomposition of organic matter, and disease suppression. They also help improve soil str...
+
+Water conservation techniques in sustainable agriculture aim to reduce water usage while maintaining or increasing crop yields. Some common techniques include implementing efficient irrigation methods such as drip irrigation, using rainwater harvesting systems to capture and store rainwater for late...
+
+Drip irrigation is a water-efficient method of watering crops by delivering water directly to the base of plants through a network of tubes and emitters. This technique reduces water wastage by minimizing evaporation and runoff, leading to significant water savings compared to traditional irrigation...
+
+Integrated Pest Management (IPM) is a holistic approach to pest control that aims to minimize the impact of pests while promoting environmental sustainability. It involves a combination of techniques such as biological control, habitat manipulation, use of resistant varieties, and the judicious use ...
+
+Integrated Pest Management (IPM) is a holistic approach to pest control that focuses on sustainable and environmentally-friendly practices. IPM combines biological, cultural, physical, and chemical tools to manage pests effectively while minimizing risks to human health and the environment. Some com...
+
+Sustainable crop rotation is a farming practice that involves planting different crops in a sequential order on the same piece of land. This method helps improve soil health, reduce pests and diseases, increase crop yields, and decrease the need for synthetic fertilizers and pesticides. By rotating ...
+
+Crop rotation is a sustainable agricultural practice that involves planting different crops in the same field in sequential seasons. This technique helps improve soil health, reduce pests and diseases, increase crop yield, and promote biodiversity. By rotating crops, farmers can break pest cycles, p...
+
+Climate-smart agriculture is an approach that helps to transform and reorient agricultural systems to effectively support food security in the face of climate change. It involves implementing practices that increase productivity, enhance resilience to climate change, and reduce greenhouse gas emissi...
+
+Climate-smart agriculture encompasses a range of practices and techniques aimed at mitigating the impacts of climate change on farming systems while ensuring sustainable food production. Some key techniques include conservation tillage, agroforestry, cover cropping, and precision agriculture. These ...
+
+Biodiversity conservation efforts in sustainable agriculture focus on promoting and preserving a wide variety of plant and animal species within agricultural landscapes. This is important for maintaining ecosystem health, as diverse ecosystems are more resilient to pests, diseases, and climate chang...
+
+Biodiversity conservation in sustainable agriculture is crucial for maintaining ecosystem services that support crop production. By preserving diverse plant and animal species within agroecosystems, farmers can enhance soil fertility, natural pest control, and pollination. This leads to increased re...}). You are to come up with {4} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Week 1: Introduction to Sustainable Agriculture
+
+Main Topic: Regenerative Agriculture
+- Sub-topics:
+  1. Techniques of regenerative agriculture (cover cropping, crop rotation, etc.)
+  2. Benefits of regenerative agriculture (improved soil health, increased biodiversity, reduced environmental impact)
+  3. Case studies of successful regenerative agriculture practices
+- Explanation: This topic will cover the principles and practices of regenerative agriculture as a sustainable farming approach, focusing on restoring soil health and ecosystem balance.
+- Learning objectives: Understand the key techniques and benefits of regenerative agriculture, analyze case studies to evaluate the effectiveness of these practices.
+- Estimated number of slides: 10
+- Lab activities: Conduct a soil health assessment on a local farm, analyze the impact of cover cropping on soil quality.
+- Real-world applications: Showcase successful regenerative agriculture projects from around the world, discuss how farmers can implement these practices on their own farms.
+
+Week 2: Agroecology and Soil Microbiology
+
+Main Topic: Agroecology
+- Sub-topics:
+  1. Principles of agroecology (biodiversity, natural resource conservation)
+  2. Integration of ecological principles into farming practices
+  3. Benefits of agroecology for sustainable food systems
+- Explanation: This topic will explore the holistic approach of agroecology in agriculture, emphasizing the importance of promoting biodiversity and soil health.
+- Learning objectives: Understand the principles of agroecology, analyze the benefits of integrating ecological principles into farming practices.
+- Estimated number of slides: 12
+- Lab activities: Design a farm plan based on agroecological principles, analyze the impact of agroecology on crop yield and soil health.
+- Real-world applications: Discuss successful agroecology projects and their impact on local communities, explore how agroecology can address food security challenges.
+
+Main Topic: Soil Microbiology
+- Sub-topics:
+  1. Role of microorganisms in soil health and nutrient cycling
+  2. Importance of bacteria and fungi in sustainable agriculture
+  3. Impact of soil microbiology on plant growth and disease suppression
+- Explanation: This topic will delve into the study of soil microorganisms and their critical role in sustainable agriculture, focusing on nutrient cycling and soil fertility.
+- Learning objectives: Understand the importance of soil microbiology in sustainable agriculture, analyze the impact of microorganisms on soil health and plant growth.
+- Estimated number of slides: 8
+- Lab activities: Conduct a soil microbiology analysis, observe the effects of different soil treatments on microbial populations.
+- Real-world applications: Showcase innovative soil microbiology research and its implications for sustainable agriculture, discuss how farmers can enhance soil microbiology on their farms.
+
+Week 3: Water Conservation and Integrated Pest Management
+
+Main Topic: Water Conservation Techniques
+- Sub-topics:
+  1. Drip irrigation as a water-efficient method
+  2. Rainwater harvesting systems for water conservation
+  3. Benefits of water conservation in sustainable agriculture
+- Explanation: This topic will cover various water conservation techniques in agriculture, focusing on efficient irrigation methods and water-saving practices.
+- Learning objectives: Understand the importance of water conservation in agriculture, analyze the benefits of drip irrigation and rainwater harvesting.
+- Estimated number of slides: 10
+- Lab activities: Set up a drip irrigation system, calculate water savings from implementing water conservation techniques.
+- Real-world applications: Discuss successful water conservation projects in arid regions, explore the impact of water scarcity on agriculture and food production.
+
+Main Topic: Integrated Pest Management (IPM)
+- Sub-topics:
+  1. Principles of IPM and its holistic approach to pest control
+  2. Techniques used in IPM (biological control, habitat manipulation)
+  3. Benefits of IPM for sustainable pest management
+- Explanation: This topic will introduce the concept of IPM as a sustainable approach to pest control, emphasizing the importance of reducing environmental impact.
+- Learning objectives: Understand the principles and techniques of IPM, analyze the benefits of using IPM for pest management.
+- Estimated number of slides: 12
+- Lab activities: Design an IPM plan for a specific pest problem, observe the effectiveness of biological control methods in a controlled environment.
+- Real-world applications: Showcase successful IPM programs and their impact on pest populations, discuss how farmers can implement IPM strategies on their farms.
+
+Week 4: Sustainable Crop Rotation and Climate-Smart Agriculture
+
+Main Topic: Sustainable Crop Rotation
+- Sub-topics:
+  1. Benefits of crop rotation for soil health and pest management
+  2. Techniques for implementing crop rotation in farming systems
+  3. Case studies of successful crop rotation practices
+- Explanation: This topic will explore the practice of crop rotation in sustainable agriculture, focusing on its benefits for soil fertility and pest control.
+- Learning objectives: Understand the importance of crop rotation in sustainable agriculture, analyze the impact of crop rotation on soil health and crop yield.
+- Estimated number of slides: 10
+- Lab activities: Design a crop rotation plan for a specific farm, analyze the effects of crop rotation on soil nutrient levels.
+- Real-world applications: Showcase successful crop rotation systems and their impact on farm productivity, discuss how farmers can integrate crop rotation into their farming practices.
+
+Main Topic: Climate-Smart Agriculture
+- Sub-topics:
+  1. Principles of climate-smart agriculture and its goals
+  2. Techniques for increasing productivity and resilience to climate change
+  3. Benefits of climate-smart agriculture for sustainable food production
+- Explanation: This topic will introduce the concept of climate-smart agriculture as an approach to address climate change impacts on food security, focusing on sustainable practices.
+- Learning objectives: Understand the principles and techniques of climate-smart agriculture, analyze the benefits of implementing climate-smart practices.
+- Estimated number of slides: 12
+- Lab activities: Develop a climate-smart agriculture plan for a specific region, analyze the potential impacts of climate change on local food systems.
+- Real-world applications: Discuss successful climate-smart agriculture initiatives and their impact on food security, explore how farmers can adapt to climate change through sustainable practices.
+
+This comprehensive teaching plan for senior undergraduate students covers a range of topics in sustainable agriculture, providing a detailed overview of key principles, techniques, and real-world applications. Each week's module is designed to progressively build on the previous topics, ensuring a thorough understanding of sustainable agriculture practices and their implications for food security and environmental sustainability.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Week 1: Introduction to Sustainable Agriculture
+
+Main Topic: Regenerative Agriculture
+- Sub-topics:
+  1. Techniques of regenerative agriculture (cover cropping, crop rotation, etc.)
+  2. Benefits of regenerative agriculture (improved soil health, increased biodiversity, reduced environmental impact)
+  3. Case studies of successful regenerative agriculture practices
+- Explanation: This topic will cover the principles and practices of regenerative agriculture as a sustainable farming approach, focusing on restoring soil health and ecosystem balance.
+- Learning objectives: Understand the key techniques and benefits of regenerative agriculture, analyze case studies to evaluate the effectiveness of these practices.
+- Estimated number of slides: 10
+- Lab activities: Conduct a soil health assessment on a local farm, analyze the impact of cover cropping on soil quality.
+- Real-world applications: Showcase successful regenerative agriculture projects from around the world, discuss how farmers can implement these practices on their own farms.
+
+Week 2: Agroecology and Soil Microbiology
+
+Main Topic: Agroecology
+- Sub-topics:
+  1. Principles of agroecology (biodiversity, natural resource conservation)
+  2. Integration of ecological principles into farming practices
+  3. Benefits of agroecology for sustainable food systems
+- Explanation: This topic will explore the holistic approach of agroecology in agriculture, emphasizing the importance of promoting biodiversity and soil health.
+- Learning objectives: Understand the principles of agroecology, analyze the benefits of integrating ecological principles into farming practices.
+- Estimated number of slides: 12
+- Lab activities: Design a farm plan based on agroecological principles, analyze the impact of agroecology on crop yield and soil health.
+- Real-world applications: Discuss successful agroecology projects and their impact on local communities, explore how agroecology can address food security challenges.
+
+Main Topic: Soil Microbiology
+- Sub-topics:
+  1. Role of microorganisms in soil health and nutrient cycling
+  2. Importance of bacteria and fungi in sustainable agriculture
+  3. Impact of soil microbiology on plant growth and disease suppression
+- Explanation: This topic will delve into the study of soil microorganisms and their critical role in sustainable agriculture, focusing on nutrient cycling and soil fertility.
+- Learning objectives: Understand the importance of soil microbiology in sustainable agriculture, analyze the impact of microorganisms on soil health and plant growth.
+- Estimated number of slides: 8
+- Lab activities: Conduct a soil microbiology analysis, observe the effects of different soil treatments on microbial populations.
+- Real-world applications: Showcase innovative soil microbiology research and its implications for sustainable agriculture, discuss how farmers can enhance soil microbiology on their farms.
+
+Week 3: Water Conservation and Integrated Pest Management
+
+Main Topic: Water Conservation Techniques
+- Sub-topics:
+  1. Drip irrigation as a water-efficient method
+  2. Rainwater harvesting systems for water conservation
+  3. Benefits of water conservation in sustainable agriculture
+- Explanation: This topic will cover various water conservation techniques in agriculture, focusing on efficient irrigation methods and water-saving practices.
+- Learning objectives: Understand the importance of water conservation in agriculture, analyze the benefits of drip irrigation and rainwater harvesting.
+- Estimated number of slides: 10
+- Lab activities: Set up a drip irrigation system, calculate water savings from implementing water conservation techniques.
+- Real-world applications: Discuss successful water conservation projects in arid regions, explore the impact of water scarcity on agriculture and food production.
+
+Main Topic: Integrated Pest Management (IPM)
+- Sub-topics:
+  1. Principles of IPM and its holistic approach to pest control
+  2. Techniques used in IPM (biological control, habitat manipulation)
+  3. Benefits of IPM for sustainable pest management
+- Explanation: This topic will introduce the concept of IPM as a sustainable approach to pest control, emphasizing the importance of reducing environmental impact.
+- Learning objectives: Understand the principles and techniques of IPM, analyze the benefits of using IPM for pest management.
+- Estimated number of slides: 12
+- Lab activities: Design an IPM plan for a specific pest problem, observe the effectiveness of biological control methods in a controlled environment.
+- Real-world applications: Showcase successful IPM programs and their impact on pest populations, discuss how farmers can implement IPM strategies on their farms.
+
+Week 4: Sustainable Crop Rotation and Climate-Smart Agriculture
+
+Main Topic: Sustainable Crop Rotation
+- Sub-topics:
+  1. Benefits of crop rotation for soil health and pest management
+  2. Techniques for implementing crop rotation in farming systems
+  3. Case studies of successful crop rotation practices
+- Explanation: This topic will explore the practice of crop rotation in sustainable agriculture, focusing on its benefits for soil fertility and pest control.
+- Learning objectives: Understand the importance of crop rotation in sustainable agriculture, analyze the impact of crop rotation on soil health and crop yield.
+- Estimated number of slides: 10
+- Lab activities: Design a crop rotation plan for a specific farm, analyze the effects of crop rotation on soil nutrient levels.
+- Real-world applications: Showcase successful crop rotation systems and their impact on farm productivity, discuss how farmers can integrate crop rotation into their farming practices.
+
+Main Topic: Climate-Smart Agriculture
+- Sub-topics:
+  1. Principles of climate-smart agriculture and its goals
+  2. Techniques for increasing productivity and resilience to climate change
+  3. Benefits of climate-smart agriculture for sustainable food production
+- Explanation: This topic will introduce the concept of climate-smart agriculture as an approach to address climate change impacts on food security, focusing on sustainable practices.
+- Learning objectives: Understand the principles and techniques of climate-smart agriculture, analyze the benefits of implementing climate-smart practices.
+- Estimated number of slides: 12
+- Lab activities: Develop a climate-smart agriculture plan for a specific region, analyze the potential impacts of climate change on local food systems.
+- Real-world applications: Discuss successful climate-smart agriculture initiatives and their impact on food security, explore how farmers can adapt to climate change through sustainable practices.
+
+This comprehensive teaching plan for senior undergraduate students covers a range of topics in sustainable agriculture, providing a detailed overview of key principles, techniques, and real-world applications. Each week's module is designed to progressively build on the previous topics, ensuring a thorough understanding of sustainable agriculture practices and their implications for food security and environmental sustainability.}). Total slides available: {8}. Topics to allocate: {4}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[10, 12, 8, 10, 12]
+.
+Warning: Received 5 allocations, expected 4
+Truncating list from 5 to 4 items
+Slide allocation: [1, 4, 1, 2]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Sustainable Agriculture) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Week 1: Introduction to Sustainable Agriculture
+
+Main Topic: Regenerative Agriculture
+- Sub-topics:
+  1. Techniques of regenerative agriculture (cover cropping, crop rotation, etc.)
+  2. Benefits of regenerative agriculture (improved soil health, increased biodiversity, reduced environmental impact)
+  3. Case studies of successful regenerative agriculture practices
+- Explanation: This topic will cover the principles and practices of regenerative agriculture as a sustainable farming approach, focusing on restoring soil health and ecosystem balance.
+- Learning objectives: Understand the key techniques and benefits of regenerative agriculture, analyze case studies to evaluate the effectiveness of these practices.
+- Estimated number of slides: 10
+- Lab activities: Conduct a soil health assessment on a local farm, analyze the impact of cover cropping on soil quality.
+- Real-world applications: Showcase successful regenerative agriculture projects from around the world, discuss how farmers can implement these practices on their own farms.
+
+Week 2: Agroecology and Soil Microbiology
+
+Main Topic: Agroecology
+- Sub-topics:
+  1. Principles of agroecology (biodiversity, natural resource conservation)
+  2. Integration of ecological principles into farming practices
+  3. Benefits of agroecology for sustainable food systems
+- Explanation: This topic will explore the holistic approach of agroecology in agriculture, emphasizing the importance of promoting biodiversity and soil health.
+- Learning objectives: Understand the principles of agroecology, analyze the benefits of integrating ecological principles into farming practices.
+- Estimated number of slides: 12
+- Lab activities: Design a farm plan based on agroecological principles, analyze the impact of agroecology on crop yield and soil health.
+- Real-world applications: Discuss successful agroecology projects and their impact on local communities, explore how agroecology can address food security challenges.
+
+Main Topic: Soil Microbiology
+- Sub-topics:
+  1. Role of microorganisms in soil health and nutrient cycling
+  2. Importance of bacteria and fungi in sustainable agriculture
+  3. Impact of soil microbiology on plant growth and disease suppression
+- Explanation: This topic will delve into the study of soil microorganisms and their critical role in sustainable agriculture, focusing on nutrient cycling and soil fertility.
+- Learning objectives: Understand the importance of soil microbiology in sustainable agriculture, analyze the impact of microorganisms on soil health and plant growth.
+- Estimated number of slides: 8
+- Lab activities: Conduct a soil microbiology analysis, observe the effects of different soil treatments on microbial populations.
+- Real-world applications: Showcase innovative soil microbiology research and its implications for sustainable agriculture, discuss how farmers can enhance soil microbiology on their farms.
+
+Week 3: Water Conservation and Integrated Pest Management
+
+Main Topic: Water Conservation Techniques
+- Sub-topics:
+  1. Drip irrigation as a water-efficient method
+  2. Rainwater harvesting systems for water conservation
+  3. Benefits of water conservation in sustainable agriculture
+- Explanation: This topic will cover various water conservation techniques in agriculture, focusing on efficient irrigation methods and water-saving practices.
+- Learning objectives: Understand the importance of water conservation in agriculture, analyze the benefits of drip irrigation and rainwater harvesting.
+- Estimated number of slides: 10
+- Lab activities: Set up a drip irrigation system, calculate water savings from implementing water conservation techniques.
+- Real-world applications: Discuss successful water conservation projects in arid regions, explore the impact of water scarcity on agriculture and food production.
+
+Main Topic: Integrated Pest Management (IPM)
+- Sub-topics:
+  1. Principles of IPM and its holistic approach to pest control
+  2. Techniques used in IPM (biological control, habitat manipulation)
+  3. Benefits of IPM for sustainable pest management
+- Explanation: This topic will introduce the concept of IPM as a sustainable approach to pest control, emphasizing the importance of reducing environmental impact.
+- Learning objectives: Understand the principles and techniques of IPM, analyze the benefits of using IPM for pest management.
+- Estimated number of slides: 12
+- Lab activities: Design an IPM plan for a specific pest problem, observe the effectiveness of biological control methods in a controlled environment.
+- Real-world applications: Showcase successful IPM programs and their impact on pest populations, discuss how farmers can implement IPM strategies on their farms.
+
+Week 4: Sustainable Crop Rotation and Climate-Smart Agriculture
+
+Main Topic: Sustainable Crop Rotation
+- Sub-topics:
+  1. Benefits of crop rotation for soil health and pest management
+  2. Techniques for implementing crop rotation in farming systems
+  3. Case studies of successful crop rotation practices
+- Explanation: This topic will explore the practice of crop rotation in sustainable agriculture, focusing on its benefits for soil fertility and pest control.
+- Learning objectives: Understand the importance of crop rotation in sustainable agriculture, analyze the impact of crop rotation on soil health and crop yield.
+- Estimated number of slides: 10
+- Lab activities: Design a crop rotation plan for a specific farm, analyze the effects of crop rotation on soil nutrient levels.
+- Real-world applications: Showcase successful crop rotation systems and their impact on farm productivity, discuss how farmers can integrate crop rotation into their farming practices.
+
+Main Topic: Climate-Smart Agriculture
+- Sub-topics:
+  1. Principles of climate-smart agriculture and its goals
+  2. Techniques for increasing productivity and resilience to climate change
+  3. Benefits of climate-smart agriculture for sustainable food production
+- Explanation: This topic will introduce the concept of climate-smart agriculture as an approach to address climate change impacts on food security, focusing on sustainable practices.
+- Learning objectives: Understand the principles and techniques of climate-smart agriculture, analyze the benefits of implementing climate-smart practices.
+- Estimated number of slides: 12
+- Lab activities: Develop a climate-smart agriculture plan for a specific region, analyze the potential impacts of climate change on local food systems.
+- Real-world applications: Discuss successful climate-smart agriculture initiatives and their impact on food security, explore how farmers can adapt to climate change through sustainable practices.
+
+This comprehensive teaching plan for senior undergraduate students covers a range of topics in sustainable agriculture, providing a detailed overview of key principles, techniques, and real-world applications. Each week's module is designed to progressively build on the previous topics, ensuring a thorough understanding of sustainable agriculture practices and their implications for food security and environmental sustainability.}). Slide allocation per topic: {[1, 4, 1, 2]}. Database content for reference: ({Regenerative agriculture is a farming practice that focuses on improving soil health, restoring ecosystem balance, and enhancing biodiversity. It aims to create a self-sustaining system that benefits both the environment and the farmers. By using techniques such as cover cropping, crop rotation, and...
+
+Regenerative agriculture offers numerous benefits such as improved soil health, increased biodiversity, and reduced environmental impact. By focusing on restoring and enhancing soil health, regenerative practices help sequester carbon dioxide, improve water retention, and promote nutrient cycling. T...
+
+Agroecology is a holistic approach to agriculture that seeks to integrate ecological principles into farming practices. It focuses on creating sustainable food systems that work in harmony with nature, promoting biodiversity, soil health, and natural resource conservation. Agroecology aims to enhanc...
+
+Agroecology is a holistic approach to agriculture that focuses on sustainable practices, biodiversity, and the integration of natural ecosystems. Some key principles of agroecology include promoting biodiversity, recycling nutrients, minimizing the use of external inputs, and enhancing soil health. ...
+
+Soil microbiology is the study of microorganisms in soil, including bacteria, fungi, protozoa, and algae. These microorganisms play a crucial role in sustainable agriculture by contributing to soil health, nutrient cycling, and plant growth. Bacteria and fungi decompose organic matter, releasing nut...
+
+Soil microbiology is the study of microorganisms in soil, including bacteria, fungi, protozoa, and algae. These microorganisms play a crucial role in sustainable agriculture by contributing to nutrient cycling, decomposition of organic matter, and disease suppression. They also help improve soil str...
+
+Water conservation techniques in sustainable agriculture aim to reduce water usage while maintaining or increasing crop yields. Some common techniques include implementing efficient irrigation methods such as drip irrigation, using rainwater harvesting systems to capture and store rainwater for late...
+
+Drip irrigation is a water-efficient method of watering crops by delivering water directly to the base of plants through a network of tubes and emitters. This technique reduces water wastage by minimizing evaporation and runoff, leading to significant water savings compared to traditional irrigation...
+
+Integrated Pest Management (IPM) is a holistic approach to pest control that aims to minimize the impact of pests while promoting environmental sustainability. It involves a combination of techniques such as biological control, habitat manipulation, use of resistant varieties, and the judicious use ...
+
+Integrated Pest Management (IPM) is a holistic approach to pest control that focuses on sustainable and environmentally-friendly practices. IPM combines biological, cultural, physical, and chemical tools to manage pests effectively while minimizing risks to human health and the environment. Some com...
+
+Sustainable crop rotation is a farming practice that involves planting different crops in a sequential order on the same piece of land. This method helps improve soil health, reduce pests and diseases, increase crop yields, and decrease the need for synthetic fertilizers and pesticides. By rotating ...
+
+Crop rotation is a sustainable agricultural practice that involves planting different crops in the same field in sequential seasons. This technique helps improve soil health, reduce pests and diseases, increase crop yield, and promote biodiversity. By rotating crops, farmers can break pest cycles, p...
+
+Climate-smart agriculture is an approach that helps to transform and reorient agricultural systems to effectively support food security in the face of climate change. It involves implementing practices that increase productivity, enhance resilience to climate change, and reduce greenhouse gas emissi...
+
+Climate-smart agriculture encompasses a range of practices and techniques aimed at mitigating the impacts of climate change on farming systems while ensuring sustainable food production. Some key techniques include conservation tillage, agroforestry, cover cropping, and precision agriculture. These ...
+
+Biodiversity conservation efforts in sustainable agriculture focus on promoting and preserving a wide variety of plant and animal species within agricultural landscapes. This is important for maintaining ecosystem health, as diverse ecosystems are more resilient to pests, diseases, and climate chang...
+
+Biodiversity conservation in sustainable agriculture is crucial for maintaining ecosystem services that support crop production. By preserving diverse plant and animal species within agroecosystems, farmers can enhance soil fertility, natural pest control, and pollination. This leads to increased re...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+🎲 Choice scenario triggered! (Rolled 3.4 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+1. Techniques of Regenerative Agriculture: Cover Cropping and Crop Rotation
+2. Benefits of Regenerative Agriculture: Improved Soil Health and Increased Biodiversity
+3. Case Studies of Successful Regenerative Agriculture Practices
+4. Principles of Agroecology: Biodiversity and Natural Resource Conservation
+5. Integration of Ecological Principles into Farming Practices
+6. Benefits of Agroecology for Sustainable Food Systems
+7. Role of Microorganisms in Soil Health and Nutrient Cycling
+8. Importance of Bacteria and Fungi in Sustainable Agriculture
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+1. Techniques of Regenerative Agriculture: Cover Cropping and Crop Rotation
+2. Benefits of Regenerative Agriculture: Improved Soil Health and Increased Biodiversity
+3. Case Studies of Successful Regenerative Agriculture Practices
+4. Principles of Agroecology: Biodiversity and Natural Resource Conservation
+5. Integration of Ecological Principles into Farming Practices
+6. Benefits of Agroecology for Sustainable Food Systems
+7. Role of Microorganisms in Soil Health and Nutrient Cycling
+8. Importance of Bacteria and Fungi in Sustainable Agriculture
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+1. Techniques of Regenerative Agriculture: Cover Cropping and Crop Rotation
+2. Benefits of Regenerative Agriculture: Improved Soil Health and Increased Biodiversity
+3. Case Studies of Successful Regenerative Agriculture Practices
+4. Principles of Agroecology: Biodiversity and Natural Resource Conservation
+5. Integration of Ecological Principles into Farming Practices
+6. Benefits of Agroecology for Sustainable Food Systems
+7. Role of Microorganisms in Soil Health and Nutrient Cycling
+8. Importance of Bacteria and Fungi in Sustainable Agriculture
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_16-14-30.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_16-14-30.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_16-14-47.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+✅ Content validation passed - suitable for 3 credit hours
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Sustainable Agriculture
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Techniques of Regenerative Agriculture: Cover Cropping and Crop Rotation)
+🔍 DEBUG: Slide 1 content set to: 'Regenerative agriculture focuses on improving soil health, restoring ecosystem balance, and enhancin...'
+🔍 DEBUG: Slide 1 content length: 470
+✅ Slide 1 content: - Regenerative agriculture focuses on improving soil health, restoring ecosystem balance, and enhancing biodiversity
+- Techniques such as cover cropping and crop rotation help sequester carbon, reduce erosion, and improve water retention in the soil
+- Benefits of regenerative agriculture include improved soil health, increased biodiversity, and reduced environmental impact
+- Successful implementation of regenerative techniques can lead to more resilient and productive farms
+Generating content for slide 2 (Topic: Benefits of Regenerative Agriculture: Improved Soil Health and Increased Biodiversity)
+🔍 DEBUG: Slide 2 content set to: '• Regenerative agriculture improves soil health, restores ecosystem balance, and enhances biodiversi...'
+🔍 DEBUG: Slide 2 content length: 419
+✅ Slide 2 content: • Regenerative agriculture improves soil health, restores ecosystem balance, and enhances biodiversity
+• Techniques like cover cropping and crop rotation help sequester carbon, reduce erosion, and improve water retention
+• Benefits of regenerative agriculture include improved soil health, increased biodiversity, and reduced environmental impact
+• Successful implementation leads to more resilient and productive farms
+Generating content for slide 3 (Topic: Case Studies of Successful Regenerative Agriculture Practices)
+🎲 Choice scenario triggered! (Rolled 18.3 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Case Study 1: Farmer John implemented crop rotation with legumes and cereals to improve soil health, reduce pests, and increase crop yield
+- Case Study 2: Farmer Sarah used cover cropping to prevent soil erosion, enhance nutrient availability, and promote biodiversity on her farm
+- Case Study 3: Farmer Mike integrated livestock grazing into his crop rotation strategy to break pest cycles and enhance soil fertility
+- These successful regenerative agriculture practices demonstrate the tangible benefits of implementing sustainable techniques in farming operations
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Case Study 1: Farmer John implemented crop rotation with legumes and cereals to improve soil health and increase crop yield
+- Case Study 2: Farmer Maria incorporated cover crops in her fields to prevent soil erosion and enhance nutrient availability
+- Case Study 3: Farmer Lee utilized livestock grazing in his agroforestry system to promote biodiversity and break pest cycles
+- These successful regenerative agriculture practices demonstrate the tangible benefits of implementing sustainable techniques in farming.
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 3 content set to: 'Case Study 1: Farmer John implemented crop rotation with legumes and cereals to improve soil health,...'
+🔍 DEBUG: Slide 3 content length: 453
+✅ Slide 3 content: - Case Study 1: Farmer John implemented crop rotation with legumes and cereals to improve soil health, reduce pests, and increase crop yield
+- Case Study 2: Farmer Sarah used cover cropping to prevent soil erosion, enhance nutrient availability, and promote biodiversity on her farm
+- Case Study 3: Farmer Mike integrated livestock grazing into his crop rotation strategy to break pest cycles and enhance soil fertility
+- These successful regenerative agriculture practices demonstrate the tangible benefits of implementing sustainable techniques in farming operations
+Generating content for slide 4 (Topic: Principles of Agroecology: Biodiversity and Natural Resource Conservation)
+🔍 DEBUG: Slide 4 content set to: 'Agroecology integrates ecological principles into farming practices Focuses on creating sustainable ...'
+🔍 DEBUG: Slide 4 content length: 327
+✅ Slide 4 content: - Agroecology integrates ecological principles into farming practices
+- Focuses on creating sustainable food systems in harmony with nature
+- Promotes biodiversity, soil health, and natural resource conservation
+- Key principles include promoting biodiversity, recycling nutrients, minimizing external inputs, and enhancing soil health
+Generating content for slide 5 (Topic: Integration of Ecological Principles into Farming Practices)
+🔍 DEBUG: Slide 5 content set to: '• Agroecology integrates ecological principles into farming practices • Focuses on creating sustaina...'
+🔍 DEBUG: Slide 5 content length: 335
+✅ Slide 5 content: • Agroecology integrates ecological principles into farming practices
+• Focuses on creating sustainable food systems in harmony with nature
+• Promotes biodiversity, soil health, and natural resource conservation
+• Key principles include promoting biodiversity, recycling nutrients, minimizing external inputs, and enhancing soil health
+Generating content for slide 6 (Topic: Benefits of Agroecology for Sustainable Food Systems)
+🔍 DEBUG: Slide 6 content set to: '• Agroecology promotes biodiversity, soil health, and natural resource conservation • Integrated eco...'
+🔍 DEBUG: Slide 6 content length: 378
+✅ Slide 6 content: • Agroecology promotes biodiversity, soil health, and natural resource conservation
+• Integrated ecological principles into farming practices for sustainable food systems
+• Emphasizes creating harmony with nature and enhancing resilience to environmental challenges
+• Key principles: promoting biodiversity, recycling nutrients, minimizing external inputs, enhancing soil health
+Generating content for slide 7 (Topic: Role of Microorganisms in Soil Health and Nutrient Cycling)
+🎲 Choice scenario triggered! (Rolled 1.9 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Microorganisms in soil, including bacteria, fungi, protozoa, and algae, play a crucial role in sustainable agriculture
+• These microorganisms contribute to soil health, nutrient cycling, and plant growth
+• Bacteria and fungi decompose organic matter, release nutrients for plants, and help suppress plant diseases
+• Understanding soil microbiology is essential for maintaining healthy soils and promoting sustainable agricultural practices
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Microorganisms in soil, including bacteria, fungi, protozoa, and algae, play a crucial role in sustainable agriculture
+• These microorganisms contribute to soil health, nutrient cycling, and plant growth
+• Bacteria and fungi decompose organic matter, release nutrients for plants, and help suppress plant diseases
+• Understanding soil microbiology is essential for maintaining healthy soils and promoting sustainable agricultural practices
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 7 content set to: '• Microorganisms in soil, including bacteria, fungi, protozoa, and algae, play a crucial role in sus...'
+🔍 DEBUG: Slide 7 content length: 441
+✅ Slide 7 content: • Microorganisms in soil, including bacteria, fungi, protozoa, and algae, play a crucial role in sustainable agriculture
+• These microorganisms contribute to soil health, nutrient cycling, and plant growth
+• Bacteria and fungi decompose organic matter, release nutrients for plants, and help suppress plant diseases
+• Understanding soil microbiology is essential for maintaining healthy soils and promoting sustainable agricultural practices
+Generating content for slide 8 (Topic: Importance of Bacteria and Fungi in Sustainable Agriculture)
+🔍 DEBUG: Slide 8 content set to: 'Bacteria and fungi in soil play a crucial role in sustainable agriculture Microorganisms contribute ...'
+🔍 DEBUG: Slide 8 content length: 258
+✅ Slide 8 content: - Bacteria and fungi in soil play a crucial role in sustainable agriculture
+- Microorganisms contribute to soil health, nutrient cycling, and plant growth
+- Bacteria and fungi decompose organic matter, release nutrients for plants, and help suppress plant diseases
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Techniques of Regenerative Agriculture: Cover Cropping and Crop Rotation)
+✅ Slide 1 title: Regenerative Agriculture Techniques: Cover Cropping & Rotation
+Generating title for slide 2 (Topic: Benefits of Regenerative Agriculture: Improved Soil Health and Increased Biodiversity)
+✅ Slide 2 title: Benefits of Regenerative Agriculture: Soil Health & Biodiversity
+Generating title for slide 3 (Topic: Case Studies of Successful Regenerative Agriculture Practices)
+✅ Slide 3 title: Successful Regenerative Agriculture Case Studies
+Generating title for slide 4 (Topic: Principles of Agroecology: Biodiversity and Natural Resource Conservation)
+✅ Slide 4 title: Agroecology Principles: Biodiversity & Conservation
+Generating title for slide 5 (Topic: Integration of Ecological Principles into Farming Practices)
+✅ Slide 5 title: Slide Title: Eco-Friendly Farming Practices Integration
+Generating title for slide 6 (Topic: Benefits of Agroecology for Sustainable Food Systems)
+✅ Slide 6 title: Benefits of Agroecology in Food Systems
+Generating title for slide 7 (Topic: Role of Microorganisms in Soil Health and Nutrient Cycling)
+✅ Slide 7 title: Role of Microorganisms in Soil Health
+Generating title for slide 8 (Topic: Importance of Bacteria and Fungi in Sustainable Agriculture)
+🎲 Choice scenario triggered! (Rolled 3.1 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Title: Soil Microorganisms: Key Players in Sustainable Agriculture
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Title: Microbial Role in Sustainable Agriculture
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 8 title: Title: Microbial Role in Sustainable Agriculture
+Generating overall presentation title...
+✅ Overall presentation title: Promoting Sustainable Agriculture Through Regenerative Techniques and Agroecology Principles
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Techniques of Regenerative Agriculture: Cover Cropping and Crop Rotation)
+🎲 Choice scenario triggered! (Rolled 15.1 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['regenerative agriculture cover cropping', 'regenerative agriculture crop rotation', 'soil health improvement techniques', 'biodiversity enhancement in agriculture', 'carbon sequestration methods in farming', 'sustainable farming practices', 'ecosystem balance restoration in agriculture']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['regenerative agriculture cover cropping rotation',
+ 'cover cropping benefits soil health',
+ 'crop rotation soil biodiversity',
+ 'regenerative techniques carbon sequestration',
+ 'improve water retention soil cover cropping',
+ 'benefits regenerative agriculture biodiversity',
+ 'resilient farms crop rotation techniques']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Benefits of Regenerative Agriculture: Improved Soil Health and Increased Biodiversity)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Case Studies of Successful Regenerative Agriculture Practices)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Principles of Agroecology: Biodiversity and Natural Resource Conservation)
+🎲 Choice scenario triggered! (Rolled 0.2 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['agroecology principles biodiversity conservation', 'ecological farming practices', 'sustainable food systems biodiversity', 'soil health natural resource conservation', 'promoting biodiversity in agriculture', 'minimizing external inputs farming', 'enhancing soil health agroecology', 'agroecology principles sustainable farming']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['agroecology principles biodiversity conservation', 'agroecology biodiversity promotion', 'agroecology soil health enhancement', 'sustainable farming biodiversity conservation', 'natural resource conservation in agriculture', 'ecological principles in farming', 'promoting biodiversity in agriculture', 'soil health in agroecology']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Integration of Ecological Principles into Farming Practices)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Benefits of Agroecology for Sustainable Food Systems)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Role of Microorganisms in Soil Health and Nutrient Cycling)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Importance of Bacteria and Fungi in Sustainable Agriculture)
+🎲 Choice scenario triggered! (Rolled 3.8 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['soil microbiology bacteria fungi sustainable agriculture', 'microbial role in soil health sustainable farming', 'benefits of bacteria and fungi in agriculture', 'nutrient cycling in sustainable practices', 'microorganisms in ecosystem health agriculture']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['microbial role in sustainable agriculture', 'bacteria and fungi in soil', 'importance of bacteria and fungi in agriculture', 'soil microorganisms in sustainable farming', 'benefits of bacteria and fungi in agriculture', 'nutrient cycling by bacteria and fungi', 'plant growth promotion by soil microorganisms']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Techniques of Regenerative Agriculture: Cover Cropping and Crop Rotation)
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Benefits of Regenerative Agriculture: Improved Soil Health and Increased Biodiversity)
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Case Studies of Successful Regenerative Agriculture Practices)
+⚠️ Warning: Slide 3 content is long (663 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Principles of Agroecology: Biodiversity and Natural Resource Conservation)
+⚠️ Warning: Slide 4 content is long (620 chars) - consider reducing
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Integration of Ecological Principles into Farming Practices)
+⚠️ Warning: Slide 5 content is long (690 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Benefits of Agroecology for Sustainable Food Systems)
+⚠️ Warning: Slide 6 content is long (759 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Role of Microorganisms in Soil Health and Nutrient Cycling)
+🎲 Choice scenario triggered! (Rolled 18.2 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Microorganisms in soil play a crucial role in maintaining soil health, nutrient cycling, and promoting plant growth by decomposing organic matter and releasing essential nutrients for plants.
+- Soil microbiology research offers insights into the interactions between microorganisms, plants, and the environment, leading to innovative solutions for sustainable farming practices.
+- Bacteria and fungi in soil microbiology contribute significantly to disease suppression in plants, reducing the reliance on chemical inputs and enhancing crop productivity.
+- Understanding soil microbiology is essential for farmers to improve soil fertility, enhance crop yields, and implement sustainable agricultural practices effectively.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Microorganisms in soil play a crucial role in nutrient cycling, breaking down organic matter to release essential nutrients for plant growth.
+- Soil microbiology research explores the interactions between microorganisms, plants, and the environment to develop sustainable farming practices.
+- Understanding the diversity and functions of soil microorganisms is key to enhancing soil fertility, promoting healthy plant growth, and reducing reliance on chemical inputs.
+- Soil microbiology contributes to the development of innovative solutions for sustainable agriculture, offering insights into optimizing soil health and ecosystem balance.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 7 content is long (724 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Importance of Bacteria and Fungi in Sustainable Agriculture)
+🎲 Choice scenario triggered! (Rolled 9.8 <= 25.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Soil microbiology involves a diverse range of microorganisms, including bacteria, fungi, protozoa, and algae, which play a critical role in nutrient cycling, decomposition of organic matter, and disease suppression in sustainable agriculture.
+- Microorganisms in soil contribute to improving soil structure, increasing water retention capacity, and enhancing plant growth by facilitating nutrient uptake and promoting root development.
+- Research in soil microbiology provides valuable insights into the intricate interactions between microorganisms, plants, and the environment, leading to the development of innovative solutions for sustainable farming practices.
+- Understanding the importance of soil microbiology is essential for farmers to effectively manage soil health, enhance crop productivity, and reduce the reliance on chemical inputs in agriculture.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Soil microbiology involves a diverse community of microorganisms, including bacteria, fungi, protozoa, and algae, that play a critical role in nutrient cycling, decomposition of organic matter, and disease suppression in sustainable agriculture.
+- Microorganisms in soil microbiology contribute to improving soil structure, enhancing water retention, and facilitating nutrient uptake by plants, ultimately promoting plant growth and overall soil health.
+- Research in soil microbiology provides valuable insights into the complex interactions between microorganisms, plants, and the environment, leading to the development of innovative and sustainable farming practices.
+- Understanding the significance of soil microbiology is essential for farmers to implement effective strategies for enhancing soil fertility, increasing crop productivity, and reducing the environmental impact of agricultural practices.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 8 content is long (865 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Promoting_Sustainable_Agriculture_Through_Regenerative_Techniques_and_Agroecology_Principles_2025-08-31_16-16-53
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Promoting_Sustainable_Agriculture_Through_Regenerative_Techniques_and_Agroecology_Principles_2025-08-31_16-16-53.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Promoting_Sustainable_Agriculture_Through_Regenerative_Techniques_and_Agroecology_Principles_2025-08-31_16-16-53.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 1 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Promoting_Sustainable_Agriculture_Through_Regenerative_Techniques_and_Agroecology_Principles_2025-08-31_16-16-53.pptx
+📊 Rating presentation 1...
+✅ Presentation 1 rated successfully
+📈 Overall Rating: 6.17 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.00 / 2.00
+   - Non-Repetition: 1.67 / 2.00
+   - Content Balance: 1.55 / 2.00
+   - Title Uniqueness: 1.92 / 2.00
+   - Title-Content Match: 1.03 / 2.00
+💾 Result saved to file for presentation 1
+
+📊 Presentation 3/10 (ID: 2)
+📝 Using topic: Public Health Crises Management
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

@@ -1,0 +1,1272 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T18:04:44.276728
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_18-04-44.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 7...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Vaccine Development Process
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Stages of vaccine development, Role of AI in vaccine research
+Selected topics: ['Stages of vaccine development', 'Role of AI in vaccine research']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Stages of vaccine development
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **STAGES OF VACCINE DEVELOPMENT** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 18.7 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Stages of Vaccine Development",
+    "keywords": ["vaccine", "development", "stages", "clinical trials", "preclinical", "approval"],
+    "text": "Vaccine development typically involves several stages, starting with exploratory research, followed by preclinical studies on cells and animals, then clinical trials in humans (Phase I, II, and III), regulatory review and approval, and finally manufacturing and distribution.",
+    "link": "https://www.who.int/immunization/research/vaccine_pipeline_tracker_spreadsheet/en/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Stages of Vaccine Development",
+    "keywords": ["vaccine", "development", "stages", "research", "clinical trials"],
+    "text": "Vaccine development typically goes through several stages, starting with exploratory research, pre-clinical testing on animals, clinical development in humans (including phases 1, 2, and 3 trials), regulatory review, and finally approval and post-marketing surveillance.",
+    "link": "https://www.who.int/vaccine_safety/initiative/development/en/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Stages of Vaccine Development",
+    "keywords": ["vaccine", "development", "stages", "research", "clinical trials"],
+    "text": "Vaccine development typically goes through several stages, starting with exploratory research, pre-clinical testing on animals, clinical development in humans (including phases 1, 2, and 3 trials), regulatory review, and finally approval and post-marketing surveillance.",
+    "link": "https://www.who.int/vaccine_safety/initiative/development/en/"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Stages of Vaccine Development
+Keywords: vaccine, development, stages, research, clinical trials
+Uses: 0
+Text: Vaccine development typically goes through several stages, starting with exploratory research, pre-clinical testing on animals, clinical development in humans (including phases 1, 2, and 3 trials), regulatory review, and finally approval and post-marketing surveillance.Link: https://www.who.int/vaccine_safety/initiative/development/en/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **STAGES OF VACCINE DEVELOPMENT** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 20.4 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Key Stages of Vaccine Development",
+    "keywords": ["vaccine development", "vaccine production", "vaccine testing", "clinical trials"],
+    "text": "The key stages of vaccine development include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control.",
+    "link": "https://www.who.int/health-topics/vaccines-and-immunization#tab=tab_1"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Preclinical Stage of Vaccine Development",
+    "keywords": ["vaccine development", "preclinical stage", "animal testing", "safety", "efficacy"],
+    "text": "The preclinical stage of vaccine development involves laboratory research and testing on cells and animals to assess the safety and efficacy of the vaccine candidate. This stage helps researchers understand how the vaccine works, identify potential side effects, and determine the appropriate dosage for further testing.",
+    "link": "https://www.historyofvaccines.org/content/articles/vaccine-development-testing-and-regulation" 
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Preclinical Stage of Vaccine Development",
+    "keywords": ["vaccine development", "preclinical stage", "animal testing", "safety", "efficacy"],
+    "text": "The preclinical stage of vaccine development involves laboratory research and testing on cells and animals to assess the safety and efficacy of the vaccine candidate. This stage helps researchers understand how the vaccine works, identify potential side effects, and determine the appropriate dosage for further testing.",
+    "link": "https://www.historyofvaccines.org/content/articles/vaccine-development-testing-and-regulation" 
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Preclinical Stage of Vaccine Development
+Keywords: vaccine development, preclinical stage, animal testing, safety, efficacy
+Uses: 0
+Text: The preclinical stage of vaccine development involves laboratory research and testing on cells and animals to assess the safety and efficacy of the vaccine candidate. This stage helps researchers understand how the vaccine works, identify potential side effects, and determine the appropriate dosage for further testing.Link: https://www.historyofvaccines.org/content/articles/vaccine-development-testing-and-regulation
+Researching topic: Role of AI in vaccine research
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF AI IN VACCINE RESEARCH** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Role of AI in Vaccine Research",
+    "keywords": ["AI", "Artificial Intelligence", "Vaccine Research", "Machine Learning", "Data Analysis"],
+    "text": "Artificial Intelligence (AI) is playing a significant role in vaccine research by expediting the process of vaccine development. AI algorithms are being used to analyze vast amounts of data, identify potential vaccine candidates, predict their efficacy, and optimize the vaccine design. Machine learning models can help in understanding the immune response to different pathogens, accelerating the identification of suitable targets for vaccines. AI also enables researchers to analyze clinical trial data more efficiently and identify potential adverse effects early in the development process.",
+    "link": "https://www.nature.com/articles/s41598-020-73692-w"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Role of AI in Vaccine Research
+Keywords: AI, Artificial Intelligence, Vaccine Research, Machine Learning, Data Analysis
+Uses: 0
+Text: Artificial Intelligence (AI) is playing a significant role in vaccine research by expediting the process of vaccine development. AI algorithms are being used to analyze vast amounts of data, identify potential vaccine candidates, predict their efficacy, and optimize the vaccine design. Machine learning models can help in understanding the immune response to different pathogens, accelerating the identification of suitable targets for vaccines. AI also enables researchers to analyze clinical trial data more efficiently and identify potential adverse effects early in the development process.Link: https://www.nature.com/articles/s41598-020-73692-w
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF AI IN VACCINE RESEARCH** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 4.3 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Applications of Artificial Intelligence in Vaccine Research",
+    "keywords": ["artificial intelligence", "vaccine research", "machine learning", "data analysis", "drug discovery"],
+    "text": "Artificial intelligence (AI) is being increasingly utilized in vaccine research to accelerate the development process. AI algorithms can analyze large volumes of data to identify potential vaccine candidates, predict their efficacy, and optimize dosage regimens. Machine learning techniques are also used to analyze genetic sequences and design new vaccines. AI can streamline the drug discovery process by identifying promising compounds and optimizing their chemical structures. Overall, AI has the potential to revolutionize vaccine research by making the process faster, more efficient, and cost-effective.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7135765/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Applications of Artificial Intelligence in Vaccine Development",
+    "keywords": ["artificial intelligence", "vaccine development", "machine learning", "data analysis"],
+    "text": "Artificial intelligence (AI) is playing a crucial role in vaccine research by expediting the process of identifying potential vaccine candidates, predicting vaccine efficacy, and optimizing vaccine designs. Machine learning algorithms are used to analyze large datasets, predict immunogenic epitopes, and identify novel vaccine targets. AI also helps in optimizing clinical trial design, predicting adverse reactions, and monitoring vaccine safety. Overall, AI is revolutionizing the field of vaccine development by enabling faster and more efficient research processes.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7912939/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Applications of Artificial Intelligence in Vaccine Research",
+    "keywords": ["artificial intelligence", "vaccine research", "machine learning", "data analysis", "drug discovery"],
+    "text": "Artificial intelligence (AI) is being increasingly utilized in vaccine research to accelerate the development process. AI algorithms can analyze large volumes of data to identify potential vaccine candidates, predict their efficacy, and optimize dosage regimens. Machine learning techniques are also used to analyze genetic sequences and design new vaccines. AI can streamline the drug discovery process by identifying promising compounds and optimizing their chemical structures. Overall, AI has the potential to revolutionize vaccine research by making the process faster, more efficient, and cost-effective.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7135765/"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Applications of Artificial Intelligence in Vaccine Research
+Keywords: artificial intelligence, vaccine research, machine learning, data analysis, drug discovery
+Uses: 0
+Text: Artificial intelligence (AI) is being increasingly utilized in vaccine research to accelerate the development process. AI algorithms can analyze large volumes of data to identify potential vaccine candidates, predict their efficacy, and optimize dosage regimens. Machine learning techniques are also used to analyze genetic sequences and design new vaccines. AI can streamline the drug discovery process by identifying promising compounds and optimizing their chemical structures. Overall, AI has the potential to revolutionize vaccine research by making the process faster, more efficient, and cost-effective.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7135765/
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Stages of vaccine development', 'Role of AI in vaccine research']. The research these yeilded is: ({Vaccine development typically goes through several stages, starting with exploratory research, pre-clinical testing on animals, clinical development in humans (including phases 1, 2, and 3 trials), regulatory review, and finally approval and post-marketing surveillance.
+
+The preclinical stage of vaccine development involves laboratory research and testing on cells and animals to assess the safety and efficacy of the vaccine candidate. This stage helps researchers understand how the vaccine works, identify potential side effects, and determine the appropriate dosage for further testing.
+
+Artificial Intelligence (AI) is playing a significant role in vaccine research by expediting the process of vaccine development. AI algorithms are being used to analyze vast amounts of data, identify potential vaccine candidates, predict their efficacy, and optimize the vaccine design. Machine learning models can help in understanding the immune response to different pathogens, accelerating the identifi (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Vaccine manufacturing process, Vaccine formulation development, Vaccine delivery systems, Vaccine adjuvants, Vaccine immunogenicity assessment, Vaccine safety evaluation
+Selected topics: ['Vaccine manufacturing process', 'Vaccine formulation development', 'Vaccine delivery systems', 'Vaccine adjuvants', 'Vaccine immunogenicity assessment', 'Vaccine safety evaluation']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Vaccine manufacturing process
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Research']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE MANUFACTURING PROCESS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Vaccine Manufacturing Process",
+    "keywords": ["vaccine", "manufacturing", "process", "production", "quality control"],
+    "text": "The vaccine manufacturing process involves several key steps including antigen generation, formulation, filling, labeling, and packaging. Once the antigen is produced, it goes through purification and testing to ensure its safety and efficacy. Quality control measures are implemented at each stage to meet regulatory standards.",
+    "link": "https://www.who.int/immunization/programmes_systems/supply_chain/WHO_IVB_05.10_vaccine_manufacture.pdf"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Vaccine Manufacturing Process
+Keywords: vaccine, manufacturing, process, production, quality control
+Uses: 0
+Text: The vaccine manufacturing process involves several key steps including antigen generation, formulation, filling, labeling, and packaging. Once the antigen is produced, it goes through purification and testing to ensure its safety and efficacy. Quality control measures are implemented at each stage to meet regulatory standards.Link: https://www.who.int/immunization/programmes_systems/supply_chain/WHO_IVB_05.10_vaccine_manufacture.pdf
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Research', 'Vaccine Manufacturing Process']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE MANUFACTURING PROCESS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 18.9 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Vaccine Manufacturing Process Overview",
+    "keywords": ["vaccine manufacturing", "vaccine production", "manufacturing process", "vaccine development"],
+    "text": "The vaccine manufacturing process involves several key steps, including antigen production, formulation, filling, packaging, and quality control testing. Antigens are the active ingredients in vaccines that stimulate the immune system. Once the antigen is produced, it is formulated into the final vaccine product, which may include adjuvants or stabilizers. The final vaccine is then filled into vials or syringes, packaged, and undergoes rigorous quality control testing to ensure safety, efficacy, and consistency.",
+    "link": "https://www.who.int/immunization/research/development/vaccine_manufacturing_process/en/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Vaccine Manufacturing Process Overview",
+    "keywords": ["vaccine manufacturing process", "vaccine production", "vaccine formulation", "vaccine quality control"],
+    "text": "The vaccine manufacturing process involves several key steps including antigen selection, formulation development, production, purification, testing, and packaging. Antigens are selected based on the target pathogen and desired immune response. Formulation development focuses on creating a stable and effective vaccine product. Production involves growing the antigen in cell cultures or eggs, followed by purification to isolate the antigen. Quality control tests are conducted throughout the process to ensure safety and efficacy. Finally, the vaccine is packaged for distribution.",
+    "link": "https://www.who.int/immunization/research/manufacturing/vaccine_manufacturing_processes/en/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Vaccine Manufacturing Process Overview",
+    "keywords": ["vaccine manufacturing process", "vaccine production", "vaccine formulation", "vaccine quality control"],
+    "text": "The vaccine manufacturing process involves several key steps including antigen selection, formulation development, production, purification, testing, and packaging. Antigens are selected based on the target pathogen and desired immune response. Formulation development focuses on creating a stable and effective vaccine product. Production involves growing the antigen in cell cultures or eggs, followed by purification to isolate the antigen. Quality control tests are conducted throughout the process to ensure safety and efficacy. Finally, the vaccine is packaged for distribution.",
+    "link": "https://www.who.int/immunization/research/manufacturing/vaccine_manufacturing_processes/en/"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Vaccine Manufacturing Process Overview
+Keywords: vaccine manufacturing process, vaccine production, vaccine formulation, vaccine quality control
+Uses: 0
+Text: The vaccine manufacturing process involves several key steps including antigen selection, formulation development, production, purification, testing, and packaging. Antigens are selected based on the target pathogen and desired immune response. Formulation development focuses on creating a stable and effective vaccine product. Production involves growing the antigen in cell cultures or eggs, followed by purification to isolate the antigen. Quality control tests are conducted throughout the process to ensure safety and efficacy. Finally, the vaccine is packaged for distribution.Link: https://www.who.int/immunization/research/manufacturing/vaccine_manufacturing_processes/en/
+Researching topic: Vaccine formulation development
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Research', 'Vaccine Manufacturing Process', 'Vaccine Manufacturing Process Overview']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE FORMULATION DEVELOPMENT** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 29.4 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Vaccine Formulation Development",
+    "keywords": ["vaccine formulation", "vaccine development", "formulation process"],
+    "text": "Vaccine formulation development involves the creation of a stable and effective vaccine product that can be safely administered to individuals. This process includes selecting the appropriate antigens, adjuvants, stabilizers, and other components to ensure the vaccine is both potent and safe for use. Formulation development also focuses on optimizing the delivery method of the vaccine to enhance its efficacy and ensure proper immune response in the body.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7140707/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Vaccine Formulation Development",
+    "keywords": ["vaccine", "formulation", "development", "vaccine formulation"],
+    "text": "Vaccine formulation development involves the process of designing the composition of a vaccine to ensure its effectiveness in eliciting an immune response. This includes selecting the appropriate antigens, adjuvants, stabilizers, and other components to create a safe and potent vaccine. Formulation development is crucial to ensure the stability, efficacy, and safety of the vaccine product.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7146530/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Vaccine Formulation Development",
+    "keywords": ["vaccine formulation", "vaccine development", "formulation process"],
+    "text": "Vaccine formulation development involves the creation of a stable and effective vaccine product that can be safely administered to individuals. This process includes selecting the appropriate antigens, adjuvants, stabilizers, and other components to ensure the vaccine is both potent and safe for use. Formulation development also focuses on optimizing the delivery method of the vaccine to enhance its efficacy and ensure proper immune response in the body.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7140707/"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Vaccine Formulation Development
+Keywords: vaccine formulation, vaccine development, formulation process
+Uses: 0
+Text: Vaccine formulation development involves the creation of a stable and effective vaccine product that can be safely administered to individuals. This process includes selecting the appropriate antigens, adjuvants, stabilizers, and other components to ensure the vaccine is both potent and safe for use. Formulation development also focuses on optimizing the delivery method of the vaccine to enhance its efficacy and ensure proper immune response in the body.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7140707/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Research', 'Vaccine Manufacturing Process', 'Vaccine Manufacturing Process Overview', 'Vaccine Formulation Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE FORMULATION DEVELOPMENT** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 21.6 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Challenges in Vaccine Formulation Development",
+    "keywords": ["vaccine formulation", "challenges", "development", "formulation optimization"],
+    "text": "Vaccine formulation development faces challenges such as achieving optimal stability, maintaining efficacy during storage, and ensuring proper immune response stimulation. Formulation optimization is crucial to address these challenges and enhance vaccine effectiveness.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7283388/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Challenges in Vaccine Formulation Development",
+    "keywords": ["vaccine formulation", "challenges", "development", "formulation optimization"],
+    "text": "Vaccine formulation development faces challenges such as achieving the desired immune response, stability of the vaccine components, scalability for mass production, and cost-effectiveness. Formulation optimization is crucial to ensure the vaccine's efficacy and safety.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7092763/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Challenges in Vaccine Formulation Development",
+    "keywords": ["vaccine formulation", "challenges", "development", "formulation optimization"],
+    "text": "Vaccine formulation development faces challenges such as achieving the desired immune response, stability of the vaccine components, scalability for mass production, and cost-effectiveness. Formulation optimization is crucial to ensure the vaccine's efficacy and safety.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7092763/"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Challenges in Vaccine Formulation Development
+Keywords: vaccine formulation, challenges, development, formulation optimization
+Uses: 0
+Text: Vaccine formulation development faces challenges such as achieving the desired immune response, stability of the vaccine components, scalability for mass production, and cost-effectiveness. Formulation optimization is crucial to ensure the vaccine's efficacy and safety.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7092763/
+Researching topic: Vaccine delivery systems
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Research', 'Vaccine Manufacturing Process', 'Vaccine Manufacturing Process Overview', 'Vaccine Formulation Development', 'Challenges in Vaccine Formulation Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE DELIVERY SYSTEMS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Vaccine Delivery Systems",
+    "keywords": ["vaccine", "delivery", "systems", "administration", "immunization"],
+    "text": "Vaccine delivery systems refer to the methods or techniques used to administer vaccines into the body for immunization. These systems play a crucial role in ensuring the effectiveness of vaccines by delivering them to the appropriate target cells or tissues. Common vaccine delivery systems include intramuscular injections, subcutaneous injections, oral vaccines, nasal vaccines, and needle-free delivery systems.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7167845/"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Vaccine Delivery Systems
+Keywords: vaccine, delivery, systems, administration, immunization
+Uses: 0
+Text: Vaccine delivery systems refer to the methods or techniques used to administer vaccines into the body for immunization. These systems play a crucial role in ensuring the effectiveness of vaccines by delivering them to the appropriate target cells or tissues. Common vaccine delivery systems include intramuscular injections, subcutaneous injections, oral vaccines, nasal vaccines, and needle-free delivery systems.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7167845/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Research', 'Vaccine Manufacturing Process', 'Vaccine Manufacturing Process Overview', 'Vaccine Formulation Development', 'Challenges in Vaccine Formulation Development', 'Vaccine Delivery Systems']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE DELIVERY SYSTEMS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Types of Vaccine Delivery Systems",
+    "keywords": ["vaccine delivery systems", "types", "administration", "immunization", "injection", "oral", "intranasal", "transdermal", "microneedles"],
+    "text": "Vaccine delivery systems refer to the methods used to administer vaccines into the body. There are various types of vaccine delivery systems, including traditional injection, oral vaccines, intranasal vaccines, and transdermal vaccines. Some innovative approaches include the use of microneedles for vaccine delivery, which can be less invasive and more convenient for patients.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7287325/"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Types of Vaccine Delivery Systems
+Keywords: vaccine delivery systems, types, administration, immunization, injection, oral, intranasal, transdermal, microneedles
+Uses: 0
+Text: Vaccine delivery systems refer to the methods used to administer vaccines into the body. There are various types of vaccine delivery systems, including traditional injection, oral vaccines, intranasal vaccines, and transdermal vaccines. Some innovative approaches include the use of microneedles for vaccine delivery, which can be less invasive and more convenient for patients.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7287325/
+Researching topic: Vaccine adjuvants
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Research', 'Vaccine Manufacturing Process', 'Vaccine Manufacturing Process Overview', 'Vaccine Formulation Development', 'Challenges in Vaccine Formulation Development', 'Vaccine Delivery Systems', 'Types of Vaccine Delivery Systems']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE ADJUVANTS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Vaccine Adjuvants",
+    "keywords": ["vaccine adjuvants", "adjuvants in vaccines", "immune response enhancement", "vaccine efficacy"],
+    "text": "Vaccine adjuvants are substances added to vaccines to enhance the immune response and improve vaccine efficacy. They work by activating the immune system and promoting a stronger and longer-lasting immune response to the vaccine antigens. Adjuvants can also allow for smaller doses of antigens to be used in vaccines, reducing the cost of production and increasing vaccine availability.",
+    "link": "https://www.who.int/vaccine_safety/initiative/tools/Adjuvants_Vaccine.pdf"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Vaccine Adjuvants
+Keywords: vaccine adjuvants, adjuvants in vaccines, immune response enhancement, vaccine efficacy
+Uses: 0
+Text: Vaccine adjuvants are substances added to vaccines to enhance the immune response and improve vaccine efficacy. They work by activating the immune system and promoting a stronger and longer-lasting immune response to the vaccine antigens. Adjuvants can also allow for smaller doses of antigens to be used in vaccines, reducing the cost of production and increasing vaccine availability.Link: https://www.who.int/vaccine_safety/initiative/tools/Adjuvants_Vaccine.pdf
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Research', 'Vaccine Manufacturing Process', 'Vaccine Manufacturing Process Overview', 'Vaccine Formulation Development', 'Challenges in Vaccine Formulation Development', 'Vaccine Delivery Systems', 'Types of Vaccine Delivery Systems', 'Vaccine Adjuvants']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE ADJUVANTS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Role of Adjuvants in Vaccine Development",
+    "keywords": ["adjuvants", "vaccine development", "immunology", "immune response"],
+    "text": "Adjuvants are substances added to vaccines to enhance the immune response. They work by activating the immune system and promoting a stronger and longer-lasting response to the vaccine antigens. Adjuvants help improve the efficacy of vaccines, reduce the amount of antigen needed in each dose, and enhance the immune response in populations with weaker immune systems, such as the elderly.",
+    "link": "https://www.who.int/vaccine_safety/initiative/tools/Adjuvants-vaccine.pdf"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Role of Adjuvants in Vaccine Development
+Keywords: adjuvants, vaccine development, immunology, immune response
+Uses: 0
+Text: Adjuvants are substances added to vaccines to enhance the immune response. They work by activating the immune system and promoting a stronger and longer-lasting response to the vaccine antigens. Adjuvants help improve the efficacy of vaccines, reduce the amount of antigen needed in each dose, and enhance the immune response in populations with weaker immune systems, such as the elderly.Link: https://www.who.int/vaccine_safety/initiative/tools/Adjuvants-vaccine.pdf
+Researching topic: Vaccine immunogenicity assessment
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Research', 'Vaccine Manufacturing Process', 'Vaccine Manufacturing Process Overview', 'Vaccine Formulation Development', 'Challenges in Vaccine Formulation Development', 'Vaccine Delivery Systems', 'Types of Vaccine Delivery Systems', 'Vaccine Adjuvants', 'Role of Adjuvants in Vaccine Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE IMMUNOGENICITY ASSESSMENT** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Vaccine Immunogenicity Assessment",
+    "keywords": ["vaccine", "immunogenicity", "assessment"],
+    "text": "Vaccine immunogenicity assessment is the process of evaluating the ability of a vaccine to induce an immune response in the body. This assessment typically involves measuring the levels of specific antibodies or immune cells produced in response to the vaccine. It helps determine the effectiveness of the vaccine in generating immunity against the targeted pathogen.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7579710/"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Vaccine Immunogenicity Assessment
+Keywords: vaccine, immunogenicity, assessment
+Uses: 0
+Text: Vaccine immunogenicity assessment is the process of evaluating the ability of a vaccine to induce an immune response in the body. This assessment typically involves measuring the levels of specific antibodies or immune cells produced in response to the vaccine. It helps determine the effectiveness of the vaccine in generating immunity against the targeted pathogen.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7579710/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Research', 'Vaccine Manufacturing Process', 'Vaccine Manufacturing Process Overview', 'Vaccine Formulation Development', 'Challenges in Vaccine Formulation Development', 'Vaccine Delivery Systems', 'Types of Vaccine Delivery Systems', 'Vaccine Adjuvants', 'Role of Adjuvants in Vaccine Development', 'Vaccine Immunogenicity Assessment']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE IMMUNOGENICITY ASSESSMENT** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Methods for Vaccine Immunogenicity Assessment",
+    "keywords": ["vaccine", "immunogenicity", "assessment", "methods", "immune response"],
+    "text": "There are several methods used to assess the immunogenicity of vaccines. These include enzyme-linked immunosorbent assay (ELISA), neutralization assays, flow cytometry, and cytokine profiling. ELISA is commonly used to measure the levels of specific antibodies in the blood after vaccination. Neutralization assays assess the ability of antibodies to neutralize the virus or bacteria targeted by the vaccine. Flow cytometry can be used to analyze the immune cell populations activated by the vaccine. Cytokine profiling measures the levels of various cytokines produced by immune cells in response to vaccination.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191216/"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Methods for Vaccine Immunogenicity Assessment
+Keywords: vaccine, immunogenicity, assessment, methods, immune response
+Uses: 0
+Text: There are several methods used to assess the immunogenicity of vaccines. These include enzyme-linked immunosorbent assay (ELISA), neutralization assays, flow cytometry, and cytokine profiling. ELISA is commonly used to measure the levels of specific antibodies in the blood after vaccination. Neutralization assays assess the ability of antibodies to neutralize the virus or bacteria targeted by the vaccine. Flow cytometry can be used to analyze the immune cell populations activated by the vaccine. Cytokine profiling measures the levels of various cytokines produced by immune cells in response to vaccination.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191216/
+Researching topic: Vaccine safety evaluation
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Research', 'Vaccine Manufacturing Process', 'Vaccine Manufacturing Process Overview', 'Vaccine Formulation Development', 'Challenges in Vaccine Formulation Development', 'Vaccine Delivery Systems', 'Types of Vaccine Delivery Systems', 'Vaccine Adjuvants', 'Role of Adjuvants in Vaccine Development', 'Vaccine Immunogenicity Assessment', 'Methods for Vaccine Immunogenicity Assessment']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE SAFETY EVALUATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Vaccine Safety Evaluation",
+    "keywords": ["vaccine safety", "adverse effects", "clinical trials", "pharmacovigilance", "vaccine monitoring"],
+    "text": "Vaccine safety evaluation is a critical component of the vaccine development process. It involves assessing the potential risks and benefits of a vaccine through various methods such as clinical trials, post-marketing surveillance, and pharmacovigilance. Adverse effects are closely monitored to ensure the overall safety profile of the vaccine. Continuous monitoring and evaluation are essential to detect and address any safety concerns that may arise.",
+    "link": "https://www.who.int/vaccine_safety/initiative/en/"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Vaccine Safety Evaluation
+Keywords: vaccine safety, adverse effects, clinical trials, pharmacovigilance, vaccine monitoring
+Uses: 0
+Text: Vaccine safety evaluation is a critical component of the vaccine development process. It involves assessing the potential risks and benefits of a vaccine through various methods such as clinical trials, post-marketing surveillance, and pharmacovigilance. Adverse effects are closely monitored to ensure the overall safety profile of the vaccine. Continuous monitoring and evaluation are essential to detect and address any safety concerns that may arise.Link: https://www.who.int/vaccine_safety/initiative/en/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Preclinical Stage of Vaccine Development', 'Role of AI in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Research', 'Vaccine Manufacturing Process', 'Vaccine Manufacturing Process Overview', 'Vaccine Formulation Development', 'Challenges in Vaccine Formulation Development', 'Vaccine Delivery Systems', 'Types of Vaccine Delivery Systems', 'Vaccine Adjuvants', 'Role of Adjuvants in Vaccine Development', 'Vaccine Immunogenicity Assessment', 'Methods for Vaccine Immunogenicity Assessment', 'Vaccine Safety Evaluation']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **VACCINE SAFETY EVALUATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Importance of Vaccine Safety Evaluation",
+    "keywords": ["vaccine safety evaluation", "vaccine safety", "adverse reactions", "vaccine monitoring"],
+    "text": "Vaccine safety evaluation is a crucial step in the vaccine development process to ensure that vaccines are safe for use in the general population. It involves monitoring for any adverse reactions or side effects that may occur after vaccination. This process helps to maintain public trust in vaccines and ensures their continued effectiveness in preventing disease.",
+    "link": "https://www.cdc.gov/vaccinesafety/index.html"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Importance of Vaccine Safety Evaluation
+Keywords: vaccine safety evaluation, vaccine safety, adverse reactions, vaccine monitoring
+Uses: 0
+Text: Vaccine safety evaluation is a crucial step in the vaccine development process to ensure that vaccines are safe for use in the general population. It involves monitoring for any adverse reactions or side effects that may occur after vaccination. This process helps to maintain public trust in vaccines and ensures their continued effectiveness in preventing disease.Link: https://www.cdc.gov/vaccinesafety/index.html
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Vaccine development typically goes through several stages, starting with exploratory research, pre-clinical testing on animals, clinical development in humans (including phases 1, 2, and 3 trials), regulatory review, and finally approval and post-marketing surveillance.
+
+The preclinical stage of vaccine development involves laboratory research and testing on cells and animals to assess the safety and efficacy of the vaccine candidate. This stage helps researchers understand how the vaccine works, identify potential side effects, and determine the appropriate dosage ...
+
+Artificial Intelligence (AI) is playing a significant role in vaccine research by expediting the process of vaccine development. AI algorithms are being used to analyze vast amounts of data, identify potential vaccine candidates, predict their efficacy, and optimize the vaccine design. Machine learn...
+
+Artificial intelligence (AI) is being increasingly utilized in vaccine research to accelerate the development process. AI algorithms can analyze large volumes of data to identify potential vaccine candidates, predict their efficacy, and optimize dosage regimens. Machine learning techniques are also ...
+
+The vaccine manufacturing process involves several key steps including antigen generation, formulation, filling, labeling, and packaging. Once the antigen is produced, it goes through purification and testing to ensure its safety and efficacy. Quality control measures are implemented at each stage t...
+
+The vaccine manufacturing process involves several key steps including antigen selection, formulation development, production, purification, testing, and packaging. Antigens are selected based on the target pathogen and desired immune response. Formulation development focuses on creating a stable an...
+
+Vaccine formulation development involves the creation of a stable and effective vaccine product that can be safely administered to individuals. This process includes selecting the appropriate antigens, adjuvants, stabilizers, and other components to ensure the vaccine is both potent and safe for use...
+
+Vaccine formulation development faces challenges such as achieving the desired immune response, stability of the vaccine components, scalability for mass production, and cost-effectiveness. Formulation optimization is crucial to ensure the vaccine's efficacy and safety.
+
+Vaccine delivery systems refer to the methods or techniques used to administer vaccines into the body for immunization. These systems play a crucial role in ensuring the effectiveness of vaccines by delivering them to the appropriate target cells or tissues. Common vaccine delivery systems include i...
+
+Vaccine delivery systems refer to the methods used to administer vaccines into the body. There are various types of vaccine delivery systems, including traditional injection, oral vaccines, intranasal vaccines, and transdermal vaccines. Some innovative approaches include the use of microneedles for ...
+
+Vaccine adjuvants are substances added to vaccines to enhance the immune response and improve vaccine efficacy. They work by activating the immune system and promoting a stronger and longer-lasting immune response to the vaccine antigens. Adjuvants can also allow for smaller doses of antigens to be ...
+
+Adjuvants are substances added to vaccines to enhance the immune response. They work by activating the immune system and promoting a stronger and longer-lasting response to the vaccine antigens. Adjuvants help improve the efficacy of vaccines, reduce the amount of antigen needed in each dose, and en...
+
+Vaccine immunogenicity assessment is the process of evaluating the ability of a vaccine to induce an immune response in the body. This assessment typically involves measuring the levels of specific antibodies or immune cells produced in response to the vaccine. It helps determine the effectiveness o...
+
+There are several methods used to assess the immunogenicity of vaccines. These include enzyme-linked immunosorbent assay (ELISA), neutralization assays, flow cytometry, and cytokine profiling. ELISA is commonly used to measure the levels of specific antibodies in the blood after vaccination. Neutral...
+
+Vaccine safety evaluation is a critical component of the vaccine development process. It involves assessing the potential risks and benefits of a vaccine through various methods such as clinical trials, post-marketing surveillance, and pharmacovigilance. Adverse effects are closely monitored to ensu...
+
+Vaccine safety evaluation is a crucial step in the vaccine development process to ensure that vaccines are safe for use in the general population. It involves monitoring for any adverse reactions or side effects that may occur after vaccination. This process helps to maintain public trust in vaccine...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+Raw response:
+4
+.
+Topic count decided: 4
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Vaccine development typically goes through several stages, starting with exploratory research, pre-clinical testing on animals, clinical development in humans (including phases 1, 2, and 3 trials), regulatory review, and finally approval and post-marketing surveillance.
+
+The preclinical stage of vaccine development involves laboratory research and testing on cells and animals to assess the safety and efficacy of the vaccine candidate. This stage helps researchers understand how the vaccine works, identify potential side effects, and determine the appropriate dosage ...
+
+Artificial Intelligence (AI) is playing a significant role in vaccine research by expediting the process of vaccine development. AI algorithms are being used to analyze vast amounts of data, identify potential vaccine candidates, predict their efficacy, and optimize the vaccine design. Machine learn...
+
+Artificial intelligence (AI) is being increasingly utilized in vaccine research to accelerate the development process. AI algorithms can analyze large volumes of data to identify potential vaccine candidates, predict their efficacy, and optimize dosage regimens. Machine learning techniques are also ...
+
+The vaccine manufacturing process involves several key steps including antigen generation, formulation, filling, labeling, and packaging. Once the antigen is produced, it goes through purification and testing to ensure its safety and efficacy. Quality control measures are implemented at each stage t...
+
+The vaccine manufacturing process involves several key steps including antigen selection, formulation development, production, purification, testing, and packaging. Antigens are selected based on the target pathogen and desired immune response. Formulation development focuses on creating a stable an...
+
+Vaccine formulation development involves the creation of a stable and effective vaccine product that can be safely administered to individuals. This process includes selecting the appropriate antigens, adjuvants, stabilizers, and other components to ensure the vaccine is both potent and safe for use...
+
+Vaccine formulation development faces challenges such as achieving the desired immune response, stability of the vaccine components, scalability for mass production, and cost-effectiveness. Formulation optimization is crucial to ensure the vaccine's efficacy and safety.
+
+Vaccine delivery systems refer to the methods or techniques used to administer vaccines into the body for immunization. These systems play a crucial role in ensuring the effectiveness of vaccines by delivering them to the appropriate target cells or tissues. Common vaccine delivery systems include i...
+
+Vaccine delivery systems refer to the methods used to administer vaccines into the body. There are various types of vaccine delivery systems, including traditional injection, oral vaccines, intranasal vaccines, and transdermal vaccines. Some innovative approaches include the use of microneedles for ...
+
+Vaccine adjuvants are substances added to vaccines to enhance the immune response and improve vaccine efficacy. They work by activating the immune system and promoting a stronger and longer-lasting immune response to the vaccine antigens. Adjuvants can also allow for smaller doses of antigens to be ...
+
+Adjuvants are substances added to vaccines to enhance the immune response. They work by activating the immune system and promoting a stronger and longer-lasting response to the vaccine antigens. Adjuvants help improve the efficacy of vaccines, reduce the amount of antigen needed in each dose, and en...
+
+Vaccine immunogenicity assessment is the process of evaluating the ability of a vaccine to induce an immune response in the body. This assessment typically involves measuring the levels of specific antibodies or immune cells produced in response to the vaccine. It helps determine the effectiveness o...
+
+There are several methods used to assess the immunogenicity of vaccines. These include enzyme-linked immunosorbent assay (ELISA), neutralization assays, flow cytometry, and cytokine profiling. ELISA is commonly used to measure the levels of specific antibodies in the blood after vaccination. Neutral...
+
+Vaccine safety evaluation is a critical component of the vaccine development process. It involves assessing the potential risks and benefits of a vaccine through various methods such as clinical trials, post-marketing surveillance, and pharmacovigilance. Adverse effects are closely monitored to ensu...
+
+Vaccine safety evaluation is a crucial step in the vaccine development process to ensure that vaccines are safe for use in the general population. It involves monitoring for any adverse reactions or side effects that may occur after vaccination. This process helps to maintain public trust in vaccine...}). You are to come up with {4} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Week 1: Introduction to Vaccine Development
+
+Main Topic Title: Overview of Vaccine Development Process
+- Sub-topics:
+  1. Exploratory Research and Preclinical Testing
+  2. Clinical Development Phases 1, 2, and 3
+  3. Regulatory Review and Approval
+- Explanation: This topic will cover the different stages of vaccine development, including exploratory research, preclinical testing, clinical trials, regulatory review, and approval, as outlined in the research database content.
+- Learning Objectives: By the end of this topic, students should be able to understand the sequential stages of vaccine development and the significance of each stage in bringing a vaccine to market.
+- Estimated Number of Slides: 15
+- Lab Activities/Practical Exercises: Analyzing case studies of successful vaccine development processes.
+- Real-World Applications: Understanding how vaccines are developed and approved in real-world scenarios.
+
+Week 2: Role of Artificial Intelligence in Vaccine Research
+
+Main Topic Title: Artificial Intelligence in Vaccine Research
+- Sub-topics:
+  1. AI Algorithms for Vaccine Candidate Identification
+  2. Predicting Vaccine Efficacy using AI
+  3. Optimization of Vaccine Design with Machine Learning
+- Explanation: This topic will focus on the role of artificial intelligence in expediting vaccine development, as highlighted in the research database content.
+- Learning Objectives: Students should be able to comprehend how AI algorithms are utilized in vaccine research to identify potential candidates, predict efficacy, and optimize vaccine design.
+- Estimated Number of Slides: 20
+- Lab Activities/Practical Exercises: Using AI tools to analyze vaccine data and predict efficacy.
+- Real-World Applications: Understanding how AI is transforming vaccine research and development processes.
+
+Week 3: Vaccine Manufacturing Process
+
+Main Topic Title: Key Steps in Vaccine Manufacturing
+- Sub-topics:
+  1. Antigen Generation and Selection
+  2. Formulation Development and Testing
+  3. Purification, Packaging, and Quality Control
+- Explanation: This topic will delve into the various steps involved in manufacturing vaccines, including antigen selection, formulation development, purification, and quality control, as outlined in the research database content.
+- Learning Objectives: Students should be able to understand the manufacturing process of vaccines and the importance of quality control measures at each stage.
+- Estimated Number of Slides: 25
+- Lab Activities/Practical Exercises: Simulating vaccine formulation development and testing processes.
+- Real-World Applications: Exploring how vaccines are manufactured and distributed on a global scale.
+
+Week 4: Vaccine Delivery Systems and Adjuvants
+
+Main Topic Title: Vaccine Delivery Systems and Adjuvants
+- Sub-topics:
+  1. Types of Vaccine Delivery Systems
+  2. Role of Adjuvants in Enhancing Vaccine Efficacy
+  3. Immunogenicity Assessment of Vaccines
+- Explanation: This topic will cover the different vaccine delivery systems, the significance of adjuvants in boosting immune responses, and methods for assessing vaccine immunogenicity, as discussed in the research database content.
+- Learning Objectives: Students should be able to differentiate between various vaccine delivery systems, understand the role of adjuvants in vaccine efficacy, and assess the immunogenicity of vaccines.
+- Estimated Number of Slides: 30
+- Lab Activities/Practical Exercises: Designing a vaccine delivery system and assessing its immunogenicity.
+- Real-World Applications: Understanding how vaccine delivery systems and adjuvants impact vaccine effectiveness in real-world immunization programs.
+
+This comprehensive teaching plan is designed to provide senior undergraduate students with a detailed understanding of vaccine development processes, the role of artificial intelligence, manufacturing procedures, and vaccine delivery systems. Each week will build upon the previous topics, leading to a holistic comprehension of the complexities involved in creating and distributing vaccines.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Week 1: Introduction to Vaccine Development
+
+Main Topic Title: Overview of Vaccine Development Process
+- Sub-topics:
+  1. Exploratory Research and Preclinical Testing
+  2. Clinical Development Phases 1, 2, and 3
+  3. Regulatory Review and Approval
+- Explanation: This topic will cover the different stages of vaccine development, including exploratory research, preclinical testing, clinical trials, regulatory review, and approval, as outlined in the research database content.
+- Learning Objectives: By the end of this topic, students should be able to understand the sequential stages of vaccine development and the significance of each stage in bringing a vaccine to market.
+- Estimated Number of Slides: 15
+- Lab Activities/Practical Exercises: Analyzing case studies of successful vaccine development processes.
+- Real-World Applications: Understanding how vaccines are developed and approved in real-world scenarios.
+
+Week 2: Role of Artificial Intelligence in Vaccine Research
+
+Main Topic Title: Artificial Intelligence in Vaccine Research
+- Sub-topics:
+  1. AI Algorithms for Vaccine Candidate Identification
+  2. Predicting Vaccine Efficacy using AI
+  3. Optimization of Vaccine Design with Machine Learning
+- Explanation: This topic will focus on the role of artificial intelligence in expediting vaccine development, as highlighted in the research database content.
+- Learning Objectives: Students should be able to comprehend how AI algorithms are utilized in vaccine research to identify potential candidates, predict efficacy, and optimize vaccine design.
+- Estimated Number of Slides: 20
+- Lab Activities/Practical Exercises: Using AI tools to analyze vaccine data and predict efficacy.
+- Real-World Applications: Understanding how AI is transforming vaccine research and development processes.
+
+Week 3: Vaccine Manufacturing Process
+
+Main Topic Title: Key Steps in Vaccine Manufacturing
+- Sub-topics:
+  1. Antigen Generation and Selection
+  2. Formulation Development and Testing
+  3. Purification, Packaging, and Quality Control
+- Explanation: This topic will delve into the various steps involved in manufacturing vaccines, including antigen selection, formulation development, purification, and quality control, as outlined in the research database content.
+- Learning Objectives: Students should be able to understand the manufacturing process of vaccines and the importance of quality control measures at each stage.
+- Estimated Number of Slides: 25
+- Lab Activities/Practical Exercises: Simulating vaccine formulation development and testing processes.
+- Real-World Applications: Exploring how vaccines are manufactured and distributed on a global scale.
+
+Week 4: Vaccine Delivery Systems and Adjuvants
+
+Main Topic Title: Vaccine Delivery Systems and Adjuvants
+- Sub-topics:
+  1. Types of Vaccine Delivery Systems
+  2. Role of Adjuvants in Enhancing Vaccine Efficacy
+  3. Immunogenicity Assessment of Vaccines
+- Explanation: This topic will cover the different vaccine delivery systems, the significance of adjuvants in boosting immune responses, and methods for assessing vaccine immunogenicity, as discussed in the research database content.
+- Learning Objectives: Students should be able to differentiate between various vaccine delivery systems, understand the role of adjuvants in vaccine efficacy, and assess the immunogenicity of vaccines.
+- Estimated Number of Slides: 30
+- Lab Activities/Practical Exercises: Designing a vaccine delivery system and assessing its immunogenicity.
+- Real-World Applications: Understanding how vaccine delivery systems and adjuvants impact vaccine effectiveness in real-world immunization programs.
+
+This comprehensive teaching plan is designed to provide senior undergraduate students with a detailed understanding of vaccine development processes, the role of artificial intelligence, manufacturing procedures, and vaccine delivery systems. Each week will build upon the previous topics, leading to a holistic comprehension of the complexities involved in creating and distributing vaccines.}). Total slides available: {8}. Topics to allocate: {4}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[15, 20, 25, 30]
+.
+Slide allocation: [1, 1, 1, 5]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Week 1: Introduction to Vaccine Development
+
+Main Topic Title: Overview of Vaccine Development Process
+- Sub-topics:
+  1. Exploratory Research and Preclinical Testing
+  2. Clinical Development Phases 1, 2, and 3
+  3. Regulatory Review and Approval
+- Explanation: This topic will cover the different stages of vaccine development, including exploratory research, preclinical testing, clinical trials, regulatory review, and approval, as outlined in the research database content.
+- Learning Objectives: By the end of this topic, students should be able to understand the sequential stages of vaccine development and the significance of each stage in bringing a vaccine to market.
+- Estimated Number of Slides: 15
+- Lab Activities/Practical Exercises: Analyzing case studies of successful vaccine development processes.
+- Real-World Applications: Understanding how vaccines are developed and approved in real-world scenarios.
+
+Week 2: Role of Artificial Intelligence in Vaccine Research
+
+Main Topic Title: Artificial Intelligence in Vaccine Research
+- Sub-topics:
+  1. AI Algorithms for Vaccine Candidate Identification
+  2. Predicting Vaccine Efficacy using AI
+  3. Optimization of Vaccine Design with Machine Learning
+- Explanation: This topic will focus on the role of artificial intelligence in expediting vaccine development, as highlighted in the research database content.
+- Learning Objectives: Students should be able to comprehend how AI algorithms are utilized in vaccine research to identify potential candidates, predict efficacy, and optimize vaccine design.
+- Estimated Number of Slides: 20
+- Lab Activities/Practical Exercises: Using AI tools to analyze vaccine data and predict efficacy.
+- Real-World Applications: Understanding how AI is transforming vaccine research and development processes.
+
+Week 3: Vaccine Manufacturing Process
+
+Main Topic Title: Key Steps in Vaccine Manufacturing
+- Sub-topics:
+  1. Antigen Generation and Selection
+  2. Formulation Development and Testing
+  3. Purification, Packaging, and Quality Control
+- Explanation: This topic will delve into the various steps involved in manufacturing vaccines, including antigen selection, formulation development, purification, and quality control, as outlined in the research database content.
+- Learning Objectives: Students should be able to understand the manufacturing process of vaccines and the importance of quality control measures at each stage.
+- Estimated Number of Slides: 25
+- Lab Activities/Practical Exercises: Simulating vaccine formulation development and testing processes.
+- Real-World Applications: Exploring how vaccines are manufactured and distributed on a global scale.
+
+Week 4: Vaccine Delivery Systems and Adjuvants
+
+Main Topic Title: Vaccine Delivery Systems and Adjuvants
+- Sub-topics:
+  1. Types of Vaccine Delivery Systems
+  2. Role of Adjuvants in Enhancing Vaccine Efficacy
+  3. Immunogenicity Assessment of Vaccines
+- Explanation: This topic will cover the different vaccine delivery systems, the significance of adjuvants in boosting immune responses, and methods for assessing vaccine immunogenicity, as discussed in the research database content.
+- Learning Objectives: Students should be able to differentiate between various vaccine delivery systems, understand the role of adjuvants in vaccine efficacy, and assess the immunogenicity of vaccines.
+- Estimated Number of Slides: 30
+- Lab Activities/Practical Exercises: Designing a vaccine delivery system and assessing its immunogenicity.
+- Real-World Applications: Understanding how vaccine delivery systems and adjuvants impact vaccine effectiveness in real-world immunization programs.
+
+This comprehensive teaching plan is designed to provide senior undergraduate students with a detailed understanding of vaccine development processes, the role of artificial intelligence, manufacturing procedures, and vaccine delivery systems. Each week will build upon the previous topics, leading to a holistic comprehension of the complexities involved in creating and distributing vaccines.}). Slide allocation per topic: {[1, 1, 1, 5]}. Database content for reference: ({Vaccine development typically goes through several stages, starting with exploratory research, pre-clinical testing on animals, clinical development in humans (including phases 1, 2, and 3 trials), regulatory review, and finally approval and post-marketing surveillance.
+
+The preclinical stage of vaccine development involves laboratory research and testing on cells and animals to assess the safety and efficacy of the vaccine candidate. This stage helps researchers understand how the vaccine works, identify potential side effects, and determine the appropriate dosage ...
+
+Artificial Intelligence (AI) is playing a significant role in vaccine research by expediting the process of vaccine development. AI algorithms are being used to analyze vast amounts of data, identify potential vaccine candidates, predict their efficacy, and optimize the vaccine design. Machine learn...
+
+Artificial intelligence (AI) is being increasingly utilized in vaccine research to accelerate the development process. AI algorithms can analyze large volumes of data to identify potential vaccine candidates, predict their efficacy, and optimize dosage regimens. Machine learning techniques are also ...
+
+The vaccine manufacturing process involves several key steps including antigen generation, formulation, filling, labeling, and packaging. Once the antigen is produced, it goes through purification and testing to ensure its safety and efficacy. Quality control measures are implemented at each stage t...
+
+The vaccine manufacturing process involves several key steps including antigen selection, formulation development, production, purification, testing, and packaging. Antigens are selected based on the target pathogen and desired immune response. Formulation development focuses on creating a stable an...
+
+Vaccine formulation development involves the creation of a stable and effective vaccine product that can be safely administered to individuals. This process includes selecting the appropriate antigens, adjuvants, stabilizers, and other components to ensure the vaccine is both potent and safe for use...
+
+Vaccine formulation development faces challenges such as achieving the desired immune response, stability of the vaccine components, scalability for mass production, and cost-effectiveness. Formulation optimization is crucial to ensure the vaccine's efficacy and safety.
+
+Vaccine delivery systems refer to the methods or techniques used to administer vaccines into the body for immunization. These systems play a crucial role in ensuring the effectiveness of vaccines by delivering them to the appropriate target cells or tissues. Common vaccine delivery systems include i...
+
+Vaccine delivery systems refer to the methods used to administer vaccines into the body. There are various types of vaccine delivery systems, including traditional injection, oral vaccines, intranasal vaccines, and transdermal vaccines. Some innovative approaches include the use of microneedles for ...
+
+Vaccine adjuvants are substances added to vaccines to enhance the immune response and improve vaccine efficacy. They work by activating the immune system and promoting a stronger and longer-lasting immune response to the vaccine antigens. Adjuvants can also allow for smaller doses of antigens to be ...
+
+Adjuvants are substances added to vaccines to enhance the immune response. They work by activating the immune system and promoting a stronger and longer-lasting response to the vaccine antigens. Adjuvants help improve the efficacy of vaccines, reduce the amount of antigen needed in each dose, and en...
+
+Vaccine immunogenicity assessment is the process of evaluating the ability of a vaccine to induce an immune response in the body. This assessment typically involves measuring the levels of specific antibodies or immune cells produced in response to the vaccine. It helps determine the effectiveness o...
+
+There are several methods used to assess the immunogenicity of vaccines. These include enzyme-linked immunosorbent assay (ELISA), neutralization assays, flow cytometry, and cytokine profiling. ELISA is commonly used to measure the levels of specific antibodies in the blood after vaccination. Neutral...
+
+Vaccine safety evaluation is a critical component of the vaccine development process. It involves assessing the potential risks and benefits of a vaccine through various methods such as clinical trials, post-marketing surveillance, and pharmacovigilance. Adverse effects are closely monitored to ensu...
+
+Vaccine safety evaluation is a crucial step in the vaccine development process to ensure that vaccines are safe for use in the general population. It involves monitoring for any adverse reactions or side effects that may occur after vaccination. This process helps to maintain public trust in vaccine...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+Raw response:
+1. Exploratory Research and Preclinical Testing in Vaccine Development
+2. Clinical Development Phases 1, 2, and 3 in Vaccine Trials
+3. Regulatory Review and Approval Process for Vaccines
+4. Role of Artificial Intelligence in Identifying Vaccine Candidates
+5. Predicting Vaccine Efficacy using AI Algorithms
+6. Optimization of Vaccine Design with Machine Learning Techniques
+7. Key Steps in Vaccine Manufacturing: Antigen Generation to Quality Control
+8. Types of Vaccine Delivery Systems and the Role of Adjuvants
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_18-06-21.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_18-06-21.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_18-06-28.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+🎲 Choice scenario triggered! (Rolled 4.1 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+The lecture notes provided for Week 1: Introduction to Vaccine Development appear to be comprehensive and suitable for 3 credit hours of senior undergraduate study. The content covers the main topic of vaccine development process, including sub-topics, explanation, learning objectives, estimated number of slides, lab activities, real-world applications, assessment questions, and discussion points. The notes provide a good overview of the stages of vaccine development, from exploratory research to regulatory approval, and include practical exercises and real-world applications to enhance understanding.
+
+For improvement, it could be beneficial to include more specific examples of successful vaccine development processes and real-world case studies to further illustrate the concepts discussed. Additionally, incorporating more in-depth discussions on the challenges and ethical considerations in vaccine development could enhance the depth of the content. Overall, the notes provide a solid foundation for understanding vaccine development and its importance in public health.
+
+Therefore, the lecture notes for Week 1: Introduction to Vaccine Development are considered VALID for 3 credit hours of senior undergraduate study.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+The lecture notes provided for Week 1: Introduction to Vaccine Development appear to be suitable for 3 credit hours of senior undergraduate study. The content covers the main topic of vaccine development process comprehensively, including sub-topics on exploratory research, clinical development phases, and regulatory review. The explanation is detailed enough to provide a good understanding of the stages involved in vaccine development, and the learning objectives are clear.
+
+The estimated number of slides (15) seems appropriate for a 3-credit hour course, and the inclusion of lab activities, real-world applications, assessment questions, and discussion points adds depth to the material.
+
+For improvement, you could consider adding more real-world examples and case studies to enhance the understanding of vaccine development in practical scenarios. Additionally, you could include more details on specific challenges faced in each stage of vaccine development and how they are overcome.
+
+Overall, the content is valid for 3 credit hours of senior undergraduate study, but adding more real-world examples and detailed challenges faced in vaccine development could further enhance the material.
+
+----------------------------------------
+✅ You chose Response 2
+✅ Content validation passed - suitable for 3 credit hours
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Vaccine Development Process
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Exploratory Research and Preclinical Testing in Vaccine Development)
+🔍 DEBUG: Slide 1 content set to: '• Exploratory research and preclinical testing are initial stages in vaccine development • Preclinic...'
+🔍 DEBUG: Slide 1 content length: 331
+✅ Slide 1 content: • Exploratory research and preclinical testing are initial stages in vaccine development
+• Preclinical testing involves assessing safety and efficacy on cells and animals
+• Helps understand vaccine mechanisms, identify side effects, and determine appropriate dosages
+• Essential step before advancing to clinical development phases
+Generating content for slide 2 (Topic: Clinical Development Phases 1, 2, and 3 in Vaccine Trials)
+🎲 Choice scenario triggered! (Rolled 15.7 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Clinical Development Phases 1, 2, and 3 in Vaccine Trials:
+  - Phase 1: Focus on safety and dosage determination
+  - Phase 2: Evaluate efficacy and side effects in a larger group
+  - Phase 3: Conduct large-scale testing in diverse populations
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Clinical Development Phases 1, 2, and 3 in Vaccine Trials:
+  - Phase 1 focuses on safety and dosage determination in a small group of healthy volunteers.
+  - Phase 2 evaluates efficacy, optimal dosages, and side effects in a larger group of participants.
+  - Phase 3 involves large-scale testing in diverse populations to confirm efficacy and monitor adverse reactions.
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 2 content set to: '• Clinical Development Phases 1, 2, and 3 in Vaccine Trials: - Phase 1: Focus on safety and dosage d...'
+🔍 DEBUG: Slide 2 content length: 238
+✅ Slide 2 content: • Clinical Development Phases 1, 2, and 3 in Vaccine Trials:
+  - Phase 1: Focus on safety and dosage determination
+  - Phase 2: Evaluate efficacy and side effects in a larger group
+  - Phase 3: Conduct large-scale testing in diverse populations
+Generating content for slide 3 (Topic: Regulatory Review and Approval Process for Vaccines)
+🔍 DEBUG: Slide 3 content set to: '• Regulatory review and approval process ensures vaccine safety and efficacy • Regulatory agencies l...'
+🔍 DEBUG: Slide 3 content length: 354
+✅ Slide 3 content: • Regulatory review and approval process ensures vaccine safety and efficacy
+• Regulatory agencies like the FDA and EMA evaluate clinical trial data and manufacturing quality
+• Approval involves thorough review of all data before granting market authorization
+• Post-marketing surveillance monitors vaccine safety and effectiveness in real-world settings
+Generating content for slide 4 (Topic: Role of Artificial Intelligence in Identifying Vaccine Candidates)
+🎲 Choice scenario triggered! (Rolled 27.7 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Artificial Intelligence (AI) accelerates vaccine development process
+• AI algorithms analyze vast data to identify potential vaccine candidates
+• Machine learning models understand immune response to pathogens
+• AI streamlines drug discovery, optimizes vaccine design
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Artificial Intelligence (AI) accelerates vaccine development by analyzing vast data
+• AI identifies potential vaccine candidates, predicts efficacy, and optimizes designs
+• Machine learning models aid in understanding immune responses to pathogens
+• AI streamlines clinical trial data analysis and early adverse effects identification
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 4 content set to: '• Artificial Intelligence (AI) accelerates vaccine development process • AI algorithms analyze vast ...'
+🔍 DEBUG: Slide 4 content length: 269
+✅ Slide 4 content: • Artificial Intelligence (AI) accelerates vaccine development process
+• AI algorithms analyze vast data to identify potential vaccine candidates
+• Machine learning models understand immune response to pathogens
+• AI streamlines drug discovery, optimizes vaccine design
+Generating content for slide 5 (Topic: Predicting Vaccine Efficacy using AI Algorithms)
+🔍 DEBUG: Slide 5 content set to: '• AI algorithms analyze vast data to identify potential vaccine candidates • Machine learning models...'
+🔍 DEBUG: Slide 5 content length: 282
+✅ Slide 5 content: • AI algorithms analyze vast data to identify potential vaccine candidates
+• Machine learning models understand immune response to pathogens
+• AI assists in predicting vaccine efficacy and optimizing vaccine design
+• Accelerates the vaccine development process through data analysis
+Generating content for slide 6 (Topic: Optimization of Vaccine Design with Machine Learning Techniques)
+🎲 Choice scenario triggered! (Rolled 4.2 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Machine learning techniques optimize vaccine design by analyzing vast data
+• AI algorithms assist in predicting vaccine efficacy and identifying potential candidates
+• Accelerates vaccine development process through data analysis and modeling
+• Streamlines drug discovery and enhances understanding of immune response to pathogens
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Machine learning techniques optimize vaccine design by analyzing vast data
+• AI algorithms identify potential vaccine candidates based on immune response to pathogens
+• Prediction of vaccine efficacy is enhanced through AI-assisted optimization
+• Acceleration of vaccine development process achieved through data analysis
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 6 content set to: '• Machine learning techniques optimize vaccine design by analyzing vast data • AI algorithms assist ...'
+🔍 DEBUG: Slide 6 content length: 332
+✅ Slide 6 content: • Machine learning techniques optimize vaccine design by analyzing vast data
+• AI algorithms assist in predicting vaccine efficacy and identifying potential candidates
+• Accelerates vaccine development process through data analysis and modeling
+• Streamlines drug discovery and enhances understanding of immune response to pathogens
+Generating content for slide 7 (Topic: Key Steps in Vaccine Manufacturing: Antigen Generation to Quality Control)
+🔍 DEBUG: Slide 7 content set to: '• Antigen selection is based on the target pathogen and desired immune response • Formulation develo...'
+🔍 DEBUG: Slide 7 content length: 345
+✅ Slide 7 content: • Antigen selection is based on the target pathogen and desired immune response
+• Formulation development focuses on creating a stable and effective vaccine product
+• Production involves growing the antigen in cell cultures or eggs, followed by purification
+• Quality control tests ensure safety and efficacy throughout the manufacturing process
+Generating content for slide 8 (Topic: Types of Vaccine Delivery Systems and the Role of Adjuvants)
+🔍 DEBUG: Slide 8 content set to: '• Common vaccine delivery systems include intramuscular injections, subcutaneous injections, oral va...'
+🔍 DEBUG: Slide 8 content length: 453
+✅ Slide 8 content: • Common vaccine delivery systems include intramuscular injections, subcutaneous injections, oral vaccines, nasal vaccines, and needle-free delivery systems
+• Vaccine delivery systems play a crucial role in ensuring the effectiveness of vaccines by delivering them to the appropriate target cells or tissues
+• Adjuvants are substances added to vaccines to enhance the immune response and improve vaccine efficacy
+• Adjuvants work by activating the immune system and promoting a stronger and longer-lasting immune response to the vaccine antigens
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Exploratory Research and Preclinical Testing in Vaccine Development)
+🎲 Choice scenario triggered! (Rolled 11.3 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Exploratory Research & Preclinical Testing in Vaccines
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Exploratory Research & Preclinical Testing in Vaccine Development
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 1 title: Exploratory Research & Preclinical Testing in Vaccines
+Generating title for slide 2 (Topic: Clinical Development Phases 1, 2, and 3 in Vaccine Trials)
+✅ Slide 2 title: Clinical Development Phases 1-3 in Vaccine Trials
+Generating title for slide 3 (Topic: Regulatory Review and Approval Process for Vaccines)
+✅ Slide 3 title: Regulatory Approval Process for Vaccines
+Generating title for slide 4 (Topic: Role of Artificial Intelligence in Identifying Vaccine Candidates)
+✅ Slide 4 title: Title: AI in Identifying Vaccine Candidates
+Generating title for slide 5 (Topic: Predicting Vaccine Efficacy using AI Algorithms)
+🎲 Choice scenario triggered! (Rolled 23.2 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Title: AI Algorithms for Vaccine Efficacy Prediction
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Predicting Vaccine Efficacy with AI Algorithms
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 5 title: Predicting Vaccine Efficacy with AI Algorithms
+Generating title for slide 6 (Topic: Optimization of Vaccine Design with Machine Learning Techniques)
+✅ Slide 6 title: Optimizing Vaccine Design with Machine Learning
+Generating title for slide 7 (Topic: Key Steps in Vaccine Manufacturing: Antigen Generation to Quality Control)
+🎲 Choice scenario triggered! (Rolled 3.0 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Key Steps in Vaccine Manufacturing: Antigen to Quality Control
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Antigen Generation to Quality Control: Essential Vaccine Steps
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 7 title: Key Steps in Vaccine Manufacturing: Antigen to Quality Control
+Generating title for slide 8 (Topic: Types of Vaccine Delivery Systems and the Role of Adjuvants)
+🎲 Choice scenario triggered! (Rolled 26.9 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Vaccine Delivery Systems and Adjuvants
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Types of Vaccine Delivery Systems & Adjuvant Role
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 8 title: Vaccine Delivery Systems and Adjuvants
+Generating overall presentation title...
+✅ Overall presentation title: Advancements in Vaccine Development: From Research to Delivery
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Exploratory Research and Preclinical Testing in Vaccine Development)
+🎲 Choice scenario triggered! (Rolled 21.5 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['preclinical testing in vaccines', 'vaccine mechanism assessment', 'vaccine side effects identification', 'vaccine dosage determination', 'vaccine safety evaluation on animals', 'vaccine efficacy testing on cells', 'exploratory research in vaccine development']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['preclinical testing in vaccines', 'exploratory research in vaccine development', 'vaccine safety and efficacy assessment', 'vaccine mechanism identification', 'side effects in vaccine testing', 'appropriate dosages in vaccine development']
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Clinical Development Phases 1, 2, and 3 in Vaccine Trials)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Regulatory Review and Approval Process for Vaccines)
+🎲 Choice scenario triggered! (Rolled 10.3 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['Regulatory approval process for vaccines',
+'FDA vaccine approval process',
+'EMA vaccine approval process',
+'Vaccine safety and efficacy evaluation',
+'Clinical trial data evaluation for vaccines',
+'Manufacturing quality assessment for vaccines',
+'Post-marketing surveillance for vaccine safety and effectiveness']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['Regulatory approval process for vaccines', 'Regulatory agencies vaccine approval', 'FDA vaccine approval process', 'EMA vaccine approval process', 'Clinical trial data evaluation for vaccines', 'Manufacturing quality evaluation for vaccines', 'Market authorization for vaccines', 'Post-marketing surveillance vaccine safety', 'Post-marketing surveillance vaccine effectiveness']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Role of Artificial Intelligence in Identifying Vaccine Candidates)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Predicting Vaccine Efficacy using AI Algorithms)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Optimization of Vaccine Design with Machine Learning Techniques)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Key Steps in Vaccine Manufacturing: Antigen Generation to Quality Control)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Types of Vaccine Delivery Systems and the Role of Adjuvants)
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Exploratory Research and Preclinical Testing in Vaccine Development)
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Clinical Development Phases 1, 2, and 3 in Vaccine Trials)
+🎲 Choice scenario triggered! (Rolled 2.5 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Preclinical testing assesses the safety and efficacy of vaccine candidates through laboratory research on cells and animal models.
+- This stage helps researchers determine the appropriate dosage, understand the mechanism of action, and identify potential side effects before advancing to clinical trials.
+- Preclinical studies play a crucial role in providing preliminary data that informs the decision to move forward with vaccine development.
+- Researchers use preclinical testing to evaluate the immunogenicity of the vaccine candidate and assess its ability to induce a protective immune response.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Preclinical testing involves laboratory research and testing on cells and animals to assess the safety and efficacy of the vaccine candidate.
+- This stage helps researchers understand how the vaccine works, identify potential side effects, and determine the appropriate dosage for further testing.
+- Preclinical studies are essential for predicting the potential success of a vaccine candidate before moving into human clinical trials.
+- Researchers use preclinical data to support the rationale for advancing a vaccine candidate into clinical development phases.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 2 content is long (603 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Regulatory Review and Approval Process for Vaccines)
+⚠️ Warning: Slide 3 content is long (652 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Role of Artificial Intelligence in Identifying Vaccine Candidates)
+⚠️ Warning: Slide 4 content is long (555 chars) - consider reducing
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Predicting Vaccine Efficacy using AI Algorithms)
+⚠️ Warning: Slide 5 content is long (830 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Optimization of Vaccine Design with Machine Learning Techniques)
+⚠️ Warning: Slide 6 content is long (752 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Key Steps in Vaccine Manufacturing: Antigen Generation to Quality Control)
+🎲 Choice scenario triggered! (Rolled 2.7 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- The antigen generation process involves selecting the specific antigen based on the target pathogen and desired immune response.
+- Formulation development includes creating a stable and effective vaccine product through rigorous testing and optimization.
+- Production entails growing the antigen in cell cultures or eggs, followed by purification to isolate the antigen from other components.
+- Quality control tests are crucial at every stage of manufacturing to ensure the safety and efficacy of the vaccine product meet regulatory standards.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Antigen selection is based on the target pathogen and desired immune response
+- Formulation development focuses on creating a stable and effective vaccine product
+- Production involves growing the antigen in cell cultures or eggs, followed by purification
+- Quality control tests ensure safety and efficacy throughout the manufacturing process
+- The vaccine manufacturing process includes steps such as antigen generation, formulation, filling, labeling, packaging, purification, and testing to meet regulatory standards.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 7 content is long (546 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Types of Vaccine Delivery Systems and the Role of Adjuvants)
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Advancements_in_Vaccine_Development_From_Research_to_Delivery_2025-08-31_18-08-05
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancements_in_Vaccine_Development_From_Research_to_Delivery_2025-08-31_18-08-05.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancements_in_Vaccine_Development_From_Research_to_Delivery_2025-08-31_18-08-05.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 7 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancements_in_Vaccine_Development_From_Research_to_Delivery_2025-08-31_18-08-05.pptx
+📊 Rating presentation 7...
+✅ Presentation 7 rated successfully
+📈 Overall Rating: 6.54 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.00 / 2.00
+   - Non-Repetition: 1.60 / 2.00
+   - Content Balance: 1.54 / 2.00
+   - Title Uniqueness: 1.96 / 2.00
+   - Title-Content Match: 1.45 / 2.00
+💾 Result saved to file for presentation 7
+
+📊 Presentation 9/10 (ID: 8)
+📝 Using topic: The Renaissance Period
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

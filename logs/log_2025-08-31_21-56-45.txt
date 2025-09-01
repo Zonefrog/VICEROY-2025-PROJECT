@@ -1,0 +1,1483 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T21:56:45.319977
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_21-56-45.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 4...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Medical Technology Advances
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Ethical considerations in AI use in medical technology, Current applications of AI in medical diagnostics
+Selected topics: ['Ethical considerations in AI use in medical technology', 'Current applications of AI in medical diagnostics']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Ethical considerations in AI use in medical technology
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ETHICAL CONSIDERATIONS IN AI USE IN MEDICAL TECHNOLOGY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Ethical Considerations in AI Use in Medical Technology",
+    "keywords": ["ethics", "AI", "medical technology", "healthcare", "artificial intelligence"],
+    "text": "Ethical considerations in the use of AI in medical technology are crucial as they involve issues such as patient privacy, data security, bias in algorithms, and the impact on healthcare professionals. It is important to ensure that AI systems are transparent, fair, and accountable in order to maintain trust and integrity in the healthcare system.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7258289/"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Ethical Considerations in AI Use in Medical Technology
+Keywords: ethics, AI, medical technology, healthcare, artificial intelligence
+Uses: 0
+Text: Ethical considerations in the use of AI in medical technology are crucial as they involve issues such as patient privacy, data security, bias in algorithms, and the impact on healthcare professionals. It is important to ensure that AI systems are transparent, fair, and accountable in order to maintain trust and integrity in the healthcare system.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7258289/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ETHICAL CONSIDERATIONS IN AI USE IN MEDICAL TECHNOLOGY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 24.8 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Importance of Transparency in AI Algorithms in Healthcare",
+    "keywords": ["transparency", "AI algorithms", "healthcare", "ethics"],
+    "text": "Transparency in AI algorithms used in healthcare is crucial for ensuring ethical considerations are met. Healthcare providers and patients need to understand how AI systems make decisions to trust their recommendations. Transparency also helps in identifying biases and errors in the algorithms, leading to better outcomes for patients.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6908836/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Role of AI in Medical Technology: Ethical Considerations",
+    "keywords": ["AI", "medical technology", "ethical considerations"],
+    "text": "Ethical considerations in the use of AI in medical technology are crucial to ensure patient safety, privacy, and trust. Issues such as data privacy, bias in algorithms, and accountability of AI systems need to be carefully addressed by developers and healthcare providers.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7338405/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "The Importance of Transparency in AI Algorithms in Healthcare",
+    "keywords": ["transparency", "AI algorithms", "healthcare", "ethics"],
+    "text": "Transparency in AI algorithms used in healthcare is crucial for ensuring ethical considerations are met. Healthcare providers and patients need to understand how AI systems make decisions to trust their recommendations. Transparency also helps in identifying biases and errors in the algorithms, leading to better outcomes for patients.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6908836/"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: The Importance of Transparency in AI Algorithms in Healthcare
+Keywords: transparency, AI algorithms, healthcare, ethics
+Uses: 0
+Text: Transparency in AI algorithms used in healthcare is crucial for ensuring ethical considerations are met. Healthcare providers and patients need to understand how AI systems make decisions to trust their recommendations. Transparency also helps in identifying biases and errors in the algorithms, leading to better outcomes for patients.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6908836/
+Researching topic: Current applications of AI in medical diagnostics
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CURRENT APPLICATIONS OF AI IN MEDICAL DIAGNOSTICS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Current Applications of AI in Medical Diagnostics",
+    "keywords": ["AI", "medical diagnostics", "applications", "machine learning", "healthcare"],
+    "text": "AI is being increasingly used in medical diagnostics to assist healthcare professionals in accurately diagnosing diseases and conditions. Machine learning algorithms are trained on vast amounts of medical data to identify patterns and make predictions. AI can help in early detection of diseases such as cancer, diabetes, and heart disease, leading to better outcomes for patients.",
+    "link": "https://www.healthit.gov/topic/health-it-initiatives/artificial-intelligence"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Current Applications of AI in Medical Diagnostics
+Keywords: AI, medical diagnostics, applications, machine learning, healthcare
+Uses: 0
+Text: AI is being increasingly used in medical diagnostics to assist healthcare professionals in accurately diagnosing diseases and conditions. Machine learning algorithms are trained on vast amounts of medical data to identify patterns and make predictions. AI can help in early detection of diseases such as cancer, diabetes, and heart disease, leading to better outcomes for patients.Link: https://www.healthit.gov/topic/health-it-initiatives/artificial-intelligence
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CURRENT APPLICATIONS OF AI IN MEDICAL DIAGNOSTICS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Advances in AI for Breast Cancer Diagnostics",
+    "keywords": ["AI", "breast cancer", "diagnostics", "medical technology"],
+    "text": "AI technology is being increasingly utilized in breast cancer diagnostics to improve accuracy and efficiency. Machine learning algorithms can analyze mammograms and identify subtle patterns that may indicate the presence of cancer. This can help radiologists in early detection and treatment planning.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6569444/"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Advances in AI for Breast Cancer Diagnostics
+Keywords: AI, breast cancer, diagnostics, medical technology
+Uses: 0
+Text: AI technology is being increasingly utilized in breast cancer diagnostics to improve accuracy and efficiency. Machine learning algorithms can analyze mammograms and identify subtle patterns that may indicate the presence of cancer. This can help radiologists in early detection and treatment planning.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6569444/
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Ethical considerations in AI use in medical technology', 'Current applications of AI in medical diagnostics']. The research these yeilded is: ({Ethical considerations in the use of AI in medical technology are crucial as they involve issues such as patient privacy, data security, bias in algorithms, and the impact on healthcare professionals. It is important to ensure that AI systems are transparent, fair, and accountable in order to maintain trust and integrity in the healthcare system.
+
+Transparency in AI algorithms used in healthcare is crucial for ensuring ethical considerations are met. Healthcare providers and patients need to understand how AI systems make decisions to trust their recommendations. Transparency also helps in identifying biases and errors in the algorithms, leading to better outcomes for patients.
+
+AI is being increasingly used in medical diagnostics to assist healthcare professionals in accurately diagnosing diseases and conditions. Machine learning algorithms are trained on vast amounts of medical data to identify patterns and make predictions. AI can help in early detection of diseases such as cancer,  (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Impact of AI on healthcare costs, Future trends in AI medical technology, Integration of AI in medical education, Regulatory challenges in AI medical technology, Ethical implications of AI in patient care, Role of AI in personalized medicine
+Selected topics: ['Impact of AI on healthcare costs', 'Future trends in AI medical technology', 'Integration of AI in medical education', 'Regulatory challenges in AI medical technology', 'Ethical implications of AI in patient care', 'Role of AI in personalized medicine']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Impact of AI on healthcare costs
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics', 'Advances in AI for Breast Cancer Diagnostics']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF AI ON HEALTHCARE COSTS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Impact of AI on Healthcare Costs",
+    "keywords": ["AI", "healthcare costs", "impact", "savings", "efficiency"],
+    "text": "AI has the potential to significantly impact healthcare costs by improving efficiency, reducing errors, and optimizing resource allocation. By streamlining processes and automating tasks, AI technologies can help healthcare providers save time and money. For example, AI-powered predictive analytics can help identify high-risk patients and intervene early, ultimately reducing costly emergency room visits and hospital readmissions.",
+    "link": "https://www.healthcareitnews.com/news/ai-can-help-reduce-healthcare-costs-improve-outcomes"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Impact of AI on Healthcare Costs
+Keywords: AI, healthcare costs, impact, savings, efficiency
+Uses: 0
+Text: AI has the potential to significantly impact healthcare costs by improving efficiency, reducing errors, and optimizing resource allocation. By streamlining processes and automating tasks, AI technologies can help healthcare providers save time and money. For example, AI-powered predictive analytics can help identify high-risk patients and intervene early, ultimately reducing costly emergency room visits and hospital readmissions.Link: https://www.healthcareitnews.com/news/ai-can-help-reduce-healthcare-costs-improve-outcomes
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics', 'Advances in AI for Breast Cancer Diagnostics', 'Impact of AI on Healthcare Costs']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF AI ON HEALTHCARE COSTS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Cost-Saving Potential of AI in Healthcare",
+    "keywords": ["AI", "healthcare costs", "cost-saving potential", "efficiency", "financial impact"],
+    "text": "AI in healthcare has the potential to significantly reduce costs by increasing efficiency in various aspects of the healthcare system. From optimizing staff schedules to predicting patient outcomes and preventing unnecessary hospital readmissions, AI can help healthcare providers make more informed decisions that lead to cost savings. By streamlining administrative processes and improving diagnostic accuracy, AI can also lower the overall financial burden on healthcare facilities.",
+    "link": "https://www.healthcareitnews.com/news/how-ai-can-help-cut-costs-healthcare"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: The Cost-Saving Potential of AI in Healthcare
+Keywords: AI, healthcare costs, cost-saving potential, efficiency, financial impact
+Uses: 0
+Text: AI in healthcare has the potential to significantly reduce costs by increasing efficiency in various aspects of the healthcare system. From optimizing staff schedules to predicting patient outcomes and preventing unnecessary hospital readmissions, AI can help healthcare providers make more informed decisions that lead to cost savings. By streamlining administrative processes and improving diagnostic accuracy, AI can also lower the overall financial burden on healthcare facilities.Link: https://www.healthcareitnews.com/news/how-ai-can-help-cut-costs-healthcare
+Researching topic: Future trends in AI medical technology
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics', 'Advances in AI for Breast Cancer Diagnostics', 'Impact of AI on Healthcare Costs', 'The Cost-Saving Potential of AI in Healthcare']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **FUTURE TRENDS IN AI MEDICAL TECHNOLOGY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Future Trends in AI Medical Technology",
+    "keywords": ["AI", "medical technology", "future trends"],
+    "text": "One of the future trends in AI medical technology is the use of predictive analytics to improve patient outcomes. By analyzing large datasets, AI can help healthcare providers identify patterns and predict potential health issues before they arise. Additionally, AI-powered virtual health assistants are expected to become more common, providing patients with personalized care and support. Another trend is the integration of AI with wearable devices to continuously monitor health metrics and provide real-time feedback to users.",
+    "link": "https://www.healthit.gov/topic/health-it-and-health-information-exchange-basics/what-are-future-trends-health-it-and-health-information-exchange"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Future Trends in AI Medical Technology
+Keywords: AI, medical technology, future trends
+Uses: 0
+Text: One of the future trends in AI medical technology is the use of predictive analytics to improve patient outcomes. By analyzing large datasets, AI can help healthcare providers identify patterns and predict potential health issues before they arise. Additionally, AI-powered virtual health assistants are expected to become more common, providing patients with personalized care and support. Another trend is the integration of AI with wearable devices to continuously monitor health metrics and provide real-time feedback to users.Link: https://www.healthit.gov/topic/health-it-and-health-information-exchange-basics/what-are-future-trends-health-it-and-health-information-exchange
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics', 'Advances in AI for Breast Cancer Diagnostics', 'Impact of AI on Healthcare Costs', 'The Cost-Saving Potential of AI in Healthcare', 'Future Trends in AI Medical Technology']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **FUTURE TRENDS IN AI MEDICAL TECHNOLOGY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 39.7 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Emerging Trends in AI Medical Technology",
+    "keywords": ["healthcare", "artificial intelligence", "medical technology", "emerging trends"],
+    "text": "Some of the emerging trends in AI medical technology include personalized medicine, virtual health assistants, predictive analytics for patient outcomes, precision surgery, and AI-driven drug discovery.",
+    "link": "https://www.healthcareitnews.com/news/5-emerging-trends-ai-and-healthcare"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Emerging Trends in AI Medical Technology",
+    "keywords": ["predictive analytics", "personalized medicine", "robotic surgery", "telemedicine", "virtual health assistants"],
+    "text": "The future of AI in medical technology is exciting, with several emerging trends shaping the landscape. Predictive analytics is being used to forecast patient outcomes and optimize treatment plans. Personalized medicine, which tailors medical treatment to individual characteristics, is becoming more prevalent with the help of AI. Robotic surgery is also on the rise, allowing for more precise and minimally invasive procedures. Telemedicine is expanding access to healthcare services remotely, while virtual health assistants are improving patient engagement and monitoring.",
+    "link": "https://www.healthitoutcomes.com/doc/five-future-trends-in-ai-and-healthcare-0001"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Emerging Trends in AI Medical Technology",
+    "keywords": ["predictive analytics", "personalized medicine", "robotic surgery", "telemedicine", "virtual health assistants"],
+    "text": "The future of AI in medical technology is exciting, with several emerging trends shaping the landscape. Predictive analytics is being used to forecast patient outcomes and optimize treatment plans. Personalized medicine, which tailors medical treatment to individual characteristics, is becoming more prevalent with the help of AI. Robotic surgery is also on the rise, allowing for more precise and minimally invasive procedures. Telemedicine is expanding access to healthcare services remotely, while virtual health assistants are improving patient engagement and monitoring.",
+    "link": "https://www.healthitoutcomes.com/doc/five-future-trends-in-ai-and-healthcare-0001"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Emerging Trends in AI Medical Technology
+Keywords: predictive analytics, personalized medicine, robotic surgery, telemedicine, virtual health assistants
+Uses: 0
+Text: The future of AI in medical technology is exciting, with several emerging trends shaping the landscape. Predictive analytics is being used to forecast patient outcomes and optimize treatment plans. Personalized medicine, which tailors medical treatment to individual characteristics, is becoming more prevalent with the help of AI. Robotic surgery is also on the rise, allowing for more precise and minimally invasive procedures. Telemedicine is expanding access to healthcare services remotely, while virtual health assistants are improving patient engagement and monitoring.Link: https://www.healthitoutcomes.com/doc/five-future-trends-in-ai-and-healthcare-0001
+Researching topic: Integration of AI in medical education
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics', 'Advances in AI for Breast Cancer Diagnostics', 'Impact of AI on Healthcare Costs', 'The Cost-Saving Potential of AI in Healthcare', 'Future Trends in AI Medical Technology', 'Emerging Trends in AI Medical Technology']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INTEGRATION OF AI IN MEDICAL EDUCATION** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 43.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Integration of AI in Medical Education",
+    "keywords": ["AI", "medical education", "integration", "artificial intelligence"],
+    "text": "The integration of AI in medical education involves using artificial intelligence technologies to enhance teaching and learning processes for medical students. AI can be utilized to create personalized learning experiences, provide real-time feedback, and offer virtual simulations for practice. This integration aims to improve the efficiency and effectiveness of medical education programs.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6291775/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Integration of AI in Medical Education",
+    "keywords": ["AI", "medical education", "integration", "technology", "innovation"],
+    "text": "The integration of artificial intelligence (AI) in medical education is revolutionizing the way medical students learn and practice. AI technologies are being used to create virtual patient simulations, personalized learning experiences, and real-time feedback mechanisms. This allows students to gain hands-on experience in a safe and controlled environment, improving their clinical skills and decision-making abilities. Additionally, AI-powered tools can help educators track student progress, identify areas for improvement, and tailor educational content to individual learning styles. Overall, the integration of AI in medical education holds great potential for enhancing the training of future healthcare professionals.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7488014/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Integration of AI in Medical Education",
+    "keywords": ["AI", "medical education", "integration", "technology", "innovation"],
+    "text": "The integration of artificial intelligence (AI) in medical education is revolutionizing the way medical students learn and practice. AI technologies are being used to create virtual patient simulations, personalized learning experiences, and real-time feedback mechanisms. This allows students to gain hands-on experience in a safe and controlled environment, improving their clinical skills and decision-making abilities. Additionally, AI-powered tools can help educators track student progress, identify areas for improvement, and tailor educational content to individual learning styles. Overall, the integration of AI in medical education holds great potential for enhancing the training of future healthcare professionals.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7488014/"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Integration of AI in Medical Education
+Keywords: AI, medical education, integration, technology, innovation
+Uses: 0
+Text: The integration of artificial intelligence (AI) in medical education is revolutionizing the way medical students learn and practice. AI technologies are being used to create virtual patient simulations, personalized learning experiences, and real-time feedback mechanisms. This allows students to gain hands-on experience in a safe and controlled environment, improving their clinical skills and decision-making abilities. Additionally, AI-powered tools can help educators track student progress, identify areas for improvement, and tailor educational content to individual learning styles. Overall, the integration of AI in medical education holds great potential for enhancing the training of future healthcare professionals.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7488014/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics', 'Advances in AI for Breast Cancer Diagnostics', 'Impact of AI on Healthcare Costs', 'The Cost-Saving Potential of AI in Healthcare', 'Future Trends in AI Medical Technology', 'Emerging Trends in AI Medical Technology', 'Integration of AI in Medical Education']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INTEGRATION OF AI IN MEDICAL EDUCATION** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of AI in Medical Education",
+    "keywords": ["AI", "medical education", "integration", "healthcare", "technology"],
+    "text": "AI is increasingly being integrated into medical education to enhance learning experiences for students. It can provide personalized learning paths, simulate real-life medical scenarios, and offer instant feedback to students. This technology helps to bridge the gap between theoretical knowledge and practical application in healthcare education.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6237594/"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: The Role of AI in Medical Education
+Keywords: AI, medical education, integration, healthcare, technology
+Uses: 0
+Text: AI is increasingly being integrated into medical education to enhance learning experiences for students. It can provide personalized learning paths, simulate real-life medical scenarios, and offer instant feedback to students. This technology helps to bridge the gap between theoretical knowledge and practical application in healthcare education.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6237594/
+Researching topic: Regulatory challenges in AI medical technology
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics', 'Advances in AI for Breast Cancer Diagnostics', 'Impact of AI on Healthcare Costs', 'The Cost-Saving Potential of AI in Healthcare', 'Future Trends in AI Medical Technology', 'Emerging Trends in AI Medical Technology', 'Integration of AI in Medical Education', 'The Role of AI in Medical Education']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **REGULATORY CHALLENGES IN AI MEDICAL TECHNOLOGY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 37.9 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Regulatory Challenges in AI Medical Technology",
+    "keywords": ["regulatory challenges", "AI medical technology", "healthcare regulations", "AI algorithms", "FDA approval"],
+    "text": "Regulatory challenges in AI medical technology arise due to the need for clear guidelines on the use of AI algorithms in healthcare, the complexity of AI systems, and the rapid pace of technological advancements. Healthcare regulations, such as those set by the FDA, play a crucial role in ensuring the safety and effectiveness of AI applications in medical diagnostics and treatment.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7152862/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Regulatory Challenges in AI Medical Technology",
+    "keywords": ["regulatory challenges", "AI", "medical technology", "healthcare", "regulations"],
+    "text": "Regulatory challenges in AI medical technology stem from the need to ensure patient safety, data privacy, and the effectiveness of AI algorithms. Issues such as lack of standardized regulations, uncertainty in liability, and the need for continuous monitoring pose significant hurdles in the adoption of AI in healthcare.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6514928/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Regulatory Challenges in AI Medical Technology",
+    "keywords": ["regulatory challenges", "AI medical technology", "healthcare regulations", "AI algorithms", "FDA approval"],
+    "text": "Regulatory challenges in AI medical technology arise due to the need for clear guidelines on the use of AI algorithms in healthcare, the complexity of AI systems, and the rapid pace of technological advancements. Healthcare regulations, such as those set by the FDA, play a crucial role in ensuring the safety and effectiveness of AI applications in medical diagnostics and treatment.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7152862/"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Regulatory Challenges in AI Medical Technology
+Keywords: regulatory challenges, AI medical technology, healthcare regulations, AI algorithms, FDA approval
+Uses: 0
+Text: Regulatory challenges in AI medical technology arise due to the need for clear guidelines on the use of AI algorithms in healthcare, the complexity of AI systems, and the rapid pace of technological advancements. Healthcare regulations, such as those set by the FDA, play a crucial role in ensuring the safety and effectiveness of AI applications in medical diagnostics and treatment.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7152862/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics', 'Advances in AI for Breast Cancer Diagnostics', 'Impact of AI on Healthcare Costs', 'The Cost-Saving Potential of AI in Healthcare', 'Future Trends in AI Medical Technology', 'Emerging Trends in AI Medical Technology', 'Integration of AI in Medical Education', 'The Role of AI in Medical Education', 'Regulatory Challenges in AI Medical Technology']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **REGULATORY CHALLENGES IN AI MEDICAL TECHNOLOGY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Challenges in Regulating AI Medical Devices",
+    "keywords": ["regulatory challenges", "AI medical devices", "FDA regulations", "compliance", "patient safety"],
+    "text": "Regulating AI medical devices poses unique challenges due to the rapidly evolving nature of the technology. The FDA faces difficulties in keeping up with the pace of innovation and ensuring that these devices meet safety and efficacy standards. Compliance with existing regulations, such as the Medical Device Regulation (MDR) in the EU or the FDA's premarket approval process in the US, can be complex for AI systems that continuously learn and adapt. Ensuring patient safety while promoting innovation remains a delicate balance for regulatory bodies.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7166496/"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Challenges in Regulating AI Medical Devices
+Keywords: regulatory challenges, AI medical devices, FDA regulations, compliance, patient safety
+Uses: 0
+Text: Regulating AI medical devices poses unique challenges due to the rapidly evolving nature of the technology. The FDA faces difficulties in keeping up with the pace of innovation and ensuring that these devices meet safety and efficacy standards. Compliance with existing regulations, such as the Medical Device Regulation (MDR) in the EU or the FDA's premarket approval process in the US, can be complex for AI systems that continuously learn and adapt. Ensuring patient safety while promoting innovation remains a delicate balance for regulatory bodies.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7166496/
+Researching topic: Ethical implications of AI in patient care
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics', 'Advances in AI for Breast Cancer Diagnostics', 'Impact of AI on Healthcare Costs', 'The Cost-Saving Potential of AI in Healthcare', 'Future Trends in AI Medical Technology', 'Emerging Trends in AI Medical Technology', 'Integration of AI in Medical Education', 'The Role of AI in Medical Education', 'Regulatory Challenges in AI Medical Technology', 'Challenges in Regulating AI Medical Devices']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ETHICAL IMPLICATIONS OF AI IN PATIENT CARE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Ethical Implications of AI in Patient Care",
+    "keywords": ["ethical implications", "AI", "patient care"],
+    "text": "The use of AI in patient care raises ethical concerns surrounding patient privacy, data security, bias in algorithms, accountability, and the potential dehumanization of healthcare. It is crucial for healthcare providers and developers to address these issues to ensure that AI technologies are used responsibly and ethically in the medical field.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6816441/"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Ethical Implications of AI in Patient Care
+Keywords: ethical implications, AI, patient care
+Uses: 0
+Text: The use of AI in patient care raises ethical concerns surrounding patient privacy, data security, bias in algorithms, accountability, and the potential dehumanization of healthcare. It is crucial for healthcare providers and developers to address these issues to ensure that AI technologies are used responsibly and ethically in the medical field.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6816441/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics', 'Advances in AI for Breast Cancer Diagnostics', 'Impact of AI on Healthcare Costs', 'The Cost-Saving Potential of AI in Healthcare', 'Future Trends in AI Medical Technology', 'Emerging Trends in AI Medical Technology', 'Integration of AI in Medical Education', 'The Role of AI in Medical Education', 'Regulatory Challenges in AI Medical Technology', 'Challenges in Regulating AI Medical Devices', 'Ethical Implications of AI in Patient Care']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ETHICAL IMPLICATIONS OF AI IN PATIENT CARE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 14.7 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Ethical Concerns in Implementing AI for Patient Care",
+    "keywords": ["ethics", "AI", "patient care", "concerns", "implementation"],
+    "text": "The implementation of AI in patient care raises several ethical concerns, such as privacy, security, bias, and accountability. Privacy concerns arise from the vast amount of sensitive patient data being used by AI algorithms. Security issues include the risk of data breaches and unauthorized access to medical records. Bias in AI algorithms can lead to disparities in healthcare outcomes for different patient populations. Lastly, ensuring accountability for decisions made by AI systems is a complex ethical challenge.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5770810/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Addressing Bias in AI Algorithms for Patient Care",
+    "keywords": ["bias", "AI algorithms", "patient care"],
+    "text": "One of the key ethical implications of AI in patient care is the potential for bias in AI algorithms. Bias in AI algorithms can lead to disparities in healthcare delivery and outcomes. It is crucial for developers to address bias in AI algorithms to ensure fair and equitable treatment of all patients.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7195797/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Ethical Concerns in Implementing AI for Patient Care",
+    "keywords": ["ethics", "AI", "patient care", "concerns", "implementation"],
+    "text": "The implementation of AI in patient care raises several ethical concerns, such as privacy, security, bias, and accountability. Privacy concerns arise from the vast amount of sensitive patient data being used by AI algorithms. Security issues include the risk of data breaches and unauthorized access to medical records. Bias in AI algorithms can lead to disparities in healthcare outcomes for different patient populations. Lastly, ensuring accountability for decisions made by AI systems is a complex ethical challenge.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5770810/"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Ethical Concerns in Implementing AI for Patient Care
+Keywords: ethics, AI, patient care, concerns, implementation
+Uses: 0
+Text: The implementation of AI in patient care raises several ethical concerns, such as privacy, security, bias, and accountability. Privacy concerns arise from the vast amount of sensitive patient data being used by AI algorithms. Security issues include the risk of data breaches and unauthorized access to medical records. Bias in AI algorithms can lead to disparities in healthcare outcomes for different patient populations. Lastly, ensuring accountability for decisions made by AI systems is a complex ethical challenge.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5770810/
+Researching topic: Role of AI in personalized medicine
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics', 'Advances in AI for Breast Cancer Diagnostics', 'Impact of AI on Healthcare Costs', 'The Cost-Saving Potential of AI in Healthcare', 'Future Trends in AI Medical Technology', 'Emerging Trends in AI Medical Technology', 'Integration of AI in Medical Education', 'The Role of AI in Medical Education', 'Regulatory Challenges in AI Medical Technology', 'Challenges in Regulating AI Medical Devices', 'Ethical Implications of AI in Patient Care', 'Ethical Concerns in Implementing AI for Patient Care']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF AI IN PERSONALIZED MEDICINE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 10.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Role of AI in Personalized Medicine",
+    "keywords": ["AI", "personalized medicine", "precision medicine", "healthcare", "patient care"],
+    "text": "AI plays a crucial role in personalized medicine by utilizing patient data to tailor medical treatment and interventions to the individual. Through advanced algorithms and machine learning, AI can analyze vast amounts of data to predict disease risk, optimize treatment plans, and identify the most effective therapies for each patient. This approach allows for more targeted and efficient healthcare delivery, ultimately improving patient outcomes and quality of care.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6632446/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Role of AI in Personalized Medicine",
+    "keywords": ["AI", "personalized medicine", "precision medicine", "healthcare", "patient care"],
+    "text": "AI plays a crucial role in personalized medicine by analyzing vast amounts of patient data to tailor treatments to individual characteristics. This approach, also known as precision medicine, allows healthcare providers to deliver more effective and targeted therapies, leading to better patient outcomes.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5821219/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Role of AI in Personalized Medicine",
+    "keywords": ["AI", "personalized medicine", "precision medicine", "healthcare", "patient care"],
+    "text": "AI plays a crucial role in personalized medicine by utilizing patient data to tailor medical treatment and interventions to the individual. Through advanced algorithms and machine learning, AI can analyze vast amounts of data to predict disease risk, optimize treatment plans, and identify the most effective therapies for each patient. This approach allows for more targeted and efficient healthcare delivery, ultimately improving patient outcomes and quality of care.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6632446/"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Role of AI in Personalized Medicine
+Keywords: AI, personalized medicine, precision medicine, healthcare, patient care
+Uses: 0
+Text: AI plays a crucial role in personalized medicine by utilizing patient data to tailor medical treatment and interventions to the individual. Through advanced algorithms and machine learning, AI can analyze vast amounts of data to predict disease risk, optimize treatment plans, and identify the most effective therapies for each patient. This approach allows for more targeted and efficient healthcare delivery, ultimately improving patient outcomes and quality of care.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6632446/
+Prompt:
+Initial Prompt: (Medical Technology Advances) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Ethical Considerations in AI Use in Medical Technology', 'The Importance of Transparency in AI Algorithms in Healthcare', 'Current Applications of AI in Medical Diagnostics', 'Advances in AI for Breast Cancer Diagnostics', 'Impact of AI on Healthcare Costs', 'The Cost-Saving Potential of AI in Healthcare', 'Future Trends in AI Medical Technology', 'Emerging Trends in AI Medical Technology', 'Integration of AI in Medical Education', 'The Role of AI in Medical Education', 'Regulatory Challenges in AI Medical Technology', 'Challenges in Regulating AI Medical Devices', 'Ethical Implications of AI in Patient Care', 'Ethical Concerns in Implementing AI for Patient Care', 'Role of AI in Personalized Medicine']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF AI IN PERSONALIZED MEDICINE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Role of AI in Personalized Medicine",
+    "keywords": ["AI", "personalized medicine", "precision medicine", "healthcare", "patient care"],
+    "text": "AI plays a crucial role in personalized medicine by analyzing large amounts of data to identify patterns and make predictions tailored to individual patients. This allows for more precise diagnosis, treatment, and prevention strategies, leading to better patient outcomes.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7572694/"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: The Role of AI in Personalized Medicine
+Keywords: AI, personalized medicine, precision medicine, healthcare, patient care
+Uses: 0
+Text: AI plays a crucial role in personalized medicine by analyzing large amounts of data to identify patterns and make predictions tailored to individual patients. This allows for more precise diagnosis, treatment, and prevention strategies, leading to better patient outcomes.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7572694/
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Ethical considerations in the use of AI in medical technology are crucial as they involve issues such as patient privacy, data security, bias in algorithms, and the impact on healthcare professionals. It is important to ensure that AI systems are transparent, fair, and accountable in order to mainta...
+
+Transparency in AI algorithms used in healthcare is crucial for ensuring ethical considerations are met. Healthcare providers and patients need to understand how AI systems make decisions to trust their recommendations. Transparency also helps in identifying biases and errors in the algorithms, lead...
+
+AI is being increasingly used in medical diagnostics to assist healthcare professionals in accurately diagnosing diseases and conditions. Machine learning algorithms are trained on vast amounts of medical data to identify patterns and make predictions. AI can help in early detection of diseases such...
+
+AI technology is being increasingly utilized in breast cancer diagnostics to improve accuracy and efficiency. Machine learning algorithms can analyze mammograms and identify subtle patterns that may indicate the presence of cancer. This can help radiologists in early detection and treatment planning...
+
+AI has the potential to significantly impact healthcare costs by improving efficiency, reducing errors, and optimizing resource allocation. By streamlining processes and automating tasks, AI technologies can help healthcare providers save time and money. For example, AI-powered predictive analytics ...
+
+AI in healthcare has the potential to significantly reduce costs by increasing efficiency in various aspects of the healthcare system. From optimizing staff schedules to predicting patient outcomes and preventing unnecessary hospital readmissions, AI can help healthcare providers make more informed ...
+
+One of the future trends in AI medical technology is the use of predictive analytics to improve patient outcomes. By analyzing large datasets, AI can help healthcare providers identify patterns and predict potential health issues before they arise. Additionally, AI-powered virtual health assistants ...
+
+The future of AI in medical technology is exciting, with several emerging trends shaping the landscape. Predictive analytics is being used to forecast patient outcomes and optimize treatment plans. Personalized medicine, which tailors medical treatment to individual characteristics, is becoming more...
+
+The integration of artificial intelligence (AI) in medical education is revolutionizing the way medical students learn and practice. AI technologies are being used to create virtual patient simulations, personalized learning experiences, and real-time feedback mechanisms. This allows students to gai...
+
+AI is increasingly being integrated into medical education to enhance learning experiences for students. It can provide personalized learning paths, simulate real-life medical scenarios, and offer instant feedback to students. This technology helps to bridge the gap between theoretical knowledge and...
+
+Regulatory challenges in AI medical technology arise due to the need for clear guidelines on the use of AI algorithms in healthcare, the complexity of AI systems, and the rapid pace of technological advancements. Healthcare regulations, such as those set by the FDA, play a crucial role in ensuring t...
+
+Regulating AI medical devices poses unique challenges due to the rapidly evolving nature of the technology. The FDA faces difficulties in keeping up with the pace of innovation and ensuring that these devices meet safety and efficacy standards. Compliance with existing regulations, such as the Medic...
+
+The use of AI in patient care raises ethical concerns surrounding patient privacy, data security, bias in algorithms, accountability, and the potential dehumanization of healthcare. It is crucial for healthcare providers and developers to address these issues to ensure that AI technologies are used ...
+
+The implementation of AI in patient care raises several ethical concerns, such as privacy, security, bias, and accountability. Privacy concerns arise from the vast amount of sensitive patient data being used by AI algorithms. Security issues include the risk of data breaches and unauthorized access ...
+
+AI plays a crucial role in personalized medicine by utilizing patient data to tailor medical treatment and interventions to the individual. Through advanced algorithms and machine learning, AI can analyze vast amounts of data to predict disease risk, optimize treatment plans, and identify the most e...
+
+AI plays a crucial role in personalized medicine by analyzing large amounts of data to identify patterns and make predictions tailored to individual patients. This allows for more precise diagnosis, treatment, and prevention strategies, leading to better patient outcomes.}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+🎲 Choice scenario triggered! (Rolled 25.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+5
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+4
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+5
+.
+Topic count decided: 5
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Ethical considerations in the use of AI in medical technology are crucial as they involve issues such as patient privacy, data security, bias in algorithms, and the impact on healthcare professionals. It is important to ensure that AI systems are transparent, fair, and accountable in order to mainta...
+
+Transparency in AI algorithms used in healthcare is crucial for ensuring ethical considerations are met. Healthcare providers and patients need to understand how AI systems make decisions to trust their recommendations. Transparency also helps in identifying biases and errors in the algorithms, lead...
+
+AI is being increasingly used in medical diagnostics to assist healthcare professionals in accurately diagnosing diseases and conditions. Machine learning algorithms are trained on vast amounts of medical data to identify patterns and make predictions. AI can help in early detection of diseases such...
+
+AI technology is being increasingly utilized in breast cancer diagnostics to improve accuracy and efficiency. Machine learning algorithms can analyze mammograms and identify subtle patterns that may indicate the presence of cancer. This can help radiologists in early detection and treatment planning...
+
+AI has the potential to significantly impact healthcare costs by improving efficiency, reducing errors, and optimizing resource allocation. By streamlining processes and automating tasks, AI technologies can help healthcare providers save time and money. For example, AI-powered predictive analytics ...
+
+AI in healthcare has the potential to significantly reduce costs by increasing efficiency in various aspects of the healthcare system. From optimizing staff schedules to predicting patient outcomes and preventing unnecessary hospital readmissions, AI can help healthcare providers make more informed ...
+
+One of the future trends in AI medical technology is the use of predictive analytics to improve patient outcomes. By analyzing large datasets, AI can help healthcare providers identify patterns and predict potential health issues before they arise. Additionally, AI-powered virtual health assistants ...
+
+The future of AI in medical technology is exciting, with several emerging trends shaping the landscape. Predictive analytics is being used to forecast patient outcomes and optimize treatment plans. Personalized medicine, which tailors medical treatment to individual characteristics, is becoming more...
+
+The integration of artificial intelligence (AI) in medical education is revolutionizing the way medical students learn and practice. AI technologies are being used to create virtual patient simulations, personalized learning experiences, and real-time feedback mechanisms. This allows students to gai...
+
+AI is increasingly being integrated into medical education to enhance learning experiences for students. It can provide personalized learning paths, simulate real-life medical scenarios, and offer instant feedback to students. This technology helps to bridge the gap between theoretical knowledge and...
+
+Regulatory challenges in AI medical technology arise due to the need for clear guidelines on the use of AI algorithms in healthcare, the complexity of AI systems, and the rapid pace of technological advancements. Healthcare regulations, such as those set by the FDA, play a crucial role in ensuring t...
+
+Regulating AI medical devices poses unique challenges due to the rapidly evolving nature of the technology. The FDA faces difficulties in keeping up with the pace of innovation and ensuring that these devices meet safety and efficacy standards. Compliance with existing regulations, such as the Medic...
+
+The use of AI in patient care raises ethical concerns surrounding patient privacy, data security, bias in algorithms, accountability, and the potential dehumanization of healthcare. It is crucial for healthcare providers and developers to address these issues to ensure that AI technologies are used ...
+
+The implementation of AI in patient care raises several ethical concerns, such as privacy, security, bias, and accountability. Privacy concerns arise from the vast amount of sensitive patient data being used by AI algorithms. Security issues include the risk of data breaches and unauthorized access ...
+
+AI plays a crucial role in personalized medicine by utilizing patient data to tailor medical treatment and interventions to the individual. Through advanced algorithms and machine learning, AI can analyze vast amounts of data to predict disease risk, optimize treatment plans, and identify the most e...
+
+AI plays a crucial role in personalized medicine by analyzing large amounts of data to identify patterns and make predictions tailored to individual patients. This allows for more precise diagnosis, treatment, and prevention strategies, leading to better patient outcomes.}). You are to come up with {5} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Teaching Plan: AI in Medical Technology
+
+Week 1: Introduction to AI in Healthcare
+
+Main Topic: Overview of AI in Healthcare
+- Explanation of AI technology in healthcare
+- Applications of AI in medical diagnostics
+- Benefits of AI in improving healthcare outcomes
+
+Learning Objectives:
+- Understand the basics of AI technology in healthcare
+- Identify various applications of AI in medical diagnostics
+- Recognize the benefits of AI in improving healthcare outcomes
+
+Estimated Number of Slides: 10
+
+Lab Activities:
+- Research and present a case study on the use of AI in medical diagnostics
+- Analyze and discuss the potential impact of AI technology on healthcare outcomes
+
+Real-world Applications:
+- AI-powered diagnostic tools such as IBM Watson for Oncology
+- AI algorithms for early detection of diseases like diabetes and cancer
+
+Week 2: Ethical Considerations in AI in Healthcare
+
+Main Topic: Ethical Considerations in AI
+- Patient privacy and data security in AI systems
+- Bias in AI algorithms and the impact on healthcare professionals
+- Accountability and transparency in AI decision-making processes
+
+Learning Objectives:
+- Understand the importance of ethical considerations in AI technology
+- Identify potential ethical issues related to patient privacy and data security
+- Recognize the impact of bias in AI algorithms on healthcare professionals
+
+Estimated Number of Slides: 12
+
+Lab Activities:
+- Discuss and debate ethical dilemmas related to AI in healthcare
+- Analyze case studies on bias in AI algorithms and its implications for patient care
+
+Real-world Applications:
+- Implementation of AI ethics guidelines in healthcare organizations
+- Development of transparent AI systems to ensure accountability
+
+Week 3: AI in Medical Diagnostics
+
+Main Topic: AI in Disease Diagnosis
+- Role of machine learning algorithms in medical diagnostics
+- Use of AI technology in breast cancer diagnostics
+- Impact of AI on early detection and treatment planning
+
+Learning Objectives:
+- Understand the role of machine learning algorithms in medical diagnostics
+- Identify the applications of AI in breast cancer diagnostics
+- Recognize the impact of AI technology on early disease detection
+
+Estimated Number of Slides: 15
+
+Lab Activities:
+- Analyze medical imaging data using AI algorithms
+- Develop a diagnostic algorithm for a specific disease using AI technology
+
+Real-world Applications:
+- Integration of AI-powered diagnostic tools in radiology departments
+- Collaboration between AI systems and healthcare professionals for accurate disease diagnosis
+
+Week 4: Cost Reduction and Efficiency with AI in Healthcare
+
+Main Topic: Cost Reduction and Efficiency
+- Impact of AI technology on healthcare costs
+- Streamlining processes and automating tasks with AI
+- Examples of AI-powered predictive analytics in healthcare
+
+Learning Objectives:
+- Understand how AI technology can reduce healthcare costs
+- Identify ways to streamline processes and automate tasks using AI
+- Recognize the potential of predictive analytics in improving healthcare efficiency
+
+Estimated Number of Slides: 10
+
+Lab Activities:
+- Develop a cost-saving strategy using AI technology in a healthcare setting
+- Analyze real-world data to predict patient outcomes using AI-powered analytics
+
+Real-world Applications:
+- Implementation of AI chatbots for patient communication and appointment scheduling
+- Use of predictive analytics to optimize hospital resource allocation
+
+Week 5: Future Trends in AI Medical Technology
+
+Main Topic: Future Trends in AI
+- Use of predictive analytics to improve patient outcomes
+- Personalized medicine and tailored treatment plans
+- Integration of AI in medical education and training
+
+Learning Objectives:
+- Identify future trends in AI medical technology
+- Understand the potential of predictive analytics in improving patient outcomes
+- Recognize the role of AI in personalized medicine and medical education
+
+Estimated Number of Slides: 12
+
+Lab Activities:
+- Create a predictive analytics model for personalized patient care
+- Design a virtual patient simulation using AI technology for medical education
+
+Real-world Applications:
+- Advancements in personalized medicine through AI-driven treatment plans
+- Integration of AI technologies in medical schools for enhanced learning experiences
+
+This comprehensive teaching plan covers the key aspects of AI in medical technology, providing senior undergraduate students with a deep understanding of the applications, ethical considerations, and future trends in this rapidly evolving field.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Teaching Plan: AI in Medical Technology
+
+Week 1: Introduction to AI in Healthcare
+
+Main Topic: Overview of AI in Healthcare
+- Explanation of AI technology in healthcare
+- Applications of AI in medical diagnostics
+- Benefits of AI in improving healthcare outcomes
+
+Learning Objectives:
+- Understand the basics of AI technology in healthcare
+- Identify various applications of AI in medical diagnostics
+- Recognize the benefits of AI in improving healthcare outcomes
+
+Estimated Number of Slides: 10
+
+Lab Activities:
+- Research and present a case study on the use of AI in medical diagnostics
+- Analyze and discuss the potential impact of AI technology on healthcare outcomes
+
+Real-world Applications:
+- AI-powered diagnostic tools such as IBM Watson for Oncology
+- AI algorithms for early detection of diseases like diabetes and cancer
+
+Week 2: Ethical Considerations in AI in Healthcare
+
+Main Topic: Ethical Considerations in AI
+- Patient privacy and data security in AI systems
+- Bias in AI algorithms and the impact on healthcare professionals
+- Accountability and transparency in AI decision-making processes
+
+Learning Objectives:
+- Understand the importance of ethical considerations in AI technology
+- Identify potential ethical issues related to patient privacy and data security
+- Recognize the impact of bias in AI algorithms on healthcare professionals
+
+Estimated Number of Slides: 12
+
+Lab Activities:
+- Discuss and debate ethical dilemmas related to AI in healthcare
+- Analyze case studies on bias in AI algorithms and its implications for patient care
+
+Real-world Applications:
+- Implementation of AI ethics guidelines in healthcare organizations
+- Development of transparent AI systems to ensure accountability
+
+Week 3: AI in Medical Diagnostics
+
+Main Topic: AI in Disease Diagnosis
+- Role of machine learning algorithms in medical diagnostics
+- Use of AI technology in breast cancer diagnostics
+- Impact of AI on early detection and treatment planning
+
+Learning Objectives:
+- Understand the role of machine learning algorithms in medical diagnostics
+- Identify the applications of AI in breast cancer diagnostics
+- Recognize the impact of AI technology on early disease detection
+
+Estimated Number of Slides: 15
+
+Lab Activities:
+- Analyze medical imaging data using AI algorithms
+- Develop a diagnostic algorithm for a specific disease using AI technology
+
+Real-world Applications:
+- Integration of AI-powered diagnostic tools in radiology departments
+- Collaboration between AI systems and healthcare professionals for accurate disease diagnosis
+
+Week 4: Cost Reduction and Efficiency with AI in Healthcare
+
+Main Topic: Cost Reduction and Efficiency
+- Impact of AI technology on healthcare costs
+- Streamlining processes and automating tasks with AI
+- Examples of AI-powered predictive analytics in healthcare
+
+Learning Objectives:
+- Understand how AI technology can reduce healthcare costs
+- Identify ways to streamline processes and automate tasks using AI
+- Recognize the potential of predictive analytics in improving healthcare efficiency
+
+Estimated Number of Slides: 10
+
+Lab Activities:
+- Develop a cost-saving strategy using AI technology in a healthcare setting
+- Analyze real-world data to predict patient outcomes using AI-powered analytics
+
+Real-world Applications:
+- Implementation of AI chatbots for patient communication and appointment scheduling
+- Use of predictive analytics to optimize hospital resource allocation
+
+Week 5: Future Trends in AI Medical Technology
+
+Main Topic: Future Trends in AI
+- Use of predictive analytics to improve patient outcomes
+- Personalized medicine and tailored treatment plans
+- Integration of AI in medical education and training
+
+Learning Objectives:
+- Identify future trends in AI medical technology
+- Understand the potential of predictive analytics in improving patient outcomes
+- Recognize the role of AI in personalized medicine and medical education
+
+Estimated Number of Slides: 12
+
+Lab Activities:
+- Create a predictive analytics model for personalized patient care
+- Design a virtual patient simulation using AI technology for medical education
+
+Real-world Applications:
+- Advancements in personalized medicine through AI-driven treatment plans
+- Integration of AI technologies in medical schools for enhanced learning experiences
+
+This comprehensive teaching plan covers the key aspects of AI in medical technology, providing senior undergraduate students with a deep understanding of the applications, ethical considerations, and future trends in this rapidly evolving field.}). Total slides available: {8}. Topics to allocate: {5}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[10, 12, 15, 10, 12]
+.
+Slide allocation: [1, 1, 4, 1, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Medical Technology Advances) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Teaching Plan: AI in Medical Technology
+
+Week 1: Introduction to AI in Healthcare
+
+Main Topic: Overview of AI in Healthcare
+- Explanation of AI technology in healthcare
+- Applications of AI in medical diagnostics
+- Benefits of AI in improving healthcare outcomes
+
+Learning Objectives:
+- Understand the basics of AI technology in healthcare
+- Identify various applications of AI in medical diagnostics
+- Recognize the benefits of AI in improving healthcare outcomes
+
+Estimated Number of Slides: 10
+
+Lab Activities:
+- Research and present a case study on the use of AI in medical diagnostics
+- Analyze and discuss the potential impact of AI technology on healthcare outcomes
+
+Real-world Applications:
+- AI-powered diagnostic tools such as IBM Watson for Oncology
+- AI algorithms for early detection of diseases like diabetes and cancer
+
+Week 2: Ethical Considerations in AI in Healthcare
+
+Main Topic: Ethical Considerations in AI
+- Patient privacy and data security in AI systems
+- Bias in AI algorithms and the impact on healthcare professionals
+- Accountability and transparency in AI decision-making processes
+
+Learning Objectives:
+- Understand the importance of ethical considerations in AI technology
+- Identify potential ethical issues related to patient privacy and data security
+- Recognize the impact of bias in AI algorithms on healthcare professionals
+
+Estimated Number of Slides: 12
+
+Lab Activities:
+- Discuss and debate ethical dilemmas related to AI in healthcare
+- Analyze case studies on bias in AI algorithms and its implications for patient care
+
+Real-world Applications:
+- Implementation of AI ethics guidelines in healthcare organizations
+- Development of transparent AI systems to ensure accountability
+
+Week 3: AI in Medical Diagnostics
+
+Main Topic: AI in Disease Diagnosis
+- Role of machine learning algorithms in medical diagnostics
+- Use of AI technology in breast cancer diagnostics
+- Impact of AI on early detection and treatment planning
+
+Learning Objectives:
+- Understand the role of machine learning algorithms in medical diagnostics
+- Identify the applications of AI in breast cancer diagnostics
+- Recognize the impact of AI technology on early disease detection
+
+Estimated Number of Slides: 15
+
+Lab Activities:
+- Analyze medical imaging data using AI algorithms
+- Develop a diagnostic algorithm for a specific disease using AI technology
+
+Real-world Applications:
+- Integration of AI-powered diagnostic tools in radiology departments
+- Collaboration between AI systems and healthcare professionals for accurate disease diagnosis
+
+Week 4: Cost Reduction and Efficiency with AI in Healthcare
+
+Main Topic: Cost Reduction and Efficiency
+- Impact of AI technology on healthcare costs
+- Streamlining processes and automating tasks with AI
+- Examples of AI-powered predictive analytics in healthcare
+
+Learning Objectives:
+- Understand how AI technology can reduce healthcare costs
+- Identify ways to streamline processes and automate tasks using AI
+- Recognize the potential of predictive analytics in improving healthcare efficiency
+
+Estimated Number of Slides: 10
+
+Lab Activities:
+- Develop a cost-saving strategy using AI technology in a healthcare setting
+- Analyze real-world data to predict patient outcomes using AI-powered analytics
+
+Real-world Applications:
+- Implementation of AI chatbots for patient communication and appointment scheduling
+- Use of predictive analytics to optimize hospital resource allocation
+
+Week 5: Future Trends in AI Medical Technology
+
+Main Topic: Future Trends in AI
+- Use of predictive analytics to improve patient outcomes
+- Personalized medicine and tailored treatment plans
+- Integration of AI in medical education and training
+
+Learning Objectives:
+- Identify future trends in AI medical technology
+- Understand the potential of predictive analytics in improving patient outcomes
+- Recognize the role of AI in personalized medicine and medical education
+
+Estimated Number of Slides: 12
+
+Lab Activities:
+- Create a predictive analytics model for personalized patient care
+- Design a virtual patient simulation using AI technology for medical education
+
+Real-world Applications:
+- Advancements in personalized medicine through AI-driven treatment plans
+- Integration of AI technologies in medical schools for enhanced learning experiences
+
+This comprehensive teaching plan covers the key aspects of AI in medical technology, providing senior undergraduate students with a deep understanding of the applications, ethical considerations, and future trends in this rapidly evolving field.}). Slide allocation per topic: {[1, 1, 4, 1, 1]}. Database content for reference: ({Ethical considerations in the use of AI in medical technology are crucial as they involve issues such as patient privacy, data security, bias in algorithms, and the impact on healthcare professionals. It is important to ensure that AI systems are transparent, fair, and accountable in order to mainta...
+
+Transparency in AI algorithms used in healthcare is crucial for ensuring ethical considerations are met. Healthcare providers and patients need to understand how AI systems make decisions to trust their recommendations. Transparency also helps in identifying biases and errors in the algorithms, lead...
+
+AI is being increasingly used in medical diagnostics to assist healthcare professionals in accurately diagnosing diseases and conditions. Machine learning algorithms are trained on vast amounts of medical data to identify patterns and make predictions. AI can help in early detection of diseases such...
+
+AI technology is being increasingly utilized in breast cancer diagnostics to improve accuracy and efficiency. Machine learning algorithms can analyze mammograms and identify subtle patterns that may indicate the presence of cancer. This can help radiologists in early detection and treatment planning...
+
+AI has the potential to significantly impact healthcare costs by improving efficiency, reducing errors, and optimizing resource allocation. By streamlining processes and automating tasks, AI technologies can help healthcare providers save time and money. For example, AI-powered predictive analytics ...
+
+AI in healthcare has the potential to significantly reduce costs by increasing efficiency in various aspects of the healthcare system. From optimizing staff schedules to predicting patient outcomes and preventing unnecessary hospital readmissions, AI can help healthcare providers make more informed ...
+
+One of the future trends in AI medical technology is the use of predictive analytics to improve patient outcomes. By analyzing large datasets, AI can help healthcare providers identify patterns and predict potential health issues before they arise. Additionally, AI-powered virtual health assistants ...
+
+The future of AI in medical technology is exciting, with several emerging trends shaping the landscape. Predictive analytics is being used to forecast patient outcomes and optimize treatment plans. Personalized medicine, which tailors medical treatment to individual characteristics, is becoming more...
+
+The integration of artificial intelligence (AI) in medical education is revolutionizing the way medical students learn and practice. AI technologies are being used to create virtual patient simulations, personalized learning experiences, and real-time feedback mechanisms. This allows students to gai...
+
+AI is increasingly being integrated into medical education to enhance learning experiences for students. It can provide personalized learning paths, simulate real-life medical scenarios, and offer instant feedback to students. This technology helps to bridge the gap between theoretical knowledge and...
+
+Regulatory challenges in AI medical technology arise due to the need for clear guidelines on the use of AI algorithms in healthcare, the complexity of AI systems, and the rapid pace of technological advancements. Healthcare regulations, such as those set by the FDA, play a crucial role in ensuring t...
+
+Regulating AI medical devices poses unique challenges due to the rapidly evolving nature of the technology. The FDA faces difficulties in keeping up with the pace of innovation and ensuring that these devices meet safety and efficacy standards. Compliance with existing regulations, such as the Medic...
+
+The use of AI in patient care raises ethical concerns surrounding patient privacy, data security, bias in algorithms, accountability, and the potential dehumanization of healthcare. It is crucial for healthcare providers and developers to address these issues to ensure that AI technologies are used ...
+
+The implementation of AI in patient care raises several ethical concerns, such as privacy, security, bias, and accountability. Privacy concerns arise from the vast amount of sensitive patient data being used by AI algorithms. Security issues include the risk of data breaches and unauthorized access ...
+
+AI plays a crucial role in personalized medicine by utilizing patient data to tailor medical treatment and interventions to the individual. Through advanced algorithms and machine learning, AI can analyze vast amounts of data to predict disease risk, optimize treatment plans, and identify the most e...
+
+AI plays a crucial role in personalized medicine by analyzing large amounts of data to identify patterns and make predictions tailored to individual patients. This allows for more precise diagnosis, treatment, and prevention strategies, leading to better patient outcomes.}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+🎲 Choice scenario triggered! (Rolled 12.7 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+1. Overview of AI Technology in Healthcare
+2. Ethical Considerations: Patient Privacy and Data Security
+3. Role of Machine Learning Algorithms in Medical Diagnostics
+4. Cost Reduction and Efficiency with AI in Healthcare
+5. Bias in AI Algorithms and Impact on Healthcare Professionals
+6. Predictive Analytics for Improving Patient Outcomes
+7. Personalized Medicine and Tailored Treatment Plans
+8. Integration of AI in Medical Education and Training
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+1. Importance of Transparency in AI Algorithms in Healthcare
+2. Role of AI in Breast Cancer Diagnostics
+3. Impact of AI on Healthcare Costs and Efficiency
+4. Future Trends: Predictive Analytics for Improved Patient Outcomes
+5. Ethical Considerations in AI Patient Care
+6. Regulatory Challenges in AI Medical Technology
+7. AI in Personalized Medicine: Tailored Treatment Plans
+8. Integrating AI in Medical Education and Training
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+1. Overview of AI Technology in Healthcare
+2. Ethical Considerations: Patient Privacy and Data Security
+3. Role of Machine Learning Algorithms in Medical Diagnostics
+4. Cost Reduction and Efficiency with AI in Healthcare
+5. Bias in AI Algorithms and Impact on Healthcare Professionals
+6. Predictive Analytics for Improving Patient Outcomes
+7. Personalized Medicine and Tailored Treatment Plans
+8. Integration of AI in Medical Education and Training
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_21-57-46.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_21-57-46.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_21-57-49.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+🎲 Choice scenario triggered! (Rolled 17.1 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+VALID
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+VALID
+
+----------------------------------------
+✅ You chose Response 1
+✅ Content validation passed - suitable for 3 credit hours
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Medical Technology Advances
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Overview of AI Technology in Healthcare)
+🔍 DEBUG: Slide 1 content set to: '• AI plays a crucial role in personalized medicine by utilizing patient data to tailor medical treat...'
+🔍 DEBUG: Slide 1 content length: 475
+✅ Slide 1 content: • AI plays a crucial role in personalized medicine by utilizing patient data to tailor medical treatment and interventions to the individual.
+• Through advanced algorithms and machine learning, AI can analyze vast amounts of data to predict disease risk, optimize treatment plans, and identify the most effective therapies for each patient.
+• This approach allows for more targeted and efficient healthcare delivery, ultimately improving patient outcomes and quality of care.
+Generating content for slide 2 (Topic: Ethical Considerations: Patient Privacy and Data Security)
+🔍 DEBUG: Slide 2 content set to: '• Ethical concerns in AI patient care include patient privacy, data security, bias in algorithms, an...'
+🔍 DEBUG: Slide 2 content length: 379
+✅ Slide 2 content: • Ethical concerns in AI patient care include patient privacy, data security, bias in algorithms, and accountability
+• Privacy issues arise from the use of sensitive patient data by AI algorithms
+• Security risks include data breaches and unauthorized access to medical records
+• Bias in algorithms can lead to disparities in healthcare outcomes for different patient populations
+Generating content for slide 3 (Topic: Role of Machine Learning Algorithms in Medical Diagnostics)
+🎲 Choice scenario triggered! (Rolled 2.0 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Machine learning algorithms play a vital role in medical diagnostics by analyzing vast amounts of data
+• AI assists in early detection of diseases such as cancer, diabetes, and heart disease
+• AI technology can improve diagnostic accuracy and efficiency in breast cancer diagnostics
+• Example: Machine learning algorithms analyze mammograms to identify subtle patterns indicating cancer
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Machine learning algorithms in medical diagnostics analyze vast amounts of data to predict disease risk and optimize treatment plans
+• AI assists healthcare professionals in accurately diagnosing diseases like cancer, diabetes, and heart disease
+• Early detection of diseases through AI technology leads to better patient outcomes and treatment strategies
+• Examples include using AI to analyze mammograms for breast cancer detection and predicting patient outcomes based on medical data
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 3 content set to: '• Machine learning algorithms in medical diagnostics analyze vast amounts of data to predict disease...'
+🔍 DEBUG: Slide 3 content length: 489
+✅ Slide 3 content: • Machine learning algorithms in medical diagnostics analyze vast amounts of data to predict disease risk and optimize treatment plans
+• AI assists healthcare professionals in accurately diagnosing diseases like cancer, diabetes, and heart disease
+• Early detection of diseases through AI technology leads to better patient outcomes and treatment strategies
+• Examples include using AI to analyze mammograms for breast cancer detection and predicting patient outcomes based on medical data
+Generating content for slide 4 (Topic: Cost Reduction and Efficiency with AI in Healthcare)
+🎲 Choice scenario triggered! (Rolled 18.2 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• AI in healthcare can significantly reduce costs by increasing efficiency in various aspects of the healthcare system
+• From optimizing staff schedules to predicting patient outcomes, AI helps providers make informed decisions that lead to cost savings
+• By streamlining administrative processes and improving diagnostic accuracy, AI lowers the financial burden on healthcare facilities
+• Example: AI-powered predictive analytics can identify high-risk patients early, reducing costly emergency room visits and hospital readmissions
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• AI in healthcare can significantly reduce costs by increasing efficiency in various aspects of the healthcare system
+• By optimizing staff schedules, predicting patient outcomes, and preventing unnecessary hospital readmissions, AI helps make more informed decisions leading to cost savings
+• Streamlining administrative processes and improving diagnostic accuracy with AI can lower the financial burden on healthcare facilities
+• Example: AI-powered predictive analytics can identify high-risk patients early, reducing costly emergency room visits and hospital readmissions.
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 4 content set to: '• AI in healthcare can significantly reduce costs by increasing efficiency in various aspects of the...'
+🔍 DEBUG: Slide 4 content length: 453
+✅ Slide 4 content: • AI in healthcare can significantly reduce costs by increasing efficiency in various aspects of the healthcare system
+• By optimizing staff schedules, predicting patient outcomes, and preventing unnecessary hospital readmissions, AI helps make more informed decisions leading to cost savings
+• Streamlining administrative processes and improving diagnostic accuracy with AI can lower the financial burden on healthcare facilities
+• Example: AI-powered predictive analytics can identify high-risk patients early, reducing costly emergency room visits and hospital readmissions.
+Generating content for slide 5 (Topic: Bias in AI Algorithms and Impact on Healthcare Professionals)
+🔍 DEBUG: Slide 5 content set to: 'Bias in AI algorithms can lead to disparities in healthcare outcomes for different patient populatio...'
+🔍 DEBUG: Slide 5 content length: 453
+✅ Slide 5 content: - Bias in AI algorithms can lead to disparities in healthcare outcomes for different patient populations
+- Impact on Healthcare Professionals:
+    - Healthcare professionals must be aware of potential biases in AI algorithms to ensure fair and equitable treatment for all patients
+    - Understanding how biases can affect diagnostic accuracy and treatment recommendations is crucial for providing high-quality care
+- Example: A study found that AI algorithms used in dermatology showed bias against certain skin types, leading to misdiagnoses and inappropriate treatment recommendations
+Generating content for slide 6 (Topic: Predictive Analytics for Improving Patient Outcomes)
+🔍 DEBUG: Slide 6 content set to: '• Predictive analytics in healthcare utilizes AI to forecast patient outcomes and optimize treatment...'
+🔍 DEBUG: Slide 6 content length: 313
+✅ Slide 6 content: • Predictive analytics in healthcare utilizes AI to forecast patient outcomes and optimize treatment plans
+• Tailored medical interventions based on predictive analytics lead to improved patient outcomes
+• Examples include predicting disease progression and identifying effective therapies for individual patients
+Generating content for slide 7 (Topic: Personalized Medicine and Tailored Treatment Plans)
+🔍 DEBUG: Slide 7 content set to: '• Personalized Medicine utilizes AI to tailor treatment plans to individual patients • AI analyzes l...'
+🔍 DEBUG: Slide 7 content length: 412
+✅ Slide 7 content: • Personalized Medicine utilizes AI to tailor treatment plans to individual patients
+• AI analyzes large amounts of data to identify patterns and make predictions for precise diagnosis and treatment
+• Tailored medical interventions based on predictive analytics lead to improved patient outcomes
+• Example: Predicting disease risk, optimizing treatment plans, and identifying effective therapies for each patient
+Generating content for slide 8 (Topic: Integration of AI in Medical Education and Training)
+🔍 DEBUG: Slide 8 content set to: '• AI technologies in medical education create virtual patient simulations and personalized learning ...'
+🔍 DEBUG: Slide 8 content length: 442
+✅ Slide 8 content: • AI technologies in medical education create virtual patient simulations and personalized learning experiences
+• Real-time feedback mechanisms help students gain hands-on experience in a safe environment
+• Educators can track student progress, identify areas for improvement, and tailor content to individual learning styles
+• Example: AI integration enhances clinical skills and decision-making abilities for future healthcare professionals
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Overview of AI Technology in Healthcare)
+✅ Slide 1 title: Personalized Medicine Through AI: Tailoring Treatment for Patients
+Generating title for slide 2 (Topic: Ethical Considerations: Patient Privacy and Data Security)
+✅ Slide 2 title: Slide 2 Title: Safeguarding Patient Privacy in AI Healthcare
+Generating title for slide 3 (Topic: Role of Machine Learning Algorithms in Medical Diagnostics)
+🎲 Choice scenario triggered! (Rolled 34.0 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Utilizing Machine Learning for Medical Diagnostics
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+AI in Medical Diagnostics: Enhancing Disease Detection
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 3 title: Utilizing Machine Learning for Medical Diagnostics
+Generating title for slide 4 (Topic: Cost Reduction and Efficiency with AI in Healthcare)
+✅ Slide 4 title: Maximizing Cost Efficiency with AI in Healthcare
+Generating title for slide 5 (Topic: Bias in AI Algorithms and Impact on Healthcare Professionals)
+🎲 Choice scenario triggered! (Rolled 30.7 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Addressing Bias in AI Algorithms: Impact on Healthcare Pros
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Addressing Bias in AI Algorithms for Healthcare Pros
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 5 title: Addressing Bias in AI Algorithms for Healthcare Pros
+Generating title for slide 6 (Topic: Predictive Analytics for Improving Patient Outcomes)
+🎲 Choice scenario triggered! (Rolled 17.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Improving Patient Outcomes with Predictive Analytics
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Improving Patient Outcomes with Predictive Analytics
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 6 title: Improving Patient Outcomes with Predictive Analytics
+Generating title for slide 7 (Topic: Personalized Medicine and Tailored Treatment Plans)
+🎲 Choice scenario triggered! (Rolled 0.1 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Title: Tailored Treatment Plans with AI
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+"Personalized Medicine and Tailored Treatment"
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 7 title: "Personalized Medicine and Tailored Treatment"
+Generating title for slide 8 (Topic: Integration of AI in Medical Education and Training)
+🎲 Choice scenario triggered! (Rolled 25.2 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Enhancing Medical Education with AI Integration
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+AI Integration in Medical Education: Transforming Learning Experiences
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 8 title: Enhancing Medical Education with AI Integration
+Generating overall presentation title...
+✅ Overall presentation title: Advancing Healthcare through AI Integration: Personalized Treatment, Privacy Protection, and Cost Efficiency
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Overview of AI Technology in Healthcare)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Ethical Considerations: Patient Privacy and Data Security)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Role of Machine Learning Algorithms in Medical Diagnostics)
+🎲 Choice scenario triggered! (Rolled 6.5 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['machine learning algorithms in medical diagnostics', 'AI in disease risk prediction', 'AI in treatment optimization', 'AI in cancer diagnosis', 'AI in diabetes diagnosis', 'AI in heart disease diagnosis', 'early disease detection with AI technology', 'AI in mammogram analysis for breast cancer detection', 'predicting patient outcomes with AI in medical data analysis']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['machine learning algorithms in medical diagnostics', 'AI in disease risk prediction', 'medical diagnostics AI technology', 'AI in cancer diagnosis', 'AI in diabetes diagnosis', 'AI in heart disease diagnosis', 'early disease detection AI technology', 'AI in mammogram analysis', 'predicting patient outcomes with medical data AI']
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Cost Reduction and Efficiency with AI in Healthcare)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Bias in AI Algorithms and Impact on Healthcare Professionals)
+🎲 Choice scenario triggered! (Rolled 9.1 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['bias in AI algorithms healthcare professionals', 'AI algorithms healthcare outcomes disparities', 'AI algorithms diagnostic accuracy healthcare', 'AI algorithms treatment recommendations disparities', 'healthcare professionals awareness bias AI algorithms', 'AI algorithms impact patient populations healthcare', 'AI algorithms fairness in patient treatment', 'AI algorithms equitable care patients', 'healthcare professionals understanding bias AI algorithms']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['bias in AI algorithms healthcare professionals', 'healthcare AI bias impact', 'AI algorithm disparities in healthcare outcomes', 'healthcare AI bias study', 'AI algorithm diagnostic accuracy bias', 'AI algorithm treatment recommendations bias', 'healthcare professionals awareness AI bias']
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Predictive Analytics for Improving Patient Outcomes)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Personalized Medicine and Tailored Treatment Plans)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Integration of AI in Medical Education and Training)
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Overview of AI Technology in Healthcare)
+⚠️ Warning: Slide 1 content is long (707 chars) - consider reducing
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Ethical Considerations: Patient Privacy and Data Security)
+⚠️ Warning: Slide 2 content is long (681 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Role of Machine Learning Algorithms in Medical Diagnostics)
+🎲 Choice scenario triggered! (Rolled 19.0 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Machine learning algorithms in medical diagnostics use pattern recognition and data analysis to assist in disease prediction and treatment optimization.
+- AI technologies like machine learning have shown promising results in accurately diagnosing complex diseases such as cancer, diabetes, and heart conditions.
+- The utilization of AI in medical diagnostics enables early disease detection, leading to timely interventions and improved patient outcomes.
+- AI applications in medical diagnostics extend to analyzing various types of medical data, including genetic information, imaging studies, and patient health records.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Machine learning algorithms in medical diagnostics leverage AI technology to analyze vast amounts of data, enabling healthcare professionals to predict disease risk and optimize treatment plans effectively.
+- AI-powered tools assist in accurately diagnosing various diseases such as cancer, diabetes, and heart disease, leading to early detection and improved patient outcomes.
+- Utilizing AI technology for medical diagnostics includes analyzing medical imaging data, such as mammograms, for detecting diseases like breast cancer and predicting patient outcomes based on comprehensive medical data.
+- The integration of machine learning algorithms in medical diagnostics plays a crucial role in enhancing early disease detection, facilitating personalized treatment planning, and improving overall healthcare outcomes.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 3 content is long (624 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Cost Reduction and Efficiency with AI in Healthcare)
+⚠️ Warning: Slide 4 content is long (751 chars) - consider reducing
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Bias in AI Algorithms and Impact on Healthcare Professionals)
+⚠️ Warning: Slide 5 content is long (649 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Predictive Analytics for Improving Patient Outcomes)
+🎲 Choice scenario triggered! (Rolled 3.4 <= 45.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Regulatory challenges in AI medical technology include the need for clear guidelines on AI algorithm usage, the complexity of AI systems, and rapid technological advancements.
+- Healthcare regulations, such as those by the FDA, are crucial for ensuring the safety and effectiveness of AI applications in medical diagnostics and treatment.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Regulatory challenges in AI medical technology include the need for clear guidelines on AI algorithm usage, the complexity of AI systems, and rapid technological advancements.
+- Healthcare regulations, such as those by the FDA, are crucial for ensuring the safety and effectiveness of AI applications in medical diagnostics and treatment.
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Personalized Medicine and Tailored Treatment Plans)
+⚠️ Warning: Slide 7 content is long (661 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Integration of AI in Medical Education and Training)
+⚠️ Warning: Slide 8 content is long (615 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Advancing_Healthcare_through_AI_Integration_Personalized_Treatment,_Privacy_Protection,_and_Cost_Efficiency_2025-08-31_21-59-18
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancing_Healthcare_through_AI_Integration_Personalized_Treatment,_Privacy_Protection,_and_Cost_Efficiency_2025-08-31_21-59-18.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancing_Healthcare_through_AI_Integration_Personalized_Treatment,_Privacy_Protection,_and_Cost_Efficiency_2025-08-31_21-59-18.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 4 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Advancing_Healthcare_through_AI_Integration_Personalized_Treatment,_Privacy_Protection,_and_Cost_Efficiency_2025-08-31_21-59-18.pptx
+📊 Rating presentation 4...
+✅ Presentation 4 rated successfully
+📈 Overall Rating: 6.71 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.00 / 2.00
+   - Non-Repetition: 1.86 / 2.00
+   - Content Balance: 1.65 / 2.00
+   - Title Uniqueness: 1.95 / 2.00
+   - Title-Content Match: 1.26 / 2.00
+💾 Result saved to file for presentation 4
+
+📊 Presentation 6/10 (ID: 5)
+📝 Using topic: Theater and Performance Arts
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

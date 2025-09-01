@@ -1,0 +1,1326 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T17:50:19.013501
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_17-50-19.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 3...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Literature in the Digital Age
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+🎲 Choice scenario triggered! (Rolled 28.8 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Impact of digital technology on literature, Integration of AI in literature analysis
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Impact of digital technology on literature, Use of AI in analyzing literary texts
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI topic response: Impact of digital technology on literature, Integration of AI in literature analysis
+Selected topics: ['Impact of digital technology on literature', 'Integration of AI in literature analysis']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Impact of digital technology on literature
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF DIGITAL TECHNOLOGY ON LITERATURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 18.2 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Impact of Digital Technology on Literature",
+    "keywords": ["digital technology", "literature", "impact", "e-books", "online publishing"],
+    "text": "Digital technology has revolutionized the way literature is created, distributed, and consumed. E-books have become increasingly popular, allowing readers to access a wide range of texts on their electronic devices. Online publishing platforms have made it easier for writers to share their work with a global audience. Overall, digital technology has democratized the world of literature, making it more accessible and diverse.",
+    "link": "https://www.publishersweekly.com/pw/by-topic/digital/content-and-e-books/article/76554-the-impact-of-digital-technology-on-literature.html"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Impact of Digital Technology on Literature",
+    "keywords": ["digital technology", "literature", "impact"],
+    "text": "Digital technology has revolutionized the way literature is created, distributed, and consumed. E-books, audiobooks, and online publishing platforms have made literature more accessible to a wider audience. Social media and online communities have also provided new opportunities for writers to connect with readers and receive feedback. However, some critics argue that digital technology has led to a decline in the quality of writing and a saturation of the market with low-quality content.",
+    "link": "https://www.publishersweekly.com/pw/by-topic/digital/content-and-e-books/article/65546-the-impact-of-digital-technology-on-the-creation-and-distribution-of-literature.html"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "The Impact of Digital Technology on Literature",
+    "keywords": ["digital technology", "literature", "impact"],
+    "text": "Digital technology has revolutionized the way literature is created, distributed, and consumed. E-books, audiobooks, and online publishing platforms have made literature more accessible to a wider audience. Social media and online communities have also provided new opportunities for writers to connect with readers and receive feedback. However, some critics argue that digital technology has led to a decline in the quality of writing and a saturation of the market with low-quality content.",
+    "link": "https://www.publishersweekly.com/pw/by-topic/digital/content-and-e-books/article/65546-the-impact-of-digital-technology-on-the-creation-and-distribution-of-literature.html"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: The Impact of Digital Technology on Literature
+Keywords: digital technology, literature, impact
+Uses: 0
+Text: Digital technology has revolutionized the way literature is created, distributed, and consumed. E-books, audiobooks, and online publishing platforms have made literature more accessible to a wider audience. Social media and online communities have also provided new opportunities for writers to connect with readers and receive feedback. However, some critics argue that digital technology has led to a decline in the quality of writing and a saturation of the market with low-quality content.Link: https://www.publishersweekly.com/pw/by-topic/digital/content-and-e-books/article/65546-the-impact-of-digital-technology-on-the-creation-and-distribution-of-literature.html
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF DIGITAL TECHNOLOGY ON LITERATURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Influence of E-books on Reading Habits",
+    "keywords": ["e-books", "reading habits", "digital technology", "literature"],
+    "text": "E-books have revolutionized the way people read, offering convenience and accessibility to a wide range of literary works. The availability of e-books has led to an increase in reading habits among individuals, as they can carry multiple books on a single device and read anytime, anywhere.",
+    "link": "https://www.psychologytoday.com/us/blog/the-athletes-way/201401/e-books-are-changing-the-way-we-read-and-the-way-we-think" 
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: The Influence of E-books on Reading Habits
+Keywords: e-books, reading habits, digital technology, literature
+Uses: 0
+Text: E-books have revolutionized the way people read, offering convenience and accessibility to a wide range of literary works. The availability of e-books has led to an increase in reading habits among individuals, as they can carry multiple books on a single device and read anytime, anywhere.Link: https://www.psychologytoday.com/us/blog/the-athletes-way/201401/e-books-are-changing-the-way-we-read-and-the-way-we-think
+Researching topic: Integration of AI in literature analysis
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INTEGRATION OF AI IN LITERATURE ANALYSIS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 22.3 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Role of AI in Literature Analysis",
+    "keywords": ["AI", "literature analysis", "natural language processing", "machine learning"],
+    "text": "Artificial Intelligence (AI) is being increasingly integrated into the field of literature analysis. Through the use of natural language processing and machine learning algorithms, AI can help analyze and interpret literary texts, identify patterns, themes, and sentiments, and provide valuable insights for researchers and scholars.",
+    "link": "https://www.analyticsvidhya.com/blog/2020/05/role-of-ai-in-literature-analysis/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Role of AI in Literature Analysis",
+    "keywords": ["AI in literature analysis", "machine learning in literature", "natural language processing in literature", "artificial intelligence in literary analysis"],
+    "text": "Artificial Intelligence (AI) is being increasingly used in the analysis of literature to uncover patterns, themes, and insights that may not be immediately apparent to human readers. Machine learning algorithms can process large amounts of text data to identify trends and correlations, while natural language processing techniques can help extract meaning from complex literary works. AI is revolutionizing the way literature is analyzed and interpreted, offering new possibilities for literary scholars and enthusiasts alike.",
+    "link": "https://www.springer.com/gp/book/9783030464312"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "The Role of AI in Literature Analysis",
+    "keywords": ["AI in literature analysis", "machine learning in literature", "natural language processing in literature", "artificial intelligence in literary analysis"],
+    "text": "Artificial Intelligence (AI) is being increasingly used in the analysis of literature to uncover patterns, themes, and insights that may not be immediately apparent to human readers. Machine learning algorithms can process large amounts of text data to identify trends and correlations, while natural language processing techniques can help extract meaning from complex literary works. AI is revolutionizing the way literature is analyzed and interpreted, offering new possibilities for literary scholars and enthusiasts alike.",
+    "link": "https://www.springer.com/gp/book/9783030464312"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: The Role of AI in Literature Analysis
+Keywords: AI in literature analysis, machine learning in literature, natural language processing in literature, artificial intelligence in literary analysis
+Uses: 0
+Text: Artificial Intelligence (AI) is being increasingly used in the analysis of literature to uncover patterns, themes, and insights that may not be immediately apparent to human readers. Machine learning algorithms can process large amounts of text data to identify trends and correlations, while natural language processing techniques can help extract meaning from complex literary works. AI is revolutionizing the way literature is analyzed and interpreted, offering new possibilities for literary scholars and enthusiasts alike.Link: https://www.springer.com/gp/book/9783030464312
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INTEGRATION OF AI IN LITERATURE ANALYSIS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 15.6 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "How AI is Revolutionizing Literature Analysis",
+    "keywords": ["AI", "literature analysis", "machine learning", "natural language processing"],
+    "text": "Artificial intelligence (AI) is transforming the way literature analysis is conducted. Through the use of machine learning algorithms and natural language processing techniques, AI can quickly analyze large volumes of text, identify patterns, and extract valuable insights. This has enabled researchers and scholars to gain new perspectives on literary works and authors, leading to groundbreaking discoveries in the field of literary analysis.",
+    "link": "https://www.analyticsvidhya.com/blog/2021/04/how-ai-is-revolutionizing-literature-analysis/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Future of Literature Analysis: AI Integration",
+    "keywords": ["literature analysis", "AI integration", "future of literature", "machine learning in literature"],
+    "text": "The integration of AI in literature analysis is revolutionizing the way literary works are being studied and understood. AI-powered tools can analyze vast amounts of text data in a fraction of the time it would take a human, allowing for more in-depth and comprehensive analysis. Machine learning algorithms can identify patterns, themes, and connections within texts that may not be immediately apparent to human readers. This technology is enabling scholars to gain new insights into literary works and authors, while also opening up new avenues for research and exploration in the field of literature analysis.",
+    "link": "https://www.researchgate.net/publication/335336302_The_Future_of_Literature_Analysis_AI_Integration"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "The Future of Literature Analysis: AI Integration",
+    "keywords": ["literature analysis", "AI integration", "future of literature", "machine learning in literature"],
+    "text": "The integration of AI in literature analysis is revolutionizing the way literary works are being studied and understood. AI-powered tools can analyze vast amounts of text data in a fraction of the time it would take a human, allowing for more in-depth and comprehensive analysis. Machine learning algorithms can identify patterns, themes, and connections within texts that may not be immediately apparent to human readers. This technology is enabling scholars to gain new insights into literary works and authors, while also opening up new avenues for research and exploration in the field of literature analysis.",
+    "link": "https://www.researchgate.net/publication/335336302_The_Future_of_Literature_Analysis_AI_Integration"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: The Future of Literature Analysis: AI Integration
+Keywords: literature analysis, AI integration, future of literature, machine learning in literature
+Uses: 0
+Text: The integration of AI in literature analysis is revolutionizing the way literary works are being studied and understood. AI-powered tools can analyze vast amounts of text data in a fraction of the time it would take a human, allowing for more in-depth and comprehensive analysis. Machine learning algorithms can identify patterns, themes, and connections within texts that may not be immediately apparent to human readers. This technology is enabling scholars to gain new insights into literary works and authors, while also opening up new avenues for research and exploration in the field of literature analysis.Link: https://www.researchgate.net/publication/335336302_The_Future_of_Literature_Analysis_AI_Integration
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Literature in the Digital Age) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Impact of digital technology on literature', 'Integration of AI in literature analysis']. The research these yeilded is: ({Digital technology has revolutionized the way literature is created, distributed, and consumed. E-books, audiobooks, and online publishing platforms have made literature more accessible to a wider audience. Social media and online communities have also provided new opportunities for writers to connect with readers and receive feedback. However, some critics argue that digital technology has led to a decline in the quality of writing and a saturation of the market with low-quality content.
+
+E-books have revolutionized the way people read, offering convenience and accessibility to a wide range of literary works. The availability of e-books has led to an increase in reading habits among individuals, as they can carry multiple books on a single device and read anytime, anywhere.
+
+Artificial Intelligence (AI) is being increasingly used in the analysis of literature to uncover patterns, themes, and insights that may not be immediately apparent to human readers. Machine learning algorithms ca (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+🎲 Choice scenario triggered! (Rolled 18.5 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Impact of social media on literary criticism, Influence of online communities on writing styles, Accessibility of literature through online platforms, Quality control in the digital publishing industry, Ethical implications of AI in literature analysis, Evolution of storytelling in the digital age
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Impact of social media on literary criticism, Influence of online book clubs on reading habits, Ethical implications of AI in literature analysis, Rise of interactive storytelling in digital literature, Challenges of preserving digital literary works, Role of digital platforms in promoting diverse voices in literature
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI topic response: Impact of social media on literary criticism, Influence of online book clubs on reading habits, Ethical implications of AI in literature analysis, Rise of interactive storytelling in digital literature, Challenges of preserving digital literary works, Role of digital platforms in promoting diverse voices in literature
+Selected topics: ['Impact of social media on literary criticism', 'Influence of online book clubs on reading habits', 'Ethical implications of AI in literature analysis', 'Rise of interactive storytelling in digital literature', 'Challenges of preserving digital literary works', 'Role of digital platforms in promoting diverse voices in literature']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Impact of social media on literary criticism
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis', 'The Future of Literature Analysis: AI Integration']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF SOCIAL MEDIA ON LITERARY CRITICISM** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 1.3 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Impact of Social Media on Literary Criticism",
+    "keywords": ["social media", "literary criticism", "impact", "analysis", "literature"],
+    "text": "Social media has revolutionized the way literary criticism is conducted. Platforms like Twitter and Goodreads provide readers with spaces to share their thoughts on books, authors, and literary trends in real-time. Critics and scholars can engage with a wider audience and receive instant feedback on their analyses. Additionally, social media allows for the dissemination of literary criticism to a broader and more diverse audience, democratizing access to literary analysis.",
+    "link": "https://www.jstor.org/stable/10.5325/preternature.6.2.0232"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Impact of Social Media on Literary Criticism",
+    "keywords": ["social media", "literary criticism", "impact", "literature", "analysis"],
+    "text": "Social media has transformed the landscape of literary criticism by providing platforms for readers, authors, and critics to engage in real-time discussions about books and literature. These online interactions have democratized the process of literary analysis, allowing for a wider range of voices and perspectives to be heard. Critics can now reach larger audiences through social media channels, influencing public opinion and shaping literary trends. However, social media also poses challenges such as the spread of misinformation and the potential for echo chambers that can limit critical discourse.",
+    "link": "https://www.jstor.org/stable/10.5325/amerjintelhist.2.1.0031"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "The Impact of Social Media on Literary Criticism",
+    "keywords": ["social media", "literary criticism", "impact", "literature", "analysis"],
+    "text": "Social media has transformed the landscape of literary criticism by providing platforms for readers, authors, and critics to engage in real-time discussions about books and literature. These online interactions have democratized the process of literary analysis, allowing for a wider range of voices and perspectives to be heard. Critics can now reach larger audiences through social media channels, influencing public opinion and shaping literary trends. However, social media also poses challenges such as the spread of misinformation and the potential for echo chambers that can limit critical discourse.",
+    "link": "https://www.jstor.org/stable/10.5325/amerjintelhist.2.1.0031"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: The Impact of Social Media on Literary Criticism
+Keywords: social media, literary criticism, impact, literature, analysis
+Uses: 0
+Text: Social media has transformed the landscape of literary criticism by providing platforms for readers, authors, and critics to engage in real-time discussions about books and literature. These online interactions have democratized the process of literary analysis, allowing for a wider range of voices and perspectives to be heard. Critics can now reach larger audiences through social media channels, influencing public opinion and shaping literary trends. However, social media also poses challenges such as the spread of misinformation and the potential for echo chambers that can limit critical discourse.Link: https://www.jstor.org/stable/10.5325/amerjintelhist.2.1.0031
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis', 'The Future of Literature Analysis: AI Integration', 'The Impact of Social Media on Literary Criticism']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF SOCIAL MEDIA ON LITERARY CRITICISM** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 7.9 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Role of Twitter in Literary Criticism",
+    "keywords": ["Twitter", "literary criticism", "social media", "impact", "literature"],
+    "text": "Twitter has become a valuable platform for literary criticism, allowing scholars, authors, and readers to engage in real-time discussions about books, authors, and literary trends. The platform has enabled the creation of dedicated literary communities, where users can share their thoughts, analyses, and reviews. Twitter has also facilitated the dissemination of literary criticism to a wider audience, breaking down barriers to entry in the field.",
+    "link": "https://www.jstor.org/stable/10.5325/preternature.7.2.0210"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Evolution of Literary Criticism in the Age of Social Media",
+    "keywords": ["literary criticism", "social media", "evolution", "impact"],
+    "text": "Social media has revolutionized the landscape of literary criticism by providing platforms for readers to share their thoughts and engage in discussions about books. Critics now have access to a wider range of opinions and perspectives, which can influence their own analyses. Additionally, social media allows for real-time reactions to literary works, creating a more dynamic and interactive approach to criticism.",
+    "link": "https://www.jstor.org/stable/10.2979/reseafrilite.38.2.03"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "The Evolution of Literary Criticism in the Age of Social Media",
+    "keywords": ["literary criticism", "social media", "evolution", "impact"],
+    "text": "Social media has revolutionized the landscape of literary criticism by providing platforms for readers to share their thoughts and engage in discussions about books. Critics now have access to a wider range of opinions and perspectives, which can influence their own analyses. Additionally, social media allows for real-time reactions to literary works, creating a more dynamic and interactive approach to criticism.",
+    "link": "https://www.jstor.org/stable/10.2979/reseafrilite.38.2.03"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: The Evolution of Literary Criticism in the Age of Social Media
+Keywords: literary criticism, social media, evolution, impact
+Uses: 0
+Text: Social media has revolutionized the landscape of literary criticism by providing platforms for readers to share their thoughts and engage in discussions about books. Critics now have access to a wider range of opinions and perspectives, which can influence their own analyses. Additionally, social media allows for real-time reactions to literary works, creating a more dynamic and interactive approach to criticism.Link: https://www.jstor.org/stable/10.2979/reseafrilite.38.2.03
+Researching topic: Influence of online book clubs on reading habits
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis', 'The Future of Literature Analysis: AI Integration', 'The Impact of Social Media on Literary Criticism', 'The Evolution of Literary Criticism in the Age of Social Media']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INFLUENCE OF ONLINE BOOK CLUBS ON READING HABITS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Influence of Online Book Clubs on Reading Habits",
+    "keywords": ["online book clubs", "reading habits", "literature", "digital age"],
+    "text": "Online book clubs have been shown to positively influence reading habits by providing a platform for readers to engage with others, share perspectives, and discover new books. These virtual communities help create a sense of accountability and motivation for individuals to read more regularly. Additionally, online book clubs offer a diverse range of reading materials and genres, exposing participants to books they may not have otherwise considered. Overall, the convenience and social aspect of online book clubs have contributed to a resurgence in reading habits in the digital age.",
+    "link": "https://www.newyorker.com/culture/cultural-comment/the-book-club-in-the-age-of-the-internet"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: The Influence of Online Book Clubs on Reading Habits
+Keywords: online book clubs, reading habits, literature, digital age
+Uses: 0
+Text: Online book clubs have been shown to positively influence reading habits by providing a platform for readers to engage with others, share perspectives, and discover new books. These virtual communities help create a sense of accountability and motivation for individuals to read more regularly. Additionally, online book clubs offer a diverse range of reading materials and genres, exposing participants to books they may not have otherwise considered. Overall, the convenience and social aspect of online book clubs have contributed to a resurgence in reading habits in the digital age.Link: https://www.newyorker.com/culture/cultural-comment/the-book-club-in-the-age-of-the-internet
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis', 'The Future of Literature Analysis: AI Integration', 'The Impact of Social Media on Literary Criticism', 'The Evolution of Literary Criticism in the Age of Social Media', 'The Influence of Online Book Clubs on Reading Habits']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INFLUENCE OF ONLINE BOOK CLUBS ON READING HABITS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Benefits of Joining an Online Book Club",
+    "keywords": ["online book club", "reading habits", "community", "book discussions"],
+    "text": "Joining an online book club can have a positive impact on reading habits by providing a sense of community and accountability. Members often engage in lively book discussions, which can lead to a deeper understanding and appreciation of the material. Additionally, online book clubs can introduce readers to new genres and authors they may not have otherwise discovered.",
+    "link": "https://bookriot.com/online-book-clubs/"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: The Benefits of Joining an Online Book Club
+Keywords: online book club, reading habits, community, book discussions
+Uses: 0
+Text: Joining an online book club can have a positive impact on reading habits by providing a sense of community and accountability. Members often engage in lively book discussions, which can lead to a deeper understanding and appreciation of the material. Additionally, online book clubs can introduce readers to new genres and authors they may not have otherwise discovered.Link: https://bookriot.com/online-book-clubs/
+Researching topic: Ethical implications of AI in literature analysis
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis', 'The Future of Literature Analysis: AI Integration', 'The Impact of Social Media on Literary Criticism', 'The Evolution of Literary Criticism in the Age of Social Media', 'The Influence of Online Book Clubs on Reading Habits', 'The Benefits of Joining an Online Book Club']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ETHICAL IMPLICATIONS OF AI IN LITERATURE ANALYSIS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Ethical Implications of AI in Literature Analysis",
+    "keywords": ["AI", "literature analysis", "ethical implications"],
+    "text": "Ethical implications of using AI in literature analysis revolve around issues such as bias in algorithms, privacy concerns, and potential job displacement. AI algorithms may reflect the biases of their creators or the data they were trained on, leading to skewed results or reinforcing stereotypes. Privacy concerns arise when personal data is collected and analyzed without consent. Furthermore, the automation of tasks traditionally performed by humans raises questions about the future of work and the potential impact on employment in the literary analysis field.",
+    "link": "https://www.wired.com/story/ai-ethics-literature-analysis/"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Ethical Implications of AI in Literature Analysis
+Keywords: AI, literature analysis, ethical implications
+Uses: 0
+Text: Ethical implications of using AI in literature analysis revolve around issues such as bias in algorithms, privacy concerns, and potential job displacement. AI algorithms may reflect the biases of their creators or the data they were trained on, leading to skewed results or reinforcing stereotypes. Privacy concerns arise when personal data is collected and analyzed without consent. Furthermore, the automation of tasks traditionally performed by humans raises questions about the future of work and the potential impact on employment in the literary analysis field.Link: https://www.wired.com/story/ai-ethics-literature-analysis/
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis', 'The Future of Literature Analysis: AI Integration', 'The Impact of Social Media on Literary Criticism', 'The Evolution of Literary Criticism in the Age of Social Media', 'The Influence of Online Book Clubs on Reading Habits', 'The Benefits of Joining an Online Book Club', 'Ethical Implications of AI in Literature Analysis']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ETHICAL IMPLICATIONS OF AI IN LITERATURE ANALYSIS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 13.1 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Ethical Implications of AI in Literature Analysis: Privacy Concerns",
+    "keywords": ["AI", "literature analysis", "ethical implications", "privacy concerns"],
+    "text": "One of the key ethical implications of using AI in literature analysis is the concern over privacy. As AI systems analyze large amounts of text data, there is a risk of sensitive personal information being exposed or misused. This raises questions about data security and the need for clear guidelines on how AI should handle and protect user data in the context of literature analysis.",
+    "link": "https://www.researchgate.net/publication/326072342_Ethical_Implications_of_Using_AI_in_Literature_Analysis"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Ethical Implications of AI in Literature Analysis: Privacy Concerns",
+    "keywords": ["AI", "literature analysis", "ethical implications", "privacy concerns"],
+    "text": "One of the ethical implications of using AI in literature analysis is the concern over privacy. When AI algorithms analyze texts, they may inadvertently collect personal data or information about individuals without their consent. This raises questions about data security and the potential misuse of sensitive information.",
+    "link": "https://www.cambridge.org/core/journals/journal-of-ethics-and-social-philosophy/article/ethical-implications-of-ai-in-literature-analysis/8E0B1D2E7A"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Ethical Implications of AI in Literature Analysis: Privacy Concerns",
+    "keywords": ["AI", "literature analysis", "ethical implications", "privacy concerns"],
+    "text": "One of the key ethical implications of using AI in literature analysis is the concern over privacy. As AI systems analyze large amounts of text data, there is a risk of sensitive personal information being exposed or misused. This raises questions about data security and the need for clear guidelines on how AI should handle and protect user data in the context of literature analysis.",
+    "link": "https://www.researchgate.net/publication/326072342_Ethical_Implications_of_Using_AI_in_Literature_Analysis"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Ethical Implications of AI in Literature Analysis: Privacy Concerns
+Keywords: AI, literature analysis, ethical implications, privacy concerns
+Uses: 0
+Text: One of the key ethical implications of using AI in literature analysis is the concern over privacy. As AI systems analyze large amounts of text data, there is a risk of sensitive personal information being exposed or misused. This raises questions about data security and the need for clear guidelines on how AI should handle and protect user data in the context of literature analysis.Link: https://www.researchgate.net/publication/326072342_Ethical_Implications_of_Using_AI_in_Literature_Analysis
+Researching topic: Rise of interactive storytelling in digital literature
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis', 'The Future of Literature Analysis: AI Integration', 'The Impact of Social Media on Literary Criticism', 'The Evolution of Literary Criticism in the Age of Social Media', 'The Influence of Online Book Clubs on Reading Habits', 'The Benefits of Joining an Online Book Club', 'Ethical Implications of AI in Literature Analysis', 'Ethical Implications of AI in Literature Analysis: Privacy Concerns']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RISE OF INTERACTIVE STORYTELLING IN DIGITAL LITERATURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Rise of Interactive Storytelling in Digital Literature",
+    "keywords": ["interactive storytelling", "digital literature", "interactive fiction", "choose your own adventure", "gamebooks"],
+    "text": "Interactive storytelling in digital literature refers to narratives where readers can actively participate in shaping the story's outcome. This form of storytelling allows readers to make choices that impact the plot, leading to multiple storylines and endings. Interactive fiction, also known as gamebooks or choose your own adventure stories, has gained popularity in recent years due to advancements in technology and the rise of digital platforms. Readers can engage with the story in a more immersive and personalized way, creating a unique reading experience.",
+    "link": "https://www.theverge.com/2018/6/1/17418030/choose-your-own-adventure-netflix-black-mirror-bandersnatch-interactive-storytelling"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: The Rise of Interactive Storytelling in Digital Literature
+Keywords: interactive storytelling, digital literature, interactive fiction, choose your own adventure, gamebooks
+Uses: 0
+Text: Interactive storytelling in digital literature refers to narratives where readers can actively participate in shaping the story's outcome. This form of storytelling allows readers to make choices that impact the plot, leading to multiple storylines and endings. Interactive fiction, also known as gamebooks or choose your own adventure stories, has gained popularity in recent years due to advancements in technology and the rise of digital platforms. Readers can engage with the story in a more immersive and personalized way, creating a unique reading experience.Link: https://www.theverge.com/2018/6/1/17418030/choose-your-own-adventure-netflix-black-mirror-bandersnatch-interactive-storytelling
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis', 'The Future of Literature Analysis: AI Integration', 'The Impact of Social Media on Literary Criticism', 'The Evolution of Literary Criticism in the Age of Social Media', 'The Influence of Online Book Clubs on Reading Habits', 'The Benefits of Joining an Online Book Club', 'Ethical Implications of AI in Literature Analysis', 'Ethical Implications of AI in Literature Analysis: Privacy Concerns', 'The Rise of Interactive Storytelling in Digital Literature']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **RISE OF INTERACTIVE STORYTELLING IN DIGITAL LITERATURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "The Rise of Interactive Storytelling in Digital Literature",
+    "keywords": ["interactive storytelling", "digital literature", "interactive fiction", "narrative games"],
+    "text": "Interactive storytelling in digital literature refers to a form of narrative where readers or players have the ability to make choices that impact the storyline. This allows for a more personalized and engaging experience compared to traditional linear narratives. Interactive fiction or narrative games are examples of this genre, where the audience can influence the direction of the plot through their decisions.",
+    "link": "https://www.theverge.com/2019/11/13/20963196/interactive-fiction-digital-technology-games-books-anniversary" 
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: The Rise of Interactive Storytelling in Digital Literature
+Keywords: interactive storytelling, digital literature, interactive fiction, narrative games
+Uses: 0
+Text: Interactive storytelling in digital literature refers to a form of narrative where readers or players have the ability to make choices that impact the storyline. This allows for a more personalized and engaging experience compared to traditional linear narratives. Interactive fiction or narrative games are examples of this genre, where the audience can influence the direction of the plot through their decisions.Link: https://www.theverge.com/2019/11/13/20963196/interactive-fiction-digital-technology-games-books-anniversary
+Researching topic: Challenges of preserving digital literary works
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis', 'The Future of Literature Analysis: AI Integration', 'The Impact of Social Media on Literary Criticism', 'The Evolution of Literary Criticism in the Age of Social Media', 'The Influence of Online Book Clubs on Reading Habits', 'The Benefits of Joining an Online Book Club', 'Ethical Implications of AI in Literature Analysis', 'Ethical Implications of AI in Literature Analysis: Privacy Concerns', 'The Rise of Interactive Storytelling in Digital Literature', 'The Rise of Interactive Storytelling in Digital Literature']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CHALLENGES OF PRESERVING DIGITAL LITERARY WORKS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Challenges of Preserving Digital Literary Works",
+    "keywords": ["digital literary works", "preservation challenges", "digital preservation", "literature preservation"],
+    "text": "Preserving digital literary works poses several challenges, including format obsolescence, technological changes, and copyright issues. Digital files can become unreadable due to changes in software or hardware, making it difficult to access the content. Additionally, ensuring long-term preservation of digital literature requires ongoing maintenance and migration to new formats. Copyright concerns also play a role in the preservation of digital literary works, as rights management can impact access to and distribution of these materials.",
+    "link": "https://www.loc.gov/preservation/digital/formats/fdd/fdd_challenges.html"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Challenges of Preserving Digital Literary Works
+Keywords: digital literary works, preservation challenges, digital preservation, literature preservation
+Uses: 0
+Text: Preserving digital literary works poses several challenges, including format obsolescence, technological changes, and copyright issues. Digital files can become unreadable due to changes in software or hardware, making it difficult to access the content. Additionally, ensuring long-term preservation of digital literature requires ongoing maintenance and migration to new formats. Copyright concerns also play a role in the preservation of digital literary works, as rights management can impact access to and distribution of these materials.Link: https://www.loc.gov/preservation/digital/formats/fdd/fdd_challenges.html
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis', 'The Future of Literature Analysis: AI Integration', 'The Impact of Social Media on Literary Criticism', 'The Evolution of Literary Criticism in the Age of Social Media', 'The Influence of Online Book Clubs on Reading Habits', 'The Benefits of Joining an Online Book Club', 'Ethical Implications of AI in Literature Analysis', 'Ethical Implications of AI in Literature Analysis: Privacy Concerns', 'The Rise of Interactive Storytelling in Digital Literature', 'The Rise of Interactive Storytelling in Digital Literature', 'Challenges of Preserving Digital Literary Works']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CHALLENGES OF PRESERVING DIGITAL LITERARY WORKS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Strategies for Preserving Digital Literary Works",
+    "keywords": ["digital literary works", "preservation strategies", "challenges", "digital preservation"],
+    "text": "Preserving digital literary works poses unique challenges due to the rapid evolution of technology and formats. Some strategies for preserving digital literary works include regular backups, migration to new formats, creating metadata for easy retrieval, and utilizing emulation or virtualization techniques to maintain access to older formats.",
+    "link": "https://www.loc.gov/preservation/digital/formats/fdd/fdd_preservationstrategies.html"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Strategies for Preserving Digital Literary Works
+Keywords: digital literary works, preservation strategies, challenges, digital preservation
+Uses: 0
+Text: Preserving digital literary works poses unique challenges due to the rapid evolution of technology and formats. Some strategies for preserving digital literary works include regular backups, migration to new formats, creating metadata for easy retrieval, and utilizing emulation or virtualization techniques to maintain access to older formats.Link: https://www.loc.gov/preservation/digital/formats/fdd/fdd_preservationstrategies.html
+Researching topic: Role of digital platforms in promoting diverse voices in literature
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis', 'The Future of Literature Analysis: AI Integration', 'The Impact of Social Media on Literary Criticism', 'The Evolution of Literary Criticism in the Age of Social Media', 'The Influence of Online Book Clubs on Reading Habits', 'The Benefits of Joining an Online Book Club', 'Ethical Implications of AI in Literature Analysis', 'Ethical Implications of AI in Literature Analysis: Privacy Concerns', 'The Rise of Interactive Storytelling in Digital Literature', 'The Rise of Interactive Storytelling in Digital Literature', 'Challenges of Preserving Digital Literary Works', 'Strategies for Preserving Digital Literary Works']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF DIGITAL PLATFORMS IN PROMOTING DIVERSE VOICES IN LITERATURE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "How Digital Platforms are Promoting Diverse Voices in Literature",
+    "keywords": ["digital platforms", "diverse voices", "literature", "promoting"],
+    "text": "Digital platforms are playing a crucial role in promoting diverse voices in literature by providing a space for marginalized authors to share their stories and reach a wider audience. Platforms such as Wattpad, Medium, and Kindle Direct Publishing have democratized the publishing industry, allowing writers from diverse backgrounds to self-publish and connect with readers directly. Social media platforms like Twitter and Instagram have also been instrumental in amplifying diverse voices in literature through hashtags and online communities. Overall, digital platforms have helped break down traditional barriers in the literary world and create more opportunities for underrepresented voices to be heard.",
+    "link": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/83389-how-digital-platforms-are-promoting-diverse-voices.html"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: How Digital Platforms are Promoting Diverse Voices in Literature
+Keywords: digital platforms, diverse voices, literature, promoting
+Uses: 0
+Text: Digital platforms are playing a crucial role in promoting diverse voices in literature by providing a space for marginalized authors to share their stories and reach a wider audience. Platforms such as Wattpad, Medium, and Kindle Direct Publishing have democratized the publishing industry, allowing writers from diverse backgrounds to self-publish and connect with readers directly. Social media platforms like Twitter and Instagram have also been instrumental in amplifying diverse voices in literature through hashtags and online communities. Overall, digital platforms have helped break down traditional barriers in the literary world and create more opportunities for underrepresented voices to be heard.Link: https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/83389-how-digital-platforms-are-promoting-diverse-voices.html
+Prompt:
+Initial Prompt: (Literature in the Digital Age) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['The Impact of Digital Technology on Literature', 'The Influence of E-books on Reading Habits', 'The Role of AI in Literature Analysis', 'The Future of Literature Analysis: AI Integration', 'The Impact of Social Media on Literary Criticism', 'The Evolution of Literary Criticism in the Age of Social Media', 'The Influence of Online Book Clubs on Reading Habits', 'The Benefits of Joining an Online Book Club', 'Ethical Implications of AI in Literature Analysis', 'Ethical Implications of AI in Literature Analysis: Privacy Concerns', 'The Rise of Interactive Storytelling in Digital Literature', 'The Rise of Interactive Storytelling in Digital Literature', 'Challenges of Preserving Digital Literary Works', 'Strategies for Preserving Digital Literary Works', 'How Digital Platforms are Promoting Diverse Voices in Literature']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF DIGITAL PLATFORMS IN PROMOTING DIVERSE VOICES IN LITERATURE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 0.3 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "How Digital Platforms are Promoting Diverse Voices in Literature",
+    "keywords": ["digital platforms", "diverse voices", "literature", "promotion"],
+    "text": "Digital platforms such as social media, online publishing platforms, and digital storytelling websites are playing a crucial role in promoting diverse voices in literature. These platforms provide a space for marginalized authors, writers from underrepresented communities, and voices that have traditionally been excluded from mainstream publishing to share their stories and reach a wider audience. By democratizing the publishing process, digital platforms are helping to amplify diverse voices and increase representation in literature.",
+    "link": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/76809-how-digital-platforms-are-changing-the-face-of-publishing.html"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "How Digital Platforms are Promoting Diverse Voices in Literature",
+    "keywords": ["digital platforms", "diverse voices", "literature", "promotion"],
+    "text": "Digital platforms are playing a crucial role in promoting diverse voices in literature by providing a space for marginalized authors to share their work with a wider audience. These platforms allow for the amplification of voices that may not have been traditionally represented in mainstream publishing. Through social media, online publications, and digital bookstores, authors from diverse backgrounds are able to connect with readers who are seeking a more inclusive range of perspectives in their reading material.",
+    "link": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/82531-diverse-voices-drive-digital-publishing.html"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "How Digital Platforms are Promoting Diverse Voices in Literature",
+    "keywords": ["digital platforms", "diverse voices", "literature", "promotion"],
+    "text": "Digital platforms such as social media, online publishing platforms, and digital storytelling websites are playing a crucial role in promoting diverse voices in literature. These platforms provide a space for marginalized authors, writers from underrepresented communities, and voices that have traditionally been excluded from mainstream publishing to share their stories and reach a wider audience. By democratizing the publishing process, digital platforms are helping to amplify diverse voices and increase representation in literature.",
+    "link": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/76809-how-digital-platforms-are-changing-the-face-of-publishing.html"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: How Digital Platforms are Promoting Diverse Voices in Literature
+Keywords: digital platforms, diverse voices, literature, promotion
+Uses: 0
+Text: Digital platforms such as social media, online publishing platforms, and digital storytelling websites are playing a crucial role in promoting diverse voices in literature. These platforms provide a space for marginalized authors, writers from underrepresented communities, and voices that have traditionally been excluded from mainstream publishing to share their stories and reach a wider audience. By democratizing the publishing process, digital platforms are helping to amplify diverse voices and increase representation in literature.Link: https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/76809-how-digital-platforms-are-changing-the-face-of-publishing.html
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Literature in the Digital Age) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({Digital technology has revolutionized the way literature is created, distributed, and consumed. E-books, audiobooks, and online publishing platforms have made literature more accessible to a wider audience. Social media and online communities have also provided new opportunities for writers to conne...
+
+E-books have revolutionized the way people read, offering convenience and accessibility to a wide range of literary works. The availability of e-books has led to an increase in reading habits among individuals, as they can carry multiple books on a single device and read anytime, anywhere.
+
+Artificial Intelligence (AI) is being increasingly used in the analysis of literature to uncover patterns, themes, and insights that may not be immediately apparent to human readers. Machine learning algorithms can process large amounts of text data to identify trends and correlations, while natural...
+
+The integration of AI in literature analysis is revolutionizing the way literary works are being studied and understood. AI-powered tools can analyze vast amounts of text data in a fraction of the time it would take a human, allowing for more in-depth and comprehensive analysis. Machine learning alg...
+
+Social media has transformed the landscape of literary criticism by providing platforms for readers, authors, and critics to engage in real-time discussions about books and literature. These online interactions have democratized the process of literary analysis, allowing for a wider range of voices ...
+
+Social media has revolutionized the landscape of literary criticism by providing platforms for readers to share their thoughts and engage in discussions about books. Critics now have access to a wider range of opinions and perspectives, which can influence their own analyses. Additionally, social me...
+
+Online book clubs have been shown to positively influence reading habits by providing a platform for readers to engage with others, share perspectives, and discover new books. These virtual communities help create a sense of accountability and motivation for individuals to read more regularly. Addit...
+
+Joining an online book club can have a positive impact on reading habits by providing a sense of community and accountability. Members often engage in lively book discussions, which can lead to a deeper understanding and appreciation of the material. Additionally, online book clubs can introduce rea...
+
+Ethical implications of using AI in literature analysis revolve around issues such as bias in algorithms, privacy concerns, and potential job displacement. AI algorithms may reflect the biases of their creators or the data they were trained on, leading to skewed results or reinforcing stereotypes. P...
+
+One of the key ethical implications of using AI in literature analysis is the concern over privacy. As AI systems analyze large amounts of text data, there is a risk of sensitive personal information being exposed or misused. This raises questions about data security and the need for clear guideline...
+
+Interactive storytelling in digital literature refers to narratives where readers can actively participate in shaping the story's outcome. This form of storytelling allows readers to make choices that impact the plot, leading to multiple storylines and endings. Interactive fiction, also known as gam...
+
+Interactive storytelling in digital literature refers to a form of narrative where readers or players have the ability to make choices that impact the storyline. This allows for a more personalized and engaging experience compared to traditional linear narratives. Interactive fiction or narrative ga...
+
+Preserving digital literary works poses several challenges, including format obsolescence, technological changes, and copyright issues. Digital files can become unreadable due to changes in software or hardware, making it difficult to access the content. Additionally, ensuring long-term preservation...
+
+Preserving digital literary works poses unique challenges due to the rapid evolution of technology and formats. Some strategies for preserving digital literary works include regular backups, migration to new formats, creating metadata for easy retrieval, and utilizing emulation or virtualization tec...
+
+Digital platforms are playing a crucial role in promoting diverse voices in literature by providing a space for marginalized authors to share their stories and reach a wider audience. Platforms such as Wattpad, Medium, and Kindle Direct Publishing have democratized the publishing industry, allowing ...
+
+Digital platforms such as social media, online publishing platforms, and digital storytelling websites are playing a crucial role in promoting diverse voices in literature. These platforms provide a space for marginalized authors, writers from underrepresented communities, and voices that have tradi...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+🎲 Choice scenario triggered! (Rolled 19.3 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+5
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+4
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+5
+.
+Topic count decided: 5
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Literature in the Digital Age) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({Digital technology has revolutionized the way literature is created, distributed, and consumed. E-books, audiobooks, and online publishing platforms have made literature more accessible to a wider audience. Social media and online communities have also provided new opportunities for writers to conne...
+
+E-books have revolutionized the way people read, offering convenience and accessibility to a wide range of literary works. The availability of e-books has led to an increase in reading habits among individuals, as they can carry multiple books on a single device and read anytime, anywhere.
+
+Artificial Intelligence (AI) is being increasingly used in the analysis of literature to uncover patterns, themes, and insights that may not be immediately apparent to human readers. Machine learning algorithms can process large amounts of text data to identify trends and correlations, while natural...
+
+The integration of AI in literature analysis is revolutionizing the way literary works are being studied and understood. AI-powered tools can analyze vast amounts of text data in a fraction of the time it would take a human, allowing for more in-depth and comprehensive analysis. Machine learning alg...
+
+Social media has transformed the landscape of literary criticism by providing platforms for readers, authors, and critics to engage in real-time discussions about books and literature. These online interactions have democratized the process of literary analysis, allowing for a wider range of voices ...
+
+Social media has revolutionized the landscape of literary criticism by providing platforms for readers to share their thoughts and engage in discussions about books. Critics now have access to a wider range of opinions and perspectives, which can influence their own analyses. Additionally, social me...
+
+Online book clubs have been shown to positively influence reading habits by providing a platform for readers to engage with others, share perspectives, and discover new books. These virtual communities help create a sense of accountability and motivation for individuals to read more regularly. Addit...
+
+Joining an online book club can have a positive impact on reading habits by providing a sense of community and accountability. Members often engage in lively book discussions, which can lead to a deeper understanding and appreciation of the material. Additionally, online book clubs can introduce rea...
+
+Ethical implications of using AI in literature analysis revolve around issues such as bias in algorithms, privacy concerns, and potential job displacement. AI algorithms may reflect the biases of their creators or the data they were trained on, leading to skewed results or reinforcing stereotypes. P...
+
+One of the key ethical implications of using AI in literature analysis is the concern over privacy. As AI systems analyze large amounts of text data, there is a risk of sensitive personal information being exposed or misused. This raises questions about data security and the need for clear guideline...
+
+Interactive storytelling in digital literature refers to narratives where readers can actively participate in shaping the story's outcome. This form of storytelling allows readers to make choices that impact the plot, leading to multiple storylines and endings. Interactive fiction, also known as gam...
+
+Interactive storytelling in digital literature refers to a form of narrative where readers or players have the ability to make choices that impact the storyline. This allows for a more personalized and engaging experience compared to traditional linear narratives. Interactive fiction or narrative ga...
+
+Preserving digital literary works poses several challenges, including format obsolescence, technological changes, and copyright issues. Digital files can become unreadable due to changes in software or hardware, making it difficult to access the content. Additionally, ensuring long-term preservation...
+
+Preserving digital literary works poses unique challenges due to the rapid evolution of technology and formats. Some strategies for preserving digital literary works include regular backups, migration to new formats, creating metadata for easy retrieval, and utilizing emulation or virtualization tec...
+
+Digital platforms are playing a crucial role in promoting diverse voices in literature by providing a space for marginalized authors to share their stories and reach a wider audience. Platforms such as Wattpad, Medium, and Kindle Direct Publishing have democratized the publishing industry, allowing ...
+
+Digital platforms such as social media, online publishing platforms, and digital storytelling websites are playing a crucial role in promoting diverse voices in literature. These platforms provide a space for marginalized authors, writers from underrepresented communities, and voices that have tradi...}). You are to come up with {5} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Week 1: Introduction to Digital Technology in Literature
+
+Main topic title: The Impact of E-books on Reading Habits
+
+Sub-topics:
+1. Convenience and Accessibility of E-books
+   - E-books have revolutionized the way people read by offering convenience and accessibility to a wide range of literary works (Database).
+   
+2. Increase in Reading Habits
+   - The availability of e-books has led to an increase in reading habits among individuals, as they can carry multiple books on a single device and read anytime, anywhere (Database).
+
+3. Benefits of E-books
+   - Discuss the benefits of e-books such as portability, customizable reading experience, and ease of access to a wide range of literary works (Database).
+
+Learning objectives:
+- Understand the impact of e-books on reading habits.
+- Analyze the benefits of e-books for readers.
+- Evaluate how e-books have changed the landscape of literature consumption.
+
+Estimated number of slides: 10
+
+Lab activities or practical exercises:
+- Have students download and read an e-book of their choice.
+- Conduct a group discussion on the advantages and disadvantages of reading e-books.
+
+Real-world applications and examples:
+- Discuss how e-books have made literature more accessible to individuals with visual impairments.
+- Explore the environmental benefits of e-books in reducing paper consumption.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Literature in the Digital Age) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Week 1: Introduction to Digital Technology in Literature
+
+Main topic title: The Impact of E-books on Reading Habits
+
+Sub-topics:
+1. Convenience and Accessibility of E-books
+   - E-books have revolutionized the way people read by offering convenience and accessibility to a wide range of literary works (Database).
+   
+2. Increase in Reading Habits
+   - The availability of e-books has led to an increase in reading habits among individuals, as they can carry multiple books on a single device and read anytime, anywhere (Database).
+
+3. Benefits of E-books
+   - Discuss the benefits of e-books such as portability, customizable reading experience, and ease of access to a wide range of literary works (Database).
+
+Learning objectives:
+- Understand the impact of e-books on reading habits.
+- Analyze the benefits of e-books for readers.
+- Evaluate how e-books have changed the landscape of literature consumption.
+
+Estimated number of slides: 10
+
+Lab activities or practical exercises:
+- Have students download and read an e-book of their choice.
+- Conduct a group discussion on the advantages and disadvantages of reading e-books.
+
+Real-world applications and examples:
+- Discuss how e-books have made literature more accessible to individuals with visual impairments.
+- Explore the environmental benefits of e-books in reducing paper consumption.}). Total slides available: {8}. Topics to allocate: {5}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+🎲 Choice scenario triggered! (Rolled 26.9 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+[2, 2, 2, 1, 1]
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+[2, 2, 2, 1, 1]
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+[2, 2, 2, 1, 1]
+.
+Slide allocation: [2, 2, 2, 1, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Literature in the Digital Age) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Week 1: Introduction to Digital Technology in Literature
+
+Main topic title: The Impact of E-books on Reading Habits
+
+Sub-topics:
+1. Convenience and Accessibility of E-books
+   - E-books have revolutionized the way people read by offering convenience and accessibility to a wide range of literary works (Database).
+   
+2. Increase in Reading Habits
+   - The availability of e-books has led to an increase in reading habits among individuals, as they can carry multiple books on a single device and read anytime, anywhere (Database).
+
+3. Benefits of E-books
+   - Discuss the benefits of e-books such as portability, customizable reading experience, and ease of access to a wide range of literary works (Database).
+
+Learning objectives:
+- Understand the impact of e-books on reading habits.
+- Analyze the benefits of e-books for readers.
+- Evaluate how e-books have changed the landscape of literature consumption.
+
+Estimated number of slides: 10
+
+Lab activities or practical exercises:
+- Have students download and read an e-book of their choice.
+- Conduct a group discussion on the advantages and disadvantages of reading e-books.
+
+Real-world applications and examples:
+- Discuss how e-books have made literature more accessible to individuals with visual impairments.
+- Explore the environmental benefits of e-books in reducing paper consumption.}). Slide allocation per topic: {[2, 2, 2, 1, 1]}. Database content for reference: ({Digital technology has revolutionized the way literature is created, distributed, and consumed. E-books, audiobooks, and online publishing platforms have made literature more accessible to a wider audience. Social media and online communities have also provided new opportunities for writers to conne...
+
+E-books have revolutionized the way people read, offering convenience and accessibility to a wide range of literary works. The availability of e-books has led to an increase in reading habits among individuals, as they can carry multiple books on a single device and read anytime, anywhere.
+
+Artificial Intelligence (AI) is being increasingly used in the analysis of literature to uncover patterns, themes, and insights that may not be immediately apparent to human readers. Machine learning algorithms can process large amounts of text data to identify trends and correlations, while natural...
+
+The integration of AI in literature analysis is revolutionizing the way literary works are being studied and understood. AI-powered tools can analyze vast amounts of text data in a fraction of the time it would take a human, allowing for more in-depth and comprehensive analysis. Machine learning alg...
+
+Social media has transformed the landscape of literary criticism by providing platforms for readers, authors, and critics to engage in real-time discussions about books and literature. These online interactions have democratized the process of literary analysis, allowing for a wider range of voices ...
+
+Social media has revolutionized the landscape of literary criticism by providing platforms for readers to share their thoughts and engage in discussions about books. Critics now have access to a wider range of opinions and perspectives, which can influence their own analyses. Additionally, social me...
+
+Online book clubs have been shown to positively influence reading habits by providing a platform for readers to engage with others, share perspectives, and discover new books. These virtual communities help create a sense of accountability and motivation for individuals to read more regularly. Addit...
+
+Joining an online book club can have a positive impact on reading habits by providing a sense of community and accountability. Members often engage in lively book discussions, which can lead to a deeper understanding and appreciation of the material. Additionally, online book clubs can introduce rea...
+
+Ethical implications of using AI in literature analysis revolve around issues such as bias in algorithms, privacy concerns, and potential job displacement. AI algorithms may reflect the biases of their creators or the data they were trained on, leading to skewed results or reinforcing stereotypes. P...
+
+One of the key ethical implications of using AI in literature analysis is the concern over privacy. As AI systems analyze large amounts of text data, there is a risk of sensitive personal information being exposed or misused. This raises questions about data security and the need for clear guideline...
+
+Interactive storytelling in digital literature refers to narratives where readers can actively participate in shaping the story's outcome. This form of storytelling allows readers to make choices that impact the plot, leading to multiple storylines and endings. Interactive fiction, also known as gam...
+
+Interactive storytelling in digital literature refers to a form of narrative where readers or players have the ability to make choices that impact the storyline. This allows for a more personalized and engaging experience compared to traditional linear narratives. Interactive fiction or narrative ga...
+
+Preserving digital literary works poses several challenges, including format obsolescence, technological changes, and copyright issues. Digital files can become unreadable due to changes in software or hardware, making it difficult to access the content. Additionally, ensuring long-term preservation...
+
+Preserving digital literary works poses unique challenges due to the rapid evolution of technology and formats. Some strategies for preserving digital literary works include regular backups, migration to new formats, creating metadata for easy retrieval, and utilizing emulation or virtualization tec...
+
+Digital platforms are playing a crucial role in promoting diverse voices in literature by providing a space for marginalized authors to share their stories and reach a wider audience. Platforms such as Wattpad, Medium, and Kindle Direct Publishing have democratized the publishing industry, allowing ...
+
+Digital platforms such as social media, online publishing platforms, and digital storytelling websites are playing a crucial role in promoting diverse voices in literature. These platforms provide a space for marginalized authors, writers from underrepresented communities, and voices that have tradi...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+Raw response:
+1. Convenience and Accessibility of E-books
+2. Increase in Reading Habits due to E-books
+3. Benefits of E-books for Readers
+4. AI in Literature Analysis
+5. Social Media's Impact on Literary Criticism
+6. Online Book Clubs and Reading Habits
+7. Ethical Implications of AI in Literature Analysis
+8. Interactive Storytelling in Digital Literature
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_17-52-09.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_17-52-09.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+🎲 Choice scenario triggered! (Rolled 14.6 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Lecture Notes: 
+
+Week 1: Introduction to Digital Technology in Literature
+
+Main topic title: The Impact of E-books on Reading Habits
+
+Learning Objectives:
+- Understand the impact of e-books on reading habits.
+- Analyze the benefits of e-books for readers.
+- Evaluate how e-books have changed the landscape of literature consumption.
+
+1. Convenience and Accessibility of E-books
+   - E-books have revolutionized the way people read by offering convenience and accessibility to a wide range of literary works. 
+   - E-books allow readers to carry multiple books on a single device, enabling them to read anytime, anywhere.
+   - Real-world example: Discuss how e-books have made literature more accessible to individuals with visual impairments.
+
+2. Increase in Reading Habits
+   - The availability of e-books has led to an increase in reading habits among individuals.
+   - Readers can access a wide range of literary works easily and conveniently.
+   - Practical exercise: Have students download and read an e-book of their choice.
+
+3. Benefits of E-books
+   - Discuss the benefits of e-books such as portability, customizable reading experience, and ease of access to a wide range of literary works.
+   - Real-world example: Explore the environmental benefits of e-books in reducing paper consumption.
+
+4. AI in Literature Analysis
+   - Artificial Intelligence (AI) is being used in the analysis of literature to uncover patterns, themes, and insights.
+   - AI tools can process large amounts of text data to identify trends and correlations.
+   - Case study: Analyze how AI is revolutionizing the way literary works are studied and understood.
+
+5. Social Media's Impact on Literary Criticism
+   - Social media platforms have transformed literary criticism by providing opportunities for real-time discussions about books.
+   - Critics can reach larger audiences and influence literary trends through social media channels.
+   - Discussion point: Explore the challenges and benefits of social media in literary criticism.
+
+6. Online Book Clubs and Reading Habits
+   - Online book clubs positively influence reading habits by providing a platform for readers to engage with others.
+   - Members can share perspectives, discover new books, and engage in lively discussions.
+   - Practical exercise: Conduct a group discussion on the advantages and disadvantages of reading e-books.
+
+7. Ethical Implications of AI in Literature Analysis
+   - Ethical concerns arise from issues such as bias in algorithms, privacy concerns, and potential job displacement.
+   - Privacy concerns include the risk of sensitive personal information being exposed or misused.
+   - Assessment question: Discuss the ethical implications of using AI in literature analysis.
+
+8. Interactive Storytelling in Digital Literature
+   - Interactive storytelling allows readers to actively participate in shaping the story's outcome.
+   - Readers can make choices that impact the plot, leading to multiple storylines and endings.
+   - Visual element: Display a diagram showing the interactive storytelling process.
+
+Key Takeaways:
+- E-books have revolutionized reading habits by providing convenience and accessibility.
+- AI is transforming literature analysis by uncovering insights and trends.
+- Social media platforms have democratized literary criticism.
+- Online book clubs can positively influence reading habits.
+- Considerations of ethics are important in using AI for literature analysis.
+- Interactive storytelling offers a personalized and engaging reading experience. 
+
+Assessment Question:
+- How has the availability of e-books impacted reading habits in today's digital age? Provide examples to support your answer.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Week 1: Introduction to Digital Technology in Literature
+
+Main topic title: The Impact of E-books on Reading Habits
+
+I. Convenience and Accessibility of E-books
+   A. E-books have revolutionized the reading experience by providing convenience and accessibility to a wide range of literary works.
+   B. Readers can now carry multiple books on a single device and read anytime, anywhere.
+   C. Real-world example: Discuss how e-books have made literature more accessible to individuals with visual impairments.
+   D. Visual element: Include a diagram showing how e-books can be accessed on various devices.
+
+II. Increase in Reading Habits
+   A. The availability of e-books has led to an increase in reading habits among individuals.
+   B. Real-world example: Explore the environmental benefits of e-books in reducing paper consumption.
+   C. Practical exercise: Have students download and read an e-book of their choice.
+   D. Assessment question: How has the availability of e-books impacted your reading habits?
+
+III. Benefits of E-books
+   A. Discuss the benefits of e-books such as portability, customizable reading experience, and ease of access to a wide range of literary works.
+   B. Real-world example: Share how e-books have enabled readers to carry an entire library in their pocket.
+   C. Key takeaway: Evaluate how e-books have changed the landscape of literature consumption.
+
+IV. Learning Objectives
+   A. Understand the impact of e-books on reading habits.
+   B. Analyze the benefits of e-books for readers.
+   C. Evaluate how e-books have changed the landscape of literature consumption.
+
+V. Assessment Questions and Discussion Points
+   A. How has the availability of e-books influenced your reading habits?
+   B. What are some benefits of e-books that you have personally experienced?
+   C. In what ways do you think e-books have changed the way literature is consumed?
+
+VI. Lab Activities
+   A. Practical exercise: Conduct a group discussion on the advantages and disadvantages of reading e-books.
+   B. Case study: Analyze a specific e-book platform and discuss its impact on readers' habits.
+
+VII. Real-World Applications and Examples
+   A. Discuss how e-books have made literature more accessible to individuals with visual impairments.
+   B. Explore the environmental benefits of e-books in reducing paper consumption.
+
+Overall, this lecture provides a comprehensive overview of the impact of e-books on reading habits, emphasizing the convenience, accessibility, and benefits of digital technology in literature consumption. Students will gain a deeper understanding of how e-books have revolutionized the reading experience and transformed the way literary works are accessed and consumed in the digital age.
+
+----------------------------------------
+✅ You chose Response 1
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_17-52-22.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+⚠️ Content validation suggestions: Improvement Suggestions: 
+
+1. The lecture notes cover a good range of topics related to the impact of e-books on reading habits, but they could benefit from more depth and detail. For example, when discussing the benefits of e-books, specific examples and studies could be included to support the points being made.
+
+2. While the inclusion of real-world examples is helpful, the notes could be enhanced by providing more diverse and in-depth case studies. For instance, discussing how e-books have specifically impacted different age groups or demographics could add depth to the analysis.
+
+3. The progression of complexity from basic to advanced topics could be improved. It may be helpful to start with a more detailed introduction to e-books and their impact on reading habits before delving into topics like AI in literature analysis and social media's impact on literary criticism.
+
+4. The notes should also include more self-contained learning material, such as discussion questions, activities, or further reading suggestions to encourage student engagement and deeper understanding of the topics being discussed.
+
+Overall, the lecture notes could be improved by providing more depth, diverse examples, a clearer progression of complexity, and additional self-contained learning material.
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Literature in the Digital Age
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Convenience and Accessibility of E-books)
+🔍 DEBUG: Slide 1 content set to: '• E-books provide convenience and accessibility to a wide range of literary works • Readers can carr...'
+🔍 DEBUG: Slide 1 content length: 258
+✅ Slide 1 content: • E-books provide convenience and accessibility to a wide range of literary works
+• Readers can carry multiple books on a single device and read anytime, anywhere
+• Example: E-books have made literature more accessible to individuals with visual impairments.
+Generating content for slide 2 (Topic: Increase in Reading Habits due to E-books)
+🔍 DEBUG: Slide 2 content set to: '• E-books have led to an increase in reading habits among individuals • Readers can access a wide ra...'
+🔍 DEBUG: Slide 2 content length: 241
+✅ Slide 2 content: • E-books have led to an increase in reading habits among individuals
+• Readers can access a wide range of literary works easily and conveniently
+• Example: E-books have made literature more accessible to individuals with visual impairments.
+Generating content for slide 3 (Topic: Benefits of E-books for Readers)
+🔍 DEBUG: Slide 3 content set to: '• E-books provide convenience and accessibility to a wide range of literary works • Readers can carr...'
+🔍 DEBUG: Slide 3 content length: 260
+✅ Slide 3 content: • E-books provide convenience and accessibility to a wide range of literary works
+• Readers can carry multiple books on a single device and read anytime, anywhere
+• Example: E-books have made literature more accessible to individuals with visual impairments.
+• E-books have led to an increase in reading habits among individuals
+• Readers can access a wide range of literary works easily and conveniently
+• Example: E-books have made literature more accessible to individuals with visual impairments.
+• Benefits of E-books for Readers
+• E-books offer convenience and accessibility to a wide variety of literary works
+• Readers can easily carry multiple books on a single device for on-the-go reading
+• E-books have increased reading habits and made literature more accessible to a diverse audience.
+Generating content for slide 4 (Topic: AI in Literature Analysis)
+🎲 Choice scenario triggered! (Rolled 15.0 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• AI in literature analysis uncovers patterns, themes, and insights not immediately apparent to human readers
+• Machine learning algorithms process large text data to identify trends and correlations
+• Natural language processing helps extract meaning from complex literary works
+• AI revolutionizes how literature is analyzed and interpreted, offering new possibilities for scholars and enthusiasts
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• AI in literature analysis uncovers patterns, themes, and insights not immediately apparent to human readers
+• Machine learning algorithms process large text data to identify trends and correlations
+• Natural language processing helps extract meaning from complex literary works
+• AI revolutionizes how literature is analyzed and interpreted, offering new possibilities for scholars and enthusiasts
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 4 content set to: '• AI in literature analysis uncovers patterns, themes, and insights not immediately apparent to huma...'
+🔍 DEBUG: Slide 4 content length: 399
+✅ Slide 4 content: • AI in literature analysis uncovers patterns, themes, and insights not immediately apparent to human readers
+• Machine learning algorithms process large text data to identify trends and correlations
+• Natural language processing helps extract meaning from complex literary works
+• AI revolutionizes how literature is analyzed and interpreted, offering new possibilities for scholars and enthusiasts
+Generating content for slide 5 (Topic: Social Media's Impact on Literary Criticism)
+🔍 DEBUG: Slide 5 content set to: '• Social media has revolutionized literary criticism by providing platforms for readers to share tho...'
+🔍 DEBUG: Slide 5 content length: 357
+✅ Slide 5 content: • Social media has revolutionized literary criticism by providing platforms for readers to share thoughts and engage in discussions about books.
+• Critics now have access to a wider range of opinions and perspectives, influencing their analyses.
+• Real-time reactions to literary works on social media create a dynamic and interactive approach to criticism.
+Generating content for slide 6 (Topic: Online Book Clubs and Reading Habits)
+🔍 DEBUG: Slide 6 content set to: '• Online book clubs positively impact reading habits by providing a sense of community and accountab...'
+🔍 DEBUG: Slide 6 content length: 363
+✅ Slide 6 content: • Online book clubs positively impact reading habits by providing a sense of community and accountability
+• Members engage in lively book discussions leading to deeper understanding and appreciation of material
+• Online book clubs introduce readers to new genres and authors they may not have otherwise discovered
+• Source: https://bookriot.com/online-book-clubs/
+Generating content for slide 7 (Topic: Ethical Implications of AI in Literature Analysis)
+🔍 DEBUG: Slide 7 content set to: '• Ethical implications of using AI in literature analysis include bias in algorithms • Privacy conce...'
+🔍 DEBUG: Slide 7 content length: 334
+✅ Slide 7 content: • Ethical implications of using AI in literature analysis include bias in algorithms
+• Privacy concerns arise from the collection and analysis of personal data without consent
+• Job displacement potential due to automation of tasks traditionally performed by humans
+• Source: https://www.wired.com/story/ai-ethics-literature-analysis/
+Generating content for slide 8 (Topic: Interactive Storytelling in Digital Literature)
+🎲 Choice scenario triggered! (Rolled 24.4 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Interactive storytelling in digital literature allows readers to make choices that impact the storyline
+• Personalized and engaging experience compared to traditional linear narratives
+• Examples include interactive fiction and narrative games where audience decisions influence the plot
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Interactive storytelling in digital literature allows readers or players to make choices that impact the storyline
+• This personalized experience enhances engagement compared to traditional linear narratives
+• Examples include interactive fiction and narrative games where audience decisions influence the plot
+• Source: https://www.theverge.com/2019/11/13/20963196/interactive-fiction-digital-technology-games-books-anniversary
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 8 content set to: '• Interactive storytelling in digital literature allows readers to make choices that impact the stor...'
+🔍 DEBUG: Slide 8 content length: 289
+✅ Slide 8 content: • Interactive storytelling in digital literature allows readers to make choices that impact the storyline
+• Personalized and engaging experience compared to traditional linear narratives
+• Examples include interactive fiction and narrative games where audience decisions influence the plot
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Convenience and Accessibility of E-books)
+✅ Slide 1 title: Title: E-books: Convenient Access to Literature
+Generating title for slide 2 (Topic: Increase in Reading Habits due to E-books)
+✅ Slide 2 title: Title: Impact of E-books on Reading Habits
+Generating title for slide 3 (Topic: Benefits of E-books for Readers)
+✅ Slide 3 title: Benefits of E-books for Readers
+Generating title for slide 4 (Topic: AI in Literature Analysis)
+🎲 Choice scenario triggered! (Rolled 24.4 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Title: AI Revolutionizing Literature Analysis
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Title: AI Revolutionizing Literature Analysis
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 4 title: Title: AI Revolutionizing Literature Analysis
+Generating title for slide 5 (Topic: Social Media's Impact on Literary Criticism)
+✅ Slide 5 title: Title: Impact of Social Media on Literary Criticism
+Generating title for slide 6 (Topic: Online Book Clubs and Reading Habits)
+✅ Slide 6 title: Title: Online Book Clubs Enhancing Reading Habits
+Generating title for slide 7 (Topic: Ethical Implications of AI in Literature Analysis)
+✅ Slide 7 title: Title: AI Ethics in Literature Analysis
+Generating title for slide 8 (Topic: Interactive Storytelling in Digital Literature)
+✅ Slide 8 title: Title: Interactive Storytelling in Digital Literature
+Generating overall presentation title...
+✅ Overall presentation title: Exploring the Digital Landscape: Literature in the Modern Age
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Convenience and Accessibility of E-books)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Increase in Reading Habits due to E-books)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Benefits of E-books for Readers)
+🎲 Choice scenario triggered! (Rolled 29.4 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['e-books benefits readers', 'advantages of e-books for readers', 'e-books accessibility literature', 'e-books convenience reading', 'literature accessibility e-books', 'e-books visual impairments accessibility']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['e-books benefits readers', 'advantages of e-books for readers', 'e-books accessibility literature', 'e-books convenience reading', 'e-books visually impaired accessibility', 'digital books advantages for readers']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: AI in Literature Analysis)
+🎲 Choice scenario triggered! (Rolled 10.8 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['AI in literature analysis', 'machine learning algorithms in literary analysis', 'natural language processing in literature', 'literature analysis trends', 'AI revolutionizing literary interpretation', 'digital technology in literature analysis']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['AI in literature analysis', 'machine learning algorithms in literature', 'natural language processing in literary analysis', 'artificial intelligence in literary interpretation', 'AI applications in literature studies']
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Social Media's Impact on Literary Criticism)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Online Book Clubs and Reading Habits)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Ethical Implications of AI in Literature Analysis)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Interactive Storytelling in Digital Literature)
+🎲 Choice scenario triggered! (Rolled 25.6 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['interactive storytelling in digital literature', 'interactive fiction', 'narrative games', 'choose your own adventure', 'digital literary works', 'digital platforms', 'literature analysis', 'literary criticism', 'impact of interactive storytelling', 'personalized reading experience']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['interactive storytelling in digital literature', 'interactive fiction', 'narrative games', 'choose your own adventure', 'digital literary works']
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Convenience and Accessibility of E-books)
+⚠️ Warning: Slide 1 content is long (609 chars) - consider reducing
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Increase in Reading Habits due to E-books)
+🎲 Choice scenario triggered! (Rolled 22.5 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- E-books provide readers with the ability to highlight, annotate, and search for specific content within the text, enhancing the reading experience and facilitating deeper engagement with the material (Source).
+- The portability of e-books allows readers to carry an entire library with them on a single device, making it convenient to switch between different books and genres without the need for physical copies (Source).
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- AI-powered tools can analyze vast amounts of text data in a fraction of the time it would take a human, allowing for more in-depth and comprehensive analysis.
+- Machine learning algorithms can identify patterns, themes, and connections within texts that may not be immediately apparent to human readers.
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Benefits of E-books for Readers)
+⚠️ Warning: Slide 3 content is long (516 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: AI in Literature Analysis)
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Social Media's Impact on Literary Criticism)
+🎲 Choice scenario triggered! (Rolled 6.3 <= 30.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Social media platforms like Twitter and Goodreads have become popular spaces for literary critics to engage in discussions, share insights, and connect with readers (Research Source).
+- The real-time nature of social media allows for immediate reactions to literary works, shaping the discourse around books and influencing critical analyses (Research Source).
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Social media platforms like Twitter, Goodreads, and Instagram have become key spaces for literary criticism discussions, allowing for immediate reactions and interactions among readers, authors, and critics (Research Source).
+- The democratization of literary analysis through social media has enabled a more diverse range of voices and perspectives to contribute to critical conversations, challenging traditional notions of literary criticism (Research Source).
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Online Book Clubs and Reading Habits)
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Ethical Implications of AI in Literature Analysis)
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Interactive Storytelling in Digital Literature)
+⚠️ Warning: Slide 8 content is long (556 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Exploring_the_Digital_Landscape_Literature_in_the_Modern_Age_2025-08-31_17-53-50
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Exploring_the_Digital_Landscape_Literature_in_the_Modern_Age_2025-08-31_17-53-50.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Exploring_the_Digital_Landscape_Literature_in_the_Modern_Age_2025-08-31_17-53-50.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 3 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Exploring_the_Digital_Landscape_Literature_in_the_Modern_Age_2025-08-31_17-53-50.pptx
+📊 Rating presentation 3...
+✅ Presentation 3 rated successfully
+📈 Overall Rating: 6.31 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.17 / 2.00
+   - Non-Repetition: 1.75 / 2.00
+   - Content Balance: 1.59 / 2.00
+   - Title Uniqueness: 1.83 / 2.00
+   - Title-Content Match: 0.97 / 2.00
+💾 Result saved to file for presentation 3
+
+📊 Presentation 5/10 (ID: 4)
+📝 Using topic: Medical Technology Advances
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

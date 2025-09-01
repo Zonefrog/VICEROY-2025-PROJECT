@@ -1,0 +1,1994 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T22:46:47.029094
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_22-46-47.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 7...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Vaccine Development Process
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: Stages of vaccine development, Role of Artificial Intelligence in vaccine research.
+Selected topics: ['Stages of vaccine development', 'Role of Artificial Intelligence in vaccine research']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: Stages of vaccine development
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **STAGES OF VACCINE DEVELOPMENT** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 45.4 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Stages of Vaccine Development",
+    "keywords": ["vaccine development", "vaccine production", "vaccine testing", "clinical trials", "regulatory approval"],
+    "text": "The stages of vaccine development typically include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control.",
+    "link": "https://www.who.int/immunization/research/development/en/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Stages of Vaccine Development",
+    "keywords": ["vaccine development", "vaccine research", "clinical trials", "preclinical stage", "regulatory approval"],
+    "text": "The stages of vaccine development typically include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the preclinical stage, the vaccine is tested in animals to evaluate its safety and efficacy before moving on to human trials. Clinical trials involve testing the vaccine on human subjects in multiple phases to assess its safety and effectiveness. Regulatory review and approval are necessary before the vaccine can be marketed and distributed to the public.",
+    "link": "https://www.who.int/immunization/research/development/en/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Stages of Vaccine Development",
+    "keywords": ["vaccine development", "vaccine research", "clinical trials", "preclinical stage", "regulatory approval"],
+    "text": "The stages of vaccine development typically include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the preclinical stage, the vaccine is tested in animals to evaluate its safety and efficacy before moving on to human trials. Clinical trials involve testing the vaccine on human subjects in multiple phases to assess its safety and effectiveness. Regulatory review and approval are necessary before the vaccine can be marketed and distributed to the public.",
+    "link": "https://www.who.int/immunization/research/development/en/"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: Stages of Vaccine Development
+Keywords: vaccine development, vaccine research, clinical trials, preclinical stage, regulatory approval
+Uses: 0
+Text: The stages of vaccine development typically include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the preclinical stage, the vaccine is tested in animals to evaluate its safety and efficacy before moving on to human trials. Clinical trials involve testing the vaccine on human subjects in multiple phases to assess its safety and effectiveness. Regulatory review and approval are necessary before the vaccine can be marketed and distributed to the public.Link: https://www.who.int/immunization/research/development/en/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **STAGES OF VACCINE DEVELOPMENT** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 27.6 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Key Stages of Vaccine Development",
+    "keywords": ["vaccine development", "vaccine research", "vaccine testing", "clinical trials", "regulatory approval"],
+    "text": "The key stages of vaccine development include discovery and preclinical testing, clinical development, regulatory review and approval, manufacturing, and post-licensure monitoring.",
+    "link": "https://www.who.int/immunization/research/development/en/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Key Stages of Vaccine Development",
+    "keywords": ["vaccine development", "vaccine research", "vaccine testing", "clinical trials"],
+    "text": "The key stages of vaccine development include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, scientists conduct research to identify antigens that can help prevent a specific disease. In the preclinical stage, vaccines are tested on cells and animals to evaluate their safety and efficacy. If successful, the vaccine moves on to clinical development, where it undergoes three phases of human clinical trials to assess safety and effectiveness. Once clinical trials are completed, the vaccine goes through regulatory review and approval by health authorities. Manufacturing and quality control processes are then established to produce the vaccine on a large scale.",
+    "link": "https://www.who.int/immunization/research/development/en/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Key Stages of Vaccine Development",
+    "keywords": ["vaccine development", "vaccine research", "vaccine testing", "clinical trials"],
+    "text": "The key stages of vaccine development include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, scientists conduct research to identify antigens that can help prevent a specific disease. In the preclinical stage, vaccines are tested on cells and animals to evaluate their safety and efficacy. If successful, the vaccine moves on to clinical development, where it undergoes three phases of human clinical trials to assess safety and effectiveness. Once clinical trials are completed, the vaccine goes through regulatory review and approval by health authorities. Manufacturing and quality control processes are then established to produce the vaccine on a large scale.",
+    "link": "https://www.who.int/immunization/research/development/en/"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Key Stages of Vaccine Development
+Keywords: vaccine development, vaccine research, vaccine testing, clinical trials
+Uses: 0
+Text: The key stages of vaccine development include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, scientists conduct research to identify antigens that can help prevent a specific disease. In the preclinical stage, vaccines are tested on cells and animals to evaluate their safety and efficacy. If successful, the vaccine moves on to clinical development, where it undergoes three phases of human clinical trials to assess safety and effectiveness. Once clinical trials are completed, the vaccine goes through regulatory review and approval by health authorities. Manufacturing and quality control processes are then established to produce the vaccine on a large scale.Link: https://www.who.int/immunization/research/development/en/
+Researching topic: Role of Artificial Intelligence in vaccine research
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF ARTIFICIAL INTELLIGENCE IN VACCINE RESEARCH** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Role of Artificial Intelligence in Vaccine Research",
+    "keywords": ["Artificial Intelligence", "Vaccine Research", "Machine Learning", "Data Analysis"],
+    "text": "Artificial intelligence is playing a significant role in vaccine research by expediting the process of identifying potential vaccine candidates, predicting their efficacy, and optimizing clinical trials. Machine learning algorithms can analyze vast amounts of data to identify patterns and trends that human researchers may overlook. AI also helps in designing antigens, understanding virus mutations, and developing personalized vaccines. Overall, AI is revolutionizing the field of vaccine research by making the process faster, more efficient, and cost-effective.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7860892/"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Role of Artificial Intelligence in Vaccine Research
+Keywords: Artificial Intelligence, Vaccine Research, Machine Learning, Data Analysis
+Uses: 0
+Text: Artificial intelligence is playing a significant role in vaccine research by expediting the process of identifying potential vaccine candidates, predicting their efficacy, and optimizing clinical trials. Machine learning algorithms can analyze vast amounts of data to identify patterns and trends that human researchers may overlook. AI also helps in designing antigens, understanding virus mutations, and developing personalized vaccines. Overall, AI is revolutionizing the field of vaccine research by making the process faster, more efficient, and cost-effective.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7860892/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF ARTIFICIAL INTELLIGENCE IN VACCINE RESEARCH** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Applications of Artificial Intelligence in Vaccine Development",
+    "keywords": ["artificial intelligence", "vaccine development", "machine learning", "data analysis", "drug discovery"],
+    "text": "Artificial intelligence is being increasingly utilized in vaccine research to accelerate the development process. Machine learning algorithms are used to analyze large datasets and predict potential vaccine candidates. AI can also help in identifying new drug targets and optimizing vaccine formulations. By automating data analysis and streamlining processes, AI is revolutionizing the way vaccines are developed.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7593274/"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Applications of Artificial Intelligence in Vaccine Development
+Keywords: artificial intelligence, vaccine development, machine learning, data analysis, drug discovery
+Uses: 0
+Text: Artificial intelligence is being increasingly utilized in vaccine research to accelerate the development process. Machine learning algorithms are used to analyze large datasets and predict potential vaccine candidates. AI can also help in identifying new drug targets and optimizing vaccine formulations. By automating data analysis and streamlining processes, AI is revolutionizing the way vaccines are developed.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7593274/
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['Stages of vaccine development', 'Role of Artificial Intelligence in vaccine research']. The research these yeilded is: ({The stages of vaccine development typically include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the preclinical stage, the vaccine is tested in animals to evaluate its safety and efficacy before moving on to human trials. Clinical trials involve testing the vaccine on human subjects in multiple phases to assess its safety and effectiveness. Regulatory review and approval are necessary before the vaccine can be marketed and distributed to the public.
+
+The key stages of vaccine development include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, scientists conduct research to identify antigens that can help prevent a specific disease. In the preclinical stage, vaccines are tested on cells and animals to evaluate their safety and efficacy. If successful, the vaccine moves on to clinical devel (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Challenges in vaccine manufacturing, Importance of adjuvants in vaccine development, Ethics of vaccine trials, Post-marketing surveillance of vaccines, Role of public-private partnerships in vaccine research, Impact of vaccine hesitancy on public health
+Selected topics: ['Challenges in vaccine manufacturing', 'Importance of adjuvants in vaccine development', 'Ethics of vaccine trials', 'Post-marketing surveillance of vaccines', 'Role of public-private partnerships in vaccine research', 'Impact of vaccine hesitancy on public health']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Challenges in vaccine manufacturing
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CHALLENGES IN VACCINE MANUFACTURING** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Challenges in Vaccine Manufacturing",
+    "keywords": ["vaccine manufacturing challenges", "vaccine production obstacles", "problems in vaccine manufacturing"],
+    "text": "Some of the main challenges in vaccine manufacturing include the need for complex production processes, stringent regulatory requirements, high costs associated with research and development, limited production capacity, and the need for specialized equipment and facilities.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2905661/"
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Challenges in Vaccine Manufacturing
+Keywords: vaccine manufacturing challenges, vaccine production obstacles, problems in vaccine manufacturing
+Uses: 0
+Text: Some of the main challenges in vaccine manufacturing include the need for complex production processes, stringent regulatory requirements, high costs associated with research and development, limited production capacity, and the need for specialized equipment and facilities.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2905661/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Development', 'Challenges in Vaccine Manufacturing']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **CHALLENGES IN VACCINE MANUFACTURING** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Challenges in Vaccine Manufacturing",
+    "keywords": ["vaccine manufacturing challenges", "issues in vaccine production", "problems in making vaccines"],
+    "text": "Some challenges in vaccine manufacturing include the need for specialized equipment, stringent regulatory requirements, complex manufacturing processes, ensuring consistency in production, scaling up production capacity, and maintaining cold chain logistics for storage and distribution.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7151693/"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Challenges in Vaccine Manufacturing
+Keywords: vaccine manufacturing challenges, issues in vaccine production, problems in making vaccines
+Uses: 0
+Text: Some challenges in vaccine manufacturing include the need for specialized equipment, stringent regulatory requirements, complex manufacturing processes, ensuring consistency in production, scaling up production capacity, and maintaining cold chain logistics for storage and distribution.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7151693/
+Researching topic: Importance of adjuvants in vaccine development
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Development', 'Challenges in Vaccine Manufacturing', 'Challenges in Vaccine Manufacturing']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF ADJUVANTS IN VACCINE DEVELOPMENT** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 9.8 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Importance of Adjuvants in Vaccine Development",
+    "keywords": ["adjuvants", "vaccine development", "immunogenicity", "enhanced immune response"],
+    "text": "Adjuvants are substances added to vaccines to enhance the body's immune response. They help improve the effectiveness of vaccines by increasing the immunogenicity of the antigens present in the vaccine. Adjuvants stimulate the immune system, leading to a stronger and longer-lasting immune response. This is particularly important for vaccines targeting diseases that are hard to prevent or require a robust immune response for protection.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5906799/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Role of Adjuvants in Vaccine Development",
+    "keywords": ["Adjuvants", "Vaccine Development", "Importance"],
+    "text": "Adjuvants are substances added to vaccines to enhance the body's immune response. They help improve the effectiveness of vaccines by stimulating a stronger and longer-lasting immune response. Adjuvants can also allow for smaller amounts of antigens to be used in vaccines, reducing the overall cost of production. Additionally, adjuvants can help create a more targeted immune response, leading to better protection against specific diseases.",
+    "link": "https://www.who.int/vaccine_safety/initiative/tools/Adjuvants_vaccine.pdf"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Importance of Adjuvants in Vaccine Development",
+    "keywords": ["adjuvants", "vaccine development", "immunogenicity", "enhanced immune response"],
+    "text": "Adjuvants are substances added to vaccines to enhance the body's immune response. They help improve the effectiveness of vaccines by increasing the immunogenicity of the antigens present in the vaccine. Adjuvants stimulate the immune system, leading to a stronger and longer-lasting immune response. This is particularly important for vaccines targeting diseases that are hard to prevent or require a robust immune response for protection.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5906799/"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Importance of Adjuvants in Vaccine Development
+Keywords: adjuvants, vaccine development, immunogenicity, enhanced immune response
+Uses: 0
+Text: Adjuvants are substances added to vaccines to enhance the body's immune response. They help improve the effectiveness of vaccines by increasing the immunogenicity of the antigens present in the vaccine. Adjuvants stimulate the immune system, leading to a stronger and longer-lasting immune response. This is particularly important for vaccines targeting diseases that are hard to prevent or require a robust immune response for protection.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5906799/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Development', 'Challenges in Vaccine Manufacturing', 'Challenges in Vaccine Manufacturing', 'Importance of Adjuvants in Vaccine Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPORTANCE OF ADJUVANTS IN VACCINE DEVELOPMENT** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Role of Adjuvants in Vaccine Development",
+    "keywords": ["adjuvants", "vaccine development", "immune response", "enhance", "efficacy"],
+    "text": "Adjuvants are substances added to vaccines to enhance the immune response and improve vaccine efficacy. They work by stimulating the immune system, allowing for a stronger and longer-lasting response to the vaccine's target antigen. Adjuvants can also reduce the amount of antigen needed in a vaccine, making production more cost-effective.",
+    "link": "https://www.who.int/vaccine_safety/initiative/tools/Adjuvants_Vaccine.pdf"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Role of Adjuvants in Vaccine Development
+Keywords: adjuvants, vaccine development, immune response, enhance, efficacy
+Uses: 0
+Text: Adjuvants are substances added to vaccines to enhance the immune response and improve vaccine efficacy. They work by stimulating the immune system, allowing for a stronger and longer-lasting response to the vaccine's target antigen. Adjuvants can also reduce the amount of antigen needed in a vaccine, making production more cost-effective.Link: https://www.who.int/vaccine_safety/initiative/tools/Adjuvants_Vaccine.pdf
+Researching topic: Ethics of vaccine trials
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Development', 'Challenges in Vaccine Manufacturing', 'Challenges in Vaccine Manufacturing', 'Importance of Adjuvants in Vaccine Development', 'Role of Adjuvants in Vaccine Development']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ETHICS OF VACCINE TRIALS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Ethics of Vaccine Trials",
+    "keywords": ["vaccine trials", "ethics", "informed consent", "beneficence", "justice", "autonomy"],
+    "text": "Ethics in vaccine trials are crucial to ensure the safety and well-being of participants. Key principles include obtaining informed consent from participants, promoting beneficence by maximizing benefits and minimizing risks, ensuring justice in the selection of participants, and respecting autonomy by allowing participants to make voluntary decisions. It is important for researchers to adhere to ethical guidelines and regulations to uphold the integrity of vaccine trials.",
+    "link": "https://www.who.int/ethics/review-committee/vaccine/en/"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Ethics of Vaccine Trials
+Keywords: vaccine trials, ethics, informed consent, beneficence, justice, autonomy
+Uses: 0
+Text: Ethics in vaccine trials are crucial to ensure the safety and well-being of participants. Key principles include obtaining informed consent from participants, promoting beneficence by maximizing benefits and minimizing risks, ensuring justice in the selection of participants, and respecting autonomy by allowing participants to make voluntary decisions. It is important for researchers to adhere to ethical guidelines and regulations to uphold the integrity of vaccine trials.Link: https://www.who.int/ethics/review-committee/vaccine/en/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Development', 'Challenges in Vaccine Manufacturing', 'Challenges in Vaccine Manufacturing', 'Importance of Adjuvants in Vaccine Development', 'Role of Adjuvants in Vaccine Development', 'Ethics of Vaccine Trials']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ETHICS OF VACCINE TRIALS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Ethical Considerations in Vaccine Trials",
+    "keywords": ["vaccine trials", "ethics", "informed consent", "beneficence", "justice", "respect for persons"],
+    "text": "Ethical considerations in vaccine trials include ensuring informed consent from participants, upholding the principles of beneficence (doing good) and non-maleficence (doing no harm), promoting justice in the distribution of benefits and risks, and respecting the autonomy and rights of research subjects.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7175398/"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Ethical Considerations in Vaccine Trials
+Keywords: vaccine trials, ethics, informed consent, beneficence, justice, respect for persons
+Uses: 0
+Text: Ethical considerations in vaccine trials include ensuring informed consent from participants, upholding the principles of beneficence (doing good) and non-maleficence (doing no harm), promoting justice in the distribution of benefits and risks, and respecting the autonomy and rights of research subjects.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7175398/
+Researching topic: Post-marketing surveillance of vaccines
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Development', 'Challenges in Vaccine Manufacturing', 'Challenges in Vaccine Manufacturing', 'Importance of Adjuvants in Vaccine Development', 'Role of Adjuvants in Vaccine Development', 'Ethics of Vaccine Trials', 'Ethical Considerations in Vaccine Trials']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **POST-MARKETING SURVEILLANCE OF VACCINES** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 43.4 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Post-Marketing Surveillance of Vaccines",
+    "keywords": ["vaccine surveillance", "vaccine safety monitoring", "adverse events following immunization", "pharmacovigilance"],
+    "text": "Post-marketing surveillance of vaccines involves monitoring the safety and effectiveness of vaccines once they are approved and used in the general population. This process helps to detect any rare or long-term side effects that may not have been identified during clinical trials. Vaccine surveillance systems collect data on adverse events following immunization (AEFI) and use pharmacovigilance methods to analyze and assess the risks associated with vaccines.",
+    "link": "https://www.who.int/vaccine_safety/initiative/tools/Postmarketing_surveillance_vaccines.pdf"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Post-Marketing Surveillance of Vaccines",
+    "keywords": ["post-marketing surveillance", "vaccine safety monitoring", "vaccine adverse events", "vaccine effectiveness", "vaccine side effects"],
+    "text": "Post-marketing surveillance of vaccines refers to the ongoing monitoring of vaccine safety and effectiveness after a vaccine has been approved and is being used in the general population. This process helps to detect any rare or long-term side effects that may not have been identified during clinical trials. It also allows for the evaluation of vaccine impact on public health and the identification of any potential issues that may arise in real-world use.",
+    "link": "https://www.cdc.gov/vaccinesafety/ensuringsafety/monitoring/index.html"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Post-Marketing Surveillance of Vaccines",
+    "keywords": ["post-marketing surveillance", "vaccine safety monitoring", "vaccine adverse events", "vaccine effectiveness", "vaccine side effects"],
+    "text": "Post-marketing surveillance of vaccines refers to the ongoing monitoring of vaccine safety and effectiveness after a vaccine has been approved and is being used in the general population. This process helps to detect any rare or long-term side effects that may not have been identified during clinical trials. It also allows for the evaluation of vaccine impact on public health and the identification of any potential issues that may arise in real-world use.",
+    "link": "https://www.cdc.gov/vaccinesafety/ensuringsafety/monitoring/index.html"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Post-Marketing Surveillance of Vaccines
+Keywords: post-marketing surveillance, vaccine safety monitoring, vaccine adverse events, vaccine effectiveness, vaccine side effects
+Uses: 0
+Text: Post-marketing surveillance of vaccines refers to the ongoing monitoring of vaccine safety and effectiveness after a vaccine has been approved and is being used in the general population. This process helps to detect any rare or long-term side effects that may not have been identified during clinical trials. It also allows for the evaluation of vaccine impact on public health and the identification of any potential issues that may arise in real-world use.Link: https://www.cdc.gov/vaccinesafety/ensuringsafety/monitoring/index.html
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Development', 'Challenges in Vaccine Manufacturing', 'Challenges in Vaccine Manufacturing', 'Importance of Adjuvants in Vaccine Development', 'Role of Adjuvants in Vaccine Development', 'Ethics of Vaccine Trials', 'Ethical Considerations in Vaccine Trials', 'Post-Marketing Surveillance of Vaccines']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **POST-MARKETING SURVEILLANCE OF VACCINES** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Importance of Post-Marketing Surveillance of Vaccines",
+    "keywords": ["vaccine safety", "monitoring", "adverse events", "public health", "real-world effectiveness"],
+    "text": "Post-marketing surveillance of vaccines is crucial to monitor the safety and effectiveness of vaccines once they are on the market. This process helps to detect and investigate any rare or long-term side effects that may not have been identified during clinical trials. By collecting and analyzing real-world data, public health authorities can make informed decisions about the continued use of vaccines and take appropriate actions to protect the population.",
+    "link": "https://www.who.int/vaccine_safety/initiative/tools/Post_Marketing_Surveillance/en/"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Importance of Post-Marketing Surveillance of Vaccines
+Keywords: vaccine safety, monitoring, adverse events, public health, real-world effectiveness
+Uses: 0
+Text: Post-marketing surveillance of vaccines is crucial to monitor the safety and effectiveness of vaccines once they are on the market. This process helps to detect and investigate any rare or long-term side effects that may not have been identified during clinical trials. By collecting and analyzing real-world data, public health authorities can make informed decisions about the continued use of vaccines and take appropriate actions to protect the population.Link: https://www.who.int/vaccine_safety/initiative/tools/Post_Marketing_Surveillance/en/
+Researching topic: Role of public-private partnerships in vaccine research
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Development', 'Challenges in Vaccine Manufacturing', 'Challenges in Vaccine Manufacturing', 'Importance of Adjuvants in Vaccine Development', 'Role of Adjuvants in Vaccine Development', 'Ethics of Vaccine Trials', 'Ethical Considerations in Vaccine Trials', 'Post-Marketing Surveillance of Vaccines', 'Importance of Post-Marketing Surveillance of Vaccines']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF PUBLIC-PRIVATE PARTNERSHIPS IN VACCINE RESEARCH** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 25.9 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Role of Public-Private Partnerships in Vaccine Research",
+    "keywords": ["public-private partnerships", "vaccine research", "collaboration", "funding", "innovation"],
+    "text": "Public-private partnerships play a crucial role in vaccine research by bringing together the resources, expertise, and capabilities of both sectors. These collaborations help accelerate the development of vaccines by leveraging the strengths of each partner, whether it is the government, academia, pharmaceutical companies, or non-profit organizations. By pooling resources and knowledge, public-private partnerships can enhance the efficiency and effectiveness of vaccine research, leading to the timely development of safe and effective vaccines.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423801/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "Role of Public-Private Partnerships in Vaccine Research",
+    "keywords": ["Public-Private Partnerships", "Vaccine Research", "Collaboration", "Innovation", "Funding"],
+    "text": "Public-private partnerships play a crucial role in vaccine research by bringing together the expertise and resources of both the public and private sectors. These collaborations help drive innovation, accelerate the development of vaccines, and ensure that promising candidates make it to market. By combining the strengths of government agencies, academic institutions, pharmaceutical companies, and non-profit organizations, public-private partnerships can tackle complex challenges in vaccine development and distribution. Additionally, these partnerships often provide the necessary funding and infrastructure to support large-scale clinical trials and manufacturing processes.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5868131/"
+}
+
+----------------------------------------
+✅ You chose Response 2
+Raw AI response to this: {
+    "title": "Role of Public-Private Partnerships in Vaccine Research",
+    "keywords": ["Public-Private Partnerships", "Vaccine Research", "Collaboration", "Innovation", "Funding"],
+    "text": "Public-private partnerships play a crucial role in vaccine research by bringing together the expertise and resources of both the public and private sectors. These collaborations help drive innovation, accelerate the development of vaccines, and ensure that promising candidates make it to market. By combining the strengths of government agencies, academic institutions, pharmaceutical companies, and non-profit organizations, public-private partnerships can tackle complex challenges in vaccine development and distribution. Additionally, these partnerships often provide the necessary funding and infrastructure to support large-scale clinical trials and manufacturing processes.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5868131/"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Role of Public-Private Partnerships in Vaccine Research
+Keywords: Public-Private Partnerships, Vaccine Research, Collaboration, Innovation, Funding
+Uses: 0
+Text: Public-private partnerships play a crucial role in vaccine research by bringing together the expertise and resources of both the public and private sectors. These collaborations help drive innovation, accelerate the development of vaccines, and ensure that promising candidates make it to market. By combining the strengths of government agencies, academic institutions, pharmaceutical companies, and non-profit organizations, public-private partnerships can tackle complex challenges in vaccine development and distribution. Additionally, these partnerships often provide the necessary funding and infrastructure to support large-scale clinical trials and manufacturing processes.Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5868131/
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Development', 'Challenges in Vaccine Manufacturing', 'Challenges in Vaccine Manufacturing', 'Importance of Adjuvants in Vaccine Development', 'Role of Adjuvants in Vaccine Development', 'Ethics of Vaccine Trials', 'Ethical Considerations in Vaccine Trials', 'Post-Marketing Surveillance of Vaccines', 'Importance of Post-Marketing Surveillance of Vaccines', 'Role of Public-Private Partnerships in Vaccine Research']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ROLE OF PUBLIC-PRIVATE PARTNERSHIPS IN VACCINE RESEARCH** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 45.7 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "Public-Private Partnerships in Vaccine Research",
+    "keywords": ["public-private partnerships", "vaccine research", "collaboration", "funding", "innovation"],
+    "text": "Public-private partnerships in vaccine research involve collaboration between government entities, private companies, non-profit organizations, and academic institutions. These partnerships are crucial for advancing vaccine development by pooling resources, expertise, and funding. By working together, stakeholders can accelerate the research and development process, promote innovation, and ensure that vaccines are accessible to populations in need.",
+    "link": "https://www.who.int/immunization/research/ppp/en/"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Role of Public-Private Partnerships in Vaccine Research",
+    "keywords": ["public-private partnerships", "vaccine research", "collaboration", "funding", "innovation"],
+    "text": "Public-private partnerships play a crucial role in vaccine research by fostering collaboration between government agencies, private companies, and non-profit organizations. These partnerships help in pooling resources, expertise, and funding to accelerate the development of vaccines. By leveraging the strengths of each sector, public-private partnerships drive innovation and ensure that vaccines are developed efficiently and effectively.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7649425/"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "Public-Private Partnerships in Vaccine Research",
+    "keywords": ["public-private partnerships", "vaccine research", "collaboration", "funding", "innovation"],
+    "text": "Public-private partnerships in vaccine research involve collaboration between government entities, private companies, non-profit organizations, and academic institutions. These partnerships are crucial for advancing vaccine development by pooling resources, expertise, and funding. By working together, stakeholders can accelerate the research and development process, promote innovation, and ensure that vaccines are accessible to populations in need.",
+    "link": "https://www.who.int/immunization/research/ppp/en/"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Public-Private Partnerships in Vaccine Research
+Keywords: public-private partnerships, vaccine research, collaboration, funding, innovation
+Uses: 0
+Text: Public-private partnerships in vaccine research involve collaboration between government entities, private companies, non-profit organizations, and academic institutions. These partnerships are crucial for advancing vaccine development by pooling resources, expertise, and funding. By working together, stakeholders can accelerate the research and development process, promote innovation, and ensure that vaccines are accessible to populations in need.Link: https://www.who.int/immunization/research/ppp/en/
+Researching topic: Impact of vaccine hesitancy on public health
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Development', 'Challenges in Vaccine Manufacturing', 'Challenges in Vaccine Manufacturing', 'Importance of Adjuvants in Vaccine Development', 'Role of Adjuvants in Vaccine Development', 'Ethics of Vaccine Trials', 'Ethical Considerations in Vaccine Trials', 'Post-Marketing Surveillance of Vaccines', 'Importance of Post-Marketing Surveillance of Vaccines', 'Role of Public-Private Partnerships in Vaccine Research', 'Public-Private Partnerships in Vaccine Research']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF VACCINE HESITANCY ON PUBLIC HEALTH** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Impact of Vaccine Hesitancy on Public Health",
+    "keywords": ["vaccine hesitancy", "public health", "impact"],
+    "text": "Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite the availability of vaccination services. This phenomenon can have significant negative impacts on public health, as it can lead to outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary suffering and deaths. It also undermines the effectiveness of vaccination programs and can erode public trust in the healthcare system.",
+    "link": "https://www.who.int/news-room/q-a-detail/vaccine-hesitancy" 
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Impact of Vaccine Hesitancy on Public Health
+Keywords: vaccine hesitancy, public health, impact
+Uses: 0
+Text: Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite the availability of vaccination services. This phenomenon can have significant negative impacts on public health, as it can lead to outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary suffering and deaths. It also undermines the effectiveness of vaccination programs and can erode public trust in the healthcare system.Link: https://www.who.int/news-room/q-a-detail/vaccine-hesitancy
+Prompt:
+Initial Prompt: (Vaccine Development Process) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['Stages of Vaccine Development', 'Key Stages of Vaccine Development', 'Role of Artificial Intelligence in Vaccine Research', 'Applications of Artificial Intelligence in Vaccine Development', 'Challenges in Vaccine Manufacturing', 'Challenges in Vaccine Manufacturing', 'Importance of Adjuvants in Vaccine Development', 'Role of Adjuvants in Vaccine Development', 'Ethics of Vaccine Trials', 'Ethical Considerations in Vaccine Trials', 'Post-Marketing Surveillance of Vaccines', 'Importance of Post-Marketing Surveillance of Vaccines', 'Role of Public-Private Partnerships in Vaccine Research', 'Public-Private Partnerships in Vaccine Research', 'Impact of Vaccine Hesitancy on Public Health']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **IMPACT OF VACCINE HESITANCY ON PUBLIC HEALTH** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+🎲 Choice scenario triggered! (Rolled 26.1 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+{
+    "title": "The Impact of Vaccine Hesitancy on Public Health",
+    "keywords": ["vaccine hesitancy", "public health", "impact"],
+    "text": "Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite their availability. This can lead to outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary suffering and death. Public health efforts are hindered when a significant portion of the population is hesitant or refuses to vaccinate, as it compromises herd immunity and puts vulnerable individuals at risk.",
+    "link": "https://www.who.int/news-room/spotlight/ten-threats-to-global-health-in-2019"
+}
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+{
+    "title": "The Impact of Vaccine Hesitancy on Public Health",
+    "keywords": ["vaccine hesitancy", "public health", "impact"],
+    "text": "Vaccine hesitancy, defined as the delay in acceptance or refusal of vaccines despite their availability, has a significant impact on public health. It can lead to outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary suffering and death. When a large enough proportion of the population is hesitant towards vaccines, herd immunity can be compromised, leaving vulnerable individuals at risk. Addressing vaccine hesitancy is crucial in maintaining high vaccination rates and protecting public health.",
+    "link": "https://www.who.int/news-room/q-a-detail/vaccine-hesitancy"
+}
+
+----------------------------------------
+✅ You chose Response 1
+Raw AI response to this: {
+    "title": "The Impact of Vaccine Hesitancy on Public Health",
+    "keywords": ["vaccine hesitancy", "public health", "impact"],
+    "text": "Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite their availability. This can lead to outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary suffering and death. Public health efforts are hindered when a significant portion of the population is hesitant or refuses to vaccinate, as it compromises herd immunity and puts vulnerable individuals at risk.",
+    "link": "https://www.who.int/news-room/spotlight/ten-threats-to-global-health-in-2019"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: The Impact of Vaccine Hesitancy on Public Health
+Keywords: vaccine hesitancy, public health, impact
+Uses: 0
+Text: Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite their availability. This can lead to outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary suffering and death. Public health efforts are hindered when a significant portion of the population is hesitant or refuses to vaccinate, as it compromises herd immunity and puts vulnerable individuals at risk.Link: https://www.who.int/news-room/spotlight/ten-threats-to-global-health-in-2019
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({The stages of vaccine development typically include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the preclinical stage, the vaccine is tested in animals to evaluate its safety and efficacy before moving on to h...
+
+The key stages of vaccine development include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, scientists conduct research to identify antigens that can help prevent a specific disease. In th...
+
+Artificial intelligence is playing a significant role in vaccine research by expediting the process of identifying potential vaccine candidates, predicting their efficacy, and optimizing clinical trials. Machine learning algorithms can analyze vast amounts of data to identify patterns and trends tha...
+
+Artificial intelligence is being increasingly utilized in vaccine research to accelerate the development process. Machine learning algorithms are used to analyze large datasets and predict potential vaccine candidates. AI can also help in identifying new drug targets and optimizing vaccine formulati...
+
+Some of the main challenges in vaccine manufacturing include the need for complex production processes, stringent regulatory requirements, high costs associated with research and development, limited production capacity, and the need for specialized equipment and facilities.
+
+Some challenges in vaccine manufacturing include the need for specialized equipment, stringent regulatory requirements, complex manufacturing processes, ensuring consistency in production, scaling up production capacity, and maintaining cold chain logistics for storage and distribution.
+
+Adjuvants are substances added to vaccines to enhance the body's immune response. They help improve the effectiveness of vaccines by increasing the immunogenicity of the antigens present in the vaccine. Adjuvants stimulate the immune system, leading to a stronger and longer-lasting immune response. ...
+
+Adjuvants are substances added to vaccines to enhance the immune response and improve vaccine efficacy. They work by stimulating the immune system, allowing for a stronger and longer-lasting response to the vaccine's target antigen. Adjuvants can also reduce the amount of antigen needed in a vaccine...
+
+Ethics in vaccine trials are crucial to ensure the safety and well-being of participants. Key principles include obtaining informed consent from participants, promoting beneficence by maximizing benefits and minimizing risks, ensuring justice in the selection of participants, and respecting autonomy...
+
+Ethical considerations in vaccine trials include ensuring informed consent from participants, upholding the principles of beneficence (doing good) and non-maleficence (doing no harm), promoting justice in the distribution of benefits and risks, and respecting the autonomy and rights of research subj...
+
+Post-marketing surveillance of vaccines refers to the ongoing monitoring of vaccine safety and effectiveness after a vaccine has been approved and is being used in the general population. This process helps to detect any rare or long-term side effects that may not have been identified during clinica...
+
+Post-marketing surveillance of vaccines is crucial to monitor the safety and effectiveness of vaccines once they are on the market. This process helps to detect and investigate any rare or long-term side effects that may not have been identified during clinical trials. By collecting and analyzing re...
+
+Public-private partnerships play a crucial role in vaccine research by bringing together the expertise and resources of both the public and private sectors. These collaborations help drive innovation, accelerate the development of vaccines, and ensure that promising candidates make it to market. By ...
+
+Public-private partnerships in vaccine research involve collaboration between government entities, private companies, non-profit organizations, and academic institutions. These partnerships are crucial for advancing vaccine development by pooling resources, expertise, and funding. By working togethe...
+
+Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite the availability of vaccination services. This phenomenon can have significant negative impacts on public health, as it can lead to outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary su...
+
+Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite their availability. This can lead to outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary suffering and death. Public health efforts are hindered when a significant portion of the populat...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+🎲 Choice scenario triggered! (Rolled 8.4 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+7
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+9
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+7
+.
+Topic count decided: 7
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({The stages of vaccine development typically include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the preclinical stage, the vaccine is tested in animals to evaluate its safety and efficacy before moving on to h...
+
+The key stages of vaccine development include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, scientists conduct research to identify antigens that can help prevent a specific disease. In th...
+
+Artificial intelligence is playing a significant role in vaccine research by expediting the process of identifying potential vaccine candidates, predicting their efficacy, and optimizing clinical trials. Machine learning algorithms can analyze vast amounts of data to identify patterns and trends tha...
+
+Artificial intelligence is being increasingly utilized in vaccine research to accelerate the development process. Machine learning algorithms are used to analyze large datasets and predict potential vaccine candidates. AI can also help in identifying new drug targets and optimizing vaccine formulati...
+
+Some of the main challenges in vaccine manufacturing include the need for complex production processes, stringent regulatory requirements, high costs associated with research and development, limited production capacity, and the need for specialized equipment and facilities.
+
+Some challenges in vaccine manufacturing include the need for specialized equipment, stringent regulatory requirements, complex manufacturing processes, ensuring consistency in production, scaling up production capacity, and maintaining cold chain logistics for storage and distribution.
+
+Adjuvants are substances added to vaccines to enhance the body's immune response. They help improve the effectiveness of vaccines by increasing the immunogenicity of the antigens present in the vaccine. Adjuvants stimulate the immune system, leading to a stronger and longer-lasting immune response. ...
+
+Adjuvants are substances added to vaccines to enhance the immune response and improve vaccine efficacy. They work by stimulating the immune system, allowing for a stronger and longer-lasting response to the vaccine's target antigen. Adjuvants can also reduce the amount of antigen needed in a vaccine...
+
+Ethics in vaccine trials are crucial to ensure the safety and well-being of participants. Key principles include obtaining informed consent from participants, promoting beneficence by maximizing benefits and minimizing risks, ensuring justice in the selection of participants, and respecting autonomy...
+
+Ethical considerations in vaccine trials include ensuring informed consent from participants, upholding the principles of beneficence (doing good) and non-maleficence (doing no harm), promoting justice in the distribution of benefits and risks, and respecting the autonomy and rights of research subj...
+
+Post-marketing surveillance of vaccines refers to the ongoing monitoring of vaccine safety and effectiveness after a vaccine has been approved and is being used in the general population. This process helps to detect any rare or long-term side effects that may not have been identified during clinica...
+
+Post-marketing surveillance of vaccines is crucial to monitor the safety and effectiveness of vaccines once they are on the market. This process helps to detect and investigate any rare or long-term side effects that may not have been identified during clinical trials. By collecting and analyzing re...
+
+Public-private partnerships play a crucial role in vaccine research by bringing together the expertise and resources of both the public and private sectors. These collaborations help drive innovation, accelerate the development of vaccines, and ensure that promising candidates make it to market. By ...
+
+Public-private partnerships in vaccine research involve collaboration between government entities, private companies, non-profit organizations, and academic institutions. These partnerships are crucial for advancing vaccine development by pooling resources, expertise, and funding. By working togethe...
+
+Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite the availability of vaccination services. This phenomenon can have significant negative impacts on public health, as it can lead to outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary su...
+
+Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite their availability. This can lead to outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary suffering and death. Public health efforts are hindered when a significant portion of the populat...}). You are to come up with {7} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+🎲 Choice scenario triggered! (Rolled 48.9 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Week 1: Introduction to Vaccine Development
+
+Main Topic Title: Overview of Vaccine Development
+
+1. Sub-Topic: Key Stages of Vaccine Development
+   - Explanation: Explore the stages of vaccine development, including the exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control.
+   - Learning Objectives: Understand the sequential process involved in developing a vaccine.
+   - Estimated Number of Slides: 5
+   - Lab Activities: Analyze case studies of successful vaccine development projects.
+   - Real-World Applications: Discuss recent advancements in vaccine development using artificial intelligence.
+
+2. Sub-Topic: Role of Artificial Intelligence in Vaccine Research
+   - Explanation: Examine how artificial intelligence expedites the identification of vaccine candidates, predicts efficacy, and optimizes clinical trials.
+   - Learning Objectives: Understand the impact of AI on accelerating vaccine development.
+   - Estimated Number of Slides: 4
+   - Lab Activities: Use AI tools to analyze vaccine research data.
+   - Real-World Applications: Explore examples of AI applications in vaccine development.
+
+Week 2: Vaccine Manufacturing and Quality Control
+
+Main Topic Title: Challenges and Considerations in Vaccine Manufacturing
+
+1. Sub-Topic: Challenges in Vaccine Manufacturing
+   - Explanation: Discuss the complexities of vaccine production processes, regulatory requirements, costs, and production capacity.
+   - Learning Objectives: Identify key challenges in vaccine manufacturing.
+   - Estimated Number of Slides: 6
+   - Lab Activities: Simulate a small-scale vaccine manufacturing process.
+   - Real-World Applications: Analyze case studies of vaccine manufacturing challenges and solutions.
+
+2. Sub-Topic: Role of Adjuvants in Vaccine Efficacy
+   - Explanation: Explore how adjuvants enhance the immune response and improve vaccine effectiveness.
+   - Learning Objectives: Understand the function of adjuvants in vaccine formulations.
+   - Estimated Number of Slides: 3
+   - Lab Activities: Conduct experiments to compare vaccine efficacy with and without adjuvants.
+   - Real-World Applications: Discuss the use of adjuvants in developing COVID-19 vaccines.
+
+Week 3: Ethical Considerations in Vaccine Trials
+
+Main Topic Title: Ethics in Vaccine Research
+
+1. Sub-Topic: Ethical Principles in Vaccine Trials
+   - Explanation: Examine the importance of informed consent, beneficence, justice, and autonomy in vaccine trials.
+   - Learning Objectives: Understand the ethical considerations involved in vaccine research.
+   - Estimated Number of Slides: 4
+   - Lab Activities: Discuss case studies of ethical dilemmas in vaccine trials.
+   - Real-World Applications: Analyze recent controversies in vaccine research ethics.
+
+2. Sub-Topic: Post-Marketing Surveillance of Vaccines
+   - Explanation: Explore the process of monitoring vaccine safety and effectiveness after approval.
+   - Learning Objectives: Understand the significance of post-marketing surveillance in public health.
+   - Estimated Number of Slides: 3
+   - Lab Activities: Analyze real-world data on vaccine safety surveillance.
+   - Real-World Applications: Discuss the role of post-marketing surveillance in detecting adverse events.
+
+Week 4: Public-Private Partnerships in Vaccine Research
+
+Main Topic Title: Collaboration in Vaccine Development
+
+1. Sub-Topic: Public-Private Partnerships in Vaccine Research
+   - Explanation: Discuss the benefits of collaborations between public and private sectors in advancing vaccine development.
+   - Learning Objectives: Identify the role of partnerships in accelerating vaccine research.
+   - Estimated Number of Slides: 4
+   - Lab Activities: Create a hypothetical public-private partnership for vaccine development.
+   - Real-World Applications: Analyze successful examples of public-private collaborations in vaccine research.
+
+2. Sub-Topic: Addressing Vaccine Hesitancy
+   - Explanation: Explore the impact of vaccine hesitancy on public health and strategies to address this issue.
+   - Learning Objectives: Understand the challenges posed by vaccine hesitancy and potential solutions.
+   - Estimated Number of Slides: 3
+   - Lab Activities: Role-play scenarios to address vaccine hesitancy in different populations.
+   - Real-World Applications: Examine global initiatives to combat vaccine hesitancy and promote vaccination uptake. 
+
+This detailed teaching plan covers the key aspects of vaccine development, from the initial stages to ethical considerations and real-world applications. Each topic is structured to build upon the previous one, providing a comprehensive understanding of the complex process of vaccine research and manufacturing. By incorporating lab activities, real-world examples, and interactive discussions, students will gain practical insights into the challenges and advancements in vaccine development.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Teaching Plan: Vaccine Development Process
+
+Week 1: Exploratory Stage and Antigen Identification
+
+Main Topic: Exploratory Stage
+- Sub-topics:
+  1. Research in vaccine development
+  2. Identification of antigens
+  3. Importance of antigen selection
+
+Brief Explanation: The exploratory stage involves conducting research to identify antigens that can help prevent a specific disease. Scientists work to understand the pathogen and select the most effective antigens for vaccine development.
+
+Learning Objectives:
+- Understand the importance of the exploratory stage in vaccine development
+- Learn how antigens are identified and selected for vaccine candidates
+- Recognize the significance of antigen selection in vaccine efficacy
+
+Estimated Number of Slides: 10
+Lab Activities:
+- Research a specific disease and identify potential antigens for vaccine development
+Real-World Applications:
+- Discuss current research on COVID-19 vaccine development and the process of antigen selection
+
+Week 2: Preclinical Stage and Animal Testing
+
+Main Topic: Preclinical Stage
+- Sub-topics:
+  1. Safety evaluation in animals
+  2. Efficacy testing in animal models
+  3. Regulatory requirements for preclinical testing
+
+Brief Explanation: The preclinical stage involves testing the vaccine in animal models to evaluate safety and efficacy before moving on to human trials. Regulatory agencies set guidelines for preclinical testing to ensure the vaccine's safety.
+
+Learning Objectives:
+- Understand the purpose of preclinical testing in vaccine development
+- Learn about safety and efficacy evaluation in animal models
+- Identify regulatory requirements for preclinical testing
+
+Estimated Number of Slides: 12
+Lab Activities:
+- Design a preclinical study to test a hypothetical vaccine candidate in animal models
+Real-World Applications:
+- Explore examples of successful vaccines that underwent rigorous preclinical testing before human trials
+
+Week 3: Clinical Development and Phases of Clinical Trials
+
+Main Topic: Clinical Development
+- Sub-topics:
+  1. Phases of clinical trials
+  2. Informed consent and ethical considerations
+  3. Vaccine efficacy and safety assessment
+
+Brief Explanation: Clinical development involves human trials to evaluate the vaccine's safety and efficacy. Different phases of clinical trials are conducted to gather data on vaccine performance and assess its impact on participants.
+
+Learning Objectives:
+- Understand the different phases of clinical trials in vaccine development
+- Discuss the importance of informed consent and ethical considerations in clinical research
+- Learn how vaccine efficacy and safety are assessed in clinical trials
+
+Estimated Number of Slides: 15
+Lab Activities:
+- Analyze clinical trial data from a published study on a vaccine candidate
+Real-World Applications:
+- Explore case studies of vaccines that successfully completed all phases of clinical trials
+
+Week 4: Regulatory Review and Approval Process
+
+Main Topic: Regulatory Review and Approval
+- Sub-topics:
+  1. Role of regulatory agencies
+  2. Approval process for vaccines
+  3. Post-marketing surveillance
+
+Brief Explanation: Regulatory agencies review vaccine data to ensure safety and efficacy before granting approval for public use. Post-marketing surveillance monitors vaccine performance in the general population to detect any adverse effects.
+
+Learning Objectives:
+- Understand the role of regulatory agencies in vaccine approval
+- Learn about the process of regulatory review for vaccines
+- Discuss the importance of post-marketing surveillance in vaccine safety monitoring
+
+Estimated Number of Slides: 12
+Lab Activities:
+- Simulate a regulatory review process for a hypothetical vaccine candidate
+Real-World Applications:
+- Examine examples of vaccines that faced regulatory challenges during the approval process
+
+Week 5: Manufacturing and Quality Control
+
+Main Topic: Manufacturing Process
+- Sub-topics:
+  1. Vaccine production methods
+  2. Quality control measures
+  3. Cold chain logistics
+
+Brief Explanation: Vaccine manufacturing involves complex production processes to ensure consistency and quality. Quality control measures are implemented throughout the production process to maintain vaccine integrity.
+
+Learning Objectives:
+- Understand the different methods used in vaccine production
+- Learn about quality control measures to ensure vaccine safety and efficacy
+- Discuss the importance of cold chain logistics in vaccine distribution
+
+Estimated Number of Slides: 15
+Lab Activities:
+- Visit a vaccine manufacturing facility or virtual tour to observe production processes
+Real-World Applications:
+- Explore challenges in vaccine manufacturing and quality control faced by pharmaceutical companies
+
+Week 6: Adjuvants and Their Role in Vaccine Efficacy
+
+Main Topic: Adjuvants in Vaccines
+- Sub-topics:
+  1. Definition and types of adjuvants
+  2. Mechanism of action
+  3. Impact on vaccine efficacy
+
+Brief Explanation: Adjuvants are added to vaccines to enhance the immune response and improve efficacy. Different types of adjuvants stimulate the immune system to produce a stronger and longer-lasting response to the vaccine.
+
+Learning Objectives:
+- Define adjuvants and their role in vaccines
+- Understand how adjuvants work to enhance immune response
+- Explore the impact of adjuvants on vaccine efficacy
+
+Estimated Number of Slides: 10
+Lab Activities:
+- Experiment with different adjuvants in a simulated vaccine formulation
+Real-World Applications:
+- Investigate current research on adjuvants and their potential applications in vaccine development
+
+Week 7: Public-Private Partnerships and Vaccine Hesitancy
+
+Main Topic: Collaborations in Vaccine Research
+- Sub-topics:
+  1. Public-private partnerships in vaccine development
+  2. Impact on vaccine innovation
+  3. Addressing vaccine hesitancy
+
+Brief Explanation: Public-private partnerships play a crucial role in driving vaccine innovation by combining resources and expertise. Addressing vaccine hesitancy is essential to ensure widespread acceptance and uptake of vaccines.
+
+Learning Objectives:
+- Learn about the benefits of public-private partnerships in vaccine research
+- Discuss the impact of collaborations on vaccine innovation and development
+- Explore strategies to address vaccine hesitancy and promote vaccine acceptance
+
+Estimated Number of Slides: 12
+Lab Activities:
+- Role-play a public-private partnership negotiation for a vaccine development project
+Real-World Applications:
+- Analyze successful public-private partnerships that led to the development of important vaccines
+
+By following this structured teaching plan, senior undergraduate students will gain a comprehensive understanding of the vaccine development process, from exploratory research to regulatory approval and post-marketing surveillance. The interactive lab activities and real-world applications will enhance their learning experience and prepare them for future careers in vaccine research and public health.
+
+----------------------------------------
+✅ You chose Response 2
+Raw response:
+Teaching Plan: Vaccine Development Process
+
+Week 1: Exploratory Stage and Antigen Identification
+
+Main Topic: Exploratory Stage
+- Sub-topics:
+  1. Research in vaccine development
+  2. Identification of antigens
+  3. Importance of antigen selection
+
+Brief Explanation: The exploratory stage involves conducting research to identify antigens that can help prevent a specific disease. Scientists work to understand the pathogen and select the most effective antigens for vaccine development.
+
+Learning Objectives:
+- Understand the importance of the exploratory stage in vaccine development
+- Learn how antigens are identified and selected for vaccine candidates
+- Recognize the significance of antigen selection in vaccine efficacy
+
+Estimated Number of Slides: 10
+Lab Activities:
+- Research a specific disease and identify potential antigens for vaccine development
+Real-World Applications:
+- Discuss current research on COVID-19 vaccine development and the process of antigen selection
+
+Week 2: Preclinical Stage and Animal Testing
+
+Main Topic: Preclinical Stage
+- Sub-topics:
+  1. Safety evaluation in animals
+  2. Efficacy testing in animal models
+  3. Regulatory requirements for preclinical testing
+
+Brief Explanation: The preclinical stage involves testing the vaccine in animal models to evaluate safety and efficacy before moving on to human trials. Regulatory agencies set guidelines for preclinical testing to ensure the vaccine's safety.
+
+Learning Objectives:
+- Understand the purpose of preclinical testing in vaccine development
+- Learn about safety and efficacy evaluation in animal models
+- Identify regulatory requirements for preclinical testing
+
+Estimated Number of Slides: 12
+Lab Activities:
+- Design a preclinical study to test a hypothetical vaccine candidate in animal models
+Real-World Applications:
+- Explore examples of successful vaccines that underwent rigorous preclinical testing before human trials
+
+Week 3: Clinical Development and Phases of Clinical Trials
+
+Main Topic: Clinical Development
+- Sub-topics:
+  1. Phases of clinical trials
+  2. Informed consent and ethical considerations
+  3. Vaccine efficacy and safety assessment
+
+Brief Explanation: Clinical development involves human trials to evaluate the vaccine's safety and efficacy. Different phases of clinical trials are conducted to gather data on vaccine performance and assess its impact on participants.
+
+Learning Objectives:
+- Understand the different phases of clinical trials in vaccine development
+- Discuss the importance of informed consent and ethical considerations in clinical research
+- Learn how vaccine efficacy and safety are assessed in clinical trials
+
+Estimated Number of Slides: 15
+Lab Activities:
+- Analyze clinical trial data from a published study on a vaccine candidate
+Real-World Applications:
+- Explore case studies of vaccines that successfully completed all phases of clinical trials
+
+Week 4: Regulatory Review and Approval Process
+
+Main Topic: Regulatory Review and Approval
+- Sub-topics:
+  1. Role of regulatory agencies
+  2. Approval process for vaccines
+  3. Post-marketing surveillance
+
+Brief Explanation: Regulatory agencies review vaccine data to ensure safety and efficacy before granting approval for public use. Post-marketing surveillance monitors vaccine performance in the general population to detect any adverse effects.
+
+Learning Objectives:
+- Understand the role of regulatory agencies in vaccine approval
+- Learn about the process of regulatory review for vaccines
+- Discuss the importance of post-marketing surveillance in vaccine safety monitoring
+
+Estimated Number of Slides: 12
+Lab Activities:
+- Simulate a regulatory review process for a hypothetical vaccine candidate
+Real-World Applications:
+- Examine examples of vaccines that faced regulatory challenges during the approval process
+
+Week 5: Manufacturing and Quality Control
+
+Main Topic: Manufacturing Process
+- Sub-topics:
+  1. Vaccine production methods
+  2. Quality control measures
+  3. Cold chain logistics
+
+Brief Explanation: Vaccine manufacturing involves complex production processes to ensure consistency and quality. Quality control measures are implemented throughout the production process to maintain vaccine integrity.
+
+Learning Objectives:
+- Understand the different methods used in vaccine production
+- Learn about quality control measures to ensure vaccine safety and efficacy
+- Discuss the importance of cold chain logistics in vaccine distribution
+
+Estimated Number of Slides: 15
+Lab Activities:
+- Visit a vaccine manufacturing facility or virtual tour to observe production processes
+Real-World Applications:
+- Explore challenges in vaccine manufacturing and quality control faced by pharmaceutical companies
+
+Week 6: Adjuvants and Their Role in Vaccine Efficacy
+
+Main Topic: Adjuvants in Vaccines
+- Sub-topics:
+  1. Definition and types of adjuvants
+  2. Mechanism of action
+  3. Impact on vaccine efficacy
+
+Brief Explanation: Adjuvants are added to vaccines to enhance the immune response and improve efficacy. Different types of adjuvants stimulate the immune system to produce a stronger and longer-lasting response to the vaccine.
+
+Learning Objectives:
+- Define adjuvants and their role in vaccines
+- Understand how adjuvants work to enhance immune response
+- Explore the impact of adjuvants on vaccine efficacy
+
+Estimated Number of Slides: 10
+Lab Activities:
+- Experiment with different adjuvants in a simulated vaccine formulation
+Real-World Applications:
+- Investigate current research on adjuvants and their potential applications in vaccine development
+
+Week 7: Public-Private Partnerships and Vaccine Hesitancy
+
+Main Topic: Collaborations in Vaccine Research
+- Sub-topics:
+  1. Public-private partnerships in vaccine development
+  2. Impact on vaccine innovation
+  3. Addressing vaccine hesitancy
+
+Brief Explanation: Public-private partnerships play a crucial role in driving vaccine innovation by combining resources and expertise. Addressing vaccine hesitancy is essential to ensure widespread acceptance and uptake of vaccines.
+
+Learning Objectives:
+- Learn about the benefits of public-private partnerships in vaccine research
+- Discuss the impact of collaborations on vaccine innovation and development
+- Explore strategies to address vaccine hesitancy and promote vaccine acceptance
+
+Estimated Number of Slides: 12
+Lab Activities:
+- Role-play a public-private partnership negotiation for a vaccine development project
+Real-World Applications:
+- Analyze successful public-private partnerships that led to the development of important vaccines
+
+By following this structured teaching plan, senior undergraduate students will gain a comprehensive understanding of the vaccine development process, from exploratory research to regulatory approval and post-marketing surveillance. The interactive lab activities and real-world applications will enhance their learning experience and prepare them for future careers in vaccine research and public health.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Teaching Plan: Vaccine Development Process
+
+Week 1: Exploratory Stage and Antigen Identification
+
+Main Topic: Exploratory Stage
+- Sub-topics:
+  1. Research in vaccine development
+  2. Identification of antigens
+  3. Importance of antigen selection
+
+Brief Explanation: The exploratory stage involves conducting research to identify antigens that can help prevent a specific disease. Scientists work to understand the pathogen and select the most effective antigens for vaccine development.
+
+Learning Objectives:
+- Understand the importance of the exploratory stage in vaccine development
+- Learn how antigens are identified and selected for vaccine candidates
+- Recognize the significance of antigen selection in vaccine efficacy
+
+Estimated Number of Slides: 10
+Lab Activities:
+- Research a specific disease and identify potential antigens for vaccine development
+Real-World Applications:
+- Discuss current research on COVID-19 vaccine development and the process of antigen selection
+
+Week 2: Preclinical Stage and Animal Testing
+
+Main Topic: Preclinical Stage
+- Sub-topics:
+  1. Safety evaluation in animals
+  2. Efficacy testing in animal models
+  3. Regulatory requirements for preclinical testing
+
+Brief Explanation: The preclinical stage involves testing the vaccine in animal models to evaluate safety and efficacy before moving on to human trials. Regulatory agencies set guidelines for preclinical testing to ensure the vaccine's safety.
+
+Learning Objectives:
+- Understand the purpose of preclinical testing in vaccine development
+- Learn about safety and efficacy evaluation in animal models
+- Identify regulatory requirements for preclinical testing
+
+Estimated Number of Slides: 12
+Lab Activities:
+- Design a preclinical study to test a hypothetical vaccine candidate in animal models
+Real-World Applications:
+- Explore examples of successful vaccines that underwent rigorous preclinical testing before human trials
+
+Week 3: Clinical Development and Phases of Clinical Trials
+
+Main Topic: Clinical Development
+- Sub-topics:
+  1. Phases of clinical trials
+  2. Informed consent and ethical considerations
+  3. Vaccine efficacy and safety assessment
+
+Brief Explanation: Clinical development involves human trials to evaluate the vaccine's safety and efficacy. Different phases of clinical trials are conducted to gather data on vaccine performance and assess its impact on participants.
+
+Learning Objectives:
+- Understand the different phases of clinical trials in vaccine development
+- Discuss the importance of informed consent and ethical considerations in clinical research
+- Learn how vaccine efficacy and safety are assessed in clinical trials
+
+Estimated Number of Slides: 15
+Lab Activities:
+- Analyze clinical trial data from a published study on a vaccine candidate
+Real-World Applications:
+- Explore case studies of vaccines that successfully completed all phases of clinical trials
+
+Week 4: Regulatory Review and Approval Process
+
+Main Topic: Regulatory Review and Approval
+- Sub-topics:
+  1. Role of regulatory agencies
+  2. Approval process for vaccines
+  3. Post-marketing surveillance
+
+Brief Explanation: Regulatory agencies review vaccine data to ensure safety and efficacy before granting approval for public use. Post-marketing surveillance monitors vaccine performance in the general population to detect any adverse effects.
+
+Learning Objectives:
+- Understand the role of regulatory agencies in vaccine approval
+- Learn about the process of regulatory review for vaccines
+- Discuss the importance of post-marketing surveillance in vaccine safety monitoring
+
+Estimated Number of Slides: 12
+Lab Activities:
+- Simulate a regulatory review process for a hypothetical vaccine candidate
+Real-World Applications:
+- Examine examples of vaccines that faced regulatory challenges during the approval process
+
+Week 5: Manufacturing and Quality Control
+
+Main Topic: Manufacturing Process
+- Sub-topics:
+  1. Vaccine production methods
+  2. Quality control measures
+  3. Cold chain logistics
+
+Brief Explanation: Vaccine manufacturing involves complex production processes to ensure consistency and quality. Quality control measures are implemented throughout the production process to maintain vaccine integrity.
+
+Learning Objectives:
+- Understand the different methods used in vaccine production
+- Learn about quality control measures to ensure vaccine safety and efficacy
+- Discuss the importance of cold chain logistics in vaccine distribution
+
+Estimated Number of Slides: 15
+Lab Activities:
+- Visit a vaccine manufacturing facility or virtual tour to observe production processes
+Real-World Applications:
+- Explore challenges in vaccine manufacturing and quality control faced by pharmaceutical companies
+
+Week 6: Adjuvants and Their Role in Vaccine Efficacy
+
+Main Topic: Adjuvants in Vaccines
+- Sub-topics:
+  1. Definition and types of adjuvants
+  2. Mechanism of action
+  3. Impact on vaccine efficacy
+
+Brief Explanation: Adjuvants are added to vaccines to enhance the immune response and improve efficacy. Different types of adjuvants stimulate the immune system to produce a stronger and longer-lasting response to the vaccine.
+
+Learning Objectives:
+- Define adjuvants and their role in vaccines
+- Understand how adjuvants work to enhance immune response
+- Explore the impact of adjuvants on vaccine efficacy
+
+Estimated Number of Slides: 10
+Lab Activities:
+- Experiment with different adjuvants in a simulated vaccine formulation
+Real-World Applications:
+- Investigate current research on adjuvants and their potential applications in vaccine development
+
+Week 7: Public-Private Partnerships and Vaccine Hesitancy
+
+Main Topic: Collaborations in Vaccine Research
+- Sub-topics:
+  1. Public-private partnerships in vaccine development
+  2. Impact on vaccine innovation
+  3. Addressing vaccine hesitancy
+
+Brief Explanation: Public-private partnerships play a crucial role in driving vaccine innovation by combining resources and expertise. Addressing vaccine hesitancy is essential to ensure widespread acceptance and uptake of vaccines.
+
+Learning Objectives:
+- Learn about the benefits of public-private partnerships in vaccine research
+- Discuss the impact of collaborations on vaccine innovation and development
+- Explore strategies to address vaccine hesitancy and promote vaccine acceptance
+
+Estimated Number of Slides: 12
+Lab Activities:
+- Role-play a public-private partnership negotiation for a vaccine development project
+Real-World Applications:
+- Analyze successful public-private partnerships that led to the development of important vaccines
+
+By following this structured teaching plan, senior undergraduate students will gain a comprehensive understanding of the vaccine development process, from exploratory research to regulatory approval and post-marketing surveillance. The interactive lab activities and real-world applications will enhance their learning experience and prepare them for future careers in vaccine research and public health.}). Total slides available: {8}. Topics to allocate: {7}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[10, 12, 15, 12, 15, 10, 12]
+.
+Slide allocation: [1, 1, 1, 1, 2, 1, 1]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Vaccine Development Process) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Teaching Plan: Vaccine Development Process
+
+Week 1: Exploratory Stage and Antigen Identification
+
+Main Topic: Exploratory Stage
+- Sub-topics:
+  1. Research in vaccine development
+  2. Identification of antigens
+  3. Importance of antigen selection
+
+Brief Explanation: The exploratory stage involves conducting research to identify antigens that can help prevent a specific disease. Scientists work to understand the pathogen and select the most effective antigens for vaccine development.
+
+Learning Objectives:
+- Understand the importance of the exploratory stage in vaccine development
+- Learn how antigens are identified and selected for vaccine candidates
+- Recognize the significance of antigen selection in vaccine efficacy
+
+Estimated Number of Slides: 10
+Lab Activities:
+- Research a specific disease and identify potential antigens for vaccine development
+Real-World Applications:
+- Discuss current research on COVID-19 vaccine development and the process of antigen selection
+
+Week 2: Preclinical Stage and Animal Testing
+
+Main Topic: Preclinical Stage
+- Sub-topics:
+  1. Safety evaluation in animals
+  2. Efficacy testing in animal models
+  3. Regulatory requirements for preclinical testing
+
+Brief Explanation: The preclinical stage involves testing the vaccine in animal models to evaluate safety and efficacy before moving on to human trials. Regulatory agencies set guidelines for preclinical testing to ensure the vaccine's safety.
+
+Learning Objectives:
+- Understand the purpose of preclinical testing in vaccine development
+- Learn about safety and efficacy evaluation in animal models
+- Identify regulatory requirements for preclinical testing
+
+Estimated Number of Slides: 12
+Lab Activities:
+- Design a preclinical study to test a hypothetical vaccine candidate in animal models
+Real-World Applications:
+- Explore examples of successful vaccines that underwent rigorous preclinical testing before human trials
+
+Week 3: Clinical Development and Phases of Clinical Trials
+
+Main Topic: Clinical Development
+- Sub-topics:
+  1. Phases of clinical trials
+  2. Informed consent and ethical considerations
+  3. Vaccine efficacy and safety assessment
+
+Brief Explanation: Clinical development involves human trials to evaluate the vaccine's safety and efficacy. Different phases of clinical trials are conducted to gather data on vaccine performance and assess its impact on participants.
+
+Learning Objectives:
+- Understand the different phases of clinical trials in vaccine development
+- Discuss the importance of informed consent and ethical considerations in clinical research
+- Learn how vaccine efficacy and safety are assessed in clinical trials
+
+Estimated Number of Slides: 15
+Lab Activities:
+- Analyze clinical trial data from a published study on a vaccine candidate
+Real-World Applications:
+- Explore case studies of vaccines that successfully completed all phases of clinical trials
+
+Week 4: Regulatory Review and Approval Process
+
+Main Topic: Regulatory Review and Approval
+- Sub-topics:
+  1. Role of regulatory agencies
+  2. Approval process for vaccines
+  3. Post-marketing surveillance
+
+Brief Explanation: Regulatory agencies review vaccine data to ensure safety and efficacy before granting approval for public use. Post-marketing surveillance monitors vaccine performance in the general population to detect any adverse effects.
+
+Learning Objectives:
+- Understand the role of regulatory agencies in vaccine approval
+- Learn about the process of regulatory review for vaccines
+- Discuss the importance of post-marketing surveillance in vaccine safety monitoring
+
+Estimated Number of Slides: 12
+Lab Activities:
+- Simulate a regulatory review process for a hypothetical vaccine candidate
+Real-World Applications:
+- Examine examples of vaccines that faced regulatory challenges during the approval process
+
+Week 5: Manufacturing and Quality Control
+
+Main Topic: Manufacturing Process
+- Sub-topics:
+  1. Vaccine production methods
+  2. Quality control measures
+  3. Cold chain logistics
+
+Brief Explanation: Vaccine manufacturing involves complex production processes to ensure consistency and quality. Quality control measures are implemented throughout the production process to maintain vaccine integrity.
+
+Learning Objectives:
+- Understand the different methods used in vaccine production
+- Learn about quality control measures to ensure vaccine safety and efficacy
+- Discuss the importance of cold chain logistics in vaccine distribution
+
+Estimated Number of Slides: 15
+Lab Activities:
+- Visit a vaccine manufacturing facility or virtual tour to observe production processes
+Real-World Applications:
+- Explore challenges in vaccine manufacturing and quality control faced by pharmaceutical companies
+
+Week 6: Adjuvants and Their Role in Vaccine Efficacy
+
+Main Topic: Adjuvants in Vaccines
+- Sub-topics:
+  1. Definition and types of adjuvants
+  2. Mechanism of action
+  3. Impact on vaccine efficacy
+
+Brief Explanation: Adjuvants are added to vaccines to enhance the immune response and improve efficacy. Different types of adjuvants stimulate the immune system to produce a stronger and longer-lasting response to the vaccine.
+
+Learning Objectives:
+- Define adjuvants and their role in vaccines
+- Understand how adjuvants work to enhance immune response
+- Explore the impact of adjuvants on vaccine efficacy
+
+Estimated Number of Slides: 10
+Lab Activities:
+- Experiment with different adjuvants in a simulated vaccine formulation
+Real-World Applications:
+- Investigate current research on adjuvants and their potential applications in vaccine development
+
+Week 7: Public-Private Partnerships and Vaccine Hesitancy
+
+Main Topic: Collaborations in Vaccine Research
+- Sub-topics:
+  1. Public-private partnerships in vaccine development
+  2. Impact on vaccine innovation
+  3. Addressing vaccine hesitancy
+
+Brief Explanation: Public-private partnerships play a crucial role in driving vaccine innovation by combining resources and expertise. Addressing vaccine hesitancy is essential to ensure widespread acceptance and uptake of vaccines.
+
+Learning Objectives:
+- Learn about the benefits of public-private partnerships in vaccine research
+- Discuss the impact of collaborations on vaccine innovation and development
+- Explore strategies to address vaccine hesitancy and promote vaccine acceptance
+
+Estimated Number of Slides: 12
+Lab Activities:
+- Role-play a public-private partnership negotiation for a vaccine development project
+Real-World Applications:
+- Analyze successful public-private partnerships that led to the development of important vaccines
+
+By following this structured teaching plan, senior undergraduate students will gain a comprehensive understanding of the vaccine development process, from exploratory research to regulatory approval and post-marketing surveillance. The interactive lab activities and real-world applications will enhance their learning experience and prepare them for future careers in vaccine research and public health.}). Slide allocation per topic: {[1, 1, 1, 1, 2, 1, 1]}. Database content for reference: ({The stages of vaccine development typically include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the preclinical stage, the vaccine is tested in animals to evaluate its safety and efficacy before moving on to h...
+
+The key stages of vaccine development include exploratory stage, preclinical stage, clinical development, regulatory review and approval, manufacturing, and quality control. During the exploratory stage, scientists conduct research to identify antigens that can help prevent a specific disease. In th...
+
+Artificial intelligence is playing a significant role in vaccine research by expediting the process of identifying potential vaccine candidates, predicting their efficacy, and optimizing clinical trials. Machine learning algorithms can analyze vast amounts of data to identify patterns and trends tha...
+
+Artificial intelligence is being increasingly utilized in vaccine research to accelerate the development process. Machine learning algorithms are used to analyze large datasets and predict potential vaccine candidates. AI can also help in identifying new drug targets and optimizing vaccine formulati...
+
+Some of the main challenges in vaccine manufacturing include the need for complex production processes, stringent regulatory requirements, high costs associated with research and development, limited production capacity, and the need for specialized equipment and facilities.
+
+Some challenges in vaccine manufacturing include the need for specialized equipment, stringent regulatory requirements, complex manufacturing processes, ensuring consistency in production, scaling up production capacity, and maintaining cold chain logistics for storage and distribution.
+
+Adjuvants are substances added to vaccines to enhance the body's immune response. They help improve the effectiveness of vaccines by increasing the immunogenicity of the antigens present in the vaccine. Adjuvants stimulate the immune system, leading to a stronger and longer-lasting immune response. ...
+
+Adjuvants are substances added to vaccines to enhance the immune response and improve vaccine efficacy. They work by stimulating the immune system, allowing for a stronger and longer-lasting response to the vaccine's target antigen. Adjuvants can also reduce the amount of antigen needed in a vaccine...
+
+Ethics in vaccine trials are crucial to ensure the safety and well-being of participants. Key principles include obtaining informed consent from participants, promoting beneficence by maximizing benefits and minimizing risks, ensuring justice in the selection of participants, and respecting autonomy...
+
+Ethical considerations in vaccine trials include ensuring informed consent from participants, upholding the principles of beneficence (doing good) and non-maleficence (doing no harm), promoting justice in the distribution of benefits and risks, and respecting the autonomy and rights of research subj...
+
+Post-marketing surveillance of vaccines refers to the ongoing monitoring of vaccine safety and effectiveness after a vaccine has been approved and is being used in the general population. This process helps to detect any rare or long-term side effects that may not have been identified during clinica...
+
+Post-marketing surveillance of vaccines is crucial to monitor the safety and effectiveness of vaccines once they are on the market. This process helps to detect and investigate any rare or long-term side effects that may not have been identified during clinical trials. By collecting and analyzing re...
+
+Public-private partnerships play a crucial role in vaccine research by bringing together the expertise and resources of both the public and private sectors. These collaborations help drive innovation, accelerate the development of vaccines, and ensure that promising candidates make it to market. By ...
+
+Public-private partnerships in vaccine research involve collaboration between government entities, private companies, non-profit organizations, and academic institutions. These partnerships are crucial for advancing vaccine development by pooling resources, expertise, and funding. By working togethe...
+
+Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite the availability of vaccination services. This phenomenon can have significant negative impacts on public health, as it can lead to outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary su...
+
+Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite their availability. This can lead to outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary suffering and death. Public health efforts are hindered when a significant portion of the populat...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+🎲 Choice scenario triggered! (Rolled 10.7 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+1. Role of Artificial Intelligence in Vaccine Research
+2. Challenges in Vaccine Manufacturing
+3. Importance of Adjuvants in Vaccine Efficacy
+4. Ethics in Vaccine Trials
+5. Post-Marketing Surveillance of Vaccines
+6. Impact of Public-Private Partnerships in Vaccine Research
+7. Addressing Vaccine Hesitancy in Public Health
+8. Strategies to Promote Vaccine Acceptance and Uptake
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+1. Role of Artificial Intelligence in Vaccine Research
+2. Challenges in Vaccine Manufacturing
+3. Mechanism of Action of Adjuvants in Vaccines
+4. Ethical Considerations in Vaccine Trials
+5. Importance of Post-Marketing Surveillance
+6. Benefits of Public-Private Partnerships in Vaccine Research
+7. Strategies to Address Vaccine Hesitancy
+8. Impact of Vaccine Hesitancy on Public Health
+
+----------------------------------------
+✅ You chose Response 1
+Raw response:
+1. Role of Artificial Intelligence in Vaccine Research
+2. Challenges in Vaccine Manufacturing
+3. Importance of Adjuvants in Vaccine Efficacy
+4. Ethics in Vaccine Trials
+5. Post-Marketing Surveillance of Vaccines
+6. Impact of Public-Private Partnerships in Vaccine Research
+7. Addressing Vaccine Hesitancy in Public Health
+8. Strategies to Promote Vaccine Acceptance and Uptake
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+🎲 Choice scenario triggered! (Rolled 24.2 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+["Role of Artificial Intelligence in Vaccine Research", "Challenges in Vaccine Manufacturing", "Importance of Adjuvants in Vaccine Efficacy", "Ethics in Vaccine Trials", "Post-Marketing Surveillance of Vaccines", "Impact of Public-Private Partnerships in Vaccine Research", "Addressing Vaccine Hesitancy in Public Health", "Strategies to Promote Vaccine Acceptance and Uptake"]
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+["Role of Artificial Intelligence in Vaccine Research", "Challenges in Vaccine Manufacturing", "Importance of Adjuvants in Vaccine Efficacy", "Ethics in Vaccine Trials", "Post-Marketing Surveillance of Vaccines", "Impact of Public-Private Partnerships in Vaccine Research", "Addressing Vaccine Hesitancy in Public Health", "Strategies to Promote Vaccine Acceptance and Uptake"]
+
+----------------------------------------
+✅ You chose Response 1
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_22-48-19.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_22-48-19.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_22-48-24.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+⚠️ Content validation suggestions: The lecture notes provided offer a good overview of the exploratory stage of vaccine development, with a focus on antigen identification. The sub-topics, brief explanations, and key points are clear and informative. 
+
+To ensure that the content is suitable for 3 credit hours of senior undergraduate study, the following improvements could be made:
+
+1. Include more in-depth information on specific research methods and techniques used in antigen identification. Provide examples of how genomics, proteomics, and bioinformatics are utilized in practice.
+
+2. Incorporate real-world case studies or examples of successful antigen selection in vaccine development. This will help students understand the practical applications of the concepts discussed.
+
+3. Increase the complexity of the material by delving deeper into the challenges and considerations involved in antigen selection. Discuss factors such as antigen variability, immune response diversity, and vaccine efficacy.
+
+4. Add self-assessment questions or interactive activities to reinforce learning and encourage critical thinking.
+
+Overall, the content is informative and well-organized, but could benefit from additional depth and real-world examples to enhance the learning experience for senior undergraduate students. Consider incorporating the suggested improvements to make the lecture notes more comprehensive and suitable for a 3-credit hour course.
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Vaccine Development Process
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Role of Artificial Intelligence in Vaccine Research)
+🔍 DEBUG: Slide 1 content set to: '• Artificial intelligence accelerates vaccine research by predicting potential vaccine candidates • ...'
+🔍 DEBUG: Slide 1 content length: 364
+✅ Slide 1 content: • Artificial intelligence accelerates vaccine research by predicting potential vaccine candidates
+• Machine learning algorithms analyze large datasets to identify patterns and trends
+• AI optimizes clinical trials, designs antigens, and enhances vaccine development
+• Revolutionizes vaccine research by making the process faster, more efficient, and cost-effective
+Generating content for slide 2 (Topic: Challenges in Vaccine Manufacturing)
+🎲 Choice scenario triggered! (Rolled 17.5 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Challenges in Vaccine Manufacturing:
+  - Complex production processes
+  - Stringent regulatory requirements
+  - High costs associated with research and development
+  - Limited production capacity
+  - Need for specialized equipment and facilities
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Some challenges in vaccine manufacturing include the need for specialized equipment
+• Stringent regulatory requirements are a hurdle in vaccine manufacturing
+• Complex manufacturing processes pose challenges in producing vaccines
+• Ensuring consistency in production is a key challenge in vaccine manufacturing
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 2 content set to: '• Some challenges in vaccine manufacturing include the need for specialized equipment • Stringent re...'
+🔍 DEBUG: Slide 2 content length: 312
+✅ Slide 2 content: • Some challenges in vaccine manufacturing include the need for specialized equipment
+• Stringent regulatory requirements are a hurdle in vaccine manufacturing
+• Complex manufacturing processes pose challenges in producing vaccines
+• Ensuring consistency in production is a key challenge in vaccine manufacturing
+Generating content for slide 3 (Topic: Importance of Adjuvants in Vaccine Efficacy)
+🔍 DEBUG: Slide 3 content set to: '• Adjuvants enhance immune response and improve vaccine efficacy • They stimulate the immune system ...'
+🔍 DEBUG: Slide 3 content length: 316
+✅ Slide 3 content: • Adjuvants enhance immune response and improve vaccine efficacy
+• They stimulate the immune system for a stronger and longer-lasting response
+• Adjuvants reduce antigen amount needed in vaccines, increasing cost-effectiveness
+• Example: Aluminum salts commonly used as adjuvants in vaccines to boost immune response
+Generating content for slide 4 (Topic: Ethics in Vaccine Trials)
+🔍 DEBUG: Slide 4 content set to: '• Ethical considerations in vaccine trials are essential for participant safety and well-being • Key...'
+🔍 DEBUG: Slide 4 content length: 411
+✅ Slide 4 content: • Ethical considerations in vaccine trials are essential for participant safety and well-being
+• Key principles include obtaining informed consent, promoting beneficence, ensuring justice, and respecting autonomy
+• Researchers must adhere to ethical guidelines to maintain the integrity of vaccine trials
+• Example: Informed consent ensures participants understand risks and benefits before enrolling in a trial
+Generating content for slide 5 (Topic: Post-Marketing Surveillance of Vaccines)
+🔍 DEBUG: Slide 5 content set to: '• Post-marketing surveillance of vaccines monitors safety and effectiveness after approval • Detects...'
+🔍 DEBUG: Slide 5 content length: 351
+✅ Slide 5 content: • Post-marketing surveillance of vaccines monitors safety and effectiveness after approval
+• Detects rare or long-term side effects not identified during clinical trials
+• Evaluates vaccine impact on public health and identifies potential real-world issues
+• Example: CDC conducts post-marketing surveillance to ensure vaccine safety and effectiveness
+Generating content for slide 6 (Topic: Impact of Public-Private Partnerships in Vaccine Research)
+🔍 DEBUG: Slide 6 content set to: '• Public-private partnerships combine expertise and resources of public and private sectors • Collab...'
+🔍 DEBUG: Slide 6 content length: 417
+✅ Slide 6 content: • Public-private partnerships combine expertise and resources of public and private sectors
+• Collaborations accelerate vaccine development, drive innovation, and ensure market success
+• Stakeholders include government agencies, academic institutions, pharmaceutical companies, and non-profit organizations
+• Partnerships provide funding and infrastructure for large-scale clinical trials and manufacturing processes.
+Generating content for slide 7 (Topic: Addressing Vaccine Hesitancy in Public Health)
+🔍 DEBUG: Slide 7 content set to: '• Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite their availability ...'
+🔍 DEBUG: Slide 7 content length: 418
+✅ Slide 7 content: • Vaccine hesitancy refers to delay in acceptance or refusal of vaccines despite their availability
+• Consequences include outbreaks of vaccine-preventable diseases, increased healthcare costs, and unnecessary suffering and death
+• Public health efforts are compromised when a significant portion of the population is hesitant or refuses to vaccinate
+• Compromises herd immunity and puts vulnerable individuals at risk
+Generating content for slide 8 (Topic: Strategies to Promote Vaccine Acceptance and Uptake)
+🎲 Choice scenario triggered! (Rolled 45.5 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Strategies to Promote Vaccine Acceptance and Uptake:
+   - Public education campaigns to increase awareness of vaccine benefits and safety
+   - Collaboration with healthcare providers for vaccine recommendation and administration
+   - Addressing misinformation and vaccine hesitancy through targeted communication efforts
+   - Implementing incentives or mandates to encourage vaccine uptake within communities
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Strategies to Promote Vaccine Acceptance and Uptake:
+   - Public education campaigns to increase awareness of vaccine benefits
+   - Engaging community leaders and healthcare providers to address concerns
+   - Implementing policies to mandate vaccination for certain populations
+   - Utilizing social media and online platforms for accurate vaccine information
+
+----------------------------------------
+✅ You chose Response 1
+🔍 DEBUG: Slide 8 content set to: '• Strategies to Promote Vaccine Acceptance and Uptake: - Public education campaigns to increase awar...'
+🔍 DEBUG: Slide 8 content length: 398
+✅ Slide 8 content: • Strategies to Promote Vaccine Acceptance and Uptake:
+   - Public education campaigns to increase awareness of vaccine benefits and safety
+   - Collaboration with healthcare providers for vaccine recommendation and administration
+   - Addressing misinformation and vaccine hesitancy through targeted communication efforts
+   - Implementing incentives or mandates to encourage vaccine uptake within communities
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Role of Artificial Intelligence in Vaccine Research)
+✅ Slide 1 title: Accelerating Vaccine Research with Artificial Intelligence
+Generating title for slide 2 (Topic: Challenges in Vaccine Manufacturing)
+🎲 Choice scenario triggered! (Rolled 48.8 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Challenges in Vaccine Manufacturing
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Vaccine Manufacturing Challenges: Overcoming Obstacles
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 2 title: Vaccine Manufacturing Challenges: Overcoming Obstacles
+Generating title for slide 3 (Topic: Importance of Adjuvants in Vaccine Efficacy)
+🎲 Choice scenario triggered! (Rolled 31.5 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Enhancing Vaccine Efficacy with Adjuvants
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Enhancing Vaccine Efficacy with Adjuvants
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 3 title: Enhancing Vaccine Efficacy with Adjuvants
+Generating title for slide 4 (Topic: Ethics in Vaccine Trials)
+🎲 Choice scenario triggered! (Rolled 46.1 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Ethics in Vaccine Trials: Key Principles
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Ensuring Ethical Conduct in Vaccine Trials
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 4 title: Ethics in Vaccine Trials: Key Principles
+Generating title for slide 5 (Topic: Post-Marketing Surveillance of Vaccines)
+✅ Slide 5 title: "Monitoring Vaccine Safety & Effectiveness"
+Generating title for slide 6 (Topic: Impact of Public-Private Partnerships in Vaccine Research)
+✅ Slide 6 title: Title: Public-Private Partnerships in Vaccine Research Impact
+Generating title for slide 7 (Topic: Addressing Vaccine Hesitancy in Public Health)
+🎲 Choice scenario triggered! (Rolled 24.4 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+Addressing Vaccine Hesitancy in Public Health
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+Addressing Vaccine Hesitancy in Public Health
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 7 title: Addressing Vaccine Hesitancy in Public Health
+Generating title for slide 8 (Topic: Strategies to Promote Vaccine Acceptance and Uptake)
+✅ Slide 8 title: Strategies for Vaccine Acceptance & Uptake
+Generating overall presentation title...
+✅ Overall presentation title: Innovations in Vaccine Development: From Research to Public Health Impact
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Role of Artificial Intelligence in Vaccine Research)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Challenges in Vaccine Manufacturing)
+🎲 Choice scenario triggered! (Rolled 45.0 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['specialized equipment in vaccine manufacturing', 'regulatory requirements in vaccine manufacturing', 'complex manufacturing processes in vaccine production', 'consistency in vaccine production']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['specialized equipment in vaccine manufacturing', 'regulatory requirements in vaccine manufacturing', 'manufacturing processes in vaccine production', 'consistency in vaccine production']
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: Importance of Adjuvants in Vaccine Efficacy)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Ethics in Vaccine Trials)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Post-Marketing Surveillance of Vaccines)
+🎲 Choice scenario triggered! (Rolled 27.8 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['post-marketing surveillance vaccines safety effectiveness', 'vaccine safety monitoring', 'vaccine effectiveness evaluation', 'CDC post-marketing surveillance vaccines', 'real-world vaccine issues monitoring']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['post-marketing surveillance of vaccines', 'vaccine safety monitoring', 'vaccine effectiveness monitoring', 'vaccine surveillance', 'vaccine safety and effectiveness', 'CDC post-marketing surveillance', 'vaccine real-world effectiveness', 'vaccine impact on public health', 'vaccine safety monitoring after approval']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Impact of Public-Private Partnerships in Vaccine Research)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Addressing Vaccine Hesitancy in Public Health)
+🎲 Choice scenario triggered! (Rolled 27.7 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+['vaccine hesitancy public health', 'consequences vaccine hesitancy', 'herd immunity compromised vaccine hesitancy', 'addressing vaccine hesitancy', 'vaccine refusal consequences', 'vaccine preventable disease outbreaks', 'vaccine hesitancy impact public health']
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+['vaccine hesitancy public health', 'consequences of vaccine hesitancy', 'herd immunity compromised vaccine hesitancy', 'addressing vaccine hesitancy', 'vaccine hesitancy outbreaks', 'vaccine hesitancy healthcare costs', 'vaccine hesitancy unnecessary suffering', 'vaccine hesitancy vulnerable individuals']
+
+----------------------------------------
+✅ You chose Response 2
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Strategies to Promote Vaccine Acceptance and Uptake)
+✅ Slide 8: Associated 1 sources
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Role of Artificial Intelligence in Vaccine Research)
+🎲 Choice scenario triggered! (Rolled 29.5 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Post-marketing surveillance monitors vaccine performance in the general population to detect any adverse effects.
+- It allows for the evaluation of vaccine impact on public health and the identification of any potential issues that may arise in real-world use.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Post-marketing surveillance monitors vaccine performance in the general population to detect any adverse effects
+- It allows for the evaluation of vaccine impact on public health and the identification of any potential issues that may arise in real-world use.
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Challenges in Vaccine Manufacturing)
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: Importance of Adjuvants in Vaccine Efficacy)
+🎲 Choice scenario triggered! (Rolled 14.7 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Adjuvants can also help reduce the amount of antigen needed in vaccines, increasing cost-effectiveness and vaccine availability
+- Some adjuvants can induce a more robust and longer-lasting immune response by activating specific immune pathways
+- Adjuvants play a critical role in enhancing vaccine efficacy by improving the body's immune response to the vaccine
+- Research suggests that adjuvants can enhance the effectiveness of vaccines against challenging pathogens or in vulnerable populations
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Adjuvants can also help reduce the amount of antigen needed in vaccines, which can increase cost-effectiveness and vaccine availability
+- The mechanism of action of adjuvants involves enhancing the activation of immune cells and promoting a robust immune response
+- Some adjuvants, such as aluminum salts, have been extensively studied and have a proven track record of enhancing vaccine efficacy
+- Research has shown that adjuvants play a critical role in improving the immune response to vaccines and can lead to better protection against diseases
+
+----------------------------------------
+✅ You chose Response 1
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Ethics in Vaccine Trials)
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Post-Marketing Surveillance of Vaccines)
+🎲 Choice scenario triggered! (Rolled 37.5 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Public-private partnerships combine the expertise and resources of government agencies, academic institutions, pharmaceutical companies, and non-profit organizations in vaccine research
+- These collaborations drive innovation, accelerate vaccine development, and ensure promising candidates reach the market
+- Public-private partnerships provide funding and infrastructure for large-scale clinical trials and manufacturing processes in vaccine development
+- By leveraging the strengths of multiple sectors, public-private partnerships address complex challenges in vaccine development and distribution
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Public-private partnerships combine resources and expertise from government agencies, academic institutions, pharmaceutical companies, and non-profit organizations
+- These collaborations accelerate vaccine development, drive innovation, and support large-scale clinical trials and manufacturing processes
+- By leveraging the strengths of multiple sectors, public-private partnerships help address complex challenges in vaccine research and distribution
+- The funding and infrastructure provided by these partnerships play a crucial role in advancing promising vaccine candidates to market.
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 5 content is long (603 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Impact of Public-Private Partnerships in Vaccine Research)
+🎲 Choice scenario triggered! (Rolled 22.3 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Public-private partnerships facilitate knowledge sharing and technology transfer to expedite vaccine development processes
+- Collaborations enable access to diverse patient populations for clinical trials, enhancing the generalizability of vaccine efficacy data
+- These partnerships support capacity-building in low-resource settings, promoting global health equity in vaccine distribution
+- By fostering innovation and risk-sharing, public-private partnerships drive the development of novel vaccine technologies and delivery mechanisms
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Public-private partnerships in vaccine research foster collaboration between government entities, private companies, non-profit organizations, and academic institutions
+- These partnerships play a critical role in advancing vaccine development by pooling resources, expertise, and funding
+- Collaborations accelerate the research and development process, drive innovation, and ensure equitable access to vaccines
+- Stakeholders work together to address complex challenges in vaccine development and distribution, leading to the successful development of vaccines
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 6 content is long (539 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Addressing Vaccine Hesitancy in Public Health)
+🎲 Choice scenario triggered! (Rolled 41.8 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Vaccine hesitancy is influenced by factors such as misinformation, lack of trust in healthcare systems, and cultural beliefs that impact individuals' decision to vaccinate.
+- Tailored communication strategies, community engagement, and education campaigns are effective approaches to address vaccine hesitancy and improve vaccination rates.
+- Building public trust through transparent communication, addressing concerns about vaccine safety, and highlighting the benefits of vaccination can help combat vaccine hesitancy.
+- Collaborating with healthcare providers, community leaders, and public health organizations is essential in developing targeted interventions to address specific reasons for vaccine hesitancy in different populations.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Vaccine hesitancy is influenced by a variety of factors including misinformation, lack of trust in vaccine safety, and cultural beliefs
+- Strategies to address vaccine hesitancy involve targeted communication campaigns, community engagement, and healthcare provider education
+- Building trust in vaccines through transparent communication, addressing concerns, and providing accurate information can help increase vaccine acceptance
+- Collaborations between public health agencies, healthcare providers, and community organizations are essential in addressing vaccine hesitancy and promoting vaccine uptake
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 7 content is long (743 chars) - consider reducing
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Strategies to Promote Vaccine Acceptance and Uptake)
+🎲 Choice scenario triggered! (Rolled 6.7 <= 50.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+- Public-private partnerships leverage resources and expertise from both sectors to drive vaccine innovation and development.
+- Collaborations between governments, pharmaceutical companies, and research institutions enhance the efficiency and effectiveness of vaccine research.
+- Successful public-private partnerships have led to the development of important vaccines, such as those for polio and HPV.
+- Addressing vaccine hesitancy through targeted communication efforts and community engagement is crucial for promoting vaccine acceptance and uptake.
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+- Utilizing social media platforms and influencers to disseminate accurate information about vaccines and address common myths and misconceptions
+- Engaging with community leaders and religious organizations to promote vaccine acceptance and uptake among underserved populations
+- Implementing targeted communication strategies that resonate with specific cultural and linguistic groups to improve vaccine confidence and accessibility
+- Conducting research on the impact of incentives, such as vaccine lotteries or rewards, on increasing vaccination rates and reducing hesitancy within communities
+
+----------------------------------------
+✅ You chose Response 1
+⚠️ Warning: Slide 8 content is long (553 chars) - consider reducing
+✅ Slide 8: Enhanced content with 1 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+✅ Slide 8: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: Innovations_in_Vaccine_Development_From_Research_to_Public_Health_Impact_2025-08-31_22-50-48
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Innovations_in_Vaccine_Development_From_Research_to_Public_Health_Impact_2025-08-31_22-50-48.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Innovations_in_Vaccine_Development_From_Research_to_Public_Health_Impact_2025-08-31_22-50-48.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 7 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\Innovations_in_Vaccine_Development_From_Research_to_Public_Health_Impact_2025-08-31_22-50-48.pptx
+📊 Rating presentation 7...
+✅ Presentation 7 rated successfully
+📈 Overall Rating: 5.68 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.17 / 2.00
+   - Non-Repetition: 1.78 / 2.00
+   - Content Balance: 0.91 / 2.00
+   - Title Uniqueness: 1.93 / 2.00
+   - Title-Content Match: 0.88 / 2.00
+💾 Result saved to file for presentation 7
+
+📊 Presentation 9/10 (ID: 8)
+📝 Using topic: The Renaissance Period
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully

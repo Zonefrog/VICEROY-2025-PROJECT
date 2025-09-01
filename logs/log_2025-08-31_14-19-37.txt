@@ -1,0 +1,817 @@
+=== VICEROY-2025-PROJECT LOG FILE START ===
+Run started at: 2025-08-31T14:19:37.153135
+Configuration: max_calls=1000, slide_target=8
+--------------------------------------------------
+
+Log file initialized: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\logs\log_2025-08-31_14-19-37.txt
+Logging system initialized
+OpenAI client initialized successfully
+API call limit initialized: 1000 calls remaining
+API manager initialized
+Knowledge database 'Knowledge Database' initialized with max size 20
+Database manager initialized
+Prompt manager initialized
+=== INITIALIZATION COMPLETE ===
+🔄 Running complete pipeline for presentation 5...
+=== PREPARING FOR PRESENTATION GENERATION ===
+
+Final Prompt:
+Theater and Performance Arts
+📊 Generation Parameters:
+   - Initial topic count: 2
+   - Second research round topics: 6
+   - Database entries per topic: 2
+   - Total slide target: 8
+✅ Preparation complete. Ready for Step 1.
+Step 1 begun.
+Raw AI topic response: History of theater, Different types of performance arts
+Selected topics: ['History of theater', 'Different types of performance arts']
+Step 1 Complete.
+Step 2 begun.
+Researching topic: History of theater
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: (None). Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **HISTORY OF THEATER** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "History of Theater",
+    "keywords": ["theater", "performance arts", "drama", "history"],
+    "text": "The history of theater can be traced back to ancient Greece, where dramatic performances were an integral part of religious festivals. The Greeks are credited with inventing tragedy and comedy as dramatic forms. Theater continued to evolve through the Roman Empire, Middle Ages, Renaissance, and into the modern era.",
+    "link": "https://en.wikipedia.org/wiki/Theatre#History"
+}
+Added Entry to database. Displaying.
+ID: 0
+Title: History of Theater
+Keywords: theater, performance arts, drama, history
+Uses: 0
+Text: The history of theater can be traced back to ancient Greece, where dramatic performances were an integral part of religious festivals. The Greeks are credited with inventing tragedy and comedy as dramatic forms. Theater continued to evolve through the Roman Empire, Middle Ages, Renaissance, and into the modern era.Link: https://en.wikipedia.org/wiki/Theatre#History
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **HISTORY OF THEATER** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Ancient Greek Theater History",
+    "keywords": ["Ancient Greek theater", "Greek drama", "Theater in ancient Greece"],
+    "text": "Ancient Greek theater originated in the 6th century BC in Athens, Greece. It was part of the festival of Dionysia, where three main genres of drama were performed: tragedy, comedy, and satyr plays. Playwrights such as Aeschylus, Sophocles, and Euripides were prominent figures in Greek drama. The theater was an important aspect of Greek culture and society, with performances held in outdoor amphitheaters like the famous Theater of Epidaurus.",
+    "link": "https://www.britannica.com/art/Western-theatre/Ancient-Greek-theatre"
+}
+Added Entry to database. Displaying.
+ID: 1
+Title: Ancient Greek Theater History
+Keywords: Ancient Greek theater, Greek drama, Theater in ancient Greece
+Uses: 0
+Text: Ancient Greek theater originated in the 6th century BC in Athens, Greece. It was part of the festival of Dionysia, where three main genres of drama were performed: tragedy, comedy, and satyr plays. Playwrights such as Aeschylus, Sophocles, and Euripides were prominent figures in Greek drama. The theater was an important aspect of Greek culture and society, with performances held in outdoor amphitheaters like the famous Theater of Epidaurus.Link: https://www.britannica.com/art/Western-theatre/Ancient-Greek-theatre
+Researching topic: Different types of performance arts
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **DIFFERENT TYPES OF PERFORMANCE ARTS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Different Types of Performance Arts",
+    "keywords": ["performance arts", "types", "theater", "dance", "music", "circus", "opera"],
+    "text": "Performance arts encompass a wide range of art forms that involve live performances by artists. Some of the different types of performance arts include theater, dance, music, circus, and opera. Theater involves live performances by actors on a stage, while dance involves moving the body rhythmically in a sequence of steps. Music performance arts can range from solo performances to large orchestral concerts. Circus performance arts combine acrobatics, juggling, and clowning. Opera combines music, singing, and theatrical performances.",
+    "link": "https://en.wikipedia.org/wiki/Performing_arts"
+}
+Added Entry to database. Displaying.
+ID: 2
+Title: Different Types of Performance Arts
+Keywords: performance arts, types, theater, dance, music, circus, opera
+Uses: 0
+Text: Performance arts encompass a wide range of art forms that involve live performances by artists. Some of the different types of performance arts include theater, dance, music, circus, and opera. Theater involves live performances by actors on a stage, while dance involves moving the body rhythmically in a sequence of steps. Music performance arts can range from solo performances to large orchestral concerts. Circus performance arts combine acrobatics, juggling, and clowning. Opera combines music, singing, and theatrical performances.Link: https://en.wikipedia.org/wiki/Performing_arts
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **DIFFERENT TYPES OF PERFORMANCE ARTS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Circus Arts",
+    "keywords": ["acrobatics", "clowning", "juggling", "trapeze", "tightrope walking"],
+    "text": "Circus arts encompass a variety of performances that involve physical skills such as acrobatics, clowning, juggling, trapeze, tightrope walking, and more. Circuses often showcase these acts in a big top tent or arena setting, providing entertainment for audiences of all ages.",
+    "link": "https://en.wikipedia.org/wiki/Circus_skills"
+}
+Added Entry to database. Displaying.
+ID: 3
+Title: Circus Arts
+Keywords: acrobatics, clowning, juggling, trapeze, tightrope walking
+Uses: 0
+Text: Circus arts encompass a variety of performances that involve physical skills such as acrobatics, clowning, juggling, trapeze, tightrope walking, and more. Circuses often showcase these acts in a big top tent or arena setting, providing entertainment for audiences of all ages.Link: https://en.wikipedia.org/wiki/Circus_skills
+Step 2 Complete.
+Step 3 begun.
+Following Prompt sent to AI:
+Initial Prompt: (Theater and Performance Arts) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (You are continuing a research topic list based upon initial reserach. The inital topics were ['History of theater', 'Different types of performance arts']. The research these yeilded is: ({The history of theater can be traced back to ancient Greece, where dramatic performances were an integral part of religious festivals. The Greeks are credited with inventing tragedy and comedy as dramatic forms. Theater continued to evolve through the Roman Empire, Middle Ages, Renaissance, and into the modern era.
+
+Ancient Greek theater originated in the 6th century BC in Athens, Greece. It was part of the festival of Dionysia, where three main genres of drama were performed: tragedy, comedy, and satyr plays. Playwrights such as Aeschylus, Sophocles, and Euripides were prominent figures in Greek drama. The theater was an important aspect of Greek culture and society, with performances held in outdoor amphitheaters like the famous Theater of Epidaurus.
+
+Performance arts encompass a wide range of art forms that involve live performances by artists. Some of the different types of performance arts include theater, dance, music, circus, and opera. Theater involves live performances by acto (Truncated for brevity.)}). You need to give 6 more topics. Make them unique and full correspond to the intial prompt based upon your role, and be selected with the info you got from the research text. Ensure they do not rely on the context of previous topic names to be sensical. Respond in a comma-seperated list of topics with nothing else. Again, **COMMA-SEPERATED**!!)
+.
+Raw AI topic response: Origins of Greek Tragedy, Evolution of Roman Theater, Medieval Mystery Plays, Influence of Commedia dell'arte, Shakespearean Drama, Modern Experimental Theater
+Selected topics: ['Origins of Greek Tragedy', 'Evolution of Roman Theater', 'Medieval Mystery Plays', "Influence of Commedia dell'arte", 'Shakespearean Drama', 'Modern Experimental Theater']
+Step 3 Complete.
+Step 4 begun.
+Researching topic: Origins of Greek Tragedy
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts', 'Circus Arts']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ORIGINS OF GREEK TRAGEDY** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Origins of Greek Tragedy",
+    "keywords": ["Greek tragedy", "theater", "ancient Greece", "drama", "performance arts"],
+    "text": "Greek tragedy originated in ancient Greece as part of the worship of the god Dionysus. These theatrical performances were part of the city-state festivals, particularly the Dionysia, where playwrights competed for prizes. The themes often revolved around mythological stories and moral dilemmas, and they were performed by a chorus and actors wearing masks. The three main Greek tragedians were Aeschylus, Sophocles, and Euripides.",
+    "link": "https://www.britannica.com/art/tragedy-literature" 
+}
+Added Entry to database. Displaying.
+ID: 4
+Title: Origins of Greek Tragedy
+Keywords: Greek tragedy, theater, ancient Greece, drama, performance arts
+Uses: 0
+Text: Greek tragedy originated in ancient Greece as part of the worship of the god Dionysus. These theatrical performances were part of the city-state festivals, particularly the Dionysia, where playwrights competed for prizes. The themes often revolved around mythological stories and moral dilemmas, and they were performed by a chorus and actors wearing masks. The three main Greek tragedians were Aeschylus, Sophocles, and Euripides.Link: https://www.britannica.com/art/tragedy-literature
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts', 'Circus Arts', 'Origins of Greek Tragedy']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **ORIGINS OF GREEK TRAGEDY** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Evolution of Choral Performance in Greek Tragedy",
+    "keywords": ["Greek tragedy", "choral performance", "evolution", "theater"],
+    "text": "Choral performance played a crucial role in Greek tragedy, with the chorus serving as both performers and commentators. Initially, the chorus consisted of a group of singers who danced and sang hymns in honor of Dionysus, the god of wine and fertility. Over time, the choral performance evolved to include more complex songs, dances, and dialogue with the actors, enhancing the emotional impact of the tragic performances.",
+    "link": "https://www.britannica.com/art/chorus-Greek-drama"
+}
+Added Entry to database. Displaying.
+ID: 5
+Title: Evolution of Choral Performance in Greek Tragedy
+Keywords: Greek tragedy, choral performance, evolution, theater
+Uses: 0
+Text: Choral performance played a crucial role in Greek tragedy, with the chorus serving as both performers and commentators. Initially, the chorus consisted of a group of singers who danced and sang hymns in honor of Dionysus, the god of wine and fertility. Over time, the choral performance evolved to include more complex songs, dances, and dialogue with the actors, enhancing the emotional impact of the tragic performances.Link: https://www.britannica.com/art/chorus-Greek-drama
+Researching topic: Evolution of Roman Theater
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts', 'Circus Arts', 'Origins of Greek Tragedy', 'Evolution of Choral Performance in Greek Tragedy']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **EVOLUTION OF ROMAN THEATER** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Evolution of Roman Theater",
+    "keywords": ["Roman theater", "Roman drama", "Roman plays", "Roman actors", "Roman stage"],
+    "text": "Roman theater evolved from Greek influences but developed its own unique characteristics. Roman plays were often based on Greek originals but had more emphasis on comedy and satire. Roman actors wore masks to portray different characters and relied on gestures and movements to convey emotions. The stage in Roman theaters was larger and more elaborate, with multiple levels and trap doors for special effects.",
+    "link": "https://www.worldhistory.org/Roman_Theatre/"
+}
+Added Entry to database. Displaying.
+ID: 6
+Title: Evolution of Roman Theater
+Keywords: Roman theater, Roman drama, Roman plays, Roman actors, Roman stage
+Uses: 0
+Text: Roman theater evolved from Greek influences but developed its own unique characteristics. Roman plays were often based on Greek originals but had more emphasis on comedy and satire. Roman actors wore masks to portray different characters and relied on gestures and movements to convey emotions. The stage in Roman theaters was larger and more elaborate, with multiple levels and trap doors for special effects.Link: https://www.worldhistory.org/Roman_Theatre/
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts', 'Circus Arts', 'Origins of Greek Tragedy', 'Evolution of Choral Performance in Greek Tragedy', 'Evolution of Roman Theater']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **EVOLUTION OF ROMAN THEATER** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Roman Theater Architecture",
+    "keywords": ["Roman theater", "Roman architecture", "Roman entertainment"],
+    "text": "Roman theaters were influenced by Greek designs but evolved to have their own unique features. They were typically built into hillsides for structural support and had a semicircular orchestra or stage area. The audience seating, known as the cavea, was divided into different sections based on social class. Roman theaters also had elaborate stage machinery, such as trapdoors and pulleys, for special effects during performances.",
+    "link": "https://www.worldhistory.org/Roman_Theatre/"
+}
+Added Entry to database. Displaying.
+ID: 7
+Title: Roman Theater Architecture
+Keywords: Roman theater, Roman architecture, Roman entertainment
+Uses: 0
+Text: Roman theaters were influenced by Greek designs but evolved to have their own unique features. They were typically built into hillsides for structural support and had a semicircular orchestra or stage area. The audience seating, known as the cavea, was divided into different sections based on social class. Roman theaters also had elaborate stage machinery, such as trapdoors and pulleys, for special effects during performances.Link: https://www.worldhistory.org/Roman_Theatre/
+Researching topic: Medieval Mystery Plays
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts', 'Circus Arts', 'Origins of Greek Tragedy', 'Evolution of Choral Performance in Greek Tragedy', 'Evolution of Roman Theater', 'Roman Theater Architecture']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **MEDIEVAL MYSTERY PLAYS** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Medieval Mystery Plays",
+    "keywords": ["Medieval", "Mystery Plays", "Middle Ages", "Drama", "Religious"],
+    "text": "Medieval mystery plays were dramatic performances that originated in the Middle Ages and were based on stories from the Bible. These plays were typically performed by members of a trade guild or town in public spaces such as town squares or churches. The purpose of these plays was to educate the illiterate population about religious stories and themes. The most famous cycle of mystery plays is the York Mystery Plays, which were performed in the city of York, England.",
+    "link": "https://www.britannica.com/art/mystery-play"
+}
+Added Entry to database. Displaying.
+ID: 8
+Title: Medieval Mystery Plays
+Keywords: Medieval, Mystery Plays, Middle Ages, Drama, Religious
+Uses: 0
+Text: Medieval mystery plays were dramatic performances that originated in the Middle Ages and were based on stories from the Bible. These plays were typically performed by members of a trade guild or town in public spaces such as town squares or churches. The purpose of these plays was to educate the illiterate population about religious stories and themes. The most famous cycle of mystery plays is the York Mystery Plays, which were performed in the city of York, England.Link: https://www.britannica.com/art/mystery-play
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts', 'Circus Arts', 'Origins of Greek Tragedy', 'Evolution of Choral Performance in Greek Tragedy', 'Evolution of Roman Theater', 'Roman Theater Architecture', 'Medieval Mystery Plays']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **MEDIEVAL MYSTERY PLAYS** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Significance of Medieval Mystery Plays",
+    "keywords": ["Medieval Mystery Plays", "religious drama", "Middle Ages", "biblical stories", "Christian teachings"],
+    "text": "Medieval Mystery Plays were an important form of religious drama performed in the Middle Ages. These plays dramatized biblical stories and Christian teachings for the illiterate masses, using vivid performances to bring these stories to life. They were often performed in cycles, with different plays representing different biblical events. The plays served not only as entertainment but also as a way to educate the audience about religious themes and moral lessons.",
+    "link": "https://www.britannica.com/art/mystery-play"
+}
+Added Entry to database. Displaying.
+ID: 9
+Title: Significance of Medieval Mystery Plays
+Keywords: Medieval Mystery Plays, religious drama, Middle Ages, biblical stories, Christian teachings
+Uses: 0
+Text: Medieval Mystery Plays were an important form of religious drama performed in the Middle Ages. These plays dramatized biblical stories and Christian teachings for the illiterate masses, using vivid performances to bring these stories to life. They were often performed in cycles, with different plays representing different biblical events. The plays served not only as entertainment but also as a way to educate the audience about religious themes and moral lessons.Link: https://www.britannica.com/art/mystery-play
+Researching topic: Influence of Commedia dell'arte
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts', 'Circus Arts', 'Origins of Greek Tragedy', 'Evolution of Choral Performance in Greek Tragedy', 'Evolution of Roman Theater', 'Roman Theater Architecture', 'Medieval Mystery Plays', 'Significance of Medieval Mystery Plays']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INFLUENCE OF COMMEDIA DELL'ARTE** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Influence of Commedia dell'Arte",
+    "keywords": ["Commedia dell'Arte", "Italian theater", "improvisation", "stock characters", "mask", "physical comedy"],
+    "text": "Commedia dell'Arte was a form of Italian theater that emerged in the 16th century and had a significant influence on the development of Western theater. It was characterized by improvised performances, the use of stock characters such as Harlequin and Pantalone, the use of masks, and physical comedy. Commedia dell'Arte had a lasting impact on the development of comedy and influenced playwrights such as Molière and Shakespeare.",
+    "link": "https://www.britannica.com/art/commedia-dellarte"
+}
+Added Entry to database. Displaying.
+ID: 10
+Title: Influence of Commedia dell'Arte
+Keywords: Commedia dell'Arte, Italian theater, improvisation, stock characters, mask, physical comedy
+Uses: 0
+Text: Commedia dell'Arte was a form of Italian theater that emerged in the 16th century and had a significant influence on the development of Western theater. It was characterized by improvised performances, the use of stock characters such as Harlequin and Pantalone, the use of masks, and physical comedy. Commedia dell'Arte had a lasting impact on the development of comedy and influenced playwrights such as Molière and Shakespeare.Link: https://www.britannica.com/art/commedia-dellarte
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts', 'Circus Arts', 'Origins of Greek Tragedy', 'Evolution of Choral Performance in Greek Tragedy', 'Evolution of Roman Theater', 'Roman Theater Architecture', 'Medieval Mystery Plays', 'Significance of Medieval Mystery Plays', "Influence of Commedia dell'Arte"]. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **INFLUENCE OF COMMEDIA DELL'ARTE** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Popular Characters in Commedia dell'Arte",
+    "keywords": ["Commedia dell'Arte", "characters", "Italian theater", "stock characters"],
+    "text": "Commedia dell'Arte featured a variety of stock characters that were popular during its performances. Some of the most well-known characters include Arlecchino (Harlequin), Pantalone, Il Dottore (The Doctor), Colombina, Pulcinella, and Capitano. These characters were known for their distinctive costumes, masks, and exaggerated personalities.",
+    "link": "https://en.wikipedia.org/wiki/Commedia_dell%27arte#Characters"
+}
+Added Entry to database. Displaying.
+ID: 11
+Title: Popular Characters in Commedia dell'Arte
+Keywords: Commedia dell'Arte, characters, Italian theater, stock characters
+Uses: 0
+Text: Commedia dell'Arte featured a variety of stock characters that were popular during its performances. Some of the most well-known characters include Arlecchino (Harlequin), Pantalone, Il Dottore (The Doctor), Colombina, Pulcinella, and Capitano. These characters were known for their distinctive costumes, masks, and exaggerated personalities.Link: https://en.wikipedia.org/wiki/Commedia_dell%27arte#Characters
+Researching topic: Shakespearean Drama
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts', 'Circus Arts', 'Origins of Greek Tragedy', 'Evolution of Choral Performance in Greek Tragedy', 'Evolution of Roman Theater', 'Roman Theater Architecture', 'Medieval Mystery Plays', 'Significance of Medieval Mystery Plays', "Influence of Commedia dell'Arte", "Popular Characters in Commedia dell'Arte"]. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SHAKESPEAREAN DRAMA** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Shakespearean Drama",
+    "keywords": ["William Shakespeare", "Elizabethan era", "English literature", "playwright", "theater"],
+    "text": "Shakespearean drama refers to the plays written by William Shakespeare, a renowned English playwright who lived during the Elizabethan era. His works are considered some of the greatest in English literature and have had a significant impact on the theater world. Shakespearean dramas encompass a wide range of genres, including tragedies, comedies, and histories, and are known for their complex characters, intricate plots, and timeless themes.",
+    "link": "https://www.britannica.com/art/Shakespearean-drama"
+}
+Added Entry to database. Displaying.
+ID: 12
+Title: Shakespearean Drama
+Keywords: William Shakespeare, Elizabethan era, English literature, playwright, theater
+Uses: 0
+Text: Shakespearean drama refers to the plays written by William Shakespeare, a renowned English playwright who lived during the Elizabethan era. His works are considered some of the greatest in English literature and have had a significant impact on the theater world. Shakespearean dramas encompass a wide range of genres, including tragedies, comedies, and histories, and are known for their complex characters, intricate plots, and timeless themes.Link: https://www.britannica.com/art/Shakespearean-drama
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts', 'Circus Arts', 'Origins of Greek Tragedy', 'Evolution of Choral Performance in Greek Tragedy', 'Evolution of Roman Theater', 'Roman Theater Architecture', 'Medieval Mystery Plays', 'Significance of Medieval Mystery Plays', "Influence of Commedia dell'Arte", "Popular Characters in Commedia dell'Arte", 'Shakespearean Drama']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **SHAKESPEAREAN DRAMA** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Shakespearean Drama: Tragedies, Comedies, and Histories",
+    "keywords": ["Shakespearean drama", "Shakespeare plays", "tragedies", "comedies", "histories"],
+    "text": "Shakespearean drama refers to the plays written by William Shakespeare, who is widely regarded as one of the greatest playwrights in history. His works encompass a variety of genres, including tragedies like 'Hamlet' and 'Macbeth', comedies like 'A Midsummer Night's Dream' and 'Twelfth Night', and histories like 'Henry V' and 'Richard III'. Shakespearean drama is known for its complex characters, rich language, and exploration of universal themes.",
+    "link": "https://www.britannica.com/art/Shakespearean-drama"
+}
+Added Entry to database. Displaying.
+ID: 13
+Title: Shakespearean Drama: Tragedies, Comedies, and Histories
+Keywords: Shakespearean drama, Shakespeare plays, tragedies, comedies, histories
+Uses: 0
+Text: Shakespearean drama refers to the plays written by William Shakespeare, who is widely regarded as one of the greatest playwrights in history. His works encompass a variety of genres, including tragedies like 'Hamlet' and 'Macbeth', comedies like 'A Midsummer Night's Dream' and 'Twelfth Night', and histories like 'Henry V' and 'Richard III'. Shakespearean drama is known for its complex characters, rich language, and exploration of universal themes.Link: https://www.britannica.com/art/Shakespearean-drama
+Researching topic: Modern Experimental Theater
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts', 'Circus Arts', 'Origins of Greek Tragedy', 'Evolution of Choral Performance in Greek Tragedy', 'Evolution of Roman Theater', 'Roman Theater Architecture', 'Medieval Mystery Plays', 'Significance of Medieval Mystery Plays', "Influence of Commedia dell'Arte", "Popular Characters in Commedia dell'Arte", 'Shakespearean Drama', 'Shakespearean Drama: Tragedies, Comedies, and Histories']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **MODERN EXPERIMENTAL THEATER** and this is entry 1 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Modern Experimental Theater: An Overview",
+    "keywords": ["modern experimental theater", "avant-garde theater", "contemporary experimental performance", "innovative theater techniques"],
+    "text": "Modern experimental theater refers to a diverse range of innovative and unconventional theatrical practices that push the boundaries of traditional storytelling and performance. It often incorporates elements such as non-linear narratives, audience interaction, multimedia projections, and physical theater techniques. Avant-garde theater artists and companies around the world continue to explore new forms of expression and challenge conventional norms in the realm of performance arts.",
+    "link": "https://www.britannica.com/art/avant-garde-theatre"
+}
+Added Entry to database. Displaying.
+ID: 14
+Title: Modern Experimental Theater: An Overview
+Keywords: modern experimental theater, avant-garde theater, contemporary experimental performance, innovative theater techniques
+Uses: 0
+Text: Modern experimental theater refers to a diverse range of innovative and unconventional theatrical practices that push the boundaries of traditional storytelling and performance. It often incorporates elements such as non-linear narratives, audience interaction, multimedia projections, and physical theater techniques. Avant-garde theater artists and companies around the world continue to explore new forms of expression and challenge conventional norms in the realm of performance arts.Link: https://www.britannica.com/art/avant-garde-theatre
+Prompt:
+Initial Prompt: (Theater and Performance Arts) AI Role: (You are to perform a web-search to research the topic given on the general category from the initial prompt. Avoid redoing research from titles previously used. These are: ['History of Theater', 'Ancient Greek Theater History', 'Different Types of Performance Arts', 'Circus Arts', 'Origins of Greek Tragedy', 'Evolution of Choral Performance in Greek Tragedy', 'Evolution of Roman Theater', 'Roman Theater Architecture', 'Medieval Mystery Plays', 'Significance of Medieval Mystery Plays', "Influence of Commedia dell'Arte", "Popular Characters in Commedia dell'Arte", 'Shakespearean Drama', 'Shakespearean Drama: Tragedies, Comedies, and Histories', 'Modern Experimental Theater: An Overview']. Be specific and assume the user of this database has no background knowledge. You are focusing on the topic **MODERN EXPERIMENTAL THEATER** and this is entry 2 for this topic.) Specific Instructions: (Respond in a Python Dictionary style format. This dictionary needs to have fields title (str), keywords (list[str]), text (str), and link (str). Fill these out as you wish with researched information. Respond with nothing else. Be on-topic!)
+To be sent to the AI.
+Raw AI response to this: {
+    "title": "Contemporary Experimental Theater: Characteristics and Examples",
+    "keywords": ["contemporary experimental theater", "characteristics", "examples"],
+    "text": "Contemporary experimental theater is known for pushing boundaries and challenging traditional norms of performance. It often incorporates avant-garde techniques, unconventional storytelling, and audience participation. Some common characteristics include non-linear narratives, minimalistic sets, and abstract themes. Examples of contemporary experimental theater companies include The Wooster Group, Elevator Repair Service, and Nature Theater of Oklahoma.",
+    "link": "https://www.theatreartlife.com/acting/contemporary-experimental-theatre/"
+}
+Added Entry to database. Displaying.
+ID: 15
+Title: Contemporary Experimental Theater: Characteristics and Examples
+Keywords: contemporary experimental theater, characteristics, examples
+Uses: 0
+Text: Contemporary experimental theater is known for pushing boundaries and challenging traditional norms of performance. It often incorporates avant-garde techniques, unconventional storytelling, and audience participation. Some common characteristics include non-linear narratives, minimalistic sets, and abstract themes. Examples of contemporary experimental theater companies include The Wooster Group, Elevator Repair Service, and Nature Theater of Oklahoma.Link: https://www.theatreartlife.com/acting/contemporary-experimental-theatre/
+Step 4 Complete.
+Step 4.5 begun.
+Step 4.5A: Determining final topic breakdown...
+Prompt to AI:
+Initial Prompt: (Theater and Performance Arts) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you will decide how many main topics/sections will be in this presentation. Database sample: ({The history of theater can be traced back to ancient Greece, where dramatic performances were an integral part of religious festivals. The Greeks are credited with inventing tragedy and comedy as dramatic forms. Theater continued to evolve through the Roman Empire, Middle Ages, Renaissance, and into...
+
+Ancient Greek theater originated in the 6th century BC in Athens, Greece. It was part of the festival of Dionysia, where three main genres of drama were performed: tragedy, comedy, and satyr plays. Playwrights such as Aeschylus, Sophocles, and Euripides were prominent figures in Greek drama. The the...
+
+Performance arts encompass a wide range of art forms that involve live performances by artists. Some of the different types of performance arts include theater, dance, music, circus, and opera. Theater involves live performances by actors on a stage, while dance involves moving the body rhythmically...
+
+Circus arts encompass a variety of performances that involve physical skills such as acrobatics, clowning, juggling, trapeze, tightrope walking, and more. Circuses often showcase these acts in a big top tent or arena setting, providing entertainment for audiences of all ages.
+
+Greek tragedy originated in ancient Greece as part of the worship of the god Dionysus. These theatrical performances were part of the city-state festivals, particularly the Dionysia, where playwrights competed for prizes. The themes often revolved around mythological stories and moral dilemmas, and ...
+
+Choral performance played a crucial role in Greek tragedy, with the chorus serving as both performers and commentators. Initially, the chorus consisted of a group of singers who danced and sang hymns in honor of Dionysus, the god of wine and fertility. Over time, the choral performance evolved to in...
+
+Roman theater evolved from Greek influences but developed its own unique characteristics. Roman plays were often based on Greek originals but had more emphasis on comedy and satire. Roman actors wore masks to portray different characters and relied on gestures and movements to convey emotions. The s...
+
+Roman theaters were influenced by Greek designs but evolved to have their own unique features. They were typically built into hillsides for structural support and had a semicircular orchestra or stage area. The audience seating, known as the cavea, was divided into different sections based on social...
+
+Medieval mystery plays were dramatic performances that originated in the Middle Ages and were based on stories from the Bible. These plays were typically performed by members of a trade guild or town in public spaces such as town squares or churches. The purpose of these plays was to educate the ill...
+
+Medieval Mystery Plays were an important form of religious drama performed in the Middle Ages. These plays dramatized biblical stories and Christian teachings for the illiterate masses, using vivid performances to bring these stories to life. They were often performed in cycles, with different plays...
+
+Commedia dell'Arte was a form of Italian theater that emerged in the 16th century and had a significant influence on the development of Western theater. It was characterized by improvised performances, the use of stock characters such as Harlequin and Pantalone, the use of masks, and physical comedy...
+
+Commedia dell'Arte featured a variety of stock characters that were popular during its performances. Some of the most well-known characters include Arlecchino (Harlequin), Pantalone, Il Dottore (The Doctor), Colombina, Pulcinella, and Capitano. These characters were known for their distinctive costu...
+
+Shakespearean drama refers to the plays written by William Shakespeare, a renowned English playwright who lived during the Elizabethan era. His works are considered some of the greatest in English literature and have had a significant impact on the theater world. Shakespearean dramas encompass a wid...
+
+Shakespearean drama refers to the plays written by William Shakespeare, who is widely regarded as one of the greatest playwrights in history. His works encompass a variety of genres, including tragedies like 'Hamlet' and 'Macbeth', comedies like 'A Midsummer Night's Dream' and 'Twelfth Night', and h...
+
+Modern experimental theater refers to a diverse range of innovative and unconventional theatrical practices that push the boundaries of traditional storytelling and performance. It often incorporates elements such as non-linear narratives, audience interaction, multimedia projections, and physical t...
+
+Contemporary experimental theater is known for pushing boundaries and challenging traditional norms of performance. It often incorporates avant-garde techniques, unconventional storytelling, and audience participation. Some common characteristics include non-linear narratives, minimalistic sets, and...}). Carefully analyze the database content to determine the optimal number of topics that will comprehensively cover the subject matter. Respond only with a single number and nothing else. Ensure the number is reasonable for a teaching presentation. Soft max of 16.)
+.
+🎲 Choice scenario triggered! (Rolled 0.6 <= 5.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+4
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+4
+
+----------------------------------------
+✅ You chose Response 2
+Raw response:
+4
+.
+Topic count decided: 4
+Step 4.5B: Creating detailed teaching outline...
+Prompt to AI:
+Initial Prompt: (Theater and Performance Arts) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Given the previous information and the following comprehensive database text sample, you are going to create a detailed teaching outline for senior undergraduate students. Database sample: ({The history of theater can be traced back to ancient Greece, where dramatic performances were an integral part of religious festivals. The Greeks are credited with inventing tragedy and comedy as dramatic forms. Theater continued to evolve through the Roman Empire, Middle Ages, Renaissance, and into...
+
+Ancient Greek theater originated in the 6th century BC in Athens, Greece. It was part of the festival of Dionysia, where three main genres of drama were performed: tragedy, comedy, and satyr plays. Playwrights such as Aeschylus, Sophocles, and Euripides were prominent figures in Greek drama. The the...
+
+Performance arts encompass a wide range of art forms that involve live performances by artists. Some of the different types of performance arts include theater, dance, music, circus, and opera. Theater involves live performances by actors on a stage, while dance involves moving the body rhythmically...
+
+Circus arts encompass a variety of performances that involve physical skills such as acrobatics, clowning, juggling, trapeze, tightrope walking, and more. Circuses often showcase these acts in a big top tent or arena setting, providing entertainment for audiences of all ages.
+
+Greek tragedy originated in ancient Greece as part of the worship of the god Dionysus. These theatrical performances were part of the city-state festivals, particularly the Dionysia, where playwrights competed for prizes. The themes often revolved around mythological stories and moral dilemmas, and ...
+
+Choral performance played a crucial role in Greek tragedy, with the chorus serving as both performers and commentators. Initially, the chorus consisted of a group of singers who danced and sang hymns in honor of Dionysus, the god of wine and fertility. Over time, the choral performance evolved to in...
+
+Roman theater evolved from Greek influences but developed its own unique characteristics. Roman plays were often based on Greek originals but had more emphasis on comedy and satire. Roman actors wore masks to portray different characters and relied on gestures and movements to convey emotions. The s...
+
+Roman theaters were influenced by Greek designs but evolved to have their own unique features. They were typically built into hillsides for structural support and had a semicircular orchestra or stage area. The audience seating, known as the cavea, was divided into different sections based on social...
+
+Medieval mystery plays were dramatic performances that originated in the Middle Ages and were based on stories from the Bible. These plays were typically performed by members of a trade guild or town in public spaces such as town squares or churches. The purpose of these plays was to educate the ill...
+
+Medieval Mystery Plays were an important form of religious drama performed in the Middle Ages. These plays dramatized biblical stories and Christian teachings for the illiterate masses, using vivid performances to bring these stories to life. They were often performed in cycles, with different plays...
+
+Commedia dell'Arte was a form of Italian theater that emerged in the 16th century and had a significant influence on the development of Western theater. It was characterized by improvised performances, the use of stock characters such as Harlequin and Pantalone, the use of masks, and physical comedy...
+
+Commedia dell'Arte featured a variety of stock characters that were popular during its performances. Some of the most well-known characters include Arlecchino (Harlequin), Pantalone, Il Dottore (The Doctor), Colombina, Pulcinella, and Capitano. These characters were known for their distinctive costu...
+
+Shakespearean drama refers to the plays written by William Shakespeare, a renowned English playwright who lived during the Elizabethan era. His works are considered some of the greatest in English literature and have had a significant impact on the theater world. Shakespearean dramas encompass a wid...
+
+Shakespearean drama refers to the plays written by William Shakespeare, who is widely regarded as one of the greatest playwrights in history. His works encompass a variety of genres, including tragedies like 'Hamlet' and 'Macbeth', comedies like 'A Midsummer Night's Dream' and 'Twelfth Night', and h...
+
+Modern experimental theater refers to a diverse range of innovative and unconventional theatrical practices that push the boundaries of traditional storytelling and performance. It often incorporates elements such as non-linear narratives, audience interaction, multimedia projections, and physical t...
+
+Contemporary experimental theater is known for pushing boundaries and challenging traditional norms of performance. It often incorporates avant-garde techniques, unconventional storytelling, and audience participation. Some common characteristics include non-linear narratives, minimalistic sets, and...}). You are to come up with {4} main topics/sections organized in a weekly module structure. Carefully analyze the database content to ensure your topics directly relate to and comprehensively cover the research material available. For each topic, create a detailed breakdown including: - Main topic title (based on database content) - 3-5 sub-topics that will be covered (derived from database research) - Brief explanation of what each sub-topic covers (with specific references to database content) - Learning objectives for this topic - Estimated number of slides needed for this topic - Lab activities or practical exercises for this topic - Real-world applications and examples Structure this as a comprehensive teaching plan suitable for 3 credit hours. Ensure progressive complexity from basic to advanced concepts. Make this comprehensive and suitable for a detailed teaching presentation that fully utilizes the available research database and serves as primary learning material.)
+.
+Raw response:
+Weekly Module Structure:
+
+Week 1: Ancient Greek Theater
+- Main topic title: Origins and Evolution of Ancient Greek Theater
+  - Sub-topics:
+    1. Festival of Dionysia and the Three Genres of Drama
+    2. Prominent Greek Playwrights and Their Contributions
+    3. The Role of Choral Performance in Greek Tragedy
+    4. Influence of Greek Theater on Roman Theater
+  - Brief explanation: This topic will delve into the origins of theater in ancient Greece, focusing on the festival of Dionysia and the different genres of drama performed. It will also explore the key playwrights of the time and the importance of choral performance in Greek tragedy.
+  - Learning objectives: Understand the historical context of ancient Greek theater, identify key playwrights and their works, analyze the role of choral performance in Greek tragedy, and recognize the influence of Greek theater on Roman theater.
+  - Estimated number of slides: 15
+  - Lab activities: Analyze excerpts from Greek plays, create a choral performance based on a Greek myth, compare and contrast Greek and Roman theater designs.
+  - Real-world applications: Understanding the foundations of theater in ancient Greece can provide insights into contemporary theater practices and storytelling techniques.
+
+Week 2: Roman Theater
+- Main topic title: Development of Roman Theater
+  - Sub-topics:
+    1. Characteristics of Roman Plays and Actors
+    2. Architectural Features of Roman Theaters
+    3. Evolution of Roman Theater from Greek Influences
+  - Brief explanation: This topic will explore the unique characteristics of Roman plays, the use of masks by actors, and the architectural design of Roman theaters. It will also discuss how Roman theater was influenced by Greek theater but developed its own distinct style.
+  - Learning objectives: Identify key characteristics of Roman theater, analyze the architectural elements of Roman theaters, compare and contrast Roman and Greek theatrical practices.
+  - Estimated number of slides: 12
+  - Lab activities: Create and perform a short Roman play using masks, design a miniature model of a Roman theater, analyze the similarities and differences between Greek and Roman theater scripts.
+  - Real-world applications: Understanding Roman theater can provide insights into the historical development of theater as an art form and its impact on modern theatrical practices.
+
+Week 3: Medieval Theater
+- Main topic title: Medieval Mystery Plays and Religious Drama
+  - Sub-topics:
+    1. Origin and Purpose of Medieval Mystery Plays
+    2. Performance of Mystery Plays in Medieval Times
+    3. Educational and Religious Significance of Mystery Plays
+  - Brief explanation: This topic will focus on the origin and purpose of medieval mystery plays, how they were performed in public spaces, and their educational and religious significance. It will explore how these plays brought biblical stories to life for the masses.
+  - Learning objectives: Understand the historical context of medieval mystery plays, analyze the performance techniques used in these plays, evaluate the educational and religious impact of mystery plays.
+  - Estimated number of slides: 10
+  - Lab activities: Adapt a biblical story into a short mystery play, perform a scene from a medieval mystery play, analyze the use of symbolism in mystery play scripts.
+  - Real-world applications: Studying medieval mystery plays can provide insights into the intersection of theater, religion, and education in historical contexts.
+
+Week 4: Commedia dell'Arte and Shakespearean Drama
+- Main topic title: Influence of Commedia dell'Arte on Shakespearean Drama
+  - Sub-topics:
+    1. Characteristics of Commedia dell'Arte Performances
+    2. Stock Characters in Commedia dell'Arte
+    3. Impact of Commedia dell'Arte on Shakespearean Drama
+  - Brief explanation: This topic will examine the characteristics of Commedia dell'Arte performances, the use of stock characters, and how this form of theater influenced Shakespearean drama. It will explore the connections between these two theatrical traditions.
+  - Learning objectives: Identify key characteristics of Commedia dell'Arte, analyze the role of stock characters in Commedia dell'Arte performances, evaluate the influence of Commedia dell'Arte on Shakespearean drama.
+  - Estimated number of slides: 12
+  - Lab activities: Create a scene using stock characters from Commedia dell'Arte, analyze a Shakespearean play with elements of Commedia dell'Arte, compare and contrast the comedic elements in both theatrical traditions.
+  - Real-world applications: Understanding the influence of Commedia dell'Arte on Shakespearean drama can provide insights into the evolution of comedic elements in theater and the enduring impact of historical theatrical forms on contemporary performance practices.
+.
+Teaching outline created successfully.
+Step 4.5C: Determining slide allocation per topic...
+Prompt to AI:
+Initial Prompt: (Theater and Performance Arts) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline provided, determine how many slides each topic should have. Teaching outline: ({Weekly Module Structure:
+
+Week 1: Ancient Greek Theater
+- Main topic title: Origins and Evolution of Ancient Greek Theater
+  - Sub-topics:
+    1. Festival of Dionysia and the Three Genres of Drama
+    2. Prominent Greek Playwrights and Their Contributions
+    3. The Role of Choral Performance in Greek Tragedy
+    4. Influence of Greek Theater on Roman Theater
+  - Brief explanation: This topic will delve into the origins of theater in ancient Greece, focusing on the festival of Dionysia and the different genres of drama performed. It will also explore the key playwrights of the time and the importance of choral performance in Greek tragedy.
+  - Learning objectives: Understand the historical context of ancient Greek theater, identify key playwrights and their works, analyze the role of choral performance in Greek tragedy, and recognize the influence of Greek theater on Roman theater.
+  - Estimated number of slides: 15
+  - Lab activities: Analyze excerpts from Greek plays, create a choral performance based on a Greek myth, compare and contrast Greek and Roman theater designs.
+  - Real-world applications: Understanding the foundations of theater in ancient Greece can provide insights into contemporary theater practices and storytelling techniques.
+
+Week 2: Roman Theater
+- Main topic title: Development of Roman Theater
+  - Sub-topics:
+    1. Characteristics of Roman Plays and Actors
+    2. Architectural Features of Roman Theaters
+    3. Evolution of Roman Theater from Greek Influences
+  - Brief explanation: This topic will explore the unique characteristics of Roman plays, the use of masks by actors, and the architectural design of Roman theaters. It will also discuss how Roman theater was influenced by Greek theater but developed its own distinct style.
+  - Learning objectives: Identify key characteristics of Roman theater, analyze the architectural elements of Roman theaters, compare and contrast Roman and Greek theatrical practices.
+  - Estimated number of slides: 12
+  - Lab activities: Create and perform a short Roman play using masks, design a miniature model of a Roman theater, analyze the similarities and differences between Greek and Roman theater scripts.
+  - Real-world applications: Understanding Roman theater can provide insights into the historical development of theater as an art form and its impact on modern theatrical practices.
+
+Week 3: Medieval Theater
+- Main topic title: Medieval Mystery Plays and Religious Drama
+  - Sub-topics:
+    1. Origin and Purpose of Medieval Mystery Plays
+    2. Performance of Mystery Plays in Medieval Times
+    3. Educational and Religious Significance of Mystery Plays
+  - Brief explanation: This topic will focus on the origin and purpose of medieval mystery plays, how they were performed in public spaces, and their educational and religious significance. It will explore how these plays brought biblical stories to life for the masses.
+  - Learning objectives: Understand the historical context of medieval mystery plays, analyze the performance techniques used in these plays, evaluate the educational and religious impact of mystery plays.
+  - Estimated number of slides: 10
+  - Lab activities: Adapt a biblical story into a short mystery play, perform a scene from a medieval mystery play, analyze the use of symbolism in mystery play scripts.
+  - Real-world applications: Studying medieval mystery plays can provide insights into the intersection of theater, religion, and education in historical contexts.
+
+Week 4: Commedia dell'Arte and Shakespearean Drama
+- Main topic title: Influence of Commedia dell'Arte on Shakespearean Drama
+  - Sub-topics:
+    1. Characteristics of Commedia dell'Arte Performances
+    2. Stock Characters in Commedia dell'Arte
+    3. Impact of Commedia dell'Arte on Shakespearean Drama
+  - Brief explanation: This topic will examine the characteristics of Commedia dell'Arte performances, the use of stock characters, and how this form of theater influenced Shakespearean drama. It will explore the connections between these two theatrical traditions.
+  - Learning objectives: Identify key characteristics of Commedia dell'Arte, analyze the role of stock characters in Commedia dell'Arte performances, evaluate the influence of Commedia dell'Arte on Shakespearean drama.
+  - Estimated number of slides: 12
+  - Lab activities: Create a scene using stock characters from Commedia dell'Arte, analyze a Shakespearean play with elements of Commedia dell'Arte, compare and contrast the comedic elements in both theatrical traditions.
+  - Real-world applications: Understanding the influence of Commedia dell'Arte on Shakespearean drama can provide insights into the evolution of comedic elements in theater and the enduring impact of historical theatrical forms on contemporary performance practices.}). Total slides available: {8}. Topics to allocate: {4}. Respond as a python list of integers. These numbers match to the topic of matching index. Respond with nothing else at all. Follow output format exactly. PYTHON LIST!!! ENSURE []s are used!!!!)
+.
+Raw response:
+[15, 12, 10, 12]
+.
+Slide allocation: [4, 1, 1, 2]
+Step 4.5D: Creating specific slide topics from outline...
+Prompt to AI:
+Initial Prompt: (Theater and Performance Arts) Role Prompt: (You are assisting with the creation of a detailed teaching plan, then later slides to be used to teach a topic. Aim for the detail level of a teaching plan with high specificity. Do NOT assume you know anything for sure, as the first thing you will now do is a research phase.) Specific Instructions: (Based on the teaching outline, slide allocation, and comprehensive database content, create specific topics for each slide. Teaching outline: ({Weekly Module Structure:
+
+Week 1: Ancient Greek Theater
+- Main topic title: Origins and Evolution of Ancient Greek Theater
+  - Sub-topics:
+    1. Festival of Dionysia and the Three Genres of Drama
+    2. Prominent Greek Playwrights and Their Contributions
+    3. The Role of Choral Performance in Greek Tragedy
+    4. Influence of Greek Theater on Roman Theater
+  - Brief explanation: This topic will delve into the origins of theater in ancient Greece, focusing on the festival of Dionysia and the different genres of drama performed. It will also explore the key playwrights of the time and the importance of choral performance in Greek tragedy.
+  - Learning objectives: Understand the historical context of ancient Greek theater, identify key playwrights and their works, analyze the role of choral performance in Greek tragedy, and recognize the influence of Greek theater on Roman theater.
+  - Estimated number of slides: 15
+  - Lab activities: Analyze excerpts from Greek plays, create a choral performance based on a Greek myth, compare and contrast Greek and Roman theater designs.
+  - Real-world applications: Understanding the foundations of theater in ancient Greece can provide insights into contemporary theater practices and storytelling techniques.
+
+Week 2: Roman Theater
+- Main topic title: Development of Roman Theater
+  - Sub-topics:
+    1. Characteristics of Roman Plays and Actors
+    2. Architectural Features of Roman Theaters
+    3. Evolution of Roman Theater from Greek Influences
+  - Brief explanation: This topic will explore the unique characteristics of Roman plays, the use of masks by actors, and the architectural design of Roman theaters. It will also discuss how Roman theater was influenced by Greek theater but developed its own distinct style.
+  - Learning objectives: Identify key characteristics of Roman theater, analyze the architectural elements of Roman theaters, compare and contrast Roman and Greek theatrical practices.
+  - Estimated number of slides: 12
+  - Lab activities: Create and perform a short Roman play using masks, design a miniature model of a Roman theater, analyze the similarities and differences between Greek and Roman theater scripts.
+  - Real-world applications: Understanding Roman theater can provide insights into the historical development of theater as an art form and its impact on modern theatrical practices.
+
+Week 3: Medieval Theater
+- Main topic title: Medieval Mystery Plays and Religious Drama
+  - Sub-topics:
+    1. Origin and Purpose of Medieval Mystery Plays
+    2. Performance of Mystery Plays in Medieval Times
+    3. Educational and Religious Significance of Mystery Plays
+  - Brief explanation: This topic will focus on the origin and purpose of medieval mystery plays, how they were performed in public spaces, and their educational and religious significance. It will explore how these plays brought biblical stories to life for the masses.
+  - Learning objectives: Understand the historical context of medieval mystery plays, analyze the performance techniques used in these plays, evaluate the educational and religious impact of mystery plays.
+  - Estimated number of slides: 10
+  - Lab activities: Adapt a biblical story into a short mystery play, perform a scene from a medieval mystery play, analyze the use of symbolism in mystery play scripts.
+  - Real-world applications: Studying medieval mystery plays can provide insights into the intersection of theater, religion, and education in historical contexts.
+
+Week 4: Commedia dell'Arte and Shakespearean Drama
+- Main topic title: Influence of Commedia dell'Arte on Shakespearean Drama
+  - Sub-topics:
+    1. Characteristics of Commedia dell'Arte Performances
+    2. Stock Characters in Commedia dell'Arte
+    3. Impact of Commedia dell'Arte on Shakespearean Drama
+  - Brief explanation: This topic will examine the characteristics of Commedia dell'Arte performances, the use of stock characters, and how this form of theater influenced Shakespearean drama. It will explore the connections between these two theatrical traditions.
+  - Learning objectives: Identify key characteristics of Commedia dell'Arte, analyze the role of stock characters in Commedia dell'Arte performances, evaluate the influence of Commedia dell'Arte on Shakespearean drama.
+  - Estimated number of slides: 12
+  - Lab activities: Create a scene using stock characters from Commedia dell'Arte, analyze a Shakespearean play with elements of Commedia dell'Arte, compare and contrast the comedic elements in both theatrical traditions.
+  - Real-world applications: Understanding the influence of Commedia dell'Arte on Shakespearean drama can provide insights into the evolution of comedic elements in theater and the enduring impact of historical theatrical forms on contemporary performance practices.}). Slide allocation per topic: {[4, 1, 1, 2]}. Database content for reference: ({The history of theater can be traced back to ancient Greece, where dramatic performances were an integral part of religious festivals. The Greeks are credited with inventing tragedy and comedy as dramatic forms. Theater continued to evolve through the Roman Empire, Middle Ages, Renaissance, and into...
+
+Ancient Greek theater originated in the 6th century BC in Athens, Greece. It was part of the festival of Dionysia, where three main genres of drama were performed: tragedy, comedy, and satyr plays. Playwrights such as Aeschylus, Sophocles, and Euripides were prominent figures in Greek drama. The the...
+
+Performance arts encompass a wide range of art forms that involve live performances by artists. Some of the different types of performance arts include theater, dance, music, circus, and opera. Theater involves live performances by actors on a stage, while dance involves moving the body rhythmically...
+
+Circus arts encompass a variety of performances that involve physical skills such as acrobatics, clowning, juggling, trapeze, tightrope walking, and more. Circuses often showcase these acts in a big top tent or arena setting, providing entertainment for audiences of all ages.
+
+Greek tragedy originated in ancient Greece as part of the worship of the god Dionysus. These theatrical performances were part of the city-state festivals, particularly the Dionysia, where playwrights competed for prizes. The themes often revolved around mythological stories and moral dilemmas, and ...
+
+Choral performance played a crucial role in Greek tragedy, with the chorus serving as both performers and commentators. Initially, the chorus consisted of a group of singers who danced and sang hymns in honor of Dionysus, the god of wine and fertility. Over time, the choral performance evolved to in...
+
+Roman theater evolved from Greek influences but developed its own unique characteristics. Roman plays were often based on Greek originals but had more emphasis on comedy and satire. Roman actors wore masks to portray different characters and relied on gestures and movements to convey emotions. The s...
+
+Roman theaters were influenced by Greek designs but evolved to have their own unique features. They were typically built into hillsides for structural support and had a semicircular orchestra or stage area. The audience seating, known as the cavea, was divided into different sections based on social...
+
+Medieval mystery plays were dramatic performances that originated in the Middle Ages and were based on stories from the Bible. These plays were typically performed by members of a trade guild or town in public spaces such as town squares or churches. The purpose of these plays was to educate the ill...
+
+Medieval Mystery Plays were an important form of religious drama performed in the Middle Ages. These plays dramatized biblical stories and Christian teachings for the illiterate masses, using vivid performances to bring these stories to life. They were often performed in cycles, with different plays...
+
+Commedia dell'Arte was a form of Italian theater that emerged in the 16th century and had a significant influence on the development of Western theater. It was characterized by improvised performances, the use of stock characters such as Harlequin and Pantalone, the use of masks, and physical comedy...
+
+Commedia dell'Arte featured a variety of stock characters that were popular during its performances. Some of the most well-known characters include Arlecchino (Harlequin), Pantalone, Il Dottore (The Doctor), Colombina, Pulcinella, and Capitano. These characters were known for their distinctive costu...
+
+Shakespearean drama refers to the plays written by William Shakespeare, a renowned English playwright who lived during the Elizabethan era. His works are considered some of the greatest in English literature and have had a significant impact on the theater world. Shakespearean dramas encompass a wid...
+
+Shakespearean drama refers to the plays written by William Shakespeare, who is widely regarded as one of the greatest playwrights in history. His works encompass a variety of genres, including tragedies like 'Hamlet' and 'Macbeth', comedies like 'A Midsummer Night's Dream' and 'Twelfth Night', and h...
+
+Modern experimental theater refers to a diverse range of innovative and unconventional theatrical practices that push the boundaries of traditional storytelling and performance. It often incorporates elements such as non-linear narratives, audience interaction, multimedia projections, and physical t...
+
+Contemporary experimental theater is known for pushing boundaries and challenging traditional norms of performance. It often incorporates avant-garde techniques, unconventional storytelling, and audience participation. Some common characteristics include non-linear narratives, minimalistic sets, and...}). Create a python list of strings, where each string is the specific topic/title for one slide. The list should have exactly {8} items (total slides). Make each slide topic specific and actionable for teaching, ensuring they directly relate to the research content in the database. Respond with nothing else - just the list.)
+.
+Raw response:
+1. Festival of Dionysia and the Three Genres of Drama in Ancient Greek Theater
+2. Prominent Greek Playwrights: Aeschylus, Sophocles, and Euripides
+3. The Role of Choral Performance in Greek Tragedy
+4. Influence of Greek Theater on Roman Theater Architecture
+5. Characteristics of Roman Plays and Actors
+6. Evolution of Roman Theater: From Greek Influences to Distinct Style
+7. Origin and Purpose of Medieval Mystery Plays
+8. Influence of Commedia dell'Arte on Shakespearean Drama: Stock Characters and Performances
+.
+No Python list found in response. Attempting to transform response...
+Making additional API call to transform response to proper strings list format...
+Slide topics created: 8 topics
+Step 4.5E: Saving teaching plan to file...
+Attempting to save teaching plan to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_14-20-18.txt
+Results path: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+File exists: False
+Teaching plan saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\teaching_outline_2025-08-31_14-20-18.txt
+Step 4.5 Complete.
+Step 4.6: Detailed Lecture Notes Generation
+Step 4.6A: Generating comprehensive lecture notes...
+Generating comprehensive lecture notes...
+Lecture notes saved successfully to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\lecture_notes_2025-08-31_14-20-21.txt
+Step 4.6B: Validating content depth and comprehensiveness...
+⚠️ Content validation suggestions: Overall, the lecture notes on Ancient Greek Theater are comprehensive and provide a good overview of the topic. However, there are a few areas that could be improved to make it suitable for 3 credit hours of senior undergraduate study:
+
+1. Depth and Detail: The notes cover the main topics of ancient Greek theater, but could benefit from more in-depth analysis of specific plays, themes, and historical context. Providing more specific examples and details would enhance the understanding of the material.
+
+2. Real-World Examples and Applications: While the notes mention insights into contemporary theater practices, more specific real-world examples and connections to modern theater could be included to make the content more relevant and engaging for students.
+
+3. Progressive Complexity: The notes do progress from basic information about the origins of Greek theater to more advanced topics such as the role of choral performance and the influence on Roman theater. However, adding more challenging questions or discussions could further engage senior undergraduate students.
+
+Overall, the content is valuable for a senior undergraduate course on ancient Greek theater, but could be improved by adding more depth, real-world examples, and progressive complexity. Consider incorporating more specific examples from plays, exploring connections to modern theater, and including more advanced analysis and discussion questions.
+Step 4.6 Complete.
+Step 5: Educational Structure Validation
+Step 5: Validating educational structure for 8 slides
+Topic: Theater and Performance Arts
+Step 5A: Validating credit hour alignment...
+⚠️ Slide count (8) may not align with 3 credit hours (expected ~45)
+Step 5B: Validating content progression...
+Step 6: Presentation Object Creation
+Step 6: Created presentation with 8 slides
+Slide layout created and presentation initialized.
+Step 7: Slide Content Generation (Enhanced with Lecture Notes)
+Generating content for slide 1 (Topic: Festival of Dionysia and the Three Genres of Drama in Ancient Greek Theater)
+🔍 DEBUG: Slide 1 content set to: '• Greek tragedy originated in ancient Greece as part of the worship of the god Dionysus • The theatr...'
+🔍 DEBUG: Slide 1 content length: 402
+✅ Slide 1 content: • Greek tragedy originated in ancient Greece as part of the worship of the god Dionysus
+• The theatrical performances were part of city-state festivals, particularly the Dionysia, where playwrights competed for prizes
+• Three main genres of drama in ancient Greek theater were tragedy, comedy, and satyr plays
+• Playwrights like Aeschylus, Sophocles, and Euripides were prominent figures in Greek drama
+Generating content for slide 2 (Topic: Prominent Greek Playwrights: Aeschylus, Sophocles, and Euripides)
+🔍 DEBUG: Slide 2 content set to: 'Aeschylus: Introduced the second actor and developed the use of the chorus Sophocles: Known for comp...'
+🔍 DEBUG: Slide 2 content length: 261
+✅ Slide 2 content: - Aeschylus: Introduced the second actor and developed the use of the chorus
+- Sophocles: Known for complex characters and psychological depth in plays like "Oedipus Rex"
+- Euripides: Focused on human emotions and relationships in plays like "Medea" and "The Bacchae"
+Generating content for slide 3 (Topic: The Role of Choral Performance in Greek Tragedy)
+🔍 DEBUG: Slide 3 content set to: '• Choral performance in Greek tragedy served as both performers and commentators • The chorus initia...'
+🔍 DEBUG: Slide 3 content length: 400
+✅ Slide 3 content: • Choral performance in Greek tragedy served as both performers and commentators
+• The chorus initially consisted of singers honoring Dionysus and evolved to include complex songs, dances, and dialogue with actors
+• Enhanced emotional impact of tragic performances through collaboration with actors
+• Example: Chorus in Sophocles' "Antigone" providing moral commentary and emotional depth to the play
+Generating content for slide 4 (Topic: Influence of Greek Theater on Roman Theater Architecture)
+🎲 Choice scenario triggered! (Rolled 3.8 <= 5.0)
+🎯 Choice scenario: Mode 6
+🔄 Making first choice API call...
+🔄 Making second choice API call...
+
+================================================================================
+👤 HUMAN CHOICE MODE
+================================================================================
+You need to choose between two different responses:
+
+----------------------------------------
+RESPONSE 1:
+----------------------------------------
+• Influence of Greek Theater on Roman Theater Architecture:
+   - Roman theater evolved from Greek influences but developed unique characteristics
+   - Roman plays were often based on Greek originals but emphasized comedy and satire
+   - Roman theaters had larger, more elaborate stages with multiple levels and trap doors
+   - Audience seating in Roman theaters was divided by social class, unlike Greek theaters
+
+----------------------------------------
+RESPONSE 2:
+----------------------------------------
+• Roman theater architecture was influenced by Greek designs but had its unique features
+• Roman theaters were typically built into hillsides for structural support
+• The stage in Roman theaters was larger and more elaborate compared to Greek theaters
+• Roman theaters had elaborate stage machinery like trapdoors and pulleys for special effects
+
+----------------------------------------
+✅ You chose Response 2
+🔍 DEBUG: Slide 4 content set to: '• Roman theater architecture was influenced by Greek designs but had its unique features • Roman the...'
+🔍 DEBUG: Slide 4 content length: 345
+✅ Slide 4 content: • Roman theater architecture was influenced by Greek designs but had its unique features
+• Roman theaters were typically built into hillsides for structural support
+• The stage in Roman theaters was larger and more elaborate compared to Greek theaters
+• Roman theaters had elaborate stage machinery like trapdoors and pulleys for special effects
+Generating content for slide 5 (Topic: Characteristics of Roman Plays and Actors)
+🔍 DEBUG: Slide 5 content set to: '• Roman theater evolved from Greek influences but developed its own unique characteristics • Roman p...'
+🔍 DEBUG: Slide 5 content length: 405
+✅ Slide 5 content: • Roman theater evolved from Greek influences but developed its own unique characteristics
+• Roman plays were often based on Greek originals but emphasized comedy and satire
+• Roman actors wore masks to portray different characters and relied on gestures and movements to convey emotions
+• The stage in Roman theaters was larger and more elaborate, with multiple levels and trap doors for special effects.
+Generating content for slide 6 (Topic: Evolution of Roman Theater: From Greek Influences to Distinct Style)
+🔍 DEBUG: Slide 6 content set to: '• Roman theater evolved from Greek influences but developed its own unique characteristics • Roman p...'
+🔍 DEBUG: Slide 6 content length: 415
+✅ Slide 6 content: • Roman theater evolved from Greek influences but developed its own unique characteristics
+• Roman plays were often based on Greek originals but had more emphasis on comedy and satire
+• Roman actors wore masks to portray different characters and relied on gestures and movements to convey emotions
+• The stage in Roman theaters was larger and more elaborate, with multiple levels and trap doors for special effects.
+Generating content for slide 7 (Topic: Origin and Purpose of Medieval Mystery Plays)
+🔍 DEBUG: Slide 7 content set to: 'Medieval mystery plays originated in the Middle Ages and were based on stories from the Bible Typica...'
+🔍 DEBUG: Slide 7 content length: 344
+✅ Slide 7 content: - Medieval mystery plays originated in the Middle Ages and were based on stories from the Bible
+- Typically performed by trade guilds or towns in public spaces such as town squares or churches
+- Purpose was to educate the illiterate population about religious stories and themes
+- Most famous cycle is the York Mystery Plays performed in York, England.
+Generating content for slide 8 (Topic: Influence of Commedia dell'Arte on Shakespearean Drama: Stock Characters and Performances)
+🔍 DEBUG: Slide 8 content set to: '• Commedia dell'Arte was a form of Italian theater in the 16th century, influencing Western theater ...'
+🔍 DEBUG: Slide 8 content length: 425
+✅ Slide 8 content: • Commedia dell'Arte was a form of Italian theater in the 16th century, influencing Western theater
+• Featured improvised performances, stock characters like Harlequin and Pantalone, masks, and physical comedy
+• Notable impact on comedy development, influencing playwrights like Molière and Shakespeare
+• Popular characters in Commedia dell'Arte included Arlecchino, Pantalone, Il Dottore, Colombina, Pulcinella, and Capitano
+Step 7: Generated content for 8 slides
+Slide content generation complete.
+Step 8: Slide Title Generation
+Generating title for slide 1 (Topic: Festival of Dionysia and the Three Genres of Drama in Ancient Greek Theater)
+✅ Slide 1 title: "Festival of Dionysia & Three Genres of Ancient Greek Drama"
+Generating title for slide 2 (Topic: Prominent Greek Playwrights: Aeschylus, Sophocles, and Euripides)
+✅ Slide 2 title: Greek Playwrights: Aeschylus, Sophocles, Euripides
+Generating title for slide 3 (Topic: The Role of Choral Performance in Greek Tragedy)
+✅ Slide 3 title: The Role of Choral Performance in Greek Tragedy
+Generating title for slide 4 (Topic: Influence of Greek Theater on Roman Theater Architecture)
+✅ Slide 4 title: "Influence of Greek Theater on Roman Theater Architecture"
+Generating title for slide 5 (Topic: Characteristics of Roman Plays and Actors)
+✅ Slide 5 title: "Roman Theater: Characteristics of Plays and Actors"
+Generating title for slide 6 (Topic: Evolution of Roman Theater: From Greek Influences to Distinct Style)
+✅ Slide 6 title: Evolution of Roman Theater: Greek to Distinct Style
+Generating title for slide 7 (Topic: Origin and Purpose of Medieval Mystery Plays)
+✅ Slide 7 title: Medieval Mystery Plays: Origin and Purpose
+Generating title for slide 8 (Topic: Influence of Commedia dell'Arte on Shakespearean Drama: Stock Characters and Performances)
+✅ Slide 8 title: Influence of Commedia dell'Arte on Shakespearean Drama
+Generating overall presentation title...
+✅ Overall presentation title: The Evolution of Theater: From Ancient Greece to Shakespearean Drama
+Step 8: Generated titles for 8 slides and overall presentation
+Slide title generation complete.
+Step 9: Source Association and Content Enhancement
+Step 9A: Determining source allocation...
+Sources per slide: 1
+Step 9A: Associating sources with slides...
+Generating search keywords for slide 1 (Topic: Festival of Dionysia and the Three Genres of Drama in Ancient Greek Theater)
+✅ Slide 1: Associated 1 sources
+Generating search keywords for slide 2 (Topic: Prominent Greek Playwrights: Aeschylus, Sophocles, and Euripides)
+✅ Slide 2: Associated 1 sources
+Generating search keywords for slide 3 (Topic: The Role of Choral Performance in Greek Tragedy)
+✅ Slide 3: Associated 1 sources
+Generating search keywords for slide 4 (Topic: Influence of Greek Theater on Roman Theater Architecture)
+✅ Slide 4: Associated 1 sources
+Generating search keywords for slide 5 (Topic: Characteristics of Roman Plays and Actors)
+✅ Slide 5: Associated 1 sources
+Generating search keywords for slide 6 (Topic: Evolution of Roman Theater: From Greek Influences to Distinct Style)
+✅ Slide 6: Associated 1 sources
+Generating search keywords for slide 7 (Topic: Origin and Purpose of Medieval Mystery Plays)
+✅ Slide 7: Associated 1 sources
+Generating search keywords for slide 8 (Topic: Influence of Commedia dell'Arte on Shakespearean Drama: Stock Characters and Performances)
+Error parsing search keywords for slide 8: unterminated string literal (detected at line 1) (<unknown>, line 1). Skipping.
+Step 9B: Enhancing slide content with sources...
+Enhancing content for slide 1 (Topic: Festival of Dionysia and the Three Genres of Drama in Ancient Greek Theater)
+⚠️ Warning: Slide 1 content is long (720 chars) - consider reducing
+✅ Slide 1: Enhanced content with 1 sources
+Enhancing content for slide 2 (Topic: Prominent Greek Playwrights: Aeschylus, Sophocles, and Euripides)
+⚠️ Warning: Slide 2 content is long (596 chars) - consider reducing
+✅ Slide 2: Enhanced content with 1 sources
+Enhancing content for slide 3 (Topic: The Role of Choral Performance in Greek Tragedy)
+⚠️ Warning: Slide 3 content is long (542 chars) - consider reducing
+✅ Slide 3: Enhanced content with 1 sources
+Enhancing content for slide 4 (Topic: Influence of Greek Theater on Roman Theater Architecture)
+⚠️ Warning: Slide 4 content is long (584 chars) - consider reducing
+✅ Slide 4: Enhanced content with 1 sources
+Enhancing content for slide 5 (Topic: Characteristics of Roman Plays and Actors)
+⚠️ Warning: Slide 5 content is long (988 chars) - consider reducing
+✅ Slide 5: Enhanced content with 1 sources
+Enhancing content for slide 6 (Topic: Evolution of Roman Theater: From Greek Influences to Distinct Style)
+⚠️ Warning: Slide 6 content is long (587 chars) - consider reducing
+✅ Slide 6: Enhanced content with 1 sources
+Enhancing content for slide 7 (Topic: Origin and Purpose of Medieval Mystery Plays)
+✅ Slide 7: Enhanced content with 1 sources
+Enhancing content for slide 8 (Topic: Influence of Commedia dell'Arte on Shakespearean Drama: Stock Characters and Performances)
+✅ Slide 8: Enhanced content with 0 sources
+Step 9C: Adding source information to slide content...
+✅ Slide 1: Added source footer with 1 sources
+✅ Slide 2: Added source footer with 1 sources
+✅ Slide 3: Added source footer with 1 sources
+✅ Slide 4: Added source footer with 1 sources
+✅ Slide 5: Added source footer with 1 sources
+✅ Slide 6: Added source footer with 1 sources
+✅ Slide 7: Added source footer with 1 sources
+Step 9: Associated sources and enhanced content for 8 slides
+Source association and content enhancement complete.
+Step 10: Presentation Finalization
+Step 10A: Skipping content cleaning (presentation class handles text processing)
+Step 10B: Adding title slide...
+✅ Title slide added
+Step 10C: Adding source slides...
+✅ Source slides added
+Step 10: Finalized presentation with 10 total slides
+Presentation finalization complete.
+Step 11: Save Presentation to File
+Saving to file: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results
+Save title used: The_Evolution_of_Theater_From_Ancient_Greece_to_Shakespearean_Drama_2025-08-31_14-21-21
+Presentation saved to: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\The_Evolution_of_Theater_From_Ancient_Greece_to_Shakespearean_Drama_2025-08-31_14-21-21.pptx
+✅ Saved to file successfully
+📁 File saved at: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\The_Evolution_of_Theater_From_Ancient_Greece_to_Shakespearean_Drama_2025-08-31_14-21-21.pptx
+Step 11: Presentation saved successfully
+🎉 Presentation generation complete!
+✅ Presentation 5 generated successfully: c:\Users\hankw\OneDrive\Documents\GitHub\VICEROY-2025-PROJECT\results\The_Evolution_of_Theater_From_Ancient_Greece_to_Shakespearean_Drama_2025-08-31_14-21-21.pptx
+📊 Rating presentation 5...
+✅ Presentation 5 rated successfully
+📈 Overall Rating: 6.35 / 10.00
+📊 Sub-scores:
+   - Amount Correctness: 0.00 / 2.00
+   - Non-Repetition: 1.64 / 2.00
+   - Content Balance: 1.36 / 2.00
+   - Title Uniqueness: 1.95 / 2.00
+   - Title-Content Match: 1.40 / 2.00
+💾 Result saved to file for presentation 5
+
+📊 Presentation 7/10 (ID: 6)
+📝 Using topic: Gender Equality in the Workplace
+=== VICEROY-2025-PROJECT INITIALIZATION ===
+Path management initialized
+API key loaded successfully
